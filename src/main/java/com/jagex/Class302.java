@@ -162,7 +162,7 @@ public class Class302
 		int i_4_ = 0;
 		int i_5_ = 0;
 		for (int i_6_ = 0; anObjectArray3783.length > i_6_; i_6_++) {
-			if ((anArchive3797.anIntArray295[i_6_] ^ 0xffffffff) < -1) {
+			if (anArchive3797.anIntArray295[i_6_] > 0) {
 				i_4_ += 100;
 				i_5_ += method3509(false, i_6_);
 			}
@@ -191,13 +191,13 @@ public class Class302
 		}
 		byte[] bs = Class320_Sub15.method3739((byte) -48, false, anObjectArrayArray3786[i_9_][i]);
 		int i_10_ = -114 / ((i_8_ - -46) / 50);
-		if ((anInt3795 ^ 0xffffffff) != -2) {
-			if ((anInt3795 ^ 0xffffffff) == -3) {
+		if (anInt3795 != 1) {
+			if (anInt3795 == 2) {
 				anObjectArrayArray3786[i_9_] = null;
 			}
 		} else {
 			anObjectArrayArray3786[i_9_][i] = null;
-			if ((anArchive3797.anIntArray285[i_9_] ^ 0xffffffff) == -2) {
+			if (anArchive3797.anIntArray285[i_9_] == 1) {
 				anObjectArrayArray3786[i_9_] = null;
 			}
 		}
@@ -209,7 +209,7 @@ public class Class302
 		if (!method3530(0)) {
 			return false;
 		}
-		if (i_11_ < 0 || (i ^ 0xffffffff) > -1 || i_11_ >= anArchive3797.anIntArray285.length || anArchive3797.anIntArray285[i_11_] <= i) {
+		if (i_11_ < 0 || i < 0 || i_11_ >= anArchive3797.anIntArray285.length || anArchive3797.anIntArray285[i_11_] <= i) {
 			if (Class144_Sub3.aBoolean6833) {
 				throw new IllegalArgumentException(String.valueOf(i_11_) + "," + i);
 			}
@@ -255,7 +255,7 @@ public class Class302
 			return true;
 		}
 		byte[] bs;
-		if (is == null || (is[0] ^ 0xffffffff) == -1 && (is[1] ^ 0xffffffff) == -1 && (is[2] ^ 0xffffffff) == -1 && (is[3] ^ 0xffffffff) == -1) {
+		if (is == null || is[0] == 0 && is[1] == 0 && is[2] == 0 && is[3] == 0) {
 			bs = Class320_Sub15.method3739((byte) 126, false, anObjectArray3783[i_13_]);
 		} else {
 			bs = Class320_Sub15.method3739((byte) 127, true, anObjectArray3783[i_13_]);
@@ -287,13 +287,13 @@ public class Class302
 			int[] is_22_ = new int[i_14_];
 			for (int i_23_ = 0; i_21_ > i_23_; i_23_++) {
 				int i_24_ = 0;
-				for (int i_25_ = 0; (i_25_ ^ 0xffffffff) > (i_14_ ^ 0xffffffff); i_25_++) {
+				for (int i_25_ = 0; i_14_ > i_25_; i_25_++) {
 					i_24_ += buffer.method2186(-73);
 					is_22_[i_25_] += i_24_;
 				}
 			}
 			byte[][] bs_26_ = new byte[i_14_][];
-			for (int i_27_ = 0; (i_27_ ^ 0xffffffff) > (i_14_ ^ 0xffffffff); i_27_++) {
+			for (int i_27_ = 0; i_14_ > i_27_; i_27_++) {
 				bs_26_[i_27_] = new byte[is_22_[i_27_]];
 				is_22_[i_27_] = 0;
 			}
@@ -315,7 +315,7 @@ public class Class302
 				} else {
 					i_33_ = is_15_[i_32_];
 				}
-				if ((anInt3795 ^ 0xffffffff) == -1) {
+				if (anInt3795 == 0) {
 					objects[i_33_] = Class135.method1588(bs_26_[i_32_], 23386, false);
 				} else {
 					objects[i_33_] = bs_26_[i_32_];
@@ -331,7 +331,7 @@ public class Class302
 			int i_37_ = 0;
 			for (int i_38_ = 0; i_38_ < i_35_; i_38_++) {
 				int i_39_ = 0;
-				for (int i_40_ = 0; (i_40_ ^ 0xffffffff) > (i_14_ ^ 0xffffffff); i_40_++) {
+				for (int i_40_ = 0; i_14_ > i_40_; i_40_++) {
 					i_39_ += buffer.method2186(-116);
 					int i_41_;
 					if (is_15_ != null) {
@@ -339,7 +339,7 @@ public class Class302
 					} else {
 						i_41_ = i_40_;
 					}
-					if ((i_12_ ^ 0xffffffff) == (i_41_ ^ 0xffffffff)) {
+					if (i_41_ == i_12_) {
 						i_37_ = i_41_;
 						i_36_ += i_39_;
 					}
@@ -352,9 +352,9 @@ public class Class302
 			buffer.anInt7002 = i_34_;
 			i_36_ = 0;
 			int i_43_ = 0;
-			for (int i_44_ = 0; (i_44_ ^ 0xffffffff) > (i_35_ ^ 0xffffffff); i_44_++) {
+			for (int i_44_ = 0; i_35_ > i_44_; i_44_++) {
 				int i_45_ = 0;
-				for (int i_46_ = 0; (i_46_ ^ 0xffffffff) > (i_14_ ^ 0xffffffff); i_46_++) {
+				for (int i_46_ = 0; i_14_ > i_46_; i_46_++) {
 					i_45_ += buffer.method2186(46);
 					int i_47_;
 					if (is_15_ != null) {
@@ -362,7 +362,7 @@ public class Class302
 					} else {
 						i_47_ = i_46_;
 					}
-					if ((i_47_ ^ 0xffffffff) == (i_12_ ^ 0xffffffff)) {
+					if (i_12_ == i_47_) {
 						Class311.method3608(bs_18_, i_43_, bs_42_, i_36_, i_45_);
 						i_36_ += i_45_;
 					}
@@ -402,7 +402,7 @@ public class Class302
 		}
 		string = string.toLowerCase();
 		int i_50_ = anArchive3797.aClass75_301.method766(-1, Class336_Sub1.method3887(false, string));
-		if ((i_50_ ^ 0xffffffff) > -1) {
+		if (i_50_ < 0) {
 			return false;
 		}
 		return true;
@@ -422,7 +422,7 @@ public class Class302
 		if (!method3530(0)) {
 			return null;
 		}
-		if ((anArchive3797.anIntArray285.length ^ 0xffffffff) == -2) {
+		if (anArchive3797.anIntArray285.length == 1) {
 			return method3524(false, i, 0);
 		}
 		if (!method3525((byte) -86, i)) {
@@ -473,7 +473,7 @@ public class Class302
 	
 	final void method3521(byte b) {
 		if (anObjectArrayArray3786 != null) {
-			for (int i = 0; (anObjectArrayArray3786.length ^ 0xffffffff) < (i ^ 0xffffffff); i++)
+			for (int i = 0; i < anObjectArrayArray3786.length; i++)
 				anObjectArrayArray3786[i] = null;
 		}
 		if (b != -18) {
@@ -501,7 +501,7 @@ public class Class302
 			method3527(null, 1);
 		}
 		if (anObjectArray3783 != null) {
-			for (int i = 0; (anObjectArray3783.length ^ 0xffffffff) < (i ^ 0xffffffff); i++)
+			for (int i = 0; i < anObjectArray3783.length; i++)
 				anObjectArray3783[i] = null;
 		}
 	}
@@ -519,7 +519,7 @@ public class Class302
 		if (!method3530(0)) {
 			return false;
 		}
-		if ((i ^ 0xffffffff) > -1 || i >= anArchive3797.anIntArray285.length || (anArchive3797.anIntArray285[i] ^ 0xffffffff) == -1) {
+		if (i < 0 || i >= anArchive3797.anIntArray285.length || anArchive3797.anIntArray285[i] == 0) {
 			if (!Class144_Sub3.aBoolean6833) {
 				return false;
 			}
@@ -621,7 +621,7 @@ public class Class302
 		int[] is = anArchive3797.anIntArrayArray290[i];
 		if (is == null) {
 			is = new int[anArchive3797.anIntArray295[i]];
-			for (int i_62_ = 0; (i_62_ ^ 0xffffffff) > (is.length ^ 0xffffffff); i_62_++)
+			for (int i_62_ = 0; is.length > i_62_; i_62_++)
 				is[i_62_] = i_62_;
 		}
 		if (i_61_ != 0) {
@@ -698,7 +698,7 @@ public class Class302
 	}
 	
 	Class302(Class34 class34, boolean bool, int i) {
-		if (i < 0 || (i ^ 0xffffffff) < -3) {
+		if (i < 0 || i > 2) {
 			throw new IllegalArgumentException("js5: Invalid value " + i + " supplied for discardunpacked");
 		}
 		aClass34_3804 = class34;

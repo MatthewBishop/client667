@@ -60,8 +60,8 @@ class Animator
 	
 	static final Class288 method224(byte b, Class237[] class237s, GLXToolkit glxtoolkit) {
 		anInt265++;
-		for (int i = 0; (i ^ 0xffffffff) > (class237s.length ^ 0xffffffff); i++) {
-			if (class237s[i] == null || (class237s[i].aLong2907 ^ 0xffffffffffffffffL) >= -1L) {
+		for (int i = 0; class237s.length > i; i++) {
+			if (class237s[i] == null || class237s[i].aLong2907 <= 0) {
 				return null;
 			}
 		}
@@ -127,13 +127,13 @@ class Animator
 	
 	final void method228(int i, int i_4_, byte b, int i_5_, boolean bool) {
 		anInt244++;
-		if ((method250((byte) -62) ^ 0xffffffff) != (i ^ 0xffffffff)) {
-			if ((i ^ 0xffffffff) == 0) {
+		if (i != method250((byte) -62)) {
+			if (i == -1) {
 				aClass48_233 = null;
 			} else {
 				if (aClass48_233 == null || i != aClass48_233.anInt711) {
 					aClass48_233 = Class367.aClass37_4540.method395(i, (byte) -93);
-				} else if ((aClass48_233.anInt706 ^ 0xffffffff) == -1) {
+				} else if (aClass48_233.anInt706 == 0) {
 					return;
 				}
 				anInt237 = i_4_;
@@ -147,7 +147,7 @@ class Animator
 					anInt247 = (int) (Math.random() * (double) aClass48_233.anIntArray707[anInt259]);
 				}
 				anInt243 = 1 + anInt259;
-				if ((anInt243 ^ 0xffffffff) > -1 || anInt243 >= aClass48_233.anIntArray715.length) {
+				if (anInt243 < 0 || anInt243 >= aClass48_233.anIntArray715.length) {
 					anInt243 = -1;
 				}
 				if (anInt237 == 0) {
@@ -304,7 +304,7 @@ class Animator
 			anInt255 = -105;
 		}
 		anInt248++;
-		if ((anInt237 ^ 0xffffffff) == -1) {
+		if (anInt237 == 0) {
 			return false;
 		}
 		return true;
@@ -387,7 +387,7 @@ class Animator
 		}
 		i_21_ += anInt247;
 		boolean bool = Class320_Sub12.aBoolean8325 | aClass48_233.aBoolean714;
-		if (i_21_ > 100 && (aClass48_233.anInt696 ^ 0xffffffff) < -1) {
+		if (i_21_ > 100 && aClass48_233.anInt696 > 0) {
 			int i_22_;
 			for (i_22_ = aClass48_233.anIntArray715.length - aClass48_233.anInt696; anInt259 < i_22_; anInt259++) {
 				if (i_21_ <= aClass48_233.anIntArray707[anInt259]) {
@@ -395,7 +395,7 @@ class Animator
 				}
 				i_21_ -= aClass48_233.anIntArray707[anInt259];
 			}
-			if ((i_22_ ^ 0xffffffff) >= (anInt259 ^ 0xffffffff)) {
+			if (anInt259 >= i_22_) {
 				int i_23_ = 0;
 				for (int i_24_ = i_22_; i_24_ < aClass48_233.anIntArray715.length; i_24_++)
 					i_23_ += aClass48_233.anIntArray707[i_24_];
@@ -406,9 +406,9 @@ class Animator
 			}
 			anInt243 = 1 + anInt259;
 			bool = true;
-			if ((anInt243 ^ 0xffffffff) <= (aClass48_233.anIntArray715.length ^ 0xffffffff)) {
+			if (aClass48_233.anIntArray715.length <= anInt243) {
 				anInt243 -= aClass48_233.anInt696;
-				if ((anInt243 ^ 0xffffffff) > -1 || (aClass48_233.anIntArray715.length ^ 0xffffffff) >= (anInt243 ^ 0xffffffff)) {
+				if (anInt243 < 0 || anInt243 >= aClass48_233.anIntArray715.length) {
 					anInt243 = -1;
 				}
 			}
@@ -417,7 +417,7 @@ class Animator
 			i_21_ -= aClass48_233.anIntArray707[anInt259++];
 			bool = true;
 			if (aClass48_233.anIntArray715.length <= anInt259) {
-				if ((aClass48_233.anInt696 ^ 0xffffffff) != 0 && anInt253 != 2) {
+				if (aClass48_233.anInt696 != -1 && anInt253 != 2) {
 					anInt259 -= aClass48_233.anInt696;
 					if (anInt253 == 0) {
 						anInt255++;
@@ -430,7 +430,7 @@ class Animator
 			}
 			method222(anInt259, aClass48_233, (byte) 102);
 			anInt243 = anInt259 + 1;
-			if ((anInt243 ^ 0xffffffff) <= (aClass48_233.anIntArray715.length ^ 0xffffffff)) {
+			if (aClass48_233.anIntArray715.length <= anInt243) {
 				anInt243 -= aClass48_233.anInt696;
 				if (anInt243 < 0 || anInt243 >= aClass48_233.anIntArray715.length) {
 					anInt243 = -1;

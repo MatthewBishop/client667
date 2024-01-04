@@ -60,7 +60,7 @@ public class ClanChat
 			return 72;
 		}
 		int i_4_ = (1 << i_2_) - 1;
-		int i_5_ = (i_1_ ^ 0xffffffff) == -32 ? -1 : -1 + (1 << i_1_ - -1);
+		int i_5_ = i_1_ == 31 ? -1 : -1 + (1 << i_1_ - -1);
 		int i_6_ = i_4_ ^ i_5_;
 		i <<= i_2_;
 		i &= i_6_;
@@ -110,7 +110,7 @@ public class ClanChat
 	}
 	
 	final void method488(int i, String string, long l, int i_8_) {
-		if (string != null && (string.length() ^ 0xffffffff) == -1) {
+		if (string != null && string.length() == 0) {
 			string = null;
 		}
 		anInt767++;
@@ -120,7 +120,7 @@ public class ClanChat
 		if (!aBoolean742 != (string == null)) {
 			throw new RuntimeException("Invalid DisplayName arg to this method - useDisplayNames:" + aBoolean742 + " but displayname:" + string);
 		}
-		if (l > 0L && (aLongArray768 == null || anInt734 >= aLongArray768.length) || string != null && (aStringArray740 == null || (aStringArray740.length ^ 0xffffffff) >= (anInt734 ^ 0xffffffff))) {
+		if (l > 0L && (aLongArray768 == null || anInt734 >= aLongArray768.length) || string != null && (aStringArray740 == null || anInt734 >= aStringArray740.length)) {
 			method487((byte) 110, 5 + anInt734);
 		}
 		if (aLongArray768 != null) {
@@ -158,10 +158,10 @@ public class ClanChat
 	
 	final int method490(String string, byte b) {
 		anInt733++;
-		if (string == null || (string.length() ^ 0xffffffff) == -1) {
+		if (string == null || string.length() == 0) {
 			return -1;
 		}
-		for (int i = 0; (i ^ 0xffffffff) > (anInt734 ^ 0xffffffff); i++) {
+		for (int i = 0; anInt734 > i; i++) {
 			if (aStringArray740[i].equals(string)) {
 				return i;
 			}
@@ -209,7 +209,7 @@ public class ClanChat
 	
 	private final void method493(byte b) {
 		anInt730++;
-		if ((anInt734 ^ 0xffffffff) == -1) {
+		if (anInt734 == 0) {
 			anInt749 = -1;
 			anInt765 = -1;
 		} else {
@@ -220,7 +220,7 @@ public class ClanChat
 				byte b_9_ = aByteArray770[0];
 				for (int i_10_ = 1; i_10_ < anInt734; i_10_++) {
 					if (b_9_ >= aByteArray770[i_10_]) {
-						if (anInt749 == -1 && (aByteArray770[i_10_] ^ 0xffffffff) == -126) {
+						if (anInt749 == -1 && aByteArray770[i_10_] == 125) {
 							anInt749 = i_10_;
 						}
 					} else {
@@ -232,7 +232,7 @@ public class ClanChat
 					}
 				}
 				anInt765 = i;
-				if ((anInt765 ^ 0xffffffff) != 0) {
+				if (anInt765 != -1) {
 					aByteArray770[anInt765] = (byte) 126;
 				}
 			}
@@ -302,13 +302,13 @@ public class ClanChat
 			anInt739 = -125;
 		}
 		anInt760++;
-		if ((l ^ 0xffffffffffffffffL) < -1L == !aBoolean758) {
+		if (l > 0 == !aBoolean758) {
 			throw new RuntimeException("Invalid UserHash arg to this method - useUserHashes:" + aBoolean758 + " but userhash:" + l);
 		}
 		if (aBoolean742 == (string == null)) {
 			throw new RuntimeException("Invalid DisplayName arg to this method - useDisplayNames:" + aBoolean742 + " but displayname:" + string);
 		}
-		if (l > 0L && (aLongArray753 == null || (aLongArray753.length ^ 0xffffffff) >= (anInt739 ^ 0xffffffff)) || string != null && (aStringArray769 == null || (anInt739 ^ 0xffffffff) <= (aStringArray769.length ^ 0xffffffff))) {
+		if (l > 0L && (aLongArray753 == null || anInt739 >= aLongArray753.length) || string != null && (aStringArray769 == null || aStringArray769.length <= anInt739)) {
 			method503(5 + anInt739, (byte) -5);
 		}
 		if (aLongArray753 != null) {
@@ -325,7 +325,7 @@ public class ClanChat
 		if (anIntArray771 == null) {
 			String[] strings = new String[anInt734];
 			anIntArray771 = new int[anInt734];
-			for (int i_16_ = 0; (anInt734 ^ 0xffffffff) < (i_16_ ^ 0xffffffff); i_16_++) {
+			for (int i_16_ = 0; i_16_ < anInt734; i_16_++) {
 				strings[i_16_] = aStringArray740[i_16_];
 				anIntArray771[i_16_] = i_16_;
 			}
@@ -347,7 +347,7 @@ public class ClanChat
 			if (node != null) {
 				if (node instanceof Node_Sub44) {
 					Node_Sub44 node_sub44 = (Node_Sub44) node;
-					if ((node_sub44.aLong7550 ^ 0xffffffffffffffffL) == (l ^ 0xffffffffffffffffL)) {
+					if (l == node_sub44.aLong7550) {
 						return false;
 					}
 					node_sub44.aLong7550 = l;
@@ -365,7 +365,7 @@ public class ClanChat
 		if (b == b_17_ || b == 127) {
 			return -1;
 		}
-		if (anInt765 == i && ((anInt749 ^ 0xffffffff) == 0 || (aByteArray770[anInt749] ^ 0xffffffff) > -126)) {
+		if (anInt765 == i && (anInt749 == -1 || aByteArray770[anInt749] < 125)) {
 			return -1;
 		}
 		if (b == aByteArray770[i]) {
@@ -465,14 +465,14 @@ public class ClanChat
 	private final void method505(int i, Buffer buffer) {
 		anInt725++;
 		int i_26_ = buffer.method2233(255);
-		if (i_26_ < 1 || (i_26_ ^ 0xffffffff) < -6) {
+		if (i_26_ < 1 || i_26_ > 5) {
 			throw new RuntimeException("Unsupported ClanSettings version: " + i_26_);
 		}
 		int i_27_ = buffer.method2233(255);
 		if ((0x2 & i_27_) != 0) {
 			aBoolean742 = true;
 		}
-		if ((0x1 & i_27_ ^ 0xffffffff) != -1) {
+		if ((0x1 & i_27_) != 0) {
 			aBoolean758 = true;
 		}
 		if (!aBoolean742) {
@@ -494,10 +494,10 @@ public class ClanChat
 		anInt734 = buffer.method2219(-130546744);
 		anInt739 = buffer.method2233(255);
 		aString763 = buffer.method2195(-1);
-		if ((i_26_ ^ 0xffffffff) <= -5) {
+		if (i_26_ >= 4) {
 			buffer.method2186(-86);
 		}
-		aBoolean750 = (buffer.method2233(255) ^ 0xffffffff) == -2;
+		aBoolean750 = buffer.method2233(255) == 1;
 		aByte751 = buffer.method2214((byte) -121);
 		aByte748 = buffer.method2214((byte) -118);
 		aByte738 = buffer.method2214((byte) 26);
@@ -518,7 +518,7 @@ public class ClanChat
 			if (anIntArray737 == null || anInt734 > anIntArray737.length) {
 				anIntArray737 = new int[anInt734];
 			}
-			for (int i_28_ = 0; (anInt734 ^ 0xffffffff) < (i_28_ ^ 0xffffffff); i_28_++) {
+			for (int i_28_ = 0; i_28_ < anInt734; i_28_++) {
 				if (aBoolean758) {
 					aLongArray768[i_28_] = buffer.method2235(-2023329376);
 				}
@@ -526,7 +526,7 @@ public class ClanChat
 					aStringArray740[i_28_] = buffer.method2240((byte) -46);
 				}
 				aByteArray770[i_28_] = buffer.method2214((byte) 93);
-				if ((i_26_ ^ 0xffffffff) <= -3) {
+				if (i_26_ >= 2) {
 					anIntArray754[i_28_] = buffer.method2186(-92);
 				}
 				if (i_26_ >= 5) {
@@ -538,7 +538,7 @@ public class ClanChat
 			method493((byte) -128);
 		}
 		if (anInt739 > 0) {
-			if (aBoolean758 && (aLongArray753 == null || (aLongArray753.length ^ 0xffffffff) > (anInt739 ^ 0xffffffff))) {
+			if (aBoolean758 && (aLongArray753 == null || anInt739 > aLongArray753.length)) {
 				aLongArray753 = new long[anInt739];
 			}
 			if (aBoolean742 && (aStringArray769 == null || aStringArray769.length < anInt739)) {
@@ -553,21 +553,21 @@ public class ClanChat
 				}
 			}
 		}
-		if ((i_26_ ^ 0xffffffff) <= -4) {
+		if (i_26_ >= 3) {
 			int i_30_ = buffer.method2219(-130546744);
 			if (i_30_ > 0) {
 				aHashTable735 = new HashTable(i_30_ >= 16 ? 16 : Class320_Sub19.method3753(i_30_, -729073628));
-				while ((i_30_-- ^ 0xffffffff) < -1) {
+				while (i_30_-- > 0) {
 					int i_31_ = buffer.method2186(100);
 					int i_32_ = i_31_ & 0x3fffffff;
 					int i_33_ = i_31_ >>> 30;
-					if ((i_33_ ^ 0xffffffff) == -1) {
+					if (i_33_ == 0) {
 						int i_34_ = buffer.method2186(79);
 						aHashTable735.method1515((long) i_32_, new Node_Sub32(i_34_), -124);
-					} else if ((i_33_ ^ 0xffffffff) == -2) {
+					} else if (i_33_ == 1) {
 						long l = buffer.method2235(-2023329376);
 						aHashTable735.method1515((long) i_32_, new Node_Sub44(l), -123);
-					} else if ((i_33_ ^ 0xffffffff) == -3) {
+					} else if (i_33_ == 2) {
 						String string = buffer.method2195(-1);
 						aHashTable735.method1515((long) i_32_, new Node_Sub18(string), -127);
 					}
@@ -637,7 +637,7 @@ public class ClanChat
 			aByte724 = (byte) -88;
 		}
 		anInt746++;
-		int i_42_ = (i_40_ ^ 0xffffffff) != -32 ? (1 << i_40_ - -1) - 1 : -1;
+		int i_42_ = i_40_ != 31 ? (1 << i_40_ - -1) - 1 : -1;
 		return (i_42_ & anIntArray754[i_41_]) >>> i;
 	}
 	

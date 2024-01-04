@@ -64,7 +64,7 @@ public class Class76
 					int i_6_;
 					int i_7_;
 					if ((i_3_ & ~0x3fffffff) != -1073741824) {
-						if ((0x8000 & i_3_ ^ 0xffffffff) != -1) {
+						if ((0x8000 & i_3_) != 0) {
 							int i_8_ = i_3_ & 0x7fff;
 							Player player = Class270_Sub2.aPlayerArray8038[i_8_];
 							if (player == null) {
@@ -91,7 +91,7 @@ public class Class76
 						int i_11_ = i_9_ & 0x3fff;
 						i_7_ = -256 + (-(512 * (i_11_ - Class320_Sub4.anInt8243)) + actor.anInt5940);
 					}
-					if ((i_6_ ^ 0xffffffff) != -1 || (i_7_ ^ 0xffffffff) != -1) {
+					if (i_6_ != 0 || i_7_ != 0) {
 						actor.method858(256, i, 0x3fff & (int) (Math.atan2((double) i_6_, (double) i_7_) * 2607.5945876176133));
 					}
 				}

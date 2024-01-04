@@ -92,7 +92,7 @@ public class NpcDefinition
 			anIntArray2865 = new int[0];
 		}
 		anInt2835++;
-		if ((aByte2855 ^ 0xffffffff) == 0) {
+		if (aByte2855 == -1) {
 			if (Node_Sub38_Sub34.aClass353_10443 != aClass279_2861.aClass353_3553) {
 				aByte2855 = (byte) 0;
 			} else {
@@ -107,7 +107,7 @@ public class NpcDefinition
 	final boolean method2998(byte b) {
 		anInt2866++;
 		if (anIntArray2827 == null) {
-			if ((anInt2812 ^ 0xffffffff) == 0 && (anInt2809 ^ 0xffffffff) == 0 && anInt2810 == -1) {
+			if (anInt2812 == -1 && anInt2809 == -1 && anInt2810 == -1) {
 				return false;
 			}
 			return true;
@@ -116,10 +116,10 @@ public class NpcDefinition
 		if (b != 91) {
 			aClass61_2805 = null;
 		}
-		for (/**/; (anIntArray2827.length ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
-			if ((anIntArray2827[i] ^ 0xffffffff) != 0) {
+		for (/**/; i < anIntArray2827.length; i++) {
+			if (anIntArray2827[i] != -1) {
 				NpcDefinition npcdefinition_0_ = aClass279_2861.method3376(anIntArray2827[i], (byte) 107);
-				if (npcdefinition_0_.anInt2812 != -1 || (npcdefinition_0_.anInt2809 ^ 0xffffffff) != 0 || (npcdefinition_0_.anInt2810 ^ 0xffffffff) != 0) {
+				if (npcdefinition_0_.anInt2812 != -1 || npcdefinition_0_.anInt2809 != -1 || npcdefinition_0_.anInt2810 != -1) {
 					return true;
 				}
 			}
@@ -135,12 +135,12 @@ public class NpcDefinition
 		int i_1_ = -1;
 		if (anInt2881 != -1) {
 			i_1_ = interface17.method64(anInt2881, (byte) -42);
-		} else if ((anInt2882 ^ 0xffffffff) != 0) {
+		} else if (anInt2882 != -1) {
 			i_1_ = interface17.method65(anInt2882, 119);
 		}
-		if (i_1_ < 0 || (anIntArray2827.length + -1 ^ 0xffffffff) >= (i_1_ ^ 0xffffffff) || (anIntArray2827[i_1_] ^ 0xffffffff) == 0) {
+		if (i_1_ < 0 || i_1_ >= anIntArray2827.length + -1 || anIntArray2827[i_1_] == -1) {
 			int i_2_ = anIntArray2827[anIntArray2827.length - 1];
-			if ((i_2_ ^ 0xffffffff) == 0) {
+			if (i_2_ == -1) {
 				return null;
 			}
 			return aClass279_2861.method3376(i_2_, (byte) 107);
@@ -192,21 +192,21 @@ public class NpcDefinition
 	
 	private final void method3004(int i, Buffer buffer, byte b) {
 		anInt2808++;
-		if ((i ^ 0xffffffff) == -2) {
+		if (i == 1) {
 			int i_6_ = buffer.method2233(255);
 			anIntArray2865 = new int[i_6_];
-			for (int i_7_ = 0; (i_6_ ^ 0xffffffff) < (i_7_ ^ 0xffffffff); i_7_++) {
+			for (int i_7_ = 0; i_7_ < i_6_; i_7_++) {
 				anIntArray2865[i_7_] = buffer.method2219(-130546744);
-				if ((anIntArray2865[i_7_] ^ 0xffffffff) == -65536) {
+				if (anIntArray2865[i_7_] == 65535) {
 					anIntArray2865[i_7_] = -1;
 				}
 			}
-		} else if ((i ^ 0xffffffff) == -3) {
+		} else if (i == 2) {
 			aString2821 = buffer.method2195(-1);
 		} else if (i == 12) {
 			anInt2811 = buffer.method2233(255);
-		} else if (i < 30 || (i ^ 0xffffffff) <= -36) {
-			if ((i ^ 0xffffffff) != -41) {
+		} else if (i < 30 || i >= 35) {
+			if (i != 40) {
 				if (i == 41) {
 					int i_8_ = buffer.method2233(255);
 					aShortArray2874 = new short[i_8_];
@@ -216,20 +216,20 @@ public class NpcDefinition
 						aShortArray2874[i_9_] = (short) buffer.method2219(-130546744);
 					}
 				} else if (i != 42) {
-					if ((i ^ 0xffffffff) == -61) {
+					if (i == 60) {
 						int i_10_ = buffer.method2233(255);
 						anIntArray2847 = new int[i_10_];
-						for (int i_11_ = 0; (i_10_ ^ 0xffffffff) < (i_11_ ^ 0xffffffff); i_11_++)
+						for (int i_11_ = 0; i_11_ < i_10_; i_11_++)
 							anIntArray2847[i_11_] = buffer.method2219(-130546744);
-					} else if ((i ^ 0xffffffff) == -94) {
+					} else if (i == 93) {
 						aBoolean2879 = false;
-					} else if ((i ^ 0xffffffff) != -96) {
-						if ((i ^ 0xffffffff) == -98) {
+					} else if (i != 95) {
+						if (i == 97) {
 							anInt2858 = buffer.method2219(-130546744);
 						} else if (i != 98) {
-							if ((i ^ 0xffffffff) != -100) {
-								if ((i ^ 0xffffffff) != -101) {
-									if ((i ^ 0xffffffff) != -102) {
+							if (i != 99) {
+								if (i != 100) {
+									if (i != 101) {
 										if (i == 102) {
 											anInt2806 = buffer.method2219(-130546744);
 										} else if (i != 103) {
@@ -243,7 +243,7 @@ public class NpcDefinition
 													anInt2882 = -1;
 												}
 												int i_12_ = -1;
-												if ((i ^ 0xffffffff) == -119) {
+												if (i == 118) {
 													i_12_ = buffer.method2219(-130546744);
 													if (i_12_ == 65535) {
 														i_12_ = -1;
@@ -258,7 +258,7 @@ public class NpcDefinition
 													}
 												}
 												anIntArray2827[i_13_ - -1] = i_12_;
-											} else if ((i ^ 0xffffffff) != -108) {
+											} else if (i != 107) {
 												if (i == 109) {
 													aBoolean2817 = false;
 												} else if (i != 111) {
@@ -268,10 +268,10 @@ public class NpcDefinition
 													} else if (i == 114) {
 														aByte2877 = buffer.method2214((byte) -82);
 														aByte2868 = buffer.method2214((byte) -80);
-													} else if ((i ^ 0xffffffff) != -120) {
-														if ((i ^ 0xffffffff) != -122) {
-															if ((i ^ 0xffffffff) != -123) {
-																if ((i ^ 0xffffffff) != -124) {
+													} else if (i != 119) {
+														if (i != 121) {
+															if (i != 122) {
+																if (i != 123) {
 																	if (i == 125) {
 																		aByte2873 = buffer.method2214((byte) -87);
 																	} else if (i != 127) {
@@ -279,7 +279,7 @@ public class NpcDefinition
 																			buffer.method2233(255);
 																		} else if (i == 134) {
 																			anInt2812 = buffer.method2219(-130546744);
-																			if ((anInt2812 ^ 0xffffffff) == -65536) {
+																			if (anInt2812 == 65535) {
 																				anInt2812 = -1;
 																			}
 																			anInt2833 = buffer.method2219(-130546744);
@@ -291,43 +291,43 @@ public class NpcDefinition
 																				anInt2809 = -1;
 																			}
 																			anInt2810 = buffer.method2219(-130546744);
-																			if ((anInt2810 ^ 0xffffffff) == -65536) {
+																			if (anInt2810 == 65535) {
 																				anInt2810 = -1;
 																			}
 																			anInt2864 = buffer.method2233(255);
-																		} else if ((i ^ 0xffffffff) != -136) {
-																			if ((i ^ 0xffffffff) != -137) {
-																				if ((i ^ 0xffffffff) == -138) {
+																		} else if (i != 135) {
+																			if (i != 136) {
+																				if (i == 137) {
 																					anInt2860 = buffer.method2219(-130546744);
 																				} else if (i != 138) {
-																					if ((i ^ 0xffffffff) == -140) {
+																					if (i == 139) {
 																						anInt2826 = buffer.method2219(-130546744);
 																					} else if (i == 140) {
 																						anInt2828 = buffer.method2233(255);
-																					} else if ((i ^ 0xffffffff) != -142) {
-																						if ((i ^ 0xffffffff) == -143) {
+																					} else if (i != 141) {
+																						if (i == 142) {
 																							anInt2849 = buffer.method2219(-130546744);
-																						} else if ((i ^ 0xffffffff) == -144) {
+																						} else if (i == 143) {
 																							aBoolean2825 = true;
-																						} else if ((i ^ 0xffffffff) <= -151 && (i ^ 0xffffffff) > -156) {
+																						} else if (i >= 150 && i < 155) {
 																							aStringArray2834[-150 + i] = buffer.method2195(-1);
 																							if (!aClass279_2861.aBoolean3556) {
 																								aStringArray2834[i + -150] = null;
 																							}
-																						} else if ((i ^ 0xffffffff) != -156) {
-																							if ((i ^ 0xffffffff) != -159) {
+																						} else if (i != 155) {
+																							if (i != 158) {
 																								if (i == 159) {
 																									aByte2855 = (byte) 0;
 																								} else if (i == 160) {
 																									int i_15_ = buffer.method2233(255);
 																									anIntArray2832 = new int[i_15_];
-																									for (int i_16_ = 0; (i_16_ ^ 0xffffffff) > (i_15_ ^ 0xffffffff); i_16_++)
+																									for (int i_16_ = 0; i_15_ > i_16_; i_16_++)
 																										anIntArray2832[i_16_] = buffer.method2219(-130546744);
 																								} else if (i != 162) {
 																									if (i == 163) {
 																										anInt2803 = buffer.method2233(255);
 																									} else if (i != 164) {
-																										if ((i ^ 0xffffffff) == -166) {
+																										if (i == 165) {
 																											anInt2831 = buffer.method2233(255);
 																										} else if (i == 168) {
 																											anInt2862 = buffer.method2233(255);
@@ -337,7 +337,7 @@ public class NpcDefinition
 																												int i_18_ = Class320_Sub19.method3753(i_17_, -729073628);
 																												aHashTable2813 = new HashTable(i_18_);
 																											}
-																											for (int i_19_ = 0; (i_17_ ^ 0xffffffff) < (i_19_ ^ 0xffffffff); i_19_++) {
+																											for (int i_19_ = 0; i_19_ < i_17_; i_19_++) {
 																												boolean bool = buffer.method2233(255) == 1;
 																												int i_20_ = buffer.method2220(1819759595);
 																												Node node;
@@ -429,14 +429,14 @@ public class NpcDefinition
 				} else {
 					int i_24_ = buffer.method2233(255);
 					aByteArray2820 = new byte[i_24_];
-					for (int i_25_ = 0; (i_24_ ^ 0xffffffff) < (i_25_ ^ 0xffffffff); i_25_++)
+					for (int i_25_ = 0; i_25_ < i_24_; i_25_++)
 						aByteArray2820[i_25_] = buffer.method2214((byte) -58);
 				}
 			} else {
 				int i_26_ = buffer.method2233(255);
 				aShortArray2829 = new short[i_26_];
 				aShortArray2823 = new short[i_26_];
-				for (int i_27_ = 0; (i_26_ ^ 0xffffffff) < (i_27_ ^ 0xffffffff); i_27_++) {
+				for (int i_27_ = 0; i_27_ < i_26_; i_27_++) {
 					aShortArray2823[i_27_] = (short) buffer.method2219(-130546744);
 					aShortArray2829[i_27_] = (short) buffer.method2219(-130546744);
 				}
@@ -491,7 +491,7 @@ public class NpcDefinition
 		synchronized (aClass279_2861.aClass61_3566) {
 			drawablemodel = (DrawableModel) aClass279_2861.aClass61_3566.method607(l, 0);
 		}
-		if (drawablemodel == null || (drawablemodel.ua() & i_30_ ^ 0xffffffff) != (i_30_ ^ 0xffffffff)) {
+		if (drawablemodel == null || i_30_ != (drawablemodel.ua() & i_30_)) {
 			if (drawablemodel != null) {
 				i_30_ |= drawablemodel.ua();
 			}
@@ -502,13 +502,13 @@ public class NpcDefinition
 			if (aShortArray2841 != null) {
 				i_31_ |= 0x8000;
 			}
-			if ((aByte2839 ^ 0xffffffff) != -1) {
+			if (aByte2839 != 0) {
 				i_31_ |= 0x80000;
 			}
 			int[] is = class361 == null || class361.anIntArray4482 == null ? anIntArray2847 : class361.anIntArray4482;
 			boolean bool = false;
 			synchronized (aClass279_2861.aClass302_3564) {
-				for (int i_32_ = 0; (i_32_ ^ 0xffffffff) > (is.length ^ 0xffffffff); i_32_++) {
+				for (int i_32_ = 0; is.length > i_32_; i_32_++) {
 					if (!aClass279_2861.aClass302_3564.method3515(0, is[i_32_], 0)) {
 						bool = true;
 					}
@@ -519,7 +519,7 @@ public class NpcDefinition
 			}
 			Model[] models = new Model[is.length];
 			synchronized (aClass279_2861.aClass302_3564) {
-				for (int i_33_ = 0; (i_33_ ^ 0xffffffff) > (is.length ^ 0xffffffff); i_33_++)
+				for (int i_33_ = 0; is.length > i_33_; i_33_++)
 					models[i_33_] = Renderer.method3448(is[i_33_], 7, 0, aClass279_2861.aClass302_3564);
 			}
 			for (int i_34_ = 0; i_34_ < is.length; i_34_++) {
@@ -528,7 +528,7 @@ public class NpcDefinition
 				}
 			}
 			Model model;
-			if ((models.length ^ 0xffffffff) != -2) {
+			if (models.length != 1) {
 				model = new Model(models, models.length);
 			} else {
 				model = models[0];
@@ -541,7 +541,7 @@ public class NpcDefinition
 				} else {
 					ses = class361.aShortArray4487;
 				}
-				for (int i_35_ = 0; (i_35_ ^ 0xffffffff) > (aShortArray2823.length ^ 0xffffffff); i_35_++) {
+				for (int i_35_ = 0; aShortArray2823.length > i_35_; i_35_++) {
 					if (aByteArray2820 == null || aByteArray2820.length <= i_35_) {
 						drawablemodel.ia(aShortArray2823[i_35_], ses[i_35_]);
 					} else {
@@ -556,10 +556,10 @@ public class NpcDefinition
 				} else {
 					ses = class361.aShortArray4485;
 				}
-				for (int i_36_ = 0; (i_36_ ^ 0xffffffff) > (aShortArray2841.length ^ 0xffffffff); i_36_++)
+				for (int i_36_ = 0; aShortArray2841.length > i_36_; i_36_++)
 					drawablemodel.aa(aShortArray2841[i_36_], ses[i_36_]);
 			}
-			if ((aByte2839 ^ 0xffffffff) != -1) {
+			if (aByte2839 != 0) {
 				drawablemodel.method626(aByte2836, aByte2853, aByte2857, 0xff & aByte2839);
 			}
 			drawablemodel.s(i_30_);
@@ -585,7 +585,7 @@ public class NpcDefinition
 			return npcdefinition_39_.method3007(interface17, graphicstoolkit, class281, (byte) -93, animator, i, is, class361, animator_37_, i_38_, animators);
 		}
 		int i_40_ = i_38_;
-		if ((anInt2830 ^ 0xffffffff) != -129) {
+		if (anInt2830 != 128) {
 			i_40_ |= 0x2;
 		}
 		if (anInt2858 != 128) {
@@ -593,7 +593,7 @@ public class NpcDefinition
 		}
 		boolean bool = false;
 		int i_41_ = animators == null ? 0 : animators.length;
-		for (int i_42_ = 0; (i_41_ ^ 0xffffffff) < (i_42_ ^ 0xffffffff); i_42_++) {
+		for (int i_42_ = 0; i_42_ < i_41_; i_42_++) {
 			if (animators[i_42_] != null) {
 				i_40_ |= animators[i_42_].method237((byte) -126);
 				bool = true;
@@ -630,14 +630,14 @@ public class NpcDefinition
 			if (aShortArray2841 != null) {
 				i_43_ |= 0x8000;
 			}
-			if ((aByte2839 ^ 0xffffffff) != -1) {
+			if (aByte2839 != 0) {
 				i_43_ |= 0x80000;
 			}
 			int[] is_44_ = class361 != null && class361.anIntArray4482 != null ? class361.anIntArray4482 : anIntArray2865;
 			boolean bool_45_ = false;
 			synchronized (aClass279_2861.aClass302_3564) {
 				for (int i_46_ = 0; i_46_ < is_44_.length; i_46_++) {
-					if ((is_44_[i_46_] ^ 0xffffffff) != 0 && !aClass279_2861.aClass302_3564.method3515(0, is_44_[i_46_], 0)) {
+					if (is_44_[i_46_] != -1 && !aClass279_2861.aClass302_3564.method3515(0, is_44_[i_46_], 0)) {
 						bool_45_ = true;
 					}
 				}
@@ -646,13 +646,13 @@ public class NpcDefinition
 				return null;
 			}
 			Model[] models = new Model[is_44_.length];
-			for (int i_47_ = 0; (i_47_ ^ 0xffffffff) > (is_44_.length ^ 0xffffffff); i_47_++) {
-				if ((is_44_[i_47_] ^ 0xffffffff) != 0) {
+			for (int i_47_ = 0; is_44_.length > i_47_; i_47_++) {
+				if (is_44_[i_47_] != -1) {
 					synchronized (aClass279_2861.aClass302_3564) {
 						models[i_47_] = Renderer.method3448(is_44_[i_47_], 7, 0, aClass279_2861.aClass302_3564);
 					}
 					if (models[i_47_] != null) {
-						if ((models[i_47_].anInt2614 ^ 0xffffffff) > -14) {
+						if (models[i_47_].anInt2614 < 13) {
 							models[i_47_].method2081(2, 0);
 						}
 						if (anIntArrayArray2842 != null && anIntArrayArray2842[i_47_] != null) {
@@ -663,7 +663,7 @@ public class NpcDefinition
 			}
 			if (class259 != null && class259.anIntArrayArray3273 != null) {
 				for (int i_48_ = 0; i_48_ < class259.anIntArrayArray3273.length; i_48_++) {
-					if ((models.length ^ 0xffffffff) < (i_48_ ^ 0xffffffff) && models[i_48_] != null) {
+					if (i_48_ < models.length && models[i_48_] != null) {
 						int i_49_ = 0;
 						int i_50_ = 0;
 						int i_51_ = 0;
@@ -678,17 +678,17 @@ public class NpcDefinition
 							i_54_ = class259.anIntArrayArray3273[i_48_][5] << 3;
 							i_51_ = class259.anIntArrayArray3273[i_48_][2];
 						}
-						if ((i_52_ ^ 0xffffffff) != -1 || (i_53_ ^ 0xffffffff) != -1 || (i_54_ ^ 0xffffffff) != -1) {
+						if (i_52_ != 0 || i_53_ != 0 || i_54_ != 0) {
 							models[i_48_].method2085(i_54_, i_52_, -119, i_53_);
 						}
-						if ((i_49_ ^ 0xffffffff) != -1 || i_50_ != 0 || i_51_ != 0) {
+						if (i_49_ != 0 || i_50_ != 0 || i_51_ != 0) {
 							models[i_48_].method2082(i_49_, i_50_, -79, i_51_);
 						}
 					}
 				}
 			}
 			Model model;
-			if ((models.length ^ 0xffffffff) == -2) {
+			if (models.length == 1) {
 				model = models[0];
 			} else {
 				model = new Model(models, models.length);
@@ -716,7 +716,7 @@ public class NpcDefinition
 				} else {
 					ses = class361.aShortArray4485;
 				}
-				for (int i_56_ = 0; (aShortArray2841.length ^ 0xffffffff) < (i_56_ ^ 0xffffffff); i_56_++)
+				for (int i_56_ = 0; i_56_ < aShortArray2841.length; i_56_++)
 					drawablemodel.aa(aShortArray2841[i_56_], ses[i_56_]);
 			}
 			if (aByte2839 != 0) {
@@ -731,7 +731,7 @@ public class NpcDefinition
 		int i_58_ = -64 / ((-28 - b) / 53);
 		boolean bool_59_ = false;
 		if (is != null) {
-			for (int i_60_ = 0; (i_60_ ^ 0xffffffff) > -13; i_60_++) {
+			for (int i_60_ = 0; i_60_ < 12; i_60_++) {
 				if (is[i_60_] != -1) {
 					bool_59_ = true;
 				}
@@ -753,7 +753,7 @@ public class NpcDefinition
 		}
 		int i_62_ = 0;
 		int i_63_ = 1;
-		while ((i_62_ ^ 0xffffffff) > (i_41_ ^ 0xffffffff)) {
+		while (i_41_ > i_62_) {
 			if (animators[i_62_] != null) {
 				animators[i_62_].method246(i_63_, 0, true, drawablemodel_57_);
 			}
@@ -787,7 +787,7 @@ public class NpcDefinition
 		} else {
 			animator.method225(0, drawablemodel_57_, 0);
 		}
-		if ((anInt2858 ^ 0xffffffff) != -129 || anInt2830 != 128) {
+		if (anInt2858 != 128 || anInt2830 != 128) {
 			drawablemodel_57_.O(anInt2858, anInt2830, anInt2858);
 		}
 		drawablemodel_57_.s(i_38_);
@@ -834,7 +834,7 @@ public class NpcDefinition
 		}
 		int i = -1;
 		if (anInt2881 == -1) {
-			if ((anInt2882 ^ 0xffffffff) != 0) {
+			if (anInt2882 != -1) {
 				i = interface17.method65(anInt2882, 111);
 			}
 		} else {

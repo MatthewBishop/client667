@@ -21,7 +21,7 @@ abstract class Class377
 			return true;
 		}
 		anInt4669++;
-		if ((anInt4673 & 0x2 ^ 0xffffffff) == -1) {
+		if ((anInt4673 & 0x2) == 0) {
 			return false;
 		}
 		return true;
@@ -83,7 +83,7 @@ abstract class Class377
 			i_2_ = i_3_ = Class94.anInt1249;
 		}
 		if (i >= 94) {
-			if ((aa.anInt101 ^ 0xffffffff) == -4) {
+			if (aa.anInt101 == 3) {
 				for (int i_4_ = i_2_; i_4_ <= i_3_; i_4_++)
 					client.method106(i_4_);
 				client.method104();
@@ -105,7 +105,7 @@ abstract class Class377
 			method4123(66);
 		}
 		anInt4666++;
-		if ((0x8 & anInt4673 ^ 0xffffffff) == -1) {
+		if ((0x8 & anInt4673) == 0) {
 			return false;
 		}
 		return true;

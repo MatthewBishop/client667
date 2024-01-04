@@ -61,14 +61,14 @@ public class Class290_Sub4 extends Class290
 	Class290_Sub4(AbstractToolkit abstracttoolkit) {
 		super(abstracttoolkit);
 		if (abstracttoolkit.aBoolean6310) {
-			aBoolean8090 = (abstracttoolkit.anInt6370 ^ 0xffffffff) > -4;
+			aBoolean8090 = abstracttoolkit.anInt6370 < 3;
 			int i = aBoolean8090 ? 48 : 127;
 			int[][] is = new int[6][4096];
 			int[][] is_0_ = new int[6][4096];
 			int[][] is_1_ = new int[6][4096];
 			int i_2_ = 0;
 			for (int i_3_ = 0; i_3_ < 64; i_3_++) {
-				for (int i_4_ = 0; (i_4_ ^ 0xffffffff) > -65; i_4_++) {
+				for (int i_4_ = 0; i_4_ < 64; i_4_++) {
 					float f = 2.0F * (float) i_4_ / 64.0F - 1.0F;
 					float f_5_ = (float) i_3_ * 2.0F / 64.0F - 1.0F;
 					float f_6_ = (float) (1.0 / Math.sqrt((double) (f_5_ * f_5_ + (f * f + 1.0F))));
@@ -78,10 +78,10 @@ public class Class290_Sub4 extends Class290
 						float f_8_;
 						if (i_7_ == 0) {
 							f_8_ = -f;
-						} else if ((i_7_ ^ 0xffffffff) == -2) {
+						} else if (i_7_ == 1) {
 							f_8_ = f;
 						} else if (i_7_ != 2) {
-							if ((i_7_ ^ 0xffffffff) != -4) {
+							if (i_7_ != 3) {
 								if (i_7_ == 4) {
 									f_8_ = f_6_;
 								} else {
@@ -132,7 +132,7 @@ public class Class290_Sub4 extends Class290
 	
 	static final Class145 method3431(GLToolkit gltoolkit, int i, Class210[] class210s) {
 		anInt8099++;
-		for (int i_12_ = i; (class210s.length ^ 0xffffffff) < (i_12_ ^ 0xffffffff); i_12_++) {
+		for (int i_12_ = i; i_12_ < class210s.length; i_12_++) {
 			if (class210s[i_12_] == null || class210s[i_12_].aLong2500 <= 0L) {
 				return null;
 			}
@@ -142,7 +142,7 @@ public class Class290_Sub4 extends Class290
 			OpenGL.glAttachObjectARB(l, class210s[i_13_].aLong2500);
 		OpenGL.glLinkProgramARB(l);
 		OpenGL.glGetObjectParameterivARB(l, 35714, Class78.anIntArray1030, 0);
-		if ((Class78.anIntArray1030[0] ^ 0xffffffff) == -1) {
+		if (Class78.anIntArray1030[0] == 0) {
 			if (Class78.anIntArray1030[0] == 0) {
 				System.out.println("Shader linking failed:");
 			}

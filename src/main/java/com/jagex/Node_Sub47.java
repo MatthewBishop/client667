@@ -107,7 +107,7 @@ public class Node_Sub47 extends Node
 					anInt7567 = 0;
 				}
 			}
-			if (((anInt7564 ^ 0xffffffff) != (i_0_ ^ 0xffffffff) || !aBoolean7580 == bool) && aNode_Sub9_Sub2_7568 != null) {
+			if ((i_0_ != anInt7564 || !aBoolean7580 == bool) && aNode_Sub9_Sub2_7568 != null) {
 				Class176.aNode_Sub9_Sub3_2106.method2514(aNode_Sub9_Sub2_7568);
 				aNode_Sub9_Sub2_7568 = null;
 				aNode_Sub45_Sub1_7576 = null;
@@ -126,10 +126,10 @@ public class Node_Sub47 extends Node
 	
 	static final void method2953(int i, int i_2_, boolean bool, int i_3_, int i_4_, float[] fs, int i_5_) {
 		anInt7557++;
-		if ((i_3_ ^ 0xffffffff) < -1 && !Class371.method4094(i_3_, false)) {
+		if (i_3_ > 0 && !Class371.method4094(i_3_, false)) {
 			throw new IllegalArgumentException("");
 		}
-		if ((i_2_ ^ 0xffffffff) < -1 && !Class371.method4094(i_2_, false)) {
+		if (i_2_ > 0 && !Class371.method4094(i_2_, false)) {
 			throw new IllegalArgumentException("");
 		}
 		int i_6_ = Class349.method3989(i, (byte) -71);
@@ -142,7 +142,7 @@ public class Node_Sub47 extends Node
 			float[] fs_12_ = new float[i_6_ * (i_10_ * i_9_)];
 			for (;;) {
 				OpenGL.glTexImage2Df(i_4_, i_7_, i_5_, i_3_, i_2_, 0, i, 5126, fs_11_, 0);
-				if ((i_8_ ^ 0xffffffff) >= -2) {
+				if (i_8_ <= 1) {
 					break;
 				}
 				int i_13_ = i_3_ * i_6_;

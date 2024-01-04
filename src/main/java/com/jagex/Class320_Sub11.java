@@ -4434,7 +4434,7 @@ public class Class320_Sub11 extends Class320 {
 			Node_Sub15_Sub2.aClass138Array9784[k1] = new Class138();
 		}
 
-		for(int l1 = 0; ~l1 > -26; l1++) {
+		for(int l1 = 0; l1 < 25; l1++) {
 			Class307.anIntArray3905[l1] = 0;
 			Class34_Sub1.anIntArray5528[l1] = 0;
 			Class188_Sub1.anIntArray6859[l1] = 0;

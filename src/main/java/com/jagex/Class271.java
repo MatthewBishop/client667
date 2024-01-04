@@ -11,7 +11,7 @@ public class Class271
 	
 	final void method3311(int i, Buffer buffer, byte[] bs) {
 		anInt3481++;
-		if ((buffer.aByteArray7019[buffer.anInt7002] ^ 0xffffffff) != -32 || buffer.aByteArray7019[buffer.anInt7002 + 1] != -117) {
+		if (buffer.aByteArray7019[buffer.anInt7002] != 31 || buffer.aByteArray7019[buffer.anInt7002 + 1] != -117) {
 			throw new RuntimeException("Invalid GZIP header!");
 		}
 		if (anInflater3480 == null) {

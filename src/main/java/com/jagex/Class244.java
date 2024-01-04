@@ -18,7 +18,7 @@ public class Class244
 		}
 		if (Class283.anInt3591 == 1) {
 			Class134_Sub1.method1580(i_0_, 1, Class194_Sub1.aCacheNode_Sub13_6893, i);
-		} else if ((Class283.anInt3591 ^ 0xffffffff) == -3) {
+		} else if (Class283.anInt3591 == 2) {
 			if (!Class71.aBoolean967) {
 				Plane.method3258(117, i_0_, i);
 			} else {

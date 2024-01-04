@@ -161,7 +161,7 @@ public class Class290_Sub11 extends Class290
 		if (!aBoolean8182) {
 			OpenGL.glBindProgramARB(34336, i_6_ == 2147483647 ? aClass106_8160.anInt1350 : aClass106_8171.anInt1350);
 		} else {
-			OpenGL.glBindProgramARB(34336, (i_6_ ^ 0xffffffff) == -2147483648 ? aClass106_8161.anInt1350 : aClass106_8168.anInt1350);
+			OpenGL.glBindProgramARB(34336, i_6_ == 2147483647 ? aClass106_8161.anInt1350 : aClass106_8168.anInt1350);
 		}
 		OpenGL.glEnable(34336);
 		if (i >= 4) {
@@ -193,7 +193,7 @@ public class Class290_Sub11 extends Class290
 			aCharArray8172[i] = (char) (65 + i);
 		for (int i = 26; i < 52; i++)
 			aCharArray8172[i] = (char) (97 + (i - 26));
-		for (int i = 52; (i ^ 0xffffffff) > -63; i++)
+		for (int i = 52; i < 62; i++)
 			aCharArray8172[i] = (char) (i + -4);
 		aCharArray8172[63] = '-';
 		aCharArray8172[62] = '*';

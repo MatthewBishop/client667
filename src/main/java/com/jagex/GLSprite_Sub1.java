@@ -53,7 +53,7 @@ public class GLSprite_Sub1 extends GLSprite
 	}
 	
 	final void method1184(int i, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_) {
-		aClass169_Sub2_Sub1_8855.method1757(false, (i_8_ & 0x1 ^ 0xffffffff) != -1);
+		aClass169_Sub2_Sub1_8855.method1757(false, (i_8_ & 0x1) != 0);
 		anInt8858++;
 		aGLToolkit8861.method1461(34962);
 		aGLToolkit8861.method1460(i_7_, 3);
@@ -168,7 +168,7 @@ public class GLSprite_Sub1 extends GLSprite
 		}
 		float f_35_ = f_17_ + (-f + f_15_);
 		float f_36_ = f_18_ - f_14_ + f_16_;
-		aClass169_Sub2_Sub1_8855.method1757(false, (i & 0x1 ^ 0xffffffff) != -1);
+		aClass169_Sub2_Sub1_8855.method1757(false, (i & 0x1) != 0);
 		aGLToolkit8861.method1461(34962);
 		aGLToolkit8861.method1444(-2, aClass169_Sub2_Sub1_8855);
 		aGLToolkit8861.method1434((byte) 94, 1);
@@ -202,20 +202,20 @@ public class GLSprite_Sub1 extends GLSprite
 	
 	static final void method1201(int i, int i_39_, int i_40_, int i_41_, int i_42_, int i_43_) {
 		if (i_41_ == -12935) {
-			if ((i_43_ ^ 0xffffffff) >= (Node_Sub25_Sub1.anInt9936 ^ 0xffffffff) && (Class384.anInt4906 ^ 0xffffffff) >= (i ^ 0xffffffff)) {
+			if (Node_Sub25_Sub1.anInt9936 >= i_43_ && i >= Class384.anInt4906) {
 				boolean bool;
 				if (Class262_Sub4.anInt7722 > i_39_) {
 					i_39_ = Class262_Sub4.anInt7722;
 					bool = false;
-				} else if ((i_39_ ^ 0xffffffff) < (za_Sub2.anInt10513 ^ 0xffffffff)) {
+				} else if (za_Sub2.anInt10513 < i_39_) {
 					bool = false;
 					i_39_ = za_Sub2.anInt10513;
 				} else {
 					bool = true;
 				}
 				boolean bool_44_;
-				if ((i_42_ ^ 0xffffffff) <= (Class262_Sub4.anInt7722 ^ 0xffffffff)) {
-					if ((i_42_ ^ 0xffffffff) < (za_Sub2.anInt10513 ^ 0xffffffff)) {
+				if (Class262_Sub4.anInt7722 <= i_42_) {
+					if (za_Sub2.anInt10513 < i_42_) {
 						i_42_ = za_Sub2.anInt10513;
 						bool_44_ = false;
 					} else {
@@ -225,12 +225,12 @@ public class GLSprite_Sub1 extends GLSprite
 					i_42_ = Class262_Sub4.anInt7722;
 					bool_44_ = false;
 				}
-				if ((i_43_ ^ 0xffffffff) > (Class384.anInt4906 ^ 0xffffffff)) {
+				if (Class384.anInt4906 > i_43_) {
 					i_43_ = Class384.anInt4906;
 				} else {
 					Class369.method4086(i_42_, i_40_, i_39_, Class169_Sub4.anIntArrayArray8826[i_43_++], 0);
 				}
-				if ((Node_Sub25_Sub1.anInt9936 ^ 0xffffffff) > (i ^ 0xffffffff)) {
+				if (i > Node_Sub25_Sub1.anInt9936) {
 					i = Node_Sub25_Sub1.anInt9936;
 				} else {
 					Class369.method4086(i_42_, i_40_, i_39_, Class169_Sub4.anIntArrayArray8826[i--], 0);
@@ -246,7 +246,7 @@ public class GLSprite_Sub1 extends GLSprite
 							Class169_Sub4.anIntArrayArray8826[i_46_][i_39_] = i_40_;
 					}
 				} else {
-					for (int i_47_ = i_43_; (i ^ 0xffffffff) <= (i_47_ ^ 0xffffffff); i_47_++) {
+					for (int i_47_ = i_43_; i_47_ <= i; i_47_++) {
 						int[] is = Class169_Sub4.anIntArrayArray8826[i_47_];
 						is[i_39_] = is[i_42_] = i_40_;
 					}
@@ -330,7 +330,7 @@ public class GLSprite_Sub1 extends GLSprite
 		anInt8879 = i;
 		anInt8875 = i_59_;
 		anInt8878 = i_60_;
-		aBoolean8852 = anInt8879 != 0 || anInt8865 != 0 || anInt8875 != 0 || (anInt8878 ^ 0xffffffff) != -1;
+		aBoolean8852 = anInt8879 != 0 || anInt8865 != 0 || anInt8875 != 0 || anInt8878 != 0;
 	}
 	
 	final int method1186() {
@@ -406,7 +406,7 @@ public class GLSprite_Sub1 extends GLSprite
 		anInt8856++;
 		float f_87_ = f_68_ + (-f + f_66_);
 		float f_88_ = f_69_ - f_65_ + f_67_;
-		aClass169_Sub2_Sub1_8855.method1757(false, (0x1 & i_72_ ^ 0xffffffff) != -1);
+		aClass169_Sub2_Sub1_8855.method1757(false, (0x1 & i_72_) != 0);
 		aGLToolkit8861.method1461(34962);
 		aGLToolkit8861.method1444(-2, aClass169_Sub2_Sub1_8855);
 		aGLToolkit8861.method1460(i_71_, 3);
@@ -466,10 +466,10 @@ public class GLSprite_Sub1 extends GLSprite
 			int i_100_ = aClass169_Sub2_Sub1_8855.anInt10564 + i_89_;
 			OpenGL.glBegin(7);
 			int i_101_ = i_89_;
-			while ((i_100_ ^ 0xffffffff) >= (i_96_ ^ 0xffffffff)) {
+			while (i_96_ >= i_100_) {
 				int i_102_ = i - -aClass169_Sub2_Sub1_8855.anInt10566;
 				int i_103_ = i;
-				for (/**/; (i_102_ ^ 0xffffffff) >= (i_95_ ^ 0xffffffff); i_102_ += i_98_) {
+				for (/**/; i_95_ >= i_102_; i_102_ += i_98_) {
 					OpenGL.glTexCoord2f(0.0F, aClass169_Sub2_Sub1_8855.aFloat10568);
 					OpenGL.glVertex2i(i_103_, i_101_);
 					OpenGL.glTexCoord2f(0.0F, 0.0F);
@@ -494,7 +494,7 @@ public class GLSprite_Sub1 extends GLSprite
 				i_100_ += i_99_;
 				i_101_ += i_99_;
 			}
-			if ((i_96_ ^ 0xffffffff) < (i_101_ ^ 0xffffffff)) {
+			if (i_101_ < i_96_) {
 				float f = aClass169_Sub2_Sub1_8855.aFloat10568 * (float) (aClass169_Sub2_Sub1_8855.anInt10564 - (-i_101_ + i_96_)) / (float) aClass169_Sub2_Sub1_8855.anInt10564;
 				int i_104_ = i + aClass169_Sub2_Sub1_8855.anInt10566;
 				int i_105_ = i;
@@ -536,7 +536,7 @@ public class GLSprite_Sub1 extends GLSprite
 		if (aGLToolkit8861.aBoolean6668) {
 			int[] is = aGLToolkit8861.na(i_110_, i_111_, i_108_, i_109_);
 			if (is != null) {
-				for (int i_112_ = 0; (is.length ^ 0xffffffff) < (i_112_ ^ 0xffffffff); i_112_++)
+				for (int i_112_ = 0; i_112_ < is.length; i_112_++)
 					is[i_112_] = Node_Sub16.method2590(is[i_112_], -16777216);
 				method1204(i, i_107_, i_108_, i_109_, is, 0, i_108_);
 			}
@@ -579,10 +579,10 @@ public class GLSprite_Sub1 extends GLSprite
 			aGLToolkit8861.method1444(-2, aClass169_Sub2_Sub1_8854);
 			aGLToolkit8861.method1474(-90, 7681, 34479);
 			aGLToolkit8861.method1464(34166, 768, 1, (byte) -51);
-			if ((anInt8869 ^ 0xffffffff) == -1) {
+			if (anInt8869 == 0) {
 				aGLToolkit8861.method1422(0.5F, 1.0F, 0.0F, 0.5F, 13934);
 			} else if (anInt8869 != 1) {
-				if ((anInt8869 ^ 0xffffffff) != -3) {
+				if (anInt8869 != 2) {
 					if (anInt8869 == 3) {
 						aGLToolkit8861.method1422(128.5F, 128.5F, 0.0F, 128.5F, 13934);
 					}

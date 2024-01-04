@@ -31,7 +31,7 @@ public class Node_Sub15_Sub7 extends Node_Sub15
 	
 	final void method2554(int i, Buffer buffer) {
 		if (i == 29147) {
-			if ((buffer.method2233(255) ^ 0xffffffff) != -256) {
+			if (buffer.method2233(255) != 255) {
 				buffer.anInt7002--;
 				aLong9826 = buffer.method2235(-2023329376);
 			}

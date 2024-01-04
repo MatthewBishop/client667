@@ -36,7 +36,7 @@ public class Class71
 		if (i_0_ != -23003) {
 			return false;
 		}
-		if ((i_1_ & 0xc580 ^ 0xffffffff) == -1) {
+		if ((i_1_ & 0xc580) == 0) {
 			return false;
 		}
 		return true;

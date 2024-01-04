@@ -54,7 +54,7 @@ class Class42
 		anInt655 -= i_0_;
 		anInt634++;
 		if (i == -26994) {
-			if ((anInt655 ^ 0xffffffff) > -1) {
+			if (anInt655 < 0) {
 				anInt655 = 0;
 			}
 			if (aNode_Sub9_650 != null) {
@@ -160,7 +160,7 @@ class Class42
 				if (aLong641 + 6000L < l) {
 					aLong641 = l - 6000L;
 				}
-				for (/**/; (l ^ 0xffffffffffffffffL) < (5000L + aLong641 ^ 0xffffffffffffffffL); l = Class313.method3650(false)) {
+				for (/**/; 5000L + aLong641 < l; l = Class313.method3650(false)) {
 					method443(-26994, 256);
 					aLong641 += (long) (256000 / Class365.anInt4523);
 				}
@@ -169,8 +169,8 @@ class Class42
 			}
 			if (anIntArray642 != null) {
 				try {
-					if ((aLong654 ^ 0xffffffffffffffffL) != -1L) {
-						if ((aLong654 ^ 0xffffffffffffffffL) < (l ^ 0xffffffffffffffffL)) {
+					if (aLong654 != 0) {
+						if (l < aLong654) {
 							return;
 						}
 						method447(anInt651);
@@ -182,7 +182,7 @@ class Class42
 						anInt658 = anInt657 + -i;
 					}
 					int i_5_ = anInt653 + anInt662;
-					if ((256 + i_5_ ^ 0xffffffff) < -16385) {
+					if (256 + i_5_ > 16384) {
 						i_5_ = 16128;
 					}
 					if (anInt651 < i_5_ + 256) {
@@ -193,7 +193,7 @@ class Class42
 						method455();
 						method447(anInt651);
 						i = 0;
-						if ((anInt651 ^ 0xffffffff) > (i_5_ - -256 ^ 0xffffffff)) {
+						if (i_5_ - -256 > anInt651) {
 							i_5_ = -256 + anInt651;
 							anInt662 = i_5_ + -anInt653;
 						}
@@ -208,7 +208,7 @@ class Class42
 						if (aBoolean656) {
 							aBoolean656 = false;
 						} else {
-							if ((anInt658 ^ 0xffffffff) == -1 && (anInt661 ^ 0xffffffff) == -1) {
+							if (anInt658 == 0 && anInt661 == 0) {
 								method455();
 								aLong654 = 2000L + l;
 								return;

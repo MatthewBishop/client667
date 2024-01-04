@@ -22,7 +22,7 @@ public class Class267
 	final boolean method3287(byte b) {
 		anInt3448++;
 		int i = 83 / ((38 - b) / 60);
-		if ((aChar3444 ^ 0xffffffff) != -116) {
+		if (aChar3444 != 115) {
 			return false;
 		}
 		return true;
@@ -31,7 +31,7 @@ public class Class267
 	final void method3288(Buffer buffer, byte b) {
 		for (;;) {
 			int i = buffer.method2233(255);
-			if ((i ^ 0xffffffff) == -1) {
+			if (i == 0) {
 				break;
 			}
 			method3289(b ^ 0x21, i, buffer);
@@ -46,9 +46,9 @@ public class Class267
 			aChar3444 = '0';
 		}
 		if (i_0_ != 1) {
-			if ((i_0_ ^ 0xffffffff) == -3) {
+			if (i_0_ == 2) {
 				anInt3443 = buffer.method2186(94);
-			} else if ((i_0_ ^ 0xffffffff) == -5) {
+			} else if (i_0_ == 4) {
 				aBoolean3442 = false;
 			} else if (i_0_ == 5) {
 				aString3450 = buffer.method2195(-1);

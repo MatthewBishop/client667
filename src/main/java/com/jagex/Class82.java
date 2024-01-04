@@ -21,14 +21,14 @@ public class Class82
 	private final void method794(int i, int i_0_, Buffer buffer) {
 		anInt1117++;
 		if (i_0_ == -12897) {
-			if ((i ^ 0xffffffff) != -2) {
+			if (i != 1) {
 				if (i == 2) {
 					anIntArray1115 = new int[buffer.method2233(255)];
 					for (int i_1_ = 0; i_1_ < anIntArray1115.length; i_1_++)
 						anIntArray1115[i_1_] = buffer.method2219(-130546744);
-				} else if ((i ^ 0xffffffff) == -4) {
+				} else if (i == 3) {
 					anInt1113 = buffer.method2233(255);
-				} else if ((i ^ 0xffffffff) != -5) {
+				} else if (i != 4) {
 					if (i == 5) {
 						anInt1109 = buffer.method2219(-130546744);
 					}
@@ -80,7 +80,7 @@ public class Class82
 				int i_11_ = 0;
 				for (CacheNode_Sub4 cachenode_sub4 = (CacheNode_Sub4) Class184.aClass158_2189.method1723(i + -32699); cachenode_sub4 != null; cachenode_sub4 = (CacheNode_Sub4) Class184.aClass158_2189.method1721(0)) {
 					int i_12_ = i_8_ + (i_5_ - -13 - -(16 * i_11_));
-					if (i_9_ > i_2_ + Node_Sub6.anInt7043 && (i_9_ ^ 0xffffffff) > (i_2_ + (Node_Sub6.anInt7043 - -Class362.anInt4492) ^ 0xffffffff) && i_10_ > i_12_ - 13 && i_10_ < i_12_ + 4 && (cachenode_sub4.anInt9462 > 1 || ((CacheNode_Sub13) cachenode_sub4.aClass158_9457.aCacheNode1984.aCacheNode7035).aBoolean9571)) {
+					if (i_9_ > i_2_ + Node_Sub6.anInt7043 && i_2_ + (Node_Sub6.anInt7043 - -Class362.anInt4492) > i_9_ && i_10_ > i_12_ - 13 && i_10_ < i_12_ + 4 && (cachenode_sub4.anInt9462 > 1 || ((CacheNode_Sub13) cachenode_sub4.aClass158_9457.aCacheNode1984.aCacheNode7035).aBoolean9571)) {
 						graphicstoolkit.aa(i_2_ + Node_Sub6.anInt7043, -12 + i_12_, Class362.anInt4492, 16, 255 + -Class218.anInt2569 << 24 | Class262_Sub5.anInt7737, 1);
 					}
 					i_11_++;
@@ -90,7 +90,7 @@ public class Class82
 					i_11_ = 0;
 					for (CacheNode_Sub13 cachenode_sub13 = (CacheNode_Sub13) Class73.aCacheNode_Sub4_988.aClass158_9457.method1723(i ^ 0x7fc5); cachenode_sub13 != null; cachenode_sub13 = (CacheNode_Sub13) Class73.aCacheNode_Sub4_988.aClass158_9457.method1721(i ^ 0x7fc8)) {
 						int i_13_ = i_8_ + (Archive.anInt286 - -13 - -(i_11_ * 16));
-						if (Class367.anInt4539 < i_9_ && Class367.anInt4539 + CacheNode.anInt7033 > i_9_ && i_10_ > i_13_ + -13 && (i_10_ ^ 0xffffffff) > (4 + i_13_ ^ 0xffffffff) && cachenode_sub13.aBoolean9571) {
+						if (Class367.anInt4539 < i_9_ && Class367.anInt4539 + CacheNode.anInt7033 > i_9_ && i_10_ > i_13_ + -13 && 4 + i_13_ > i_10_ && cachenode_sub13.aBoolean9571) {
 							graphicstoolkit.aa(Class367.anInt4539, i_13_ - 12, CacheNode.anInt7033, 16, 255 - Class218.anInt2569 << 24 | Class262_Sub5.anInt7737, 1);
 						}
 						i_11_++;
@@ -102,7 +102,7 @@ public class Class82
 				for (CacheNode_Sub13 cachenode_sub13 = (CacheNode_Sub13) Class368.aClass312_4549.method3613(65280); cachenode_sub13 != null; cachenode_sub13 = (CacheNode_Sub13) Class368.aClass312_4549.method3620(16776960)) {
 					int i_15_ = 16 * (-1 + Class315.anInt4035 + -i_14_) + i_5_ + (i_8_ + 13);
 					i_14_++;
-					if (i_2_ + Node_Sub6.anInt7043 < i_9_ && i_2_ + (Node_Sub6.anInt7043 + Class362.anInt4492) > i_9_ && (i_10_ ^ 0xffffffff) < (i_15_ - 13 ^ 0xffffffff) && 4 + i_15_ > i_10_ && cachenode_sub13.aBoolean9571) {
+					if (i_2_ + Node_Sub6.anInt7043 < i_9_ && i_2_ + (Node_Sub6.anInt7043 + Class362.anInt4492) > i_9_ && i_15_ - 13 < i_10_ && 4 + i_15_ > i_10_ && cachenode_sub13.aBoolean9571) {
 						graphicstoolkit.aa(i_2_ + Node_Sub6.anInt7043, -12 + i_15_, Class362.anInt4492, 16, Class262_Sub5.anInt7737 | -Class218.anInt2569 + 255 << 24, 1);
 					}
 				}

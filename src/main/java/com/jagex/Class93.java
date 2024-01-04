@@ -97,7 +97,7 @@ abstract class Class93
 		if (!bool) {
 			Class305.method3550(i_9_);
 		}
-		if (!bool && (Class320_Sub15.anInt8355 ^ 0xffffffff) != 0) {
+		if (!bool && Class320_Sub15.anInt8355 != -1) {
 			Class76.method770(i_11_ + 115, 1, Class320_Sub15.anInt8355);
 		}
 		return node_sub2;

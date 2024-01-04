@@ -48,37 +48,37 @@ public class Class184
 		if (b < 46) {
 			aClass158_2189 = null;
 		}
-		if ((i ^ 0xffffffff) != -2) {
-			if ((i ^ 0xffffffff) != -3) {
-				if ((i ^ 0xffffffff) == -4) {
+		if (i != 1) {
+			if (i != 2) {
+				if (i == 3) {
 					int i_1_ = buffer.method2233(255);
 					anIntArrayArray2208 = new int[i_1_][3];
-					for (int i_2_ = 0; (i_1_ ^ 0xffffffff) < (i_2_ ^ 0xffffffff); i_2_++) {
+					for (int i_2_ = 0; i_2_ < i_1_; i_2_++) {
 						anIntArrayArray2208[i_2_][0] = buffer.method2219(-130546744);
 						anIntArrayArray2208[i_2_][1] = buffer.method2186(-90);
 						anIntArrayArray2208[i_2_][2] = buffer.method2186(-122);
 					}
-				} else if ((i ^ 0xffffffff) != -5) {
+				} else if (i != 4) {
 					if (i != 5) {
-						if ((i ^ 0xffffffff) != -7) {
+						if (i != 6) {
 							if (i != 7) {
 								if (i != 8) {
-									if ((i ^ 0xffffffff) != -10) {
+									if (i != 9) {
 										if (i == 10) {
 											int i_3_ = buffer.method2233(255);
 											anIntArray2209 = new int[i_3_];
 											for (int i_4_ = 0; i_3_ > i_4_; i_4_++)
 												anIntArray2209[i_4_] = buffer.method2186(73);
-										} else if ((i ^ 0xffffffff) != -13) {
+										} else if (i != 12) {
 											if (i != 13) {
-												if ((i ^ 0xffffffff) != -15) {
+												if (i != 14) {
 													if (i == 15) {
 														buffer.method2219(-130546744);
-													} else if ((i ^ 0xffffffff) == -18) {
+													} else if (i == 17) {
 														anInt2188 = buffer.method2219(-130546744);
-													} else if ((i ^ 0xffffffff) != -19) {
+													} else if (i != 18) {
 														if (i != 19) {
-															if ((i ^ 0xffffffff) == -250) {
+															if (i == 249) {
 																int i_5_ = buffer.method2233(255);
 																if (aHashTable2194 == null) {
 																	int i_6_ = Class320_Sub19.method3753(i_5_, -729073628);
@@ -102,7 +102,7 @@ public class Class184
 															aStringArray2198 = new String[i_9_];
 															anIntArray2195 = new int[i_9_];
 															anIntArray2190 = new int[i_9_];
-															for (int i_10_ = 0; (i_9_ ^ 0xffffffff) < (i_10_ ^ 0xffffffff); i_10_++) {
+															for (int i_10_ = 0; i_10_ < i_9_; i_10_++) {
 																anIntArray2204[i_10_] = buffer.method2186(-71);
 																anIntArray2195[i_10_] = buffer.method2186(78);
 																anIntArray2190[i_10_] = buffer.method2186(-77);
@@ -115,7 +115,7 @@ public class Class184
 														anIntArray2200 = new int[i_11_];
 														anIntArray2199 = new int[i_11_];
 														anIntArray2191 = new int[i_11_];
-														for (int i_12_ = 0; (i_12_ ^ 0xffffffff) > (i_11_ ^ 0xffffffff); i_12_++) {
+														for (int i_12_ = 0; i_11_ > i_12_; i_12_++) {
 															anIntArray2200[i_12_] = buffer.method2186(-119);
 															anIntArray2191[i_12_] = buffer.method2186(47);
 															anIntArray2199[i_12_] = buffer.method2186(102);
@@ -125,7 +125,7 @@ public class Class184
 												} else {
 													int i_13_ = buffer.method2233(255);
 													anIntArrayArray2210 = new int[i_13_][2];
-													for (int i_14_ = 0; (i_13_ ^ 0xffffffff) < (i_14_ ^ 0xffffffff); i_14_++) {
+													for (int i_14_ = 0; i_14_ < i_13_; i_14_++) {
 														anIntArrayArray2210[i_14_][0] = buffer.method2233(255);
 														anIntArrayArray2210[i_14_][1] = buffer.method2233(255);
 													}
@@ -133,7 +133,7 @@ public class Class184
 											} else {
 												int i_15_ = buffer.method2233(255);
 												anIntArray2207 = new int[i_15_];
-												for (int i_16_ = 0; (i_15_ ^ 0xffffffff) < (i_16_ ^ 0xffffffff); i_16_++)
+												for (int i_16_ = 0; i_16_ < i_15_; i_16_++)
 													anIntArray2207[i_16_] = buffer.method2219(-130546744);
 											}
 										} else {
@@ -155,7 +155,7 @@ public class Class184
 				} else {
 					int i_17_ = buffer.method2233(255);
 					anIntArrayArray2193 = new int[i_17_][3];
-					for (int i_18_ = 0; (i_17_ ^ 0xffffffff) < (i_18_ ^ 0xffffffff); i_18_++) {
+					for (int i_18_ = 0; i_18_ < i_17_; i_18_++) {
 						anIntArrayArray2193[i_18_][0] = buffer.method2219(-130546744);
 						anIntArrayArray2193[i_18_][1] = buffer.method2186(-99);
 						anIntArrayArray2193[i_18_][2] = buffer.method2186(-74);

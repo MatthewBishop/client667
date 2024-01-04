@@ -10,7 +10,7 @@ public class Class9
 		Class178.anInt2120 = 0;
 		anInt166++;
 		int i_0_ = 50 / ((i - -79) / 33);
-		for (int i_1_ = 0; (i_1_ ^ 0xffffffff) > -2049; i_1_++) {
+		for (int i_1_ = 0; i_1_ < 2048; i_1_++) {
 			Class249.aBufferArray3154[i_1_] = null;
 			Class73.aByteArray981[i_1_] = (byte) 1;
 			Class320_Sub10.aClass323Array8296[i_1_] = null;

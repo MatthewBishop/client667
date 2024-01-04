@@ -78,7 +78,7 @@ public class Class262_Sub1 extends Class262
 				node_sub47.anObjectDefinition7562 = objectdefinition;
 				int i_3_ = objectdefinition.anInt3055;
 				int i_4_ = objectdefinition.anInt2986;
-				if ((i_2_ ^ 0xffffffff) == -2 || (i_2_ ^ 0xffffffff) == -4) {
+				if (i_2_ == 1 || i_2_ == 3) {
 					i_4_ = objectdefinition.anInt3055;
 					i_3_ = objectdefinition.anInt2986;
 				}
@@ -123,8 +123,8 @@ public class Class262_Sub1 extends Class262
 			f_17_ *= f_8_;
 		}
 		float f_18_ = f + (0.5F + f_15_);
-		if ((i_6_ ^ 0xffffffff) != -2) {
-			if ((i_6_ ^ 0xffffffff) != -3) {
+		if (i_6_ != 1) {
+			if (i_6_ != 2) {
 				if (i_6_ == 3) {
 					float f_19_ = f_17_;
 					f_17_ = f_18_;

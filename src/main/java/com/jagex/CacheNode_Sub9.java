@@ -36,7 +36,7 @@ public class CacheNode_Sub9 extends CacheNode
 			return false;
 		}
 		anInt9513++;
-		if ((0x400 & i_0_ ^ 0xffffffff) == -1) {
+		if ((0x400 & i_0_) == 0) {
 			return false;
 		}
 		return true;

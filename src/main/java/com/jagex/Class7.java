@@ -24,9 +24,9 @@ public class Class7
 		if (i_0_ >= -119) {
 			method180(-41, null, -52);
 		}
-		if ((i ^ 0xffffffff) == -2) {
+		if (i == 1) {
 			anInt150 = buffer.method2219(-130546744);
-		} else if ((i ^ 0xffffffff) != -3) {
+		} else if (i != 2) {
 			if (i == 3) {
 				anInt152 = buffer.method2193(-127);
 				anInt158 = buffer.method2193(-73);
@@ -35,7 +35,7 @@ public class Class7
 				anInt156 = buffer.method2233(255);
 			} else if (i == 5) {
 				anInt151 = buffer.method2219(-130546744);
-			} else if ((i ^ 0xffffffff) != -7) {
+			} else if (i != 6) {
 				if (i == 7) {
 					anInt155 = buffer.method2193(-52);
 					anInt161 = buffer.method2193(-41);
@@ -69,7 +69,7 @@ public class Class7
 		}
 		for (;;) {
 			int i_3_ = buffer.method2233(255);
-			if ((i_3_ ^ 0xffffffff) == -1) {
+			if (i_3_ == 0) {
 				break;
 			}
 			method180(i_3_, buffer, -121);

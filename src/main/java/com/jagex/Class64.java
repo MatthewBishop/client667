@@ -29,7 +29,7 @@ public class Class64 implements Interface6
 			method712(55);
 		}
 		anInt5035++;
-		if ((Class52.anInt800 ^ 0xffffffff) != -1) {
+		if (Class52.anInt800 != 0) {
 			Class17.anInt282 = i;
 		} else {
 			Class307.aNode_Sub9_Sub1_3902.method2439(b ^ 0x3133, i);
@@ -100,7 +100,7 @@ public class Class64 implements Interface6
 		}
 		if (class131 != null) {
 			aClass131_5043 = class131;
-			if (anInt5041 != aClass131_5043.anInt5446 || (aClass131_5043.anInt5445 ^ 0xffffffff) != (anInt5037 ^ 0xffffffff)) {
+			if (anInt5041 != aClass131_5043.anInt5446 || anInt5037 != aClass131_5043.anInt5445) {
 				throw new RuntimeException();
 			}
 			aFloatArray5049 = aClass131_5043.aFloatArray5444;

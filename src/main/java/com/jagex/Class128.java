@@ -30,12 +30,12 @@ public class Class128
 	
 	static final void method1544(int i, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_) {
 		anInt1653++;
-		if ((i_3_ ^ 0xffffffff) <= -2 && (i ^ 0xffffffff) <= -2 && (-2 + Node_Sub54.anInt7675 ^ 0xffffffff) <= (i_3_ ^ 0xffffffff) && (-2 + Class377_Sub1.anInt8774 ^ 0xffffffff) <= (i ^ 0xffffffff)) {
+		if (i_3_ >= 1 && i >= 1 && i_3_ <= -2 + Node_Sub54.anInt7675 && i <= -2 + Class377_Sub1.anInt8774) {
 			int i_9_ = i_6_;
 			if (i_9_ < 3 && Class238.method3021(i, i_3_, 106)) {
 				i_9_++;
 			}
-			if ((Class213.aNode_Sub27_2512.aClass320_Sub19_7301.method3751(false) ^ 0xffffffff) == -1 && !Class369.method4085(i, 0, Class94.anInt1249, i_3_, i_9_) || Class175.aClass261ArrayArrayArray2099 == null) {
+			if (Class213.aNode_Sub27_2512.aClass320_Sub19_7301.method3751(false) == 0 && !Class369.method4085(i, 0, Class94.anInt1249, i_3_, i_9_) || Class175.aClass261ArrayArrayArray2099 == null) {
 				return;
 			}
 			Node_Sub38_Sub1.aClass277_Sub1_10084.method3359(i_5_, (byte) 102, i, Class304.aClass84Array3833[i_6_], i_6_, i_3_, Class93.aGraphicsToolkit1241);
@@ -75,7 +75,7 @@ public class Class128
 			return true;
 		}
 		ObjectDefinition objectdefinition = Class186.aClass112_2256.method1145(i, 61);
-		if ((i_14_ ^ 0xffffffff) <= -6 && (i_14_ ^ 0xffffffff) >= -9) {
+		if (i_14_ >= 5 && i_14_ <= 8) {
 			i_14_ = 4;
 		}
 		return objectdefinition.method3041(i_14_, 31);

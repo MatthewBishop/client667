@@ -81,11 +81,11 @@ public class Class42_Sub1 extends Class42
 		Mixer.Info[] infos = AudioSystem.getMixerInfo();
 		if (null != infos) {
 			Mixer.Info[] infos_2_ = infos;
-			for (int i = 0; (i ^ 0xffffffff) > (infos_2_.length ^ 0xffffffff); i++) {
+			for (int i = 0; infos_2_.length > i; i++) {
 				Mixer.Info info = infos_2_[i];
 				if (null != info) {
 					String string = info.getName();
-					if (null != string && (string.toLowerCase().indexOf("soundmax") ^ 0xffffffff) <= -1) {
+					if (null != string && string.toLowerCase().indexOf("soundmax") >= 0) {
 						aBoolean5554 = true;
 					}
 				}

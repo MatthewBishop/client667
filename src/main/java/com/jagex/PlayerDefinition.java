@@ -37,7 +37,7 @@ public class PlayerDefinition
 			aLong3440 = aLong3440 >>> 8 ^ ls[(int) ((aLong3440 ^ (long) anIntArray3435[i_0_]) & 0xffL)];
 		}
 		if (aClass38Array3431 != null) {
-			for (int i_1_ = 0; (i_1_ ^ 0xffffffff) > (aClass38Array3431.length ^ 0xffffffff); i_1_++) {
+			for (int i_1_ = 0; aClass38Array3431.length > i_1_; i_1_++) {
 				if (aClass38Array3431[i_1_] != null) {
 					int[] is;
 					int[] is_2_;
@@ -55,19 +55,19 @@ public class PlayerDefinition
 						}
 					}
 					if (is != null) {
-						for (int i_4_ = 0; (i_4_ ^ 0xffffffff) > (is.length ^ 0xffffffff); i_4_++) {
+						for (int i_4_ = 0; is.length > i_4_; i_4_++) {
 							aLong3440 = aLong3440 >>> 8 ^ ls[(int) (0xffL & (aLong3440 ^ (long) (is[i_4_] >> 8)))];
 							aLong3440 = aLong3440 >>> 8 ^ ls[(int) ((aLong3440 ^ (long) is[i_4_]) & 0xffL)];
 						}
 					}
 					if (aClass38Array3431[i_1_].aShortArray567 != null) {
-						for (int i_5_ = 0; (aClass38Array3431[i_1_].aShortArray567.length ^ 0xffffffff) < (i_5_ ^ 0xffffffff); i_5_++) {
+						for (int i_5_ = 0; i_5_ < aClass38Array3431[i_1_].aShortArray567.length; i_5_++) {
 							aLong3440 = aLong3440 >>> 8 ^ ls[(int) (((long) (aClass38Array3431[i_1_].aShortArray567[i_5_] >> 8) ^ aLong3440) & 0xffL)];
 							aLong3440 = aLong3440 >>> 8 ^ ls[(int) (0xffL & ((long) aClass38Array3431[i_1_].aShortArray567[i_5_] ^ aLong3440))];
 						}
 					}
 					if (aClass38Array3431[i_1_].aShortArray563 != null) {
-						for (int i_6_ = 0; (aClass38Array3431[i_1_].aShortArray563.length ^ 0xffffffff) < (i_6_ ^ 0xffffffff); i_6_++) {
+						for (int i_6_ = 0; i_6_ < aClass38Array3431[i_1_].aShortArray563.length; i_6_++) {
 							aLong3440 = aLong3440 >>> 8 ^ ls[(int) (0xffL & (aLong3440 ^ (long) (aClass38Array3431[i_1_].aShortArray563[i_6_] >> 8)))];
 							aLong3440 = ls[(int) (((long) aClass38Array3431[i_1_].aShortArray563[i_6_] ^ aLong3440) & 0xffL)] ^ aLong3440 >>> 8;
 						}
@@ -75,7 +75,7 @@ public class PlayerDefinition
 				}
 			}
 		}
-		for (int i_7_ = 0; (i_7_ ^ 0xffffffff) > -11; i_7_++)
+		for (int i_7_ = 0; i_7_ < 10; i_7_++)
 			aLong3440 = aLong3440 >>> 8 ^ ls[(int) (0xffL & ((long) anIntArray3430[i_7_] ^ aLong3440))];
 		aLong3440 = ls[(int) (0xffL & ((long) (aBoolean3434 ? 1 : 0) ^ aLong3440))] ^ aLong3440 >>> 8;
 	}
@@ -117,14 +117,14 @@ public class PlayerDefinition
 		boolean bool_17_ = false;
 		if (animator != null) {
 			Class48 class48 = animator.method243((byte) -24);
-			if (class48 != null && (class48.anInt716 >= 0 || (class48.anInt713 ^ 0xffffffff) <= -1)) {
+			if (class48 != null && (class48.anInt716 >= 0 || class48.anInt713 >= 0)) {
 				is_15_ = new int[anIntArray3435.length];
-				for (int i_18_ = 0; (i_18_ ^ 0xffffffff) > (is_15_.length ^ 0xffffffff); i_18_++)
+				for (int i_18_ = 0; is_15_.length > i_18_; i_18_++)
 					is_15_[i_18_] = anIntArray3435[i_18_];
-				if (class48.anInt716 >= 0 && (class363.anInt4506 ^ 0xffffffff) != 0) {
-					if ((class48.anInt716 ^ 0xffffffff) == -65536) {
+				if (class48.anInt716 >= 0 && class363.anInt4506 != -1) {
+					if (class48.anInt716 == 65535) {
 						is_15_[class363.anInt4506] = 0;
-						for (int i_19_ = 0; (class363.anIntArray4501.length ^ 0xffffffff) < (i_19_ ^ 0xffffffff); i_19_++)
+						for (int i_19_ = 0; i_19_ < class363.anIntArray4501.length; i_19_++)
 							is_15_[class363.anIntArray4501[i_19_]] = 0;
 						l ^= ~0xffffffffL;
 					} else {
@@ -135,7 +135,7 @@ public class PlayerDefinition
 					}
 					bool_16_ = true;
 				}
-				if ((class48.anInt713 ^ 0xffffffff) <= -1 && class363.anInt4504 != -1) {
+				if (class48.anInt713 >= 0 && class363.anInt4504 != -1) {
 					bool_17_ = true;
 					if (class48.anInt713 != 65535) {
 						is_15_[class363.anInt4504] = Node_Sub16.method2590(class48.anInt713, 1073741824);
@@ -144,7 +144,7 @@ public class PlayerDefinition
 						l ^= (long) is_15_[class363.anInt4504];
 					} else {
 						is_15_[class363.anInt4504] = 0;
-						for (int i_22_ = 0; (class363.anIntArray4507.length ^ 0xffffffff) < (i_22_ ^ 0xffffffff); i_22_++)
+						for (int i_22_ = 0; i_22_ < class363.anIntArray4507.length; i_22_++)
 							is_15_[class363.anIntArray4507[i_22_]] = 0;
 						l ^= 0xffffffffL;
 					}
@@ -170,7 +170,7 @@ public class PlayerDefinition
 		boolean bool_26_ = false;
 		if (is != null) {
 			for (int i_27_ = 0; i_27_ < is.length; i_27_++) {
-				if ((is[i_27_] ^ 0xffffffff) != 0) {
+				if (is[i_27_] != -1) {
 					bool_26_ = true;
 					i_14_ |= 0x20;
 				}
@@ -181,23 +181,23 @@ public class PlayerDefinition
 			drawablemodel = (DrawableModel) Node_Sub36_Sub4.aClass61_10065.method607(l, 0);
 		}
 		Class259 class259 = null;
-		if ((anInt3429 ^ 0xffffffff) != 0) {
+		if (anInt3429 != -1) {
 			class259 = class281.method3383((byte) 102, anInt3429);
 		}
-		if (drawablemodel == null || (graphicstoolkit.b(drawablemodel.ua(), i_14_) ^ 0xffffffff) != -1) {
+		if (drawablemodel == null || graphicstoolkit.b(drawablemodel.ua(), i_14_) != 0) {
 			if (drawablemodel != null) {
 				i_14_ = graphicstoolkit.c(i_14_, drawablemodel.ua());
 			}
 			int i_28_ = i_14_;
 			boolean bool_29_ = false;
-			for (int i_30_ = 0; (i_30_ ^ 0xffffffff) > (is_15_.length ^ 0xffffffff); i_30_++) {
+			for (int i_30_ = 0; is_15_.length > i_30_; i_30_++) {
 				int i_31_ = is_15_[i_30_];
 				Class38 class38 = null;
 				boolean bool_32_ = false;
 				if (bool_16_) {
 					if (class363.anInt4506 != i_30_) {
-						for (int i_33_ = 0; (class363.anIntArray4501.length ^ 0xffffffff) < (i_33_ ^ 0xffffffff); i_33_++) {
-							if ((i_30_ ^ 0xffffffff) == (class363.anIntArray4501[i_33_] ^ 0xffffffff)) {
+						for (int i_33_ = 0; i_33_ < class363.anIntArray4501.length; i_33_++) {
+							if (class363.anIntArray4501[i_33_] == i_30_) {
 								bool_32_ = true;
 								break;
 							}
@@ -208,7 +208,7 @@ public class PlayerDefinition
 				}
 				if (bool_17_) {
 					if (class363.anInt4504 != i_30_) {
-						for (int i_34_ = 0; (class363.anIntArray4507.length ^ 0xffffffff) < (i_34_ ^ 0xffffffff); i_34_++) {
+						for (int i_34_ = 0; i_34_ < class363.anIntArray4507.length; i_34_++) {
 							if (class363.anIntArray4507[i_34_] == i_30_) {
 								bool_32_ = true;
 								break;
@@ -232,7 +232,7 @@ public class PlayerDefinition
 				}
 			}
 			if (bool_29_) {
-				if ((aLong3436 ^ 0xffffffffffffffffL) != 0L) {
+				if (aLong3436 != -1) {
 					synchronized (Node_Sub36_Sub4.aClass61_10065) {
 						drawablemodel = (DrawableModel) Node_Sub36_Sub4.aClass61_10065.method607(aLong3436, 0);
 					}
@@ -242,7 +242,7 @@ public class PlayerDefinition
 				}
 			} else {
 				Model[] models = new Model[is_15_.length];
-				for (int i_35_ = 0; (is_15_.length ^ 0xffffffff) < (i_35_ ^ 0xffffffff); i_35_++) {
+				for (int i_35_ = 0; i_35_ < is_15_.length; i_35_++) {
 					int i_36_ = is_15_[i_35_];
 					Class38 class38 = null;
 					boolean bool_37_ = i_35_ == 5 && bool_16_ || i_35_ == 3 && bool_17_;
@@ -280,7 +280,7 @@ public class PlayerDefinition
 								i_43_ = class259.anIntArrayArray3273[i_38_][4] << 3;
 								i_42_ = class259.anIntArrayArray3273[i_38_][3] << 3;
 							}
-							if ((i_42_ ^ 0xffffffff) != -1 || i_43_ != 0 || (i_44_ ^ 0xffffffff) != -1) {
+							if (i_42_ != 0 || i_43_ != 0 || i_44_ != 0) {
 								models[i_38_].method2085(i_44_, i_42_, -120, i_43_);
 							}
 							if (i_39_ != 0 || i_40_ != 0 || i_41_ != 0) {
@@ -293,7 +293,7 @@ public class PlayerDefinition
 				Model model = new Model(models, models.length);
 				drawablemodel = graphicstoolkit.a(model, i_28_, Class157.anInt1972, 64, 850);
 				for (int i_45_ = 0; i_45_ < 10; i_45_++) {
-					for (int i_46_ = 0; (i_46_ ^ 0xffffffff) > (Class45.aShortArrayArray5265[i_45_].length ^ 0xffffffff); i_46_++) {
+					for (int i_46_ = 0; Class45.aShortArrayArray5265[i_45_].length > i_46_; i_46_++) {
 						if (Class117_Sub2.aShortArrayArrayArray5151[i_45_][i_46_].length > anIntArray3430[i_45_]) {
 							drawablemodel.ia(Class45.aShortArrayArray5265[i_45_][i_46_], Class117_Sub2.aShortArrayArrayArray5151[i_45_][i_46_][anIntArray3430[i_45_]]);
 						}
@@ -317,7 +317,7 @@ public class PlayerDefinition
 			class336s = class259.method3131(3, graphicstoolkit);
 		}
 		if (bool_26_ && class336s != null) {
-			for (int i_48_ = 0; (i_48_ ^ 0xffffffff) > (is.length ^ 0xffffffff); i_48_++) {
+			for (int i_48_ = 0; is.length > i_48_; i_48_++) {
 				if (class336s[i_48_] != null) {
 					drawablemodel_47_.method630(class336s[i_48_], 1 << i_48_, true);
 				}
@@ -325,7 +325,7 @@ public class PlayerDefinition
 		}
 		int i_49_ = 0;
 		int i_50_ = 1;
-		while ((i_49_ ^ 0xffffffff) > (i_24_ ^ 0xffffffff)) {
+		while (i_24_ > i_49_) {
 			if (animators[i_49_] != null) {
 				animators[i_49_].method246(i_50_, 0, true, drawablemodel_47_);
 			}
@@ -334,7 +334,7 @@ public class PlayerDefinition
 		}
 		if (bool_26_) {
 			for (int i_51_ = 0; is.length > i_51_; i_51_++) {
-				if ((is[i_51_] ^ 0xffffffff) != 0) {
+				if (is[i_51_] != -1) {
 					int i_52_ = -i_12_ + is[i_51_];
 					i_52_ &= 0x3fff;
 					Class336 class336 = graphicstoolkit.y();
@@ -344,7 +344,7 @@ public class PlayerDefinition
 			}
 		}
 		if (bool_26_ && class336s != null) {
-			for (int i_53_ = 0; (i_53_ ^ 0xffffffff) > (is.length ^ 0xffffffff); i_53_++) {
+			for (int i_53_ = 0; is.length > i_53_; i_53_++) {
 				if (class336s[i_53_] != null) {
 					drawablemodel_47_.method630(class336s[i_53_], 1 << i_53_, false);
 				}
@@ -421,7 +421,7 @@ public class PlayerDefinition
 			i_61_ |= 0x4000;
 			model = new Model(models, i_62_);
 			drawablemodel = graphicstoolkit.a(model, i_61_, Class157.anInt1972, 64, 768);
-			for (int i_63_ = 0; (i_63_ ^ 0xffffffff) > -11; i_63_++) {
+			for (int i_63_ = 0; i_63_ < 10; i_63_++) {
 				for (int i_64_ = 0; Class45.aShortArrayArray5265[i_63_].length > i_64_; i_64_++) {
 					if (anIntArray3430[i_63_] < Class117_Sub2.aShortArrayArrayArray5151[i_63_][i_64_].length) {
 						drawablemodel.ia(Class45.aShortArrayArray5265[i_63_][i_64_], Class117_Sub2.aShortArrayArrayArray5151[i_63_][i_64_][anIntArray3430[i_63_]]);
@@ -455,7 +455,7 @@ public class PlayerDefinition
 	
 	final DrawableModel method3285(Class181 class181, byte b, Class37 class37, Interface17 interface17, Animator animator, Class86 class86, Class279 class279, GraphicsToolkit graphicstoolkit, int i) {
 		anInt3428++;
-		if ((anInt3439 ^ 0xffffffff) != 0) {
+		if (anInt3439 != -1) {
 			return class279.method3376(anInt3439, (byte) 107).method3006(i, animator, null, 412761072, graphicstoolkit, interface17);
 		}
 		int i_68_ = animator == null ? i : i | animator.method237((byte) -126);
@@ -463,7 +463,7 @@ public class PlayerDefinition
 		synchronized (CacheNode_Sub3.aClass61_9446) {
 			drawablemodel = (DrawableModel) CacheNode_Sub3.aClass61_9446.method607(aLong3440, b + 82);
 		}
-		if (drawablemodel == null || (graphicstoolkit.b(drawablemodel.ua(), i_68_) ^ 0xffffffff) != -1) {
+		if (drawablemodel == null || graphicstoolkit.b(drawablemodel.ua(), i_68_) != 0) {
 			if (drawablemodel != null) {
 				i_68_ = graphicstoolkit.c(i_68_, drawablemodel.ua());
 			}
@@ -472,7 +472,7 @@ public class PlayerDefinition
 			for (int i_70_ = 0; anIntArray3435.length > i_70_; i_70_++) {
 				int i_71_ = anIntArray3435[i_70_];
 				Class38 class38 = null;
-				if ((i_71_ & 0x40000000 ^ 0xffffffff) != -1) {
+				if ((i_71_ & 0x40000000) != 0) {
 					if (aClass38Array3431 != null && aClass38Array3431[i_70_] != null) {
 						class38 = aClass38Array3431[i_70_];
 					}
@@ -499,7 +499,7 @@ public class PlayerDefinition
 					if (model != null) {
 						models[i_72_++] = model;
 					}
-				} else if ((~0x7fffffff & i_74_ ^ 0xffffffff) != -1) {
+				} else if ((~0x7fffffff & i_74_) != 0) {
 					Model model = class181.method1825(0x3fffffff & i_74_, (byte) 117).method3227((byte) 29);
 					if (model != null) {
 						models[i_72_++] = model;

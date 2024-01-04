@@ -17,14 +17,14 @@ public class Node_Sub38_Sub18 extends Node_Sub38
 		int i_0_ = i;
 		do {
 			if (i_0_ != 0) {
-				if ((i_0_ ^ 0xffffffff) != -2) {
+				if (i_0_ != 1) {
 					break;
 				}
 			} else {
 				anInt10278 = buffer.method2233(255);
 				break;
 			}
-			aBoolean7463 = (buffer.method2233(255) ^ 0xffffffff) == -2;
+			aBoolean7463 = buffer.method2233(255) == 1;
 		} while (false);
 		if (bool != false) {
 			aClass192_10277 = null;
@@ -63,17 +63,17 @@ public class Node_Sub38_Sub18 extends Node_Sub38
 												do {
 													do {
 														if (i_4_ != 1) {
-															if ((i_4_ ^ 0xffffffff) != -3) {
+															if (i_4_ != 2) {
 																if (i_4_ != 3) {
 																	if (i_4_ != 4) {
 																		if (i_4_ != 5) {
 																			if (i_4_ != 6) {
-																				if ((i_4_ ^ 0xffffffff) != -8) {
-																					if ((i_4_ ^ 0xffffffff) != -9) {
+																				if (i_4_ != 7) {
+																					if (i_4_ != 8) {
 																						if (i_4_ != 9) {
 																							if (i_4_ != 10) {
-																								if ((i_4_ ^ 0xffffffff) != -12) {
-																									if ((i_4_ ^ 0xffffffff) != -13) {
+																								if (i_4_ != 11) {
+																									if (i_4_ != 12) {
 																										break while_170_;
 																									}
 																								} else {
@@ -102,7 +102,7 @@ public class Node_Sub38_Sub18 extends Node_Sub38
 																break while_161_;
 															}
 														} else {
-															for (i_4_ = 0; (i_4_ ^ 0xffffffff) > (Class339_Sub7.anInt8728 ^ 0xffffffff); i_4_++)
+															for (i_4_ = 0; Class339_Sub7.anInt8728 > i_4_; i_4_++)
 																is[i_4_] = is_2_[i_4_] - -is_3_[i_4_];
 															break while_170_;
 														}
@@ -114,19 +114,19 @@ public class Node_Sub38_Sub18 extends Node_Sub38
 														is[i_4_] = is_3_[i_4_] * is_2_[i_4_] >> 12;
 													break while_170_;
 												} while (false);
-												for (i_4_ = 0; (i_4_ ^ 0xffffffff) > (Class339_Sub7.anInt8728 ^ 0xffffffff); i_4_++) {
+												for (i_4_ = 0; Class339_Sub7.anInt8728 > i_4_; i_4_++) {
 													int i_5_ = is_3_[i_4_];
 													is[i_4_] = i_5_ == 0 ? 4096 : (is_2_[i_4_] << 12) / i_5_;
 												}
 												break while_170_;
 											} while (false);
-											for (i_4_ = 0; (i_4_ ^ 0xffffffff) > (Class339_Sub7.anInt8728 ^ 0xffffffff); i_4_++)
+											for (i_4_ = 0; Class339_Sub7.anInt8728 > i_4_; i_4_++)
 												is[i_4_] = -((4096 + -is_3_[i_4_]) * (-is_2_[i_4_] + 4096) >> 12) + 4096;
 											break while_170_;
 										} while (false);
-										for (i_4_ = 0; (i_4_ ^ 0xffffffff) > (Class339_Sub7.anInt8728 ^ 0xffffffff); i_4_++) {
+										for (i_4_ = 0; Class339_Sub7.anInt8728 > i_4_; i_4_++) {
 											int i_6_ = is_3_[i_4_];
-											is[i_4_] = (i_6_ ^ 0xffffffff) > -2049 ? i_6_ * is_2_[i_4_] >> 11 : 4096 - ((-i_6_ + 4096) * (-is_2_[i_4_] + 4096) >> 11);
+											is[i_4_] = i_6_ < 2048 ? i_6_ * is_2_[i_4_] >> 11 : 4096 - ((-i_6_ + 4096) * (-is_2_[i_4_] + 4096) >> 11);
 										}
 										break while_170_;
 									} while (false);
@@ -138,21 +138,21 @@ public class Node_Sub38_Sub18 extends Node_Sub38
 								} while (false);
 								for (i_4_ = 0; i_4_ < Class339_Sub7.anInt8728; i_4_++) {
 									int i_8_ = is_2_[i_4_];
-									is[i_4_] = (i_8_ ^ 0xffffffff) == -1 ? 0 : 4096 - (4096 + -is_3_[i_4_] << 12) / i_8_;
+									is[i_4_] = i_8_ == 0 ? 0 : 4096 - (4096 + -is_3_[i_4_] << 12) / i_8_;
 								}
 								break while_170_;
 							} while (false);
-							for (i_4_ = 0; (i_4_ ^ 0xffffffff) > (Class339_Sub7.anInt8728 ^ 0xffffffff); i_4_++) {
+							for (i_4_ = 0; Class339_Sub7.anInt8728 > i_4_; i_4_++) {
 								int i_9_ = is_2_[i_4_];
 								int i_10_ = is_3_[i_4_];
-								is[i_4_] = (i_10_ ^ 0xffffffff) < (i_9_ ^ 0xffffffff) ? i_9_ : i_10_;
+								is[i_4_] = i_9_ < i_10_ ? i_9_ : i_10_;
 							}
 							break while_170_;
 						} while (false);
-						for (i_4_ = 0; (Class339_Sub7.anInt8728 ^ 0xffffffff) < (i_4_ ^ 0xffffffff); i_4_++) {
+						for (i_4_ = 0; i_4_ < Class339_Sub7.anInt8728; i_4_++) {
 							int i_11_ = is_3_[i_4_];
 							int i_12_ = is_2_[i_4_];
-							is[i_4_] = (i_11_ ^ 0xffffffff) > (i_12_ ^ 0xffffffff) ? i_12_ : i_11_;
+							is[i_4_] = i_12_ > i_11_ ? i_12_ : i_11_;
 						}
 						break while_170_;
 					} while (false);
@@ -163,7 +163,7 @@ public class Node_Sub38_Sub18 extends Node_Sub38
 					}
 					break while_170_;
 				} while (false);
-				for (i_4_ = 0; (i_4_ ^ 0xffffffff) > (Class339_Sub7.anInt8728 ^ 0xffffffff); i_4_++) {
+				for (i_4_ = 0; Class339_Sub7.anInt8728 > i_4_; i_4_++) {
 					int i_15_ = is_3_[i_4_];
 					int i_16_ = is_2_[i_4_];
 					is[i_4_] = i_16_ + (i_15_ + -(i_16_ * i_15_ >> 11));
@@ -214,16 +214,16 @@ public class Node_Sub38_Sub18 extends Node_Sub38
 												do {
 													do {
 														if (i_28_ != 1) {
-															if ((i_28_ ^ 0xffffffff) != -3) {
+															if (i_28_ != 2) {
 																if (i_28_ != 3) {
-																	if ((i_28_ ^ 0xffffffff) != -5) {
+																	if (i_28_ != 4) {
 																		if (i_28_ != 5) {
 																			if (i_28_ != 6) {
-																				if ((i_28_ ^ 0xffffffff) != -8) {
+																				if (i_28_ != 7) {
 																					if (i_28_ != 8) {
-																						if ((i_28_ ^ 0xffffffff) != -10) {
-																							if ((i_28_ ^ 0xffffffff) != -11) {
-																								if ((i_28_ ^ 0xffffffff) != -12) {
+																						if (i_28_ != 9) {
+																							if (i_28_ != 10) {
+																								if (i_28_ != 11) {
 																									if (i_28_ != 12) {
 																										break while_180_;
 																									}
@@ -260,7 +260,7 @@ public class Node_Sub38_Sub18 extends Node_Sub38
 															}
 															break while_180_;
 														}
-														for (i_28_ = 0; (Class339_Sub7.anInt8728 ^ 0xffffffff) < (i_28_ ^ 0xffffffff); i_28_++) {
+														for (i_28_ = 0; i_28_ < Class339_Sub7.anInt8728; i_28_++) {
 															is_19_[i_28_] = -is_25_[i_28_] + is_22_[i_28_];
 															is_20_[i_28_] = -is_26_[i_28_] + is_23_[i_28_];
 															is_21_[i_28_] = -is_27_[i_28_] + is_24_[i_28_];
@@ -297,7 +297,7 @@ public class Node_Sub38_Sub18 extends Node_Sub38
 											int i_34_ = is_26_[i_28_];
 											is_19_[i_28_] = i_32_ >= 2048 ? -((-i_32_ + 4096) * (4096 + -is_22_[i_28_]) >> 11) + 4096 : i_32_ * is_22_[i_28_] >> 11;
 											is_20_[i_28_] = i_34_ < 2048 ? is_23_[i_28_] * i_34_ >> 11 : -((-i_34_ + 4096) * (-is_23_[i_28_] + 4096) >> 11) + 4096;
-											is_21_[i_28_] = (i_33_ ^ 0xffffffff) <= -2049 ? -((4096 - i_33_) * (4096 + -is_24_[i_28_]) >> 11) + 4096 : i_33_ * is_24_[i_28_] >> 11;
+											is_21_[i_28_] = i_33_ >= 2048 ? -((4096 - i_33_) * (4096 + -is_24_[i_28_]) >> 11) + 4096 : i_33_ * is_24_[i_28_] >> 11;
 										}
 										break while_180_;
 									} while (false);
@@ -305,23 +305,23 @@ public class Node_Sub38_Sub18 extends Node_Sub38
 										int i_35_ = is_24_[i_28_];
 										int i_36_ = is_23_[i_28_];
 										int i_37_ = is_22_[i_28_];
-										is_19_[i_28_] = (i_37_ ^ 0xffffffff) != -4097 ? (is_25_[i_28_] << 12) / (4096 + -i_37_) : 4096;
+										is_19_[i_28_] = i_37_ != 4096 ? (is_25_[i_28_] << 12) / (4096 + -i_37_) : 4096;
 										is_20_[i_28_] = i_36_ == 4096 ? 4096 : (is_26_[i_28_] << 12) / (4096 - i_36_);
-										is_21_[i_28_] = (i_35_ ^ 0xffffffff) == -4097 ? 4096 : (is_27_[i_28_] << 12) / (4096 - i_35_);
+										is_21_[i_28_] = i_35_ == 4096 ? 4096 : (is_27_[i_28_] << 12) / (4096 - i_35_);
 									}
 									break while_180_;
 								} while (false);
-								for (i_28_ = 0; (i_28_ ^ 0xffffffff) > (Class339_Sub7.anInt8728 ^ 0xffffffff); i_28_++) {
+								for (i_28_ = 0; Class339_Sub7.anInt8728 > i_28_; i_28_++) {
 									int i_38_ = is_24_[i_28_];
 									int i_39_ = is_22_[i_28_];
 									int i_40_ = is_23_[i_28_];
 									is_19_[i_28_] = i_39_ == 0 ? 0 : -((-is_25_[i_28_] + 4096 << 12) / i_39_) + 4096;
-									is_20_[i_28_] = (i_40_ ^ 0xffffffff) != -1 ? 4096 + -((-is_26_[i_28_] + 4096 << 12) / i_40_) : 0;
-									is_21_[i_28_] = (i_38_ ^ 0xffffffff) != -1 ? -((4096 + -is_27_[i_28_] << 12) / i_38_) + 4096 : 0;
+									is_20_[i_28_] = i_40_ != 0 ? 4096 + -((-is_26_[i_28_] + 4096 << 12) / i_40_) : 0;
+									is_21_[i_28_] = i_38_ != 0 ? -((4096 + -is_27_[i_28_] << 12) / i_38_) + 4096 : 0;
 								}
 								break while_180_;
 							} while (false);
-							for (i_28_ = 0; (Class339_Sub7.anInt8728 ^ 0xffffffff) < (i_28_ ^ 0xffffffff); i_28_++) {
+							for (i_28_ = 0; i_28_ < Class339_Sub7.anInt8728; i_28_++) {
 								int i_41_ = is_23_[i_28_];
 								int i_42_ = is_26_[i_28_];
 								int i_43_ = is_24_[i_28_];
@@ -341,8 +341,8 @@ public class Node_Sub38_Sub18 extends Node_Sub38
 							int i_50_ = is_25_[i_28_];
 							int i_51_ = is_24_[i_28_];
 							int i_52_ = is_23_[i_28_];
-							is_19_[i_28_] = (i_48_ ^ 0xffffffff) < (i_50_ ^ 0xffffffff) ? i_48_ : i_50_;
-							is_20_[i_28_] = (i_49_ ^ 0xffffffff) > (i_52_ ^ 0xffffffff) ? i_52_ : i_49_;
+							is_19_[i_28_] = i_50_ < i_48_ ? i_48_ : i_50_;
+							is_20_[i_28_] = i_52_ > i_49_ ? i_52_ : i_49_;
 							is_21_[i_28_] = i_51_ <= i_47_ ? i_47_ : i_51_;
 						}
 						break while_180_;
@@ -356,11 +356,11 @@ public class Node_Sub38_Sub18 extends Node_Sub38
 						int i_58_ = is_27_[i_28_];
 						is_19_[i_28_] = i_53_ < i_57_ ? i_57_ + -i_53_ : i_53_ - i_57_;
 						is_20_[i_28_] = i_55_ >= i_54_ ? i_55_ - i_54_ : i_54_ + -i_55_;
-						is_21_[i_28_] = (i_56_ ^ 0xffffffff) >= (i_58_ ^ 0xffffffff) ? i_58_ - i_56_ : i_56_ - i_58_;
+						is_21_[i_28_] = i_58_ >= i_56_ ? i_58_ - i_56_ : i_56_ - i_58_;
 					}
 					break while_180_;
 				} while (false);
-				for (i_28_ = 0; (i_28_ ^ 0xffffffff) > (Class339_Sub7.anInt8728 ^ 0xffffffff); i_28_++) {
+				for (i_28_ = 0; Class339_Sub7.anInt8728 > i_28_; i_28_++) {
 					int i_59_ = is_23_[i_28_];
 					int i_60_ = is_26_[i_28_];
 					int i_61_ = is_27_[i_28_];

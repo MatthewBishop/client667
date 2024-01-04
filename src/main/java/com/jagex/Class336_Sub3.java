@@ -218,7 +218,7 @@ public class Class336_Sub3 extends Class336
 	}
 	
 	final void method3897(byte b, int i, float f, int i_39_, int i_40_, float f_41_, float f_42_) {
-		if ((i_39_ ^ 0xffffffff) != -1) {
+		if (i_39_ != 0) {
 			float f_43_ = GameStub.aFloatArray39[i_39_ & 0x3fff];
 			float f_44_ = GameStub.aFloatArray42[i_39_ & 0x3fff];
 			aFloat8607 = f_43_ * (float) i_40_;

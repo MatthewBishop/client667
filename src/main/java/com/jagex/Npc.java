@@ -82,9 +82,9 @@ public class Npc extends Actor
 		class336.method3860(i_3_);
 		class336.method3863(anInt5934, anInt5937, anInt5940);
 		boolean bool_4_ = bool;
-		for (int i_5_ = 0; (i_5_ ^ 0xffffffff) > (aDrawableModelArray10909.length ^ 0xffffffff); i_5_++) {
+		for (int i_5_ = 0; aDrawableModelArray10909.length > i_5_; i_5_++) {
 			if (aDrawableModelArray10909[i_5_] != null) {
-				boolean bool_6_ = (aNpcDefinition11122.anInt2831 ^ 0xffffffff) < -1 || ((aNpcDefinition11122.anInt2803 ^ 0xffffffff) == 0 ? aNpcDefinition11122.anInt2811 == 1 : (aNpcDefinition11122.anInt2803 ^ 0xffffffff) == -2);
+				boolean bool_6_ = aNpcDefinition11122.anInt2831 > 0 || (aNpcDefinition11122.anInt2803 == -1 ? aNpcDefinition11122.anInt2811 == 1 : aNpcDefinition11122.anInt2803 == 1);
 				boolean bool_7_;
 				if (Node_Sub15_Sub10.aBoolean9850) {
 					bool_7_ = aDrawableModelArray10909[i_5_].method621(i_2_, i, class336, bool_6_, aNpcDefinition11122.anInt2831, Class308.anInt3912);
@@ -97,7 +97,7 @@ public class Npc extends Actor
 				}
 			}
 		}
-		for (int i_8_ = 0; (i_8_ ^ 0xffffffff) > (aDrawableModelArray10909.length ^ 0xffffffff); i_8_++)
+		for (int i_8_ = 0; aDrawableModelArray10909.length > i_8_; i_8_++)
 			aDrawableModelArray10909[i_8_] = null;
 		return bool_4_;
 	}
@@ -154,7 +154,7 @@ public class Npc extends Actor
 		}
 		this.method870(graphicstoolkit, (byte) 45, false, aDrawableModelArray10909, class336);
 		if (Node_Sub15_Sub10.aBoolean9850) {
-			for (int i_12_ = 0; (i_12_ ^ 0xffffffff) > (aDrawableModelArray10909.length ^ 0xffffffff); i_12_++) {
+			for (int i_12_ = 0; aDrawableModelArray10909.length > i_12_; i_12_++) {
 				if (aDrawableModelArray10909[i_12_] != null) {
 					aDrawableModelArray10909[i_12_].method622(class336, entitynode_sub6.anEntityNode_Sub5Array5995[i_12_], Class308.anInt3912, 0);
 				}
@@ -175,7 +175,7 @@ public class Npc extends Actor
 			}
 		}
 		int i_14_ = 30 / ((i - -22) / 61);
-		for (int i_15_ = 0; (i_15_ ^ 0xffffffff) > (aDrawableModelArray10909.length ^ 0xffffffff); i_15_++) {
+		for (int i_15_ = 0; aDrawableModelArray10909.length > i_15_; i_15_++) {
 			if (aDrawableModelArray10909[i_15_] != null) {
 				aBoolean10903 |= aDrawableModelArray10909[i_15_].F();
 			}
@@ -193,10 +193,10 @@ public class Npc extends Actor
 		Animator animator_17_ = !anAnimator10860.method245(-128) || aBoolean10867 && animator != null ? null : anAnimator10860;
 		int i_18_ = class259.anInt3261;
 		int i_19_ = class259.anInt3266;
-		if ((i_18_ ^ 0xffffffff) != -1 || i_19_ != 0 || class259.anInt3250 != 0 || class259.anInt3285 != 0) {
+		if (i_18_ != 0 || i_19_ != 0 || class259.anInt3250 != 0 || class259.anInt3285 != 0) {
 			i |= 0x7;
 		}
-		boolean bool_20_ = aByte10888 != 0 && anInt10895 <= Class174.anInt2092 && (Class174.anInt2092 ^ 0xffffffff) > (anInt10882 ^ 0xffffffff);
+		boolean bool_20_ = aByte10888 != 0 && anInt10895 <= Class174.anInt2092 && anInt10882 > Class174.anInt2092;
 		if (bool_20_) {
 			i |= 0x80000;
 		}
@@ -208,12 +208,12 @@ public class Npc extends Actor
 		anInt10875 = drawablemodel.fa();
 		anInt10844 = drawablemodel.ma();
 		this.method857(drawablemodel, false);
-		if ((i_18_ ^ 0xffffffff) != -1 || (i_19_ ^ 0xffffffff) != -1) {
+		if (i_18_ != 0 || i_19_ != 0) {
 			this.method865(i_21_, class259.anInt3263, class259.anInt3291, i_18_, i_19_, -119);
 			if (anInt10872 != 0) {
 				aDrawableModelArray10909[0].FA(anInt10872);
 			}
-			if ((anInt10862 ^ 0xffffffff) != -1) {
+			if (anInt10862 != 0) {
 				aDrawableModelArray10909[0].VA(anInt10862);
 			}
 			if (anInt10832 != 0) {
@@ -239,7 +239,7 @@ public class Npc extends Actor
 		anInt11125++;
 		if (aNpcDefinition11122.anIntArray2827 != null) {
 			NpcDefinition npcdefinition = aNpcDefinition11122.method2999(65535, Class24.aClass275_442);
-			if (npcdefinition != null && (npcdefinition.anInt2804 ^ 0xffffffff) != 0) {
+			if (npcdefinition != null && npcdefinition.anInt2804 != -1) {
 				return npcdefinition.anInt2804;
 			}
 		}
@@ -283,7 +283,7 @@ public class Npc extends Actor
 		}
 		if (aNpcDefinition11122.anIntArray2827 != null) {
 			NpcDefinition npcdefinition = aNpcDefinition11122.method2999(65535, Class24.aClass275_442);
-			if (npcdefinition != null && (npcdefinition.anInt2814 ^ 0xffffffff) != 0) {
+			if (npcdefinition != null && npcdefinition.anInt2814 != -1) {
 				return npcdefinition.anInt2814;
 			}
 		}
@@ -295,14 +295,14 @@ public class Npc extends Actor
 		int i_23_ = anIntArray10910[0];
 		if (b < -95) {
 			int i_24_ = anIntArray10908[0];
-			if ((i_22_ ^ 0xffffffff) == -1) {
+			if (i_22_ == 0) {
 				i_24_++;
 			}
-			if ((i_22_ ^ 0xffffffff) == -2) {
+			if (i_22_ == 1) {
 				i_24_++;
 				i_23_++;
 			}
-			if ((i_22_ ^ 0xffffffff) == -3) {
+			if (i_22_ == 2) {
 				i_23_++;
 			}
 			if (i_22_ == 3) {
@@ -312,25 +312,25 @@ public class Npc extends Actor
 			if (i_22_ == 4) {
 				i_24_--;
 			}
-			if ((i_22_ ^ 0xffffffff) == -6) {
+			if (i_22_ == 5) {
 				i_24_--;
 				i_23_--;
 			}
-			if ((i_22_ ^ 0xffffffff) == -7) {
+			if (i_22_ == 6) {
 				i_23_--;
 			}
 			if (i_22_ == 7) {
 				i_23_--;
 				i_24_++;
 			}
-			if (anAnimator10876.method245(-124) && (anAnimator10876.method243((byte) -24).anInt718 ^ 0xffffffff) == -2) {
+			if (anAnimator10876.method245(-124) && anAnimator10876.method243((byte) -24).anInt718 == 1) {
 				anIntArray10817 = null;
 				anAnimator10876.method249(true, -1);
 			}
-			for (int i_25_ = 0; (i_25_ ^ 0xffffffff) > (aClass165Array10886.length ^ 0xffffffff); i_25_++) {
-				if ((aClass165Array10886[i_25_].anInt2030 ^ 0xffffffff) != 0) {
+			for (int i_25_ = 0; aClass165Array10886.length > i_25_; i_25_++) {
+				if (aClass165Array10886[i_25_].anInt2030 != -1) {
 					Class195 class195 = Class16.aClass101_228.method1090(103, aClass165Array10886[i_25_].anInt2030);
-					if (class195.aBoolean2402 && class195.anInt2394 != -1 && (Class18.aClass37_306.method395(class195.anInt2394, (byte) -102).anInt718 ^ 0xffffffff) == -2) {
+					if (class195.aBoolean2402 && class195.anInt2394 != -1 && Class18.aClass37_306.method395(class195.anInt2394, (byte) -102).anInt718 == 1) {
 						aClass165Array10886[i_25_].anAnimator2026.method249(true, -1);
 						aClass165Array10886[i_25_].anInt2030 = -1;
 					}
@@ -359,12 +359,12 @@ public class Npc extends Actor
 		if (Class238.method3021(i_27_, i_28_, -23)) {
 			aByte5931++;
 		}
-		if (anAnimator10876.method245(-127) && (anAnimator10876.method243((byte) -24).anInt718 ^ 0xffffffff) == -2) {
+		if (anAnimator10876.method245(-127) && anAnimator10876.method243((byte) -24).anInt718 == 1) {
 			anIntArray10817 = null;
 			anAnimator10876.method249(true, -1);
 		}
 		for (int i_31_ = 0; i_31_ < aClass165Array10886.length; i_31_++) {
-			if ((aClass165Array10886[i_31_].anInt2030 ^ 0xffffffff) != 0) {
+			if (aClass165Array10886[i_31_].anInt2030 != -1) {
 				Class195 class195 = Class16.aClass101_228.method1090(i ^ 0x3d20, aClass165Array10886[i_31_].anInt2030);
 				if (class195.aBoolean2402 && class195.anInt2394 != -1 && Class18.aClass37_306.method395(class195.anInt2394, (byte) -83).anInt718 == 1) {
 					aClass165Array10886[i_31_].anAnimator2026.method249(true, -1);
@@ -375,7 +375,7 @@ public class Npc extends Actor
 		if (!bool) {
 			int i_32_ = i_28_ + -anIntArray10910[0];
 			int i_33_ = -anIntArray10908[0] + i_27_;
-			if (i_32_ >= -8 && i_32_ <= 8 && i_33_ >= -8 && (i_33_ ^ 0xffffffff) >= -9) {
+			if (i_32_ >= -8 && i_32_ <= 8 && i_33_ >= -8 && i_33_ <= 8) {
 				if (anIntArray10910.length + -1 > anInt10904) {
 					anInt10904++;
 				}
@@ -521,7 +521,7 @@ public class Npc extends Actor
 				Insets insets = Node_Sub29.aFrame7344.getInsets();
 				Node_Sub38_Sub20.aCanvas10309.setLocation(insets.left - -Class270_Sub1.anInt8033, insets.top + Class131.anInt5447);
 			}
-			if ((Class320_Sub15.anInt8355 ^ 0xffffffff) != 0) {
+			if (Class320_Sub15.anInt8355 != -1) {
 				Node_Sub29_Sub3.method2717(1, true);
 			}
 			Node_Sub36_Sub1.method2758(100);

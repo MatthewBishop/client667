@@ -93,7 +93,7 @@ public class SignLink implements Runnable
 		String[] strings = { "c:/rscache/", "/rscache/", aString3996, "c:/windows/", "c:/winnt/", "c:/", "/tmp/", "" };
 		for (int i_8_ = 0; strings.length > i_8_; i_8_++) {
 			String string_9_ = strings[i_8_];
-			if ((string_9_.length() ^ 0xffffffff) >= -1 || new File(string_9_).exists()) {
+			if (string_9_.length() <= 0 || new File(string_9_).exists()) {
 				try {
 					FileOnDisk fileondisk = new FileOnDisk(new File(string_9_, string_7_), "rw", 10000L);
 					return fileondisk;
@@ -164,7 +164,7 @@ public class SignLink implements Runnable
 			}
 		}
 		if (aFileOnDiskArray4003 != null) {
-			for (int i_10_ = 0; (aFileOnDiskArray4003.length ^ 0xffffffff) < (i_10_ ^ 0xffffffff); i_10_++) {
+			for (int i_10_ = 0; i_10_ < aFileOnDiskArray4003.length; i_10_++) {
 				if (aFileOnDiskArray4003[i_10_] != null) {
 					try {
 						aFileOnDiskArray4003[i_10_].method1098(true);
@@ -307,16 +307,16 @@ public class SignLink implements Runnable
 			}
 			try {
 				int i = class241.anInt2957;
-				if ((i ^ 0xffffffff) == -2) {
+				if (i == 1) {
 					if (Class313.method3650(false) < aLong3999) {
 						throw new IOException();
 					}
 					class241.anObject2956 = new Socket(InetAddress.getByName((String) class241.anObject2954), class241.anInt2952);
 				} else if (i != 22) {
-					if ((i ^ 0xffffffff) != -3) {
+					if (i != 2) {
 						if (i != 4) {
 							if (i != 8) {
-								if ((i ^ 0xffffffff) == -10) {
+								if (i == 9) {
 									Object[] objects = (Object[]) class241.anObject2954;
 									if (aBoolean4005 && ((Class) objects[0]).getClassLoader() == null) {
 										throw new SecurityException();
@@ -333,7 +333,7 @@ public class SignLink implements Runnable
 									if (!aBoolean4005) {
 										throw new Exception("");
 									}
-									if ((i ^ 0xffffffff) == -4) {
+									if (i == 3) {
 										if (Class313.method3650(false) < aLong3999) {
 											throw new IOException();
 										}
@@ -344,8 +344,8 @@ public class SignLink implements Runnable
 											throw new IOException();
 										}
 										class241.anObject2956 = InetAddress.getByName((String) class241.anObject2954).getAddress();
-									} else if ((i ^ 0xffffffff) != -6) {
-										if ((i ^ 0xffffffff) == -7) {
+									} else if (i != 5) {
+										if (i == 6) {
 											Frame frame = new Frame("Jagex Full Screen");
 											class241.anObject2956 = frame;
 											frame.setResizable(false);
@@ -356,11 +356,11 @@ public class SignLink implements Runnable
 											} else {
 												Class.forName("cia").getMethod("exit", new Class[0]).invoke(anObject3980, new Object[0]);
 											}
-										} else if ((i ^ 0xffffffff) == -13) {
+										} else if (i == 12) {
 											FileOnDisk fileondisk = method3630(aString3987, anInt3978, (String) class241.anObject2954, 19613);
 											class241.anObject2956 = fileondisk;
 										} else if (i != 13) {
-											if (aBoolean4005 && (i ^ 0xffffffff) == -15) {
+											if (aBoolean4005 && i == 14) {
 												int i_16_ = class241.anInt2952;
 												int i_17_ = class241.anInt2951;
 												if (aBoolean3985) {
@@ -369,10 +369,10 @@ public class SignLink implements Runnable
 													Class.forName("com.jagex.Class208").getDeclaredMethod("method2046", new Class[] { Integer.TYPE, Integer.TYPE }).invoke(anObject3990, new Object[] { new Integer(i_16_), new Integer(i_17_) });
 												}
 											} else if (aBoolean4005 && i == 15) {
-												boolean bool = (class241.anInt2952 ^ 0xffffffff) != -1;
+												boolean bool = class241.anInt2952 != 0;
 												Component component = (Component) class241.anObject2954;
 												Class.forName("com.jagex.Class208").getDeclaredMethod("method2045", new Class[] { aClass4007 == null ? aClass4007 = method3646("java.awt.Component") : aClass4007, Boolean.TYPE }).invoke(anObject3990, new Object[] { component, new Boolean(bool) });
-											} else if (!aBoolean3985 && (i ^ 0xffffffff) == -18) {
+											} else if (!aBoolean3985 && i == 17) {
 												Object[] objects = (Object[]) class241.anObject2954;
 												Class.forName("com.jagex.Class208").getDeclaredMethod("method2047", new Class[] { aClass4007 == null ? aClass4007 = method3646("java.awt.Component") : aClass4007, aClass4008 == null ? aClass4008 = method3646("[I") : aClass4008, Integer.TYPE, Integer.TYPE, aClass4009 == null ? aClass4009 = method3646("java.awt.Point") : aClass4009 }).invoke(anObject3990, new Object[] { (Component) objects[0], (int[]) objects[1], new Integer(class241.anInt2952), new Integer(class241.anInt2951), (Point) objects[2] });
 											} else if (i == 16) {
@@ -417,7 +417,7 @@ public class SignLink implements Runnable
 								class241.anObject2956 = ((Class) objects[0]).getDeclaredMethod((String) objects[1], (Class[]) objects[2]);
 							}
 						} else {
-							if ((Class313.method3650(false) ^ 0xffffffffffffffffL) > (aLong3999 ^ 0xffffffffffffffffL)) {
+							if (aLong3999 > Class313.method3650(false)) {
 								throw new IOException();
 							}
 							class241.anObject2956 = new DataInputStream(((URL) class241.anObject2954).openStream());
@@ -554,7 +554,7 @@ public class SignLink implements Runnable
 				threadgroup = threadgroup_22_;
 			Thread[] threads = new Thread[1000];
 			threadgroup.enumerate(threads);
-			for (int i_23_ = 0; (threads.length ^ 0xffffffff) < (i_23_ ^ 0xffffffff); i_23_++) {
+			for (int i_23_ = 0; i_23_ < threads.length; i_23_++) {
 				if (threads[i_23_] != null && threads[i_23_].getName().startsWith("AWT")) {
 					threads[i_23_].setPriority(1);
 				}

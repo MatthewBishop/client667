@@ -42,8 +42,8 @@ abstract class Class10
 		for (;;) {
 			int i_3_ = buffer.method2233(255);
 			int i_4_ = i_3_;
-			if ((i_4_ ^ 0xffffffff) != -1) {
-				if ((i_4_ ^ 0xffffffff) == -256) {
+			if (i_4_ != 0) {
+				if (i_4_ == 255) {
 					break;
 				}
 			} else {

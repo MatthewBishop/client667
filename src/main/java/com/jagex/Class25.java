@@ -19,13 +19,13 @@ public class Class25
 		int i_3_ = ((int) l & 0x3b48d1) >> 20;
 		if (i < -4) {
 			int i_4_ = 0x7fffffff & (int) (l >>> 32);
-			if (i_2_ != 10 && i_2_ != 11 && (i_2_ ^ 0xffffffff) != -23) {
+			if (i_2_ != 10 && i_2_ != 11 && i_2_ != 22) {
 				Class78.method778(i_3_, i_1_, 0, true, i_0_, 0, i_2_, 48, 0);
 			} else {
 				ObjectDefinition objectdefinition = Class186.aClass112_2256.method1145(i_4_, 63);
 				int i_5_;
 				int i_6_;
-				if ((i_3_ ^ 0xffffffff) == -1 || i_3_ == 2) {
+				if (i_3_ == 0 || i_3_ == 2) {
 					i_5_ = objectdefinition.anInt3055;
 					i_6_ = objectdefinition.anInt2986;
 				} else {

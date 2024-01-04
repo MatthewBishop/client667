@@ -199,7 +199,7 @@ public class GLXToolkit extends AbstractToolkit
 	}
 	
 	final void method1308(byte b) {
-		if (!aBoolean6338 || !aBoolean6299 || (anInt6355 ^ 0xffffffff) > -1) {
+		if (!aBoolean6338 || !aBoolean6299 || anInt6355 < 0) {
 			OpenGL.glDisable(2912);
 		} else {
 			OpenGL.glEnable(2912);
@@ -269,8 +269,8 @@ public class GLXToolkit extends AbstractToolkit
 		do {
 			do {
 				if (i_7_ != 3) {
-					if ((i_7_ ^ 0xffffffff) != -5) {
-						if ((i_7_ ^ 0xffffffff) == -9) {
+					if (i_7_ != 4) {
+						if (i_7_ == 8) {
 							break;
 						}
 						break while_103_;
@@ -304,7 +304,7 @@ public class GLXToolkit extends AbstractToolkit
 	final void method1251(byte b) {
 		anInt9298++;
 		int i = anIntArray9324[anInt6284];
-		if ((i ^ 0xffffffff) != -1) {
+		if (i != 0) {
 			anIntArray9324[anInt6284] = 0;
 			OpenGL.glBindTexture(i, 0);
 			OpenGL.glDisable(i);
@@ -416,7 +416,7 @@ public class GLXToolkit extends AbstractToolkit
 				i_17_ = 0;
 			}
 		}
-		if ((i_17_ ^ 0xffffffff) < -1) {
+		if (i_17_ > 0) {
 			OpenGL.glDeleteBuffersARB(i_17_, Class262_Sub14.anIntArray7813, 0);
 			i_17_ = 0;
 		}
@@ -429,7 +429,7 @@ public class GLXToolkit extends AbstractToolkit
 				i_17_ = 0;
 			}
 		}
-		if ((i_17_ ^ 0xffffffff) < -1) {
+		if (i_17_ > 0) {
 			OpenGL.glDeleteTextures(i_17_, Class262_Sub14.anIntArray7813, 0);
 			i_17_ = 0;
 		}
@@ -441,7 +441,7 @@ public class GLXToolkit extends AbstractToolkit
 				i_17_ = 0;
 			}
 		}
-		if ((i_17_ ^ 0xffffffff) < -1) {
+		if (i_17_ > 0) {
 			OpenGL.glDeleteFramebuffersEXT(i_17_, Class262_Sub14.anIntArray7813, 0);
 			i_17_ = 0;
 		}
@@ -454,7 +454,7 @@ public class GLXToolkit extends AbstractToolkit
 				i_17_ = 0;
 			}
 		}
-		if ((i_17_ ^ 0xffffffff) < -1) {
+		if (i_17_ > 0) {
 			OpenGL.glDeleteRenderbuffersEXT(i_17_, Class262_Sub14.anIntArray7813, 0);
 			boolean bool = false;
 		}
@@ -474,7 +474,7 @@ public class GLXToolkit extends AbstractToolkit
 			Node_Sub32 node_sub32 = (Node_Sub32) aClass312_9223.method3619(-79);
 			OpenGL.glDeleteLists((int) node_sub32.aLong2797, node_sub32.anInt7381);
 		}
-		if ((this.E() ^ 0xffffffff) < -100663297 && 60000L + aLong9312 < Class313.method3650(false)) {
+		if (this.E() > 100663296 && 60000L + aLong9312 < Class313.method3650(false)) {
 			System.gc();
 			aLong9312 = Class313.method3650(false);
 		}
@@ -724,7 +724,7 @@ public class GLXToolkit extends AbstractToolkit
 				int i_35_ = class51_sub1.method521(-11856);
 				long l = class51_sub1.method515((byte) 50);
 				class51_sub1.method518(97);
-				for (int i_36_ = 0; (i_36_ ^ 0xffffffff) > (class207.method2042(-1) ^ 0xffffffff); i_36_++) {
+				for (int i_36_ = 0; class207.method2042(-1) > i_36_; i_36_++) {
 					Class126 class126 = class207.method2044(15, i_36_);
 					if (class126 != Class126.aClass126_1620) {
 						if (class126 == Class126.aClass126_1625) {
@@ -779,13 +779,13 @@ public class GLXToolkit extends AbstractToolkit
 				}
 				aBoolean9307 = bool;
 			}
-			if ((anInt9311 ^ 0xffffffff) > (i_30_ ^ 0xffffffff)) {
-				for (int i_37_ = anInt9311; (i_37_ ^ 0xffffffff) > (i_30_ ^ 0xffffffff); i_37_++) {
+			if (i_30_ > anInt9311) {
+				for (int i_37_ = anInt9311; i_30_ > i_37_; i_37_++) {
 					OpenGL.glClientActiveTexture(i_37_ + 33984);
 					OpenGL.glEnableClientState(32888);
 				}
 				anInt9311 = i_30_;
-			} else if ((i_30_ ^ 0xffffffff) > (anInt9311 ^ 0xffffffff)) {
+			} else if (anInt9311 > i_30_) {
 				for (int i_38_ = i_30_; i_38_ < anInt9311; i_38_++) {
 					OpenGL.glClientActiveTexture(33984 - -i_38_);
 					OpenGL.glDisableClientState(32888);
@@ -853,7 +853,7 @@ public class GLXToolkit extends AbstractToolkit
 	}
 	
 	final void method1326(boolean bool) {
-		for (int i = anInt6370 - 1; (i ^ 0xffffffff) <= -1; i--) {
+		for (int i = anInt6370 - 1; i >= 0; i--) {
 			OpenGL.glActiveTexture(i + 33984);
 			OpenGL.glTexEnvi(8960, 8704, 34160);
 			OpenGL.glTexEnvi(8960, 34161, 8448);
@@ -875,7 +875,7 @@ public class GLXToolkit extends AbstractToolkit
 		OpenGL.glColorMaterial(1028, 5634);
 		OpenGL.glEnable(2903);
 		float[] fs = { 0.0F, 0.0F, 0.0F, 1.0F };
-		for (int i = 0; (i ^ 0xffffffff) > -9; i++) {
+		for (int i = 0; i < 8; i++) {
 			int i_44_ = 16384 + i;
 			OpenGL.glLightfv(i_44_, 4608, fs, 0);
 			OpenGL.glLightf(i_44_, 4615, 0.0F);
@@ -937,7 +937,7 @@ public class GLXToolkit extends AbstractToolkit
 	final int[] na(int i, int i_52_, int i_53_, int i_54_) {
 		anInt9272++;
 		int[] is = new int[i_54_ * i_53_];
-		for (int i_55_ = 0; (i_54_ ^ 0xffffffff) < (i_55_ ^ 0xffffffff); i_55_++)
+		for (int i_55_ = 0; i_55_ < i_54_; i_55_++)
 			OpenGL.glReadPixelsi(i, -1 + (anInt6124 + (-i_52_ + -i_55_)), i_53_, 1, 32993, anInt9321, is, i_53_ * i_55_);
 		return is;
 	}
@@ -951,7 +951,7 @@ public class GLXToolkit extends AbstractToolkit
 		anInt9222++;
 		int i = -1;
 		if (aString9318.indexOf("nvidia") == -1) {
-			if ((aString9318.indexOf("intel") ^ 0xffffffff) != 0) {
+			if (aString9318.indexOf("intel") != -1) {
 				i = 32902;
 			} else if (aString9318.indexOf("ati") != -1) {
 				i = 4098;
@@ -1054,13 +1054,13 @@ public class GLXToolkit extends AbstractToolkit
 			aClass54Array9292 = null;
 		}
 		for (int i_71_ = -i_65_; i_71_ < 0; i_71_++) {
-			for (int i_72_ = i_70_; (i_72_ ^ 0xffffffff) > -1; i_72_++) {
+			for (int i_72_ = i_70_; i_72_ < 0; i_72_++) {
 				bs[i_63_++] += bs_68_[i_69_++];
 				bs[i_63_++] += bs_68_[i_69_++];
 				bs[i_63_++] += bs_68_[i_69_++];
 				bs[i_63_++] += bs_68_[i_69_++];
 			}
-			for (int i_73_ = i_64_; (i_73_ ^ 0xffffffff) > -1; i_73_++)
+			for (int i_73_ = i_64_; i_73_ < 0; i_73_++)
 				bs[i_63_++] += bs_68_[i_69_++];
 			i_63_ += i_66_;
 			i_69_ += i;
@@ -1082,7 +1082,7 @@ public class GLXToolkit extends AbstractToolkit
 			}
 			String string = OpenGL.glGetString(7938);
 			String[] strings = Class106.method1120((byte) -73, string.replace('.', ' '), ' ');
-			if ((strings.length ^ 0xffffffff) <= -3) {
+			if (strings.length >= 2) {
 				try {
 					int i_74_ = Class350.method3998(strings[0], -1);
 					int i_75_ = Class350.method3998(strings[1], -1);
@@ -1093,7 +1093,7 @@ public class GLXToolkit extends AbstractToolkit
 			} else {
 				throw new RuntimeException("");
 			}
-			if ((anInt9325 ^ 0xffffffff) > -13) {
+			if (anInt9325 < 12) {
 				throw new RuntimeException("");
 			}
 			if (!anOpenGL9249.a("GL_ARB_multitexture")) {
@@ -1105,7 +1105,7 @@ public class GLXToolkit extends AbstractToolkit
 			int[] is = new int[1];
 			OpenGL.glGetIntegerv(34018, is, 0);
 			anInt6370 = is[0];
-			if ((anInt6370 ^ 0xffffffff) > -3) {
+			if (anInt6370 < 2) {
 				throw new RuntimeException("");
 			}
 			anInt6367 = 8;
@@ -1121,16 +1121,16 @@ public class GLXToolkit extends AbstractToolkit
 			anOpenGL9249.a("GL_ARB_fragment_program");
 			anIntArray9324 = new int[anInt6370];
 			anInt9321 = Stream.b() ? 33639 : 5121;
-			if ((aString9323.indexOf("radeon") ^ 0xffffffff) != 0) {
+			if (aString9323.indexOf("radeon") != -1) {
 				int i_76_ = 0;
 				boolean bool = false;
 				boolean bool_77_ = false;
 				String[] strings_78_ = Class106.method1120((byte) 78, aString9323.replace('/', ' '), ' ');
-				for (int i_79_ = 0; (strings_78_.length ^ 0xffffffff) < (i_79_ ^ 0xffffffff); i_79_++) {
+				for (int i_79_ = 0; i_79_ < strings_78_.length; i_79_++) {
 					String string_80_ = strings_78_[i_79_];
 					try {
 						if (string_80_.length() > 0) {
-							if ((string_80_.charAt(0) ^ 0xffffffff) == -121 && (string_80_.length() ^ 0xffffffff) <= -4 && Class290_Sub7.method3441(2, string_80_.substring(1, 3))) {
+							if (string_80_.charAt(0) == 120 && string_80_.length() >= 3 && Class290_Sub7.method3441(2, string_80_.substring(1, 3))) {
 								bool_77_ = true;
 								string_80_ = string_80_.substring(1);
 							}
@@ -1141,7 +1141,7 @@ public class GLXToolkit extends AbstractToolkit
 									string_80_ = string_80_.substring(2);
 									bool = true;
 								}
-								if ((string_80_.length() ^ 0xffffffff) <= -5 && Class290_Sub7.method3441(2, string_80_.substring(0, 4))) {
+								if (string_80_.length() >= 4 && Class290_Sub7.method3441(2, string_80_.substring(0, 4))) {
 									i_76_ = Class350.method3998(string_80_.substring(0, 4), -1);
 									break;
 								}
@@ -1155,7 +1155,7 @@ public class GLXToolkit extends AbstractToolkit
 					if (i_76_ >= 7000 && i_76_ <= 9250) {
 						aBoolean6366 = false;
 					}
-					if ((i_76_ ^ 0xffffffff) <= -7001 && (i_76_ ^ 0xffffffff) >= -8000) {
+					if (i_76_ >= 7000 && i_76_ <= 7999) {
 						aBoolean9316 = false;
 					}
 				}

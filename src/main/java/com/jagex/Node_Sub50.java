@@ -11,7 +11,7 @@ public class Node_Sub50 extends Node
 	static final void method2966(String string, String string_0_, int i, String string_1_, String string_2_, boolean bool, int i_3_, String string_4_, int i_5_) {
 		anInt7627++;
 		Class253 class253 = r_Sub2.aClass253Array11063[99];
-		for (int i_6_ = 99; (i_6_ ^ 0xffffffff) < -1; i_6_--)
+		for (int i_6_ = 99; i_6_ > 0; i_6_--)
 			r_Sub2.aClass253Array11063[i_6_] = r_Sub2.aClass253Array11063[-1 + i_6_];
 		if (class253 == null) {
 			class253 = new Class253(i_5_, i_3_, string_0_, string, string_4_, string_2_, i, string_1_);

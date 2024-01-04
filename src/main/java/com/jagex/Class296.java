@@ -91,16 +91,16 @@ public class Class296 implements Interface18
 		if (class296_3_.anInt5432 != anInt5432) {
 			return false;
 		}
-		if ((anInt5427 ^ 0xffffffff) != (class296_3_.anInt5427 ^ 0xffffffff)) {
+		if (class296_3_.anInt5427 != anInt5427) {
 			return false;
 		}
-		if ((class296_3_.anInt5433 ^ 0xffffffff) != (anInt5433 ^ 0xffffffff)) {
+		if (anInt5433 != class296_3_.anInt5433) {
 			return false;
 		}
 		if (anInt5435 != class296_3_.anInt5435) {
 			return false;
 		}
-		if ((anInt5434 ^ 0xffffffff) != (class296_3_.anInt5434 ^ 0xffffffff)) {
+		if (class296_3_.anInt5434 != anInt5434) {
 			return false;
 		}
 		if (i != 28071) {
@@ -115,7 +115,7 @@ public class Class296 implements Interface18
 	static final void method3477(int i, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_) {
 		anInt5430++;
 		int i_9_ = 85 % ((i_8_ - 36) / 63);
-		for (int i_10_ = i; (i_6_ ^ 0xffffffff) <= (i_10_ ^ 0xffffffff); i_10_++)
+		for (int i_10_ = i; i_10_ <= i_6_; i_10_++)
 			Class369.method4086(i_7_, i_4_, i_5_, Class169_Sub4.anIntArrayArray8826[i_10_], 0);
 	}
 	

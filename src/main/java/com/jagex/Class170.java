@@ -62,7 +62,7 @@ public class Class170
 			anInt2056 = 0;
 		}
 		if (i_4_ == 2) {
-			int i_5_ = (Class36.anInt542 ^ 0xffffffff) >= -801 ? Class36.anInt542 : 800;
+			int i_5_ = Class36.anInt542 <= 800 ? Class36.anInt542 : 800;
 			Class270_Sub1.anInt8033 = (-i_5_ + Class36.anInt542) / 2;
 			Class360.anInt4480 = i_5_;
 			int i_6_ = CacheNode_Sub3.anInt9441 <= 600 ? CacheNode_Sub3.anInt9441 : 600;
@@ -76,7 +76,7 @@ public class Class170
 		} else {
 			int i_7_ = Class36.anInt542 <= 1024 ? Class36.anInt542 : 1024;
 			Class360.anInt4480 = i_7_;
-			int i_8_ = (CacheNode_Sub3.anInt9441 ^ 0xffffffff) >= -769 ? CacheNode_Sub3.anInt9441 : 768;
+			int i_8_ = CacheNode_Sub3.anInt9441 <= 768 ? CacheNode_Sub3.anInt9441 : 768;
 			Class270_Sub1.anInt8033 = (Class36.anInt542 - i_7_) / 2;
 			Class205.anInt5115 = i_8_;
 			Class131.anInt5447 = 0;
@@ -91,25 +91,25 @@ public class Class170
 		if (Class320_Sub10.aPlaneArray8300 == null) {
 			return 0;
 		}
-		if ((i_9_ ^ 0xffffffff) > -4) {
+		if (i_9_ < 3) {
 			int i_13_ = i_12_ >> 9;
 			int i_14_ = i >> 9;
-			if (i_10_ < 0 || i_11_ < 0 || Node_Sub54.anInt7675 + -1 < i_10_ || (-1 + Class377_Sub1.anInt8774 ^ 0xffffffff) > (i_11_ ^ 0xffffffff)) {
+			if (i_10_ < 0 || i_11_ < 0 || Node_Sub54.anInt7675 + -1 < i_10_ || i_11_ > -1 + Class377_Sub1.anInt8774) {
 				return 0;
 			}
-			if (i_13_ < 1 || (i_14_ ^ 0xffffffff) > -2 || (i_13_ ^ 0xffffffff) < (Node_Sub54.anInt7675 + -1 ^ 0xffffffff) || i_14_ > -1 + Class377_Sub1.anInt8774) {
+			if (i_13_ < 1 || i_14_ < 1 || Node_Sub54.anInt7675 + -1 < i_13_ || i_14_ > -1 + Class377_Sub1.anInt8774) {
 				return 0;
 			}
-			boolean bool = (CacheNode_Sub11.aByteArrayArrayArray9550[1][i_12_ >> 9][i >> 9] & 0x2 ^ 0xffffffff) != -1;
+			boolean bool = (CacheNode_Sub11.aByteArrayArrayArray9550[1][i_12_ >> 9][i >> 9] & 0x2) != 0;
 			if ((0x1ff & i_12_) == 0) {
-				boolean bool_15_ = (0x2 & CacheNode_Sub11.aByteArrayArrayArray9550[1][-1 + i_13_][i >> 9] ^ 0xffffffff) != -1;
+				boolean bool_15_ = (0x2 & CacheNode_Sub11.aByteArrayArrayArray9550[1][-1 + i_13_][i >> 9]) != 0;
 				boolean bool_16_ = (CacheNode_Sub11.aByteArrayArrayArray9550[1][i_13_][i >> 9] & 0x2) != 0;
 				if (bool_15_ == !bool_16_) {
 					bool = (0x2 & CacheNode_Sub11.aByteArrayArrayArray9550[1][i_10_][i_11_]) != 0;
 				}
 			}
-			if ((0x1ff & i ^ 0xffffffff) == -1) {
-				boolean bool_17_ = (0x2 & CacheNode_Sub11.aByteArrayArrayArray9550[1][i_12_ >> 9][i_14_ + -1] ^ 0xffffffff) != -1;
+			if ((0x1ff & i) == 0) {
+				boolean bool_17_ = (0x2 & CacheNode_Sub11.aByteArrayArrayArray9550[1][i_12_ >> 9][i_14_ + -1]) != 0;
 				boolean bool_18_ = (CacheNode_Sub11.aByteArrayArrayArray9550[1][i_12_ >> 9][i_14_] & 0x2) != 0;
 				if (!bool_18_ != !bool_17_) {
 					bool = (0x2 & CacheNode_Sub11.aByteArrayArrayArray9550[1][i_10_][i_11_]) != 0;

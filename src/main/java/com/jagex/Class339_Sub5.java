@@ -22,13 +22,13 @@ public class Class339_Sub5 extends Class339
 		}
 		anInt8681++;
 		int i_1_ = packet.method2256((byte) -9, 2);
-		if ((i_1_ ^ 0xffffffff) == -1) {
-			if ((packet.method2256((byte) -128, 1) ^ 0xffffffff) != -1) {
+		if (i_1_ == 0) {
+			if (packet.method2256((byte) -128, 1) != 0) {
 				method3935(i, packet, 28460);
 			}
 			int i_2_ = packet.method2256((byte) -127, 6);
 			int i_3_ = packet.method2256((byte) 81, 6);
-			boolean bool = (packet.method2256((byte) 125, 1) ^ 0xffffffff) == -2;
+			boolean bool = packet.method2256((byte) 125, 1) == 1;
 			if (bool) {
 				Node_Sub23_Sub1.anIntArray9928[Node_Sub9_Sub4.anInt9733++] = i;
 			}
@@ -61,7 +61,7 @@ public class Class339_Sub5 extends Class339
 			Class320_Sub10.aClass323Array8296[i] = null;
 			return true;
 		}
-		if ((i_1_ ^ 0xffffffff) == -2) {
+		if (i_1_ == 1) {
 			int i_10_ = packet.method2256((byte) -126, 2);
 			int i_11_ = Class320_Sub10.aClass323Array8296[i].anInt4077;
 			Class320_Sub10.aClass323Array8296[i].anInt4077 = ((0x3 & (i_11_ >> 28) + i_10_) << 28) + (i_11_ & 0xfffffff);
@@ -79,20 +79,20 @@ public class Class339_Sub5 extends Class339
 				i_18_--;
 				i_17_--;
 			}
-			if ((i_14_ ^ 0xffffffff) == -2) {
+			if (i_14_ == 1) {
 				i_18_--;
 			}
 			if (i_14_ == 2) {
 				i_17_++;
 				i_18_--;
 			}
-			if ((i_14_ ^ 0xffffffff) == -4) {
+			if (i_14_ == 3) {
 				i_17_--;
 			}
 			if (i_14_ == 4) {
 				i_17_++;
 			}
-			if ((i_14_ ^ 0xffffffff) == -6) {
+			if (i_14_ == 5) {
 				i_17_--;
 				i_18_++;
 			}
@@ -204,8 +204,8 @@ public class Class339_Sub5 extends Class339
 		anInt8689++;
 		float f = -5.0E-4F * (float) (1 + (i_29_ & 0x3));
 		float f_30_ = (float) ((0x3 & i_29_ >> 3) + 1) * 5.0E-4F;
-		float f_31_ = (i_29_ & 0x40 ^ 0xffffffff) == -1 ? 4.8828125E-4F : 9.765625E-4F;
-		boolean bool = (0x80 & i_29_ ^ 0xffffffff) != -1;
+		float f_31_ = (i_29_ & 0x40) == 0 ? 4.8828125E-4F : 9.765625E-4F;
+		boolean bool = (0x80 & i_29_) != 0;
 		aGLToolkit4202.method1457(i + 47421, 1);
 		if (bool) {
 			Class290_Sub11.aFloatArray8183[1] = 0.0F;

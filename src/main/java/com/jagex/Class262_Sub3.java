@@ -36,7 +36,7 @@ public class Class262_Sub3 extends Class262
 			return false;
 		}
 		anInt7720++;
-		if (i != 1 && (i ^ 0xffffffff) != -4 && i != 5) {
+		if (i != 1 && i != 3 && i != 5) {
 			return false;
 		}
 		return true;

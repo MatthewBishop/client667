@@ -45,7 +45,7 @@ public class Class253
 	static final boolean method3105(int i, byte b) {
 		anInt3202++;
 		int i_8_ = 76 % ((b - 24) / 34);
-		if ((i ^ 0xffffffff) != -4 && i != 7 && i != 9 && (i ^ 0xffffffff) != -12) {
+		if (i != 3 && i != 7 && i != 9 && i != 11) {
 			return false;
 		}
 		return true;

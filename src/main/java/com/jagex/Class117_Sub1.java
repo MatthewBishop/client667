@@ -67,23 +67,23 @@ public class Class117_Sub1 extends Class117 implements Interface1
 				if (objectdefinition.anInt3057 > 0) {
 					i_12_ = i_9_;
 				}
-				if ((i_11_ ^ 0xffffffff) == -1 || (i_11_ ^ 0xffffffff) == -3) {
+				if (i_11_ == 0 || i_11_ == 2) {
 					if (i_10_ == 0) {
 						graphicstoolkit.method1243(4, i_6_, i_12_, i_5_, 2);
 					} else if (i_10_ == 1) {
 						graphicstoolkit.method1242(i_6_, i_12_, i_5_, false, 4);
-					} else if ((i_10_ ^ 0xffffffff) == -3) {
+					} else if (i_10_ == 2) {
 						graphicstoolkit.method1243(4, i_6_, i_12_, i_5_ - -3, 2);
 					} else if (i_10_ == 3) {
 						graphicstoolkit.method1242(3 + i_6_, i_12_, i_5_, false, 4);
 					}
 				}
 				if (i_11_ == 3) {
-					if ((i_10_ ^ 0xffffffff) == -1) {
+					if (i_10_ == 0) {
 						graphicstoolkit.method1239(1, 1, i_6_, (byte) 116, i_5_, i_12_);
 					} else if (i_10_ == 1) {
 						graphicstoolkit.method1239(1, 1, i_6_, (byte) 116, 3 + i_5_, i_12_);
-					} else if ((i_10_ ^ 0xffffffff) != -3) {
+					} else if (i_10_ != 2) {
 						if (i_10_ == 3) {
 							graphicstoolkit.method1239(1, 1, i_6_ + 3, (byte) 116, i_5_, i_12_);
 						}
@@ -91,11 +91,11 @@ public class Class117_Sub1 extends Class117 implements Interface1
 						graphicstoolkit.method1239(1, 1, i_6_ - -3, (byte) 116, i_5_ + 3, i_12_);
 					}
 				}
-				if ((i_11_ ^ 0xffffffff) == -3) {
+				if (i_11_ == 2) {
 					if (i_10_ != 0) {
-						if ((i_10_ ^ 0xffffffff) != -2) {
+						if (i_10_ != 1) {
 							if (i_10_ != 2) {
-								if ((i_10_ ^ 0xffffffff) == -4) {
+								if (i_10_ == 3) {
 									graphicstoolkit.method1243(4, i_6_, i_12_, i_5_, 2);
 								}
 							} else {
@@ -120,7 +120,7 @@ public class Class117_Sub1 extends Class117 implements Interface1
 			int i_14_ = interface19.method71(-122);
 			if (objectdefinition.anInt3006 != -1) {
 				CacheNode_Sub12.method2343(objectdefinition, (byte) 115, i_13_, graphicstoolkit, i_5_, i_6_);
-			} else if ((i_14_ ^ 0xffffffff) == -10) {
+			} else if (i_14_ == 9) {
 				int i_15_ = -1118482;
 				if (objectdefinition.anInt3057 > 0) {
 					i_15_ = -1179648;
@@ -136,7 +136,7 @@ public class Class117_Sub1 extends Class117 implements Interface1
 		if (interface19 != null) {
 			ObjectDefinition objectdefinition = Class186.aClass112_2256.method1145(interface19.method72(i_7_ ^ ~0x6f5c), 106);
 			int i_16_ = interface19.method68(23796) & 0x3;
-			if ((objectdefinition.anInt3006 ^ 0xffffffff) != 0) {
+			if (objectdefinition.anInt3006 != -1) {
 				CacheNode_Sub12.method2343(objectdefinition, (byte) 89, i_16_, graphicstoolkit, i_5_, i_6_);
 			}
 		}

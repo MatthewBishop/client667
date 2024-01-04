@@ -14,7 +14,7 @@ public class Class324
 		}
 		int i_1_ = packet.method2256((byte) 126, 2);
 		Player player = Class270_Sub2.aPlayerArray8038[i];
-		if ((i_1_ ^ 0xffffffff) == -1) {
+		if (i_1_ == 0) {
 			if (bool) {
 				player.aBoolean11156 = false;
 			} else {
@@ -23,7 +23,7 @@ public class Class324
 				}
 				Class323 class323 = Class320_Sub10.aClass323Array8296[i] = new Class323();
 				class323.anInt4077 = (player.aByte5933 << 28) + ((Node_Sub53.anInt7668 + player.anIntArray10910[0] >> 6 << 14) - -(Class320_Sub4.anInt8243 + player.anIntArray10908[0] >> 6));
-				if ((player.anInt11180 ^ 0xffffffff) != 0) {
+				if (player.anInt11180 != -1) {
 					class323.anInt4079 = player.anInt11180;
 				} else {
 					class323.anInt4079 = player.aClass99_10893.method1086(16383);
@@ -39,22 +39,22 @@ public class Class324
 					Class339_Sub5.method3935(i, packet, 28460);
 				}
 			}
-		} else if ((i_1_ ^ 0xffffffff) == -2) {
+		} else if (i_1_ == 1) {
 			int i_2_ = packet.method2256((byte) 1, 3);
 			int i_3_ = player.anIntArray10910[0];
 			int i_4_ = player.anIntArray10908[0];
 			if (i_2_ != 0) {
 				if (i_2_ == 1) {
 					i_4_--;
-				} else if ((i_2_ ^ 0xffffffff) == -3) {
+				} else if (i_2_ == 2) {
 					i_4_--;
 					i_3_++;
-				} else if ((i_2_ ^ 0xffffffff) == -4) {
+				} else if (i_2_ == 3) {
 					i_3_--;
 				} else if (i_2_ != 4) {
-					if ((i_2_ ^ 0xffffffff) != -6) {
+					if (i_2_ != 5) {
 						if (i_2_ != 6) {
-							if ((i_2_ ^ 0xffffffff) == -8) {
+							if (i_2_ == 7) {
 								i_3_++;
 								i_4_++;
 							}
@@ -79,32 +79,32 @@ public class Class324
 				player.anInt11147 = i_3_;
 				player.aBoolean11156 = true;
 			}
-		} else if ((i_1_ ^ 0xffffffff) == -3) {
+		} else if (i_1_ == 2) {
 			int i_5_ = packet.method2256((byte) 95, 4);
 			int i_6_ = player.anIntArray10910[0];
 			int i_7_ = player.anIntArray10908[0];
-			if ((i_5_ ^ 0xffffffff) == -1) {
+			if (i_5_ == 0) {
 				i_6_ -= 2;
 				i_7_ -= 2;
-			} else if ((i_5_ ^ 0xffffffff) == -2) {
+			} else if (i_5_ == 1) {
 				i_6_--;
 				i_7_ -= 2;
 			} else if (i_5_ == 2) {
 				i_7_ -= 2;
-			} else if ((i_5_ ^ 0xffffffff) == -4) {
+			} else if (i_5_ == 3) {
 				i_6_++;
 				i_7_ -= 2;
-			} else if ((i_5_ ^ 0xffffffff) != -5) {
-				if ((i_5_ ^ 0xffffffff) != -6) {
+			} else if (i_5_ != 4) {
+				if (i_5_ != 5) {
 					if (i_5_ != 6) {
 						if (i_5_ != 7) {
-							if ((i_5_ ^ 0xffffffff) != -9) {
-								if ((i_5_ ^ 0xffffffff) != -10) {
+							if (i_5_ != 8) {
+								if (i_5_ != 9) {
 									if (i_5_ != 10) {
-										if ((i_5_ ^ 0xffffffff) != -12) {
-											if ((i_5_ ^ 0xffffffff) != -13) {
+										if (i_5_ != 11) {
+											if (i_5_ != 12) {
 												if (i_5_ != 13) {
-													if ((i_5_ ^ 0xffffffff) == -15) {
+													if (i_5_ == 14) {
 														i_7_ += 2;
 														i_6_++;
 													} else if (i_5_ == 15) {
@@ -157,15 +157,15 @@ public class Class324
 			}
 		} else {
 			int i_8_ = packet.method2256((byte) -126, 1);
-			if ((i_8_ ^ 0xffffffff) == -1) {
+			if (i_8_ == 0) {
 				int i_9_ = packet.method2256((byte) -128, 12);
 				int i_10_ = i_9_ >> 10;
 				int i_11_ = i_9_ >> 5 & 0x1f;
-				if ((i_11_ ^ 0xffffffff) < -16) {
+				if (i_11_ > 15) {
 					i_11_ -= 32;
 				}
 				int i_12_ = 0x1f & i_9_;
-				if ((i_12_ ^ 0xffffffff) < -16) {
+				if (i_12_ > 15) {
 					i_12_ -= 32;
 				}
 				int i_13_ = player.anIntArray10910[0] + i_11_;
@@ -181,8 +181,8 @@ public class Class324
 				if (Class238.method3021(i_14_, i_13_, -53)) {
 					player.aByte5931++;
 				}
-				if ((Class166.anInt5099 ^ 0xffffffff) == (i ^ 0xffffffff)) {
-					if ((player.aByte5933 ^ 0xffffffff) != (CacheNode_Sub20_Sub1.anInt11089 ^ 0xffffffff)) {
+				if (i == Class166.anInt5099) {
+					if (CacheNode_Sub20_Sub1.anInt11089 != player.aByte5933) {
 						Class194_Sub1.aBoolean6892 = true;
 					}
 					CacheNode_Sub20_Sub1.anInt11089 = player.aByte5933;
@@ -206,7 +206,7 @@ public class Class324
 					if (Class238.method3021(i_20_, i_19_, -108)) {
 						player.aByte5931++;
 					}
-					if ((Class166.anInt5099 ^ 0xffffffff) == (i ^ 0xffffffff)) {
+					if (i == Class166.anInt5099) {
 						CacheNode_Sub20_Sub1.anInt11089 = player.aByte5933;
 					}
 				}

@@ -75,7 +75,7 @@ public class Node_Sub38_Sub4 extends Node_Sub38
 					i_8_ = (int) (3.141592653589793 * (double) (i_8_ * anInt10109));
 				}
 				i_8_ -= ~0xfff & i_8_;
-				if ((anInt10113 ^ 0xffffffff) != -1) {
+				if (anInt10113 != 0) {
 					if (anInt10113 == 2) {
 						i_8_ -= 2048;
 						if (i_8_ < 0) {
@@ -105,7 +105,7 @@ public class Node_Sub38_Sub4 extends Node_Sub38
 			method2797(53, -123, 37);
 		}
 		anInt10117++;
-		if ((Class320_Sub20.anInt8397 ^ 0xffffffff) == -2) {
+		if (Class320_Sub20.anInt8397 == 1) {
 			return Class303.anInt3831;
 		}
 		return Class148.anInt1825;
@@ -119,8 +119,8 @@ public class Node_Sub38_Sub4 extends Node_Sub38
 			do {
 				do {
 					if (i_10_ != 0) {
-						if ((i_10_ ^ 0xffffffff) != -2) {
-							if ((i_10_ ^ 0xffffffff) == -4) {
+						if (i_10_ != 1) {
+							if (i_10_ == 3) {
 								break;
 							}
 							break while_7_;

@@ -67,7 +67,7 @@ public class Player extends Actor
 			class336.method3860(aClass99_10893.method1086(i ^ ~0x3ffb));
 			class336.method3863(anInt5934, i + anInt5937, anInt5940);
 			this.method870(graphicstoolkit, (byte) 45, aBoolean10906, aDrawableModelArray10909, class336);
-			for (int i_0_ = 0; (i_0_ ^ 0xffffffff) > (aDrawableModelArray10909.length ^ 0xffffffff); i_0_++)
+			for (int i_0_ = 0; aDrawableModelArray10909.length > i_0_; i_0_++)
 				aDrawableModelArray10909[i_0_] = null;
 		}
 	}
@@ -84,7 +84,7 @@ public class Player extends Actor
 			method820(null, 41);
 		}
 		int i_6_ = i_5_ * i_5_ + i * i;
-		if ((i_6_ ^ 0xffffffff) <= -262145 && (i_6_ ^ 0xffffffff) >= (i_3_ ^ 0xffffffff)) {
+		if (i_6_ >= 262144 && i_3_ >= i_6_) {
 			int i_7_ = (int) (2607.5945876176133 * Math.atan2((double) i, (double) i_5_) - (double) aClass99_10893.method1086(16383)) & 0x3fff;
 			DrawableModel drawablemodel_8_ = Node_Sub53.method2978(anInt10872, anInt10862, 76, i_4_, anInt10832, i_7_, graphicstoolkit);
 			if (drawablemodel_8_ != null) {
@@ -122,7 +122,7 @@ public class Player extends Actor
 		class336.method3860(i_10_);
 		class336.method3863(anInt5934, anInt5937, anInt5940);
 		boolean bool_11_ = bool;
-		for (int i_12_ = 0; (i_12_ ^ 0xffffffff) > (aDrawableModelArray10909.length ^ 0xffffffff); i_12_++) {
+		for (int i_12_ = 0; aDrawableModelArray10909.length > i_12_; i_12_++) {
 			if (aDrawableModelArray10909[i_12_] != null && (!Node_Sub15_Sub10.aBoolean9850 ? aDrawableModelArray10909[i_12_].method624(i_9_, i, class336, true, 0) : aDrawableModelArray10909[i_12_].method621(i_9_, i, class336, true, 0, Class308.anInt3912))) {
 				bool_11_ = true;
 				break;
@@ -167,7 +167,7 @@ public class Player extends Actor
 	private final void method885(DrawableModel drawablemodel, int i, byte b, GraphicsToolkit graphicstoolkit, int i_16_, int i_17_, Class336 class336, int i_18_, int i_19_) {
 		anInt11174++;
 		int i_20_ = i_17_ * i_17_ - -(i_19_ * i_19_);
-		if ((i_20_ ^ 0xffffffff) <= -262145 && (i_20_ ^ 0xffffffff) >= (i ^ 0xffffffff)) {
+		if (i_20_ >= 262144 && i >= i_20_) {
 			if (b > -15) {
 				anInt11172 = -60;
 			}
@@ -210,7 +210,7 @@ public class Player extends Actor
 	
 	final int method853(byte b) {
 		anInt11146++;
-		if (aPlayerDefinition11137 != null && (aPlayerDefinition11137.anInt3439 ^ 0xffffffff) != 0) {
+		if (aPlayerDefinition11137 != null && aPlayerDefinition11137.anInt3439 != -1) {
 			return Class366.aClass279_4526.method3376(aPlayerDefinition11137.anInt3439, (byte) 107).anInt2811;
 		}
 		if (b < 43) {
@@ -266,7 +266,7 @@ public class Player extends Actor
 		class336.method3863(anInt5934, -anInt10849 + anInt5937 + -20, anInt5940);
 		aBoolean10903 = false;
 		EntityNode_Sub6 entitynode_sub6 = null;
-		if ((Class213.aNode_Sub27_2512.aClass320_Sub7_7308.method3708(false) ^ 0xffffffff) == -2) {
+		if (Class213.aNode_Sub27_2512.aClass320_Sub7_7308.method3708(false) == 1) {
 			Class259 class259 = this.method868((byte) -126);
 			if (class259.aBoolean3267 && (aPlayerDefinition11137.anInt3439 == -1 || Class366.aClass279_4526.method3376(aPlayerDefinition11137.anInt3439, (byte) 107).aBoolean2875)) {
 				Animator animator = !anAnimator10876.method245(-125) || !anAnimator10876.method242((byte) -77) ? null : anAnimator10876;
@@ -286,9 +286,9 @@ public class Player extends Actor
 			}
 		}
 		if (Class295.aPlayer3692 == this) {
-			for (int i_33_ = Class320_Sub24.aClass223Array8438.length + -1; (i_33_ ^ 0xffffffff) <= -1; i_33_--) {
+			for (int i_33_ = Class320_Sub24.aClass223Array8438.length + -1; i_33_ >= 0; i_33_--) {
 				Class223 class223 = Class320_Sub24.aClass223Array8438[i_33_];
-				if (class223 != null && (class223.anInt2666 ^ 0xffffffff) != 0) {
+				if (class223 != null && class223.anInt2666 != -1) {
 					if (class223.anInt2654 == 1) {
 						Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) class223.anInt2658);
 						if (node_sub41 != null) {
@@ -357,7 +357,7 @@ public class Player extends Actor
 				graphicstoolkit.a(class198);
 			}
 		}
-		for (int i_44_ = 0; (i_44_ ^ 0xffffffff) > (aDrawableModelArray10909.length ^ 0xffffffff); i_44_++) {
+		for (int i_44_ = 0; aDrawableModelArray10909.length > i_44_; i_44_++) {
 			if (aDrawableModelArray10909[i_44_] != null) {
 				aBoolean10903 |= aDrawableModelArray10909[i_44_].F();
 			}
@@ -383,7 +383,7 @@ public class Player extends Actor
 		aByte11154 = buffer.method2214((byte) -78);
 		anInt11129 = buffer.method2214((byte) 96);
 		anInt11130 = buffer.method2214((byte) -81);
-		aBoolean11131 = (buffer.method2214((byte) 32) ^ 0xffffffff) == -2;
+		aBoolean11131 = buffer.method2214((byte) 32) == 1;
 		if (Class240.aClass329_2943 == Node_Sub38_Sub1.aClass329_10086 && Class339_Sub7.anInt8729 >= 2) {
 			aBoolean11131 = false;
 		}
@@ -395,7 +395,7 @@ public class Player extends Actor
 		for (int i_49_ = 0; Class63.aClass363_922.anIntArray4508.length > i_49_; i_49_++) {
 			if (Class63.aClass363_922.anIntArray4508[i_49_] != 1) {
 				int i_50_ = buffer.method2233(255);
-				if ((i_50_ ^ 0xffffffff) == -1) {
+				if (i_50_ == 0) {
 					is[i_49_] = 0;
 				} else {
 					int i_51_ = buffer.method2233(i + 255);
@@ -410,7 +410,7 @@ public class Player extends Actor
 						is[i_49_] = Node_Sub16.method2590(1073741824, i_52_);
 						itemdefinitions[i_49_] = EntityNode_Sub3_Sub1.aClass86_9166.method1010(i_52_, 14434);
 						int i_53_ = itemdefinitions[i_49_].anInt1899;
-						if ((i_53_ ^ 0xffffffff) != -1) {
+						if (i_53_ != 0) {
 							anInt11134 = i_53_;
 						}
 					} else {
@@ -419,12 +419,12 @@ public class Player extends Actor
 				}
 			}
 		}
-		if ((i_48_ ^ 0xffffffff) == 0) {
+		if (i_48_ == -1) {
 			int i_54_ = buffer.method2219(-130546744);
 			int i_55_ = 0;
-			for (int i_56_ = 0; (Class63.aClass363_922.anIntArray4508.length ^ 0xffffffff) < (i_56_ ^ 0xffffffff); i_56_++) {
-				if ((Class63.aClass363_922.anIntArray4508[i_56_] ^ 0xffffffff) == -1) {
-					if ((i_54_ & 1 << i_55_ ^ 0xffffffff) != -1) {
+			for (int i_56_ = 0; i_56_ < Class63.aClass363_922.anIntArray4508.length; i_56_++) {
+				if (Class63.aClass363_922.anIntArray4508[i_56_] == 0) {
+					if ((i_54_ & 1 << i_55_) != 0) {
 						class38s[i_56_] = Node_Sub38_Sub27.method2882(buffer, itemdefinitions[i_56_], 0);
 					}
 					i_55_++;
@@ -432,9 +432,9 @@ public class Player extends Actor
 			}
 		}
 		int[] is_57_ = new int[10];
-		for (int i_58_ = i; (i_58_ ^ 0xffffffff) > -11; i_58_++) {
+		for (int i_58_ = i; i_58_ < 10; i_58_++) {
 			int i_59_ = buffer.method2233(255);
-			if ((i_58_ ^ 0xffffffff) <= (Class117_Sub2.aShortArrayArrayArray5151.length ^ 0xffffffff) || i_59_ < 0 || (Class117_Sub2.aShortArrayArrayArray5151[i_58_][0].length ^ 0xffffffff) >= (i_59_ ^ 0xffffffff)) {
+			if (Class117_Sub2.aShortArrayArrayArray5151.length <= i_58_ || i_59_ < 0 || i_59_ >= Class117_Sub2.aShortArrayArrayArray5151[i_58_][0].length) {
 				i_59_ = 0;
 			}
 			is_57_[i_58_] = i_59_;
@@ -463,7 +463,7 @@ public class Player extends Actor
 		}
 		int i_60_ = anInt11164;
 		anInt11164 = buffer.method2233(255);
-		if ((anInt11164 ^ 0xffffffff) == -1) {
+		if (anInt11164 == 0) {
 			Class45.method462((byte) 69, this);
 		} else {
 			int i_61_ = anInt11167;
@@ -476,7 +476,7 @@ public class Player extends Actor
 			anInt11153 = buffer.method2219(-130546744);
 			anInt11182 = buffer.method2219(-130546744);
 			anInt11173 = buffer.method2233(255);
-			if (aBoolean11149 == !bool || (anInt11164 ^ 0xffffffff) != (i_60_ ^ 0xffffffff) || i_61_ != anInt11167 || (i_62_ ^ 0xffffffff) != (anInt11172 ^ 0xffffffff) || anInt11153 != i_63_ || (anInt11182 ^ 0xffffffff) != (i_64_ ^ 0xffffffff) || i_65_ != anInt11173) {
+			if (aBoolean11149 == !bool || i_60_ != anInt11164 || i_61_ != anInt11167 || anInt11172 != i_62_ || anInt11153 != i_63_ || i_64_ != anInt11182 || i_65_ != anInt11173) {
 				Class135.method1587(113, this);
 			}
 		}
@@ -485,7 +485,7 @@ public class Player extends Actor
 		}
 		int i_66_ = aPlayerDefinition11137.anInt3439;
 		int[] is_67_ = aPlayerDefinition11137.anIntArray3430;
-		aPlayerDefinition11137.method3278(is_57_, is, class38s, i_48_, method871(0), (aByte11150 ^ 0xffffffff) == -2, (byte) -110);
+		aPlayerDefinition11137.method3278(is_57_, is, class38s, i_48_, method871(0), aByte11150 == 1, (byte) -110);
 		if (i_48_ != i_66_) {
 			anInt5934 = (anIntArray10910[0] << 9) - -(method853((byte) 83) << 8);
 			anInt5940 = (anIntArray10908[0] << 9) + (method853((byte) 45) << 8);
@@ -521,22 +521,22 @@ public class Player extends Actor
 		Animator animator_71_ = anAnimator10860.method245(-127) && !aBoolean11169 && (!aBoolean10867 || animator == null) ? anAnimator10860 : null;
 		int i_72_ = class259.anInt3261;
 		int i_73_ = class259.anInt3266;
-		if ((i_72_ ^ 0xffffffff) != -1 || i_73_ != 0 || class259.anInt3250 != 0 || (class259.anInt3285 ^ 0xffffffff) != -1) {
+		if (i_72_ != 0 || i_73_ != 0 || class259.anInt3250 != 0 || class259.anInt3285 != 0) {
 			i |= 0x7;
 		}
 		int i_74_ = aClass99_10893.method1086(16383);
-		boolean bool = aByte10888 != 0 && (Class174.anInt2092 ^ 0xffffffff) <= (anInt10895 ^ 0xffffffff) && Class174.anInt2092 < anInt10882;
+		boolean bool = aByte10888 != 0 && anInt10895 <= Class174.anInt2092 && Class174.anInt2092 < anInt10882;
 		if (bool) {
 			i |= 0x80000;
 		}
 		DrawableModel drawablemodel = aDrawableModelArray10909[0] = aPlayerDefinition11137.method3279(EntityNode_Sub3_Sub1.aClass86_9166, animator, 77, true, InputStream_Sub2.aClass281_83, Class18.aClass37_306, i, anIntArray10881, Class63.aClass363_922, Class42.aClass181_643, graphicstoolkit, Class366.aClass279_4526, anAnimableAnimator_Sub1Array10894, i_74_, animator_71_, Class24.aClass275_442);
 		int i_75_ = Class290_Sub5.method3435(-85);
-		if ((Class201.anInt2446 ^ 0xffffffff) > -97 && i_75_ > 50) {
+		if (Class201.anInt2446 < 96 && i_75_ > 50) {
 			Class189.method1934((byte) 17);
 		}
 		if (Class240.aClass329_2943 != Node_Sub38_Sub1.aClass329_10086 && i_75_ < 50) {
 			int i_76_;
-			for (i_76_ = 50 - i_75_; (Class57.anInt849 ^ 0xffffffff) > (i_76_ ^ 0xffffffff); Class57.anInt849++)
+			for (i_76_ = 50 - i_75_; i_76_ > Class57.anInt849; Class57.anInt849++)
 				Class93.aByteArrayArray1244[Class57.anInt849] = new byte[102400];
 			while (i_76_ < Class57.anInt849) {
 				Class57.anInt849--;
@@ -552,7 +552,7 @@ public class Player extends Actor
 		anInt10875 = drawablemodel.fa();
 		anInt10844 = drawablemodel.ma();
 		this.method857(drawablemodel, false);
-		if ((i_72_ ^ 0xffffffff) == -1 && (i_73_ ^ 0xffffffff) == -1) {
+		if (i_72_ == 0 && i_73_ == 0) {
 			this.method865(i_74_, 0, 0, method853((byte) 59) << 9, method853((byte) 126) << 9, -81);
 		} else {
 			this.method865(i_74_, class259.anInt3263, class259.anInt3291, i_72_, i_73_, -104);
@@ -660,12 +660,12 @@ public class Player extends Actor
 			method821(106);
 		}
 		int[] is;
-		if ((aByte11150 ^ 0xffffffff) == -2 && Class83.anIntArray5188 != null) {
+		if (aByte11150 == 1 && Class83.anIntArray5188 != null) {
 			is = Class83.anIntArray5188;
 		} else {
 			is = InputStream_Sub1.anIntArray77;
 		}
-		if (is != null && (is[aByte11145] ^ 0xffffffff) != 0) {
+		if (is != null && is[aByte11145] != -1) {
 			Class39 class39 = Class328.aClass362_4112.method4051(is[aByte11145], -752);
 			if (class39.aChar587 == 's') {
 				string += class39.method412(-3470, aByte11154 & 0xff);
@@ -694,7 +694,7 @@ public class Player extends Actor
 			if (aClass59_10861.aString877 == null) {
 				return null;
 			}
-			if ((Class69.anInt943 ^ 0xffffffff) == -1 || (Class69.anInt943 ^ 0xffffffff) == -4 || Class69.anInt943 == 1 && Class193.method1955(i + 3109, aString11142)) {
+			if (Class69.anInt943 == 0 || Class69.anInt943 == 3 || Class69.anInt943 == 1 && Class193.method1955(i + 3109, aString11142)) {
 				return aClass59_10861;
 			}
 		}
@@ -702,15 +702,15 @@ public class Player extends Actor
 	}
 	
 	final void method894(int i, int i_80_, int i_81_, byte b) {
-		if (anAnimator10876.method245(-126) && (anAnimator10876.method243((byte) -24).anInt718 ^ 0xffffffff) == -2) {
+		if (anAnimator10876.method245(-126) && anAnimator10876.method243((byte) -24).anInt718 == 1) {
 			anIntArray10817 = null;
 			anAnimator10876.method249(true, -1);
 		}
 		anInt11143++;
-		for (int i_82_ = 0; (i_82_ ^ 0xffffffff) > (aClass165Array10886.length ^ 0xffffffff); i_82_++) {
-			if ((aClass165Array10886[i_82_].anInt2030 ^ 0xffffffff) != 0) {
+		for (int i_82_ = 0; aClass165Array10886.length > i_82_; i_82_++) {
+			if (aClass165Array10886[i_82_].anInt2030 != -1) {
 				Class195 class195 = Class16.aClass101_228.method1090(i_81_ ^ ~0x24c3, aClass165Array10886[i_82_].anInt2030);
-				if (class195.aBoolean2402 && (class195.anInt2394 ^ 0xffffffff) != 0 && Class18.aClass37_306.method395(class195.anInt2394, (byte) -107).anInt718 == 1) {
+				if (class195.aBoolean2402 && class195.anInt2394 != -1 && Class18.aClass37_306.method395(class195.anInt2394, (byte) -107).anInt718 == 1) {
 					aClass165Array10886[i_82_].anAnimator2026.method249(true, -1);
 					aClass165Array10886[i_82_].anInt2030 = -1;
 				}
@@ -720,11 +720,11 @@ public class Player extends Actor
 			method853((byte) -74);
 		}
 		anInt11180 = -1;
-		if (i_80_ >= 0 && (Node_Sub54.anInt7675 ^ 0xffffffff) < (i_80_ ^ 0xffffffff) && (i ^ 0xffffffff) <= -1 && (Class377_Sub1.anInt8774 ^ 0xffffffff) < (i ^ 0xffffffff)) {
-			if ((anIntArray10910[0] ^ 0xffffffff) > -1 || (anIntArray10910[0] ^ 0xffffffff) <= (Node_Sub54.anInt7675 ^ 0xffffffff) || anIntArray10908[0] < 0 || (Class377_Sub1.anInt8774 ^ 0xffffffff) >= (anIntArray10908[0] ^ 0xffffffff)) {
+		if (i_80_ >= 0 && i_80_ < Node_Sub54.anInt7675 && i >= 0 && i < Class377_Sub1.anInt8774) {
+			if (anIntArray10910[0] < 0 || Node_Sub54.anInt7675 <= anIntArray10910[0] || anIntArray10908[0] < 0 || anIntArray10908[0] >= Class377_Sub1.anInt8774) {
 				method888(i_80_, -97, i);
 			} else {
-				if ((b ^ 0xffffffff) == -3) {
+				if (b == 2) {
 					Class191.method1946(this, i_80_, true, (byte) 2, i);
 				}
 				method887(-24527, i, i_80_, b);

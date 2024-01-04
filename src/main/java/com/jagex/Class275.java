@@ -68,7 +68,7 @@ public class Class275 implements Interface17
 			int i_8_ = class70.anInt946;
 			int i_9_ = class70.anInt948;
 			int i_10_ = Class141.anIntArray1750[-i_8_ + i_9_];
-			if ((i ^ 0xffffffff) > -1 || (i_10_ ^ 0xffffffff) > (i ^ 0xffffffff)) {
+			if (i < 0 || i > i_10_) {
 				i = 0;
 			}
 			i_10_ <<= i_8_;
@@ -92,7 +92,7 @@ public class Class275 implements Interface17
 	static final int method3332(int i, int i_13_, boolean bool, int i_14_, int i_15_, int i_16_, int[] is, byte b, int i_17_, int i_18_, int i_19_, Class84 class84, int[] is_20_, int i_21_, int i_22_) {
 		anInt5418++;
 		for (int i_23_ = 0; i_23_ < 128; i_23_++) {
-			for (int i_24_ = 0; (i_24_ ^ 0xffffffff) > -129; i_24_++) {
+			for (int i_24_ = 0; i_24_ < 128; i_24_++) {
 				Node_Sub36_Sub2.anIntArrayArray10047[i_23_][i_24_] = 0;
 				Class262_Sub23.anIntArrayArray7892[i_23_][i_24_] = 99999999;
 			}
@@ -120,9 +120,9 @@ public class Class275 implements Interface17
 				for (int i_34_ = i + -i_32_; i_34_ <= i_32_ + i; i_34_++) {
 					int i_35_ = i_33_ + -i_26_;
 					int i_36_ = -i_27_ + i_34_;
-					if (i_35_ >= 0 && (i_36_ ^ 0xffffffff) <= -1 && i_35_ < 128 && (i_36_ ^ 0xffffffff) > -129 && Class262_Sub23.anIntArrayArray7892[i_35_][i_36_] < 100) {
+					if (i_35_ >= 0 && i_36_ >= 0 && i_35_ < 128 && i_36_ < 128 && Class262_Sub23.anIntArrayArray7892[i_35_][i_36_] < 100) {
 						int i_37_ = 0;
-						if ((i_33_ ^ 0xffffffff) <= (i_21_ ^ 0xffffffff)) {
+						if (i_21_ <= i_33_) {
 							if (-1 + (i_21_ - -i_17_) < i_33_) {
 								i_37_ = -i_21_ + -i_17_ - (-1 - i_33_);
 							}
@@ -130,13 +130,13 @@ public class Class275 implements Interface17
 							i_37_ = -i_33_ + i_21_;
 						}
 						int i_38_ = 0;
-						if ((i_34_ ^ 0xffffffff) > (i ^ 0xffffffff)) {
+						if (i > i_34_) {
 							i_38_ = i + -i_34_;
 						} else if (i_16_ + i + -1 < i_34_) {
 							i_38_ = 1 - (i_16_ + (i - i_34_));
 						}
 						int i_39_ = i_37_ * i_37_ - -(i_38_ * i_38_);
-						if (i_39_ < i_30_ || (i_39_ ^ 0xffffffff) == (i_30_ ^ 0xffffffff) && (i_31_ ^ 0xffffffff) < (Class262_Sub23.anIntArrayArray7892[i_35_][i_36_] ^ 0xffffffff)) {
+						if (i_39_ < i_30_ || i_30_ == i_39_ && Class262_Sub23.anIntArrayArray7892[i_35_][i_36_] < i_31_) {
 							i_29_ = i_34_;
 							i_28_ = i_33_;
 							i_30_ = i_39_;
@@ -145,11 +145,11 @@ public class Class275 implements Interface17
 					}
 				}
 			}
-			if ((i_30_ ^ 0xffffffff) == -2147483648) {
+			if (i_30_ == 2147483647) {
 				return -1;
 			}
 		}
-		if ((i_15_ ^ 0xffffffff) == (i_28_ ^ 0xffffffff) && (i_29_ ^ 0xffffffff) == (i_18_ ^ 0xffffffff)) {
+		if (i_28_ == i_15_ && i_18_ == i_29_) {
 			return 0;
 		}
 		int i_40_ = 0;
@@ -163,12 +163,12 @@ public class Class275 implements Interface17
 				Node_Sub39.anIntArray7494[i_40_] = i_28_;
 				Class339_Sub6.anIntArray8700[i_40_++] = i_29_;
 			}
-			if ((0x2 & i_41_ ^ 0xffffffff) != -1) {
+			if ((0x2 & i_41_) != 0) {
 				i_28_++;
-			} else if ((0x8 & i_41_ ^ 0xffffffff) != -1) {
+			} else if ((0x8 & i_41_) != 0) {
 				i_28_--;
 			}
-			if ((i_41_ & 0x1 ^ 0xffffffff) == -1) {
+			if ((i_41_ & 0x1) == 0) {
 				if ((i_41_ & 0x4) != 0) {
 					i_29_--;
 				}
@@ -184,7 +184,7 @@ public class Class275 implements Interface17
 		while (i_40_-- > 0) {
 			is_20_[i_43_] = Node_Sub39.anIntArray7494[i_40_];
 			is[i_43_++] = Class339_Sub6.anIntArray8700[i_40_];
-			if ((i_43_ ^ 0xffffffff) <= (is_20_.length ^ 0xffffffff)) {
+			if (is_20_.length <= i_43_) {
 				break;
 			}
 		}
@@ -246,7 +246,7 @@ public class Class275 implements Interface17
 	
 	static final int method3336(int i, int i_54_, int i_55_, int i_56_, int i_57_, int i_58_, int i_59_) {
 		anInt5416++;
-		if ((0x1 & i_56_ ^ 0xffffffff) == -2) {
+		if ((0x1 & i_56_) == 1) {
 			int i_60_ = i_57_;
 			i_57_ = i_55_;
 			i_55_ = i_60_;

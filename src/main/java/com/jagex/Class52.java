@@ -41,9 +41,9 @@ abstract class Class52
 			method534(-14, -66, -70);
 		}
 		int i_8_ = 0;
-		for (int i_9_ = 0; (i_6_ ^ 0xffffffff) < (i_9_ ^ 0xffffffff); i_9_++) {
+		for (int i_9_ = 0; i_9_ < i_6_; i_9_++) {
 			is_7_[i_9_] = i_8_;
-			if ((0x3 & random.nextInt() ^ 0xffffffff) == -1) {
+			if ((0x3 & random.nextInt()) == 0) {
 				i_8_++;
 			}
 		}
@@ -150,7 +150,7 @@ abstract class Class52
 					}
 				}
 				if (i_26_ == -1) {
-					if ((i_27_ ^ 0xffffffff) != 0) {
+					if (i_27_ != -1) {
 						i_23_ += aClass357_789.method4026(c, i_27_, 255);
 					}
 					int i_36_;
@@ -177,10 +177,10 @@ abstract class Class52
 					}
 					i_28_++;
 					int i_38_ = aClass357_789.method4027(c, !bool);
-					if ((Class339.anInt4204 ^ 0xffffffff) != 0) {
+					if (Class339.anInt4204 != -1) {
 						aGraphicsToolkit799.method1242((int) (0.7 * (double) aClass357_789.anInt4430) + i, Class339.anInt4204, i_23_, false, i_38_);
 					}
-					if ((Class370.anInt4568 ^ 0xffffffff) != 0) {
+					if (Class370.anInt4568 != -1) {
 						aGraphicsToolkit799.method1242(aClass357_789.anInt4430 + i, Class370.anInt4568, i_23_, false, i_38_);
 					}
 					i_23_ += i_38_;
@@ -270,43 +270,43 @@ abstract class Class52
 																																						while_27_:
 																																							do {
 																																								do {
-																																									if ((i_40_ ^ 0xffffffff) != -1) {
+																																									if (i_40_ != 0) {
 																																										if (i_40_ != 1) {
 																																											if (i_40_ != 2) {
-																																												if ((i_40_ ^ 0xffffffff) != -4) {
+																																												if (i_40_ != 3) {
 																																													if (i_40_ != 4) {
 																																														if (i_40_ != 5) {
-																																															if ((i_40_ ^ 0xffffffff) != -7) {
+																																															if (i_40_ != 6) {
 																																																if (i_40_ != 7) {
-																																																	if ((i_40_ ^ 0xffffffff) != -9) {
-																																																		if ((i_40_ ^ 0xffffffff) != -10) {
-																																																			if ((i_40_ ^ 0xffffffff) != -11) {
+																																																	if (i_40_ != 8) {
+																																																		if (i_40_ != 9) {
+																																																			if (i_40_ != 10) {
 																																																				if (i_40_ != 11) {
 																																																					if (i_40_ != 12) {
 																																																						if (i_40_ != 13) {
-																																																							if ((i_40_ ^ 0xffffffff) != -15) {
+																																																							if (i_40_ != 14) {
 																																																								if (i_40_ != 15) {
-																																																									if ((i_40_ ^ 0xffffffff) != -17) {
-																																																										if ((i_40_ ^ 0xffffffff) != -18) {
+																																																									if (i_40_ != 16) {
+																																																										if (i_40_ != 17) {
 																																																											if (i_40_ != 18) {
 																																																												if (i_40_ != 19) {
-																																																													if ((i_40_ ^ 0xffffffff) != -21) {
-																																																														if ((i_40_ ^ 0xffffffff) != -22) {
-																																																															if ((i_40_ ^ 0xffffffff) != -23) {
-																																																																if ((i_40_ ^ 0xffffffff) != -24) {
-																																																																	if ((i_40_ ^ 0xffffffff) != -25) {
+																																																													if (i_40_ != 20) {
+																																																														if (i_40_ != 21) {
+																																																															if (i_40_ != 22) {
+																																																																if (i_40_ != 23) {
+																																																																	if (i_40_ != 24) {
 																																																																		if (i_40_ != 25) {
 																																																																			if (i_40_ != 26) {
-																																																																				if ((i_40_ ^ 0xffffffff) != -28) {
-																																																																					if ((i_40_ ^ 0xffffffff) != -29) {
-																																																																						if ((i_40_ ^ 0xffffffff) != -30) {
-																																																																							if ((i_40_ ^ 0xffffffff) != -31) {
+																																																																				if (i_40_ != 27) {
+																																																																					if (i_40_ != 28) {
+																																																																						if (i_40_ != 29) {
+																																																																							if (i_40_ != 30) {
 																																																																								if (i_40_ != 31) {
 																																																																									if (i_40_ != 32) {
-																																																																										if ((i_40_ ^ 0xffffffff) != -34) {
-																																																																											if ((i_40_ ^ 0xffffffff) != -35) {
+																																																																										if (i_40_ != 33) {
+																																																																											if (i_40_ != 34) {
 																																																																												if (i_40_ != 35) {
-																																																																													if ((i_40_ ^ 0xffffffff) != -37) {
+																																																																													if (i_40_ != 36) {
 																																																																														if (i_40_ != 37) {
 																																																																															if (i_40_ != 38) {
 																																																																																if (i_40_ != 39) {
@@ -497,7 +497,7 @@ abstract class Class52
 		int i_41_ = 0;
 		boolean bool = false;
 		int i_42_ = -117 % ((28 - b) / 37);
-		for (int i_43_ = 0; (string.length() ^ 0xffffffff) < (i_43_ ^ 0xffffffff); i_43_++) {
+		for (int i_43_ = 0; i_43_ < string.length(); i_43_++) {
 			char c = string.charAt(i_43_);
 			if (c == '<') {
 				bool = true;
@@ -509,7 +509,7 @@ abstract class Class52
 				bool = false;
 			}
 		}
-		if ((i_41_ ^ 0xffffffff) < -1) {
+		if (i_41_ > 0) {
 			Class25.anInt446 = (i - aClass357_789.method4033((byte) -6, string) << 8) / i_41_;
 		}
 	}
@@ -528,7 +528,7 @@ abstract class Class52
 		if (bool == true) {
 			int i_48_ = -1;
 			int i_49_ = string.length();
-			for (int i_50_ = 0; (i_49_ ^ 0xffffffff) < (i_50_ ^ 0xffffffff); i_50_++) {
+			for (int i_50_ = 0; i_50_ < i_49_; i_50_++) {
 				char c = (char) (0xff & Class26.method312(string.charAt(i_50_), (byte) -54));
 				if (c == 60) {
 					i_47_ = i_50_;
@@ -554,7 +554,7 @@ abstract class Class52
 													int i_52_ = Class350.method3998(string_51_.substring(4), -1);
 													GLSprite glsprite = glsprites[i_52_];
 													int i_53_ = is != null ? is[i_52_] : glsprite.method1186();
-													if ((Class270_Sub2_Sub2.anInt10558 & ~0xffffff ^ 0xffffffff) == 16777215) {
+													if ((Class270_Sub2_Sub2.anInt10558 & ~0xffffff) == -16777216) {
 														glsprite.method1191(i_45_, -i_53_ + (aClass357_789.anInt4430 + i_46_), 1, 0, 1);
 													} else {
 														glsprite.method1191(i_45_, -i_53_ + i_46_ + aClass357_789.anInt4430, 0, Class270_Sub2_Sub2.anInt10558 & ~0xffffff | 0xffffff, 1);
@@ -585,14 +585,14 @@ abstract class Class52
 						if (i_48_ != -1) {
 							i_45_ += aClass357_789.method4026(c, i_48_, 255);
 						}
-						if ((c ^ 0xffffffff) == -33) {
+						if (c == 32) {
 							if (Class25.anInt446 > 0) {
 								Class150_Sub3.anInt8970 += Class25.anInt446;
 								i_45_ += Class150_Sub3.anInt8970 >> 8;
 								Class150_Sub3.anInt8970 &= 0xff;
 							}
 						} else if (var_aa == null) {
-							if ((CacheNode_Sub4.anInt9465 & ~0xffffff ^ 0xffffffff) != -1) {
+							if ((CacheNode_Sub4.anInt9465 & ~0xffffff) != 0) {
 								fa(c, 1 + i_45_, i_46_ - -1, CacheNode_Sub4.anInt9465, true);
 							}
 							fa(c, i_45_, i_46_, Class270_Sub2_Sub2.anInt10558, false);
@@ -603,10 +603,10 @@ abstract class Class52
 							method526(c, i_45_, i_46_, Class270_Sub2_Sub2.anInt10558, false, var_aa, i_44_, i);
 						}
 						int i_54_ = aClass357_789.method4027(c, false);
-						if ((Class339.anInt4204 ^ 0xffffffff) != 0) {
+						if (Class339.anInt4204 != -1) {
 							aGraphicsToolkit799.method1242(i_46_ + (int) (0.7 * (double) aClass357_789.anInt4430), Class339.anInt4204, i_45_, false, i_54_);
 						}
-						if ((Class370.anInt4568 ^ 0xffffffff) != 0) {
+						if (Class370.anInt4568 != -1) {
 							aGraphicsToolkit799.method1242(1 + (aClass357_789.anInt4430 + i_46_), Class370.anInt4568, i_45_, false, i_54_);
 						}
 						i_48_ = c;
@@ -680,23 +680,23 @@ abstract class Class52
 			method539(-69, 108, -103, 49, null, 53, -66, 62, 11, 81, null, -110, -87, -20, 114, null, null);
 		}
 		method534(1, i_82_, i_83_);
-		if ((i_89_ ^ 0xffffffff) == -1) {
+		if (i_89_ == 0) {
 			i_89_ = aClass357_789.anInt4430;
 		}
 		int[] is_93_;
-		if ((i_89_ + (aClass357_789.anInt4442 + aClass357_789.anInt4434) ^ 0xffffffff) >= (i_87_ ^ 0xffffffff) || (i_87_ ^ 0xffffffff) <= (i_89_ - -i_89_ ^ 0xffffffff)) {
+		if (i_87_ >= i_89_ + (aClass357_789.anInt4442 + aClass357_789.anInt4434) || i_89_ - -i_89_ <= i_87_) {
 			is_93_ = new int[] { i_90_ };
 		} else {
 			is_93_ = null;
 		}
 		int i_94_ = aClass357_789.method4029(Class9.aStringArray167, is_93_, -78, glsprites, string);
-		if ((i_84_ ^ 0xffffffff) == 0) {
+		if (i_84_ == -1) {
 			i_84_ = i_87_ / i_89_;
-			if ((i_84_ ^ 0xffffffff) >= -1) {
+			if (i_84_ <= 0) {
 				i_84_ = 1;
 			}
 		}
-		if ((i_84_ ^ 0xffffffff) < -1 && (i_84_ ^ 0xffffffff) >= (i_94_ ^ 0xffffffff)) {
+		if (i_84_ > 0 && i_94_ >= i_84_) {
 			i_94_ = i_84_;
 			Class9.aStringArray167[i_84_ - 1] = aClass357_789.method4032(Class9.aStringArray167[i_84_ + -1], glsprites, i_90_, i_81_ + -3);
 		}
@@ -704,14 +704,14 @@ abstract class Class52
 			i = 1;
 		}
 		int i_95_;
-		if ((i ^ 0xffffffff) != -1) {
-			if ((i ^ 0xffffffff) == -2) {
+		if (i != 0) {
+			if (i == 1) {
 				i_95_ = (-aClass357_789.anInt4442 + -aClass357_789.anInt4434 + (i_87_ - i_89_ * (-1 + i_94_))) / 2 + aClass357_789.anInt4434 + i_86_;
 			} else if (i == 2) {
 				i_95_ = -(i_89_ * (i_94_ - 1)) + (-aClass357_789.anInt4442 + (i_87_ + i_86_));
 			} else {
 				int i_96_ = (-aClass357_789.anInt4434 + i_87_ + -aClass357_789.anInt4442 - i_89_ * (i_94_ - 1)) / (1 + i_94_);
-				if ((i_96_ ^ 0xffffffff) > -1) {
+				if (i_96_ < 0) {
 					i_96_ = 0;
 				}
 				i_89_ += i_96_;
@@ -720,10 +720,10 @@ abstract class Class52
 		} else {
 			i_95_ = aClass357_789.anInt4434 + i_86_;
 		}
-		for (int i_97_ = 0; (i_94_ ^ 0xffffffff) < (i_97_ ^ 0xffffffff); i_97_++) {
-			if ((i_92_ ^ 0xffffffff) != -1) {
+		for (int i_97_ = 0; i_97_ < i_94_; i_97_++) {
+			if (i_92_ != 0) {
 				if (i_92_ != 1) {
-					if ((i_92_ ^ 0xffffffff) == -3) {
+					if (i_92_ == 2) {
 						method533(glsprites, i_85_, i_88_, Class9.aStringArray167[i_97_], i_91_ + (i_90_ + -aClass357_789.method4033((byte) -6, Class9.aStringArray167[i_97_])), true, var_aa, i_95_, is);
 					} else if (i_94_ - 1 == i_97_) {
 						method533(glsprites, i_85_, i_88_, Class9.aStringArray167[i_97_], i_91_, true, var_aa, i_95_, is);
@@ -806,7 +806,7 @@ abstract class Class52
 			int[] is = new int[i_103_];
 			int[] is_104_ = new int[i_103_];
 			if (i_102_ == 16777215) {
-				for (int i_105_ = 0; (i_103_ ^ 0xffffffff) < (i_105_ ^ 0xffffffff); i_105_++) {
+				for (int i_105_ = 0; i_105_ < i_103_; i_105_++) {
 					is[i_105_] = (int) (5.0 * Math.sin((double) i_105_ / 5.0 + (double) i_98_ / 5.0));
 					is_104_[i_105_] = (int) (5.0 * Math.sin((double) i_105_ / 3.0 + (double) i_98_ / 5.0));
 				}
@@ -860,7 +860,7 @@ abstract class Class52
 		int i_131_ = string.length();
 		int[] is_132_ = new int[i_131_];
 		int i_133_ = i_121_;
-		for (int i_134_ = 0; (i_131_ ^ 0xffffffff) < (i_134_ ^ 0xffffffff); i_134_++) {
+		for (int i_134_ = 0; i_134_ < i_131_; i_134_++) {
 			is_132_[i_134_] = i_133_;
 			if ((0x3 & random.nextInt()) == 0) {
 				i_133_++;
@@ -876,7 +876,7 @@ abstract class Class52
 			i_136_ += (-aClass357_789.anInt4434 + i_124_ + -aClass357_789.anInt4442) / 2;
 		}
 		int i_137_ = -1;
-		if ((i ^ 0xffffffff) != -2) {
+		if (i != 1) {
 			if (i == 2) {
 				i_137_ = i_133_ + aClass357_789.method4033((byte) -6, string);
 				i_135_ += i_120_ - i_137_;
@@ -887,7 +887,7 @@ abstract class Class52
 		}
 		method529(is_132_, string, i_136_, glsprites, i_135_, null, true, is_122_);
 		if (is != null) {
-			if ((i_137_ ^ 0xffffffff) == 0) {
+			if (i_137_ == -1) {
 				i_137_ = i_133_ + aClass357_789.method4033((byte) -6, string);
 			}
 			is[3] = aClass357_789.anInt4442 + aClass357_789.anInt4434;

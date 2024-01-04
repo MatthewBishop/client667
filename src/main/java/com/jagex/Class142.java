@@ -33,7 +33,7 @@ public class Class142
 		int i_3_ = 0;
 		for (int i_4_ = 0; Class178.anInt2120 > i_4_; i_4_++) {
 			int i_5_ = Class66_Sub1.anIntArray8987[i_4_];
-			if ((Class215.aByteArray2538[i_5_] & 0x1 ^ 0xffffffff) == -1) {
+			if ((Class215.aByteArray2538[i_5_] & 0x1) == 0) {
 				if (i_3_ > 0) {
 					Class215.aByteArray2538[i_5_] = (byte) Node_Sub16.method2590(Class215.aByteArray2538[i_5_], 2);
 					i_3_--;
@@ -61,7 +61,7 @@ public class Class142
 					Class215.aByteArray2538[i_8_] = (byte) Node_Sub16.method2590(Class215.aByteArray2538[i_8_], 2);
 				} else {
 					int i_9_ = packet.method2256((byte) 126, 1);
-					if ((i_9_ ^ 0xffffffff) == -1) {
+					if (i_9_ == 0) {
 						i_3_ = Node_Sub5.method2268(packet, -24974);
 						Class215.aByteArray2538[i_8_] = (byte) Node_Sub16.method2590(Class215.aByteArray2538[i_8_], 2);
 					} else {
@@ -71,14 +71,14 @@ public class Class142
 			}
 		}
 		packet.method2255(-1431454110);
-		if ((i_3_ ^ 0xffffffff) != -1) {
+		if (i_3_ != 0) {
 			throw new RuntimeException("nsn1");
 		}
 		packet.method2261(i + 107347904);
 		for (int i_10_ = 0; i_10_ < Class35.anInt538; i_10_++) {
 			int i_11_ = Node_Sub38_Sub19.anIntArray10292[i_10_];
 			if ((Class215.aByteArray2538[i_11_] & 0x1) != 0) {
-				if ((i_3_ ^ 0xffffffff) < -1) {
+				if (i_3_ > 0) {
 					Class215.aByteArray2538[i_11_] = (byte) Node_Sub16.method2590(Class215.aByteArray2538[i_11_], 2);
 					i_3_--;
 				} else {
@@ -100,10 +100,10 @@ public class Class142
 		if (i != 2) {
 			anIntArray1759 = null;
 		}
-		for (int i_13_ = 0; (i_13_ ^ 0xffffffff) > (Class35.anInt538 ^ 0xffffffff); i_13_++) {
+		for (int i_13_ = 0; Class35.anInt538 > i_13_; i_13_++) {
 			int i_14_ = Node_Sub38_Sub19.anIntArray10292[i_13_];
 			if ((0x1 & Class215.aByteArray2538[i_14_]) == 0) {
-				if ((i_3_ ^ 0xffffffff) < -1) {
+				if (i_3_ > 0) {
 					i_3_--;
 					Class215.aByteArray2538[i_14_] = (byte) Node_Sub16.method2590(Class215.aByteArray2538[i_14_], 2);
 				} else {

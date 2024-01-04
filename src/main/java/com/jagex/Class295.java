@@ -15,7 +15,7 @@ public class Class295
 	
 	static final Widget method3468(byte b, Widget widget) {
 		anInt3699++;
-		if ((widget.anInt4692 ^ 0xffffffff) != 0) {
+		if (widget.anInt4692 != -1) {
 			return Class76.method771((byte) 107, widget.anInt4692);
 		}
 		if (b >= -92) {
@@ -24,7 +24,7 @@ public class Class295
 		int i = widget.anInt4822 >>> 16;
 		Class303 class303 = new Class303(Class289.aHashTable3630);
 		for (Node_Sub2 node_sub2 = (Node_Sub2) class303.method3542(true); node_sub2 != null; node_sub2 = (Node_Sub2) class303.method3539(0)) {
-			if ((node_sub2.anInt6933 ^ 0xffffffff) == (i ^ 0xffffffff)) {
+			if (i == node_sub2.anInt6933) {
 				return Class76.method771((byte) 107, (int) node_sub2.aLong2797);
 			}
 		}
@@ -44,10 +44,10 @@ public class Class295
 	
 	static final void method3470(GraphicsToolkit graphicstoolkit, int i) {
 		anInt3696++;
-		if (((Class315.anInt4035 ^ 0xffffffff) <= -3 || Class87.aBoolean1185) && Class58.aWidget861 == null) {
+		if ((Class315.anInt4035 >= 2 || Class87.aBoolean1185) && Class58.aWidget861 == null) {
 			int i_0_ = 87 / ((-34 - i) / 61);
 			String string;
-			if (!Class87.aBoolean1185 || (Class315.anInt4035 ^ 0xffffffff) <= -3) {
+			if (!Class87.aBoolean1185 || Class315.anInt4035 >= 2) {
 				if (!Class116.shiftClickEnabled || !Class175.aClass291_2100.method3450(-46, 81) || Class315.anInt4035 <= 2) {
 					CacheNode_Sub13 cachenode_sub13 = Node_Sub38_Sub23.aCacheNode_Sub13_10343;
 					if (cachenode_sub13 == null) {
@@ -56,7 +56,7 @@ public class Class295
 					string = Mobile.method844(cachenode_sub13, (byte) 127);
 					int[] is = null;
 					if (!Class134.method1574(false, cachenode_sub13.anInt9562)) {
-						if ((cachenode_sub13.anInt9569 ^ 0xffffffff) == 0) {
+						if (cachenode_sub13.anInt9569 == -1) {
 							if (Class318.method3666(cachenode_sub13.anInt9562, (byte) 109)) {
 								Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) (int) cachenode_sub13.aLong9563);
 								if (node_sub41 != null) {
@@ -93,7 +93,7 @@ public class Class295
 			} else {
 				string = Class84.aString1148 + Class22.aClass22_395.method297(-12273, Class35.anInt537) + Class66.aString5177 + " ->";
 			}
-			if ((Class315.anInt4035 ^ 0xffffffff) < -3) {
+			if (Class315.anInt4035 > 2) {
 				string += "<col=ffffff> / " + (Class315.anInt4035 - 2) + Class22.aClass22_388.method297(-12273, Class35.anInt537);
 			}
 			if (Class320_Sub29.aWidget8488 != null) {

@@ -43,17 +43,17 @@ public class Class223
 				if (player.anInt11139 == 0) {
 					boolean bool_0_ = true;
 					if (Class295.aPlayer3692.anInt11184 != -1 && player.anInt11184 != -1) {
-						int i_1_ = (Class295.aPlayer3692.anInt11184 ^ 0xffffffff) > (player.anInt11184 ^ 0xffffffff) ? Class295.aPlayer3692.anInt11184 : player.anInt11184;
+						int i_1_ = player.anInt11184 > Class295.aPlayer3692.anInt11184 ? Class295.aPlayer3692.anInt11184 : player.anInt11184;
 						int i_2_ = -player.anInt11152 + Class295.aPlayer3692.anInt11152;
-						if ((i_2_ ^ 0xffffffff) > -1) {
+						if (i_2_ < 0) {
 							i_2_ = -i_2_;
 						}
-						if ((i_2_ ^ 0xffffffff) < (i_1_ ^ 0xffffffff)) {
+						if (i_1_ < i_2_) {
 							bool_0_ = false;
 						}
 					}
 					String string_3_ = Class169_Sub4.aClass353_8825 != Class209.aClass353_2483 ? Class22.aClass22_391.method297(-12273, Class35.anInt537) : Class22.aClass22_393.method297(-12273, Class35.anInt537);
-					if ((player.anInt11152 ^ 0xffffffff) <= (player.anInt11141 ^ 0xffffffff)) {
+					if (player.anInt11141 <= player.anInt11152) {
 						string = player.method893(false, true) + (bool_0_ ? Class368.method4077(i + -1625917681, Class295.aPlayer3692.anInt11152, player.anInt11152) : "<col=ffffff>") + " (" + string_3_ + player.anInt11152 + ")";
 					} else {
 						string = player.method893(false, true) + (!bool_0_ ? "<col=ffffff>" : Class368.method4077(-1625932733, Class295.aPlayer3692.anInt11152, player.anInt11152)) + " (" + string_3_ + player.anInt11152 + "+" + (player.anInt11141 + -player.anInt11152) + ")";
@@ -63,7 +63,7 @@ public class Class223
 				} else {
 					string = player.method893(false, true) + " (" + Class22.aClass22_392.method297(-12273, Class35.anInt537) + player.anInt11139 + ")";
 				}
-				if (Class87.aBoolean1185 && !bool && (0x8 & Class200_Sub2.anInt4943 ^ 0xffffffff) != -1) {
+				if (Class87.aBoolean1185 && !bool && (0x8 & Class200_Sub2.anInt4943) != 0) {
 					Class320_Sub8.anInt8285++;
 					Node_Sub32.method2731(false, -1, (long) player.anInt10858, 0, 0, Class84.aString1148, 44, true, Class201.anInt2444, Class66.aString5177 + " -> <col=ffffff>" + string, (long) player.anInt10858, (byte) -18, false);
 				}
@@ -75,11 +75,11 @@ public class Class223
 						if (Class320_Sub13.aStringArray8338[i_4_] != null) {
 							short s = 0;
 							if (Class209.aClass353_2483 == Node_Sub38_Sub34.aClass353_10443 && Class320_Sub13.aStringArray8338[i_4_].equalsIgnoreCase(Class22.aClass22_386.method297(-12273, Class35.anInt537))) {
-								if (Class171.aBoolean2058 && (Class295.aPlayer3692.anInt11152 ^ 0xffffffff) > (player.anInt11152 ^ 0xffffffff)) {
+								if (Class171.aBoolean2058 && player.anInt11152 > Class295.aPlayer3692.anInt11152) {
 									s = (short) 2000;
 								}
-								if ((Class295.aPlayer3692.anInt11134 ^ 0xffffffff) != -1 && player.anInt11134 != 0) {
-									if ((player.anInt11134 ^ 0xffffffff) != (Class295.aPlayer3692.anInt11134 ^ 0xffffffff)) {
+								if (Class295.aPlayer3692.anInt11134 != 0 && player.anInt11134 != 0) {
+									if (Class295.aPlayer3692.anInt11134 != player.anInt11134) {
 										s = (short) 0;
 									} else {
 										s = (short) 2000;
@@ -91,7 +91,7 @@ public class Class223
 								s = (short) 2000;
 							}
 							short s_5_ = (short) (s + Node_Sub38_Sub9.aShortArray10186[i_4_]);
-							int i_6_ = (Class78.anIntArray1031[i_4_] ^ 0xffffffff) == 0 ? Class230_Sub1.anInt9013 : Class78.anIntArray1031[i_4_];
+							int i_6_ = Class78.anIntArray1031[i_4_] == -1 ? Class230_Sub1.anInt9013 : Class78.anIntArray1031[i_4_];
 							Node_Sub32.method2731(false, -1, (long) player.anInt10858, 0, 0, Class320_Sub13.aStringArray8338[i_4_], s_5_, true, i_6_, "<col=ffffff>" + string, (long) player.anInt10858, (byte) -18, false);
 							Class106.anInt1349++;
 						}

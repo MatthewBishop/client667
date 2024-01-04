@@ -23,7 +23,7 @@ public class Class294
 		if (i_0_ != -1) {
 			method3467(-37, -57, 35, -14);
 		}
-		if ((0x8000 & i ^ 0xffffffff) == -1) {
+		if ((0x8000 & i) == 0) {
 			return false;
 		}
 		return true;

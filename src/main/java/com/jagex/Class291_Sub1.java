@@ -33,7 +33,7 @@ public class Class291_Sub1 extends Class291 implements KeyListener, FocusListene
 	
 	static final void method3454(int i, int i_0_, int i_1_, int i_2_) {
 		anInt8196++;
-		if ((Class368.anInt4550 ^ 0xffffffff) != (i_1_ ^ 0xffffffff) || (Class72.anInt973 ^ 0xffffffff) != (i ^ 0xffffffff) || i_0_ != Node_Sub29_Sub1.anInt10012) {
+		if (i_1_ != Class368.anInt4550 || i != Class72.anInt973 || i_0_ != Node_Sub29_Sub1.anInt10012) {
 			Class194_Sub1.aBoolean6892 = true;
 			Class72.anInt973 = i;
 			Class368.anInt4550 = i_1_;
@@ -127,7 +127,7 @@ public class Class291_Sub1 extends Class291 implements KeyListener, FocusListene
 								aClass312_8197.method3625((byte) -54, node_sub12);
 							}
 						} else {
-							for (int i = 0; (i ^ 0xffffffff) > -113; i++) {
+							for (int i = 0; i < 112; i++) {
 								if (aBooleanArray8206[i]) {
 									Node_Sub12 node_sub12_11_ = new Node_Sub12();
 									node_sub12_11_.anInt5454 = i;
@@ -178,12 +178,12 @@ public class Class291_Sub1 extends Class291 implements KeyListener, FocusListene
 	private final void method3458(byte b, int i, KeyEvent keyevent) {
 		anInt8194++;
 		int i_13_ = keyevent.getKeyCode();
-		if ((i_13_ ^ 0xffffffff) != -1) {
-			if ((i_13_ ^ 0xffffffff) > -1 || (i_13_ ^ 0xffffffff) <= (Node_Sub38_Sub24.anIntArray10352.length ^ 0xffffffff)) {
+		if (i_13_ != 0) {
+			if (i_13_ < 0 || Node_Sub38_Sub24.anIntArray10352.length <= i_13_) {
 				i_13_ = 0;
 			} else {
 				i_13_ = Node_Sub38_Sub24.anIntArray10352[i_13_];
-				if ((i ^ 0xffffffff) == -1 && (0x80 & i_13_ ^ 0xffffffff) != -1) {
+				if (i == 0 && (0x80 & i_13_) != 0) {
 					i_13_ = 0;
 				} else {
 					i_13_ &= ~0x80;
@@ -242,7 +242,7 @@ public class Class291_Sub1 extends Class291 implements KeyListener, FocusListene
 	public final synchronized void keyTyped(KeyEvent keyevent) {
 		anInt8199++;
 		char c = keyevent.getKeyChar();
-		if ((c ^ 0xffffffff) != -1 && Class106.method1121(-127, c)) {
+		if (c != 0 && Class106.method1121(-127, c)) {
 			method3456(c, 10830, -1, 3);
 			keyevent.consume();
 		}
@@ -251,7 +251,7 @@ public class Class291_Sub1 extends Class291 implements KeyListener, FocusListene
 	final boolean method3450(int i, int i_14_) {
 		anInt8201++;
 		int i_15_ = -86 / ((i - 28) / 53);
-		if (i_14_ < 0 || (i_14_ ^ 0xffffffff) <= -113) {
+		if (i_14_ < 0 || i_14_ >= 112) {
 			return false;
 		}
 		return aBooleanArray8206[i_14_];

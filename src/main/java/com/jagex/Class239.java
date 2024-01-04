@@ -24,7 +24,7 @@ public class Class239
 		if (bool != false) {
 			aClass302_2931 = null;
 		}
-		Class229.aGraphicsToolkit2732.L(Class138.anInt1726, (Class213.aNode_Sub27_2512.aClass320_Sub16_7316.method3744(bool) ^ 0xffffffff) == -2 ? Node_Sub12.anInt5455 + 256 << 2 : -1, 0);
+		Class229.aGraphicsToolkit2732.L(Class138.anInt1726, Class213.aNode_Sub27_2512.aClass320_Sub16_7316.method3744(bool) == 1 ? Node_Sub12.anInt5455 + 256 << 2 : -1, 0);
 		anInt2920++;
 	}
 	

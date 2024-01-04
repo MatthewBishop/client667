@@ -33,7 +33,7 @@ public class Class152
 			int i_3_ = buffer.method2186(74);
 			int i_4_ = buffer.method2219(i ^ ~0x7c7fc37);
 			int i_5_ = buffer.method2233(255);
-			if (!bool && (i_5_ ^ 0xffffffff) == -2) {
+			if (!bool && i_5_ == 1) {
 				class224.anInt2670--;
 			} else {
 				class224.anIntArray2668[i_1_] = i_3_;

@@ -389,7 +389,7 @@ public class GLToolkit extends GraphicsToolkit
 	final void method1407(byte b, float f) {
 		if (aFloat6720 != f) {
 			aFloat6720 = f;
-			if ((anInt6686 ^ 0xffffffff) == -4) {
+			if (anInt6686 == 3) {
 				method1419(false);
 			}
 		}
@@ -438,7 +438,7 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final boolean o() {
 		anInt6407++;
-		if (aNode_Sub23_Sub1_6594 == null || (anInt6599 ^ 0xffffffff) < -2 && !aBoolean6721) {
+		if (aNode_Sub23_Sub1_6594 == null || anInt6599 > 1 && !aBoolean6721) {
 			return false;
 		}
 		return true;
@@ -551,7 +551,7 @@ public class GLToolkit extends GraphicsToolkit
 				/* empty */
 			}
 			long l = anOpenGL6423.prepareSurface(canvas);
-			if ((l ^ 0xffffffffffffffffL) == 0L) {
+			if (l == -1) {
 				throw new RuntimeException();
 			}
 			aHashtable6475.put(canvas, new Long(l));
@@ -582,7 +582,7 @@ public class GLToolkit extends GraphicsToolkit
 			method1435(61);
 		}
 		anInt6467++;
-		if ((anInt6636 ^ 0xffffffff) != -5) {
+		if (anInt6636 != 4) {
 			method1446((byte) 126);
 			method1478(false, (byte) -53);
 			method1451(false, -31277);
@@ -655,7 +655,7 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final void j(int i) {
 		anInt6401++;
-		if ((i ^ 0xffffffff) != -2) {
+		if (i != 1) {
 			throw new IllegalArgumentException("");
 		}
 	}
@@ -672,7 +672,7 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final void f(int i) {
 		anInt6580++;
-		if ((i ^ 0xffffffff) > -129 || (i ^ 0xffffffff) < -1025) {
+		if (i < 128 || i > 1024) {
 			throw new IllegalArgumentException();
 		}
 		anInt6593 = i;
@@ -705,10 +705,10 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final int method1420(int i, boolean bool) {
 		anInt6584++;
-		if ((i ^ 0xffffffff) != -2) {
+		if (i != 1) {
 			if (i != 0) {
 				if (i != 2) {
-					if ((i ^ 0xffffffff) != -4) {
+					if (i != 3) {
 						if (i == 4) {
 							return 34023;
 						}
@@ -878,7 +878,7 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final void h() {
 		anInt6424++;
-		if (aBoolean6685 && (anInt6474 ^ 0xffffffff) < -1 && anInt6567 > 0) {
+		if (aBoolean6685 && anInt6474 > 0 && anInt6567 > 0) {
 			int i = anInt6644;
 			int i_56_ = anInt6733;
 			int i_57_ = anInt6745;
@@ -924,7 +924,7 @@ public class GLToolkit extends GraphicsToolkit
 	private final void method1423(byte b) {
 		anInt6503++;
 		int i;
-		for (i = 0; (i ^ 0xffffffff) > (anInt6742 ^ 0xffffffff); i++) {
+		for (i = 0; anInt6742 > i; i++) {
 			Node_Sub29 node_sub29 = aNode_Sub29Array6655[i];
 			int i_62_ = i + 16386;
 			Class204.aFloatArray2456[0] = (float) node_sub29.method2705(32311);
@@ -941,7 +941,7 @@ public class GLToolkit extends GraphicsToolkit
 			OpenGL.glLightf(i_62_, 4617, 1.0F / (float) (node_sub29.method2711(122) * node_sub29.method2711(118)));
 			OpenGL.glEnable(i_62_);
 		}
-		for (/**/; (anInt6704 ^ 0xffffffff) < (i ^ 0xffffffff); i++)
+		for (/**/; i < anInt6704; i++)
 			OpenGL.glDisable(i + 16386);
 		if (b == 85) {
 			anInt6704 = anInt6742;
@@ -959,7 +959,7 @@ public class GLToolkit extends GraphicsToolkit
 			da(-97, -61, -35, null);
 		}
 		anInt6556++;
-		if ((anInt6686 ^ 0xffffffff) != -1) {
+		if (anInt6686 != 0) {
 			anInt6636 &= ~0x1f;
 			anInt6686 = 0;
 		}
@@ -972,7 +972,7 @@ public class GLToolkit extends GraphicsToolkit
 		anInt6468++;
 		int i_64_ = 0;
 		while (!anOpenGL6423.b()) {
-			if ((i_64_++ ^ 0xffffffff) < -6) {
+			if (i_64_++ > 5) {
 				throw new RuntimeException("");
 			}
 			Class262_Sub22.method3208(1000L, false);
@@ -986,7 +986,7 @@ public class GLToolkit extends GraphicsToolkit
 		int i_65_ = 0;
 		if (class383.aByteArray4905 != null) {
 			for (int i_66_ = 0; class383.anInt4900 > i_66_; i_66_++) {
-				for (int i_67_ = 0; (class383.anInt4897 ^ 0xffffffff) < (i_67_ ^ 0xffffffff); i_67_++) {
+				for (int i_67_ = 0; i_67_ < class383.anInt4897; i_67_++) {
 					is[i_65_++] = Node_Sub16.method2590(class383.anIntArray4904[Node_Sub30.method2723(class383.aByteArray4903[i], 255)], class383.aByteArray4905[i] << 24);
 					i++;
 				}
@@ -1061,7 +1061,7 @@ public class GLToolkit extends GraphicsToolkit
 		OpenGL.glColorMaterial(1028, i);
 		OpenGL.glEnable(2903);
 		float[] fs = { 0.0F, 0.0F, 0.0F, 1.0F };
-		for (int i_76_ = 0; (i_76_ ^ 0xffffffff) > -9; i_76_++) {
+		for (int i_76_ = 0; i_76_ < 8; i_76_++) {
 			int i_77_ = 16384 + i_76_;
 			OpenGL.glLightfv(i_77_, 4608, fs, 0);
 			OpenGL.glLightf(i_77_, 4615, 0.0F);
@@ -1115,12 +1115,12 @@ public class GLToolkit extends GraphicsToolkit
 			aBoolean6677 = false;
 		}
 		anInt6524++;
-		if ((anInt6618 ^ 0xffffffff) > -1 || anInterface11Array6615[anInt6618] != interface11) {
+		if (anInt6618 < 0 || anInterface11Array6615[anInt6618] != interface11) {
 			throw new RuntimeException();
 		}
 		anInterface11Array6615[anInt6618--] = null;
 		interface11.method32(i + 19157);
-		if ((anInt6618 ^ 0xffffffff) <= -1) {
+		if (anInt6618 >= 0) {
 			anInterface11_6617 = anInterface11Array6615[anInt6618];
 			anInterface11_6617.method31((byte) 116);
 		} else {
@@ -1311,7 +1311,7 @@ public class GLToolkit extends GraphicsToolkit
 		new Class169_Sub2(this, 3553, 6408, 1, 1);
 		int i_86_ = 43 % ((-41 - i) / 60);
 		new Class169_Sub2(this, 3553, 6408, 1, 1);
-		for (int i_87_ = 0; (i_87_ ^ 0xffffffff) > -8; i_87_++) {
+		for (int i_87_ = 0; i_87_ < 7; i_87_++) {
 			aGLDrawableModelArray6743[i_87_] = new GLDrawableModel(this);
 			aGLDrawableModelArray6688[i_87_] = new GLDrawableModel(this);
 		}
@@ -1332,7 +1332,7 @@ public class GLToolkit extends GraphicsToolkit
 			}
 			anInterface11Array6621[anInt6613--] = null;
 			interface11.method29(-96);
-			if ((anInt6613 ^ 0xffffffff) > -1) {
+			if (anInt6613 < 0) {
 				anInterface11_6617 = anInterface11_6620 = null;
 			} else {
 				anInterface11_6617 = anInterface11_6620 = anInterface11Array6621[anInt6613];
@@ -1353,7 +1353,7 @@ public class GLToolkit extends GraphicsToolkit
 		int i_89_ = Class141.aCalendar1756.get(5);
 		int i_90_ = Class141.aCalendar1756.get(2);
 		int i_91_ = Class141.aCalendar1756.get(1);
-		if ((i_88_ ^ 0xffffffff) == -4) {
+		if (i_88_ == 3) {
 			return Class326.method3818(l, (byte) 73, i_88_);
 		}
 		return Integer.toString(i_89_ / 10) + i_89_ % 10 + "-" + Class13.aStringArrayArray209[i_88_][i_90_] + "-" + i_91_;
@@ -1391,10 +1391,10 @@ public class GLToolkit extends GraphicsToolkit
 		aString6653 = OpenGL.glGetString(7936).toLowerCase();
 		int i_93_ = 0;
 		aString6673 = OpenGL.glGetString(7937).toLowerCase();
-		if ((aString6653.indexOf("microsoft") ^ 0xffffffff) != 0) {
+		if (aString6653.indexOf("microsoft") != -1) {
 			i_93_ |= 0x1;
 		}
-		if ((aString6653.indexOf("brian paul") ^ 0xffffffff) != 0 || (aString6653.indexOf("mesa") ^ 0xffffffff) != 0) {
+		if (aString6653.indexOf("brian paul") != -1 || aString6653.indexOf("mesa") != -1) {
 			i_93_ |= 0x1;
 		}
 		String string = OpenGL.glGetString(7938);
@@ -1492,7 +1492,7 @@ public class GLToolkit extends GraphicsToolkit
 		anInt6702 = i_103_;
 		method1433(111);
 		method1480(3657);
-		if ((anInt6686 ^ 0xffffffff) == -4) {
+		if (anInt6686 == 3) {
 			method1419(false);
 		} else if (anInt6686 == 2) {
 			method1448(512);
@@ -1557,7 +1557,7 @@ public class GLToolkit extends GraphicsToolkit
 			aLong6476 = var_long.longValue();
 			aCanvas6546 = canvas;
 		}
-		if (aCanvas6546 == null || (aLong6476 ^ 0xffffffffffffffffL) == -1L) {
+		if (aCanvas6546 == null || aLong6476 == 0) {
 			throw new RuntimeException();
 		}
 		anOpenGL6423.setSurface(aLong6476);
@@ -1671,7 +1671,7 @@ public class GLToolkit extends GraphicsToolkit
 		if (anInt6686 != 1) {
 			OpenGL.glMatrixMode(5889);
 			OpenGL.glLoadIdentity();
-			if (anInt6474 > 0 && (anInt6567 ^ 0xffffffff) < -1) {
+			if (anInt6474 > 0 && anInt6567 > 0) {
 				OpenGL.glOrtho(0.0, (double) anInt6474, (double) anInt6567, 0.0, -1.0, 1.0);
 			}
 			OpenGL.glMatrixMode(5888);
@@ -1683,10 +1683,10 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final void method1447(Interface11 interface11, int i) {
 		anInt6562++;
-		if ((anInt6618 ^ 0xffffffff) <= -4) {
+		if (anInt6618 >= 3) {
 			throw new RuntimeException();
 		}
-		if ((anInt6618 ^ 0xffffffff) <= -1) {
+		if (anInt6618 >= 0) {
 			anInterface11Array6615[anInt6618].method32(8372);
 		}
 		anInterface11_6617 = anInterface11Array6615[++anInt6618] = interface11;
@@ -1709,10 +1709,10 @@ public class GLToolkit extends GraphicsToolkit
 	final Renderer c() {
 		anInt6454++;
 		int i = -1;
-		if ((aString6653.indexOf("nvidia") ^ 0xffffffff) != 0) {
+		if (aString6653.indexOf("nvidia") != -1) {
 			i = 4318;
 		} else if (aString6653.indexOf("intel") == -1) {
-			if ((aString6653.indexOf("ati") ^ 0xffffffff) != 0) {
+			if (aString6653.indexOf("ati") != -1) {
 				i = 4098;
 			}
 		} else {
@@ -1729,10 +1729,10 @@ public class GLToolkit extends GraphicsToolkit
 		if (i > anInt6644) {
 			anInt6644 = i;
 		}
-		if ((anInt6696 ^ 0xffffffff) < (i_127_ ^ 0xffffffff)) {
+		if (i_127_ < anInt6696) {
 			anInt6696 = i_127_;
 		}
-		if ((i_125_ ^ 0xffffffff) < (anInt6745 ^ 0xffffffff)) {
+		if (anInt6745 < i_125_) {
 			anInt6745 = i_125_;
 		}
 		OpenGL.glEnable(3089);
@@ -1892,12 +1892,12 @@ public class GLToolkit extends GraphicsToolkit
 			byte b = 0;
 			int i_149_ = 0;
 			byte b_150_ = aBoolean6676 ? (byte) 3 : (byte) 0;
-			if ((i ^ 0xffffffff) > -1) {
+			if (i < 0) {
 				method1442(2);
 			} else {
 				class169_sub2 = aClass136_6591.method1593((byte) -32, i);
 				Class91 class91 = aD1543.method10(i, -8217);
-				if ((class91.aByte1211 ^ 0xffffffff) != -1 || (class91.aByte1203 ^ 0xffffffff) != -1) {
+				if (class91.aByte1211 != 0 || class91.aByte1203 != 0) {
 					int i_151_ = !class91.aBoolean1204 ? 128 : 64;
 					int i_152_ = i_151_ * 50;
 					method1413(0.0F, (float) (class91.aByte1203 * (anInt6605 % i_152_)) / (float) i_152_, 127, (float) (anInt6605 % i_152_ * class91.aByte1211) / (float) i_152_);
@@ -2001,7 +2001,7 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final void ZA(int i, float f, float f_173_, float f_174_, float f_175_, float f_176_) {
 		anInt6483++;
-		boolean bool = (i ^ 0xffffffff) != (anInt6694 ^ 0xffffffff);
+		boolean bool = anInt6694 != i;
 		if (bool || aFloat6645 != f || f_173_ != aFloat6648) {
 			aFloat6645 = f;
 			anInt6694 = i;
@@ -2048,7 +2048,7 @@ public class GLToolkit extends GraphicsToolkit
 				bool_179_ = true;
 				bool = true;
 			} else if (i != 2) {
-				if ((i ^ 0xffffffff) != -129) {
+				if (i != 128) {
 					bool = true;
 					bool_179_ = false;
 					i_180_ = 0;
@@ -2074,10 +2074,10 @@ public class GLToolkit extends GraphicsToolkit
 				}
 				aBoolean6635 = bool_179_;
 			}
-			if ((anInt6632 ^ 0xffffffff) != (i_180_ ^ 0xffffffff)) {
-				if ((i_180_ ^ 0xffffffff) != -2) {
+			if (i_180_ != anInt6632) {
+				if (i_180_ != 1) {
 					if (i_180_ != 2) {
-						if ((i_180_ ^ 0xffffffff) != -4) {
+						if (i_180_ != 3) {
 							OpenGL.glDisable(3042);
 						} else {
 							OpenGL.glEnable(3042);
@@ -2120,7 +2120,7 @@ public class GLToolkit extends GraphicsToolkit
 				int i = class169_sub1_187_.anInt8793 >= class169_sub1.anInt8793 ? class169_sub1_187_.anInt8793 : class169_sub1.anInt8793;
 				if (class270_185_ != class270 && class270_184_ != class270_185_ && class270_185_ instanceof Class270_Sub2_Sub1) {
 					Class270_Sub2_Sub1 class270_sub2_sub1_188_ = (Class270_Sub2_Sub1) class270_185_;
-					if ((class270_sub2_sub1_188_.method3307(1) ^ 0xffffffff) == (i ^ 0xffffffff)) {
+					if (i == class270_sub2_sub1_188_.method3307(1)) {
 						class270_sub2_sub1 = class270_sub2_sub1_188_;
 					}
 				}
@@ -2184,7 +2184,7 @@ public class GLToolkit extends GraphicsToolkit
 	}
 	
 	final void f(int i, int i_194_) {
-		if (i != anInt6693 || (anInt6705 ^ 0xffffffff) != (i_194_ ^ 0xffffffff)) {
+		if (i != anInt6693 || i_194_ != anInt6705) {
 			anInt6693 = i;
 			anInt6705 = i_194_;
 			method1433(111);
@@ -2227,7 +2227,7 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final void a(int i, int i_195_, int i_196_, int i_197_, int i_198_, int i_199_, int i_200_, int i_201_, int i_202_) {
 		anInt6452++;
-		if ((i_196_ ^ 0xffffffff) != (i ^ 0xffffffff) || (i_197_ ^ 0xffffffff) != (i_195_ ^ 0xffffffff)) {
+		if (i != i_196_ || i_195_ != i_197_) {
 			method1469((byte) 88);
 			method1460(i_199_, 3);
 			float f = (float) -i + (float) i_196_;
@@ -2255,7 +2255,7 @@ public class GLToolkit extends GraphicsToolkit
 			float f_213_ = (float) i_201_ * f;
 			float f_214_ = f_203_ * (float) i_201_;
 			for (;;) {
-				if ((i ^ 0xffffffff) <= (i_196_ ^ 0xffffffff)) {
+				if (i_196_ <= i) {
 					if (f_211_ < (float) i_196_ + 0.35F) {
 						break;
 					}
@@ -2270,7 +2270,7 @@ public class GLToolkit extends GraphicsToolkit
 						f_209_ = -f_211_ + (float) i_196_;
 					}
 				}
-				if ((i_197_ ^ 0xffffffff) >= (i_195_ ^ 0xffffffff)) {
+				if (i_195_ >= i_197_) {
 					if (0.35F + (float) i_197_ > f_212_) {
 						break;
 					}
@@ -2300,7 +2300,7 @@ public class GLToolkit extends GraphicsToolkit
 	final void X(int i) {
 		anInt6528++;
 		anInt6611 = 0;
-		while ((i ^ 0xffffffff) < -2) {
+		while (i > 1) {
 			i >>= 1;
 			anInt6611++;
 		}
@@ -2332,7 +2332,7 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final void L(int i, int i_229_, int i_230_) {
 		anInt6566++;
-		if ((i ^ 0xffffffff) != (anInt6678 ^ 0xffffffff) || anInt6691 != i_229_ || i_230_ != anInt6692) {
+		if (anInt6678 != i || anInt6691 != i_229_ || i_230_ != anInt6692) {
 			anInt6691 = i_229_;
 			anInt6692 = i_230_;
 			anInt6678 = i;
@@ -2431,7 +2431,7 @@ public class GLToolkit extends GraphicsToolkit
 		try {
 			anOpenGL6423 = new OpenGL();
 			aLong6476 = aLong6477 = anOpenGL6423.init(canvas, 8, 8, 8, 24, 0, anInt6599);
-			if ((aLong6477 ^ 0xffffffffffffffffL) == -1L) {
+			if (aLong6477 == 0) {
 				throw new RuntimeException("");
 			}
 			method1425(-65);
@@ -2440,15 +2440,15 @@ public class GLToolkit extends GraphicsToolkit
 				throw new RuntimeException("");
 			}
 			anInt6740 = aBoolean6736 ? 33639 : 5121;
-			if ((aString6673.indexOf("radeon") ^ 0xffffffff) != 0) {
+			if (aString6673.indexOf("radeon") != -1) {
 				int i_232_ = 0;
 				boolean bool = false;
 				boolean bool_233_ = false;
 				String[] strings = Class106.method1120((byte) 51, aString6673.replace('/', ' '), ' ');
-				for (int i_234_ = 0; (i_234_ ^ 0xffffffff) > (strings.length ^ 0xffffffff); i_234_++) {
+				for (int i_234_ = 0; strings.length > i_234_; i_234_++) {
 					String string = strings[i_234_];
 					try {
-						if ((string.length() ^ 0xffffffff) < -1) {
+						if (string.length() > 0) {
 							if (string.charAt(0) == 'x' && string.length() >= 3 && Class290_Sub7.method3441(2, string.substring(1, 3))) {
 								string = string.substring(1);
 								bool_233_ = true;
@@ -2470,7 +2470,7 @@ public class GLToolkit extends GraphicsToolkit
 						/* empty */
 					}
 				}
-				if (!bool || (i_232_ ^ 0xffffffff) > -4001) {
+				if (!bool || i_232_ < 4000) {
 					aBoolean6665 = false;
 				}
 				if (!bool_233_ && !bool) {
@@ -2534,7 +2534,7 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final int method1466(int i, int i_237_) {
 		anInt6440++;
-		if ((i_237_ ^ 0xffffffff) == -5122 || (i_237_ ^ 0xffffffff) == -5121) {
+		if (i_237_ == 5121 || i_237_ == 5120) {
 			return 1;
 		}
 		if (i < 126) {
@@ -2616,10 +2616,10 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final void a(int i, Node_Sub29[] node_sub29s) {
 		anInt6578++;
-		for (int i_251_ = 0; (i ^ 0xffffffff) < (i_251_ ^ 0xffffffff); i_251_++)
+		for (int i_251_ = 0; i_251_ < i; i_251_++)
 			aNode_Sub29Array6655[i_251_] = node_sub29s[i_251_];
 		anInt6742 = i;
-		if ((anInt6686 ^ 0xffffffff) != -2) {
+		if (anInt6686 != 1) {
 			method1423((byte) 85);
 		}
 	}
@@ -2632,7 +2632,7 @@ public class GLToolkit extends GraphicsToolkit
 			Node_Sub32 node_sub32 = (Node_Sub32) aClass312_6626.method3619(-68);
 			Class85.anIntArray1154[i_252_++] = (int) node_sub32.aLong2797;
 			anInt6623 -= node_sub32.anInt7381;
-			if ((i_252_ ^ 0xffffffff) == -1001) {
+			if (i_252_ == 1000) {
 				OpenGL.glDeleteBuffersARB(i_252_, Class85.anIntArray1154, 0);
 				i_252_ = 0;
 			}
@@ -2645,12 +2645,12 @@ public class GLToolkit extends GraphicsToolkit
 			Node_Sub32 node_sub32 = (Node_Sub32) aClass312_6627.method3619(-102);
 			Class85.anIntArray1154[i_252_++] = (int) node_sub32.aLong2797;
 			anInt6624 -= node_sub32.anInt7381;
-			if ((i_252_ ^ 0xffffffff) == -1001) {
+			if (i_252_ == 1000) {
 				OpenGL.glDeleteTextures(i_252_, Class85.anIntArray1154, 0);
 				i_252_ = 0;
 			}
 		}
-		if ((i_252_ ^ 0xffffffff) < -1) {
+		if (i_252_ > 0) {
 			OpenGL.glDeleteTextures(i_252_, Class85.anIntArray1154, 0);
 			i_252_ = 0;
 		}
@@ -2662,7 +2662,7 @@ public class GLToolkit extends GraphicsToolkit
 				i_252_ = 0;
 			}
 		}
-		if ((i_252_ ^ 0xffffffff) < -1) {
+		if (i_252_ > 0) {
 			OpenGL.glDeleteFramebuffersEXT(i_252_, Class85.anIntArray1154, 0);
 			i_252_ = 0;
 		}
@@ -2670,7 +2670,7 @@ public class GLToolkit extends GraphicsToolkit
 			Node_Sub32 node_sub32 = (Node_Sub32) aClass312_6629.method3619(-77);
 			Class85.anIntArray1154[i_252_++] = (int) node_sub32.aLong2797;
 			anInt6625 -= node_sub32.anInt7381;
-			if ((i_252_ ^ 0xffffffff) == -1001) {
+			if (i_252_ == 1000) {
 				OpenGL.glDeleteRenderbuffersEXT(i_252_, Class85.anIntArray1154, 0);
 				i_252_ = 0;
 			}
@@ -2696,7 +2696,7 @@ public class GLToolkit extends GraphicsToolkit
 			OpenGL.glDeleteLists((int) node_sub32.aLong2797, node_sub32.anInt7381);
 		}
 		aClass136_6591.method1592(true);
-		if (E() > 100663296 && (60000L + aLong6640 ^ 0xffffffffffffffffL) > (Class313.method3650(false) ^ 0xffffffffffffffffL)) {
+		if (E() > 100663296 && Class313.method3650(false) > 60000L + aLong6640) {
 			System.gc();
 			aLong6640 = Class313.method3650(false);
 		}
@@ -2705,7 +2705,7 @@ public class GLToolkit extends GraphicsToolkit
 	
 	private final void method1469(byte b) {
 		if (b == 88) {
-			if ((anInt6636 ^ 0xffffffff) != -2) {
+			if (anInt6636 != 1) {
 				method1446((byte) 119);
 				method1478(false, (byte) -53);
 				method1451(false, -31277);
@@ -2729,7 +2729,7 @@ public class GLToolkit extends GraphicsToolkit
 	}
 	
 	final void method1470(int i) {
-		if ((anInt6636 ^ 0xffffffff) != -9) {
+		if (anInt6636 != 8) {
 			method1476(0);
 			method1478(true, (byte) -53);
 			method1449(-107, true);
@@ -2753,19 +2753,19 @@ public class GLToolkit extends GraphicsToolkit
 		if (i_253_ <= 84) {
 			return -128;
 		}
-		if ((i ^ 0xffffffff) == -6407 || i == 6409) {
+		if (i == 6406 || i == 6409) {
 			return 1;
 		}
-		if ((i ^ 0xffffffff) != -6411 && (i ^ 0xffffffff) != -34847 && (i ^ 0xffffffff) != -34845) {
-			if ((i ^ 0xffffffff) != -6408) {
+		if (i != 6410 && i != 34846 && i != 34844) {
+			if (i != 6407) {
 				if (i == 6408 || i == 34847) {
 					return 4;
 				}
 				if (i == 34843) {
 					return 6;
 				}
-				if ((i ^ 0xffffffff) != -34843) {
-					if ((i ^ 0xffffffff) != -6403) {
+				if (i != 34842) {
+					if (i != 6402) {
 						if (i == 6401) {
 							return 1;
 						}
@@ -2811,14 +2811,14 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final void method1474(int i, int i_259_, int i_260_) {
 		int i_261_ = 9 % ((74 - i) / 52);
-		if ((anInt6727 ^ 0xffffffff) == -1) {
+		if (anInt6727 == 0) {
 			boolean bool = false;
-			if ((i_260_ ^ 0xffffffff) != (anInt6715 ^ 0xffffffff)) {
+			if (anInt6715 != i_260_) {
 				OpenGL.glTexEnvi(8960, 34161, i_260_);
 				anInt6715 = i_260_;
 				bool = true;
 			}
-			if ((anInt6700 ^ 0xffffffff) != (i_259_ ^ 0xffffffff)) {
+			if (i_259_ != anInt6700) {
 				OpenGL.glTexEnvi(8960, 34162, i_259_);
 				bool = true;
 				anInt6700 = i_259_;
@@ -2835,7 +2835,7 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final void a(int i, int i_262_, int i_263_, int i_264_, int i_265_, int i_266_, aa var_aa, int i_267_, int i_268_, int i_269_, int i_270_, int i_271_) {
 		anInt6488++;
-		if (i_263_ != i || (i_262_ ^ 0xffffffff) != (i_264_ ^ 0xffffffff)) {
+		if (i_263_ != i || i_264_ != i_262_) {
 			aa_Sub3 var_aa_Sub3 = (aa_Sub3) var_aa;
 			Class169_Sub2_Sub1 class169_sub2_sub1 = var_aa_Sub3.aClass169_Sub2_Sub1_5494;
 			method1461(34962);
@@ -2858,7 +2858,7 @@ public class GLToolkit extends GraphicsToolkit
 			float f_279_ = 0.0F;
 			float f_280_ = f_276_;
 			float f_281_ = f_277_;
-			if ((i_271_ ^ 0xffffffff) < (i_269_ ^ 0xffffffff)) {
+			if (i_269_ < i_271_) {
 				f_279_ = (float) (-i_271_ + (i_269_ + i_270_)) * f_274_;
 				f_278_ = f_273_ * (float) (i_270_ + i_269_ - i_271_);
 			} else {
@@ -2870,7 +2870,7 @@ public class GLToolkit extends GraphicsToolkit
 			float f_284_ = f_273_ * (float) i_270_;
 			float f_285_ = (float) i_270_ * f_274_;
 			for (;;) {
-				if ((i ^ 0xffffffff) <= (i_263_ ^ 0xffffffff)) {
+				if (i_263_ <= i) {
 					if ((float) i_263_ + 0.35F > f_282_) {
 						break;
 					}
@@ -2885,7 +2885,7 @@ public class GLToolkit extends GraphicsToolkit
 						f_280_ = -f_282_ + (float) i_263_;
 					}
 				}
-				if ((i_262_ ^ 0xffffffff) <= (i_264_ ^ 0xffffffff)) {
+				if (i_264_ <= i_262_) {
 					if ((float) i_264_ + 0.35F > f_283_) {
 						break;
 					}
@@ -2927,10 +2927,10 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final void za(int i, int i_286_, int i_287_, int i_288_, int i_289_) {
 		anInt6506++;
-		if ((i_287_ ^ 0xffffffff) > -1) {
+		if (i_287_ < 0) {
 			i_287_ = -i_287_;
 		}
-		if ((i + i_287_ ^ 0xffffffff) <= (anInt6644 ^ 0xffffffff) && -i_287_ + i <= anInt6733 && (anInt6745 ^ 0xffffffff) >= (i_286_ - -i_287_ ^ 0xffffffff) && anInt6696 >= -i_287_ + i_286_) {
+		if (anInt6644 <= i + i_287_ && -i_287_ + i <= anInt6733 && i_286_ - -i_287_ >= anInt6745 && anInt6696 >= -i_287_ + i_286_) {
 			method1469((byte) 88);
 			method1460(i_289_, 3);
 			OpenGL.glColor4ub((byte) (i_288_ >> 16), (byte) (i_288_ >> 8), (byte) i_288_, (byte) (i_288_ >> 24));
@@ -2948,14 +2948,14 @@ public class GLToolkit extends GraphicsToolkit
 				OpenGL.glBegin(6);
 				OpenGL.glVertex2f(f, f_290_);
 				int i_292_ = 262144 / (i_287_ * 6);
-				if ((i_292_ ^ 0xffffffff) >= -65) {
+				if (i_292_ <= 64) {
 					i_292_ = 64;
 				} else if (i_292_ > 512) {
 					i_292_ = 512;
 				}
 				i_292_ = Class215.method2072(i_292_, true);
 				OpenGL.glVertex2f((float) i_287_ + f, f_290_);
-				for (int i_293_ = 16384 - i_292_; (i_293_ ^ 0xffffffff) < -1; i_293_ -= i_292_)
+				for (int i_293_ = 16384 - i_292_; i_293_ > 0; i_293_ -= i_292_)
 					OpenGL.glVertex2f(GameStub.aFloatArray39[i_293_] * (float) i_287_ + f, GameStub.aFloatArray42[i_293_] * (float) i_287_ + f_290_);
 				OpenGL.glVertex2f(f + (float) i_287_, f_290_);
 				OpenGL.glEnd();
@@ -3059,7 +3059,7 @@ public class GLToolkit extends GraphicsToolkit
 			if (anInt6612 >= 3) {
 				throw new RuntimeException();
 			}
-			if ((anInt6612 ^ 0xffffffff) <= -1) {
+			if (anInt6612 >= 0) {
 				anInterface11Array6616[anInt6612].method28((byte) -106);
 			}
 			anInterface11_6620 = anInterface11Array6616[++anInt6612] = interface11;
@@ -3085,12 +3085,12 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final void method1481(Interface11 interface11, boolean bool) {
 		anInt6478++;
-		if ((anInt6612 ^ 0xffffffff) > -1 || anInterface11Array6616[anInt6612] != interface11) {
+		if (anInt6612 < 0 || anInterface11Array6616[anInt6612] != interface11) {
 			throw new RuntimeException();
 		}
 		anInterface11Array6616[anInt6612--] = null;
 		interface11.method28((byte) -106);
-		if ((anInt6612 ^ 0xffffffff) <= -1) {
+		if (anInt6612 >= 0) {
 			anInterface11_6620 = anInterface11Array6616[anInt6612];
 			anInterface11_6620.method33(404);
 		} else {
@@ -3105,7 +3105,7 @@ public class GLToolkit extends GraphicsToolkit
 		anInt6444++;
 		float f;
 		float f_315_;
-		if (aClass169_Sub2_Sub1_6722 == null || i_309_ > aClass169_Sub2_Sub1_6722.anInt8795 || (i_310_ ^ 0xffffffff) < (aClass169_Sub2_Sub1_6722.anInt8803 ^ 0xffffffff)) {
+		if (aClass169_Sub2_Sub1_6722 == null || i_309_ > aClass169_Sub2_Sub1_6722.anInt8795 || aClass169_Sub2_Sub1_6722.anInt8803 < i_310_) {
 			aClass169_Sub2_Sub1_6722 = Class320_Sub21.method3761(i_310_, 6406, 8222, bs, 6406, this, i_309_, false);
 			aClass169_Sub2_Sub1_6722.method1776(false, 26, false);
 			f_315_ = aClass169_Sub2_Sub1_6722.aFloat10568;
@@ -3295,7 +3295,7 @@ public class GLToolkit extends GraphicsToolkit
 			u();
 		}
 		anInt6447++;
-		if (aBoolean6646 && (anInt6691 ^ 0xffffffff) <= -1) {
+		if (aBoolean6646 && anInt6691 >= 0) {
 			OpenGL.glEnable(2912);
 		} else {
 			OpenGL.glDisable(2912);

@@ -31,7 +31,7 @@ public class Class262_Sub6 extends Class262
 		if (node_sub16 != null) {
 			int i_0_ = 0;
 			int i_1_ = -16 / ((b - -58) / 52);
-			for (/**/; (i_0_ ^ 0xffffffff) > (node_sub16.anIntArray7137.length ^ 0xffffffff); i_0_++) {
+			for (/**/; node_sub16.anIntArray7137.length > i_0_; i_0_++) {
 				node_sub16.anIntArray7137[i_0_] = -1;
 				node_sub16.anIntArray7138[i_0_] = 0;
 			}
@@ -52,7 +52,7 @@ public class Class262_Sub6 extends Class262
 			aClass192_7748 = null;
 		}
 		for (EntityNode_Sub2 entitynode_sub2 = (EntityNode_Sub2) Class226.aClass103_2684.method1113((byte) 122); entitynode_sub2 != null; entitynode_sub2 = (EntityNode_Sub2) Class226.aClass103_2684.method1108(88)) {
-			if ((entitynode_sub2.anInt5947 ^ 0xffffffff) >= (Class174.anInt2092 ^ 0xffffffff)) {
+			if (Class174.anInt2092 >= entitynode_sub2.anInt5947) {
 				entitynode_sub2.method803(false);
 			} else {
 				Animable_Sub1.method826(2 * entitynode_sub2.anInt5950, -1, (entitynode_sub2.anInt5957 << 9) + 256, i_4_, i >> 1, i_2_, (entitynode_sub2.anInt5948 << 9) - -256, entitynode_sub2.anInt5955, i_3_ >> 1);

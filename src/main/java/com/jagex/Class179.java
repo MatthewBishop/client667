@@ -71,7 +71,7 @@ public class Class179
 		if (i_3_ != -1) {
 			return true;
 		}
-		if ((i & 0x34 ^ 0xffffffff) == -1) {
+		if ((i & 0x34) == 0) {
 			return false;
 		}
 		return true;
@@ -82,7 +82,7 @@ public class Class179
 		if (i != -1) {
 			return false;
 		}
-		if ((i_6_ & 0x800 ^ 0xffffffff) == -1) {
+		if ((i_6_ & 0x800) == 0) {
 			return false;
 		}
 		return true;

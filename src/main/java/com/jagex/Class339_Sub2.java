@@ -108,7 +108,7 @@ public class Class339_Sub2 extends Class339
 	}
 	
 	final void method3919(int i, int i_1_, int i_2_) {
-		if ((0x1 & i_2_ ^ 0xffffffff) == -2) {
+		if ((0x1 & i_2_) == 1) {
 			if (!aClass301_8643.aBoolean3780) {
 				int i_3_ = 16 * (aGLToolkit4202.anInt6605 % 4000) / 4000;
 				aGLToolkit4202.method1444(-2, aClass301_8643.aClass169_Sub2Array3774[i_3_]);
@@ -140,7 +140,7 @@ public class Class339_Sub2 extends Class339
 		aClass25_8644.method310('\001', (byte) -45);
 		if (i == 20937) {
 			anInt8645++;
-			if ((aGLToolkit4202.anInt6691 ^ 0xffffffff) < -1) {
+			if (aGLToolkit4202.anInt6691 > 0) {
 				aGLToolkit4202.method1457(33984, 1);
 				aGLToolkit4202.method1444(-2, null);
 				aGLToolkit4202.method1438((byte) 81, 1.0F, 0.0F);

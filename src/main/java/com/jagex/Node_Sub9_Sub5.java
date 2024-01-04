@@ -94,7 +94,7 @@ public class Node_Sub9_Sub5 extends Node_Sub9
 					}
 					break;
 				}
-				if ((-anInt9762 + cachenode_sub8.aShortArrayArray9491[0].length ^ 0xffffffff) < (i ^ 0xffffffff)) {
+				if (i < -anInt9762 + cachenode_sub8.aShortArrayArray9491[0].length) {
 					anInt9762 += i;
 					break;
 				}
@@ -122,7 +122,7 @@ public class Node_Sub9_Sub5 extends Node_Sub9
 	
 	final synchronized void method2532(CacheNode_Sub8 cachenode_sub8, byte b) {
 		anInt9741++;
-		for (/**/; (anInt9761 ^ 0xffffffff) <= -101; anInt9761--)
+		for (/**/; anInt9761 >= 100; anInt9761--)
 			aClass312_9751.method3619(-101);
 		aClass312_9751.method3625((byte) -54, cachenode_sub8);
 		if (b != -73) {
@@ -196,7 +196,7 @@ public class Node_Sub9_Sub5 extends Node_Sub9
 				if (anInt9744 == 2) {
 					i_4_ = 1;
 				}
-				while ((i ^ 0xffffffff) > (i_2_ ^ 0xffffffff)) {
+				while (i_2_ > i) {
 					CacheNode_Sub8 cachenode_sub8 = method2534((byte) -10);
 					if (cachenode_sub8 == null) {
 						break;
@@ -214,7 +214,7 @@ public class Node_Sub9_Sub5 extends Node_Sub9
 						}
 						anInt9762++;
 					}
-					if ((anInt9762 ^ 0xffffffff) <= (ses[0].length ^ 0xffffffff)) {
+					if (ses[0].length <= anInt9762) {
 						method2533((byte) -84);
 					}
 				}

@@ -27,7 +27,7 @@ public class Class320_Sub7 extends Class320
 		if (b != 125) {
 			return (byte) 75;
 		}
-		if ((i ^ 0xffffffff) != -10) {
+		if (i != 9) {
 			return (byte) 0;
 		}
 		if ((0x1 & i_0_) == 0) {
@@ -117,7 +117,7 @@ public class Class320_Sub7 extends Class320
 		if (b < 28) {
 			return true;
 		}
-		if ((0x100100 & i ^ 0xffffffff) == -1) {
+		if ((0x100100 & i) == 0) {
 			return false;
 		}
 		return true;

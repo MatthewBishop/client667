@@ -14,7 +14,7 @@ public class Node_Sub15_Sub1 extends Node_Sub15
 			return false;
 		}
 		anInt9771++;
-		if ((0x400 & i_1_ ^ 0xffffffff) == -1) {
+		if ((0x400 & i_1_) == 0) {
 			return false;
 		}
 		return true;

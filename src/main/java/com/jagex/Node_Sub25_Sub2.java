@@ -31,7 +31,7 @@ public class Node_Sub25_Sub2 extends Node_Sub25
 		if (b != -41) {
 			return false;
 		}
-		if ((i ^ 0xffffffff) != -8 && (i ^ 0xffffffff) != -10) {
+		if (i != 7 && i != 9) {
 			return false;
 		}
 		return true;

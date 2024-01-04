@@ -19,7 +19,7 @@ public class Class47
 			Node_Sub36 node_sub36;
 			if (i_0_ != 1) {
 				if (i_0_ != 4) {
-					if ((i_0_ ^ 0xffffffff) == -4) {
+					if (i_0_ == 3) {
 						node_sub36 = new Node_Sub36_Sub3();
 					} else {
 						if (i_0_ != 2) {

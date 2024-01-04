@@ -21,11 +21,11 @@ public class Class127
 			method1541(103);
 		}
 		Class223[] class223s = Class320_Sub24.aClass223Array8438;
-		for (int i_6_ = 0; (class223s.length ^ 0xffffffff) < (i_6_ ^ 0xffffffff); i_6_++) {
+		for (int i_6_ = 0; i_6_ < class223s.length; i_6_++) {
 			Class223 class223 = class223s[i_6_];
-			if (class223 != null && (class223.anInt2654 ^ 0xffffffff) == -3) {
+			if (class223 != null && class223.anInt2654 == 2) {
 				Animable_Sub1.method826(2 * class223.anInt2657, -1, class223.anInt2662, i_0_, i_2_ >> 1, i_1_, class223.anInt2653, class223.anInt2661, i_5_ >> 1);
-				if ((Class119.anIntArray1516[0] ^ 0xffffffff) < 0 && Class174.anInt2092 % 20 < 10) {
+				if (Class119.anIntArray1516[0] > -1 && Class174.anInt2092 % 20 < 10) {
 					GLSprite glsprite = Class19.aGLSpriteArray312[class223.anInt2659];
 					int i_7_ = -12 + (i_4_ + Class119.anIntArray1516[0]);
 					int i_8_ = Class119.anIntArray1516[1] + i_3_ - 28;

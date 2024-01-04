@@ -50,7 +50,7 @@ public class Class243
 			CacheNode_Sub9.method2321(-1, widget);
 		}
 		Node_Sub8.method2423((byte) -42);
-		if (!bool && (Class320_Sub15.anInt8355 ^ 0xffffffff) != 0) {
+		if (!bool && Class320_Sub15.anInt8355 != -1) {
 			Class76.method770(121, 1, Class320_Sub15.anInt8355);
 		}
 		Class303 class303 = new Class303(Class289.aHashTable3630);
@@ -61,9 +61,9 @@ public class Class243
 					break;
 				}
 			}
-			if ((node_sub2_3_.anInt6932 ^ 0xffffffff) == -4) {
+			if (node_sub2_3_.anInt6932 == 3) {
 				int i_4_ = (int) node_sub2_3_.aLong2797;
-				if ((i ^ 0xffffffff) == (i_4_ >>> 16 ^ 0xffffffff)) {
+				if (i_4_ >>> 16 == i) {
 					method3060((byte) 95, bool, true, node_sub2_3_);
 				}
 			}
@@ -75,7 +75,7 @@ public class Class243
 		if (Class151.anInt1843 != 3) {
 			if (Class151.anInt1843 == 7) {
 				Class48.method478(8, (byte) 108);
-			} else if ((Class151.anInt1843 ^ 0xffffffff) != -10) {
+			} else if (Class151.anInt1843 != 9) {
 				if (Class151.anInt1843 == 11) {
 					Class48.method478(12, (byte) 104);
 				}
@@ -96,7 +96,7 @@ public class Class243
 		if (b < 44) {
 			return true;
 		}
-		if (i < 4 || (i ^ 0xffffffff) < -9) {
+		if (i < 4 || i > 8) {
 			return false;
 		}
 		return true;
@@ -108,7 +108,7 @@ public class Class243
 		}
 		anInt3067++;
 		ObjectDefinition objectdefinition = Class186.aClass112_2256.method1145(interface19.method72(-32136), 49);
-		if ((objectdefinition.anInt3006 ^ 0xffffffff) == 0) {
+		if (objectdefinition.anInt3006 == -1) {
 			return true;
 		}
 		Class140 class140 = Node_Sub54.aClass338_7671.method3909(objectdefinition.anInt3006, 34);

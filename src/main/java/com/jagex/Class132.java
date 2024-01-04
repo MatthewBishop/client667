@@ -36,7 +36,7 @@ public class Class132
 		if (i != -1) {
 			return false;
 		}
-		if ((Node_Sub38_Sub8.anInt10163 ^ 0xffffffff) == -1) {
+		if (Node_Sub38_Sub8.anInt10163 == 0) {
 			return false;
 		}
 		return true;
@@ -67,7 +67,7 @@ public class Class132
 			do {
 				if (i_0_ != 0) {
 					if (i_0_ != 1) {
-						if ((i_0_ ^ 0xffffffff) == -3) {
+						if (i_0_ == 2) {
 							break;
 						}
 						break while_135_;
@@ -96,19 +96,19 @@ public class Class132
 		if (i_1_ != -28537) {
 			method1561(78);
 		}
-		for (int i_3_ = 0; (i_2_ ^ 0xffffffff) < (i_3_ ^ 0xffffffff); i_3_++) {
+		for (int i_3_ = 0; i_3_ < i_2_; i_3_++) {
 			Player player = Class270_Sub2.aPlayerArray8038[is[i_3_]];
 			if (player != null && Class295.aPlayer3692 != player && player.aString11142 != null && player.aString11142.equalsIgnoreCase(string)) {
 				Class318 class318 = null;
 				if (i == 1) {
 					class318 = Class228.aClass318_2720;
-				} else if ((i ^ 0xffffffff) != -5) {
-					if ((i ^ 0xffffffff) == -6) {
+				} else if (i != 4) {
+					if (i == 5) {
 						class318 = Class359.aClass318_4463;
 					} else if (i == 6) {
 						class318 = Class290_Sub4.aClass318_8089;
-					} else if ((i ^ 0xffffffff) != -8) {
-						if ((i ^ 0xffffffff) == -10) {
+					} else if (i != 7) {
+						if (i == 9) {
 							class318 = CacheNode_Sub15.aClass318_9590;
 						}
 					} else {

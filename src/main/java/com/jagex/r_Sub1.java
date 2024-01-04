@@ -39,14 +39,14 @@ public class r_Sub1 extends r
 				node_sub37.aWidget7437 = widget;
 				Class305.method3556(node_sub37);
 			}
-			if ((Class151.anInt1843 ^ 0xffffffff) == -12 && client.method113(widget).method2748((byte) -98, -1 + i_3_)) {
+			if (Class151.anInt1843 == 11 && client.method113(widget).method2748((byte) -98, -1 + i_3_)) {
 				if (i_3_ == 1) {
 					Class188_Sub2_Sub1.anInt9350++;
 					Node_Sub13 node_sub13 = FloatBuffer.method2250(-386, Node_Sub42.aClass318_7526, Class218.worldResponseBuffer.anIsaacCipher1571);
 					Animable_Sub4_Sub1.method927(i_1_, widget.anInt4718, -15, node_sub13, i_2_);
 					Class218.worldResponseBuffer.method1514(127, node_sub13);
 				}
-				if ((i_3_ ^ 0xffffffff) == -3) {
+				if (i_3_ == 2) {
 					Class66_Sub3.anInt9001++;
 					Node_Sub13 node_sub13 = FloatBuffer.method2250(-386, Class170.aClass318_2051, Class218.worldResponseBuffer.anIsaacCipher1571);
 					Animable_Sub4_Sub1.method927(i_1_, widget.anInt4718, -127, node_sub13, i_2_);
@@ -59,7 +59,7 @@ public class r_Sub1 extends r
 					Class218.worldResponseBuffer.method1514(126, node_sub13);
 				}
 				int i_4_ = 11 / ((i - 65) / 58);
-				if ((i_3_ ^ 0xffffffff) == -5) {
+				if (i_3_ == 4) {
 					Class385.anInt4912++;
 					Node_Sub13 node_sub13 = FloatBuffer.method2250(-386, Class377.aClass318_4663, Class218.worldResponseBuffer.anIsaacCipher1571);
 					Animable_Sub4_Sub1.method927(i_1_, widget.anInt4718, -127, node_sub13, i_2_);
@@ -71,7 +71,7 @@ public class r_Sub1 extends r
 					Animable_Sub4_Sub1.method927(i_1_, widget.anInt4718, -126, node_sub13, i_2_);
 					Class218.worldResponseBuffer.method1514(127, node_sub13);
 				}
-				if ((i_3_ ^ 0xffffffff) == -7) {
+				if (i_3_ == 6) {
 					Node_Sub27.anInt7286++;
 					Node_Sub13 node_sub13 = FloatBuffer.method2250(-386, Class64.aClass318_5048, Class218.worldResponseBuffer.anIsaacCipher1571);
 					Animable_Sub4_Sub1.method927(i_1_, widget.anInt4718, 97, node_sub13, i_2_);
@@ -89,7 +89,7 @@ public class r_Sub1 extends r
 					Animable_Sub4_Sub1.method927(i_1_, widget.anInt4718, -127, node_sub13, i_2_);
 					Class218.worldResponseBuffer.method1514(127, node_sub13);
 				}
-				if ((i_3_ ^ 0xffffffff) == -10) {
+				if (i_3_ == 9) {
 					Class300.anInt3767++;
 					Node_Sub13 node_sub13 = FloatBuffer.method2250(-386, Node_Sub30.aClass318_7360, Class218.worldResponseBuffer.anIsaacCipher1571);
 					Animable_Sub4_Sub1.method927(i_1_, widget.anInt4718, -128, node_sub13, i_2_);
@@ -127,7 +127,7 @@ public class r_Sub1 extends r
 			anInt11045++;
 			int i = -1;
 			int i_9_ = -8 + aByteArray11044.length;
-			while ((i ^ 0xffffffff) > (i_9_ ^ 0xffffffff)) {
+			while (i_9_ > i) {
 				aByteArray11044[++i] = (byte) 0;
 				aByteArray11044[++i] = (byte) 0;
 				aByteArray11044[++i] = (byte) 0;
@@ -137,7 +137,7 @@ public class r_Sub1 extends r
 				aByteArray11044[++i] = (byte) 0;
 				aByteArray11044[++i] = (byte) 0;
 			}
-			while ((-1 + aByteArray11044.length ^ 0xffffffff) < (i ^ 0xffffffff))
+			while (i < -1 + aByteArray11044.length)
 				aByteArray11044[++i] = (byte) 0;
 		}
 	}
@@ -149,17 +149,17 @@ public class r_Sub1 extends r
 			i_16_ = (i_10_ - i_11_ << 16) / (i_13_ + -i_14_);
 		}
 		int i_17_ = 0;
-		if ((i_13_ ^ 0xffffffff) != (i_15_ ^ 0xffffffff)) {
+		if (i_15_ != i_13_) {
 			i_17_ = (i + -i_10_ << 16) / (i_15_ + -i_13_);
 		}
 		int i_18_ = 0;
 		if (i_12_ <= -83) {
-			if ((i_15_ ^ 0xffffffff) != (i_14_ ^ 0xffffffff)) {
+			if (i_14_ != i_15_) {
 				i_18_ = (-i + i_11_ << 16) / (i_14_ + -i_15_);
 			}
-			if ((i_14_ ^ 0xffffffff) < (i_13_ ^ 0xffffffff) || i_14_ > i_15_) {
+			if (i_13_ < i_14_ || i_14_ > i_15_) {
 				if (i_15_ >= i_13_) {
-					if ((i_14_ ^ 0xffffffff) < (i_15_ ^ 0xffffffff)) {
+					if (i_15_ < i_14_) {
 						i_11_ = i_10_ <<= 16;
 						if (i_13_ < 0) {
 							i_10_ -= i_17_ * i_13_;
@@ -167,11 +167,11 @@ public class r_Sub1 extends r
 							i_13_ = 0;
 						}
 						i <<= 16;
-						if ((i_15_ ^ 0xffffffff) > -1) {
+						if (i_15_ < 0) {
 							i -= i_15_ * i_18_;
 							i_15_ = 0;
 						}
-						if ((i_15_ ^ 0xffffffff) != (i_13_ ^ 0xffffffff) && i_16_ < i_17_ || i_15_ == i_13_ && i_18_ < i_16_) {
+						if (i_13_ != i_15_ && i_16_ < i_17_ || i_15_ == i_13_ && i_18_ < i_16_) {
 							i_14_ -= i_15_;
 							i_15_ -= i_13_;
 							i_13_ = anInt11042 * i_13_;
@@ -181,7 +181,7 @@ public class r_Sub1 extends r
 								i_10_ += i_17_;
 								i_13_ += anInt11042;
 							}
-							while ((--i_14_ ^ 0xffffffff) <= -1) {
+							while (--i_14_ >= 0) {
 								Class199.method2007(i_11_ >> 16, aByteArray11044, i_13_, 0, i >> 16, (byte) 108);
 								i_11_ += i_16_;
 								i += i_18_;
@@ -191,13 +191,13 @@ public class r_Sub1 extends r
 							i_14_ -= i_15_;
 							i_15_ -= i_13_;
 							i_13_ = anInt11042 * i_13_;
-							while ((--i_15_ ^ 0xffffffff) <= -1) {
+							while (--i_15_ >= 0) {
 								Class199.method2007(i_10_ >> 16, aByteArray11044, i_13_, 0, i_11_ >> 16, (byte) 98);
 								i_10_ += i_17_;
 								i_13_ += anInt11042;
 								i_11_ += i_16_;
 							}
-							while ((--i_14_ ^ 0xffffffff) <= -1) {
+							while (--i_14_ >= 0) {
 								Class199.method2007(i >> 16, aByteArray11044, i_13_, 0, i_11_ >> 16, (byte) 114);
 								i += i_18_;
 								i_11_ += i_16_;
@@ -216,7 +216,7 @@ public class r_Sub1 extends r
 							i_11_ -= i_14_ * i_18_;
 							i_14_ = 0;
 						}
-						if ((i_16_ ^ 0xffffffff) > (i_17_ ^ 0xffffffff)) {
+						if (i_17_ > i_16_) {
 							i_15_ -= i_14_;
 							i_14_ -= i_13_;
 							i_13_ = anInt11042 * i_13_;
@@ -226,7 +226,7 @@ public class r_Sub1 extends r
 								i += i_16_;
 								i_10_ += i_17_;
 							}
-							while ((--i_15_ ^ 0xffffffff) <= -1) {
+							while (--i_15_ >= 0) {
 								Class199.method2007(i_11_ >> 16, aByteArray11044, i_13_, 0, i_10_ >> 16, (byte) 125);
 								i_10_ += i_17_;
 								i_13_ += anInt11042;
@@ -242,7 +242,7 @@ public class r_Sub1 extends r
 								i_10_ += i_17_;
 								i_13_ += anInt11042;
 							}
-							while ((--i_15_ ^ 0xffffffff) <= -1) {
+							while (--i_15_ >= 0) {
 								Class199.method2007(i_10_ >> 16, aByteArray11044, i_13_, 0, i_11_ >> 16, (byte) 106);
 								i_10_ += i_17_;
 								i_11_ += i_18_;
@@ -253,7 +253,7 @@ public class r_Sub1 extends r
 				} else if (i_13_ > i_14_) {
 					i_10_ = i <<= 16;
 					i_11_ <<= 16;
-					if ((i_15_ ^ 0xffffffff) > -1) {
+					if (i_15_ < 0) {
 						i -= i_18_ * i_15_;
 						i_10_ -= i_17_ * i_15_;
 						i_15_ = 0;
@@ -262,11 +262,11 @@ public class r_Sub1 extends r
 						i_11_ -= i_14_ * i_16_;
 						i_14_ = 0;
 					}
-					if ((i_18_ ^ 0xffffffff) < (i_17_ ^ 0xffffffff)) {
+					if (i_17_ < i_18_) {
 						i_13_ -= i_14_;
 						i_14_ -= i_15_;
 						i_15_ = anInt11042 * i_15_;
-						while ((--i_14_ ^ 0xffffffff) <= -1) {
+						while (--i_14_ >= 0) {
 							Class199.method2007(i_10_ >> 16, aByteArray11044, i_15_, 0, i >> 16, (byte) 108);
 							i_10_ += i_17_;
 							i += i_18_;
@@ -288,7 +288,7 @@ public class r_Sub1 extends r
 							i_10_ += i_17_;
 							i += i_18_;
 						}
-						while ((--i_13_ ^ 0xffffffff) <= -1) {
+						while (--i_13_ >= 0) {
 							Class199.method2007(i_11_ >> 16, aByteArray11044, i_15_, 0, i_10_ >> 16, (byte) 122);
 							i_11_ += i_16_;
 							i_10_ += i_17_;
@@ -298,20 +298,20 @@ public class r_Sub1 extends r
 				} else {
 					i_11_ = i <<= 16;
 					i_10_ <<= 16;
-					if ((i_15_ ^ 0xffffffff) > -1) {
+					if (i_15_ < 0) {
 						i_11_ -= i_17_ * i_15_;
 						i -= i_15_ * i_18_;
 						i_15_ = 0;
 					}
-					if ((i_13_ ^ 0xffffffff) > -1) {
+					if (i_13_ < 0) {
 						i_10_ -= i_13_ * i_16_;
 						i_13_ = 0;
 					}
-					if ((i_18_ ^ 0xffffffff) >= (i_17_ ^ 0xffffffff)) {
+					if (i_17_ >= i_18_) {
 						i_14_ -= i_13_;
 						i_13_ -= i_15_;
 						i_15_ = anInt11042 * i_15_;
-						while ((--i_13_ ^ 0xffffffff) <= -1) {
+						while (--i_13_ >= 0) {
 							Class199.method2007(i >> 16, aByteArray11044, i_15_, 0, i_11_ >> 16, (byte) 97);
 							i += i_18_;
 							i_11_ += i_17_;
@@ -327,7 +327,7 @@ public class r_Sub1 extends r
 						i_14_ -= i_13_;
 						i_13_ -= i_15_;
 						i_15_ = anInt11042 * i_15_;
-						while ((--i_13_ ^ 0xffffffff) <= -1) {
+						while (--i_13_ >= 0) {
 							Class199.method2007(i_11_ >> 16, aByteArray11044, i_15_, 0, i >> 16, (byte) 118);
 							i_15_ += anInt11042;
 							i_11_ += i_17_;
@@ -353,7 +353,7 @@ public class r_Sub1 extends r
 					i_10_ -= i_13_ * i_17_;
 					i_13_ = 0;
 				}
-				if ((i_13_ == i_14_ || i_18_ >= i_16_) && (i_13_ != i_14_ || (i_17_ ^ 0xffffffff) <= (i_18_ ^ 0xffffffff))) {
+				if ((i_13_ == i_14_ || i_18_ >= i_16_) && (i_13_ != i_14_ || i_18_ <= i_17_)) {
 					i_15_ -= i_13_;
 					i_13_ -= i_14_;
 					i_14_ = anInt11042 * i_14_;
@@ -373,7 +373,7 @@ public class r_Sub1 extends r
 					i_15_ -= i_13_;
 					i_13_ -= i_14_;
 					i_14_ = anInt11042 * i_14_;
-					while ((--i_13_ ^ 0xffffffff) <= -1) {
+					while (--i_13_ >= 0) {
 						Class199.method2007(i >> 16, aByteArray11044, i_14_, 0, i_11_ >> 16, (byte) 124);
 						i_14_ += anInt11042;
 						i += i_18_;
@@ -388,27 +388,27 @@ public class r_Sub1 extends r
 				}
 			} else {
 				i_10_ = i_11_ <<= 16;
-				if ((i_14_ ^ 0xffffffff) > -1) {
+				if (i_14_ < 0) {
 					i_11_ -= i_16_ * i_14_;
 					i_10_ -= i_18_ * i_14_;
 					i_14_ = 0;
 				}
 				i <<= 16;
-				if ((i_15_ ^ 0xffffffff) > -1) {
+				if (i_15_ < 0) {
 					i -= i_15_ * i_17_;
 					i_15_ = 0;
 				}
-				if (((i_14_ ^ 0xffffffff) == (i_15_ ^ 0xffffffff) || i_16_ <= i_18_) && ((i_14_ ^ 0xffffffff) != (i_15_ ^ 0xffffffff) || i_17_ <= i_16_)) {
+				if ((i_15_ == i_14_ || i_16_ <= i_18_) && (i_15_ != i_14_ || i_17_ <= i_16_)) {
 					i_13_ -= i_15_;
 					i_15_ -= i_14_;
 					i_14_ = anInt11042 * i_14_;
-					while ((--i_15_ ^ 0xffffffff) <= -1) {
+					while (--i_15_ >= 0) {
 						Class199.method2007(i_11_ >> 16, aByteArray11044, i_14_, 0, i_10_ >> 16, (byte) 94);
 						i_14_ += anInt11042;
 						i_11_ += i_16_;
 						i_10_ += i_18_;
 					}
-					while ((--i_13_ ^ 0xffffffff) <= -1) {
+					while (--i_13_ >= 0) {
 						Class199.method2007(i_11_ >> 16, aByteArray11044, i_14_, 0, i >> 16, (byte) 115);
 						i += i_17_;
 						i_11_ += i_16_;
@@ -424,7 +424,7 @@ public class r_Sub1 extends r
 						i_11_ += i_16_;
 						i_14_ += anInt11042;
 					}
-					while ((--i_13_ ^ 0xffffffff) <= -1) {
+					while (--i_13_ >= 0) {
 						Class199.method2007(i >> 16, aByteArray11044, i_14_, 0, i_11_ >> 16, (byte) 99);
 						i += i_17_;
 						i_14_ += anInt11042;

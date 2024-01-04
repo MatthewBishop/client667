@@ -66,7 +66,7 @@ public class Class123
 			aBuffer1566.anInt7002 = 0;
 			for (;;) {
 				Node_Sub13 node_sub13 = (Node_Sub13) aClass312_1558.method3613(65280);
-				if (node_sub13 == null || (node_sub13.anInt7114 ^ 0xffffffff) < (aBuffer1566.aByteArray7019.length + -aBuffer1566.anInt7002 ^ 0xffffffff)) {
+				if (node_sub13 == null || aBuffer1566.aByteArray7019.length + -aBuffer1566.anInt7002 < node_sub13.anInt7114) {
 					break;
 				}
 				aBuffer1566.method2223(node_sub13.anInt7114, (byte) 4, node_sub13.aPacket7113.aByteArray7019, 0);

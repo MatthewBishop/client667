@@ -15,7 +15,7 @@ public class Class169_Sub2_Sub1 extends Class169_Sub2
 		super(gltoolkit, i, i_0_, i_1_, i_2_, bool, bs, i_3_, true);
 		anInt10566 = i_1_;
 		anInt10564 = i_2_;
-		if ((anInt4951 ^ 0xffffffff) != -34038) {
+		if (anInt4951 != 34037) {
 			aFloat10567 = aFloat10568 = 1.0F;
 			aBoolean10562 = true;
 		} else {
@@ -41,7 +41,7 @@ public class Class169_Sub2_Sub1 extends Class169_Sub2
 	
 	Class169_Sub2_Sub1(GLToolkit gltoolkit, int i, int i_7_, int i_8_, int i_9_, int i_10_, boolean bool) {
 		super(gltoolkit, i, i_7_, i_8_, i_9_, i_10_);
-		if ((anInt4951 ^ 0xffffffff) == -34038) {
+		if (anInt4951 == 34037) {
 			aFloat10568 = (float) i_10_;
 			aBoolean10562 = false;
 			aFloat10567 = (float) i_9_;

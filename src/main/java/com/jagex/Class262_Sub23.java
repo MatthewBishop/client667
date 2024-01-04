@@ -93,7 +93,7 @@ public class Class262_Sub23 extends Class262
 		}
 		anInt7887++;
 		if (Class194_Sub3.anInt6904 != -1 && Class163.aLong2020 < Class313.method3650(false)) {
-			for (int i_1_ = Class194_Sub3.anInt6904; (i_1_ ^ 0xffffffff) > (Class339_Sub1.aStringArray8631.length ^ 0xffffffff); i_1_++) {
+			for (int i_1_ = Class194_Sub3.anInt6904; Class339_Sub1.aStringArray8631.length > i_1_; i_1_++) {
 				if (Class339_Sub1.aStringArray8631[i_1_].startsWith("pause")) {
 					int i_2_ = 5;
 					try {
@@ -111,13 +111,13 @@ public class Class262_Sub23 extends Class262
 			}
 			Class194_Sub3.anInt6904 = -1;
 		}
-		if ((Class339_Sub8.anInt8739 ^ 0xffffffff) != -1) {
+		if (Class339_Sub8.anInt8739 != 0) {
 			Class118.anInt5406 -= 5 * Class339_Sub8.anInt8739;
 			if (Class118.anInt5406 >= Class144_Sub4.anInt6848) {
 				Class118.anInt5406 = -1 + Class144_Sub4.anInt6848;
 			}
 			Class339_Sub8.anInt8739 = 0;
-			if ((Class118.anInt5406 ^ 0xffffffff) > -1) {
+			if (Class118.anInt5406 < 0) {
 				Class118.anInt5406 = 0;
 			}
 		}
@@ -134,8 +134,8 @@ public class Class262_Sub23 extends Class262
 				Node_Sub21.method2618(false, 0);
 			}
 			if (i_4_ != 80) {
-				if ((i_4_ ^ 0xffffffff) != -67 || (i_5_ & 0x4) == 0) {
-					if ((i_4_ ^ 0xffffffff) == -68 && (i_5_ & 0x4 ^ 0xffffffff) != -1) {
+				if (i_4_ != 66 || (i_5_ & 0x4) == 0) {
+					if (i_4_ == 67 && (i_5_ & 0x4) != 0) {
 						if (Class102.aClipboard1315 != null) {
 							try {
 								Transferable transferable = Class102.aClipboard1315.getContents(null);
@@ -150,18 +150,18 @@ public class Class262_Sub23 extends Class262
 								/* empty */
 							}
 						}
-					} else if ((i_4_ ^ 0xffffffff) == -86 && (Class315.anInt4034 ^ 0xffffffff) < -1) {
+					} else if (i_4_ == 85 && Class315.anInt4034 > 0) {
 						Node_Sub10.aString7081 = Node_Sub10.aString7081.substring(0, Class315.anInt4034 + -1) + Node_Sub10.aString7081.substring(Class315.anInt4034);
 						Class315.anInt4034--;
-					} else if ((i_4_ ^ 0xffffffff) == -102 && (Class315.anInt4034 ^ 0xffffffff) > (Node_Sub10.aString7081.length() ^ 0xffffffff)) {
+					} else if (i_4_ == 101 && Node_Sub10.aString7081.length() > Class315.anInt4034) {
 						Node_Sub10.aString7081 = Node_Sub10.aString7081.substring(0, Class315.anInt4034) + Node_Sub10.aString7081.substring(1 + Class315.anInt4034);
-					} else if ((i_4_ ^ 0xffffffff) != -97 || Class315.anInt4034 <= 0) {
-						if ((i_4_ ^ 0xffffffff) == -98 && Class315.anInt4034 < Node_Sub10.aString7081.length()) {
+					} else if (i_4_ != 96 || Class315.anInt4034 <= 0) {
+						if (i_4_ == 97 && Class315.anInt4034 < Node_Sub10.aString7081.length()) {
 							Class315.anInt4034++;
-						} else if ((i_4_ ^ 0xffffffff) != -103) {
+						} else if (i_4_ != 102) {
 							if (i_4_ != 103) {
-								if ((i_4_ ^ 0xffffffff) != -105 || Class210.aStringArray2502.length <= Class332.anInt4145) {
-									if ((i_4_ ^ 0xffffffff) == -106 && Class332.anInt4145 > 0) {
+								if (i_4_ != 104 || Class210.aStringArray2502.length <= Class332.anInt4145) {
+									if (i_4_ == 105 && Class332.anInt4145 > 0) {
 										Class332.anInt4145--;
 										Class181.method1829(-20412);
 										Class315.anInt4034 = Node_Sub10.aString7081.length();
@@ -218,14 +218,14 @@ public class Class262_Sub23 extends Class262
 		}
 		int i_10_;
 		int i_11_;
-		if ((anInt7875 ^ 0xffffffff) <= -1) {
+		if (anInt7875 >= 0) {
 			i_11_ = 512 * anInt7876 - -256;
 			i_10_ = 256 + anInt7891 * 512;
 		} else {
 			Actor actor = Class121.aClass206Array1529[anInt7896].method2037(-105);
 			i_10_ = actor.anInt5934;
 			i_11_ = actor.anInt5940;
-			if ((i_9_ ^ 0xffffffff) > -1) {
+			if (i_9_ < 0) {
 				i_9_ = actor.aByte5933;
 			}
 		}
@@ -269,7 +269,7 @@ public class Class262_Sub23 extends Class262
 			anInt7896 = -1;
 			anInt7876 = 0xffff & i_15_;
 		}
-		if (i != 0 || (i_13_ ^ 0xffffffff) != -1) {
+		if (i != 0 || i_13_ != 0) {
 			anInt7889 = -1;
 		} else {
 			anInt7889 = buffer.method2233(255);

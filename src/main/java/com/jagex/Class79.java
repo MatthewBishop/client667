@@ -84,7 +84,7 @@ public class Class79
 		}
 		anInt1073++;
 		int i;
-		if ((anInt1091 ^ 0xffffffff) == 0) {
+		if (anInt1091 == -1) {
 			if (anInt1069 == -1) {
 				return true;
 			}
@@ -92,13 +92,13 @@ public class Class79
 		} else {
 			i = interface17.method65(anInt1091, -43);
 		}
-		if ((i ^ 0xffffffff) > (anInt1087 ^ 0xffffffff) || (i ^ 0xffffffff) < (anInt1042 ^ 0xffffffff)) {
+		if (anInt1087 > i || anInt1042 < i) {
 			return false;
 		}
 		boolean bool = false;
 		int i_0_;
 		if (anInt1044 == -1) {
-			if ((anInt1048 ^ 0xffffffff) != 0) {
+			if (anInt1048 != -1) {
 				i_0_ = interface17.method64(anInt1048, (byte) -42);
 			} else {
 				return true;
@@ -106,7 +106,7 @@ public class Class79
 		} else {
 			i_0_ = interface17.method65(anInt1044, -56);
 		}
-		if ((anInt1078 ^ 0xffffffff) < (i_0_ ^ 0xffffffff) || anInt1072 < i_0_) {
+		if (i_0_ < anInt1078 || anInt1072 < i_0_) {
 			return false;
 		}
 		return true;
@@ -187,7 +187,7 @@ public class Class79
 			aString1085 = null;
 		}
 		if (anIntArray1049 != null) {
-			for (int i = 0; (i ^ 0xffffffff) > (anIntArray1049.length ^ 0xffffffff); i += 2) {
+			for (int i = 0; anIntArray1049.length > i; i += 2) {
 				if (anIntArray1049[i] >= anInt1068) {
 					if (anInt1089 < anIntArray1049[i]) {
 						anInt1089 = anIntArray1049[i];
@@ -197,7 +197,7 @@ public class Class79
 				}
 				if (anInt1051 > anIntArray1049[i + 1]) {
 					anInt1051 = anIntArray1049[1 + i];
-				} else if ((anInt1060 ^ 0xffffffff) > (anIntArray1049[1 + i] ^ 0xffffffff)) {
+				} else if (anIntArray1049[1 + i] > anInt1060) {
 					anInt1060 = anIntArray1049[i + 1];
 				}
 			}
@@ -231,37 +231,37 @@ public class Class79
 		int i_5_ = 28 % ((-34 - b) / 37);
 		if (i == 1) {
 			anInt1062 = buffer.method2219(-130546744);
-		} else if ((i ^ 0xffffffff) == -3) {
+		} else if (i == 2) {
 			anInt1056 = buffer.method2219(-130546744);
-		} else if ((i ^ 0xffffffff) == -4) {
+		} else if (i == 3) {
 			aString1085 = buffer.method2195(-1);
 		} else if (i == 4) {
 			anInt1058 = buffer.method2220(1819759595);
-		} else if ((i ^ 0xffffffff) != -6) {
+		} else if (i != 5) {
 			if (i != 6) {
 				if (i == 7) {
 					int i_6_ = buffer.method2233(255);
 					if ((0x1 & i_6_) == 0) {
 						aBoolean1047 = false;
 					}
-					if ((i_6_ & 0x2 ^ 0xffffffff) == -3) {
+					if ((i_6_ & 0x2) == 2) {
 						aBoolean1079 = true;
 					}
 				} else if (i != 8) {
 					if (i != 9) {
-						if ((i ^ 0xffffffff) <= -11 && i <= 14) {
+						if (i >= 10 && i <= 14) {
 							aStringArray1065[i + -10] = buffer.method2195(-1);
 						} else if (i != 15) {
-							if ((i ^ 0xffffffff) == -17) {
+							if (i == 16) {
 								aBoolean1064 = false;
-							} else if ((i ^ 0xffffffff) != -18) {
+							} else if (i != 17) {
 								if (i == 18) {
 									anInt1093 = buffer.method2219(-130546744);
-								} else if ((i ^ 0xffffffff) == -20) {
+								} else if (i == 19) {
 									anInt1067 = buffer.method2219(-130546744);
-								} else if ((i ^ 0xffffffff) == -21) {
+								} else if (i == 20) {
 									anInt1048 = buffer.method2219(-130546744);
-									if ((anInt1048 ^ 0xffffffff) == -65536) {
+									if (anInt1048 == 65535) {
 										anInt1048 = -1;
 									}
 									anInt1044 = buffer.method2219(-130546744);
@@ -278,16 +278,16 @@ public class Class79
 									anInt1074 = buffer.method2233(255);
 									anInt1050 = buffer.method2233(255);
 									anInt1080 = buffer.method2233(255);
-								} else if ((i ^ 0xffffffff) == -25) {
+								} else if (i == 24) {
 									anInt1071 = buffer.method2193(-65);
 									anInt1092 = buffer.method2193(-75);
-								} else if ((i ^ 0xffffffff) == -250) {
+								} else if (i == 249) {
 									int i_7_ = buffer.method2233(255);
 									if (aHashTable1053 == null) {
 										int i_8_ = Class320_Sub19.method3753(i_7_, -729073628);
 										aHashTable1053 = new HashTable(i_8_);
 									}
-									for (int i_9_ = 0; (i_9_ ^ 0xffffffff) > (i_7_ ^ 0xffffffff); i_9_++) {
+									for (int i_9_ = 0; i_7_ > i_9_; i_9_++) {
 										boolean bool = buffer.method2233(255) == 1;
 										int i_10_ = buffer.method2220(1819759595);
 										Node node;
@@ -310,19 +310,19 @@ public class Class79
 							anInt1084 = buffer.method2186(96);
 							int i_13_ = buffer.method2233(255);
 							anIntArray1066 = new int[i_13_];
-							for (int i_14_ = 0; (i_14_ ^ 0xffffffff) > (anIntArray1066.length ^ 0xffffffff); i_14_++)
+							for (int i_14_ = 0; anIntArray1066.length > i_14_; i_14_++)
 								anIntArray1066[i_14_] = buffer.method2186(84);
 							aByteArray1057 = new byte[i_11_];
-							for (int i_15_ = 0; (i_11_ ^ 0xffffffff) < (i_15_ ^ 0xffffffff); i_15_++)
+							for (int i_15_ = 0; i_15_ < i_11_; i_15_++)
 								aByteArray1057[i_15_] = buffer.method2214((byte) -109);
 						}
 					} else {
 						anInt1069 = buffer.method2219(-130546744);
-						if ((anInt1069 ^ 0xffffffff) == -65536) {
+						if (anInt1069 == 65535) {
 							anInt1069 = -1;
 						}
 						anInt1091 = buffer.method2219(-130546744);
-						if ((anInt1091 ^ 0xffffffff) == -65536) {
+						if (anInt1091 == 65535) {
 							anInt1091 = -1;
 						}
 						anInt1087 = buffer.method2186(105);

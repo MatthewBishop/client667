@@ -18,9 +18,9 @@ public class Node_Sub38_Sub35 extends Node_Sub38
 			int[] is_1_ = this.method2786(i_0_, 0, 0);
 			for (int i_2_ = 0; i_2_ < Class339_Sub7.anInt8728; i_2_++) {
 				int i_3_ = is_1_[i_2_];
-				if ((i_3_ ^ 0xffffffff) > (anInt10453 ^ 0xffffffff)) {
+				if (anInt10453 > i_3_) {
 					is[i_2_] = anInt10453;
-				} else if ((anInt10450 ^ 0xffffffff) > (i_3_ ^ 0xffffffff)) {
+				} else if (i_3_ > anInt10450) {
 					is[i_2_] = anInt10450;
 				} else {
 					is[i_2_] = i_3_;
@@ -53,7 +53,7 @@ public class Node_Sub38_Sub35 extends Node_Sub38
 		do {
 			do {
 				if (i_4_ != 0) {
-					if ((i_4_ ^ 0xffffffff) != -2) {
+					if (i_4_ != 1) {
 						if (i_4_ == 2) {
 							break;
 						}
@@ -91,7 +91,7 @@ public class Node_Sub38_Sub35 extends Node_Sub38
 				int i_13_ = is_6_[i_12_];
 				int i_14_ = is_7_[i_12_];
 				int i_15_ = is_8_[i_12_];
-				if ((anInt10453 ^ 0xffffffff) >= (i_13_ ^ 0xffffffff)) {
+				if (i_13_ >= anInt10453) {
 					if (anInt10450 >= i_13_) {
 						is_9_[i_12_] = i_13_;
 					} else {
@@ -100,15 +100,15 @@ public class Node_Sub38_Sub35 extends Node_Sub38
 				} else {
 					is_9_[i_12_] = anInt10453;
 				}
-				if ((anInt10453 ^ 0xffffffff) < (i_14_ ^ 0xffffffff)) {
+				if (i_14_ < anInt10453) {
 					is_10_[i_12_] = anInt10453;
-				} else if ((i_14_ ^ 0xffffffff) < (anInt10450 ^ 0xffffffff)) {
+				} else if (anInt10450 < i_14_) {
 					is_10_[i_12_] = anInt10450;
 				} else {
 					is_10_[i_12_] = i_14_;
 				}
 				if (anInt10453 <= i_15_) {
-					if ((anInt10450 ^ 0xffffffff) <= (i_15_ ^ 0xffffffff)) {
+					if (i_15_ <= anInt10450) {
 						is_11_[i_12_] = i_15_;
 					} else {
 						is_11_[i_12_] = anInt10450;

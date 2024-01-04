@@ -24,7 +24,7 @@ public class Class215
 		if (i != 36) {
 			return true;
 		}
-		if (!((0x70000 & i_1_ ^ 0xffffffff) != -1 | Node_Sub38_Sub4.method2797(0, i_0_, i_1_)) && !Class318.method3669(i_1_, (byte) 123, i_0_)) {
+		if (!((0x70000 & i_1_) != 0 | Node_Sub38_Sub4.method2797(0, i_0_, i_1_)) && !Class318.method3669(i_1_, (byte) 123, i_0_)) {
 			return false;
 		}
 		return true;

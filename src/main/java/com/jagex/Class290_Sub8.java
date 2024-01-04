@@ -188,7 +188,7 @@ public class Class290_Sub8 extends Class290
 		Class336_Sub1 class336_sub1 = anAbstractToolkit3654.method1342(-49);
 		IDirect3DVertexShader idirect3dvertexshader;
 		if (aBoolean8144) {
-			idirect3dvertexshader = (i_5_ ^ 0xffffffff) == -2147483648 ? anIDirect3DVertexShader8143 : anIDirect3DVertexShader8137;
+			idirect3dvertexshader = i_5_ == 2147483647 ? anIDirect3DVertexShader8143 : anIDirect3DVertexShader8137;
 		} else {
 			idirect3dvertexshader = i_5_ != 2147483647 ? anIDirect3DVertexShader8146 : anIDirect3DVertexShader8142;
 		}

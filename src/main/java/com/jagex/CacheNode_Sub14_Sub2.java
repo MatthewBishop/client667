@@ -52,19 +52,19 @@ public class CacheNode_Sub14_Sub2 extends CacheNode_Sub14
 	
 	static final void method2353(byte b, Buffer buffer) {
 		anInt11031++;
-		if ((buffer.aByteArray7019.length - buffer.anInt7002 ^ 0xffffffff) <= -2) {
+		if (buffer.aByteArray7019.length - buffer.anInt7002 >= 1) {
 			int i = buffer.method2233(255);
-			if (i >= 0 && (i ^ 0xffffffff) >= -2) {
+			if (i >= 0 && i <= 1) {
 				if (b > -21) {
 					method2354(null, -121, true, -60, -117, 43, false);
 				}
-				if ((buffer.aByteArray7019.length + -buffer.anInt7002 ^ 0xffffffff) <= -3) {
+				if (buffer.aByteArray7019.length + -buffer.anInt7002 >= 2) {
 					int i_2_ = buffer.method2219(-130546744);
-					if ((6 * i_2_ ^ 0xffffffff) >= (buffer.aByteArray7019.length - buffer.anInt7002 ^ 0xffffffff)) {
-						for (int i_3_ = 0; (i_2_ ^ 0xffffffff) < (i_3_ ^ 0xffffffff); i_3_++) {
+					if (buffer.aByteArray7019.length - buffer.anInt7002 >= 6 * i_2_) {
+						for (int i_3_ = 0; i_3_ < i_2_; i_3_++) {
 							int i_4_ = buffer.method2219(-130546744);
 							int i_5_ = buffer.method2186(71);
-							if ((i_4_ ^ 0xffffffff) > (Class320_Sub22.anIntArray8417.length ^ 0xffffffff) && FileOnDisk.aBooleanArray1332[i_4_] && ((Node_Sub53.aClass176_7667.method1805(i_4_, -4409).aChar3210 ^ 0xffffffff) != -50 || i_5_ >= -1 && (i_5_ ^ 0xffffffff) >= -2)) {
+							if (Class320_Sub22.anIntArray8417.length > i_4_ && FileOnDisk.aBooleanArray1332[i_4_] && (Node_Sub53.aClass176_7667.method1805(i_4_, -4409).aChar3210 != 49 || i_5_ >= -1 && i_5_ <= 1)) {
 								Class320_Sub22.anIntArray8417[i_4_] = i_5_;
 							}
 						}
@@ -76,7 +76,7 @@ public class CacheNode_Sub14_Sub2 extends CacheNode_Sub14
 	
 	static final void method2354(Class302 class302, int i, boolean bool, int i_6_, int i_7_, int i_8_, boolean bool_9_) {
 		anInt11036++;
-		if ((i_8_ ^ 0xffffffff) >= -1) {
+		if (i_8_ <= 0) {
 			Class339_Sub8.method3946(i_7_, i_6_, i, class302, bool, 23732);
 		} else {
 			Class17.anInt282 = i;
@@ -87,7 +87,7 @@ public class CacheNode_Sub14_Sub2 extends CacheNode_Sub14
 			CacheNode_Sub6.anInt9485 = i_7_;
 			Class101.anInt1306 = i_6_;
 			Class107.anInt1362 = Class307.aNode_Sub9_Sub1_3902.method2471(15) / i_8_;
-			if ((Class107.anInt1362 ^ 0xffffffff) > -2) {
+			if (Class107.anInt1362 < 1) {
 				Class107.anInt1362 = 1;
 			}
 		}
@@ -104,10 +104,10 @@ public class CacheNode_Sub14_Sub2 extends CacheNode_Sub14
 			int i_10_ = Node_Sub23_Sub1.anIntArray9928[i];
 			Player player = Class270_Sub2.aPlayerArray8038[i_10_];
 			int i_11_ = packet.method2233(255);
-			if ((i_11_ & 0x80 ^ 0xffffffff) != -1) {
+			if ((i_11_ & 0x80) != 0) {
 				i_11_ += packet.method2233(255) << 8;
 			}
-			if ((i_11_ & 0x800 ^ 0xffffffff) != -1) {
+			if ((i_11_ & 0x800) != 0) {
 				i_11_ += packet.method2233(255) << 16;
 			}
 			Class91.method1032(-1, player, i_10_, packet, i_11_);
@@ -139,9 +139,9 @@ public class CacheNode_Sub14_Sub2 extends CacheNode_Sub14
 			}
 			int i_22_;
 			if (i_15_ != 1) {
-				if ((i_15_ ^ 0xffffffff) == -3) {
+				if (i_15_ == 2) {
 					i_22_ = 12;
-				} else if ((i_15_ ^ 0xffffffff) == -4) {
+				} else if (i_15_ == 3) {
 					i_22_ = 15;
 				} else if (i_15_ != 4) {
 					i_22_ = 21;
@@ -156,7 +156,7 @@ public class CacheNode_Sub14_Sub2 extends CacheNode_Sub14
 			Model model = new Model(1 - -(i_23_ * i_22_), -i_22_ + i_22_ * (i_23_ * 2), 0);
 			int i_24_ = model.method2079(-112, 0, 0, 0);
 			int[][] is_25_ = new int[i_23_][i_22_];
-			for (int i_26_ = 0; (i_26_ ^ 0xffffffff) > (i_23_ ^ 0xffffffff); i_26_++) {
+			for (int i_26_ = 0; i_23_ > i_26_; i_26_++) {
 				int i_27_ = is[i_26_];
 				int i_28_ = is[i_26_];
 				for (int i_29_ = 0; i_29_ < i_22_; i_29_++) {
@@ -166,7 +166,7 @@ public class CacheNode_Sub14_Sub2 extends CacheNode_Sub14
 					is_25_[i_26_][i_29_] = model.method2079(-118, i_32_, 0, i_31_);
 				}
 			}
-			for (int i_33_ = 0; (i_23_ ^ 0xffffffff) < (i_33_ ^ 0xffffffff); i_33_++) {
+			for (int i_33_ = 0; i_33_ < i_23_; i_33_++) {
 				int i_34_ = (i_33_ * 256 - -128) / i_23_;
 				int i_35_ = 256 - i_34_;
 				byte b = (byte) (i * i_34_ + i_16_ * i_35_ >> 8);
@@ -199,7 +199,7 @@ public class CacheNode_Sub14_Sub2 extends CacheNode_Sub14
 			drawablemodel_21_.O(-i_37_ + i_38_ >> 1, 128, i_40_ + -i_39_ >> 1);
 			drawablemodel_21_.H(i_38_ + i_37_ >> 1, 0, i_40_ + i_39_ >> 1);
 		}
-		if ((i_17_ ^ 0xffffffff) != -1) {
+		if (i_17_ != 0) {
 			drawablemodel_21_.FA(i_17_);
 		}
 		if (i_12_ != 0) {

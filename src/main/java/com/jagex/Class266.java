@@ -113,7 +113,7 @@ public class Class266
 				i = 200;
 			}
 			anInt3390 += i;
-			if ((anInt3390 ^ 0xffffffff) < -30001) {
+			if (anInt3390 > 30000) {
 				try {
 					aBufferedConnection3389.method430(b + 20622);
 				} catch (Exception exception) {
@@ -124,7 +124,7 @@ public class Class266
 		}
 		anInt3379++;
 		if (aBufferedConnection3389 == null) {
-			if (method3236(b ^ 0x46) != 0 || (method3246((byte) 111) ^ 0xffffffff) != -1) {
+			if (method3236(b ^ 0x46) != 0 || method3246((byte) 111) != 0) {
 				return false;
 			}
 			return true;
@@ -170,8 +170,8 @@ public class Class266
 						i_3_ = i_1_;
 					}
 					aBufferedConnection3389.method425(i_3_, (byte) 48, aBuffer3396.anInt7002, aBuffer3396.aByteArray7019);
-					if ((aByte3395 ^ 0xffffffff) != -1) {
-						for (int i_4_ = 0; (i_4_ ^ 0xffffffff) > (i_3_ ^ 0xffffffff); i_4_++)
+					if (aByte3395 != 0) {
+						for (int i_4_ = 0; i_3_ > i_4_; i_4_++)
 							aBuffer3396.aByteArray7019[aBuffer3396.anInt7002 - -i_4_] = (byte) Node_Sub19.method2612(aBuffer3396.aByteArray7019[aBuffer3396.anInt7002 + i_4_], aByte3395);
 					}
 					aBuffer3396.anInt7002 += i_3_;
@@ -183,19 +183,19 @@ public class Class266
 							int i_7_ = aBuffer3396.method2233(255);
 							int i_8_ = aBuffer3396.method2186(100);
 							int i_9_ = 0x7f & i_7_;
-							boolean bool = (i_7_ & 0x80 ^ 0xffffffff) != -1;
+							boolean bool = (i_7_ & 0x80) != 0;
 							long l = (long) (i_6_ + (i_5_ << 16));
 							Object object = null;
 							CacheNode_Sub16_Sub1 cachenode_sub16_sub1_10_;
 							if (!bool) {
 								for (cachenode_sub16_sub1_10_ = (CacheNode_Sub16_Sub1) aClass158_3386.method1723(13); cachenode_sub16_sub1_10_ != null; cachenode_sub16_sub1_10_ = (CacheNode_Sub16_Sub1) aClass158_3386.method1721(0)) {
-									if ((cachenode_sub16_sub1_10_.aLong7037 ^ 0xffffffffffffffffL) == (l ^ 0xffffffffffffffffL)) {
+									if (l == cachenode_sub16_sub1_10_.aLong7037) {
 										break;
 									}
 								}
 							} else {
 								for (cachenode_sub16_sub1_10_ = (CacheNode_Sub16_Sub1) aClass158_3388.method1723(13); cachenode_sub16_sub1_10_ != null; cachenode_sub16_sub1_10_ = (CacheNode_Sub16_Sub1) aClass158_3388.method1721(0)) {
-									if ((cachenode_sub16_sub1_10_.aLong7037 ^ 0xffffffffffffffffL) == (l ^ 0xffffffffffffffffL)) {
+									if (l == cachenode_sub16_sub1_10_.aLong7037) {
 										break;
 									}
 								}
@@ -204,7 +204,7 @@ public class Class266
 								throw new IOException();
 							}
 							aCacheNode_Sub16_Sub1_3397 = cachenode_sub16_sub1_10_;
-							int i_11_ = (i_9_ ^ 0xffffffff) != -1 ? 9 : 5;
+							int i_11_ = i_9_ != 0 ? 9 : 5;
 							aCacheNode_Sub16_Sub1_3397.aBuffer11072 = new Buffer(i_11_ + i_8_ - -aCacheNode_Sub16_Sub1_3397.aByte11069);
 							aCacheNode_Sub16_Sub1_3397.aBuffer11072.method2226(i_9_, false);
 							aCacheNode_Sub16_Sub1_3397.aBuffer11072.method2179((byte) -5, i_8_);
@@ -224,20 +224,20 @@ public class Class266
 				} else {
 					int i_12_ = -aCacheNode_Sub16_Sub1_3397.aByte11069 + aCacheNode_Sub16_Sub1_3397.aBuffer11072.aByteArray7019.length;
 					int i_13_ = 512 - aCacheNode_Sub16_Sub1_3397.anInt11070;
-					if ((i_13_ ^ 0xffffffff) < (-aCacheNode_Sub16_Sub1_3397.aBuffer11072.anInt7002 + i_12_ ^ 0xffffffff)) {
+					if (-aCacheNode_Sub16_Sub1_3397.aBuffer11072.anInt7002 + i_12_ < i_13_) {
 						i_13_ = -aCacheNode_Sub16_Sub1_3397.aBuffer11072.anInt7002 + i_12_;
 					}
 					if (i_13_ > i_1_) {
 						i_13_ = i_1_;
 					}
 					aBufferedConnection3389.method425(i_13_, (byte) 67, aCacheNode_Sub16_Sub1_3397.aBuffer11072.anInt7002, aCacheNode_Sub16_Sub1_3397.aBuffer11072.aByteArray7019);
-					if ((aByte3395 ^ 0xffffffff) != -1) {
+					if (aByte3395 != 0) {
 						for (int i_14_ = 0; i_14_ < i_13_; i_14_++)
 							aCacheNode_Sub16_Sub1_3397.aBuffer11072.aByteArray7019[aCacheNode_Sub16_Sub1_3397.aBuffer11072.anInt7002 - -i_14_] = (byte) Node_Sub19.method2612(aCacheNode_Sub16_Sub1_3397.aBuffer11072.aByteArray7019[aCacheNode_Sub16_Sub1_3397.aBuffer11072.anInt7002 + i_14_], aByte3395);
 					}
 					aCacheNode_Sub16_Sub1_3397.aBuffer11072.anInt7002 += i_13_;
 					aCacheNode_Sub16_Sub1_3397.anInt11070 += i_13_;
-					if ((i_12_ ^ 0xffffffff) == (aCacheNode_Sub16_Sub1_3397.aBuffer11072.anInt7002 ^ 0xffffffff)) {
+					if (aCacheNode_Sub16_Sub1_3397.aBuffer11072.anInt7002 == i_12_) {
 						aCacheNode_Sub16_Sub1_3397.method2275(-65);
 						aCacheNode_Sub16_Sub1_3397.aBoolean9602 = false;
 						aCacheNode_Sub16_Sub1_3397 = null;
@@ -256,7 +256,7 @@ public class Class266
 			aBufferedConnection3389 = null;
 			anInt3394++;
 			anInt3393 = -2;
-			if (method3236(0) == 0 && (method3246((byte) 71) ^ 0xffffffff) == -1) {
+			if (method3236(0) == 0 && method3246((byte) 71) == 0) {
 				return true;
 			}
 			return false;
@@ -268,7 +268,7 @@ public class Class266
 			return false;
 		}
 		anInt3376++;
-		if ((method3246((byte) 121) ^ 0xffffffff) > -21) {
+		if (method3246((byte) 121) < 20) {
 			return false;
 		}
 		return true;
@@ -389,8 +389,8 @@ public class Class266
 		Class259 class259 = npc.method868((byte) -124);
 		int i_16_ = npc.anAnimator10860.method250((byte) 81);
 		if (i_16_ != -1 && !npc.aBoolean10867) {
-			if (class259.anInt3252 != i_16_ && class259.anInt3271 != i_16_ && (class259.anInt3293 ^ 0xffffffff) != (i_16_ ^ 0xffffffff) && (i_16_ ^ 0xffffffff) != (class259.anInt3270 ^ 0xffffffff)) {
-				if (class259.anInt3262 == i_16_ || (i_16_ ^ 0xffffffff) == (class259.anInt3297 ^ 0xffffffff) || (class259.anInt3304 ^ 0xffffffff) == (i_16_ ^ 0xffffffff) || (class259.anInt3269 ^ 0xffffffff) == (i_16_ ^ 0xffffffff)) {
+			if (class259.anInt3252 != i_16_ && class259.anInt3271 != i_16_ && i_16_ != class259.anInt3293 && class259.anInt3270 != i_16_) {
+				if (class259.anInt3262 == i_16_ || class259.anInt3297 == i_16_ || i_16_ == class259.anInt3304 || i_16_ == class259.anInt3269) {
 					i_15_ = npcdefinition.anInt2833;
 				}
 			} else {
@@ -407,7 +407,7 @@ public class Class266
 			aByte3395 = (byte) -93;
 		}
 		anInt3368++;
-		if ((method3236(0) ^ 0xffffffff) > -21) {
+		if (method3236(0) < 20) {
 			return false;
 		}
 		return true;
@@ -442,7 +442,7 @@ public class Class266
 		cachenode_sub16_sub1.aByte11069 = b_18_;
 		cachenode_sub16_sub1.aLong7037 = l;
 		if (bool) {
-			if ((method3236(0) ^ 0xffffffff) <= -21) {
+			if (method3236(0) >= 20) {
 				throw new RuntimeException();
 			}
 			aClass158_3384.method1719(true, cachenode_sub16_sub1);

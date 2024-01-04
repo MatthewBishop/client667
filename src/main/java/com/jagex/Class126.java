@@ -47,14 +47,14 @@ public class Class126
 			Class113.method1150((byte) -99);
 			Animable_Sub1.method825((byte) -68);
 			Class262_Sub23.method3212(false, 1295);
-			for (int i_0_ = 0; (i_0_ ^ 0xffffffff) > -2049; i_0_++) {
+			for (int i_0_ = 0; i_0_ < 2048; i_0_++) {
 				Player player = Class270_Sub2.aPlayerArray8038[i_0_];
 				if (player != null) {
 					for (int i_1_ = 0; player.aDrawableModelArray10909.length > i_1_; i_1_++)
 						player.aDrawableModelArray10909[i_1_] = null;
 				}
 			}
-			for (int i_2_ = 0; (i_2_ ^ 0xffffffff) > (Node_Sub32.anInt7380 ^ 0xffffffff); i_2_++) {
+			for (int i_2_ = 0; Node_Sub32.anInt7380 > i_2_; i_2_++) {
 				Npc npc = Class314.aNode_Sub41Array4017[i_2_].aNpc7518;
 				if (npc != null) {
 					for (int i_3_ = 0; i_3_ < npc.aDrawableModelArray10909.length; i_3_++)
@@ -106,13 +106,13 @@ public class Class126
 					while_104_:
 						do {
 							do {
-								if ((i_6_ ^ 0xffffffff) != -1) {
+								if (i_6_ != 0) {
 									if (i_6_ != 1) {
-										if ((i_6_ ^ 0xffffffff) != -3) {
+										if (i_6_ != 2) {
 											if (i_6_ != 3) {
 												if (i_6_ != 4) {
 													if (i_6_ != 5) {
-														if ((i_6_ ^ 0xffffffff) == -7) {
+														if (i_6_ == 6) {
 															break while_107_;
 														}
 														break while_108_;
@@ -276,7 +276,7 @@ public class Class126
 				}
 				if (string.equalsIgnoreCase("gc")) {
 					Class355.method4021(60);
-					for (int i_12_ = 0; (i_12_ ^ 0xffffffff) > -11; i_12_++)
+					for (int i_12_ = 0; i_12_ < 10; i_12_++)
 						System.gc();
 					Runtime runtime = Runtime.getRuntime();
 					int i_13_ = (int) ((runtime.totalMemory() + -runtime.freeMemory()) / 1024L);
@@ -292,7 +292,7 @@ public class Class126
 					Node_Sub7.method2422((byte) 43, "Memory before cleanup=" + i_15_ + "k");
 					Class189.method1934((byte) 17);
 					Class355.method4021(112);
-					for (int i_16_ = 0; (i_16_ ^ 0xffffffff) > -11; i_16_++)
+					for (int i_16_ = 0; i_16_ < 10; i_16_++)
 						System.gc();
 					i_15_ = (int) ((runtime.totalMemory() - runtime.freeMemory()) / 1024L);
 					Node_Sub7.method2422((byte) 43, "Memory after cleanup=" + i_15_ + "k");
@@ -331,7 +331,7 @@ public class Class126
 				if (string.equalsIgnoreCase("breakcon")) {
 					Class240.aSignLink2946.method3644((byte) -64);
 					Class123[] class123s = Class218.aClass123Array2567;
-					for (int i_17_ = 0; (class123s.length ^ 0xffffffff) < (i_17_ ^ 0xffffffff); i_17_++) {
+					for (int i_17_ = 0; i_17_ < class123s.length; i_17_++) {
 						Class123 class123 = class123s[i_17_];
 						if (class123.aClass365_1557 != null) {
 							class123.aClass365_1557.method4063(0);
@@ -387,7 +387,7 @@ public class Class126
 				}
 				if (string.equalsIgnoreCase("tk0")) {
 					Class22.method300(0, true, false);
-					if ((Class213.aNode_Sub27_2512.aClass320_Sub29_7270.method3791(false) ^ 0xffffffff) == -1) {
+					if (Class213.aNode_Sub27_2512.aClass320_Sub29_7270.method3791(false) == 0) {
 						Node_Sub7.method2422((byte) 43, "Entered tk0");
 						Class213.aNode_Sub27_2512.method2690(102, 0, Class213.aNode_Sub27_2512.aClass320_Sub29_7291);
 						Node_Sub38_Sub31.method2893(1);
@@ -455,7 +455,7 @@ public class Class126
 						Node_Sub7.method2422((byte) 43, "Invalid buildarea value");
 					} else {
 						int i_18_ = Class350.method3998(string.substring(6), -1);
-						if (i_18_ < 0 || (i_18_ ^ 0xffffffff) < (Class248.method3084(Class201.anInt2446, 128) ^ 0xffffffff)) {
+						if (i_18_ < 0 || Class248.method3084(Class201.anInt2446, 128) < i_18_) {
 							Node_Sub7.method2422((byte) 43, "Invalid buildarea value");
 						} else {
 							Class213.aNode_Sub27_2512.method2690(28, i_18_, Class213.aNode_Sub27_2512.aClass320_Sub5_7297);
@@ -469,7 +469,7 @@ public class Class126
 					return;
 				}
 				if (string.startsWith("rect_debug")) {
-					if ((string.length() ^ 0xffffffff) > -11) {
+					if (string.length() < 10) {
 						Node_Sub7.method2422((byte) 43, "Invalid rect_debug value");
 					} else {
 						Class12.anInt193 = Class350.method3998(string.substring(10).trim(), -1);
@@ -544,8 +544,8 @@ public class Class126
 				if (string.startsWith("mc")) {
 					if (Class93.aGraphicsToolkit1241.s()) {
 						int i_20_ = Integer.parseInt(string.substring(3));
-						if ((i_20_ ^ 0xffffffff) <= -2) {
-							if ((i_20_ ^ 0xffffffff) < -5) {
+						if (i_20_ >= 1) {
+							if (i_20_ > 4) {
 								i_20_ = 4;
 							}
 						} else {
@@ -579,7 +579,7 @@ public class Class126
 					if (string.length() > 15) {
 						String[] strings = Class106.method1120((byte) -128, string, ' ');
 						try {
-							if ((strings.length ^ 0xffffffff) < -2) {
+							if (strings.length > 1) {
 								i_22_ = Integer.parseInt(strings[1]);
 							}
 						} catch (Throwable throwable) {
@@ -593,7 +593,7 @@ public class Class126
 							/* empty */
 						}
 					}
-					if ((i_21_ ^ 0xffffffff) != 0) {
+					if (i_21_ != -1) {
 						Node_Sub7.method2422((byte) 43, "Performance: " + Class194.method1961(i_22_, i_21_, 13968));
 					} else {
 						Node_Sub7.method2422((byte) 43, "Java toolkit: " + Class194.method1961(i_22_, 0, 13968));
@@ -689,7 +689,7 @@ public class Class126
 				if (string.startsWith("directlogin")) {
 					String[] strings = Class106.method1120((byte) 115, string.substring(12), ' ');
 					if (strings.length >= 2) {
-						int i_29_ = (strings.length ^ 0xffffffff) < -3 ? Integer.parseInt(strings[2]) : 0;
+						int i_29_ = strings.length > 2 ? Integer.parseInt(strings[2]) : 0;
 						Class39.method415(i_29_, strings[1], strings[0], 106);
 						return;
 					}
@@ -755,7 +755,7 @@ public class Class126
 				}
 				if (string.startsWith("ortho ")) {
 					int i_34_ = string.indexOf(' ');
-					if ((i_34_ ^ 0xffffffff) > -1) {
+					if (i_34_ < 0) {
 						Node_Sub7.method2422((byte) 43, "Syntax: ortho <n>");
 					} else {
 						int i_35_ = Class350.method3998(string.substring(i_34_ + 1), -1);
@@ -774,7 +774,7 @@ public class Class126
 					return;
 				}
 				if (string.startsWith("orthozoom ")) {
-					if ((Class213.aNode_Sub27_2512.aClass320_Sub3_7298.method3691(false) ^ 0xffffffff) == -1) {
+					if (Class213.aNode_Sub27_2512.aClass320_Sub3_7298.method3691(false) == 0) {
 						Node_Sub7.method2422((byte) 43, "enable ortho mode first (use 'ortho <n>')");
 					} else {
 						int i_36_ = Class350.method3998(string.substring(1 + string.indexOf(' ')), -1);
@@ -853,7 +853,7 @@ public class Class126
 					return;
 				}
 				if (string.startsWith("cs2debug")) {
-					if ((string.length() ^ 0xffffffff) >= -10 || (string.charAt(8) ^ 0xffffffff) != -33) {
+					if (string.length() <= 9 || string.charAt(8) != 32) {
 						Class305.aString3870 = null;
 						Class305.aBoolean3868 = !Class305.aBoolean3868;
 						Node_Sub7.method2422((byte) 43, "cs2debug:" + Class305.aBoolean3868);
@@ -865,7 +865,7 @@ public class Class126
 					}
 					return;
 				}
-				if ((Class151.anInt1843 ^ 0xffffffff) == -12) {
+				if (Class151.anInt1843 == 11) {
 					CacheNode_Sub6.anInt9483++;
 					Node_Sub13 node_sub13 = FloatBuffer.method2250(-386, Class247.aClass318_3130, Class218.worldResponseBuffer.anIsaacCipher1571);
 					node_sub13.aPacket7113.method2226(3 + string.length(), false);
@@ -891,7 +891,7 @@ public class Class126
 	static final void method1539(boolean bool, String string, byte b) {
 		anInt1622++;
 		if (string != null) {
-			if ((Class235.anInt5122 ^ 0xffffffff) <= -101) {
+			if (Class235.anInt5122 >= 100) {
 				Class41.method436(b ^ ~0x7326, Class22.aClass22_402.method297(-12273, Class35.anInt537), 4);
 			} else {
 				String string_39_ = Node_Sub25_Sub3.method2671(-13472, string);
@@ -910,7 +910,7 @@ public class Class126
 							}
 						}
 					}
-					for (int i = 0; (Node_Sub38_Sub14.anInt10242 ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+					for (int i = 0; i < Node_Sub38_Sub14.anInt10242; i++) {
 						String string_42_ = Node_Sub25_Sub3.method2671(b ^ 0x34aa, Class262_Sub12.aStringArray7793[i]);
 						if (string_42_ != null && string_42_.equals(string_39_)) {
 							Class41.method436(29459, Class22.aClass22_408.method297(-12273, Class35.anInt537) + string + Class22.aClass22_409.method297(-12273, Class35.anInt537), 4);
@@ -948,7 +948,7 @@ public class Class126
 		aClass372_1617 = class372;
 		anInt1621 = i;
 		anInt1624 = anInt1612 * aClass372_1617.anInt4591;
-		if ((anInt1621 ^ 0xffffffff) <= -17) {
+		if (anInt1621 >= 16) {
 			throw new RuntimeException();
 		}
 	}

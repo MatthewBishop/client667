@@ -97,7 +97,7 @@ public class Class377_Sub1 extends Class377
 		if (b != 83) {
 			return false;
 		}
-		if ((i ^ 0xffffffff) == -2 || i == 7) {
+		if (i == 1 || i == 7) {
 			return false;
 		}
 		return true;

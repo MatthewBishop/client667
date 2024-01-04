@@ -50,8 +50,8 @@ public class Class326
 					while_239_:
 						do {
 							do {
-								if ((i_3_ ^ 0xffffffff) != -2) {
-									if ((i_3_ ^ 0xffffffff) != -4) {
+								if (i_3_ != 1) {
+									if (i_3_ != 3) {
 										if (i_3_ != 4) {
 											if (i_3_ != 2) {
 												if (i_3_ == 5) {
@@ -199,20 +199,20 @@ public class Class326
 															do {
 																do {
 																	if (i_15_ != 2) {
-																		if ((i_15_ ^ 0xffffffff) != -4) {
-																			if ((i_15_ ^ 0xffffffff) != -5) {
-																				if ((i_15_ ^ 0xffffffff) != -6) {
+																		if (i_15_ != 3) {
+																			if (i_15_ != 4) {
+																				if (i_15_ != 5) {
 																					if (i_15_ != 12) {
-																						if ((i_15_ ^ 0xffffffff) != -14) {
-																							if ((i_15_ ^ 0xffffffff) != -11) {
-																								if ((i_15_ ^ 0xffffffff) != -12) {
-																									if ((i_15_ ^ 0xffffffff) != -7) {
+																						if (i_15_ != 13) {
+																							if (i_15_ != 10) {
+																								if (i_15_ != 11) {
+																									if (i_15_ != 6) {
 																										if (i_15_ != 7) {
-																											if ((i_15_ ^ 0xffffffff) != -9) {
-																												if ((i_15_ ^ 0xffffffff) != -10) {
+																											if (i_15_ != 8) {
+																												if (i_15_ != 9) {
 																													if (i_15_ != 14) {
-																														if ((i_15_ ^ 0xffffffff) != -16) {
-																															if ((i_15_ ^ 0xffffffff) == -17) {
+																														if (i_15_ != 15) {
+																															if (i_15_ == 16) {
 																																break while_254_;
 																															}
 																															break while_255_;
@@ -359,7 +359,7 @@ public class Class326
 		}
 		anInt4092 = buffer.method2233(255);
 		aBoolean4090 = (0x10 & anInt4092) != 0;
-		aBoolean4102 = (anInt4092 & 0x8 ^ 0xffffffff) != -1;
+		aBoolean4102 = (anInt4092 & 0x8) != 0;
 		anInt4092 = 0x7 & anInt4092;
 		int i_16_ = buffer.method2219(-130546744) << i;
 		int i_17_ = buffer.method2219(-130546744) << i;
@@ -367,14 +367,14 @@ public class Class326
 		int i_19_ = buffer.method2233(255);
 		int i_20_ = 2 * i_19_ + 1;
 		aShortArray4105 = new short[i_20_];
-		for (int i_21_ = 0; (aShortArray4105.length ^ 0xffffffff) < (i_21_ ^ 0xffffffff); i_21_++) {
+		for (int i_21_ = 0; i_21_ < aShortArray4105.length; i_21_++) {
 			int i_22_ = (short) buffer.method2219(-130546744);
 			int i_23_ = i_22_ >>> 8;
-			if ((i_23_ ^ 0xffffffff) <= (i_20_ ^ 0xffffffff)) {
+			if (i_20_ <= i_23_) {
 				i_23_ = -1 + i_20_;
 			}
 			int i_24_ = i_22_ & 0xff;
-			if ((i_24_ ^ 0xffffffff) < (-i_23_ + i_20_ ^ 0xffffffff)) {
+			if (-i_23_ + i_20_ < i_24_) {
 				i_24_ = i_20_ + -i_23_;
 			}
 			aShortArray4105[i_21_] = (short) Node_Sub16.method2590(i_24_, i_23_ << 8);
@@ -384,7 +384,7 @@ public class Class326
 		int i_26_ = buffer.method2233(255);
 		anInt4094 = 0x700 & i_26_ << 3;
 		anInt4110 = i_26_ & 0x1f;
-		if ((anInt4110 ^ 0xffffffff) != -32) {
+		if (anInt4110 != 31) {
 			method3822(0);
 		}
 		method3821(graphicstoolkit, i_17_, i_18_, i_16_, i_25_, i_19_, 1);

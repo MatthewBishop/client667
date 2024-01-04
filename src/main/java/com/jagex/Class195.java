@@ -81,7 +81,7 @@ public class Class195
 		if (bool) {
 			i_5_ = i_5_ | (aByte2381 == 3 ? 7 : 2);
 		}
-		if ((anInt2396 ^ 0xffffffff) != -129) {
+		if (anInt2396 != 128) {
 			i_5_ |= 0x2;
 		}
 		if (anInt2400 != 128 || anInt2388 != 0) {
@@ -112,7 +112,7 @@ public class Class195
 			}
 			drawablemodel = graphicstoolkit.a(model, i_7_, aClass101_2392.anInt1312, anInt2382 - -64, 850 + anInt2390);
 			if (aShortArray2386 != null) {
-				for (int i_8_ = 0; (aShortArray2386.length ^ 0xffffffff) < (i_8_ ^ 0xffffffff); i_8_++)
+				for (int i_8_ = 0; i_8_ < aShortArray2386.length; i_8_++)
 					drawablemodel.ia(aShortArray2386[i_8_], aShortArray2384[i_8_]);
 			}
 			if (aShortArray2389 != null) {
@@ -128,17 +128,17 @@ public class Class195
 		if (animator != null) {
 			animator.method225(0, drawablemodel_10_, 0);
 		}
-		if ((anInt2400 ^ 0xffffffff) != -129 || anInt2396 != 128) {
+		if (anInt2400 != 128 || anInt2396 != 128) {
 			drawablemodel_10_.O(anInt2400, anInt2396, anInt2400);
 		}
 		if (anInt2388 != 0) {
-			if ((anInt2388 ^ 0xffffffff) == -91) {
+			if (anInt2388 == 90) {
 				drawablemodel_10_.a(4096);
 			}
 			if (anInt2388 == 180) {
 				drawablemodel_10_.a(8192);
 			}
-			if ((anInt2388 ^ 0xffffffff) == -271) {
+			if (anInt2388 == 270) {
 				drawablemodel_10_.a(12288);
 			}
 		}
@@ -151,17 +151,17 @@ public class Class195
 	
 	private final void method1987(int i, Buffer buffer, int i_11_) {
 		anInt2393++;
-		if ((i ^ 0xffffffff) == -2) {
+		if (i == 1) {
 			anInt2379 = buffer.method2219(-130546744);
-		} else if ((i ^ 0xffffffff) != -3) {
+		} else if (i != 2) {
 			if (i == 4) {
 				anInt2400 = buffer.method2219(-130546744);
 			} else if (i != 5) {
-				if ((i ^ 0xffffffff) == -7) {
+				if (i == 6) {
 					anInt2388 = buffer.method2219(-130546744);
 				} else if (i == 7) {
 					anInt2382 = buffer.method2233(255);
-				} else if ((i ^ 0xffffffff) != -9) {
+				} else if (i != 8) {
 					if (i == 9) {
 						aByte2381 = (byte) 3;
 						anInt2385 = 8224;
@@ -169,11 +169,11 @@ public class Class195
 						if (i != 11) {
 							if (i != 12) {
 								if (i != 13) {
-									if ((i ^ 0xffffffff) != -15) {
-										if ((i ^ 0xffffffff) != -16) {
-											if ((i ^ 0xffffffff) != -17) {
+									if (i != 14) {
+										if (i != 15) {
+											if (i != 16) {
 												if (i != 40) {
-													if ((i ^ 0xffffffff) == -42) {
+													if (i == 41) {
 														int i_12_ = buffer.method2233(255);
 														aShortArray2395 = new short[i_12_];
 														aShortArray2389 = new short[i_12_];
@@ -237,7 +237,7 @@ public class Class195
 		for (int i_27_ = 0; i_23_ > i_27_; i_27_++) {
 			int i_28_ = i_24_;
 			class328.method3826(f / (float) i, 127.0F * f_25_, i_22_, fs, 0, f_21_ / (float) i_20_, i_18_, f_17_ / (float) i_22_, i_20_, (byte) 123, i);
-			for (int i_29_ = 0; (i_29_ ^ 0xffffffff) > (i_26_ ^ 0xffffffff); i_29_++) {
+			for (int i_29_ = 0; i_26_ > i_29_; i_29_++) {
 				bs[i_28_] += fs[i_29_];
 				i_28_++;
 			}
@@ -274,20 +274,20 @@ public class Class195
 				} else {
 					i = 2000;
 				}
-				if ((Class159.anInt1996 ^ 0xffffffff) != -3 || Node_Sub38_Sub8.anInt10163 != 20 && (Class339_Sub2.anInt8653 ^ 0xffffffff) != -43) {
+				if (Class159.anInt1996 != 2 || Node_Sub38_Sub8.anInt10163 != 20 && Class339_Sub2.anInt8653 != 42) {
 					Class262_Sub12.anInt7791++;
 				}
-				if (FixedAnimator.aBoolean5503 && (Node_Sub38_Sub8.anInt10163 ^ 0xffffffff) <= -7) {
+				if (FixedAnimator.aBoolean5503 && Node_Sub38_Sub8.anInt10163 >= 6) {
 					i = 6000;
 				}
-				if ((i ^ 0xffffffff) > (Class262_Sub12.anInt7791 ^ 0xffffffff)) {
+				if (Class262_Sub12.anInt7791 > i) {
 					Class320_Sub23.aClass123_8432.method1513(-28176);
 					if (Class45.anInt5264 >= 3) {
 						Node_Sub38_Sub8.anInt10163 = 0;
 						Animable_Sub2.method836(-5, true);
 						return;
 					}
-					if ((Class159.anInt1996 ^ 0xffffffff) != -3) {
+					if (Class159.anInt1996 != 2) {
 						Node_Sub15_Sub13.aClass197_9871.method1997(17418);
 					} else {
 						Class181.aClass197_2155.method1997(17418);
@@ -297,18 +297,18 @@ public class Class195
 					Class45.anInt5264++;
 				}
 				if (Node_Sub38_Sub8.anInt10163 == 1) {
-					if ((Class159.anInt1996 ^ 0xffffffff) != -3) {
+					if (Class159.anInt1996 != 2) {
 						Class320_Sub23.aClass123_8432.aClass241_1565 = Node_Sub15_Sub13.aClass197_9871.method2000((byte) -38, Class240.aSignLink2946);
 					} else {
 						Class320_Sub23.aClass123_8432.aClass241_1565 = Class181.aClass197_2155.method2000((byte) -103, Class240.aSignLink2946);
 					}
 					Node_Sub38_Sub8.anInt10163 = 2;
 				}
-				if ((Node_Sub38_Sub8.anInt10163 ^ 0xffffffff) == -3) {
-					if ((Class320_Sub23.aClass123_8432.aClass241_1565.anInt2953 ^ 0xffffffff) == -3) {
+				if (Node_Sub38_Sub8.anInt10163 == 2) {
+					if (Class320_Sub23.aClass123_8432.aClass241_1565.anInt2953 == 2) {
 						throw new IOException();
 					}
-					if ((Class320_Sub23.aClass123_8432.aClass241_1565.anInt2953 ^ 0xffffffff) != -2) {
+					if (Class320_Sub23.aClass123_8432.aClass241_1565.anInt2953 != 1) {
 						return;
 					}
 					Class320_Sub23.aClass123_8432.aClass365_1557 = CacheNode_Sub6.method2311((Socket) Class320_Sub23.aClass123_8432.aClass241_1565.anObject2956, 15000, (byte) 118);
@@ -320,7 +320,7 @@ public class Class195
 						node_sub13.aPacket7113.method2210(0, -25);
 						int i_33_ = node_sub13.aPacket7113.anInt7002;
 						node_sub13.aPacket7113.method2179((byte) -5, 667);
-						if ((Class159.anInt1996 ^ 0xffffffff) == -3) {
+						if (Class159.anInt1996 == 2) {
 							node_sub13.aPacket7113.method2226(Class151.anInt1843 != 14 ? 0 : 1, false);
 						}
 						Buffer buffer = Class300.method3500(3);
@@ -343,7 +343,7 @@ public class Class195
 					Class320_Sub23.aClass123_8432.method1512((byte) -89);
 					Node_Sub38_Sub8.anInt10163 = 3;
 				}
-				if ((Node_Sub38_Sub8.anInt10163 ^ 0xffffffff) == -4) {
+				if (Node_Sub38_Sub8.anInt10163 == 3) {
 					if (!Class320_Sub23.aClass123_8432.aClass365_1557.method4068(1, 59)) {
 						return;
 					}
@@ -362,7 +362,7 @@ public class Class195
 						Node_Sub38_Sub8.anInt10163 = 4;
 					}
 				}
-				if ((Node_Sub38_Sub8.anInt10163 ^ 0xffffffff) == -5) {
+				if (Node_Sub38_Sub8.anInt10163 == 4) {
 					if (!Class320_Sub23.aClass123_8432.aClass365_1557.method4068(2, 106)) {
 						return;
 					}
@@ -381,17 +381,17 @@ public class Class195
 					String string = Class320_Sub23.aClass123_8432.aPacket1570.method2180((byte) -73);
 					Class320_Sub23.aClass123_8432.aPacket1570.anInt7002 = 0;
 					String string_36_ = "opensn";
-					if (!Animable_Sub2_Sub1.aBoolean10628 || (Class188_Sub2_Sub1.method1910((byte) 84, Class240.aSignLink2946, string, string_36_, 1).anInt2953 ^ 0xffffffff) == -3) {
-						Class140.method1610(0, string, string_36_, Class240.aSignLink2946, (Class213.aNode_Sub27_2512.aClass320_Sub29_7270.method3791(false) ^ 0xffffffff) == -2, true);
+					if (!Animable_Sub2_Sub1.aBoolean10628 || Class188_Sub2_Sub1.method1910((byte) 84, Class240.aSignLink2946, string, string_36_, 1).anInt2953 == 2) {
+						Class140.method1610(0, string, string_36_, Class240.aSignLink2946, Class213.aNode_Sub27_2512.aClass320_Sub29_7270.method3791(false) == 1, true);
 					}
 					Node_Sub38_Sub8.anInt10163 = 6;
 				}
-				if ((Node_Sub38_Sub8.anInt10163 ^ 0xffffffff) == -7) {
+				if (Node_Sub38_Sub8.anInt10163 == 6) {
 					if (!Class320_Sub23.aClass123_8432.aClass365_1557.method4068(1, 82)) {
 						return;
 					}
 					Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -106, Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019, 1, 0);
-					if ((Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019[0] & 0xff ^ 0xffffffff) == -2) {
+					if ((Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019[0] & 0xff) == 1) {
 						Node_Sub38_Sub8.anInt10163 = 7;
 					}
 				}
@@ -425,7 +425,7 @@ public class Class195
 						int i_38_ = packet.anInt7002;
 						if (!FixedAnimator.aBoolean5503) {
 							packet.method2179((byte) -5, 667);
-							packet.method2226((Class151.anInt1843 ^ 0xffffffff) == -15 ? 1 : 0, false);
+							packet.method2226(Class151.anInt1843 == 14 ? 1 : 0, false);
 							i_38_ = packet.anInt7002;
 							Buffer buffer = CacheNode_Sub17.method2397((byte) 27);
 							packet.method2223(buffer.anInt7002, (byte) 4, buffer.aByteArray7019, 0);
@@ -501,11 +501,11 @@ public class Class195
 					}
 					Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -97, Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019, 1, 0);
 					int i_43_ = 0xff & Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019[0];
-					if ((i_43_ ^ 0xffffffff) != -22) {
-						if (i_43_ != 29 && (i_43_ ^ 0xffffffff) != -46) {
-							if ((i_43_ ^ 0xffffffff) != -2) {
+					if (i_43_ != 21) {
+						if (i_43_ != 29 && i_43_ != 45) {
+							if (i_43_ != 1) {
 								if (i_43_ != 2) {
-									if ((i_43_ ^ 0xffffffff) == -16) {
+									if (i_43_ == 15) {
 										Node_Sub38_Sub8.anInt10163 = 19;
 										Class320_Sub23.aClass123_8432.anInt1581 = -2;
 									} else {
@@ -516,11 +516,11 @@ public class Class195
 											Class320_Sub23.aClass123_8432.aClass365_1557.method4062(-2);
 											Class320_Sub23.aClass123_8432.aClass365_1557 = null;
 										} else {
-											if ((i_43_ ^ 0xffffffff) == -43) {
+											if (i_43_ == 42) {
 												Node_Sub38_Sub8.anInt10163 = 20;
 												Animable_Sub2.method836(i_43_, true);
 											} else {
-												if (!Class296.aBoolean5428 || FixedAnimator.aBoolean5503 || (Class336_Sub2.anInt8586 ^ 0xffffffff) == 0 || i_43_ != 35) {
+												if (!Class296.aBoolean5428 || FixedAnimator.aBoolean5503 || Class336_Sub2.anInt8586 == -1 || i_43_ != 35) {
 													Node_Sub38_Sub8.anInt10163 = 0;
 													Animable_Sub2.method836(i_43_, true);
 													Class320_Sub23.aClass123_8432.aClass365_1557.method4062(-2);
@@ -584,7 +584,7 @@ public class Class195
 					}
 				} else if (Node_Sub38_Sub8.anInt10163 == 18) {
 					if (Node_Sub7.anInt7063 != 29) {
-						if ((Node_Sub7.anInt7063 ^ 0xffffffff) != -46) {
+						if (Node_Sub7.anInt7063 != 45) {
 							throw new IllegalStateException("Login step 18 not valid for pendingResponse=" + Node_Sub7.anInt7063);
 						}
 						if (!Class320_Sub23.aClass123_8432.aClass365_1557.method4068(3, 27)) {
@@ -605,7 +605,7 @@ public class Class195
 					Class320_Sub23.aClass123_8432.aClass365_1557.method4062(-2);
 					Class320_Sub23.aClass123_8432.aClass365_1557 = null;
 					Class297.method3479((byte) -119);
-				} else if ((Node_Sub38_Sub8.anInt10163 ^ 0xffffffff) == -14) {
+				} else if (Node_Sub38_Sub8.anInt10163 == 13) {
 					if (Class320_Sub23.aClass123_8432.aClass365_1557.method4068(1, 71)) {
 						Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -127, Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019, 1, 0);
 						Node_Sub8.anInt7070 = 0xff & Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019[0];
@@ -623,15 +623,15 @@ public class Class195
 							Class339_Sub7.anInt8729 = packet.method2233(255);
 							Class25.anInt452 = packet.method2233(255);
 							Node_Sub38_Sub18.aBoolean10282 = packet.method2233(255) == 1;
-							Class24.aBoolean436 = (packet.method2233(255) ^ 0xffffffff) == -2;
-							ProducingGraphicsBuffer.aBoolean9900 = (packet.method2233(255) ^ 0xffffffff) == -2;
+							Class24.aBoolean436 = packet.method2233(255) == 1;
+							ProducingGraphicsBuffer.aBoolean9900 = packet.method2233(255) == 1;
 							Node_Sub32.aLong7382 = packet.method2235(-2023329376);
 							Node_Sub8.aLong7068 = Node_Sub32.aLong7382 + -Class313.method3650(false) - packet.method2241(-65);
 							int i_45_ = packet.method2233(255);
-							Class64.aBoolean5046 = (0x1 & i_45_ ^ 0xffffffff) != -1;
-							Class229.aBoolean2725 = (0x2 & i_45_ ^ 0xffffffff) != -1;
+							Class64.aBoolean5046 = (0x1 & i_45_) != 0;
+							Class229.aBoolean2725 = (0x2 & i_45_) != 0;
 							Node_Sub33.anInt7402 = packet.method2186(-120);
-							Class364.aBoolean4512 = (packet.method2233(255) ^ 0xffffffff) == -2;
+							Class364.aBoolean4512 = packet.method2233(255) == 1;
 							Class270_Sub1.anInt8030 = packet.method2186(111);
 							Node_Sub38_Sub35.anInt10454 = packet.method2219(-130546744);
 							Class254.anInt3209 = packet.method2219(-130546744);
@@ -641,14 +641,14 @@ public class Class195
 							Class144_Sub2.anInt6812 = packet.method2233(255);
 							Class333.anInt4149 = packet.method2219(-130546744);
 							Class342.anInt4234 = packet.method2219(-130546744);
-							Class225.aBoolean2676 = (packet.method2233(255) ^ 0xffffffff) == -2;
+							Class225.aBoolean2676 = packet.method2233(255) == 1;
 							Class295.aPlayer3692.aString11142 = Class295.aPlayer3692.aString11132 = Node_Sub40.aString7513 = packet.method2180((byte) -55);
 							Node_Sub38_Sub29.anInt10409 = packet.method2233(255);
 							Class236.anInt2902 = packet.method2186(-90);
-							Class312.aBoolean3960 = (packet.method2233(255) ^ 0xffffffff) == -2;
+							Class312.aBoolean3960 = packet.method2233(255) == 1;
 							Class262_Sub23.aClass197_7884 = new Class197();
 							Class262_Sub23.aClass197_7884.worldId = packet.method2219(-130546744);
-							if ((Class262_Sub23.aClass197_7884.worldId ^ 0xffffffff) == -65536) {
+							if (Class262_Sub23.aClass197_7884.worldId == 65535) {
 								Class262_Sub23.aClass197_7884.worldId = -1;
 							}
 							Class262_Sub23.aClass197_7884.aString2422 = packet.method2180((byte) 124);
@@ -656,7 +656,7 @@ public class Class195
 								Class262_Sub23.aClass197_7884.anInt2417 = 40000 - -Class262_Sub23.aClass197_7884.worldId;
 								Class262_Sub23.aClass197_7884.worldPort = 50000 - -Class262_Sub23.aClass197_7884.worldId;
 							}
-							if (CacheNode_Sub2.aClass329_9436 != Node_Sub38_Sub1.aClass329_10086 && (Node_Sub38_Sub1.aClass329_10086 != Class379.aClass329_4873 || (Class339_Sub7.anInt8729 ^ 0xffffffff) > -3) && Class181.aClass197_2155.method2002(-129, Class320_Sub24.aClass197_8443)) {
+							if (CacheNode_Sub2.aClass329_9436 != Node_Sub38_Sub1.aClass329_10086 && (Node_Sub38_Sub1.aClass329_10086 != Class379.aClass329_4873 || Class339_Sub7.anInt8729 < 2) && Class181.aClass197_2155.method2002(-129, Class320_Sub24.aClass197_8443)) {
 								EntityNode.method802(2126);
 							}
 						} else {
@@ -668,13 +668,13 @@ public class Class195
 							Class339_Sub7.anInt8729 = packet.method2233(255);
 							Class25.anInt452 = packet.method2233(255);
 							Node_Sub38_Sub18.aBoolean10282 = packet.method2233(255) == 1;
-							Class24.aBoolean436 = (packet.method2233(255) ^ 0xffffffff) == -2;
+							Class24.aBoolean436 = packet.method2233(255) == 1;
 							ProducingGraphicsBuffer.aBoolean9900 = packet.method2233(255) == 1;
 							Class290_Sub11.aBoolean8175 = packet.method2233(255) == 1;
 							Class166.anInt5099 = packet.method2219(-130546744);
-							Class64.aBoolean5046 = (packet.method2233(255) ^ 0xffffffff) == -2;
+							Class64.aBoolean5046 = packet.method2233(255) == 1;
 							Class56.anInt837 = packet.method2229((byte) 94);
-							Class101.aBoolean1313 = (packet.method2233(255) ^ 0xffffffff) == -2;
+							Class101.aBoolean1313 = packet.method2233(255) == 1;
 							Node_Sub32.aString7378 = packet.method2195(-1);
 							Class186.aClass112_2256.method1141(Class101.aBoolean1313, 32648);
 							EntityNode_Sub3_Sub1.aClass86_9166.method1009((byte) 80, Class101.aBoolean1313);
@@ -783,7 +783,7 @@ public class Class195
 			} catch (IOException ioexception) {
 				Class320_Sub23.aClass123_8432.method1513(-28176);
 				if (Class45.anInt5264 < 3) {
-					if ((Class159.anInt1996 ^ 0xffffffff) == -3) {
+					if (Class159.anInt1996 == 2) {
 						Class181.aClass197_2155.method1997(17418);
 					} else {
 						Node_Sub15_Sub13.aClass197_9871.method1997(17418);

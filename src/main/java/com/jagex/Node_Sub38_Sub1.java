@@ -44,12 +44,12 @@ public class Node_Sub38_Sub1 extends Node_Sub38
 		}
 		int[][] is = aClass348_7454.method3981(i, 3168);
 		if (aClass348_7454.aBoolean4300) {
-			int i_3_ = ((anInt10079 ^ 0xffffffff) == (anInt10083 ^ 0xffffffff) ? i : i * anInt10079 / anInt10083) * anInt10090;
+			int i_3_ = (anInt10083 == anInt10079 ? i : i * anInt10079 / anInt10083) * anInt10090;
 			int[] is_4_ = is[0];
 			int[] is_5_ = is[1];
 			int[] is_6_ = is[2];
-			if ((anInt10090 ^ 0xffffffff) != (Class339_Sub7.anInt8728 ^ 0xffffffff)) {
-				for (int i_7_ = 0; (Class339_Sub7.anInt8728 ^ 0xffffffff) < (i_7_ ^ 0xffffffff); i_7_++) {
+			if (Class339_Sub7.anInt8728 != anInt10090) {
+				for (int i_7_ = 0; i_7_ < Class339_Sub7.anInt8728; i_7_++) {
 					int i_8_ = i_7_ * anInt10090 / Class339_Sub7.anInt8728;
 					int i_9_ = anIntArray10089[i_8_ + i_3_];
 					is_6_[i_7_] = Node_Sub30.method2723(4080, i_9_ << 4);
@@ -88,7 +88,7 @@ public class Node_Sub38_Sub1 extends Node_Sub38
 				if (itemdefinition.anInt1892 == 1) {
 					i_16_ *= 1 + node_sub8_15_.anInt7067;
 				}
-				if ((i_14_ ^ 0xffffffff) < (i_16_ ^ 0xffffffff)) {
+				if (i_16_ < i_14_) {
 					Buffer.method2205(b + 228, node_sub8_15_, node_sub8);
 					return;
 				}
@@ -112,7 +112,7 @@ public class Node_Sub38_Sub1 extends Node_Sub38
 		if (bool != false) {
 			anInt10087 = -36;
 		}
-		if ((i ^ 0xffffffff) == -1) {
+		if (i == 0) {
 			anInt10087 = buffer.method2219(-130546744);
 		}
 	}
@@ -124,15 +124,15 @@ public class Node_Sub38_Sub1 extends Node_Sub38
 	static final void method2791(int i, int i_17_) {
 		anInt10076++;
 		int i_18_ = 8 / ((i - 65) / 43);
-		if ((i_17_ ^ 0xffffffff) == -38) {
+		if (i_17_ == 37) {
 			Class20.aFloat329 = 3.0F;
-		} else if ((i_17_ ^ 0xffffffff) == -51) {
+		} else if (i_17_ == 50) {
 			Class20.aFloat329 = 4.0F;
 		} else if (i_17_ == 75) {
 			Class20.aFloat329 = 6.0F;
-		} else if ((i_17_ ^ 0xffffffff) == -101) {
+		} else if (i_17_ == 100) {
 			Class20.aFloat329 = 8.0F;
-		} else if ((i_17_ ^ 0xffffffff) == -201) {
+		} else if (i_17_ == 200) {
 			Class20.aFloat329 = 16.0F;
 		}
 		Class150_Sub3.anInt8963 = -1;
@@ -158,7 +158,7 @@ public class Node_Sub38_Sub1 extends Node_Sub38
 			method2791(22, 59);
 		}
 		anInt10088++;
-		if ((0x37 & i_21_ ^ 0xffffffff) == -1) {
+		if ((0x37 & i_21_) == 0) {
 			return false;
 		}
 		return true;

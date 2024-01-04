@@ -126,14 +126,14 @@ class Buffer extends Node
 			/* empty */
 		}
 		int i_2_ = anInt7002 + -i + -1;
-		if ((i_2_ ^ 0xffffffff) == -1) {
+		if (i_2_ == 0) {
 			return "";
 		}
 		return Class184.method1846(i, aByteArray7019, i_2_, (byte) -127);
 	}
 	
 	final void method2181(int i, int i_3_, byte[] bs, int i_4_) {
-		for (int i_5_ = i; (i_5_ ^ 0xffffffff) > (i_3_ + i ^ 0xffffffff); i_5_++)
+		for (int i_5_ = i; i_3_ + i > i_5_; i_5_++)
 			bs[i_5_] = aByteArray7019[anInt7002++];
 		if (i_4_ == -19417) {
 			anInt6959++;
@@ -162,7 +162,7 @@ class Buffer extends Node
 			return -12;
 		}
 		int i = method2219(-130546744);
-		if ((i ^ 0xffffffff) == -32768) {
+		if (i == 32767) {
 			return -1;
 		}
 		return i;
@@ -219,7 +219,7 @@ class Buffer extends Node
 		}
 		if (i >= 0 && i < 128) {
 			method2226(i, false);
-		} else if ((i ^ 0xffffffff) <= -1 && i < 32768) {
+		} else if (i >= 0 && i < 32768) {
 			method2210(i + 32768, -112);
 		} else {
 			throw new IllegalArgumentException();
@@ -275,7 +275,7 @@ class Buffer extends Node
 		anInt6997++;
 		anInt7002 += 2;
 		int i_19_ = (0xff & aByteArray7019[-1 + anInt7002]) + ((aByteArray7019[-2 + anInt7002] & 0xff) << 8);
-		if ((i_19_ ^ 0xffffffff) < -32768) {
+		if (i_19_ > 32767) {
 			i_19_ -= 65536;
 		}
 		return i_19_;
@@ -293,7 +293,7 @@ class Buffer extends Node
 	final String method2195(int i) {
 		anInt6953++;
 		int i_21_ = anInt7002;
-		while ((aByteArray7019[anInt7002++] ^ 0xffffffff) != -1) {
+		while (aByteArray7019[anInt7002++] != 0) {
 			/* empty */
 		}
 		int i_22_ = anInt7002 + (-i_21_ - 1);
@@ -366,7 +366,7 @@ class Buffer extends Node
 		if (bool != true) {
 			method2225((byte) -68, 84);
 		}
-		if ((aByteArray7019[anInt7002] ^ 0xffffffff) <= -1) {
+		if (aByteArray7019[anInt7002] >= 0) {
 			return method2219(-130546744);
 		}
 		return method2186(125) & 0x7fffffff;
@@ -392,7 +392,7 @@ class Buffer extends Node
 			int i_35_ = 0;
 			int i_36_ = -1640531527;
 			int i_37_ = 32;
-			while ((i_37_-- ^ 0xffffffff) < -1) {
+			while (i_37_-- > 0) {
 				i_33_ += i_34_ + (i_34_ << 4 ^ i_34_ >>> 5) ^ i_35_ + is[0x3 & i_35_];
 				i_35_ += i_36_;
 				i_34_ += (i_33_ >>> 5 ^ i_33_ << 4) + i_33_ ^ i_35_ + is[i_35_ >>> 11 & ~0x173ffffc];
@@ -436,7 +436,7 @@ class Buffer extends Node
 		if (b <= 112) {
 			aByteArray7019 = null;
 		}
-		if (i < 0 || (i ^ 0xffffffff) < -8) {
+		if (i < 0 || i > 7) {
 			throw new IllegalArgumentException();
 		}
 		for (int i_40_ = 8 * i; i_40_ >= 0; i_40_ -= 8)
@@ -629,7 +629,7 @@ class Buffer extends Node
 			method2214((byte) 19);
 		}
 		int i = aByteArray7019[anInt7002] & 0xff;
-		if ((i ^ 0xffffffff) > -129) {
+		if (i < 128) {
 			return method2233(255);
 		}
 		return method2219(-130546744) + -32768;
@@ -653,7 +653,7 @@ class Buffer extends Node
 		anInt7002 += 3;
 		int i = (0xff & aByteArray7019[-1 + anInt7002]) + (((0xff & aByteArray7019[-3 + anInt7002]) << 16) + ((aByteArray7019[-2 + anInt7002] & 0xff) << 8));
 		int i_57_ = -123 / ((b - 33) / 33);
-		if ((i ^ 0xffffffff) < -8388608) {
+		if (i > 8388607) {
 			i -= 16777216;
 		}
 		return i;
@@ -673,7 +673,7 @@ class Buffer extends Node
 		if (i_60_ != -4901) {
 			method2246(-11);
 		}
-		for (int i_63_ = 0; (i_63_ ^ 0xffffffff) > (i_62_ ^ 0xffffffff); i_63_++) {
+		for (int i_63_ = 0; i_62_ > i_63_; i_63_++) {
 			int i_64_ = method2186(i_60_ + 4968);
 			int i_65_ = method2186(-62);
 			int i_66_ = -957401312;
@@ -692,10 +692,10 @@ class Buffer extends Node
 	}
 	
 	final void method2232(int i, int i_69_) {
-		if ((i_69_ & ~0x7f ^ 0xffffffff) != -1) {
-			if ((i_69_ & ~0x3fff ^ 0xffffffff) != -1) {
+		if ((i_69_ & ~0x7f) != 0) {
+			if ((i_69_ & ~0x3fff) != 0) {
 				if ((~0x1fffff & i_69_) != 0) {
-					if ((~0xfffffff & i_69_ ^ 0xffffffff) != -1) {
+					if ((~0xfffffff & i_69_) != 0) {
 						method2226(i_69_ >>> 28 | 0x80, false);
 					}
 					method2226((i_69_ | 0x1012b0d2) >>> 21, false);
@@ -818,7 +818,7 @@ class Buffer extends Node
 	
 	final long method2244(int i, int i_75_) {
 		anInt7020++;
-		if ((--i ^ 0xffffffff) > -1 || i > 7) {
+		if (--i < 0 || i > 7) {
 			throw new IllegalArgumentException();
 		}
 		int i_76_ = i * i_75_;

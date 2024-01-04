@@ -95,37 +95,37 @@ public class Class255
 			Class383 class383 = Class383.method4191(class302, anInt3219);
 			aClass186_3217.aClass61_2258.method601(graphicstoolkit.a(class383, true), 25566, (long) anInt3219);
 		}
-		if ((anInt3216 ^ 0xffffffff) <= -1 && aClass186_3217.aClass61_2258.method607((long) anInt3216, 0) == null && class302.method3510(anInt3216, (byte) 63)) {
+		if (anInt3216 >= 0 && aClass186_3217.aClass61_2258.method607((long) anInt3216, 0) == null && class302.method3510(anInt3216, (byte) 63)) {
 			Class383 class383 = Class383.method4191(class302, anInt3216);
 			aClass186_3217.aClass61_2258.method601(graphicstoolkit.a(class383, true), 25566, (long) anInt3216);
 		}
-		if ((anInt3226 ^ 0xffffffff) <= -1 && aClass186_3217.aClass61_2258.method607((long) anInt3226, 0) == null && class302.method3510(anInt3226, (byte) 63)) {
+		if (anInt3226 >= 0 && aClass186_3217.aClass61_2258.method607((long) anInt3226, 0) == null && class302.method3510(anInt3226, (byte) 63)) {
 			Class383 class383 = Class383.method4191(class302, anInt3226);
 			aClass186_3217.aClass61_2258.method601(graphicstoolkit.a(class383, true), i + 25567, (long) anInt3226);
 		}
 	}
 	
 	private final void method3116(Buffer buffer, byte b, int i) {
-		if ((i ^ 0xffffffff) == -2) {
+		if (i == 1) {
 			anInt3235 = buffer.method2219(-130546744);
 		} else if (i == 2) {
 			anInt3229 = buffer.method2220(1819759595);
-		} else if ((i ^ 0xffffffff) != -4) {
-			if ((i ^ 0xffffffff) != -5) {
+		} else if (i != 3) {
+			if (i != 4) {
 				if (i == 5) {
 					anInt3219 = buffer.method2219(-130546744);
-				} else if ((i ^ 0xffffffff) != -7) {
+				} else if (i != 6) {
 					if (i != 7) {
 						if (i == 8) {
 							aString3222 = buffer.method2180((byte) 101);
-						} else if ((i ^ 0xffffffff) != -10) {
+						} else if (i != 9) {
 							if (i != 10) {
-								if ((i ^ 0xffffffff) == -12) {
+								if (i == 11) {
 									anInt3215 = 0;
 								} else if (i == 12) {
 									anInt3234 = buffer.method2233(255);
 								} else if (i != 13) {
-									if ((i ^ 0xffffffff) == -15) {
+									if (i == 14) {
 										anInt3215 = buffer.method2219(-130546744);
 									}
 								} else {
@@ -160,7 +160,7 @@ public class Class255
 		String string = aString3222;
 		for (;;) {
 			int i_0_ = string.indexOf("%1");
-			if ((i_0_ ^ 0xffffffff) > -1) {
+			if (i_0_ < 0) {
 				break;
 			}
 			string = string.substring(0, i_0_) + Node_Sub29_Sub2.method2715((byte) 9, false, i) + string.substring(2 + i_0_);

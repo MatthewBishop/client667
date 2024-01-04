@@ -83,7 +83,7 @@ public class Mobile_Sub1 extends Mobile
 			anInt10942 = -124;
 		}
 		aDouble10927 = Math.sqrt(aDouble10939 * aDouble10939 + aDouble10916 * aDouble10916);
-		if ((anInt10933 ^ 0xffffffff) != 0) {
+		if (anInt10933 != -1) {
 			if (!aBoolean10951) {
 				aDouble10912 = -aDouble10927 * Math.tan(0.02454369 * (double) anInt10933);
 			}
@@ -190,10 +190,10 @@ public class Mobile_Sub1 extends Mobile
 							i_10_ += class259.anIntArrayArray3249[anInt10920][2];
 							i += class259.anIntArrayArray3249[anInt10920][0];
 						}
-						if ((i ^ 0xffffffff) != -1 || i_10_ != 0) {
+						if (i != 0 || i_10_ != 0) {
 							int i_11_ = actor.aClass99_10893.method1086(16383);
 							int i_12_ = i_11_;
-							if (actor.anIntArray10881 != null && (actor.anIntArray10881[anInt10920] ^ 0xffffffff) != 0) {
+							if (actor.anIntArray10881 != null && actor.anIntArray10881[anInt10920] != -1) {
 								i_12_ = actor.anIntArray10881[anInt10920];
 							}
 							int i_13_ = -i_11_ + i_12_ & 0x3fff;
@@ -326,7 +326,7 @@ public class Mobile_Sub1 extends Mobile
 		aDouble10921 += (double) i * aDouble10916;
 		anInt10911++;
 		if (!aBoolean10915) {
-			if ((anInt10933 ^ 0xffffffff) == 0) {
+			if (anInt10933 == -1) {
 				aDouble10925 += aDouble10912 * (double) i;
 			} else {
 				aDouble10925 += (double) i * aDouble10912 + aDouble10917 * 0.5 * (double) i * (double) i;

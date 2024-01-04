@@ -37,7 +37,7 @@ public class Class194_Sub3_Sub1 extends Class194_Sub3
 		} catch (Exception exception) {
 			String string = "T2 - " + (class123.aClass192_1576 == null ? -1 : class123.aClass192_1576.method1953(102)) + "," + (class123.aClass192_1582 != null ? class123.aClass192_1582.method1953(i + -4034) : -1) + "," + (class123.aClass192_1573 == null ? -1 : class123.aClass192_1573.method1953(112)) + " - " + class123.anInt1581 + "," + (Node_Sub53.anInt7668 - -Class295.aPlayer3692.anIntArray10910[0]) + "," + (Class320_Sub4.anInt8243 + Class295.aPlayer3692.anIntArray10908[0]) + " - ";
 			for (int i_0_ = 0; class123.anInt1581 > i_0_; i_0_++) {
-				if ((i_0_ ^ 0xffffffff) <= -51) {
+				if (i_0_ >= 50) {
 					break;
 				}
 				string += class123.aPacket1570.aByteArray7019[i_0_] + ",";

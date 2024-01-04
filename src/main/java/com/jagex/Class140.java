@@ -29,7 +29,7 @@ public class Class140
 			if (bool) {
 				class383.method4189();
 			}
-			for (int i_1_ = 0; (i ^ 0xffffffff) < (i_1_ ^ 0xffffffff); i_1_++)
+			for (int i_1_ = 0; i_1_ < i; i_1_++)
 				class383.method4198();
 		}
 		glsprite = graphicstoolkit.a(class383, true);
@@ -48,11 +48,11 @@ public class Class140
 	}
 	
 	private final void method1608(int i, int i_2_, Buffer buffer) {
-		if ((i_2_ ^ 0xffffffff) != -2) {
+		if (i_2_ != 1) {
 			if (i_2_ != 2) {
-				if ((i_2_ ^ 0xffffffff) == -4) {
+				if (i_2_ == 3) {
 					aBoolean1741 = true;
-				} else if ((i_2_ ^ 0xffffffff) == -5) {
+				} else if (i_2_ == 4) {
 					anInt1740 = -1;
 				}
 			} else {

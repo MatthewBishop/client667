@@ -65,7 +65,7 @@ public class Packet extends Buffer
 		}
 		anInt9390++;
 		int i = 0xff & aByteArray7019[anInt7002] - anIsaacCipher9399.method1670((byte) -21);
-		if ((i ^ 0xffffffff) > -129) {
+		if (i < 128) {
 			return false;
 		}
 		return true;
@@ -94,7 +94,7 @@ public class Packet extends Buffer
 	
 	final void method2260(byte[] bs, int i, int i_4_, boolean bool) {
 		anInt9391++;
-		for (int i_5_ = 0; (i_5_ ^ 0xffffffff) > (i ^ 0xffffffff); i_5_++)
+		for (int i_5_ = 0; i > i_5_; i_5_++)
 			bs[i_5_ + i_4_] = (byte) (aByteArray7019[anInt7002++] + -anIsaacCipher9399.method1667((byte) -96));
 		if (bool != true) {
 			anIsaacCipher9399 = null;

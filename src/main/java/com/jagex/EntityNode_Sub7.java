@@ -41,11 +41,11 @@ public class EntityNode_Sub7 extends EntityNode
 	
 	final void method974(int i, byte b, boolean bool, long l, GraphicsToolkit graphicstoolkit) {
 		if (!aBoolean6012) {
-			if ((aClass355_6011.anInt4379 ^ 0xffffffff) < (Node_Sub39.anInt7498 ^ 0xffffffff)) {
+			if (Node_Sub39.anInt7498 < aClass355_6011.anInt4379) {
 				bool = false;
 			} else if (Class94.anIntArray1247[Node_Sub39.anInt7498] >= CacheNode_Sub12.anInt9555) {
 				if (!aBoolean6020) {
-					if ((aClass355_6011.anInt4411 ^ 0xffffffff) != 0) {
+					if (aClass355_6011.anInt4411 != -1) {
 						int i_1_ = (int) (-aLong5999 + l);
 						if (aClass355_6011.aBoolean4390 || aClass355_6011.anInt4411 >= i_1_) {
 							i_1_ %= aClass355_6011.anInt4411;
@@ -55,7 +55,7 @@ public class EntityNode_Sub7 extends EntityNode
 						if (!aClass355_6011.aBoolean4375 && i_1_ < aClass355_6011.anInt4361) {
 							bool = false;
 						}
-						if (aClass355_6011.aBoolean4375 && (aClass355_6011.anInt4361 ^ 0xffffffff) >= (i_1_ ^ 0xffffffff)) {
+						if (aClass355_6011.aBoolean4375 && i_1_ >= aClass355_6011.anInt4361) {
 							bool = false;
 						}
 					}
@@ -74,7 +74,7 @@ public class EntityNode_Sub7 extends EntityNode
 			int i_2_ = (aClass143_6005.anInt1774 + (aClass143_6005.anInt1777 + aClass143_6005.anInt1779)) / 3;
 			int i_3_ = (aClass143_6005.anInt1765 + aClass143_6005.anInt1778 + aClass143_6005.anInt1781) / 3;
 			int i_4_ = (aClass143_6005.anInt1775 + aClass143_6005.anInt1766 - -aClass143_6005.anInt1772) / 3;
-			if ((i_2_ ^ 0xffffffff) != (aClass143_6005.anInt1767 ^ 0xffffffff) || i_3_ != aClass143_6005.anInt1776 || (aClass143_6005.anInt1769 ^ 0xffffffff) != (i_4_ ^ 0xffffffff)) {
+			if (aClass143_6005.anInt1767 != i_2_ || i_3_ != aClass143_6005.anInt1776 || i_4_ != aClass143_6005.anInt1769) {
 				aClass143_6005.anInt1776 = i_3_;
 				aClass143_6005.anInt1769 = i_4_;
 				aClass143_6005.anInt1767 = i_2_;
@@ -86,7 +86,7 @@ public class EntityNode_Sub7 extends EntityNode
 				int i_10_ = aClass143_6005.anInt1772 - aClass143_6005.anInt1766;
 				anInt6022 = i_5_ * i_9_ + -(i_6_ * i_8_);
 				anInt6018 = i_6_ * i_10_ - i_7_ * i_9_;
-				for (anInt6021 = -(i_10_ * i_5_) + i_8_ * i_7_; (anInt6018 ^ 0xffffffff) < -32768 || (anInt6021 ^ 0xffffffff) < -32768 || (anInt6022 ^ 0xffffffff) < -32768 || anInt6018 < -32767 || anInt6021 < -32767 || (anInt6022 ^ 0xffffffff) > 32766; anInt6021 >>= 1) {
+				for (anInt6021 = -(i_10_ * i_5_) + i_8_ * i_7_; anInt6018 > 32767 || anInt6021 > 32767 || anInt6022 > 32767 || anInt6018 < -32767 || anInt6021 < -32767 || anInt6022 < -32767; anInt6021 >>= 1) {
 					anInt6022 >>= 1;
 					anInt6018 >>= 1;
 				}
@@ -97,7 +97,7 @@ public class EntityNode_Sub7 extends EntityNode
 				anInt6021 = anInt6021 * 32767 / i_11_;
 				anInt6018 = anInt6018 * 32767 / i_11_;
 				anInt6022 = anInt6022 * 32767 / i_11_;
-				if (aClass355_6011.aShort4369 > 0 || (aClass355_6011.aShort4382 ^ 0xffffffff) < -1) {
+				if (aClass355_6011.aShort4369 > 0 || aClass355_6011.aShort4382 > 0) {
 					int i_12_ = (int) (2607.5945876176133 * Math.atan2((double) anInt6022, (double) anInt6018));
 					int i_13_ = (int) (Math.atan2((double) anInt6021, Math.sqrt((double) (anInt6018 * anInt6018 + anInt6022 * anInt6022))) * 2607.5945876176133);
 					anInt6016 = aClass355_6011.aShort4369 + -aClass355_6011.aShort4357;
@@ -110,7 +110,7 @@ public class EntityNode_Sub7 extends EntityNode
 			if (anInt5998 > 63) {
 				int i_14_ = anInt5998 >> 6;
 				anInt5998 &= 0x3f;
-				for (int i_15_ = 0; (i_14_ ^ 0xffffffff) < (i_15_ ^ 0xffffffff); i_15_++) {
+				for (int i_15_ = 0; i_15_ < i_14_; i_15_++) {
 					int i_16_;
 					int i_17_;
 					int i_18_;
@@ -232,7 +232,7 @@ public class EntityNode_Sub7 extends EntityNode
 		aClass143_6005.anInt1775 = aClass300_6003.anInt3758;
 		aClass143_6005.anInt1777 = aClass300_6003.anInt3769;
 		aClass143_6005.anInt1765 = aClass300_6003.anInt3752;
-		if (aClass143_6005.anInt1779 != aClass143_6005.anInt1777 || aClass143_6005.anInt1774 != aClass143_6005.anInt1779 || aClass143_6005.anInt1778 != aClass143_6005.anInt1781 || (aClass143_6005.anInt1781 ^ 0xffffffff) != (aClass143_6005.anInt1765 ^ 0xffffffff) || (aClass143_6005.anInt1766 ^ 0xffffffff) != (aClass143_6005.anInt1775 ^ 0xffffffff) || aClass143_6005.anInt1772 != aClass143_6005.anInt1775) {
+		if (aClass143_6005.anInt1779 != aClass143_6005.anInt1777 || aClass143_6005.anInt1774 != aClass143_6005.anInt1779 || aClass143_6005.anInt1778 != aClass143_6005.anInt1781 || aClass143_6005.anInt1765 != aClass143_6005.anInt1781 || aClass143_6005.anInt1775 != aClass143_6005.anInt1766 || aClass143_6005.anInt1772 != aClass143_6005.anInt1775) {
 			if (aBoolean6020) {
 				aClass143_6014.anInt1778 = aClass143_6005.anInt1778;
 				aClass143_6014.anInt1766 = aClass143_6005.anInt1766;
@@ -275,7 +275,7 @@ public class EntityNode_Sub7 extends EntityNode
 		aLong5999 = l;
 		anEntityNode_Sub4_6009 = entitynode_sub4;
 		aClass355_6011 = aClass300_6003.method3495(99999999);
-		if (!graphicstoolkit.x() && (aClass355_6011.anInt4353 ^ 0xffffffff) != 0) {
+		if (!graphicstoolkit.x() && aClass355_6011.anInt4353 != -1) {
 			aClass355_6011 = NpcDefinition.method3008((byte) 55, aClass355_6011.anInt4353);
 		}
 		aClass103_6006 = new Class103();

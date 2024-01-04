@@ -45,7 +45,7 @@ public class Node_Sub35 extends Node
 			method2743(115);
 		}
 		anInt7419++;
-		if ((0x1 & anInt7418 ^ 0xffffffff) == -1) {
+		if ((0x1 & anInt7418) == 0) {
 			return false;
 		}
 		return true;

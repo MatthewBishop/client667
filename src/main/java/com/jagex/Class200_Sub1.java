@@ -34,7 +34,7 @@ public class Class200_Sub1 extends Class200 implements Interface9
 			int i_19_ = -i_13_ + (i_15_ - (i_13_ + -i_11_));
 			int i_20_ = -i_10_ + i_12_;
 			int i_21_ = i_13_ + -i_11_;
-			for (int i_22_ = 128; (i_22_ ^ 0xffffffff) >= -4097; i_22_ += 128) {
+			for (int i_22_ = 128; i_22_ <= 4096; i_22_ += 128) {
 				int i_23_ = i_22_ * i_22_ >> 12;
 				int i_24_ = i_23_ * i_22_ >> 12;
 				int i_25_ = i_16_ * i_24_;
@@ -108,11 +108,11 @@ public class Class200_Sub1 extends Class200 implements Interface9
 					while_93_:
 						do {
 							do {
-								if ((i_53_ ^ 0xffffffff) != 3) {
+								if (i_53_ != -4) {
 									if (i_53_ != -3) {
 										if (i_53_ != -2) {
-											if ((i_53_ ^ 0xffffffff) != 0) {
-												if ((i_53_ ^ 0xffffffff) == -1 || (i_53_ ^ 0xffffffff) == -2 || (i_53_ ^ 0xffffffff) == -3 || (i_53_ ^ 0xffffffff) == -4 || i_53_ == 9) {
+											if (i_53_ != -1) {
+												if (i_53_ == 0 || i_53_ == 1 || i_53_ == 2 || i_53_ == 3 || i_53_ == 9) {
 													break while_94_;
 												}
 												break while_95_;
@@ -123,7 +123,7 @@ public class Class200_Sub1 extends Class200 implements Interface9
 										break while_93_;
 									}
 								} else {
-									if ((i_39_ ^ 0xffffffff) == (i_43_ ^ 0xffffffff) && i_44_ == i_40_) {
+									if (i_43_ == i_39_ && i_44_ == i_40_) {
 										Class315.anInt4033 = i_43_;
 										Class219.anInt2623 = i_44_;
 										return true;
@@ -165,56 +165,56 @@ public class Class200_Sub1 extends Class200 implements Interface9
 				}
 			} while (false);
 			i_53_ = Class262_Sub23.anIntArrayArray7892[i_45_][i_46_] + 1;
-			if ((i_45_ ^ 0xffffffff) < -1 && Node_Sub36_Sub2.anIntArrayArray10047[i_45_ - 1][i_46_] == 0 && (is[i_52_ + -1][i_51_] & 0x42240000 ^ 0xffffffff) == -1) {
+			if (i_45_ > 0 && Node_Sub36_Sub2.anIntArrayArray10047[i_45_ - 1][i_46_] == 0 && (is[i_52_ + -1][i_51_] & 0x42240000) == 0) {
 				Node_Sub39.anIntArray7494[i_49_] = -1 + i_43_;
 				Class339_Sub6.anIntArray8700[i_49_] = i_44_;
 				i_49_ = i_49_ - -1 & 0xfff;
 				Node_Sub36_Sub2.anIntArrayArray10047[i_45_ + -1][i_46_] = 2;
 				Class262_Sub23.anIntArrayArray7892[i_45_ - 1][i_46_] = i_53_;
 			}
-			if ((i_45_ ^ 0xffffffff) > -128 && Node_Sub36_Sub2.anIntArrayArray10047[i_45_ - -1][i_46_] == 0 && (is[i_52_ - -1][i_51_] & 0x60240000 ^ 0xffffffff) == -1) {
+			if (i_45_ < 127 && Node_Sub36_Sub2.anIntArrayArray10047[i_45_ - -1][i_46_] == 0 && (is[i_52_ - -1][i_51_] & 0x60240000) == 0) {
 				Node_Sub39.anIntArray7494[i_49_] = 1 + i_43_;
 				Class339_Sub6.anIntArray8700[i_49_] = i_44_;
 				i_49_ = 0xfff & 1 + i_49_;
 				Node_Sub36_Sub2.anIntArrayArray10047[i_45_ - -1][i_46_] = 8;
 				Class262_Sub23.anIntArrayArray7892[1 + i_45_][i_46_] = i_53_;
 			}
-			if ((i_46_ ^ 0xffffffff) < -1 && (Node_Sub36_Sub2.anIntArrayArray10047[i_45_][-1 + i_46_] ^ 0xffffffff) == -1 && (is[i_52_][i_51_ - 1] & 0x40a40000) == 0) {
+			if (i_46_ > 0 && Node_Sub36_Sub2.anIntArrayArray10047[i_45_][-1 + i_46_] == 0 && (is[i_52_][i_51_ - 1] & 0x40a40000) == 0) {
 				Node_Sub39.anIntArray7494[i_49_] = i_43_;
 				Class339_Sub6.anIntArray8700[i_49_] = i_44_ + -1;
 				i_49_ = 0xfff & i_49_ - -1;
 				Node_Sub36_Sub2.anIntArrayArray10047[i_45_][-1 + i_46_] = 1;
 				Class262_Sub23.anIntArrayArray7892[i_45_][i_46_ + -1] = i_53_;
 			}
-			if ((i_46_ ^ 0xffffffff) > -128 && Node_Sub36_Sub2.anIntArrayArray10047[i_45_][i_46_ + 1] == 0 && (is[i_52_][i_51_ - -1] & 0x48240000 ^ 0xffffffff) == -1) {
+			if (i_46_ < 127 && Node_Sub36_Sub2.anIntArrayArray10047[i_45_][i_46_ + 1] == 0 && (is[i_52_][i_51_ - -1] & 0x48240000) == 0) {
 				Node_Sub39.anIntArray7494[i_49_] = i_43_;
 				Class339_Sub6.anIntArray8700[i_49_] = i_44_ - -1;
 				Node_Sub36_Sub2.anIntArrayArray10047[i_45_][1 + i_46_] = 4;
 				i_49_ = i_49_ - -1 & 0xfff;
 				Class262_Sub23.anIntArrayArray7892[i_45_][i_46_ - -1] = i_53_;
 			}
-			if (i_45_ > 0 && (i_46_ ^ 0xffffffff) < -1 && Node_Sub36_Sub2.anIntArrayArray10047[-1 + i_45_][i_46_ + -1] == 0 && (is[-1 + i_52_][i_51_ + -1] & 0x43a40000 ^ 0xffffffff) == -1 && (0x42240000 & is[i_52_ + -1][i_51_] ^ 0xffffffff) == -1 && (is[i_52_][-1 + i_51_] & 0x40a40000) == 0) {
+			if (i_45_ > 0 && i_46_ > 0 && Node_Sub36_Sub2.anIntArrayArray10047[-1 + i_45_][i_46_ + -1] == 0 && (is[-1 + i_52_][i_51_ + -1] & 0x43a40000) == 0 && (0x42240000 & is[i_52_ + -1][i_51_]) == 0 && (is[i_52_][-1 + i_51_] & 0x40a40000) == 0) {
 				Node_Sub39.anIntArray7494[i_49_] = i_43_ - 1;
 				Class339_Sub6.anIntArray8700[i_49_] = i_44_ - 1;
 				Node_Sub36_Sub2.anIntArrayArray10047[-1 + i_45_][i_46_ + -1] = 3;
 				i_49_ = i_49_ - -1 & 0xfff;
 				Class262_Sub23.anIntArrayArray7892[-1 + i_45_][i_46_ - 1] = i_53_;
 			}
-			if ((i_45_ ^ 0xffffffff) > -128 && i_46_ > 0 && Node_Sub36_Sub2.anIntArrayArray10047[i_45_ + 1][-1 + i_46_] == 0 && (is[i_52_ - -1][i_51_ - 1] & 0x60e40000) == 0 && (is[1 + i_52_][i_51_] & 0x60240000) == 0 && (is[i_52_][-1 + i_51_] & 0x40a40000 ^ 0xffffffff) == -1) {
+			if (i_45_ < 127 && i_46_ > 0 && Node_Sub36_Sub2.anIntArrayArray10047[i_45_ + 1][-1 + i_46_] == 0 && (is[i_52_ - -1][i_51_ - 1] & 0x60e40000) == 0 && (is[1 + i_52_][i_51_] & 0x60240000) == 0 && (is[i_52_][-1 + i_51_] & 0x40a40000) == 0) {
 				Node_Sub39.anIntArray7494[i_49_] = i_43_ - -1;
 				Class339_Sub6.anIntArray8700[i_49_] = -1 + i_44_;
 				Node_Sub36_Sub2.anIntArrayArray10047[1 + i_45_][i_46_ - 1] = 9;
 				i_49_ = 0xfff & i_49_ - -1;
 				Class262_Sub23.anIntArrayArray7892[1 + i_45_][-1 + i_46_] = i_53_;
 			}
-			if ((i_45_ ^ 0xffffffff) < -1 && (i_46_ ^ 0xffffffff) > -128 && (Node_Sub36_Sub2.anIntArrayArray10047[-1 + i_45_][1 + i_46_] ^ 0xffffffff) == -1 && (0x4e240000 & is[-1 + i_52_][1 + i_51_]) == 0 && (is[-1 + i_52_][i_51_] & 0x42240000 ^ 0xffffffff) == -1 && (is[i_52_][i_51_ + 1] & 0x48240000 ^ 0xffffffff) == -1) {
+			if (i_45_ > 0 && i_46_ < 127 && Node_Sub36_Sub2.anIntArrayArray10047[-1 + i_45_][1 + i_46_] == 0 && (0x4e240000 & is[-1 + i_52_][1 + i_51_]) == 0 && (is[-1 + i_52_][i_51_] & 0x42240000) == 0 && (is[i_52_][i_51_ + 1] & 0x48240000) == 0) {
 				Node_Sub39.anIntArray7494[i_49_] = -1 + i_43_;
 				Class339_Sub6.anIntArray8700[i_49_] = i_44_ + 1;
 				Node_Sub36_Sub2.anIntArrayArray10047[-1 + i_45_][1 + i_46_] = 6;
 				i_49_ = 0xfff & i_49_ + 1;
 				Class262_Sub23.anIntArrayArray7892[i_45_ - 1][1 + i_46_] = i_53_;
 			}
-			if (i_45_ < 127 && (i_46_ ^ 0xffffffff) > -128 && (Node_Sub36_Sub2.anIntArrayArray10047[1 + i_45_][i_46_ - -1] ^ 0xffffffff) == -1 && (is[1 + i_52_][i_51_ - -1] & 0x78240000) == 0 && (0x60240000 & is[i_52_ + 1][i_51_] ^ 0xffffffff) == -1 && (0x48240000 & is[i_52_][i_51_ + 1] ^ 0xffffffff) == -1) {
+			if (i_45_ < 127 && i_46_ < 127 && Node_Sub36_Sub2.anIntArrayArray10047[1 + i_45_][i_46_ - -1] == 0 && (is[1 + i_52_][i_51_ - -1] & 0x78240000) == 0 && (0x60240000 & is[i_52_ + 1][i_51_]) == 0 && (0x48240000 & is[i_52_][i_51_ + 1]) == 0) {
 				Node_Sub39.anIntArray7494[i_49_] = 1 + i_43_;
 				Class339_Sub6.anIntArray8700[i_49_] = i_44_ + 1;
 				Node_Sub36_Sub2.anIntArrayArray10047[i_45_ + 1][i_46_ + 1] = 12;

@@ -39,7 +39,7 @@ public class Class8 implements Interface15_Impl1
 			anInt9088 = 0;
 		}
 		anInt9086 = i_0_ * aClass372_9085.anInt4591;
-		if ((anInt9088 ^ 0xffffffff) > (anInt9086 ^ 0xffffffff)) {
+		if (anInt9086 > anInt9088) {
 			int i_1_ = 8;
 			int i_2_;
 			if (!aBoolean9084) {

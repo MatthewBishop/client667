@@ -24,8 +24,8 @@ abstract class DrawableModel
 	abstract boolean method612();
 	
 	private final void method613(int i, int i_5_, int i_6_, int[] is, int[] is_7_, boolean bool, boolean bool_8_, int i_9_, int i_10_, int i_11_) {
-		if ((i_9_ ^ 0xffffffff) == -2) {
-			if (i_5_ == 0 || (i_5_ ^ 0xffffffff) == -2) {
+		if (i_9_ == 1) {
+			if (i_5_ == 0 || i_5_ == 1) {
 				int i_12_ = -i_10_;
 				i_10_ = i;
 				i = i_12_;
@@ -39,8 +39,8 @@ abstract class DrawableModel
 				i = i_14_ & 0x3fff;
 			}
 		} else if (i_9_ == 2) {
-			if (i_5_ != 0 && (i_5_ ^ 0xffffffff) != -2) {
-				if ((i_5_ ^ 0xffffffff) == -3) {
+			if (i_5_ != 0 && i_5_ != 1) {
+				if (i_5_ == 2) {
 					i = 0x3fff & -i;
 					i_10_ = -i_10_ & 0x3fff;
 				}
@@ -49,12 +49,12 @@ abstract class DrawableModel
 				i = -i;
 			}
 		} else if (i_9_ == 3) {
-			if ((i_5_ ^ 0xffffffff) == -1 || (i_5_ ^ 0xffffffff) == -2) {
+			if (i_5_ == 0 || i_5_ == 1) {
 				int i_15_ = i_10_;
 				i_10_ = -i;
 				i = i_15_;
-			} else if ((i_5_ ^ 0xffffffff) != -4) {
-				if ((i_5_ ^ 0xffffffff) == -3) {
+			} else if (i_5_ != 3) {
+				if (i_5_ == 2) {
 					int i_16_ = i_10_;
 					i_10_ = 0x3fff & i;
 					i = 0x3fff & -i_16_;
@@ -67,7 +67,7 @@ abstract class DrawableModel
 		}
 		anInt919++;
 		if (bool_8_ == false) {
-			if ((i_6_ ^ 0xffffffff) != -65536) {
+			if (i_6_ != 65535) {
 				I(i_5_, is, i_10_, i_11_, i, bool, i_6_, is_7_);
 			} else {
 				method637(i_5_, is, i_10_, i_11_, i, i_9_, bool);
@@ -87,8 +87,8 @@ abstract class DrawableModel
 	
 	final void method615(int i, int i_19_, CacheNode_Sub15 cachenode_sub15, int i_20_, int i_21_, int i_22_, CacheNode_Sub15 cachenode_sub15_23_, CacheNode_Sub15 cachenode_sub15_24_, int i_25_, boolean bool, int i_26_, CacheNode_Sub15 cachenode_sub15_27_, boolean[] bools, int i_28_, int i_29_) {
 		anInt912++;
-		if ((i_19_ ^ 0xffffffff) != 0) {
-			if (bools == null || (i_29_ ^ 0xffffffff) == 0) {
+		if (i_19_ != -1) {
+			if (bools == null || i_29_ == -1) {
 				method625(cachenode_sub15_24_, i_25_, i_28_, cachenode_sub15, i_19_, i_22_, 0, -110, bool);
 			} else {
 				method629();
@@ -132,7 +132,7 @@ abstract class DrawableModel
 		if (i_34_ > -52) {
 			aStringArray911 = null;
 		}
-		if (i >= Class262_Sub4.anInt7722 && i <= za_Sub2.anInt10513 && (Class262_Sub4.anInt7722 ^ 0xffffffff) >= (i_41_ ^ 0xffffffff) && za_Sub2.anInt10513 >= i_41_ && i_37_ >= Class262_Sub4.anInt7722 && (i_37_ ^ 0xffffffff) >= (za_Sub2.anInt10513 ^ 0xffffffff) && Class262_Sub4.anInt7722 <= i_40_ && i_40_ <= za_Sub2.anInt10513 && (i_39_ ^ 0xffffffff) <= (Class384.anInt4906 ^ 0xffffffff) && i_39_ <= Node_Sub25_Sub1.anInt9936 && (i_33_ ^ 0xffffffff) <= (Class384.anInt4906 ^ 0xffffffff) && (Node_Sub25_Sub1.anInt9936 ^ 0xffffffff) <= (i_33_ ^ 0xffffffff) && i_35_ >= Class384.anInt4906 && (i_35_ ^ 0xffffffff) >= (Node_Sub25_Sub1.anInt9936 ^ 0xffffffff) && (i_38_ ^ 0xffffffff) <= (Class384.anInt4906 ^ 0xffffffff) && (i_38_ ^ 0xffffffff) >= (Node_Sub25_Sub1.anInt9936 ^ 0xffffffff)) {
+		if (i >= Class262_Sub4.anInt7722 && i <= za_Sub2.anInt10513 && i_41_ >= Class262_Sub4.anInt7722 && za_Sub2.anInt10513 >= i_41_ && i_37_ >= Class262_Sub4.anInt7722 && za_Sub2.anInt10513 >= i_37_ && Class262_Sub4.anInt7722 <= i_40_ && i_40_ <= za_Sub2.anInt10513 && Class384.anInt4906 <= i_39_ && i_39_ <= Node_Sub25_Sub1.anInt9936 && Class384.anInt4906 <= i_33_ && i_33_ <= Node_Sub25_Sub1.anInt9936 && i_35_ >= Class384.anInt4906 && Node_Sub25_Sub1.anInt9936 >= i_35_ && Class384.anInt4906 <= i_38_ && Node_Sub25_Sub1.anInt9936 >= i_38_) {
 			RuntimeException_Sub1.method4209(i_39_, i_33_, i_36_, -74, i_37_, i, i_35_, i_38_, i_41_, i_40_);
 		} else {
 			Class200_Sub1.method2013((byte) -120, i_39_, i_36_, i_38_, i_35_, i_37_, i_33_, i_41_, i, i_40_);
@@ -169,7 +169,7 @@ abstract class DrawableModel
 	
 	final void method625(CacheNode_Sub15 cachenode_sub15, int i, int i_54_, CacheNode_Sub15 cachenode_sub15_55_, int i_56_, int i_57_, int i_58_, int i_59_, boolean bool) {
 		anInt918++;
-		if ((i_56_ ^ 0xffffffff) != 0) {
+		if (i_56_ != -1) {
 			method629();
 			if (!NA()) {
 				method632();
@@ -235,8 +235,8 @@ abstract class DrawableModel
 		int i_84_ = i_69_ / 2;
 		int i_85_ = i_71_ / 2;
 		int i_86_ = plane.method3260(i_85_ + i_70_, -121, i_67_ - -i_84_);
-		int i_87_ = (i_80_ ^ 0xffffffff) < (i_77_ ^ 0xffffffff) ? i_77_ : i_80_;
-		int i_88_ = (i_86_ ^ 0xffffffff) >= (i_83_ ^ 0xffffffff) ? i_86_ : i_83_;
+		int i_87_ = i_77_ < i_80_ ? i_77_ : i_80_;
+		int i_88_ = i_83_ >= i_86_ ? i_86_ : i_83_;
 		int i_89_ = i_80_ >= i_86_ ? i_86_ : i_80_;
 		int i_90_ = i_83_ > i_77_ ? i_77_ : i_83_;
 		if (i_71_ != 0) {
@@ -291,7 +291,7 @@ abstract class DrawableModel
 	
 	final void method631(int i, int i_97_, CacheNode_Sub15 cachenode_sub15) {
 		anInt915++;
-		if ((i ^ 0xffffffff) != 0) {
+		if (i != -1) {
 			method629();
 			if (!NA()) {
 				method632();
@@ -353,11 +353,11 @@ abstract class DrawableModel
 	private final void method635(Class222 class222, boolean[] bools, int i, boolean bool, byte b, int[] is, int i_107_, int i_108_, Class222 class222_109_, Node_Sub40 node_sub40, int i_110_, boolean bool_111_) {
 		anInt910++;
 		if (class222 == null || i == 0) {
-			for (int i_112_ = 0; (class222_109_.anInt2642 ^ 0xffffffff) < (i_112_ ^ 0xffffffff); i_112_++) {
+			for (int i_112_ = 0; i_112_ < class222_109_.anInt2642; i_112_++) {
 				short s = class222_109_.aShortArray2636[i_112_];
 				if (bools == null || !bool != bools[s] || node_sub40.anIntArray7511[s] == 0) {
 					short s_113_ = class222_109_.aShortArray2635[i_112_];
-					if ((s_113_ ^ 0xffffffff) != 0) {
+					if (s_113_ != -1) {
 						method613(0, 0, i_110_ & node_sub40.anIntArray7510[s_113_], node_sub40.anIntArrayArray7499[s_113_], is, bool_111_, false, i_107_, 0, 0);
 					}
 					method613(class222_109_.aShortArray2643[i_112_], node_sub40.anIntArray7511[s], i_110_ & node_sub40.anIntArray7510[s], node_sub40.anIntArrayArray7499[s], is, bool_111_, false, i_107_, class222_109_.aShortArray2648[i_112_], class222_109_.aShortArray2649[i_112_]);
@@ -367,9 +367,9 @@ abstract class DrawableModel
 			int i_114_ = 0;
 			int i_115_ = 0;
 			if (b > 65) {
-				for (int i_116_ = 0; (node_sub40.anInt7503 ^ 0xffffffff) < (i_116_ ^ 0xffffffff); i_116_++) {
+				for (int i_116_ = 0; i_116_ < node_sub40.anInt7503; i_116_++) {
 					boolean bool_117_ = false;
-					if ((class222_109_.anInt2642 ^ 0xffffffff) < (i_114_ ^ 0xffffffff) && i_116_ == class222_109_.aShortArray2636[i_114_]) {
+					if (i_114_ < class222_109_.anInt2642 && i_116_ == class222_109_.aShortArray2636[i_114_]) {
 						bool_117_ = true;
 					}
 					boolean bool_118_ = false;
@@ -377,7 +377,7 @@ abstract class DrawableModel
 						bool_118_ = true;
 					}
 					if (bool_117_ || bool_118_) {
-						if (bools != null && !bools[i_116_] == bool && (node_sub40.anIntArray7511[i_116_] ^ 0xffffffff) != -1) {
+						if (bools != null && !bools[i_116_] == bool && node_sub40.anIntArray7511[i_116_] != 0) {
 							if (bool_118_) {
 								i_115_++;
 							}
@@ -428,8 +428,8 @@ abstract class DrawableModel
 								s_128_ = (short) -1;
 								i_129_ = i_119_;
 							}
-							if ((s ^ 0xffffffff) == 0) {
-								if ((s_128_ ^ 0xffffffff) != 0) {
+							if (s == -1) {
+								if (s_128_ != -1) {
 									method613(0, 0, i_110_ & node_sub40.anIntArray7510[s_128_], node_sub40.anIntArrayArray7499[s_128_], is, bool_111_, false, i_107_, 0, 0);
 								}
 							} else {
@@ -438,7 +438,7 @@ abstract class DrawableModel
 							int i_130_;
 							int i_131_;
 							int i_132_;
-							if ((b_121_ & 0x2 ^ 0xffffffff) == -1 && (0x1 & b_127_) == 0) {
+							if ((b_121_ & 0x2) == 0 && (0x1 & b_127_) == 0) {
 								if (i_120_ == 2) {
 									int i_133_ = 0x3fff & -i_123_ + i_129_;
 									int i_134_ = -i_124_ + i_125_ & 0x3fff;
@@ -446,7 +446,7 @@ abstract class DrawableModel
 									if (i_133_ >= 8192) {
 										i_133_ -= 16384;
 									}
-									if ((i_134_ ^ 0xffffffff) <= -8193) {
+									if (i_134_ >= 8192) {
 										i_134_ -= 16384;
 									}
 									i_130_ = 0x3fff & i_124_ + i * i_134_ / i_108_;
@@ -455,14 +455,14 @@ abstract class DrawableModel
 										i_135_ -= 16384;
 									}
 									i_132_ = i * i_135_ / i_108_ + i_122_ & 0x3fff;
-								} else if ((i_120_ ^ 0xffffffff) != -10) {
-									if ((i_120_ ^ 0xffffffff) != -8) {
+								} else if (i_120_ != 9) {
+									if (i_120_ != 7) {
 										i_132_ = i_122_ + (i_126_ + -i_122_) * i / i_108_;
 										i_130_ = (i_125_ + -i_124_) * i / i_108_ + i_124_;
 										i_131_ = i * (-i_123_ + i_129_) / i_108_ + i_123_;
 									} else {
 										int i_136_ = 0x3f & -i_123_ + i_129_;
-										if ((i_136_ ^ 0xffffffff) <= -33) {
+										if (i_136_ >= 32) {
 											i_136_ -= 64;
 										}
 										i_132_ = (-i_122_ + i_126_) * i / i_108_ + i_122_;
@@ -521,7 +521,7 @@ abstract class DrawableModel
 			int i_153_ = is[i_151_];
 			is[i_151_] = is[i_149_];
 			is[i_149_] = i_153_;
-			for (int i_154_ = i_150_; (i_149_ ^ 0xffffffff) < (i_154_ ^ 0xffffffff); i_154_++) {
+			for (int i_154_ = i_150_; i_154_ < i_149_; i_154_++) {
 				if (string == null || strings[i_154_] != null && (i_154_ & 0x1) > strings[i_154_].compareTo(string)) {
 					String string_155_ = strings[i_154_];
 					strings[i_154_] = strings[i_152_];

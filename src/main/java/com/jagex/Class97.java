@@ -75,7 +75,7 @@ public class Class97
 				mediatracker.waitForAll();
 				int i_9_ = image.getWidth(Class158.aClient1983);
 				int i_10_ = image.getHeight(Class158.aClient1983);
-				if (mediatracker.isErrorAny() || i_9_ < 0 || (i_10_ ^ 0xffffffff) > -1) {
+				if (mediatracker.isErrorAny() || i_9_ < 0 || i_10_ < 0) {
 					throw new RuntimeException("");
 				}
 				int[] is = new int[i_10_ * i_9_];
@@ -96,7 +96,7 @@ public class Class97
 	}
 	
 	static final void method1079(byte b, int i, int i_11_, boolean bool, int i_12_, boolean bool_13_, int i_14_) {
-		if ((i ^ 0xffffffff) < (i_11_ ^ 0xffffffff)) {
+		if (i_11_ < i) {
 			int i_15_ = (i_11_ - -i) / 2;
 			int i_16_ = i_11_;
 			Class377_Sub1 class377_sub1 = Class180.aClass377_Sub1Array2143[i_15_];
@@ -123,7 +123,7 @@ public class Class97
 	static final void method1080(int i, byte b, int i_19_, int i_20_, int i_21_, int i_22_, int i_23_) {
 		anInt1278++;
 		if (b >= 62) {
-			if ((Class262_Sub4.anInt7722 ^ 0xffffffff) >= (i_23_ ^ 0xffffffff) && za_Sub2.anInt10513 >= i_21_ && Class384.anInt4906 <= i_22_ && Node_Sub25_Sub1.anInt9936 >= i) {
+			if (i_23_ >= Class262_Sub4.anInt7722 && za_Sub2.anInt10513 >= i_21_ && Class384.anInt4906 <= i_22_ && Node_Sub25_Sub1.anInt9936 >= i) {
 				if (i_20_ == 1) {
 					Class102.method1097(i, i_22_, i_19_, i_21_, i_23_, (byte) 96);
 				} else {

@@ -55,7 +55,7 @@ public class Node_Sub38_Sub24 extends Node_Sub38
 			anIntArray10352 = null;
 		}
 		Class124[] class124s_5_ = class124s;
-		for (int i_6_ = 0; (i_6_ ^ 0xffffffff) > (class124s_5_.length ^ 0xffffffff); i_6_++) {
+		for (int i_6_ = 0; class124s_5_.length > i_6_; i_6_++) {
 			Class124 class124 = class124s_5_[i_6_];
 			if (i == class124.anInt1602) {
 				return class124;
@@ -71,7 +71,7 @@ public class Node_Sub38_Sub24 extends Node_Sub38
 		Class188_Sub1_Sub2.method1897(1, is);
 		Class52.method544(r_Sub2.anInt11054, 0, Class303.anInt3824, i, (byte) -125);
 		if (aClass144Array10350 != null) {
-			for (int i_9_ = 0; (i_9_ ^ 0xffffffff) > (aClass144Array10350.length ^ 0xffffffff); i_9_++) {
+			for (int i_9_ = 0; aClass144Array10350.length > i_9_; i_9_++) {
 				Class144 class144 = aClass144Array10350[i_9_];
 				int i_10_ = class144.anInt1785;
 				int i_11_ = class144.anInt1787;
@@ -81,7 +81,7 @@ public class Node_Sub38_Sub24 extends Node_Sub38
 					} else {
 						class144.method1630(i_8_, i ^ 0xffffffff, i_7_);
 					}
-				} else if ((i_11_ ^ 0xffffffff) <= -1) {
+				} else if (i_11_ >= 0) {
 					class144.method1629(i_8_, -12850, i_7_);
 				}
 			}
@@ -106,7 +106,7 @@ public class Node_Sub38_Sub24 extends Node_Sub38
 				int[] is_19_ = is_18_[0];
 				int[] is_20_ = is_18_[1];
 				int[] is_21_ = is_18_[2];
-				for (int i_22_ = 0; (i_22_ ^ 0xffffffff) > (Class339_Sub7.anInt8728 ^ 0xffffffff); i_22_++) {
+				for (int i_22_ = 0; Class339_Sub7.anInt8728 > i_22_; i_22_++) {
 					int i_23_ = is_17_[i_22_];
 					is_21_[i_22_] = Node_Sub30.method2723(i_23_, 255) << 4;
 					is_20_[i_22_] = Node_Sub30.method2723(i_23_, 65280) >> 4;
@@ -119,23 +119,23 @@ public class Node_Sub38_Sub24 extends Node_Sub38
 	
 	final void method2780(boolean bool, Buffer buffer, int i) {
 		if (i != 0) {
-			if ((i ^ 0xffffffff) == -2) {
+			if (i == 1) {
 				aBoolean7463 = buffer.method2233(255) == 1;
 			}
 		} else {
 			aClass144Array10350 = new Class144[buffer.method2233(255)];
 			int i_24_ = 0;
 		while_220_:
-			for (/**/; (aClass144Array10350.length ^ 0xffffffff) < (i_24_ ^ 0xffffffff); i_24_++) {
+			for (/**/; i_24_ < aClass144Array10350.length; i_24_++) {
 				int i_25_ = buffer.method2233(255);
 				int i_26_ = i_25_;
 			while_218_:
 				do {
 					do {
 						if (i_26_ != 0) {
-							if ((i_26_ ^ 0xffffffff) != -2) {
+							if (i_26_ != 1) {
 								if (i_26_ != 2) {
-									if ((i_26_ ^ 0xffffffff) != -4) {
+									if (i_26_ != 3) {
 										continue while_220_;
 									}
 								} else {

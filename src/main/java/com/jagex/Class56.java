@@ -20,7 +20,7 @@ public class Class56
 		if (i != -27770) {
 			method564(83);
 		}
-		if ((Class346.anInt4278 ^ 0xffffffff) != (Class295.aPlayer3692.aByte5933 ^ 0xffffffff) && Class175.aClass261ArrayArrayArray2099 != null) {
+		if (Class295.aPlayer3692.aByte5933 != Class346.anInt4278 && Class175.aClass261ArrayArrayArray2099 != null) {
 			if (EntityNode_Sub6.method969(graphicstoolkit, Class295.aPlayer3692.aByte5933, 6400)) {
 				Class346.anInt4278 = Class295.aPlayer3692.aByte5933;
 			}

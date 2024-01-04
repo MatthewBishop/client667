@@ -88,7 +88,7 @@ public class D3DToolkit extends AbstractToolkit
 	final void method1265(java.awt.Canvas canvas, Object object, int i) {
 		if (canvas == aCanvas6251) {
 			Dimension dimension = canvas.getSize();
-			if (-1 > (dimension.width ^ 0xffffffff) && dimension.height > 0) {
+			if (dimension.width > 0 && dimension.height > 0) {
 				anIDirect3DDevice9199.EndScene();
 				method1389((byte) -12);
 				anIDirect3DDevice9199.BeginScene();
@@ -174,13 +174,13 @@ public class D3DToolkit extends AbstractToolkit
 			aGeometryBuffer9184 = new GeometryBuffer(aTi9201);
 			new GeometryBuffer(aTi9201);
 			anInt6370 = aD3DCAPS9188.MaxSimultaneousTextures;
-			aBoolean9186 = -1 != (0x10000 & aD3DCAPS9188.TextureCaps ^ 0xffffffff);
+			aBoolean9186 = (0x10000 & aD3DCAPS9188.TextureCaps) != 0;
 			aBoolean9200 = 0 != (0x4000 & aD3DCAPS9188.TextureCaps);
 			anInt6367 = aD3DCAPS9188.MaxActiveLights > 0 ? aD3DCAPS9188.MaxActiveLights : 8;
-			aBoolean6310 = (aD3DCAPS9188.TextureCaps & 0x800 ^ 0xffffffff) != -1;
-			aBoolean6366 = -1 != (aD3DCAPS9188.TextureCaps & 0x2000 ^ 0xffffffff);
+			aBoolean6310 = (aD3DCAPS9188.TextureCaps & 0x800) != 0;
+			aBoolean6366 = (aD3DCAPS9188.TextureCaps & 0x2000) != 0;
 			aBoolean9196 = (0x2 & aD3DCAPS9188.TextureCaps) == 0;
-			aBoolean6342 = 0 < anInt6319 || -1 == (anIDirect3D9204.CheckDeviceMultiSampleType(anInt9194, anInt9182, aD3DPRESENT_PARAMETERS9178.BackBufferFormat, true, 2) ^ 0xffffffff);
+			aBoolean6342 = 0 < anInt6319 || anIDirect3D9204.CheckDeviceMultiSampleType(anInt9194, anInt9182, aD3DPRESENT_PARAMETERS9178.BackBufferFormat, true, 2) == 0;
 			anIntArray9179 = new int[anInt6370];
 			aBooleanArray9180 = new boolean[anInt6370];
 			aBooleanArray9190 = new boolean[anInt6370];
@@ -227,7 +227,7 @@ public class D3DToolkit extends AbstractToolkit
 			do {
 				do {
 					if (i_15_ != 1) {
-						if ((i_15_ ^ 0xffffffff) != -3) {
+						if (i_15_ != 2) {
 							break;
 						}
 					} else {
@@ -249,7 +249,7 @@ public class D3DToolkit extends AbstractToolkit
 	}
 
 	final void method1308(byte b) {
-		anIDirect3DDevice9199.a(28, aBoolean6338 && aBoolean6299 && -1 >= (anInt6355 ^ 0xffffffff));
+		anIDirect3DDevice9199.a(28, aBoolean6338 && aBoolean6299 && anInt6355 >= 0);
 		if (b < 74) {
 			method1365(true, (byte) -67);
 		}
@@ -292,22 +292,22 @@ public class D3DToolkit extends AbstractToolkit
 				return false;
 			}
 			label0:
-				for(; ~l <= -1; l--) {
+				for(; l >= 0; l--) {
 					if(1 == l) {
 						continue;
 					}
 					l1 = 0 - -l;
 					label1:
-						for(int i2 = 0; ~i2 > ~anIntArray9198.length; i2++) {
-							if(-1 != ~idirect3d.CheckDeviceType(i, k, d3ddisplaymode.Format, anIntArray9198[i2], true) || -1 != ~idirect3d.CheckDeviceFormat(i, k, d3ddisplaymode.Format, 1, 1, anIntArray9198[i2]) || -1 != ~l && -1 != ~idirect3d.CheckDeviceMultiSampleType(i, k, anIntArray9198[i2], true, l1)) {
+						for(int i2 = 0; anIntArray9198.length > i2; i2++) {
+							if(idirect3d.CheckDeviceType(i, k, d3ddisplaymode.Format, anIntArray9198[i2], true) != 0 || idirect3d.CheckDeviceFormat(i, k, d3ddisplaymode.Format, 1, 1, anIntArray9198[i2]) != 0 || l != 0 && idirect3d.CheckDeviceMultiSampleType(i, k, anIntArray9198[i2], true, l1) != 0) {
 								continue;
 							}
 							int j2 = 0;
 							do {
-								if(~anIntArray9192.length >= ~j2) {
+								if(j2 >= anIntArray9192.length) {
 									continue label1;
 								}
-								if(idirect3d.CheckDeviceFormat(i, k, d3ddisplaymode.Format, 2, 1, anIntArray9192[j2]) == 0 && idirect3d.CheckDepthStencilMatch(i, k, d3ddisplaymode.Format, anIntArray9198[i2], anIntArray9192[j2]) == 0 && (0 == l || ~idirect3d.CheckDeviceMultiSampleType(i, k, anIntArray9192[i2], true, l1) == -1)) {
+								if(idirect3d.CheckDeviceFormat(i, k, d3ddisplaymode.Format, 2, 1, anIntArray9192[j2]) == 0 && idirect3d.CheckDepthStencilMatch(i, k, d3ddisplaymode.Format, anIntArray9198[i2], anIntArray9192[j2]) == 0 && (0 == l || idirect3d.CheckDeviceMultiSampleType(i, k, anIntArray9192[i2], true, l1) == 0)) {
 									k1 = anIntArray9198[i2];
 									j1 = anIntArray9192[j2];
 									break label0;
@@ -318,7 +318,7 @@ public class D3DToolkit extends AbstractToolkit
 
 				}
 
-			if(l < 0 || ~k1 == -1 || -1 == ~j1) {
+			if(l < 0 || k1 == 0 || j1 == 0) {
 				return false;
 			}
 			d3dpresent_parameters.MultiSampleType = l1;
@@ -369,9 +369,9 @@ public class D3DToolkit extends AbstractToolkit
 		while_25_:
 			do {
 				do {
-					if (-4 != (i_37_ ^ 0xffffffff)) {
-						if ((i_37_ ^ 0xffffffff) != -5) {
-							if ((i_37_ ^ 0xffffffff) == -9) {
+					if (i_37_ != 3) {
+						if (i_37_ != 4) {
+							if (i_37_ == 8) {
 								break;
 							}
 							break while_25_;
@@ -391,7 +391,7 @@ public class D3DToolkit extends AbstractToolkit
 		if (b != -12) {
 			aD3DCAPS9188 = null;
 		}
-		if ((i ^ 0xffffffff) == -1 || i == -2005530519) {
+		if (i == 0 || i == -2005530519) {
 			Class322 class322 = (Class322) anObject6119;
 			method1285(0);
 			class322.method3803(-111);
@@ -436,16 +436,16 @@ public class D3DToolkit extends AbstractToolkit
 			if ((0x1000000 & d3dcaps.RasterCaps) == 0) {
 				throw new RuntimeException("");
 			}
-			if ((d3dcaps.MaxSimultaneousTextures ^ 0xffffffff) > -3) {
+			if (d3dcaps.MaxSimultaneousTextures < 2) {
 				throw new RuntimeException("");
 			}
-			if (-1 == (d3dcaps.TextureOpCaps & 0x2 ^ 0xffffffff)) {
+			if ((d3dcaps.TextureOpCaps & 0x2) == 0) {
 				throw new RuntimeException("");
 			}
 			if ((0x8 & d3dcaps.TextureOpCaps) == 0) {
 				throw new RuntimeException("");
 			}
-			if (-1 == (d3dcaps.TextureOpCaps & 0x40 ^ 0xffffffff)) {
+			if ((d3dcaps.TextureOpCaps & 0x40) == 0) {
 				throw new RuntimeException("");
 			}
 			if ((0x200 & d3dcaps.TextureOpCaps) == 0) {
@@ -463,10 +463,10 @@ public class D3DToolkit extends AbstractToolkit
 			if ((0x2 & (d3dcaps.DestBlendCaps & d3dcaps.SrcBlendCaps)) == 0) {
 				throw new RuntimeException("");
 			}
-			if (-1 > (d3dcaps.MaxActiveLights ^ 0xffffffff) && 2 > d3dcaps.MaxActiveLights) {
+			if (d3dcaps.MaxActiveLights > 0 && 2 > d3dcaps.MaxActiveLights) {
 				throw new RuntimeException("");
 			}
-			if ((d3dcaps.MaxStreams ^ 0xffffffff) > -6) {
+			if (d3dcaps.MaxStreams < 5) {
 				throw new RuntimeException("");
 			}
 			D3DPRESENT_PARAMETERS d3dpresent_parameters = new D3DPRESENT_PARAMETERS(canvas);
@@ -477,7 +477,7 @@ public class D3DToolkit extends AbstractToolkit
 			d3dpresent_parameters.Windowed = true;
 			d3dpresent_parameters.PresentationInterval = -2147483648;
 			int i_41_ = 2;
-			if ((0x100000 & d3dcaps.DevCaps ^ 0xffffffff) != -1) {
+			if ((0x100000 & d3dcaps.DevCaps) != 0) {
 				i_41_ |= 0x10;
 			}
 			Object object = null;
@@ -605,7 +605,7 @@ public class D3DToolkit extends AbstractToolkit
 			if (i_47_ == 4 * i_44_) {
 				aPixelBuffer9187.a(is, 0, 0, i_45_ * i_44_);
 			} else {
-				for (int i_48_ = 0; (i_45_ ^ 0xffffffff) < (i_48_ ^ 0xffffffff); i_48_++)
+				for (int i_48_ = 0; i_48_ < i_45_; i_48_++)
 					aPixelBuffer9187.a(is, i_44_ * i_48_, i_48_ * i_47_, i_44_);
 			}
 			idirect3dsurface_46_.UnlockRect();
@@ -623,7 +623,7 @@ public class D3DToolkit extends AbstractToolkit
 	}
 
 	final void method1326(boolean bool) {
-		for (int i = 0; (anInt6370 ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+		for (int i = 0; i < anInt6370; i++) {
 			anIDirect3DDevice9199.SetSamplerState(i, 7, 0);
 			anIDirect3DDevice9199.SetSamplerState(i, 6, 2);
 			anIDirect3DDevice9199.SetSamplerState(i, 5, 2);
@@ -746,7 +746,7 @@ public class D3DToolkit extends AbstractToolkit
 				anIDirect3DDevice9199.SetTransform(16 + anInt6284, aClass336_Sub1Array6327[anInt6284].method3874(5, aFloatArray9195));
 			}
 			int i = method1391(0, aClass346Array6343[anInt6284]);
-			if ((i ^ 0xffffffff) != (anIntArray9179[anInt6284] ^ 0xffffffff)) {
+			if (anIntArray9179[anInt6284] != i) {
 				anIDirect3DDevice9199.SetTextureStageState(anInt6284, 24, i);
 				anIntArray9179[anInt6284] = i;
 			}
@@ -887,7 +887,7 @@ public class D3DToolkit extends AbstractToolkit
 		if (i > -20) {
 			m();
 		}
-		for (/**/; (anInt6356 ^ 0xffffffff) < (i_64_ ^ 0xffffffff); i_64_++)
+		for (/**/; i_64_ < anInt6356; i_64_++)
 			anIDirect3DDevice9199.LightEnable(2 + i_64_, false);
 		super.method1273(-69);
 	}
@@ -1104,7 +1104,7 @@ public class D3DToolkit extends AbstractToolkit
 			do {
 				do {
 					if (i_79_ != 1) {
-						if ((i_79_ ^ 0xffffffff) != -3) {
+						if (i_79_ != 2) {
 							break;
 						}
 					} else {

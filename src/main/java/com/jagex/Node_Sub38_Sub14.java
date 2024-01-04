@@ -18,7 +18,7 @@ public class Node_Sub38_Sub14 extends Node_Sub38
 		anInt10243++;
 	while_155_:
 		do {
-			if ((i ^ 0xffffffff) != -1) {
+			if (i != 0) {
 				int i_0_ = i;
 			while_154_:
 				do {
@@ -30,10 +30,10 @@ public class Node_Sub38_Sub14 extends Node_Sub38
 							do {
 								do {
 									if (i_0_ != 1) {
-										if ((i_0_ ^ 0xffffffff) != -3) {
+										if (i_0_ != 2) {
 											if (i_0_ != 3) {
-												if ((i_0_ ^ 0xffffffff) != -5) {
-													if ((i_0_ ^ 0xffffffff) != -6) {
+												if (i_0_ != 4) {
+													if (i_0_ != 5) {
 														if (i_0_ != 6) {
 															break while_154_;
 														}
@@ -262,7 +262,7 @@ public class Node_Sub38_Sub14 extends Node_Sub38
 				if (i_6_ < 0) {
 					i_6_ = 0;
 				}
-				if ((i_6_ ^ 0xffffffff) < -257) {
+				if (i_6_ > 256) {
 					i_6_ = 256;
 				}
 				i_6_ = anIntArray10241[i_6_];
@@ -309,7 +309,7 @@ public class Node_Sub38_Sub14 extends Node_Sub38
 		anInt10247++;
 		int i = anIntArrayArray10248.length;
 		if (i > 0) {
-			for (int i_7_ = 0; (i_7_ ^ 0xffffffff) > -258; i_7_++) {
+			for (int i_7_ = 0; i_7_ < 257; i_7_++) {
 				int i_8_ = 0;
 				int i_9_ = i_7_ << 4;
 				for (int i_10_ = 0; i_10_ < i; i_10_++) {
@@ -321,7 +321,7 @@ public class Node_Sub38_Sub14 extends Node_Sub38
 				int i_11_;
 				int i_12_;
 				int i_13_;
-				if ((i ^ 0xffffffff) < (i_8_ ^ 0xffffffff)) {
+				if (i_8_ < i) {
 					int[] is = anIntArrayArray10248[i_8_];
 					if (i_8_ > 0) {
 						int[] is_14_ = anIntArrayArray10248[-1 + i_8_];
@@ -344,7 +344,7 @@ public class Node_Sub38_Sub14 extends Node_Sub38
 				i_13_ >>= 4;
 				i_12_ >>= 4;
 				i_11_ >>= 4;
-				if ((i_12_ ^ 0xffffffff) <= -1) {
+				if (i_12_ >= 0) {
 					if (i_12_ > 255) {
 						i_12_ = 255;
 					}
@@ -386,9 +386,9 @@ public class Node_Sub38_Sub14 extends Node_Sub38
 	
 	final void method2780(boolean bool, Buffer buffer, int i) {
 		anInt10250++;
-		if ((i ^ 0xffffffff) == -1) {
+		if (i == 0) {
 			int i_17_ = buffer.method2233(255);
-			if ((i_17_ ^ 0xffffffff) == -1) {
+			if (i_17_ == 0) {
 				anIntArrayArray10248 = new int[buffer.method2233(255)][4];
 				for (int i_18_ = 0; anIntArrayArray10248.length > i_18_; i_18_++) {
 					anIntArrayArray10248[i_18_][0] = buffer.method2219(-130546744);

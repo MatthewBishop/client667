@@ -16,9 +16,9 @@ public class Class254
 			method3109((byte) 37, null);
 		}
 		anInt3207++;
-		if ((i ^ 0xffffffff) == -2) {
+		if (i == 1) {
 			aChar3210 = Class20_Sub1.method294(buffer.method2214((byte) 95), (byte) 121);
-		} else if ((i ^ 0xffffffff) == -3) {
+		} else if (i == 2) {
 			anInt3208 = 0;
 		}
 	}

@@ -30,7 +30,7 @@ public class Node_Sub43 extends Node
 		if (anIntArray7535 == null) {
 			anIntArray7535 = new int[anInt7531];
 			String[] strings = new String[anInt7531];
-			for (int i_0_ = 0; (anInt7531 ^ 0xffffffff) < (i_0_ ^ 0xffffffff); i_0_++) {
+			for (int i_0_ = 0; i_0_ < anInt7531; i_0_++) {
 				strings[i_0_] = aClass24Array7533[i_0_].aString437;
 				anIntArray7535[i_0_] = i_0_;
 			}
@@ -45,7 +45,7 @@ public class Node_Sub43 extends Node
 		if (b >= -69) {
 			aByte7540 = (byte) 51;
 		}
-		if (aClass24Array7533 == null || (aClass24Array7533.length ^ 0xffffffff) >= (anInt7531 ^ 0xffffffff)) {
+		if (aClass24Array7533 == null || anInt7531 >= aClass24Array7533.length) {
 			method2940((byte) -79, 5 + anInt7531);
 		}
 		aClass24Array7533[anInt7531++] = class24;
@@ -58,7 +58,7 @@ public class Node_Sub43 extends Node
 		if ((i_1_ & 0x2) != 0) {
 			aBoolean7546 = true;
 		}
-		if ((0x1 & i_1_ ^ 0xffffffff) != -1) {
+		if ((0x1 & i_1_) != 0) {
 			aBoolean7542 = true;
 		}
 		aLong2797 = buffer.method2235(-2023329376);
@@ -121,7 +121,7 @@ public class Node_Sub43 extends Node
 	final int method2943(String string, byte b) {
 		anInt7529++;
 		int i = 82 / ((b - -25) / 60);
-		for (int i_5_ = 0; (anInt7531 ^ 0xffffffff) < (i_5_ ^ 0xffffffff); i_5_++) {
+		for (int i_5_ = 0; i_5_ < anInt7531; i_5_++) {
 			if (aClass24Array7533[i_5_].aString437.equalsIgnoreCase(string)) {
 				return i_5_;
 			}

@@ -64,7 +64,7 @@ public class Animable_Sub2_Sub2 extends Animable_Sub2 implements Interface19
 		aBoolean10737 = bool;
 		aBoolean10746 = bool_6_;
 		aByte10743 = (byte) i_5_;
-		aBoolean10740 = graphicstoolkit.r() && objectdefinition.aBoolean2972 && !aBoolean10737 && (Class213.aNode_Sub27_2512.aClass320_Sub12_7282.method3730(false) ^ 0xffffffff) != -1;
+		aBoolean10740 = graphicstoolkit.r() && objectdefinition.aBoolean2972 && !aBoolean10737 && Class213.aNode_Sub27_2512.aClass320_Sub12_7282.method3730(false) != 0;
 		int i_7_ = 2048;
 		if (aBoolean10746) {
 			i_7_ |= 0x10000;
@@ -164,7 +164,7 @@ public class Animable_Sub2_Sub2 extends Animable_Sub2 implements Interface19
 			aBoolean10740 = false;
 		}
 		anInt10759++;
-		if (aDrawableModel10756 != null && (graphicstoolkit.b(aDrawableModel10756.ua(), i) ^ 0xffffffff) == -1) {
+		if (aDrawableModel10756 != null && graphicstoolkit.b(aDrawableModel10756.ua(), i) == 0) {
 			return aDrawableModel10756;
 		}
 		Class243 class243 = method842(graphicstoolkit, false, i, false);
@@ -284,22 +284,22 @@ public class Animable_Sub2_Sub2 extends Animable_Sub2 implements Interface19
 		}
 		long l = 0L;
 		int i_15_ = string.length();
-		for (int i_16_ = 0; (i_15_ ^ 0xffffffff) < (i_16_ ^ 0xffffffff); i_16_++) {
+		for (int i_16_ = 0; i_16_ < i_15_; i_16_++) {
 			l *= 37L;
 			int i_17_ = string.charAt(i_16_);
-			if ((i_17_ ^ 0xffffffff) <= -66 && i_17_ <= 90) {
+			if (i_17_ >= 65 && i_17_ <= 90) {
 				l += (long) (-65 + (i_17_ + 1));
 			} else if (i_17_ >= 97 && i_17_ <= 122) {
 				l += (long) (-97 + i_17_ + 1);
-			} else if ((i_17_ ^ 0xffffffff) <= -49 && (i_17_ ^ 0xffffffff) >= -58) {
+			} else if (i_17_ >= 48 && i_17_ <= 57) {
 				l += (long) (-48 + (27 - -i_17_));
 			}
-			if ((l ^ 0xffffffffffffffffL) <= -177917621779460414L) {
+			if (l >= 177917621779460413L) {
 				break;
 			}
 		}
-		for (/**/; (l % 37L ^ 0xffffffffffffffffL) == -1L; l /= 37L) {
-			if ((l ^ 0xffffffffffffffffL) == -1L) {
+		for (/**/; l % 37L == 0; l /= 37L) {
+			if (l == 0) {
 				break;
 			}
 		}

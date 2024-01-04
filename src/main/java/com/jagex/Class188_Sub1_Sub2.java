@@ -49,7 +49,7 @@ public class Class188_Sub1_Sub2 extends Class188_Sub1
 				Class181.aClass197_2155.anInt2417 = 40000 + Class181.aClass197_2155.worldId;
 				Class181.aClass197_2155.worldPort = 50000 - -Class181.aClass197_2155.worldId;
 			}
-			for (int i_3_ = 0; (i_3_ ^ 0xffffffff) > (Class180.aClass377_Sub1Array2143.length ^ 0xffffffff); i_3_++) {
+			for (int i_3_ = 0; Class180.aClass377_Sub1Array2143.length > i_3_; i_3_++) {
 				if (Class180.aClass377_Sub1Array2143[i_3_].anInt8777 == i) {
 					Class380.anInt4877 = Class180.aClass377_Sub1Array2143[i_3_].anInt4673;
 				}

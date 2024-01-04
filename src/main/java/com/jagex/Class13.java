@@ -20,7 +20,7 @@ public class Class13
 			method208(21, 86, -113);
 		}
 		anInt200++;
-		if ((c ^ 0xffffffff) != -161 && (c ^ 0xffffffff) != -33 && c != 95 && (c ^ 0xffffffff) != -46) {
+		if (c != 160 && c != 32 && c != 95 && c != 45) {
 			return false;
 		}
 		return true;

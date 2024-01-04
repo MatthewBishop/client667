@@ -8,8 +8,8 @@ public class Class297
 	
 	static final void method3479(byte b) {
 		if (!EntityNode_Sub3_Sub2.method945(Class151.anInt1843, -11)) {
-			if ((Class151.anInt1843 ^ 0xffffffff) != -6 && Class151.anInt1843 != 6) {
-				if ((Class151.anInt1843 ^ 0xffffffff) == -14) {
+			if (Class151.anInt1843 != 5 && Class151.anInt1843 != 6) {
+				if (Class151.anInt1843 == 13) {
 					Class48.method478(3, (byte) 127);
 				}
 			} else {

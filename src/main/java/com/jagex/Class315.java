@@ -20,7 +20,7 @@ public class Class315
 			method3655(113, -94);
 		}
 		anInt4032++;
-		if (i != 4 && i != 8 && i != 12 && (i ^ 0xffffffff) != -11) {
+		if (i != 4 && i != 8 && i != 12 && i != 10) {
 			return false;
 		}
 		return true;

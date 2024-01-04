@@ -36,17 +36,17 @@ public class Class249
 	
 	private final void method3087(Buffer buffer, int i, int i_3_) {
 		if (i_3_ != 1) {
-			if ((i_3_ ^ 0xffffffff) == -3) {
+			if (i_3_ == 2) {
 				buffer.method2233(i + 253);
-			} else if ((i_3_ ^ 0xffffffff) == -4) {
+			} else if (i_3_ == 3) {
 				anInt3157 = buffer.method2186(-82);
 				anInt3166 = buffer.method2186(i ^ 0x30);
 				anInt3150 = buffer.method2186(-89);
-			} else if ((i_3_ ^ 0xffffffff) != -5) {
+			} else if (i_3_ != 4) {
 				if (i_3_ == 6) {
 					anInt3160 = buffer.method2233(255);
-				} else if ((i_3_ ^ 0xffffffff) != -9) {
-					if ((i_3_ ^ 0xffffffff) != -10) {
+				} else if (i_3_ != 8) {
+					if (i_3_ != 9) {
 						if (i_3_ == 10) {
 							aBoolean3165 = true;
 						}
@@ -92,8 +92,8 @@ public class Class249
 		}
 		if (anInt3163 == 0) {
 			aLong3156 = 2147483647L;
-		} else if ((anInt3163 ^ 0xffffffff) != -2) {
-			if ((anInt3163 ^ 0xffffffff) == -3) {
+		} else if (anInt3163 != 1) {
+			if (anInt3163 == 2) {
 				aLong3156 = (long) (8 * anInt3164 / anInt3148);
 			}
 		} else {
@@ -112,7 +112,7 @@ public class Class249
 		}
 		for (;;) {
 			int i = buffer.method2233(255);
-			if ((i ^ 0xffffffff) == -1) {
+			if (i == 0) {
 				break;
 			}
 			method3087(buffer, 2, i);

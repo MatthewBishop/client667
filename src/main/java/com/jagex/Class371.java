@@ -55,7 +55,7 @@ public class Class371
 		StringBuffer stringbuffer = new StringBuffer();
 		stringbuffer.append("[");
 		for (int i = 0; anInt4576 > i; i++) {
-			if ((i ^ 0xffffffff) != -1) {
+			if (i != 0) {
 				stringbuffer.append(", ");
 			}
 			stringbuffer.append(aStringArray4579[i]);
@@ -78,7 +78,7 @@ public class Class371
 		int i = -87 % ((-56 - b) / 40);
 		Class320_Sub26.method3777();
 		anInt4581++;
-		for (int i_1_ = 0; (i_1_ ^ 0xffffffff) > -5; i_1_++)
+		for (int i_1_ = 0; i_1_ < 4; i_1_++)
 			Class304.aClass84Array3833[i_1_].method991(-120);
 		Node_Sub18.method2606(126);
 		Node_Sub36_Sub2.method2761((byte) 125);
@@ -131,7 +131,7 @@ public class Class371
 	private final void method4101(byte b, int i, String string) {
 		anInt4578++;
 		int i_7_ = 1 / ((-32 - b) / 50);
-		if ((anInt4576 ^ 0xffffffff) > (i ^ 0xffffffff)) {
+		if (i > anInt4576) {
 			anInt4576 = i;
 		}
 		if (i >= aStringArray4579.length) {

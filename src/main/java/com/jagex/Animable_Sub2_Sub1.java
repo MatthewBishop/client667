@@ -73,7 +73,7 @@ public class Animable_Sub2_Sub1 extends Animable_Sub2 implements Interface19
 	Animable_Sub2_Sub1(GraphicsToolkit graphicstoolkit, ObjectDefinition objectdefinition, int i, int i_0_, int i_1_, int i_2_, int i_3_, boolean bool, int i_4_, int i_5_, int i_6_) {
 		super(i_1_, i_2_, i_3_, i, i_0_, Node_Sub30.method2720(i_5_, i_4_, -123));
 		aClass310_10632 = new Class310(graphicstoolkit, objectdefinition, i_4_, i_5_, aByte5933, i_0_, this, bool, i_6_);
-		aBoolean10635 = (objectdefinition.anInt3057 ^ 0xffffffff) != -1 && !bool;
+		aBoolean10635 = objectdefinition.anInt3057 != 0 && !bool;
 	}
 	
 	final boolean method821(int i) {

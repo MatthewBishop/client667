@@ -57,7 +57,7 @@ public class Class93_Sub2 extends Class93 implements MouseListener, MouseMotionL
 		if (i > -43) {
 			return false;
 		}
-		if ((0x1 & anInt6065 ^ 0xffffffff) == -1) {
+		if ((0x1 & anInt6065) == 0) {
 			return false;
 		}
 		return true;
@@ -78,7 +78,7 @@ public class Class93_Sub2 extends Class93 implements MouseListener, MouseMotionL
 		anInt6060++;
 		int i_4_ = mouseevent.getModifiers();
 		boolean bool = (i_4_ & 0x10) != 0;
-		boolean bool_5_ = (i_4_ & 0x8 ^ 0xffffffff) != -1;
+		boolean bool_5_ = (i_4_ & 0x8) != 0;
 		boolean bool_6_ = (0x4 & i_4_) != 0;
 		if (bool_5_ && (bool || bool_6_)) {
 			bool_5_ = false;
@@ -161,10 +161,10 @@ public class Class93_Sub2 extends Class93 implements MouseListener, MouseMotionL
 	public final synchronized void mousePressed(MouseEvent mouseevent) {
 		anInt6045++;
 		int i = method1058(-94, mouseevent);
-		if ((i ^ 0xffffffff) != -2) {
+		if (i != 1) {
 			if (i == 4) {
 				method1057(mouseevent.getX(), mouseevent.getClickCount(), (byte) -85, 2, mouseevent.getY());
-			} else if ((i ^ 0xffffffff) == -3) {
+			} else if (i == 2) {
 				method1057(mouseevent.getX(), mouseevent.getClickCount(), (byte) -128, 1, mouseevent.getY());
 			}
 		} else {
@@ -231,7 +231,7 @@ public class Class93_Sub2 extends Class93 implements MouseListener, MouseMotionL
 		if ((i & anInt6072) == 0) {
 			i = anInt6072;
 		}
-		if ((0x1 & i ^ 0xffffffff) != -1) {
+		if ((0x1 & i) != 0) {
 			method1057(mouseevent.getX(), mouseevent.getClickCount(), (byte) 70, 3, mouseevent.getY());
 		}
 		if ((0x4 & i) != 0) {

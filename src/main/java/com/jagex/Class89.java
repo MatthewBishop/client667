@@ -81,7 +81,7 @@ public class Class89
 		if (!Class26.method311(Class151.anInt1843, -5) && !Class329.method3833((byte) -61, Class151.anInt1843)) {
 			int i = Class295.aPlayer3692.anIntArray10910[0] >> 3;
 			int i_14_ = Class295.aPlayer3692.anIntArray10908[0] >> 3;
-			if ((i ^ 0xffffffff) > -1 || Node_Sub54.anInt7675 >> 3 <= i || (i_14_ ^ 0xffffffff) > -1 || Class377_Sub1.anInt8774 >> 3 <= i_14_) {
+			if (i < 0 || Node_Sub54.anInt7675 >> 3 <= i || i_14_ < 0 || Class377_Sub1.anInt8774 >> 3 <= i_14_) {
 				Model.method2092(0, (byte) 8, Node_Sub54.anInt7675 >> 4, Class377_Sub1.anInt8774 >> 4);
 			} else {
 				Model.method2092(OutputStream_Sub2.anInt97, (byte) 8, i, i_14_);

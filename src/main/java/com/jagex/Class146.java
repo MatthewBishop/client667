@@ -26,10 +26,10 @@ public class Class146
 	final int[][] method1642(byte b) {
 		int i = 70 % ((b - 38) / 38);
 		anInt1818++;
-		if ((anInt1811 ^ 0xffffffff) != (anInt1807 ^ 0xffffffff)) {
+		if (anInt1807 != anInt1811) {
 			throw new RuntimeException("Can only retrieve a full image cache");
 		}
-		for (int i_0_ = 0; (i_0_ ^ 0xffffffff) > (anInt1811 ^ 0xffffffff); i_0_++)
+		for (int i_0_ = 0; anInt1811 > i_0_; i_0_++)
 			aNode_Sub50Array1808[i_0_] = Class218.aNode_Sub50_2568;
 		return anIntArrayArray1809;
 	}
@@ -62,8 +62,8 @@ public class Class146
 			method1643(false);
 		}
 		anInt1800++;
-		if ((anInt1811 ^ 0xffffffff) != (anInt1807 ^ 0xffffffff)) {
-			if ((anInt1811 ^ 0xffffffff) != -2) {
+		if (anInt1807 != anInt1811) {
+			if (anInt1811 != 1) {
 				Node_Sub50 node_sub50 = aNode_Sub50Array1808[i_2_];
 				if (node_sub50 != null) {
 					aBoolean1819 = false;
@@ -83,7 +83,7 @@ public class Class146
 				aClass312_1801.method3611(node_sub50, i ^ ~0x6aa5);
 				return anIntArrayArray1809[node_sub50.anInt7626];
 			}
-			aBoolean1819 = (anInt1803 ^ 0xffffffff) != (i_2_ ^ 0xffffffff);
+			aBoolean1819 = i_2_ != anInt1803;
 			anInt1803 = i_2_;
 			return anIntArrayArray1809[0];
 		}

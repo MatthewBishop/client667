@@ -14,12 +14,12 @@ public class Class230_Sub1 extends Class230
 		anInt9009++;
 		int i_2_ = 1;
 		for (/**/; i > 1; i >>= 1) {
-			if ((0x1 & i ^ 0xffffffff) != -1) {
+			if ((0x1 & i) != 0) {
 				i_2_ *= i_0_;
 			}
 			i_0_ *= i_0_;
 		}
-		if ((i ^ 0xffffffff) == -2) {
+		if (i == 1) {
 			return i_2_ * i_0_;
 		}
 		int i_3_ = -60 % ((-16 - i_1_) / 58);

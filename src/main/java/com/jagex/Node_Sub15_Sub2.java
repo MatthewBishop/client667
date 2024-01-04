@@ -32,7 +32,7 @@ public class Node_Sub15_Sub2 extends Node_Sub15
 				i_0_ += i_1_;
 			}
 			i_0_ -= i_6_;
-			if ((bs[-1 + i_0_] ^ 0xffffffff) == -1) {
+			if (bs[-1 + i_0_] == 0) {
 				return true;
 			}
 			i_0_ += i_2_;
@@ -51,7 +51,7 @@ public class Node_Sub15_Sub2 extends Node_Sub15
 		}
 		int i_13_ = i_11_ >> 3 & 0x70;
 		int i_14_ = i_11_ & 0x7f;
-		i_13_ = (i_14_ ^ 0xffffffff) >= -65 ? i_14_ * i_13_ >> 7 : i_13_ * (-i_14_ + 127) >> 7;
+		i_13_ = i_14_ <= 64 ? i_14_ * i_13_ >> 7 : i_13_ * (-i_14_ + 127) >> 7;
 		int i_15_ = i_13_ + i_14_;
 		int i_16_;
 		if (i_15_ != 0) {

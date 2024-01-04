@@ -19,7 +19,7 @@ abstract class Node_Sub5 extends Node
 		if (i_0_ != 0) {
 			if (i_0_ == 1) {
 				i_1_ = packet.method2256((byte) 121, 5);
-			} else if ((i_0_ ^ 0xffffffff) == -3) {
+			} else if (i_0_ == 2) {
 				i_1_ = packet.method2256((byte) -127, 8);
 			} else {
 				i_1_ = packet.method2256((byte) 24, 11);

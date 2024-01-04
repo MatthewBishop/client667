@@ -41,7 +41,7 @@ public class Class96
 		if (node_sub45_sub1 != null) {
 			return node_sub45_sub1;
 		}
-		if (is != null && (is[0] ^ 0xffffffff) >= -1) {
+		if (is != null && is[0] <= 0) {
 			return null;
 		}
 		Class65 class65 = Class65.method714(aClass302_1264, i_0_, i);
@@ -65,7 +65,7 @@ public class Class96
 		if (node_sub45_sub1 != null) {
 			return node_sub45_sub1;
 		}
-		if (is != null && (is[0] ^ 0xffffffff) >= -1) {
+		if (is != null && is[0] <= 0) {
 			return null;
 		}
 		Node_Sub49 node_sub49 = (Node_Sub49) aHashTable1261.method1518(3512, l);
@@ -91,7 +91,7 @@ public class Class96
 		if (aClass302_1264.method3526(-20871) == 1) {
 			return method1071(i, 0, 0, is);
 		}
-		if ((aClass302_1264.method3537(-2, i) ^ 0xffffffff) == -2) {
+		if (aClass302_1264.method3537(-2, i) == 1) {
 			return method1071(0, i, 0, is);
 		}
 		if (bool != false) {
@@ -108,7 +108,7 @@ public class Class96
 		if (b != -31) {
 			return null;
 		}
-		if ((aClass302_1260.method3537(-2, i) ^ 0xffffffff) == -2) {
+		if (aClass302_1260.method3537(-2, i) == 1) {
 			return method1072(is, i, 0, (byte) 111);
 		}
 		throw new RuntimeException();
@@ -167,17 +167,17 @@ public class Class96
 		int i_17_ = (int) (d_14_ * 256.0);
 		if (i_16_ < 0) {
 			i_16_ = 0;
-		} else if ((i_16_ ^ 0xffffffff) < -256) {
+		} else if (i_16_ > 255) {
 			i_16_ = 255;
 		}
-		if ((i_17_ ^ 0xffffffff) <= -1) {
-			if ((i_17_ ^ 0xffffffff) < -256) {
+		if (i_17_ >= 0) {
+			if (i_17_ > 255) {
 				i_17_ = 255;
 			}
 		} else {
 			i_17_ = 0;
 		}
-		if ((i_17_ ^ 0xffffffff) >= -244) {
+		if (i_17_ <= 243) {
 			if (i_17_ > 217) {
 				i_16_ >>= 3;
 			} else if (i_17_ > 192) {

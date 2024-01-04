@@ -22,20 +22,20 @@ public class r_Sub2 extends r
 	final void method2370(int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_) {
 		anInt11062++;
 		int i_6_ = 0;
-		if ((i_2_ ^ 0xffffffff) != (i_0_ ^ 0xffffffff)) {
+		if (i_0_ != i_2_) {
 			i_6_ = (i_1_ + -i << 16) / (-i_0_ + i_2_);
 		}
 		if (i_5_ >= 36) {
 			int i_7_ = 0;
-			if ((i_3_ ^ 0xffffffff) != (i_2_ ^ 0xffffffff)) {
+			if (i_2_ != i_3_) {
 				i_7_ = (i_4_ - i_1_ << 16) / (i_3_ + -i_2_);
 			}
 			int i_8_ = 0;
 			if (i_0_ != i_3_) {
 				i_8_ = (-i_4_ + i << 16) / (-i_3_ + i_0_);
 			}
-			if ((i_0_ ^ 0xffffffff) >= (i_2_ ^ 0xffffffff) && (i_0_ ^ 0xffffffff) >= (i_3_ ^ 0xffffffff)) {
-				if ((i_3_ ^ 0xffffffff) < (i_2_ ^ 0xffffffff)) {
+			if (i_2_ >= i_0_ && i_3_ >= i_0_) {
+				if (i_2_ < i_3_) {
 					i_4_ = i <<= 16;
 					if (i_0_ < 0) {
 						i -= i_6_ * i_0_;
@@ -47,7 +47,7 @@ public class r_Sub2 extends r
 						i_1_ -= i_2_ * i_7_;
 						i_2_ = 0;
 					}
-					if ((i_0_ == i_2_ || (i_6_ ^ 0xffffffff) >= (i_8_ ^ 0xffffffff)) && ((i_0_ ^ 0xffffffff) != (i_2_ ^ 0xffffffff) || (i_8_ ^ 0xffffffff) >= (i_7_ ^ 0xffffffff))) {
+					if ((i_0_ == i_2_ || i_8_ >= i_6_) && (i_2_ != i_0_ || i_7_ >= i_8_)) {
 						i_3_ -= i_2_;
 						i_2_ -= i_0_;
 						i_0_ *= anInt11057;
@@ -57,7 +57,7 @@ public class r_Sub2 extends r
 							i_0_ += anInt11057;
 							i_4_ += i_8_;
 						}
-						while ((--i_3_ ^ 0xffffffff) <= -1) {
+						while (--i_3_ >= 0) {
 							Class262_Sub16.method3196(i_4_ >> 16, aByteArray11058, i_0_, (byte) -24, 0, i_1_ >> 16);
 							i_0_ += anInt11057;
 							i_4_ += i_8_;
@@ -83,7 +83,7 @@ public class r_Sub2 extends r
 				} else {
 					i_1_ = i <<= 16;
 					i_4_ <<= 16;
-					if ((i_0_ ^ 0xffffffff) > -1) {
+					if (i_0_ < 0) {
 						i -= i_6_ * i_0_;
 						i_1_ -= i_8_ * i_0_;
 						i_0_ = 0;
@@ -92,7 +92,7 @@ public class r_Sub2 extends r
 						i_4_ -= i_7_ * i_3_;
 						i_3_ = 0;
 					}
-					if ((i_0_ ^ 0xffffffff) != (i_3_ ^ 0xffffffff) && (i_8_ ^ 0xffffffff) > (i_6_ ^ 0xffffffff) || (i_3_ ^ 0xffffffff) == (i_0_ ^ 0xffffffff) && i_7_ > i_6_) {
+					if (i_3_ != i_0_ && i_6_ > i_8_ || i_0_ == i_3_ && i_7_ > i_6_) {
 						i_2_ -= i_3_;
 						i_3_ -= i_0_;
 						i_0_ *= anInt11057;
@@ -118,7 +118,7 @@ public class r_Sub2 extends r
 							i_1_ += i_8_;
 							i_0_ += anInt11057;
 						}
-						while ((--i_2_ ^ 0xffffffff) <= -1) {
+						while (--i_2_ >= 0) {
 							Class262_Sub16.method3196(i_4_ >> 16, aByteArray11058, i_0_, (byte) -24, 0, i >> 16);
 							i_4_ += i_7_;
 							i += i_6_;
@@ -130,7 +130,7 @@ public class r_Sub2 extends r
 				if (i_0_ < i_2_) {
 					i_1_ = i_4_ <<= 16;
 					i <<= 16;
-					if ((i_3_ ^ 0xffffffff) > -1) {
+					if (i_3_ < 0) {
 						i_1_ -= i_3_ * i_7_;
 						i_4_ -= i_8_ * i_3_;
 						i_3_ = 0;
@@ -165,7 +165,7 @@ public class r_Sub2 extends r
 							i_4_ += i_8_;
 							i_1_ += i_7_;
 						}
-						while ((--i_2_ ^ 0xffffffff) <= -1) {
+						while (--i_2_ >= 0) {
 							Class262_Sub16.method3196(i_1_ >> 16, aByteArray11058, i_3_, (byte) -24, 0, i >> 16);
 							i_1_ += i_7_;
 							i += i_6_;
@@ -174,17 +174,17 @@ public class r_Sub2 extends r
 					}
 				} else {
 					i = i_4_ <<= 16;
-					if ((i_3_ ^ 0xffffffff) > -1) {
+					if (i_3_ < 0) {
 						i_4_ -= i_3_ * i_8_;
 						i -= i_3_ * i_7_;
 						i_3_ = 0;
 					}
 					i_1_ <<= 16;
-					if ((i_2_ ^ 0xffffffff) > -1) {
+					if (i_2_ < 0) {
 						i_1_ -= i_2_ * i_6_;
 						i_2_ = 0;
 					}
-					if ((i_8_ ^ 0xffffffff) < (i_7_ ^ 0xffffffff)) {
+					if (i_7_ < i_8_) {
 						i_0_ -= i_2_;
 						i_2_ -= i_3_;
 						i_3_ = anInt11057 * i_3_;
@@ -204,13 +204,13 @@ public class r_Sub2 extends r
 						i_0_ -= i_2_;
 						i_2_ -= i_3_;
 						i_3_ *= anInt11057;
-						while ((--i_2_ ^ 0xffffffff) <= -1) {
+						while (--i_2_ >= 0) {
 							Class262_Sub16.method3196(i >> 16, aByteArray11058, i_3_, (byte) -24, 0, i_4_ >> 16);
 							i += i_7_;
 							i_4_ += i_8_;
 							i_3_ += anInt11057;
 						}
-						while ((--i_0_ ^ 0xffffffff) <= -1) {
+						while (--i_0_ >= 0) {
 							Class262_Sub16.method3196(i_1_ >> 16, aByteArray11058, i_3_, (byte) -24, 0, i_4_ >> 16);
 							i_1_ += i_6_;
 							i_4_ += i_8_;
@@ -220,17 +220,17 @@ public class r_Sub2 extends r
 				}
 			} else if (i_3_ < i_0_) {
 				i = i_1_ <<= 16;
-				if ((i_2_ ^ 0xffffffff) > -1) {
+				if (i_2_ < 0) {
 					i_1_ -= i_2_ * i_7_;
 					i -= i_2_ * i_6_;
 					i_2_ = 0;
 				}
 				i_4_ <<= 16;
-				if ((i_3_ ^ 0xffffffff) > -1) {
+				if (i_3_ < 0) {
 					i_4_ -= i_3_ * i_8_;
 					i_3_ = 0;
 				}
-				if (i_2_ != i_3_ && (i_6_ ^ 0xffffffff) > (i_7_ ^ 0xffffffff) || i_2_ == i_3_ && (i_6_ ^ 0xffffffff) < (i_8_ ^ 0xffffffff)) {
+				if (i_2_ != i_3_ && i_7_ > i_6_ || i_2_ == i_3_ && i_8_ < i_6_) {
 					i_0_ -= i_3_;
 					i_3_ -= i_2_;
 					i_2_ *= anInt11057;
@@ -250,7 +250,7 @@ public class r_Sub2 extends r
 					i_0_ -= i_3_;
 					i_3_ -= i_2_;
 					i_2_ *= anInt11057;
-					while ((--i_3_ ^ 0xffffffff) <= -1) {
+					while (--i_3_ >= 0) {
 						Class262_Sub16.method3196(i >> 16, aByteArray11058, i_2_, (byte) -24, 0, i_1_ >> 16);
 						i_1_ += i_7_;
 						i_2_ += anInt11057;
@@ -265,7 +265,7 @@ public class r_Sub2 extends r
 				}
 			} else {
 				i_4_ = i_1_ <<= 16;
-				if ((i_2_ ^ 0xffffffff) > -1) {
+				if (i_2_ < 0) {
 					i_4_ -= i_2_ * i_6_;
 					i_1_ -= i_2_ * i_7_;
 					i_2_ = 0;
@@ -275,17 +275,17 @@ public class r_Sub2 extends r
 					i -= i_0_ * i_8_;
 					i_0_ = 0;
 				}
-				if ((i_7_ ^ 0xffffffff) >= (i_6_ ^ 0xffffffff)) {
+				if (i_6_ >= i_7_) {
 					i_3_ -= i_0_;
 					i_0_ -= i_2_;
 					i_2_ = anInt11057 * i_2_;
-					while ((--i_0_ ^ 0xffffffff) <= -1) {
+					while (--i_0_ >= 0) {
 						Class262_Sub16.method3196(i_4_ >> 16, aByteArray11058, i_2_, (byte) -24, 0, i_1_ >> 16);
 						i_1_ += i_7_;
 						i_2_ += anInt11057;
 						i_4_ += i_6_;
 					}
-					while ((--i_3_ ^ 0xffffffff) <= -1) {
+					while (--i_3_ >= 0) {
 						Class262_Sub16.method3196(i >> 16, aByteArray11058, i_2_, (byte) -24, 0, i_1_ >> 16);
 						i += i_8_;
 						i_1_ += i_7_;
@@ -301,7 +301,7 @@ public class r_Sub2 extends r
 						i_2_ += anInt11057;
 						i_1_ += i_7_;
 					}
-					while ((--i_3_ ^ 0xffffffff) <= -1) {
+					while (--i_3_ >= 0) {
 						Class262_Sub16.method3196(i_1_ >> 16, aByteArray11058, i_2_, (byte) -24, 0, i >> 16);
 						i_1_ += i_7_;
 						i += i_8_;
@@ -323,8 +323,8 @@ public class r_Sub2 extends r
 				return null;
 			}
 			boolean bool = false;
-			for (int i_13_ = 0; (i_13_ ^ 0xffffffff) > (class244s.length ^ 0xffffffff); i_13_++) {
-				if (class244s[i_13_].anInt3084 == i_11_ && class244s[i_13_].anInt3078 == i_10_ && (i_12_ == 0 || (class244s[i_13_].anInt3077 ^ 0xffffffff) == (i_12_ ^ 0xffffffff)) && (!bool || class244s[i_13_].anInt3079 > i)) {
+			for (int i_13_ = 0; class244s.length > i_13_; i_13_++) {
+				if (class244s[i_13_].anInt3084 == i_11_ && class244s[i_13_].anInt3078 == i_10_ && (i_12_ == 0 || i_12_ == class244s[i_13_].anInt3077) && (!bool || class244s[i_13_].anInt3079 > i)) {
 					bool = true;
 					i = class244s[i_13_].anInt3079;
 				}
@@ -343,7 +343,7 @@ public class r_Sub2 extends r
 		if (i_9_ != -28769) {
 			method2376(45);
 		}
-		if ((class241.anInt2953 ^ 0xffffffff) == -3) {
+		if (class241.anInt2953 == 2) {
 			Node_Sub25_Sub4.method2679(signlink, 0, frame);
 			return null;
 		}
@@ -364,7 +364,7 @@ public class r_Sub2 extends r
 		if (i_18_ != 0) {
 			return true;
 		}
-		if ((i * i_19_ ^ 0xffffffff) < (aByteArray11058.length ^ 0xffffffff)) {
+		if (aByteArray11058.length < i * i_19_) {
 			return false;
 		}
 		return true;
@@ -374,7 +374,7 @@ public class r_Sub2 extends r
 		anInt11065++;
 		int i_20_ = -1;
 		int i_21_ = aByteArray11058.length + i;
-		while ((i_21_ ^ 0xffffffff) < (i_20_ ^ 0xffffffff)) {
+		while (i_20_ < i_21_) {
 			aByteArray11058[++i_20_] = (byte) 0;
 			aByteArray11058[++i_20_] = (byte) 0;
 			aByteArray11058[++i_20_] = (byte) 0;
@@ -384,7 +384,7 @@ public class r_Sub2 extends r
 			aByteArray11058[++i_20_] = (byte) 0;
 			aByteArray11058[++i_20_] = (byte) 0;
 		}
-		while ((i_20_ ^ 0xffffffff) > (-1 + aByteArray11058.length ^ 0xffffffff))
+		while (-1 + aByteArray11058.length > i_20_)
 			aByteArray11058[++i_20_] = (byte) 0;
 	}
 	
@@ -395,16 +395,16 @@ public class r_Sub2 extends r
 			aClass192_11056 = null;
 		}
 		int i_22_ = 0;
-		if ((actor.anInt10892 ^ 0xffffffff) < (Class174.anInt2092 ^ 0xffffffff)) {
+		if (Class174.anInt2092 < actor.anInt10892) {
 			Class238.method3020(b + 49, actor);
-		} else if ((Class174.anInt2092 ^ 0xffffffff) < (actor.anInt10887 ^ 0xffffffff)) {
+		} else if (actor.anInt10887 < Class174.anInt2092) {
 			Node_Sub20.method2614(true, actor, bool);
 			i = Class275.anInt5412;
 			i_22_ = Class320_Sub23.anInt8431;
 		} else {
 			Class186.method1870((byte) 69, actor);
 		}
-		if ((actor.anInt5934 ^ 0xffffffff) > -513 || (actor.anInt5940 ^ 0xffffffff) > -513 || (Node_Sub54.anInt7675 * 512 + -512 ^ 0xffffffff) >= (actor.anInt5934 ^ 0xffffffff) || (actor.anInt5940 ^ 0xffffffff) <= (Class377_Sub1.anInt8774 * 512 - 512 ^ 0xffffffff)) {
+		if (actor.anInt5934 < 512 || actor.anInt5940 < 512 || actor.anInt5934 >= Node_Sub54.anInt7675 * 512 + -512 || Class377_Sub1.anInt8774 * 512 - 512 <= actor.anInt5940) {
 			actor.anAnimator10876.method249(true, -1);
 			for (int i_23_ = 0; i_23_ < actor.aClass165Array10886.length; i_23_++) {
 				actor.aClass165Array10886[i_23_].anInt2030 = -1;
@@ -419,7 +419,7 @@ public class r_Sub2 extends r
 			actor.anInt5940 = actor.anIntArray10908[0] * 512 - -(actor.method853((byte) 113) * 256);
 			actor.method867(536);
 		}
-		if (actor == Class295.aPlayer3692 && ((actor.anInt5934 ^ 0xffffffff) > -6145 || actor.anInt5940 < 6144 || (actor.anInt5934 ^ 0xffffffff) <= (-6144 + 512 * Node_Sub54.anInt7675 ^ 0xffffffff) || (-6144 + Class377_Sub1.anInt8774 * 512 ^ 0xffffffff) >= (actor.anInt5940 ^ 0xffffffff))) {
+		if (actor == Class295.aPlayer3692 && (actor.anInt5934 < 6144 || actor.anInt5940 < 6144 || -6144 + 512 * Node_Sub54.anInt7675 <= actor.anInt5934 || actor.anInt5940 >= -6144 + Class377_Sub1.anInt8774 * 512)) {
 			actor.anAnimator10876.method249(true, -1);
 			for (int i_24_ = 0; i_24_ < actor.aClass165Array10886.length; i_24_++) {
 				actor.aClass165Array10886[i_24_].anInt2030 = -1;
@@ -446,7 +446,7 @@ public class r_Sub2 extends r
 		anInt11066++;
 		Node_Sub29_Sub2.anInt10015 = 0;
 		boolean bool = true;
-		for (int i_26_ = 0; (Class188_Sub1_Sub1.aByteArrayArray9334.length ^ 0xffffffff) < (i_26_ ^ 0xffffffff); i_26_++) {
+		for (int i_26_ = 0; i_26_ < Class188_Sub1_Sub1.aByteArrayArray9334.length; i_26_++) {
 			if (StandardPlane.anIntArray7980[i_26_] != -1 && Class188_Sub1_Sub1.aByteArrayArray9334[i_26_] == null) {
 				Class188_Sub1_Sub1.aByteArrayArray9334[i_26_] = Animable_Sub1_Sub1.aClass302_10618.method3524(false, 0, StandardPlane.anIntArray7980[i_26_]);
 				if (Class188_Sub1_Sub1.aByteArrayArray9334[i_26_] == null) {
@@ -475,7 +475,7 @@ public class r_Sub2 extends r
 					bool = false;
 				}
 			}
-			if (Class204.anIntArray2460 != null && Class194.aByteArrayArray2373[i_26_] == null && (Class204.anIntArray2460[i_26_] ^ 0xffffffff) != 0) {
+			if (Class204.anIntArray2460 != null && Class194.aByteArrayArray2373[i_26_] == null && Class204.anIntArray2460[i_26_] != -1) {
 				Class194.aByteArrayArray2373[i_26_] = Animable_Sub1_Sub1.aClass302_10618.method3512(Class15.anIntArrayArray224[i_26_], 0, 118, Class204.anIntArray2460[i_26_]);
 				if (Class194.aByteArrayArray2373[i_26_] == null) {
 					Node_Sub29_Sub2.anInt10015++;
@@ -500,12 +500,12 @@ public class r_Sub2 extends r
 		} else {
 			bool = true;
 			Node_Sub2.anInt6937 = 0;
-			for (int i_27_ = 0; (Class188_Sub1_Sub1.aByteArrayArray9334.length ^ 0xffffffff) < (i_27_ ^ 0xffffffff); i_27_++) {
+			for (int i_27_ = 0; i_27_ < Class188_Sub1_Sub1.aByteArrayArray9334.length; i_27_++) {
 				byte[] bs = FileOnDisk.aByteArrayArray1331[i_27_];
 				if (bs != null) {
 					int i_28_ = (Class262_Sub1.anIntArray7704[i_27_] >> 8) * 64 - Node_Sub53.anInt7668;
 					int i_29_ = 64 * (Class262_Sub1.anIntArray7704[i_27_] & 0xff) + -Class320_Sub4.anInt8243;
-					if ((Class61.anInt898 ^ 0xffffffff) != -1) {
+					if (Class61.anInt898 != 0) {
 						i_28_ = 10;
 						i_29_ = 10;
 					}
@@ -526,7 +526,7 @@ public class r_Sub2 extends r
 			if (!bool) {
 				Class118.anInt5407 = 2;
 			} else {
-				if ((Class118.anInt5407 ^ 0xffffffff) != -1) {
+				if (Class118.anInt5407 != 0) {
 					Class169_Sub3.method1779(Class93.aGraphicsToolkit1241, Class22.aClass22_375.method297(-12273, Class35.anInt537) + "<br>(100%)", true, Class169_Sub3.aClass357_8820, StandardSprite.aClass52_8945, -16777216);
 				}
 				CacheNode_Sub16_Sub1.method2387((byte) -114);
@@ -534,7 +534,7 @@ public class r_Sub2 extends r
 				Class30.method343(-126);
 				boolean bool_33_ = false;
 				if (Class93.aGraphicsToolkit1241.z() && Class213.aNode_Sub27_2512.aClass320_Sub26_7269.method3779(false) == 2) {
-					for (int i_34_ = 0; (Class188_Sub1_Sub1.aByteArrayArray9334.length ^ 0xffffffff) < (i_34_ ^ 0xffffffff); i_34_++) {
+					for (int i_34_ = 0; i_34_ < Class188_Sub1_Sub1.aByteArrayArray9334.length; i_34_++) {
 						if (Class320_Sub18.aByteArrayArray8378[i_34_] != null || Class320_Sub6.aByteArrayArray8263[i_34_] != null) {
 							bool_33_ = true;
 							break;
@@ -542,7 +542,7 @@ public class r_Sub2 extends r
 					}
 				}
 				int i_35_;
-				if ((Class213.aNode_Sub27_2512.aClass320_Sub16_7316.method3744(false) ^ 0xffffffff) == -2) {
+				if (Class213.aNode_Sub27_2512.aClass320_Sub16_7316.method3744(false) == 1) {
 					i_35_ = CacheNode_Sub15.anIntArray9586[Node_Sub38_Sub25.anInt10360];
 				} else {
 					i_35_ = CacheNode_Sub14.anIntArray9575[Node_Sub38_Sub25.anInt10360];
@@ -557,7 +557,7 @@ public class r_Sub2 extends r
 				} else {
 					Node_Sub10.method2540(CacheNode_Sub18.aClass52_9609);
 				}
-				for (int i_36_ = 0; (i_36_ ^ 0xffffffff) > -5; i_36_++)
+				for (int i_36_ = 0; i_36_ < 4; i_36_++)
 					Class304.aClass84Array3833[i_36_].method991(-119);
 				Class163.method1738(-1096);
 				Class323.method3808(false, -1);
@@ -571,7 +571,7 @@ public class r_Sub2 extends r
 				Class339_Sub6.aBoolean8715 = Class201.anInt2446 >= 96;
 				Class34.aBoolean532 = Class213.aNode_Sub27_2512.aClass320_Sub26_7269.method3779(false) == 2;
 				Class163.aBoolean2015 = Class213.aNode_Sub27_2512.aClass320_Sub24_7317.method3773(false) == 1;
-				Class256.anInt3237 = (Class213.aNode_Sub27_2512.aClass320_Sub19_7301.method3751(false) ^ 0xffffffff) == -2 ? -1 : Class94.anInt1249;
+				Class256.anInt3237 = Class213.aNode_Sub27_2512.aClass320_Sub19_7301.method3751(false) == 1 ? -1 : Class94.anInt1249;
 				Class382.aBoolean5254 = Class213.aNode_Sub27_2512.aClass320_Sub23_7290.method3770(false) == 1;
 				Class169_Sub2_Sub1.aBoolean10563 = Class213.aNode_Sub27_2512.aClass320_Sub30_7275.method3796(false) == 1;
 				Node_Sub38_Sub1.aClass277_Sub1_10084 = new Class277_Sub1(4, Node_Sub54.anInt7675, Class377_Sub1.anInt8774, false);
@@ -585,7 +585,7 @@ public class r_Sub2 extends r
 				if (bool_33_) {
 					Node_Sub38_Sub17.method2842(true);
 					Class270_Sub1.aClass277_Sub1_8028 = new Class277_Sub1(1, Node_Sub54.anInt7675, Class377_Sub1.anInt8774, true);
-					if ((Class61.anInt898 ^ 0xffffffff) == -1) {
+					if (Class61.anInt898 == 0) {
 						Actor.method863(Class320_Sub6.aByteArrayArray8263, (byte) -74, Class270_Sub1.aClass277_Sub1_8028);
 						Node_Sub24.method2650(true, -14651);
 					} else {
@@ -597,7 +597,7 @@ public class r_Sub2 extends r
 					Node_Sub38_Sub17.method2842(false);
 				}
 				Node_Sub38_Sub1.aClass277_Sub1_10084.method3339(-2, bool_33_ ? Class270_Sub1.aClass277_Sub1_8028.anIntArrayArrayArray3520 : null, Class93.aGraphicsToolkit1241, Class304.aClass84Array3833);
-				if ((Class61.anInt898 ^ 0xffffffff) != -1) {
+				if (Class61.anInt898 != 0) {
 					Node_Sub24.method2650(true, -14651);
 					CacheNode_Sub7.method2317(FileOnDisk.aByteArrayArray1331, (byte) -122, Node_Sub38_Sub1.aClass277_Sub1_10084);
 				} else {
@@ -618,7 +618,7 @@ public class r_Sub2 extends r
 				if (bool_33_) {
 					Node_Sub38_Sub17.method2842(true);
 					Node_Sub24.method2650(true, -14651);
-					if ((Class61.anInt898 ^ 0xffffffff) != -1) {
+					if (Class61.anInt898 != 0) {
 						CacheNode_Sub7.method2317(Class320_Sub18.aByteArrayArray8378, (byte) -92, Class270_Sub1.aClass277_Sub1_8028);
 					} else {
 						Class178.method1811(31269, Class320_Sub18.aByteArrayArray8378, Class270_Sub1.aClass277_Sub1_8028);
@@ -643,9 +643,9 @@ public class r_Sub2 extends r
 				} else {
 					CacheNode_Sub1.method2280(i_37_);
 				}
-				for (int i_38_ = 0; (i_38_ ^ 0xffffffff) > -5; i_38_++) {
+				for (int i_38_ = 0; i_38_ < 4; i_38_++) {
 					for (int i_39_ = 0; i_39_ < Node_Sub54.anInt7675; i_39_++) {
-						for (int i_40_ = 0; (i_40_ ^ 0xffffffff) > (Class377_Sub1.anInt8774 ^ 0xffffffff); i_40_++)
+						for (int i_40_ = 0; Class377_Sub1.anInt8774 > i_40_; i_40_++)
 							Node_Sub36.method2750(false, i_38_, i_40_, i_39_);
 					}
 				}
@@ -660,24 +660,24 @@ public class r_Sub2 extends r
 					node_sub13.aPacket7113.method2179((byte) -5, 1057001181);
 					Class218.worldResponseBuffer.method1514(126, node_sub13);
 				}
-				if ((Class61.anInt898 ^ 0xffffffff) == -1) {
+				if (Class61.anInt898 == 0) {
 					int i_41_ = (-(Node_Sub54.anInt7675 >> 4) + Player.anInt11178) / 8;
 					int i_42_ = (Player.anInt11178 - -(Node_Sub54.anInt7675 >> 4)) / 8;
 					int i_43_ = (-(Class377_Sub1.anInt8774 >> 4) + Class277.anInt3527) / 8;
 					int i_44_ = ((Class377_Sub1.anInt8774 >> 4) + Class277.anInt3527) / 8;
 					for (int i_45_ = i_41_ - 1; i_42_ + 1 >= i_45_; i_45_++) {
-						for (int i_46_ = i_43_ - 1; (1 + i_44_ ^ 0xffffffff) <= (i_46_ ^ 0xffffffff); i_46_++) {
-							if ((i_45_ ^ 0xffffffff) > (i_41_ ^ 0xffffffff) || i_45_ > i_42_ || (i_46_ ^ 0xffffffff) > (i_43_ ^ 0xffffffff) || (i_44_ ^ 0xffffffff) > (i_46_ ^ 0xffffffff)) {
+						for (int i_46_ = i_43_ - 1; i_46_ <= 1 + i_44_; i_46_++) {
+							if (i_41_ > i_45_ || i_45_ > i_42_ || i_43_ > i_46_ || i_46_ > i_44_) {
 								Animable_Sub1_Sub1.aClass302_10618.method3531("m" + i_45_ + "_" + i_46_, -18758);
 								Animable_Sub1_Sub1.aClass302_10618.method3531("l" + i_45_ + "_" + i_46_, -18758);
 							}
 						}
 					}
 				}
-				if ((Class151.anInt1843 ^ 0xffffffff) != -5) {
-					if ((Class151.anInt1843 ^ 0xffffffff) == -9) {
+				if (Class151.anInt1843 != 4) {
+					if (Class151.anInt1843 == 8) {
 						Class48.method478(7, (byte) 108);
-					} else if ((Class151.anInt1843 ^ 0xffffffff) == -11) {
+					} else if (Class151.anInt1843 == 10) {
 						Class48.method478(9, (byte) 113);
 					} else {
 						Class48.method478(11, (byte) 105);

@@ -70,7 +70,7 @@ public class Class270_Sub2_Sub1 extends Class270_Sub2
 		}
 		aGLToolkit10544.method1444(-2, class169_sub1_12_);
 		aGLToolkit10544.method1410(15, class382);
-		for (int i = 0; (i ^ 0xffffffff) > -7; i++) {
+		for (int i = 0; i < 6; i++) {
 			int i_13_ = 34069 - -i;
 			class382.method4182(0, aClass169_Sub1_10542, i_13_, 60);
 			class382.method4183(0, (byte) -99);
@@ -91,7 +91,7 @@ public class Class270_Sub2_Sub1 extends Class270_Sub2
 							do {
 								if (i_14_ != 34069) {
 									if (i_14_ != 34070) {
-										if ((i_14_ ^ 0xffffffff) != -34072) {
+										if (i_14_ != 34071) {
 											if (i_14_ != 34072) {
 												if (i_14_ != 34073) {
 													if (i_14_ != 34074) {

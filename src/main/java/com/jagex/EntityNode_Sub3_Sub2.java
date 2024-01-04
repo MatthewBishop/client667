@@ -19,7 +19,7 @@ class EntityNode_Sub3_Sub2 extends EntityNode_Sub3
 		if (i_0_ != -11) {
 			aFloat9168 = -0.68641424F;
 		}
-		if (i != 9 && (i ^ 0xffffffff) != -11) {
+		if (i != 9 && i != 10) {
 			return false;
 		}
 		return true;

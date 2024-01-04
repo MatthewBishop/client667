@@ -24,32 +24,32 @@ public class Class1
 		boolean bool = false;
 		for (;;) {
 			int i_0_ = buffer.method2233(i + -9945);
-			if ((i_0_ ^ 0xffffffff) == -1) {
+			if (i_0_ == 0) {
 				break;
 			}
-			if ((i_0_ ^ 0xffffffff) != -2) {
-				if ((i_0_ ^ 0xffffffff) != -3) {
+			if (i_0_ != 1) {
+				if (i_0_ != 2) {
 					if (i_0_ != 3) {
 						if (i_0_ != 4) {
-							if ((i_0_ ^ 0xffffffff) == -6) {
+							if (i_0_ == 5) {
 								anInt120 = buffer.method2220(1819759595);
-							} else if ((i_0_ ^ 0xffffffff) == -7) {
+							} else if (i_0_ == 6) {
 								anInt112 = buffer.method2220(i ^ 0x6c777433);
 							} else if (i_0_ == 7) {
 								aShortArrayArrayArray113 = new short[10][4][];
 								aShortArrayArray106 = new short[10][4];
 								for (int i_1_ = 0; i_1_ < 10; i_1_++) {
-									for (int i_2_ = 0; (i_2_ ^ 0xffffffff) > -5; i_2_++) {
+									for (int i_2_ = 0; i_2_ < 4; i_2_++) {
 										int i_3_ = buffer.method2219(-130546744);
-										if ((i_3_ ^ 0xffffffff) == -65536) {
+										if (i_3_ == 65535) {
 											i_3_ = -1;
 										}
 										aShortArrayArray106[i_1_][i_2_] = (short) i_3_;
 										int i_4_ = buffer.method2219(-130546744);
 										aShortArrayArrayArray113[i_1_][i_2_] = new short[i_4_];
-										for (int i_5_ = 0; (i_5_ ^ 0xffffffff) > (i_4_ ^ 0xffffffff); i_5_++) {
+										for (int i_5_ = 0; i_4_ > i_5_; i_5_++) {
 											int i_6_ = buffer.method2219(i ^ ~0x7c7dbef);
-											if ((i_6_ ^ 0xffffffff) == -65536) {
+											if (i_6_ == 65535) {
 												i_6_ = -1;
 											}
 											aShortArrayArrayArray113[i_1_][i_2_][i_5_] = (short) i_6_;
@@ -57,10 +57,10 @@ public class Class1
 									}
 								}
 							} else if (i_0_ != 8) {
-								if ((i_0_ ^ 0xffffffff) == -10) {
+								if (i_0_ == 9) {
 									anInt116 = buffer.method2233(255);
 								} else if (i_0_ != 10) {
-									if ((i_0_ ^ 0xffffffff) == -12) {
+									if (i_0_ == 11) {
 										anInt118 = buffer.method2233(255);
 									}
 								} else {

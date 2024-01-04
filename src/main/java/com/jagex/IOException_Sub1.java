@@ -14,10 +14,10 @@ public class IOException_Sub1 extends IOException
 		}
 		anInt86++;
 		int i = b & 0xff;
-		if ((i ^ 0xffffffff) == -1) {
+		if (i == 0) {
 			return false;
 		}
-		if (i >= 128 && (i ^ 0xffffffff) > -161 && Class204.aCharArray2455[-128 + i] == 0) {
+		if (i >= 128 && i < 160 && Class204.aCharArray2455[-128 + i] == 0) {
 			return false;
 		}
 		return true;

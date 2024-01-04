@@ -90,7 +90,7 @@ public class Class278
 	static final boolean method3367(int i, int i_6_, byte b) {
 		int i_7_ = 112 % ((b - -59) / 45);
 		anInt3540++;
-		return (0x220 & i_6_ ^ 0xffffffff) == -545 | (0x18 & i_6_) != 0;
+		return (0x220 & i_6_) == 544 | (0x18 & i_6_) != 0;
 	}
 	
 	Class278(Class353 class353, int i, Class302 class302) {

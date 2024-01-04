@@ -19,11 +19,11 @@ public class Class268
 	
 	static final Class49 method3290(boolean bool, byte b, GraphicsToolkit graphicstoolkit, boolean bool_0_, int i) {
 		anInt3452++;
-		if ((i ^ 0xffffffff) == 0) {
+		if (i == -1) {
 			return null;
 		}
 		if (Class291.anIntArray3665 != null) {
-			for (int i_1_ = 0; (Class291.anIntArray3665.length ^ 0xffffffff) < (i_1_ ^ 0xffffffff); i_1_++) {
+			for (int i_1_ = 0; i_1_ < Class291.anIntArray3665.length; i_1_++) {
 				if (Class291.anIntArray3665[i_1_] == i) {
 					return Node_Sub5_Sub2.aClass49Array9413[i_1_];
 				}
@@ -76,17 +76,17 @@ public class Class268
 		Buffer buffer = new Buffer(bs);
 		for (;;) {
 			int i = buffer.method2233(255);
-			if ((i ^ 0xffffffff) == -1) {
+			if (i == 0) {
 				break;
 			}
-			if ((i ^ 0xffffffff) != -2) {
-				if ((i ^ 0xffffffff) != -5) {
-					if ((i ^ 0xffffffff) == -6) {
+			if (i != 1) {
+				if (i != 4) {
+					if (i == 5) {
 						int i_3_ = buffer.method2233(255);
 						Class83.anIntArray5188 = new int[i_3_];
 						for (int i_4_ = 0; i_3_ > i_4_; i_4_++) {
 							Class83.anIntArray5188[i_4_] = buffer.method2219(-130546744);
-							if ((Class83.anIntArray5188[i_4_] ^ 0xffffffff) == -65536) {
+							if (Class83.anIntArray5188[i_4_] == 65535) {
 								Class83.anIntArray5188[i_4_] = -1;
 							}
 						}
@@ -94,7 +94,7 @@ public class Class268
 				} else {
 					int i_5_ = buffer.method2233(255);
 					InputStream_Sub1.anIntArray77 = new int[i_5_];
-					for (int i_6_ = 0; (i_6_ ^ 0xffffffff) > (i_5_ ^ 0xffffffff); i_6_++) {
+					for (int i_6_ = 0; i_5_ > i_6_; i_6_++) {
 						InputStream_Sub1.anIntArray77[i_6_] = buffer.method2219(-130546744);
 						if (InputStream_Sub1.anIntArray77[i_6_] == 65535) {
 							InputStream_Sub1.anIntArray77[i_6_] = -1;

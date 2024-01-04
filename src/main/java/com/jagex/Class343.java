@@ -70,17 +70,17 @@ public class Class343
 		if (i != 24176) {
 			method3964(null, -46);
 		}
-		if ((Class213.aNode_Sub27_2512.aClass320_Sub24_7317.method3773(false) ^ 0xffffffff) != -2 || Class229.aGraphicsToolkit2732.e() <= 0) {
-			if ((0x1 & i_6_ ^ 0xffffffff) != -1) {
+		if (Class213.aNode_Sub27_2512.aClass320_Sub24_7317.method3773(false) != 1 || Class229.aGraphicsToolkit2732.e() <= 0) {
+			if ((0x1 & i_6_) != 0) {
 				buffer.method2186(102);
 			}
-			if ((i_6_ & 0x2 ^ 0xffffffff) != -1) {
+			if ((i_6_ & 0x2) != 0) {
 				buffer.method2219(-130546744);
 			}
 			if ((i_6_ & 0x4) != 0) {
 				buffer.method2219(-130546744);
 			}
-			if ((0x8 & i_6_ ^ 0xffffffff) != -1) {
+			if ((0x8 & i_6_) != 0) {
 				buffer.method2219(-130546744);
 			}
 			aFloat4250 = 1.2F;
@@ -93,23 +93,23 @@ public class Class343
 			} else {
 				anInt4253 = buffer.method2186(i + -24070);
 			}
-			if ((0x2 & i_6_ ^ 0xffffffff) == -1) {
+			if ((0x2 & i_6_) == 0) {
 				aFloat4254 = 1.1523438F;
 			} else {
 				aFloat4254 = (float) buffer.method2219(-130546744) / 256.0F;
 			}
-			if ((0x4 & i_6_ ^ 0xffffffff) != -1) {
+			if ((0x4 & i_6_) != 0) {
 				aFloat4256 = (float) buffer.method2219(-130546744) / 256.0F;
 			} else {
 				aFloat4256 = 0.69921875F;
 			}
-			if ((i_6_ & 0x8 ^ 0xffffffff) == -1) {
+			if ((i_6_ & 0x8) == 0) {
 				aFloat4250 = 1.2F;
 			} else {
 				aFloat4250 = (float) buffer.method2219(i ^ ~0x7c7a247) / 256.0F;
 			}
 		}
-		if ((0x10 & i_6_ ^ 0xffffffff) != -1) {
+		if ((0x10 & i_6_) != 0) {
 			anInt4249 = buffer.method2193(-92);
 			anInt4247 = buffer.method2193(i ^ ~0x5e6d);
 			anInt4248 = buffer.method2193(-104);
@@ -118,17 +118,17 @@ public class Class343
 			anInt4248 = -50;
 			anInt4247 = -60;
 		}
-		if ((0x20 & i_6_ ^ 0xffffffff) != -1) {
+		if ((0x20 & i_6_) != 0) {
 			anInt4257 = buffer.method2186(98);
 		} else {
 			anInt4257 = Class320_Sub26.anInt8456;
 		}
-		if ((i_6_ & 0x40 ^ 0xffffffff) != -1) {
+		if ((i_6_ & 0x40) != 0) {
 			anInt4258 = buffer.method2219(-130546744);
 		} else {
 			anInt4258 = 0;
 		}
-		if ((0x80 & i_6_ ^ 0xffffffff) != -1) {
+		if ((0x80 & i_6_) != 0) {
 			int i_7_ = buffer.method2219(-130546744);
 			int i_8_ = buffer.method2219(-130546744);
 			int i_9_ = buffer.method2219(i ^ ~0x7c7a247);
@@ -146,7 +146,7 @@ public class Class343
 			aShortArray4255 = null;
 		}
 		anInt4243++;
-		if (!((0x40000 & i ^ 0xffffffff) != -1 | Class320_Sub7.method3711((byte) 76, i, i_13_)) && !Class110.method1135(i, i_13_, false)) {
+		if (!((0x40000 & i) != 0 | Class320_Sub7.method3711((byte) 76, i, i_13_)) && !Class110.method1135(i, i_13_, false)) {
 			return false;
 		}
 		return true;
@@ -155,7 +155,7 @@ public class Class343
 	final boolean method3968(byte b, Class343 class343_15_) {
 		anInt4246++;
 		int i = 39 / ((b - -4) / 42);
-		if (anInt4253 != class343_15_.anInt4253 || class343_15_.aFloat4254 != aFloat4254 || aFloat4256 != class343_15_.aFloat4256 || aFloat4250 != class343_15_.aFloat4250 || class343_15_.aFloat4239 != aFloat4239 || aFloat4244 != class343_15_.aFloat4244 || aFloat4251 != class343_15_.aFloat4251 || (anInt4257 ^ 0xffffffff) != (class343_15_.anInt4257 ^ 0xffffffff) || (class343_15_.anInt4258 ^ 0xffffffff) != (anInt4258 ^ 0xffffffff) || class343_15_.aClass270_4240 != aClass270_4240 || class343_15_.aClass119_4238 != aClass119_4238) {
+		if (anInt4253 != class343_15_.anInt4253 || class343_15_.aFloat4254 != aFloat4254 || aFloat4256 != class343_15_.aFloat4256 || aFloat4250 != class343_15_.aFloat4250 || class343_15_.aFloat4239 != aFloat4239 || aFloat4244 != class343_15_.aFloat4244 || aFloat4251 != class343_15_.aFloat4251 || class343_15_.anInt4257 != anInt4257 || anInt4258 != class343_15_.anInt4258 || class343_15_.aClass270_4240 != aClass270_4240 || class343_15_.aClass119_4238 != aClass119_4238) {
 			return false;
 		}
 		return true;

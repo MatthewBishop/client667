@@ -98,7 +98,7 @@ abstract class Node_Sub38 extends Node
 		if (i_6_ != 27542) {
 			anIntArray7457 = null;
 		}
-		if ((i_4_ ^ 0xffffffff) == -2) {
+		if (i_4_ == 1) {
 			return -i_5_ + 4095;
 		}
 		if (i_4_ == 2) {
@@ -112,7 +112,7 @@ abstract class Node_Sub38 extends Node
 		if (bool != false) {
 			anIntArray7451 = null;
 		}
-		int i_8_ = (anInt7450 ^ 0xffffffff) == -256 ? i : anInt7450;
+		int i_8_ = anInt7450 == 255 ? i : anInt7450;
 		if (!aBoolean7463) {
 			aClass348_7454 = new Class348(i_8_, i, i_7_);
 		} else {

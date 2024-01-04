@@ -32,7 +32,7 @@ public class Class125
 			aClass61_1609 = null;
 		}
 		anInt1608++;
-		if ((i_11_ & 0x800 ^ 0xffffffff) == -1) {
+		if ((i_11_ & 0x800) == 0) {
 			return false;
 		}
 		return true;
@@ -52,7 +52,7 @@ public class Class125
 			int i_15_ = is[i_13_];
 			is[i_13_] = is[i];
 			is[i] = i_15_;
-			int i_16_ = (l ^ 0xffffffffffffffffL) != -9223372036854775808L ? 1 : 0;
+			int i_16_ = l != 9223372036854775807L ? 1 : 0;
 			for (int i_17_ = i_12_; i > i_17_; i_17_++) {
 				if (l + (long) (i_16_ & i_17_) > ls[i_17_]) {
 					long l_18_ = ls[i_17_];

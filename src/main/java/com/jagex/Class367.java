@@ -28,9 +28,9 @@ public class Class367
 	
 	private final void method4075(int i, Buffer buffer, byte b) {
 		if (i != 1) {
-			if ((i ^ 0xffffffff) == -3) {
+			if (i == 2) {
 				anInt4542 = buffer.method2219(-130546744);
-			} else if ((i ^ 0xffffffff) != -4) {
+			} else if (i != 3) {
 				if (i == 4) {
 					anInt4538 = buffer.method2193(-30);
 				}

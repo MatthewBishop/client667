@@ -97,7 +97,7 @@ public class Class22
 			node_sub13 = FloatBuffer.method2250(-386, Class267.aClass318_3445, Class218.worldResponseBuffer.anIsaacCipher1571);
 			Node_Sub36.anInt7423++;
 		}
-		if ((i_2_ ^ 0xffffffff) == -2) {
+		if (i_2_ == 1) {
 			node_sub13 = FloatBuffer.method2250(-386, Class338.aClass318_4198, Class218.worldResponseBuffer.anIsaacCipher1571);
 			Class189.anInt2307++;
 		}

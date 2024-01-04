@@ -306,7 +306,7 @@ public class Mobile_Sub2 extends Mobile implements Interface19
 			plane = Class368.aPlaneArray4548[aByte5931];
 			plane_19_ = Node_Sub38_Sub37.aPlaneArray10466[0];
 		}
-		return objectdefinition.method3046(aByte10731 == 11 ? (int) (aByte10725 + 4) : aByte10725, anInt5940, anInt5934, plane, bool, (byte) 0, anInt5937, (aByte10731 ^ 0xffffffff) != -12 ? aByte10731 : 10, graphicstoolkit, null, i, plane_19_);
+		return objectdefinition.method3046(aByte10731 == 11 ? (int) (aByte10725 + 4) : aByte10725, anInt5940, anInt5934, plane, bool, (byte) 0, anInt5937, aByte10731 != 11 ? aByte10731 : 10, graphicstoolkit, null, i, plane_19_);
 	}
 	
 	public final int method68(int i) {

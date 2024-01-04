@@ -33,7 +33,7 @@ abstract class Class134 implements Interface13
 		if (i != 4493) {
 			method1568(null, null, 22, -50);
 		}
-		if (((c ^ 0xffffffff) > -66 || c > 90) && (c < 97 || c > 122)) {
+		if ((c < 65 || c > 90) && (c < 97 || c > 122)) {
 			return false;
 		}
 		return true;
@@ -50,12 +50,12 @@ abstract class Class134 implements Interface13
 				System.out.println("Shader compile failed:");
 			}
 			OpenGL.glGetObjectParameterivARB(l, 35716, Class142.anIntArray1759, 1);
-			if ((Class142.anIntArray1759[1] ^ 0xffffffff) < -2) {
+			if (Class142.anIntArray1759[1] > 1) {
 				byte[] bs = new byte[Class142.anIntArray1759[1]];
 				OpenGL.glGetInfoLogARB(l, Class142.anIntArray1759[1], Class142.anIntArray1759, 0, bs, 0);
 				System.out.println(new String(bs));
 			}
-			if ((Class142.anIntArray1759[0] ^ 0xffffffff) == -1) {
+			if (Class142.anIntArray1759[0] == 0) {
 				OpenGL.glDeleteObjectARB(l);
 				return null;
 			}
@@ -258,7 +258,7 @@ abstract class Class134 implements Interface13
 	
 	static final boolean method1574(boolean bool, int i) {
 		anInt5300++;
-		if ((i ^ 0xffffffff) == -26 || (i ^ 0xffffffff) == -6 || (i ^ 0xffffffff) == -51 || i == 6 || i == 45 || (i ^ 0xffffffff) == -1008) {
+		if (i == 25 || i == 5 || i == 50 || i == 6 || i == 45 || i == 1007) {
 			return true;
 		}
 		if (i == 17) {
@@ -310,8 +310,8 @@ abstract class Class134 implements Interface13
 			int i_13_ = 0;
 			int i_14_ = i_13_ + i_5_;
 			int[] is_15_ = is_11_;
-			for (int i_16_ = 0; (i_9_ ^ 0xffffffff) < (i_16_ ^ 0xffffffff); i_16_++) {
-				for (int i_17_ = 0; (i_8_ ^ 0xffffffff) < (i_17_ ^ 0xffffffff); i_17_++) {
+			for (int i_16_ = 0; i_16_ < i_9_; i_16_++) {
+				for (int i_17_ = 0; i_17_ < i_8_; i_17_++) {
 					int i_18_ = is_10_[i_13_++];
 					int i_19_ = is_10_[i_13_++];
 					int i_20_ = is_10_[i_14_++];
@@ -362,7 +362,7 @@ abstract class Class134 implements Interface13
 		if (i_29_ > 0 && !Class371.method4094(i_29_, false)) {
 			throw new IllegalArgumentException("");
 		}
-		if ((i ^ 0xffffffff) < -1 && !Class371.method4094(i, false)) {
+		if (i > 0 && !Class371.method4094(i, false)) {
 			throw new IllegalArgumentException("");
 		}
 		int i_30_ = aClass68_5317.anInt934;
@@ -370,7 +370,7 @@ abstract class Class134 implements Interface13
 			anIntArray5319 = null;
 		}
 		int i_31_ = 0;
-		int i_32_ = (i_29_ ^ 0xffffffff) <= (i ^ 0xffffffff) ? i : i_29_;
+		int i_32_ = i <= i_29_ ? i : i_29_;
 		int i_33_ = i_29_ >> 1;
 		int i_34_ = i >> 1;
 		byte[] bs_35_ = bs;
@@ -382,12 +382,12 @@ abstract class Class134 implements Interface13
 			}
 			int i_37_ = i_29_ * i_30_;
 			byte[] bs_38_ = bs_36_;
-			for (int i_39_ = 0; (i_39_ ^ 0xffffffff) > (i_30_ ^ 0xffffffff); i_39_++) {
+			for (int i_39_ = 0; i_30_ > i_39_; i_39_++) {
 				int i_40_ = i_39_;
 				int i_41_ = i_39_;
 				int i_42_ = i_37_ + i_41_;
 				for (int i_43_ = 0; i_43_ < i_34_; i_43_++) {
-					for (int i_44_ = 0; (i_33_ ^ 0xffffffff) < (i_44_ ^ 0xffffffff); i_44_++) {
+					for (int i_44_ = 0; i_44_ < i_33_; i_44_++) {
 						int i_45_ = bs_35_[i_41_];
 						i_41_ += i_30_;
 						i_45_ += bs_35_[i_41_];
@@ -419,7 +419,7 @@ abstract class Class134 implements Interface13
 		if (i > 0 && !Class371.method4094(i, false)) {
 			throw new IllegalArgumentException("");
 		}
-		if ((i_46_ ^ 0xffffffff) < -1 && !Class371.method4094(i_46_, false)) {
+		if (i_46_ > 0 && !Class371.method4094(i_46_, false)) {
 			throw new IllegalArgumentException("");
 		}
 		int i_48_ = aClass68_5317.anInt934;
@@ -440,8 +440,8 @@ abstract class Class134 implements Interface13
 					int i_57_ = i_56_;
 					int i_58_ = i_56_;
 					int i_59_ = i_55_ + i_58_;
-					for (int i_60_ = 0; (i_60_ ^ 0xffffffff) > (i_52_ ^ 0xffffffff); i_60_++) {
-						for (int i_61_ = 0; (i_51_ ^ 0xffffffff) < (i_61_ ^ 0xffffffff); i_61_++) {
+					for (int i_60_ = 0; i_52_ > i_60_; i_60_++) {
+						for (int i_61_ = 0; i_61_ < i_51_; i_61_++) {
 							float f = fs_53_[i_58_];
 							i_58_ += i_48_;
 							f += fs_53_[i_58_];

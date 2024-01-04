@@ -176,7 +176,7 @@ public class StandardDrawableModel extends DrawableModel
 			interface15_impl2.method37(4, 4 * anInt5885, -12093);
 			jaclib.memory.Buffer buffer = interface15_impl2.method40(-91, true);
 			if (buffer != null) {
-				if ((0x37 & anInt5896 ^ 0xffffffff) != -1) {
+				if ((0x37 & anInt5896) != 0) {
 					anAbstractToolkit5916.aNativeInterface6193.copyColours(aShortArray5802, aByteArray5886, aShortArray5862, aShort5868, aShortArray5832, 0, 4, anInt5885, buffer.getAddress());
 				} else {
 					byte[] bs;
@@ -268,10 +268,10 @@ public class StandardDrawableModel extends DrawableModel
 		int[] is = new int[model.anInt2572];
 		anIntArray5911 = new int[model.anInt2573 + 1];
 		for (int i_11_ = 0; i_11_ < model.anInt2572; i_11_++) {
-			if (model.aByteArray2594 == null || (model.aByteArray2594[i_11_] ^ 0xffffffff) != -3) {
-				if (model.aShortArray2587 != null && (model.aShortArray2587[i_11_] ^ 0xffffffff) != 0) {
+			if (model.aByteArray2594 == null || model.aByteArray2594[i_11_] != 2) {
+				if (model.aShortArray2587 != null && model.aShortArray2587[i_11_] != -1) {
 					Class91 class91 = var_d.method10(model.aShortArray2587[i_11_] & 0xffff, -8217);
-					if (((0x40 & anInt5896 ^ 0xffffffff) == -1 || !class91.aBoolean1223) && class91.aBoolean1205) {
+					if (((0x40 & anInt5896) == 0 || !class91.aBoolean1223) && class91.aBoolean1205) {
 						continue;
 					}
 				}
@@ -284,7 +284,7 @@ public class StandardDrawableModel extends DrawableModel
 		anInt5859 = anInt5813;
 		long[] ls = new long[anInt5813];
 		boolean bool = (0x100 & anInt5881) != 0;
-		for (int i_12_ = 0; (i_12_ ^ 0xffffffff) > (anInt5813 ^ 0xffffffff); i_12_++) {
+		for (int i_12_ = 0; anInt5813 > i_12_; i_12_++) {
 			int i_13_ = is[i_12_];
 			Class91 class91 = null;
 			int i_14_ = 0;
@@ -295,14 +295,14 @@ public class StandardDrawableModel extends DrawableModel
 				boolean bool_18_ = false;
 				for (int i_19_ = 0; model.aClass17Array2621.length > i_19_; i_19_++) {
 					Class17 class17 = model.aClass17Array2621[i_19_];
-					if ((class17.anInt273 ^ 0xffffffff) == (i_13_ ^ 0xffffffff)) {
+					if (i_13_ == class17.anInt273) {
 						Class352 class352 = Class215.method2067(0, class17.anInt279);
 						if (class352.aBoolean4325) {
 							bool_18_ = true;
 						}
-						if ((class352.anInt4330 ^ 0xffffffff) != 0) {
+						if (class352.anInt4330 != -1) {
 							Class91 class91_20_ = var_d.method10(class352.anInt4330, -8217);
-							if ((class91_20_.anInt1226 ^ 0xffffffff) == -3) {
+							if (class91_20_.anInt1226 == 2) {
 								aBoolean5819 = true;
 							}
 						}
@@ -317,7 +317,7 @@ public class StandardDrawableModel extends DrawableModel
 			int i_21_ = -1;
 			if (model.aShortArray2587 != null) {
 				i_21_ = model.aShortArray2587[i_13_];
-				if ((i_21_ ^ 0xffffffff) != 0) {
+				if (i_21_ != -1) {
 					class91 = var_d.method10(i_21_ & 0xffff, -8217);
 					if ((0x40 & anInt5896) != 0 && class91.aBoolean1223) {
 						i_21_ = -1;
@@ -328,7 +328,7 @@ public class StandardDrawableModel extends DrawableModel
 					}
 				}
 			}
-			boolean bool_22_ = model.aByteArray2622 != null && (model.aByteArray2622[i_13_] ^ 0xffffffff) != -1 || class91 != null && (class91.anInt1226 ^ 0xffffffff) != -1;
+			boolean bool_22_ = model.aByteArray2622 != null && model.aByteArray2622[i_13_] != 0 || class91 != null && class91.anInt1226 != 0;
 			if ((bool || bool_22_) && model.aByteArray2607 != null) {
 				i_14_ += model.aByteArray2607[i_13_] << 17;
 			}
@@ -342,7 +342,7 @@ public class StandardDrawableModel extends DrawableModel
 			ls[i_12_] = ((long) i_14_ << 32) + (long) i_15_;
 			aBoolean5819 |= bool_22_;
 			StandardDrawableModel standarddrawablemodel_23_ = this;
-			standarddrawablemodel_23_.aBoolean5866 = standarddrawablemodel_23_.aBoolean5866 | (class91 != null && ((class91.aByte1211 ^ 0xffffffff) != -1 || class91.aByte1203 != 0));
+			standarddrawablemodel_23_.aBoolean5866 = standarddrawablemodel_23_.aBoolean5866 | (class91 != null && (class91.aByte1211 != 0 || class91.aByte1203 != 0));
 		}
 		Node_Sub3.method2170(-52, ls, is);
 		anIntArray5879 = model.anIntArray2616;
@@ -362,13 +362,13 @@ public class StandardDrawableModel extends DrawableModel
 				Class17 class17 = model.aClass17Array2621[i_24_];
 				Class352 class352 = Class215.method2067(0, class17.anInt279);
 				int i_25_ = -1;
-				for (int i_26_ = 0; (anInt5813 ^ 0xffffffff) < (i_26_ ^ 0xffffffff); i_26_++) {
-					if ((class17.anInt273 ^ 0xffffffff) == (is[i_26_] ^ 0xffffffff)) {
+				for (int i_26_ = 0; i_26_ < anInt5813; i_26_++) {
+					if (is[i_26_] == class17.anInt273) {
 						i_25_ = i_26_;
 						break;
 					}
 				}
-				if ((i_25_ ^ 0xffffffff) == 0) {
+				if (i_25_ == -1) {
 					throw new RuntimeException();
 				}
 				int i_27_ = 0xffffff & Class85.anIntArray1158[model.aShortArray2580[class17.anInt273] & 0xffff];
@@ -400,7 +400,7 @@ public class StandardDrawableModel extends DrawableModel
 			aShortArray5861 = new short[anInt5813];
 		}
 		int i_29_ = 0;
-		for (int i_30_ = 0; (model.anInt2573 ^ 0xffffffff) < (i_30_ ^ 0xffffffff); i_30_++) {
+		for (int i_30_ = 0; i_30_ < model.anInt2573; i_30_++) {
 			int i_31_ = anIntArray5911[i_30_];
 			anIntArray5911[i_30_] = i_29_;
 			class344s[i_30_] = new Class344();
@@ -422,7 +422,7 @@ public class StandardDrawableModel extends DrawableModel
 			int i_41_ = -(i_39_ * i_37_) + i_40_ * i_36_;
 			int i_42_ = -(i_40_ * i_35_) + i_38_ * i_37_;
 			int i_43_;
-			for (i_43_ = i_39_ * i_35_ - i_38_ * i_36_; (i_41_ ^ 0xffffffff) < -8193 || i_42_ > 8192 || (i_43_ ^ 0xffffffff) < -8193 || i_41_ < -8192 || (i_42_ ^ 0xffffffff) > 8191 || i_43_ < -8192; i_42_ >>= 1) {
+			for (i_43_ = i_39_ * i_35_ - i_38_ * i_36_; i_41_ > 8192 || i_42_ > 8192 || i_43_ > 8192 || i_41_ < -8192 || i_42_ < -8192 || i_43_ < -8192; i_42_ >>= 1) {
 				i_41_ >>= 1;
 				i_43_ >>= 1;
 			}
@@ -434,7 +434,7 @@ public class StandardDrawableModel extends DrawableModel
 			i_41_ = i_41_ * 256 / i_44_;
 			i_42_ = i_42_ * 256 / i_44_;
 			byte b = model.aByteArray2594 != null ? model.aByteArray2594[i_32_] : (byte) 0;
-			if ((b ^ 0xffffffff) == -1) {
+			if (b == 0) {
 				Class344 class344 = class344s[s];
 				class344.anInt4264++;
 				class344.anInt4262 += i_42_;
@@ -457,7 +457,7 @@ public class StandardDrawableModel extends DrawableModel
 				class221.anInt2632 = i_43_;
 			}
 		}
-		for (int i_45_ = 0; (i_45_ ^ 0xffffffff) > (anInt5813 ^ 0xffffffff); i_45_++) {
+		for (int i_45_ = 0; anInt5813 > i_45_; i_45_++) {
 			int i_46_ = is[i_45_];
 			int i_47_ = 0xffff & model.aShortArray2580[i_46_];
 			int i_48_;
@@ -492,7 +492,7 @@ public class StandardDrawableModel extends DrawableModel
 				if (i_48_ != -1) {
 					i_48_ &= 0xff;
 					byte b = model.aByteArray2586[i_48_];
-					if ((b ^ 0xffffffff) == -1) {
+					if (b == 0) {
 						short s_58_ = model.aShortArray2600[i_46_];
 						short s_59_ = model.aShortArray2583[i_46_];
 						short s_60_ = model.aShortArray2589[i_46_];
@@ -544,7 +544,7 @@ public class StandardDrawableModel extends DrawableModel
 						float[] fs = class345.aFloatArrayArray4265[i_48_];
 						byte b_95_ = model.aByteArray2585[i_48_];
 						float f_96_ = (float) model.anIntArray2617[i_48_] / 256.0F;
-						if ((b ^ 0xffffffff) == -2) {
+						if (b == 1) {
 							float f_97_ = (float) model.anIntArray2593[i_48_] / 1024.0F;
 							Class262_Sub1.method3151(fs, f_96_, i_94_, model.anIntArray2616[s_89_], b_95_, Class20_Sub1.aFloatArray5507, f_97_, i_93_, -2356, model.anIntArray2576[s_89_], model.anIntArray2574[s_89_], i_92_);
 							f = Class20_Sub1.aFloatArray5507[0];
@@ -589,7 +589,7 @@ public class StandardDrawableModel extends DrawableModel
 									i_56_ = 2;
 								}
 							}
-						} else if ((b ^ 0xffffffff) == -3) {
+						} else if (b == 2) {
 							float f_99_ = (float) model.anIntArray2615[i_48_] / 256.0F;
 							float f_100_ = (float) model.anIntArray2584[i_48_] / 256.0F;
 							int i_101_ = -model.anIntArray2616[s_89_] + model.anIntArray2616[s_90_];
@@ -617,7 +617,7 @@ public class StandardDrawableModel extends DrawableModel
 							Class39.method407(f_96_, i_57_, model.anIntArray2616[s_91_], f_99_, i_93_, Class20_Sub1.aFloatArray5507, model.anIntArray2576[s_91_], 105, model.anIntArray2574[s_91_], i_92_, i_94_, f_100_, fs, b_95_);
 							f_53_ = Class20_Sub1.aFloatArray5507[0];
 							f_54_ = Class20_Sub1.aFloatArray5507[1];
-						} else if ((b ^ 0xffffffff) == -4) {
+						} else if (b == 3) {
 							Class212.method2053(i_92_, model.anIntArray2574[s_89_], model.anIntArray2576[s_89_], Class20_Sub1.aFloatArray5507, i_94_, f_96_, fs, b_95_, model.anIntArray2616[s_89_], -4, i_93_);
 							f = Class20_Sub1.aFloatArray5507[0];
 							f_50_ = Class20_Sub1.aFloatArray5507[1];
@@ -690,9 +690,9 @@ public class StandardDrawableModel extends DrawableModel
 				aShortArray5846[i_45_] = method695(class344.anInt4263, class344.anInt4264, f_51_, s_117_, class344.anInt4260, i_45_, 2971, f_52_, (long) i_55_ + l, class344.anInt4262, model);
 				class344 = class344s[s_118_];
 				aShortArray5906[i_45_] = method695(class344.anInt4263, class344.anInt4264, f_53_, s_118_, class344.anInt4260, i_45_, 2971, f_54_, (long) i_56_ + l, class344.anInt4262, model);
-			} else if ((b ^ 0xffffffff) == -2) {
+			} else if (b == 1) {
 				Class221 class221 = class221s[i_46_];
-				long l = ((long) i_49_ + ((long) (i_57_ << 24) - -(long) (i_47_ << 8)) << 32) + (long) ((class221.anInt2629 + 256 << 12) + (((class221.anInt2631 ^ 0xffffffff) >= -1 ? 2048 : 1024) + (i_48_ << 2) - -(256 + class221.anInt2632 << 22)));
+				long l = ((long) i_49_ + ((long) (i_57_ << 24) - -(long) (i_47_ << 8)) << 32) + (long) ((class221.anInt2629 + 256 << 12) + ((class221.anInt2631 <= 0 ? 2048 : 1024) + (i_48_ << 2) - -(256 + class221.anInt2632 << 22)));
 				aShortArray5841[i_45_] = method695(class221.anInt2632, 0, f, model.aShortArray2600[i_46_], class221.anInt2631, i_45_, 2971, f_50_, l, class221.anInt2629, model);
 				aShortArray5846[i_45_] = method695(class221.anInt2632, 0, f_51_, model.aShortArray2583[i_46_], class221.anInt2631, i_45_, 2971, f_52_, l + (long) i_55_, class221.anInt2629, model);
 				aShortArray5906[i_45_] = method695(class221.anInt2632, 0, f_53_, model.aShortArray2589[i_46_], class221.anInt2631, i_45_, 2971, f_54_, l + (long) i_56_, class221.anInt2629, model);
@@ -706,12 +706,12 @@ public class StandardDrawableModel extends DrawableModel
 			aShortArray5802[i_45_] = model.aShortArray2580[i_46_];
 			aShortArray5862[i_45_] = s;
 		}
-		if ((anInt5859 ^ 0xffffffff) < -1) {
+		if (anInt5859 > 0) {
 			int i_119_ = 1;
 			short s = aShortArray5862[0];
 			for (int i_120_ = 0; i_120_ < anInt5859; i_120_++) {
 				short s_121_ = aShortArray5862[i_120_];
-				if ((s ^ 0xffffffff) != (s_121_ ^ 0xffffffff)) {
+				if (s_121_ != s) {
 					i_119_++;
 					s = s_121_;
 				}
@@ -724,7 +724,7 @@ public class StandardDrawableModel extends DrawableModel
 			i_119_ = 0;
 			int i_123_ = 0;
 			s = aShortArray5862[0];
-			for (int i_124_ = 0; (anInt5859 ^ 0xffffffff) < (i_124_ ^ 0xffffffff); i_124_++) {
+			for (int i_124_ = 0; i_124_ < anInt5859; i_124_++) {
 				short s_125_ = aShortArray5862[i_124_];
 				if (s_125_ != s) {
 					anIntArray5884[i_119_] = i_122_;
@@ -735,17 +735,17 @@ public class StandardDrawableModel extends DrawableModel
 					s = s_125_;
 				}
 				int i_126_ = aShortArray5841[i_124_];
-				if ((i_123_ ^ 0xffffffff) > (i_126_ ^ 0xffffffff)) {
+				if (i_126_ > i_123_) {
 					i_123_ = i_126_;
 				}
-				if ((i_126_ ^ 0xffffffff) > (i_122_ ^ 0xffffffff)) {
+				if (i_122_ > i_126_) {
 					i_122_ = i_126_;
 				}
 				i_126_ = aShortArray5846[i_124_];
-				if ((i_123_ ^ 0xffffffff) > (i_126_ ^ 0xffffffff)) {
+				if (i_126_ > i_123_) {
 					i_123_ = i_126_;
 				}
-				if ((i_126_ ^ 0xffffffff) > (i_122_ ^ 0xffffffff)) {
+				if (i_122_ > i_126_) {
 					i_122_ = i_126_;
 				}
 				i_126_ = aShortArray5906[i_124_];
@@ -778,11 +778,11 @@ public class StandardDrawableModel extends DrawableModel
 		if (model.anIntArray2602 != null && EntityNode_Sub3.method940(-1, anInt5896, i)) {
 			int i_127_ = 0;
 			int[] is_128_ = new int[256];
-			for (int i_129_ = 0; (anInt5813 ^ 0xffffffff) < (i_129_ ^ 0xffffffff); i_129_++) {
+			for (int i_129_ = 0; i_129_ < anInt5813; i_129_++) {
 				int i_130_ = model.anIntArray2602[is[i_129_]];
 				if (i_130_ >= 0) {
 					is_128_[i_130_]++;
-					if ((i_127_ ^ 0xffffffff) > (i_130_ ^ 0xffffffff)) {
+					if (i_130_ > i_127_) {
 						i_127_ = i_130_;
 					}
 				}
@@ -792,9 +792,9 @@ public class StandardDrawableModel extends DrawableModel
 				anIntArrayArray5900[i_131_] = new int[is_128_[i_131_]];
 				is_128_[i_131_] = 0;
 			}
-			for (int i_132_ = 0; (anInt5813 ^ 0xffffffff) < (i_132_ ^ 0xffffffff); i_132_++) {
+			for (int i_132_ = 0; i_132_ < anInt5813; i_132_++) {
 				int i_133_ = model.anIntArray2602[is[i_132_]];
-				if ((i_133_ ^ 0xffffffff) <= -1) {
+				if (i_133_ >= 0) {
 					anIntArrayArray5900[i_133_][is_128_[i_133_]++] = i_132_;
 				}
 			}
@@ -825,23 +825,23 @@ public class StandardDrawableModel extends DrawableModel
 		int i_140_ = i_136_ - -anInt5815;
 		int i_141_ = i_138_ + anInt5883;
 		int i_142_ = anInt5909 + i_138_;
-		if (i != 1 && i != 2 && i != 3 && (i ^ 0xffffffff) != -6 || (i_139_ ^ 0xffffffff) <= -1 && (plane.anInt3408 ^ 0xffffffff) < (plane.anInt3398 + i_140_ >> plane.anInt3410 ^ 0xffffffff) && (i_141_ ^ 0xffffffff) <= -1 && i_142_ + plane.anInt3398 >> plane.anInt3410 < plane.anInt3404) {
+		if (i != 1 && i != 2 && i != 3 && i != 5 || i_139_ >= 0 && plane.anInt3398 + i_140_ >> plane.anInt3410 < plane.anInt3408 && i_141_ >= 0 && i_142_ + plane.anInt3398 >> plane.anInt3410 < plane.anInt3404) {
 			if (i != 4 && i != 5) {
 				i_139_ >>= plane.anInt3410;
 				i_140_ = -1 + (plane.anInt3398 + i_140_) >> plane.anInt3410;
 				i_141_ >>= plane.anInt3410;
 				i_142_ = -1 - (-plane.anInt3398 - i_142_) >> plane.anInt3410;
-				if (plane.method3251(i_141_, i_139_, (byte) -118) == i_137_ && plane.method3251(i_141_, i_140_, (byte) -118) == i_137_ && (i_137_ ^ 0xffffffff) == (plane.method3251(i_142_, i_139_, (byte) -118) ^ 0xffffffff) && plane.method3251(i_142_, i_140_, (byte) -118) == i_137_) {
+				if (plane.method3251(i_141_, i_139_, (byte) -118) == i_137_ && plane.method3251(i_141_, i_140_, (byte) -118) == i_137_ && plane.method3251(i_142_, i_139_, (byte) -118) == i_137_ && plane.method3251(i_142_, i_140_, (byte) -118) == i_137_) {
 					return;
 				}
-			} else if (plane_135_ == null || ((i_139_ ^ 0xffffffff) > -1 || (plane_135_.anInt3408 ^ 0xffffffff) >= (plane_135_.anInt3398 + i_140_ >> plane_135_.anInt3410 ^ 0xffffffff) || i_141_ < 0 || (plane_135_.anInt3398 + i_142_ >> plane_135_.anInt3410 ^ 0xffffffff) <= (plane_135_.anInt3404 ^ 0xffffffff))) {
+			} else if (plane_135_ == null || (i_139_ < 0 || plane_135_.anInt3398 + i_140_ >> plane_135_.anInt3410 >= plane_135_.anInt3408 || i_141_ < 0 || plane_135_.anInt3404 <= plane_135_.anInt3398 + i_142_ >> plane_135_.anInt3410)) {
 				return;
 			}
 			if (i == 1) {
 				for (int i_143_ = 0; anInt5912 > i_143_; i_143_++)
 					anIntArray5897[i_143_] = -i_137_ + (anIntArray5897[i_143_] + plane.method3260(i_138_ + anIntArray5913[i_143_], -117, anIntArray5879[i_143_] + i_136_));
 			} else if (i != 2) {
-				if ((i ^ 0xffffffff) != -4) {
+				if (i != 3) {
 					if (i != 4) {
 						if (i == 5) {
 							int i_144_ = -anInt5903 + anInt5821;
@@ -856,7 +856,7 @@ public class StandardDrawableModel extends DrawableModel
 						}
 					} else {
 						int i_151_ = anInt5821 + -anInt5903;
-						for (int i_152_ = 0; (anInt5912 ^ 0xffffffff) < (i_152_ ^ 0xffffffff); i_152_++)
+						for (int i_152_ = 0; i_152_ < anInt5912; i_152_++)
 							anIntArray5897[i_152_] = i_151_ + anIntArray5897[i_152_] + (plane_135_.method3260(i_138_ + anIntArray5913[i_152_], -110, anIntArray5879[i_152_] + i_136_) - i_137_);
 					}
 				} else {
@@ -864,14 +864,14 @@ public class StandardDrawableModel extends DrawableModel
 					int i_154_ = 4 * ((i_134_ & 0xffd9) >> 8);
 					int i_155_ = i_134_ >> 16 << 6 & 0x3fc0;
 					int i_156_ = i_134_ >> 24 << 6 & 0x3fc0;
-					if ((-(i_153_ >> 1) + i_136_ ^ 0xffffffff) > -1 || (plane.anInt3408 << plane.anInt3410 ^ 0xffffffff) >= ((i_153_ >> 1) + (i_136_ + plane.anInt3398) ^ 0xffffffff) || -(i_154_ >> 1) + i_138_ < 0 || i_138_ - -(i_154_ >> 1) - -plane.anInt3398 >= plane.anInt3404 << plane.anInt3410) {
+					if (-(i_153_ >> 1) + i_136_ < 0 || (i_153_ >> 1) + (i_136_ + plane.anInt3398) >= plane.anInt3408 << plane.anInt3410 || -(i_154_ >> 1) + i_138_ < 0 || i_138_ - -(i_154_ >> 1) - -plane.anInt3398 >= plane.anInt3404 << plane.anInt3410) {
 						return;
 					}
 					this.method628(i_137_, i_155_, i_136_, -7024, i_153_, i_138_, i_154_, plane, i_156_);
 				}
 			} else {
 				int i_157_ = anInt5903;
-				if ((i_157_ ^ 0xffffffff) == -1) {
+				if (i_157_ == 0) {
 					return;
 				}
 				for (int i_158_ = 0; i_158_ < anInt5912; i_158_++) {
@@ -953,7 +953,7 @@ public class StandardDrawableModel extends DrawableModel
 					stream.c(aShortArray5906[i_161_]);
 				}
 			} else {
-				for (int i_162_ = 0; (i_162_ ^ 0xffffffff) > (anInt5859 ^ 0xffffffff); i_162_++) {
+				for (int i_162_ = 0; anInt5859 > i_162_; i_162_++) {
 					stream.b(aShortArray5841[i_162_]);
 					stream.b(aShortArray5846[i_162_]);
 					stream.b(aShortArray5906[i_162_]);
@@ -1023,7 +1023,7 @@ public class StandardDrawableModel extends DrawableModel
 		}
 		anInt5881 = i;
 		aBoolean5826 = true;
-		if (aClass284_5867 != null && (0x10000 & anInt5881 ^ 0xffffffff) == -1) {
+		if (aClass284_5867 != null && (0x10000 & anInt5881) == 0) {
 			aShortArray5794 = aClass284_5867.aShortArray3593;
 			aByteArray5834 = aClass284_5867.aByteArray3598;
 			aShortArray5889 = aClass284_5867.aShortArray3595;
@@ -1053,18 +1053,18 @@ public class StandardDrawableModel extends DrawableModel
 	
 	final void P(int i, int i_171_, int i_172_, int i_173_) {
 		anInt5829++;
-		if ((i ^ 0xffffffff) == -1) {
+		if (i == 0) {
 			Class270_Sub2_Sub2.anInt10557 = 0;
 			Class146.anInt1817 = 0;
 			int i_174_ = 0;
 			Class210.anInt2498 = 0;
-			for (int i_175_ = 0; (anInt5912 ^ 0xffffffff) < (i_175_ ^ 0xffffffff); i_175_++) {
+			for (int i_175_ = 0; i_175_ < anInt5912; i_175_++) {
 				Class146.anInt1817 += anIntArray5879[i_175_];
 				Class270_Sub2_Sub2.anInt10557 += anIntArray5897[i_175_];
 				i_174_++;
 				Class210.anInt2498 = Class210.anInt2498 + anIntArray5913[i_175_];
 			}
-			if ((i_174_ ^ 0xffffffff) >= -1) {
+			if (i_174_ <= 0) {
 				Class270_Sub2_Sub2.anInt10557 = i_172_;
 				Class146.anInt1817 = i_171_;
 				Class210.anInt2498 = i_173_;
@@ -1084,21 +1084,21 @@ public class StandardDrawableModel extends DrawableModel
 				anIntArray5879[i_177_] -= Class146.anInt1817;
 				anIntArray5897[i_177_] -= Class270_Sub2_Sub2.anInt10557;
 				anIntArray5913[i_177_] -= Class210.anInt2498;
-				if ((i_173_ ^ 0xffffffff) != -1) {
+				if (i_173_ != 0) {
 					int i_178_ = Class335.anIntArray4167[i_173_];
 					int i_179_ = Class335.anIntArray4165[i_173_];
 					int i_180_ = 16383 + i_179_ * anIntArray5879[i_177_] + anIntArray5897[i_177_] * i_178_ >> 14;
 					anIntArray5897[i_177_] = 16383 + i_179_ * anIntArray5897[i_177_] - anIntArray5879[i_177_] * i_178_ >> 14;
 					anIntArray5879[i_177_] = i_180_;
 				}
-				if ((i_171_ ^ 0xffffffff) != -1) {
+				if (i_171_ != 0) {
 					int i_181_ = Class335.anIntArray4167[i_171_];
 					int i_182_ = Class335.anIntArray4165[i_171_];
 					int i_183_ = 16383 + i_182_ * anIntArray5897[i_177_] - anIntArray5913[i_177_] * i_181_ >> 14;
 					anIntArray5913[i_177_] = 16383 + (i_182_ * anIntArray5913[i_177_] + i_181_ * anIntArray5897[i_177_]) >> 14;
 					anIntArray5897[i_177_] = i_183_;
 				}
-				if ((i_172_ ^ 0xffffffff) != -1) {
+				if (i_172_ != 0) {
 					int i_184_ = Class335.anIntArray4167[i_172_];
 					int i_185_ = Class335.anIntArray4165[i_172_];
 					int i_186_ = 16383 + (anIntArray5913[i_177_] * i_184_ + i_185_ * anIntArray5879[i_177_]) >> 14;
@@ -1109,7 +1109,7 @@ public class StandardDrawableModel extends DrawableModel
 				anIntArray5897[i_177_] += Class270_Sub2_Sub2.anInt10557;
 				anIntArray5913[i_177_] += Class210.anInt2498;
 			}
-		} else if ((i ^ 0xffffffff) == -4) {
+		} else if (i == 3) {
 			for (int i_187_ = 0; anInt5912 > i_187_; i_187_++) {
 				anIntArray5879[i_187_] -= Class146.anInt1817;
 				anIntArray5897[i_187_] -= Class270_Sub2_Sub2.anInt10557;
@@ -1122,7 +1122,7 @@ public class StandardDrawableModel extends DrawableModel
 				anIntArray5913[i_187_] += Class210.anInt2498;
 			}
 		} else if (i == 5) {
-			for (int i_188_ = 0; (i_188_ ^ 0xffffffff) > (anInt5813 ^ 0xffffffff); i_188_++) {
+			for (int i_188_ = 0; anInt5813 > i_188_; i_188_++) {
 				int i_189_ = i_171_ * 8 + (0xff & aByteArray5886[i_188_]);
 				if (i_189_ < 0) {
 					i_189_ = 0;
@@ -1139,7 +1139,7 @@ public class StandardDrawableModel extends DrawableModel
 				}
 			}
 			method703(0);
-		} else if ((i ^ 0xffffffff) == -8) {
+		} else if (i == 7) {
 			for (int i_191_ = 0; i_191_ < anInt5813; i_191_++) {
 				int i_192_ = 0xffff & aShortArray5802[i_191_];
 				int i_193_ = (0xfd70 & i_192_) >> 10;
@@ -1149,7 +1149,7 @@ public class StandardDrawableModel extends DrawableModel
 				i_193_ = i_193_ + i_171_ & 0x3f;
 				i_195_ += i_173_;
 				if (i_194_ >= 0) {
-					if ((i_194_ ^ 0xffffffff) < -8) {
+					if (i_194_ > 7) {
 						i_194_ = 7;
 					}
 				} else {
@@ -1172,7 +1172,7 @@ public class StandardDrawableModel extends DrawableModel
 				}
 			}
 			method703(0);
-		} else if ((i ^ 0xffffffff) == -9) {
+		} else if (i == 8) {
 			for (int i_197_ = 0; anInt5811 > i_197_; i_197_++) {
 				Class14 class14 = aClass14Array5872[i_197_];
 				class14.anInt213 += i_172_;
@@ -1196,7 +1196,7 @@ public class StandardDrawableModel extends DrawableModel
 		anInt5800++;
 		Class336_Sub1 class336_sub1 = (Class336_Sub1) class336;
 		if (aClass300Array5905 != null) {
-			for (int i = 0; (i ^ 0xffffffff) > (aClass300Array5905.length ^ 0xffffffff); i++) {
+			for (int i = 0; aClass300Array5905.length > i; i++) {
 				Class300 class300 = aClass300Array5905[i];
 				Class300 class300_200_ = class300;
 				if (class300.aClass300_3763 != null) {
@@ -1214,7 +1214,7 @@ public class StandardDrawableModel extends DrawableModel
 			}
 		}
 		if (aClass218Array5817 != null) {
-			for (int i = 0; (i ^ 0xffffffff) > (aClass218Array5817.length ^ 0xffffffff); i++) {
+			for (int i = 0; aClass218Array5817.length > i; i++) {
 				Class218 class218 = aClass218Array5817[i];
 				Class218 class218_201_ = class218;
 				if (class218.aClass218_2561 != null) {
@@ -1299,7 +1299,7 @@ public class StandardDrawableModel extends DrawableModel
 		GLPlane.anIntArray7918[7] = i_225_;
 		Class99.anIntArray1292[7] = i_226_;
 		Canvas.anIntArray70[7] = i_227_;
-		for (int i_228_ = 0; (i_228_ ^ 0xffffffff) > -9; i_228_++) {
+		for (int i_228_ = 0; i_228_ < 8; i_228_++) {
 			float f_229_ = (float) GLPlane.anIntArray7918[i_228_];
 			float f_230_ = (float) Canvas.anIntArray70[i_228_];
 			float f_231_ = (float) Class99.anIntArray1292[i_228_];
@@ -1307,7 +1307,7 @@ public class StandardDrawableModel extends DrawableModel
 			float f_233_ = Node_Sub15_Sub7.aFloat9821 * f_229_ + Class331.aFloat4140 * f_231_ + f_230_ * Class262_Sub14.aFloat7810 + f_208_;
 			float f_234_ = Class51_Sub2.aFloat9074 * f_230_ + (f_229_ * Node_Sub27.aFloat7310 + f_231_ * Node_Sub36_Sub4.aFloat10072) + f_207_;
 			if (f_233_ >= (float) anAbstractToolkit5916.anInt6364) {
-				if ((i ^ 0xffffffff) < -1) {
+				if (i > 0) {
 					f_233_ = (float) i;
 				}
 				float f_235_ = (float) anAbstractToolkit5916.anInt6341 + f_232_ * (float) i_214_ / f_233_;
@@ -1331,7 +1331,7 @@ public class StandardDrawableModel extends DrawableModel
 			if (bool_204_) {
 				return true;
 			}
-			if ((anInt5885 ^ 0xffffffff) < (Class107.anIntArray1363.length ^ 0xffffffff)) {
+			if (Class107.anIntArray1363.length < anInt5885) {
 				Class365.anIntArray4525 = new int[anInt5885];
 				Class107.anIntArray1363 = new int[anInt5885];
 			}
@@ -1347,7 +1347,7 @@ public class StandardDrawableModel extends DrawableModel
 					int i_245_ = anIntArray5911[1 + i_237_];
 					for (int i_246_ = i_244_; i_246_ < i_245_; i_246_++) {
 						int i_247_ = -1 + aShortArray5899[i_246_];
-						if ((i_247_ ^ 0xffffffff) == 0) {
+						if (i_247_ == -1) {
 							break;
 						}
 						Class107.anIntArray1363[aShortArray5899[i_246_] + -1] = -999999;
@@ -1360,7 +1360,7 @@ public class StandardDrawableModel extends DrawableModel
 					int i_249_ = (int) ((float) anAbstractToolkit5916.anInt6331 + f_241_ * (float) i_215_ / f_243_);
 					int i_250_ = anIntArray5911[i_237_];
 					int i_251_ = anIntArray5911[i_237_ + 1];
-					for (int i_252_ = i_250_; (i_251_ ^ 0xffffffff) < (i_252_ ^ 0xffffffff); i_252_++) {
+					for (int i_252_ = i_250_; i_252_ < i_251_; i_252_++) {
 						int i_253_ = aShortArray5899[i_252_] - 1;
 						if (i_253_ == -1) {
 							break;
@@ -1370,8 +1370,8 @@ public class StandardDrawableModel extends DrawableModel
 					}
 				}
 			}
-			for (int i_254_ = 0; (anInt5813 ^ 0xffffffff) < (i_254_ ^ 0xffffffff); i_254_++) {
-				if ((Class107.anIntArray1363[aShortArray5841[i_254_]] ^ 0xffffffff) != 999998 && Class107.anIntArray1363[aShortArray5846[i_254_]] != -999999 && (Class107.anIntArray1363[aShortArray5906[i_254_]] ^ 0xffffffff) != 999998 && method696(Class365.anIntArray4525[aShortArray5846[i_254_]], i_205_, Class365.anIntArray4525[aShortArray5841[i_254_]], (byte) 37, Class107.anIntArray1363[aShortArray5906[i_254_]], i_203_, Class107.anIntArray1363[aShortArray5846[i_254_]], Class107.anIntArray1363[aShortArray5841[i_254_]], Class365.anIntArray4525[aShortArray5906[i_254_]])) {
+			for (int i_254_ = 0; i_254_ < anInt5813; i_254_++) {
+				if (Class107.anIntArray1363[aShortArray5841[i_254_]] != -999999 && Class107.anIntArray1363[aShortArray5846[i_254_]] != -999999 && Class107.anIntArray1363[aShortArray5906[i_254_]] != -999999 && method696(Class365.anIntArray4525[aShortArray5846[i_254_]], i_205_, Class365.anIntArray4525[aShortArray5841[i_254_]], (byte) 37, Class107.anIntArray1363[aShortArray5906[i_254_]], i_203_, Class107.anIntArray1363[aShortArray5846[i_254_]], Class107.anIntArray1363[aShortArray5841[i_254_]], Class365.anIntArray4525[aShortArray5906[i_254_]])) {
 					return true;
 				}
 			}
@@ -1394,7 +1394,7 @@ public class StandardDrawableModel extends DrawableModel
 		anInt5844++;
 		int i_255_ = Class335.anIntArray4167[i];
 		int i_256_ = Class335.anIntArray4165[i];
-		for (int i_257_ = 0; (anInt5912 ^ 0xffffffff) < (i_257_ ^ 0xffffffff); i_257_++) {
+		for (int i_257_ = 0; i_257_ < anInt5912; i_257_++) {
 			int i_258_ = i_256_ * anIntArray5879[i_257_] + anIntArray5897[i_257_] * i_255_ >> 14;
 			anIntArray5897[i_257_] = anIntArray5897[i_257_] * i_256_ - i_255_ * anIntArray5879[i_257_] >> 14;
 			anIntArray5879[i_257_] = i_258_;
@@ -1405,11 +1405,11 @@ public class StandardDrawableModel extends DrawableModel
 	
 	final void O(int i, int i_259_, int i_260_) {
 		anInt5848++;
-		for (int i_261_ = 0; (anInt5912 ^ 0xffffffff) < (i_261_ ^ 0xffffffff); i_261_++) {
-			if ((i ^ 0xffffffff) != -129) {
+		for (int i_261_ = 0; i_261_ < anInt5912; i_261_++) {
+			if (i != 128) {
 				anIntArray5879[i_261_] = anIntArray5879[i_261_] * i >> 7;
 			}
-			if ((i_259_ ^ 0xffffffff) != -129) {
+			if (i_259_ != 128) {
 				anIntArray5897[i_261_] = i_259_ * anIntArray5897[i_261_] >> 7;
 			}
 			if (i_260_ != 128) {
@@ -1433,7 +1433,7 @@ public class StandardDrawableModel extends DrawableModel
 			Class210.anInt2498 = 0;
 			for (int i_268_ = 0; i_266_ > i_268_; i_268_++) {
 				int i_269_ = is[i_268_];
-				if ((i_269_ ^ 0xffffffff) > (anIntArrayArray5847.length ^ 0xffffffff)) {
+				if (anIntArrayArray5847.length > i_269_) {
 					int[] is_270_ = anIntArrayArray5847[i_269_];
 					for (int i_271_ = 0; i_271_ < is_270_.length; i_271_++) {
 						int i_272_ = is_270_[i_271_];
@@ -1457,11 +1457,11 @@ public class StandardDrawableModel extends DrawableModel
 			i_262_ <<= 4;
 			i_264_ <<= 4;
 			i_263_ <<= 4;
-			for (int i_273_ = 0; (i_266_ ^ 0xffffffff) < (i_273_ ^ 0xffffffff); i_273_++) {
+			for (int i_273_ = 0; i_273_ < i_266_; i_273_++) {
 				int i_274_ = is[i_273_];
 				if (anIntArrayArray5847.length > i_274_) {
 					int[] is_275_ = anIntArrayArray5847[i_274_];
-					for (int i_276_ = 0; (is_275_.length ^ 0xffffffff) < (i_276_ ^ 0xffffffff); i_276_++) {
+					for (int i_276_ = 0; i_276_ < is_275_.length; i_276_++) {
 						int i_277_ = is_275_[i_276_];
 						anIntArray5879[i_277_] += i_262_;
 						anIntArray5897[i_277_] += i_263_;
@@ -1474,8 +1474,8 @@ public class StandardDrawableModel extends DrawableModel
 				int i_279_ = is[i_278_];
 				if (i_279_ < anIntArrayArray5847.length) {
 					int[] is_280_ = anIntArrayArray5847[i_279_];
-					if ((0x1 & i_265_ ^ 0xffffffff) != -1) {
-						for (int i_281_ = 0; (is_280_.length ^ 0xffffffff) < (i_281_ ^ 0xffffffff); i_281_++) {
+					if ((0x1 & i_265_) != 0) {
+						for (int i_281_ = 0; i_281_ < is_280_.length; i_281_++) {
 							int i_282_ = is_280_[i_281_];
 							anIntArray5879[i_282_] -= Class146.anInt1817;
 							anIntArray5897[i_282_] -= Class270_Sub2_Sub2.anInt10557;
@@ -1487,14 +1487,14 @@ public class StandardDrawableModel extends DrawableModel
 								anIntArray5913[i_282_] = 16383 + (anIntArray5913[i_282_] * i_284_ + anIntArray5897[i_282_] * i_283_) >> 14;
 								anIntArray5897[i_282_] = i_285_;
 							}
-							if ((i_264_ ^ 0xffffffff) != -1) {
+							if (i_264_ != 0) {
 								int i_286_ = Class335.anIntArray4167[i_264_];
 								int i_287_ = Class335.anIntArray4165[i_264_];
 								int i_288_ = 16383 + i_286_ * anIntArray5897[i_282_] - -(anIntArray5879[i_282_] * i_287_) >> 14;
 								anIntArray5897[i_282_] = -(i_286_ * anIntArray5879[i_282_]) + i_287_ * anIntArray5897[i_282_] - -16383 >> 14;
 								anIntArray5879[i_282_] = i_288_;
 							}
-							if ((i_263_ ^ 0xffffffff) != -1) {
+							if (i_263_ != 0) {
 								int i_289_ = Class335.anIntArray4167[i_263_];
 								int i_290_ = Class335.anIntArray4165[i_263_];
 								int i_291_ = i_290_ * anIntArray5879[i_282_] + (anIntArray5913[i_282_] * i_289_ - -16383) >> 14;
@@ -1511,7 +1511,7 @@ public class StandardDrawableModel extends DrawableModel
 							anIntArray5879[i_293_] -= Class146.anInt1817;
 							anIntArray5897[i_293_] -= Class270_Sub2_Sub2.anInt10557;
 							anIntArray5913[i_293_] -= Class210.anInt2498;
-							if ((i_264_ ^ 0xffffffff) != -1) {
+							if (i_264_ != 0) {
 								int i_294_ = Class335.anIntArray4167[i_264_];
 								int i_295_ = Class335.anIntArray4165[i_264_];
 								int i_296_ = i_294_ * anIntArray5897[i_293_] - -(anIntArray5879[i_293_] * i_295_) + 16383 >> 14;
@@ -1525,7 +1525,7 @@ public class StandardDrawableModel extends DrawableModel
 								anIntArray5913[i_293_] = 16383 + anIntArray5897[i_293_] * i_297_ - -(anIntArray5913[i_293_] * i_298_) >> 14;
 								anIntArray5897[i_293_] = i_299_;
 							}
-							if ((i_263_ ^ 0xffffffff) != -1) {
+							if (i_263_ != 0) {
 								int i_300_ = Class335.anIntArray4167[i_263_];
 								int i_301_ = Class335.anIntArray4165[i_263_];
 								int i_302_ = i_300_ * anIntArray5913[i_293_] + (anIntArray5879[i_293_] * i_301_ - -16383) >> 14;
@@ -1540,34 +1540,34 @@ public class StandardDrawableModel extends DrawableModel
 				}
 			}
 			if (bool) {
-				for (int i_303_ = 0; (i_303_ ^ 0xffffffff) > (i_266_ ^ 0xffffffff); i_303_++) {
+				for (int i_303_ = 0; i_266_ > i_303_; i_303_++) {
 					int i_304_ = is[i_303_];
-					if ((i_304_ ^ 0xffffffff) > (anIntArrayArray5847.length ^ 0xffffffff)) {
+					if (anIntArrayArray5847.length > i_304_) {
 						int[] is_305_ = anIntArrayArray5847[i_304_];
 						for (int i_306_ = 0; i_306_ < is_305_.length; i_306_++) {
 							int i_307_ = is_305_[i_306_];
 							int i_308_ = anIntArray5911[i_307_];
 							int i_309_ = anIntArray5911[1 + i_307_];
-							for (int i_310_ = i_308_; (i_310_ ^ 0xffffffff) > (i_309_ ^ 0xffffffff); i_310_++) {
+							for (int i_310_ = i_308_; i_309_ > i_310_; i_310_++) {
 								int i_311_ = aShortArray5899[i_310_] - 1;
-								if ((i_311_ ^ 0xffffffff) == 0) {
+								if (i_311_ == -1) {
 									break;
 								}
-								if ((i_264_ ^ 0xffffffff) != -1) {
+								if (i_264_ != 0) {
 									int i_312_ = Class335.anIntArray4167[i_264_];
 									int i_313_ = Class335.anIntArray4165[i_264_];
 									int i_314_ = 16383 + aShortArray5898[i_311_] * i_312_ - -(aShortArray5889[i_311_] * i_313_) >> 14;
 									aShortArray5898[i_311_] = (short) (16383 + (-(aShortArray5889[i_311_] * i_312_) + aShortArray5898[i_311_] * i_313_) >> 14);
 									aShortArray5889[i_311_] = (short) i_314_;
 								}
-								if ((i_262_ ^ 0xffffffff) != -1) {
+								if (i_262_ != 0) {
 									int i_315_ = Class335.anIntArray4167[i_262_];
 									int i_316_ = Class335.anIntArray4165[i_262_];
 									int i_317_ = 16383 + -(aShortArray5794[i_311_] * i_315_) + aShortArray5898[i_311_] * i_316_ >> 14;
 									aShortArray5794[i_311_] = (short) (i_315_ * aShortArray5898[i_311_] + (i_316_ * aShortArray5794[i_311_] + 16383) >> 14);
 									aShortArray5898[i_311_] = (short) i_317_;
 								}
-								if ((i_263_ ^ 0xffffffff) != -1) {
+								if (i_263_ != 0) {
 									int i_318_ = Class335.anIntArray4167[i_263_];
 									int i_319_ = Class335.anIntArray4165[i_263_];
 									int i_320_ = i_319_ * aShortArray5889[i_311_] + (aShortArray5794[i_311_] * i_318_ - -16383) >> 14;
@@ -1580,10 +1580,10 @@ public class StandardDrawableModel extends DrawableModel
 				}
 				method694(-1);
 			}
-		} else if ((i ^ 0xffffffff) == -4) {
+		} else if (i == 3) {
 			for (int i_321_ = 0; i_321_ < i_266_; i_321_++) {
 				int i_322_ = is[i_321_];
-				if ((i_322_ ^ 0xffffffff) > (anIntArrayArray5847.length ^ 0xffffffff)) {
+				if (anIntArrayArray5847.length > i_322_) {
 					int[] is_323_ = anIntArrayArray5847[i_322_];
 					for (int i_324_ = 0; i_324_ < is_323_.length; i_324_++) {
 						int i_325_ = is_323_[i_324_];
@@ -1599,12 +1599,12 @@ public class StandardDrawableModel extends DrawableModel
 					}
 				}
 			}
-		} else if ((i ^ 0xffffffff) == -6) {
+		} else if (i == 5) {
 			if (anIntArrayArray5900 != null) {
 				boolean bool_326_ = false;
-				for (int i_327_ = 0; (i_266_ ^ 0xffffffff) < (i_327_ ^ 0xffffffff); i_327_++) {
+				for (int i_327_ = 0; i_327_ < i_266_; i_327_++) {
 					int i_328_ = is[i_327_];
-					if ((anIntArrayArray5900.length ^ 0xffffffff) < (i_328_ ^ 0xffffffff)) {
+					if (i_328_ < anIntArrayArray5900.length) {
 						int[] is_329_ = anIntArrayArray5900[i_328_];
 						for (int i_330_ = 0; is_329_.length > i_330_; i_330_++) {
 							int i_331_ = is_329_[i_330_];
@@ -1618,12 +1618,12 @@ public class StandardDrawableModel extends DrawableModel
 							}
 							aByteArray5886[i_331_] = (byte) i_332_;
 						}
-						bool_326_ = bool_326_ | (is_329_.length ^ 0xffffffff) < -1;
+						bool_326_ = bool_326_ | is_329_.length > 0;
 					}
 				}
 				if (bool_326_) {
 					if (aClass268Array5856 != null) {
-						for (int i_333_ = 0; (anInt5811 ^ 0xffffffff) < (i_333_ ^ 0xffffffff); i_333_++) {
+						for (int i_333_ = 0; i_333_ < anInt5811; i_333_++) {
 							Class268 class268 = aClass268Array5856[i_333_];
 							Class14 class14 = aClass14Array5872[i_333_];
 							class14.anInt220 = class14.anInt220 & 0xffffff | -(0xff & aByteArray5886[class268.anInt3456]) + 255 << 24;
@@ -1632,14 +1632,14 @@ public class StandardDrawableModel extends DrawableModel
 					method703(0);
 				}
 			}
-		} else if ((i ^ 0xffffffff) == -8) {
+		} else if (i == 7) {
 			if (anIntArrayArray5900 != null) {
 				boolean bool_334_ = false;
 				for (int i_335_ = 0; i_335_ < i_266_; i_335_++) {
 					int i_336_ = is[i_335_];
-					if ((i_336_ ^ 0xffffffff) > (anIntArrayArray5900.length ^ 0xffffffff)) {
+					if (anIntArrayArray5900.length > i_336_) {
 						int[] is_337_ = anIntArrayArray5900[i_336_];
-						for (int i_338_ = 0; (is_337_.length ^ 0xffffffff) < (i_338_ ^ 0xffffffff); i_338_++) {
+						for (int i_338_ = 0; i_338_ < is_337_.length; i_338_++) {
 							int i_339_ = is_337_[i_338_];
 							int i_340_ = aShortArray5802[i_339_] & 0xffff;
 							int i_341_ = 0x3f & i_340_ >> 10;
@@ -1649,7 +1649,7 @@ public class StandardDrawableModel extends DrawableModel
 							i_342_ += i_263_ / 4;
 							i_343_ += i_264_;
 							if (i_342_ >= 0) {
-								if ((i_342_ ^ 0xffffffff) < -8) {
+								if (i_342_ > 7) {
 									i_342_ = 7;
 								}
 							} else {
@@ -1669,7 +1669,7 @@ public class StandardDrawableModel extends DrawableModel
 				}
 				if (bool_334_) {
 					if (aClass268Array5856 != null) {
-						for (int i_344_ = 0; (i_344_ ^ 0xffffffff) > (anInt5811 ^ 0xffffffff); i_344_++) {
+						for (int i_344_ = 0; anInt5811 > i_344_; i_344_++) {
 							Class268 class268 = aClass268Array5856[i_344_];
 							Class14 class14 = aClass14Array5872[i_344_];
 							class14.anInt220 = Class85.anIntArray1158[aShortArray5802[class268.anInt3456] & 0xffff] & 0xffffff | ~0xffffff & class14.anInt220;
@@ -1682,9 +1682,9 @@ public class StandardDrawableModel extends DrawableModel
 			if (anIntArrayArray5892 != null) {
 				for (int i_345_ = 0; i_345_ < i_266_; i_345_++) {
 					int i_346_ = is[i_345_];
-					if ((i_346_ ^ 0xffffffff) > (anIntArrayArray5892.length ^ 0xffffffff)) {
+					if (anIntArrayArray5892.length > i_346_) {
 						int[] is_347_ = anIntArrayArray5892[i_346_];
-						for (int i_348_ = 0; (i_348_ ^ 0xffffffff) > (is_347_.length ^ 0xffffffff); i_348_++) {
+						for (int i_348_ = 0; is_347_.length > i_348_; i_348_++) {
 							Class14 class14 = aClass14Array5872[is_347_[i_348_]];
 							class14.anInt212 += i_262_;
 							class14.anInt213 += i_263_;
@@ -1694,11 +1694,11 @@ public class StandardDrawableModel extends DrawableModel
 			}
 		} else if (i == 10) {
 			if (anIntArrayArray5892 != null) {
-				for (int i_349_ = 0; (i_349_ ^ 0xffffffff) > (i_266_ ^ 0xffffffff); i_349_++) {
+				for (int i_349_ = 0; i_266_ > i_349_; i_349_++) {
 					int i_350_ = is[i_349_];
-					if ((i_350_ ^ 0xffffffff) > (anIntArrayArray5892.length ^ 0xffffffff)) {
+					if (anIntArrayArray5892.length > i_350_) {
 						int[] is_351_ = anIntArrayArray5892[i_350_];
-						for (int i_352_ = 0; (i_352_ ^ 0xffffffff) > (is_351_.length ^ 0xffffffff); i_352_++) {
+						for (int i_352_ = 0; is_351_.length > i_352_; i_352_++) {
 							Class14 class14 = aClass14Array5872[is_351_[i_352_]];
 							class14.anInt218 = i_262_ * class14.anInt218 >> 7;
 							class14.anInt216 = i_263_ * class14.anInt216 >> 7;
@@ -1706,12 +1706,12 @@ public class StandardDrawableModel extends DrawableModel
 					}
 				}
 			}
-		} else if ((i ^ 0xffffffff) == -10 && anIntArrayArray5892 != null) {
+		} else if (i == 9 && anIntArrayArray5892 != null) {
 			for (int i_353_ = 0; i_353_ < i_266_; i_353_++) {
 				int i_354_ = is[i_353_];
 				if (anIntArrayArray5892.length > i_354_) {
 					int[] is_355_ = anIntArrayArray5892[i_354_];
-					for (int i_356_ = 0; (i_356_ ^ 0xffffffff) > (is_355_.length ^ 0xffffffff); i_356_++) {
+					for (int i_356_ = 0; is_355_.length > i_356_; i_356_++) {
 						Class14 class14 = aClass14Array5872[is_355_[i_356_]];
 						class14.anInt217 = 0x3fff & class14.anInt217 + i_262_;
 					}
@@ -1722,9 +1722,9 @@ public class StandardDrawableModel extends DrawableModel
 	
 	final void v() {
 		anInt5850++;
-		for (int i = 0; (i ^ 0xffffffff) > (anInt5912 ^ 0xffffffff); i++)
+		for (int i = 0; anInt5912 > i; i++)
 			anIntArray5913[i] = -anIntArray5913[i];
-		for (int i = 0; (anInt5885 ^ 0xffffffff) < (i ^ 0xffffffff); i++)
+		for (int i = 0; i < anInt5885; i++)
 			aShortArray5794[i] = (short) -aShortArray5794[i];
 		for (int i = 0; anInt5813 > i; i++) {
 			short s = aShortArray5841[i];
@@ -1762,7 +1762,7 @@ public class StandardDrawableModel extends DrawableModel
 					int[] is_366_ = anIntArrayArray5847[i_365_];
 					for (int i_367_ = 0; i_367_ < is_366_.length; i_367_++) {
 						int i_368_ = is_366_[i_367_];
-						if (aShortArray5814 == null || (aShortArray5814[i_368_] & i_360_ ^ 0xffffffff) != -1) {
+						if (aShortArray5814 == null || (aShortArray5814[i_368_] & i_360_) != 0) {
 							Class146.anInt1817 += anIntArray5879[i_368_];
 							Class270_Sub2_Sub2.anInt10557 += anIntArray5897[i_368_];
 							i_363_++;
@@ -1781,7 +1781,7 @@ public class StandardDrawableModel extends DrawableModel
 				Class270_Sub2_Sub2.anInt10557 = i_358_ + Class270_Sub2_Sub2.anInt10557 / i_363_;
 				Class210.anInt2498 = i_359_ + Class210.anInt2498 / i_363_;
 			}
-		} else if ((i ^ 0xffffffff) == -2) {
+		} else if (i == 1) {
 			if (is_361_ != null) {
 				int i_369_ = is_361_[2] * i_359_ + is_361_[0] * i_357_ - (-(is_361_[1] * i_358_) - 8192) >> 14;
 				int i_370_ = is_361_[4] * i_358_ + (is_361_[3] * i_357_ + is_361_[5] * i_359_) - -8192 >> 14;
@@ -1793,13 +1793,13 @@ public class StandardDrawableModel extends DrawableModel
 			i_359_ <<= 4;
 			i_357_ <<= 4;
 			i_358_ <<= 4;
-			for (int i_372_ = 0; (i_372_ ^ 0xffffffff) > (i_362_ ^ 0xffffffff); i_372_++) {
+			for (int i_372_ = 0; i_362_ > i_372_; i_372_++) {
 				int i_373_ = is[i_372_];
 				if (i_373_ < anIntArrayArray5847.length) {
 					int[] is_374_ = anIntArrayArray5847[i_373_];
-					for (int i_375_ = 0; (i_375_ ^ 0xffffffff) > (is_374_.length ^ 0xffffffff); i_375_++) {
+					for (int i_375_ = 0; is_374_.length > i_375_; i_375_++) {
 						int i_376_ = is_374_[i_375_];
-						if (aShortArray5814 == null || (i_360_ & aShortArray5814[i_376_] ^ 0xffffffff) != -1) {
+						if (aShortArray5814 == null || (i_360_ & aShortArray5814[i_376_]) != 0) {
 							anIntArray5879[i_376_] += i_357_;
 							anIntArray5897[i_376_] += i_358_;
 							anIntArray5913[i_376_] += i_359_;
@@ -1852,8 +1852,8 @@ public class StandardDrawableModel extends DrawableModel
 				int i_399_ = i_396_ + Class270_Sub2_Sub2.anInt10557;
 				int i_400_ = Class210.anInt2498 + i_397_;
 				int[] is_401_ = new int[9];
-				for (int i_402_ = 0; (i_402_ ^ 0xffffffff) > -4; i_402_++) {
-					for (int i_403_ = 0; (i_403_ ^ 0xffffffff) > -4; i_403_++) {
+				for (int i_402_ = 0; i_402_ < 3; i_402_++) {
+					for (int i_403_ = 0; i_403_ < 3; i_403_++) {
 						int i_404_ = 0;
 						for (int i_405_ = 0; i_405_ < 3; i_405_++)
 							i_404_ += is_361_[i_405_ + i_403_ * 3] * is_386_[i_402_ * 3 - -i_405_];
@@ -1867,10 +1867,10 @@ public class StandardDrawableModel extends DrawableModel
 				int i_408_ = 8192 + (is_386_[7] * i_381_ + (is_386_[6] * i_380_ + i_382_ * is_386_[8])) >> 14;
 				i_408_ += i_400_;
 				int[] is_409_ = new int[9];
-				for (int i_410_ = 0; (i_410_ ^ 0xffffffff) > -4; i_410_++) {
+				for (int i_410_ = 0; i_410_ < 3; i_410_++) {
 					for (int i_411_ = 0; i_411_ < 3; i_411_++) {
 						int i_412_ = 0;
-						for (int i_413_ = 0; (i_413_ ^ 0xffffffff) > -4; i_413_++)
+						for (int i_413_ = 0; i_413_ < 3; i_413_++)
 							i_412_ += is_401_[i_413_ * 3 + i_411_] * is_361_[i_413_ + i_410_ * 3];
 						is_409_[i_411_ + i_410_ * 3] = 8192 + i_412_ >> 14;
 					}
@@ -1885,7 +1885,7 @@ public class StandardDrawableModel extends DrawableModel
 					int i_418_ = is[i_417_];
 					if (i_418_ < anIntArrayArray5847.length) {
 						int[] is_419_ = anIntArrayArray5847[i_418_];
-						for (int i_420_ = 0; (is_419_.length ^ 0xffffffff) < (i_420_ ^ 0xffffffff); i_420_++) {
+						for (int i_420_ = 0; i_420_ < is_419_.length; i_420_++) {
 							int i_421_ = is_419_[i_420_];
 							if (aShortArray5814 == null || (aShortArray5814[i_421_] & i_360_) != 0) {
 								int i_422_ = is_409_[2] * anIntArray5913[i_421_] + (is_409_[1] * anIntArray5897[i_421_] + anIntArray5879[i_421_] * is_409_[0]) + 8192 >> 14;
@@ -1904,11 +1904,11 @@ public class StandardDrawableModel extends DrawableModel
 			} else {
 				for (int i_425_ = 0; i_362_ > i_425_; i_425_++) {
 					int i_426_ = is[i_425_];
-					if ((anIntArrayArray5847.length ^ 0xffffffff) < (i_426_ ^ 0xffffffff)) {
+					if (i_426_ < anIntArrayArray5847.length) {
 						int[] is_427_ = anIntArrayArray5847[i_426_];
-						for (int i_428_ = 0; (i_428_ ^ 0xffffffff) > (is_427_.length ^ 0xffffffff); i_428_++) {
+						for (int i_428_ = 0; is_427_.length > i_428_; i_428_++) {
 							int i_429_ = is_427_[i_428_];
-							if (aShortArray5814 == null || (i_360_ & aShortArray5814[i_429_] ^ 0xffffffff) != -1) {
+							if (aShortArray5814 == null || (i_360_ & aShortArray5814[i_429_]) != 0) {
 								anIntArray5879[i_429_] -= Class146.anInt1817;
 								anIntArray5897[i_429_] -= Class270_Sub2_Sub2.anInt10557;
 								anIntArray5913[i_429_] -= Class210.anInt2498;
@@ -1926,7 +1926,7 @@ public class StandardDrawableModel extends DrawableModel
 									anIntArray5913[i_429_] = 16383 + (i_433_ * anIntArray5897[i_429_] + i_434_ * anIntArray5913[i_429_]) >> 14;
 									anIntArray5897[i_429_] = i_435_;
 								}
-								if ((i_358_ ^ 0xffffffff) != -1) {
+								if (i_358_ != 0) {
 									int i_436_ = Class335.anIntArray4167[i_358_];
 									int i_437_ = Class335.anIntArray4165[i_358_];
 									int i_438_ = 16383 + (anIntArray5913[i_429_] * i_436_ + i_437_ * anIntArray5879[i_429_]) >> 14;
@@ -1941,18 +1941,18 @@ public class StandardDrawableModel extends DrawableModel
 					}
 				}
 				if (bool) {
-					for (int i_439_ = 0; (i_439_ ^ 0xffffffff) > (i_362_ ^ 0xffffffff); i_439_++) {
+					for (int i_439_ = 0; i_362_ > i_439_; i_439_++) {
 						int i_440_ = is[i_439_];
-						if ((i_440_ ^ 0xffffffff) > (anIntArrayArray5847.length ^ 0xffffffff)) {
+						if (anIntArrayArray5847.length > i_440_) {
 							int[] is_441_ = anIntArrayArray5847[i_440_];
-							for (int i_442_ = 0; (is_441_.length ^ 0xffffffff) < (i_442_ ^ 0xffffffff); i_442_++) {
+							for (int i_442_ = 0; i_442_ < is_441_.length; i_442_++) {
 								int i_443_ = is_441_[i_442_];
-								if (aShortArray5814 == null || (i_360_ & aShortArray5814[i_443_] ^ 0xffffffff) != -1) {
+								if (aShortArray5814 == null || (i_360_ & aShortArray5814[i_443_]) != 0) {
 									int i_444_ = anIntArray5911[i_443_];
 									int i_445_ = anIntArray5911[1 + i_443_];
 									for (int i_446_ = i_444_; i_445_ > i_446_; i_446_++) {
 										int i_447_ = aShortArray5899[i_446_] - 1;
-										if ((i_447_ ^ 0xffffffff) == 0) {
+										if (i_447_ == -1) {
 											break;
 										}
 										if (i_359_ != 0) {
@@ -2046,11 +2046,11 @@ public class StandardDrawableModel extends DrawableModel
 				i_486_ += i_459_;
 				for (int i_487_ = 0; i_487_ < i_362_; i_487_++) {
 					int i_488_ = is[i_487_];
-					if ((anIntArrayArray5847.length ^ 0xffffffff) < (i_488_ ^ 0xffffffff)) {
+					if (i_488_ < anIntArrayArray5847.length) {
 						int[] is_489_ = anIntArrayArray5847[i_488_];
 						for (int i_490_ = 0; is_489_.length > i_490_; i_490_++) {
 							int i_491_ = is_489_[i_490_];
-							if (aShortArray5814 == null || (i_360_ & aShortArray5814[i_491_] ^ 0xffffffff) != -1) {
+							if (aShortArray5814 == null || (i_360_ & aShortArray5814[i_491_]) != 0) {
 								int i_492_ = anIntArray5913[i_491_] * is_479_[2] + (anIntArray5879[i_491_] * is_479_[0] - -(is_479_[1] * anIntArray5897[i_491_]) - -8192) >> 14;
 								int i_493_ = 8192 + (is_479_[4] * anIntArray5897[i_491_] + anIntArray5879[i_491_] * is_479_[3]) + anIntArray5913[i_491_] * is_479_[5] >> 14;
 								i_492_ += i_484_;
@@ -2065,9 +2065,9 @@ public class StandardDrawableModel extends DrawableModel
 					}
 				}
 			} else {
-				for (int i_495_ = 0; (i_495_ ^ 0xffffffff) > (i_362_ ^ 0xffffffff); i_495_++) {
+				for (int i_495_ = 0; i_362_ > i_495_; i_495_++) {
 					int i_496_ = is[i_495_];
-					if ((anIntArrayArray5847.length ^ 0xffffffff) < (i_496_ ^ 0xffffffff)) {
+					if (i_496_ < anIntArrayArray5847.length) {
 						int[] is_497_ = anIntArrayArray5847[i_496_];
 						for (int i_498_ = 0; is_497_.length > i_498_; i_498_++) {
 							int i_499_ = is_497_[i_498_];
@@ -2091,13 +2091,13 @@ public class StandardDrawableModel extends DrawableModel
 				boolean bool_500_ = false;
 				for (int i_501_ = 0; i_501_ < i_362_; i_501_++) {
 					int i_502_ = is[i_501_];
-					if ((i_502_ ^ 0xffffffff) > (anIntArrayArray5900.length ^ 0xffffffff)) {
+					if (anIntArrayArray5900.length > i_502_) {
 						int[] is_503_ = anIntArrayArray5900[i_502_];
 						for (int i_504_ = 0; is_503_.length > i_504_; i_504_++) {
 							int i_505_ = is_503_[i_504_];
 							if (aShortArray5861 == null || (i_360_ & aShortArray5861[i_505_]) != 0) {
 								int i_506_ = (0xff & aByteArray5886[i_505_]) - -(i_357_ * 8);
-								if ((i_506_ ^ 0xffffffff) <= -1) {
+								if (i_506_ >= 0) {
 									if (i_506_ > 255) {
 										i_506_ = 255;
 									}
@@ -2107,12 +2107,12 @@ public class StandardDrawableModel extends DrawableModel
 								aByteArray5886[i_505_] = (byte) i_506_;
 							}
 						}
-						bool_500_ = bool_500_ | (is_503_.length ^ 0xffffffff) < -1;
+						bool_500_ = bool_500_ | is_503_.length > 0;
 					}
 				}
 				if (bool_500_) {
 					if (aClass268Array5856 != null) {
-						for (int i_507_ = 0; (i_507_ ^ 0xffffffff) > (anInt5811 ^ 0xffffffff); i_507_++) {
+						for (int i_507_ = 0; anInt5811 > i_507_; i_507_++) {
 							Class268 class268 = aClass268Array5856[i_507_];
 							Class14 class14 = aClass14Array5872[i_507_];
 							class14.anInt220 = -(0xff & aByteArray5886[class268.anInt3456]) + 255 << 24 | class14.anInt220 & 0xffffff;
@@ -2124,13 +2124,13 @@ public class StandardDrawableModel extends DrawableModel
 		} else if (i == 7) {
 			if (anIntArrayArray5900 != null) {
 				boolean bool_508_ = false;
-				for (int i_509_ = 0; (i_362_ ^ 0xffffffff) < (i_509_ ^ 0xffffffff); i_509_++) {
+				for (int i_509_ = 0; i_509_ < i_362_; i_509_++) {
 					int i_510_ = is[i_509_];
 					if (i_510_ < anIntArrayArray5900.length) {
 						int[] is_511_ = anIntArrayArray5900[i_510_];
-						for (int i_512_ = 0; (is_511_.length ^ 0xffffffff) < (i_512_ ^ 0xffffffff); i_512_++) {
+						for (int i_512_ = 0; i_512_ < is_511_.length; i_512_++) {
 							int i_513_ = is_511_[i_512_];
-							if (aShortArray5861 == null || (aShortArray5861[i_513_] & i_360_ ^ 0xffffffff) != -1) {
+							if (aShortArray5861 == null || (aShortArray5861[i_513_] & i_360_) != 0) {
 								int i_514_ = 0xffff & aShortArray5802[i_513_];
 								int i_515_ = (i_514_ & 0xffc7) >> 10;
 								int i_516_ = i_514_ >> 7 & 0x7;
@@ -2138,14 +2138,14 @@ public class StandardDrawableModel extends DrawableModel
 								i_516_ += i_358_ / 4;
 								i_515_ = i_357_ + i_515_ & 0x3f;
 								if (i_516_ >= 0) {
-									if ((i_516_ ^ 0xffffffff) < -8) {
+									if (i_516_ > 7) {
 										i_516_ = 7;
 									}
 								} else {
 									i_516_ = 0;
 								}
 								i_517_ += i_359_;
-								if ((i_517_ ^ 0xffffffff) <= -1) {
+								if (i_517_ >= 0) {
 									if (i_517_ > 127) {
 										i_517_ = 127;
 									}
@@ -2160,7 +2160,7 @@ public class StandardDrawableModel extends DrawableModel
 				}
 				if (bool_508_) {
 					if (aClass268Array5856 != null) {
-						for (int i_518_ = 0; (anInt5811 ^ 0xffffffff) < (i_518_ ^ 0xffffffff); i_518_++) {
+						for (int i_518_ = 0; i_518_ < anInt5811; i_518_++) {
 							Class268 class268 = aClass268Array5856[i_518_];
 							Class14 class14 = aClass14Array5872[i_518_];
 							class14.anInt220 = ~0xffffff & class14.anInt220 | Class85.anIntArray1158[aShortArray5802[class268.anInt3456] & 0xffff] & 0xffffff;
@@ -2175,7 +2175,7 @@ public class StandardDrawableModel extends DrawableModel
 					int i_520_ = is[i_519_];
 					if (anIntArrayArray5892.length > i_520_) {
 						int[] is_521_ = anIntArrayArray5892[i_520_];
-						for (int i_522_ = 0; (i_522_ ^ 0xffffffff) > (is_521_.length ^ 0xffffffff); i_522_++) {
+						for (int i_522_ = 0; is_521_.length > i_522_; i_522_++) {
 							Class14 class14 = aClass14Array5872[is_521_[i_522_]];
 							class14.anInt213 += i_358_;
 							class14.anInt212 += i_357_;
@@ -2187,7 +2187,7 @@ public class StandardDrawableModel extends DrawableModel
 			if (anIntArrayArray5892 != null) {
 				for (int i_523_ = 0; i_523_ < i_362_; i_523_++) {
 					int i_524_ = is[i_523_];
-					if ((i_524_ ^ 0xffffffff) > (anIntArrayArray5892.length ^ 0xffffffff)) {
+					if (anIntArrayArray5892.length > i_524_) {
 						int[] is_525_ = anIntArrayArray5892[i_524_];
 						for (int i_526_ = 0; i_526_ < is_525_.length; i_526_++) {
 							Class14 class14 = aClass14Array5872[is_525_[i_526_]];
@@ -2202,7 +2202,7 @@ public class StandardDrawableModel extends DrawableModel
 				int i_528_ = is[i_527_];
 				if (i_528_ < anIntArrayArray5892.length) {
 					int[] is_529_ = anIntArrayArray5892[i_528_];
-					for (int i_530_ = 0; (is_529_.length ^ 0xffffffff) < (i_530_ ^ 0xffffffff); i_530_++) {
+					for (int i_530_ = 0; i_530_ < is_529_.length; i_530_++) {
 						Class14 class14 = aClass14Array5872[is_529_[i_530_]];
 						class14.anInt217 = 0x3fff & i_357_ + class14.anInt217;
 					}
@@ -2293,7 +2293,7 @@ public class StandardDrawableModel extends DrawableModel
 							entitynode_sub5.anInt5986 = anAbstractToolkit5916.anInt6331 - -(anAbstractToolkit5916.anInt6362 * i_547_ / i);
 							int i_551_ = (int) ((float) anInt5821 * Class331.aFloat4140 + (Class60.aFloat883 + Node_Sub15_Sub7.aFloat9821 * (float) i_544_) + Class262_Sub14.aFloat7810 * (float) i_545_);
 							entitynode_sub5.anInt5985 = i_546_ * anAbstractToolkit5916.anInt6289 / i + anAbstractToolkit5916.anInt6341;
-							if ((i_548_ ^ 0xffffffff) <= (anAbstractToolkit5916.anInt6364 ^ 0xffffffff) || anAbstractToolkit5916.anInt6364 <= i_551_) {
+							if (anAbstractToolkit5916.anInt6364 <= i_548_ || anAbstractToolkit5916.anInt6364 <= i_551_) {
 								entitynode_sub5.aBoolean5987 = true;
 								entitynode_sub5.anInt5983 = -entitynode_sub5.anInt5985 + anAbstractToolkit5916.anInt6341 + (anInt5797 + i_546_) * anAbstractToolkit5916.anInt6289 / i;
 							}
@@ -2366,19 +2366,19 @@ public class StandardDrawableModel extends DrawableModel
 	
 	private final boolean method696(int i, int i_563_, int i_564_, byte b, int i_565_, int i_566_, int i_567_, int i_568_, int i_569_) {
 		anInt5904++;
-		if (i_566_ < i_564_ && i > i_566_ && (i_569_ ^ 0xffffffff) < (i_566_ ^ 0xffffffff)) {
+		if (i_566_ < i_564_ && i > i_566_ && i_566_ < i_569_) {
 			return false;
 		}
-		if (i_564_ < i_566_ && i_566_ > i && (i_566_ ^ 0xffffffff) < (i_569_ ^ 0xffffffff)) {
+		if (i_564_ < i_566_ && i_566_ > i && i_569_ < i_566_) {
 			return false;
 		}
-		if (i_568_ > i_563_ && (i_563_ ^ 0xffffffff) > (i_567_ ^ 0xffffffff) && i_565_ > i_563_) {
+		if (i_568_ > i_563_ && i_567_ > i_563_ && i_565_ > i_563_) {
 			return false;
 		}
 		if (b != 37) {
 			return false;
 		}
-		if (i_568_ < i_563_ && (i_567_ ^ 0xffffffff) > (i_563_ ^ 0xffffffff) && (i_565_ ^ 0xffffffff) > (i_563_ ^ 0xffffffff)) {
+		if (i_568_ < i_563_ && i_563_ > i_567_ && i_563_ > i_565_) {
 			return false;
 		}
 		return true;
@@ -2399,7 +2399,7 @@ public class StandardDrawableModel extends DrawableModel
 		anInt5810++;
 		int i_570_ = Class335.anIntArray4167[i];
 		int i_571_ = Class335.anIntArray4165[i];
-		for (int i_572_ = 0; (i_572_ ^ 0xffffffff) > (anInt5912 ^ 0xffffffff); i_572_++) {
+		for (int i_572_ = 0; anInt5912 > i_572_; i_572_++) {
 			int i_573_ = -(i_570_ * anIntArray5913[i_572_]) + anIntArray5897[i_572_] * i_571_ >> 14;
 			anIntArray5913[i_572_] = i_571_ * anIntArray5913[i_572_] + i_570_ * anIntArray5897[i_572_] >> 14;
 			anIntArray5897[i_572_] = i_573_;
@@ -2441,7 +2441,7 @@ public class StandardDrawableModel extends DrawableModel
 	
 	final void method617() {
 		anInt5910++;
-		if ((anInt5885 ^ 0xffffffff) < -1 && anInt5859 > 0) {
+		if (anInt5885 > 0 && anInt5859 > 0) {
 			method688((byte) 110);
 			method691(0);
 			method698(262144);
@@ -2453,7 +2453,7 @@ public class StandardDrawableModel extends DrawableModel
 		if (aShortArray5862 == null) {
 			return true;
 		}
-		for (int i = 0; (i ^ 0xffffffff) > (aShortArray5862.length ^ 0xffffffff); i++) {
+		for (int i = 0; aShortArray5862.length > i; i++) {
 			if (aShortArray5862[i] != -1 && !anAbstractToolkit5916.aD1543.method7(9900, aShortArray5862[i])) {
 				return false;
 			}
@@ -2527,7 +2527,7 @@ public class StandardDrawableModel extends DrawableModel
 							int i_595_ = (int) ((float) i_593_ * Class163.aFloat2013 + Class147.aFloat1824 + (float) anInt5903 * Class12.aFloat199 + Class37.aFloat558 * (float) i_594_);
 							int i_596_ = (int) ((float) i_593_ * Node_Sub27.aFloat7310 + Node_Sub38_Sub37.aFloat10464 + Node_Sub36_Sub4.aFloat10072 * (float) anInt5903 + Class51_Sub2.aFloat9074 * (float) i_594_);
 							int i_597_ = (int) (Class262_Sub14.aFloat7810 * (float) i_594_ + ((float) i_593_ * Node_Sub15_Sub7.aFloat9821 + Class60.aFloat883 + Class331.aFloat4140 * (float) anInt5903));
-							if ((anAbstractToolkit5916.anInt6364 ^ 0xffffffff) >= (i_597_ ^ 0xffffffff)) {
+							if (i_597_ >= anAbstractToolkit5916.anInt6364) {
 								entitynode_sub5.anInt5986 = i_596_ * anAbstractToolkit5916.anInt6362 / i_597_ + anAbstractToolkit5916.anInt6331;
 								entitynode_sub5.anInt5985 = anAbstractToolkit5916.anInt6341 - -(anAbstractToolkit5916.anInt6289 * i_595_ / i_597_);
 							} else {
@@ -2536,16 +2536,16 @@ public class StandardDrawableModel extends DrawableModel
 							int i_598_ = (int) (Class37.aFloat558 * (float) i_594_ + (Class163.aFloat2013 * (float) i_593_ + Class147.aFloat1824 + Class12.aFloat199 * (float) anInt5821));
 							int i_599_ = (int) ((float) anInt5821 * Node_Sub36_Sub4.aFloat10072 + (Node_Sub27.aFloat7310 * (float) i_593_ + Node_Sub38_Sub37.aFloat10464) + Class51_Sub2.aFloat9074 * (float) i_594_);
 							int i_600_ = (int) (Class331.aFloat4140 * (float) anInt5821 + (Node_Sub15_Sub7.aFloat9821 * (float) i_593_ + Class60.aFloat883) + (float) i_594_ * Class262_Sub14.aFloat7810);
-							if ((anAbstractToolkit5916.anInt6364 ^ 0xffffffff) >= (i_600_ ^ 0xffffffff)) {
+							if (i_600_ >= anAbstractToolkit5916.anInt6364) {
 								entitynode_sub5.anInt5982 = anAbstractToolkit5916.anInt6341 - -(i_598_ * anAbstractToolkit5916.anInt6289 / i_600_);
 								entitynode_sub5.anInt5984 = i_599_ * anAbstractToolkit5916.anInt6362 / i_600_ + anAbstractToolkit5916.anInt6331;
 							} else {
 								bool = true;
 							}
 							if (bool) {
-								if ((i_597_ ^ 0xffffffff) <= (anAbstractToolkit5916.anInt6364 ^ 0xffffffff) || (i_600_ ^ 0xffffffff) <= (anAbstractToolkit5916.anInt6364 ^ 0xffffffff)) {
+								if (anAbstractToolkit5916.anInt6364 <= i_597_ || anAbstractToolkit5916.anInt6364 <= i_600_) {
 									if (i_597_ >= anAbstractToolkit5916.anInt6364) {
-										if ((anAbstractToolkit5916.anInt6364 ^ 0xffffffff) < (i_600_ ^ 0xffffffff)) {
+										if (i_600_ < anAbstractToolkit5916.anInt6364) {
 											int i_601_ = (-anAbstractToolkit5916.anInt6364 + i_597_ << 16) / (i_597_ - i_600_);
 											int i_602_ = i_595_ + (i_601_ * (-i_598_ + i_595_) >> 16);
 											int i_603_ = ((i_596_ + -i_599_) * i_601_ >> 16) + i_596_;
@@ -2606,7 +2606,7 @@ public class StandardDrawableModel extends DrawableModel
 		boolean bool_614_ = bool_611_ | bool_612_ | bool_613_;
 		if (bool_614_) {
 			if (bool_611_) {
-				if (standarddrawablemodel_607_.anIntArray5879 == null || (standarddrawablemodel_607_.anIntArray5879.length ^ 0xffffffff) > (anInt5902 ^ 0xffffffff)) {
+				if (standarddrawablemodel_607_.anIntArray5879 == null || anInt5902 > standarddrawablemodel_607_.anIntArray5879.length) {
 					standarddrawablemodel_609_.anIntArray5879 = standarddrawablemodel_607_.anIntArray5879 = new int[anInt5902];
 				} else {
 					standarddrawablemodel_609_.anIntArray5879 = standarddrawablemodel_607_.anIntArray5879;
@@ -2624,7 +2624,7 @@ public class StandardDrawableModel extends DrawableModel
 				standarddrawablemodel_609_.anIntArray5897 = anIntArray5897;
 			}
 			if (bool_613_) {
-				if (standarddrawablemodel_607_.anIntArray5913 != null && (standarddrawablemodel_607_.anIntArray5913.length ^ 0xffffffff) <= (anInt5902 ^ 0xffffffff)) {
+				if (standarddrawablemodel_607_.anIntArray5913 != null && anInt5902 <= standarddrawablemodel_607_.anIntArray5913.length) {
 					standarddrawablemodel_609_.anIntArray5913 = standarddrawablemodel_607_.anIntArray5913;
 				} else {
 					standarddrawablemodel_609_.anIntArray5913 = standarddrawablemodel_607_.anIntArray5913 = new int[anInt5902];
@@ -2632,7 +2632,7 @@ public class StandardDrawableModel extends DrawableModel
 			} else {
 				standarddrawablemodel_609_.anIntArray5913 = anIntArray5913;
 			}
-			for (int i_615_ = 0; (i_615_ ^ 0xffffffff) > (anInt5902 ^ 0xffffffff); i_615_++) {
+			for (int i_615_ = 0; anInt5902 > i_615_; i_615_++) {
 				if (bool_611_) {
 					standarddrawablemodel_609_.anIntArray5879[i_615_] = anIntArray5879[i_615_];
 				}
@@ -2666,16 +2666,16 @@ public class StandardDrawableModel extends DrawableModel
 			} else {
 				standarddrawablemodel_609_.aShortArray5802 = standarddrawablemodel_607_.aShortArray5802 = new short[anInt5813];
 			}
-			for (int i_616_ = 0; (i_616_ ^ 0xffffffff) > (anInt5813 ^ 0xffffffff); i_616_++)
+			for (int i_616_ = 0; anInt5813 > i_616_; i_616_++)
 				standarddrawablemodel_609_.aShortArray5802[i_616_] = aShortArray5802[i_616_];
 		}
 		if (Class234.method2150(anInt5896, i_610_ ^ ~0x100, i)) {
-			if (standarddrawablemodel_607_.aByteArray5886 == null || (anInt5813 ^ 0xffffffff) < (standarddrawablemodel_607_.aByteArray5886.length ^ 0xffffffff)) {
+			if (standarddrawablemodel_607_.aByteArray5886 == null || standarddrawablemodel_607_.aByteArray5886.length < anInt5813) {
 				standarddrawablemodel_609_.aByteArray5886 = standarddrawablemodel_607_.aByteArray5886 = new byte[anInt5813];
 			} else {
 				standarddrawablemodel_609_.aByteArray5886 = standarddrawablemodel_607_.aByteArray5886;
 			}
-			for (int i_617_ = 0; (anInt5813 ^ 0xffffffff) < (i_617_ ^ 0xffffffff); i_617_++)
+			for (int i_617_ = 0; i_617_ < anInt5813; i_617_++)
 				standarddrawablemodel_609_.aByteArray5886[i_617_] = aByteArray5886[i_617_];
 		} else {
 			standarddrawablemodel_609_.aByteArray5886 = aByteArray5886;
@@ -2721,7 +2721,7 @@ public class StandardDrawableModel extends DrawableModel
 					standarddrawablemodel_607_.aClass284_5867 = new Class284();
 				}
 				Class284 class284 = standarddrawablemodel_609_.aClass284_5867 = standarddrawablemodel_607_.aClass284_5867;
-				if (class284.aShortArray3595 == null || (anInt5885 ^ 0xffffffff) < (class284.aShortArray3595.length ^ 0xffffffff)) {
+				if (class284.aShortArray3595 == null || class284.aShortArray3595.length < anInt5885) {
 					int i_620_ = anInt5885;
 					class284.aByteArray3598 = new byte[i_620_];
 					class284.aShortArray3593 = new short[i_620_];
@@ -2751,7 +2751,7 @@ public class StandardDrawableModel extends DrawableModel
 			standarddrawablemodel_609_.aClass347_5908 = aClass347_5908;
 		}
 		if (Class219.method2094(i, anInt5896, i_610_ + -97)) {
-			if (standarddrawablemodel_607_.aFloatArray5875 == null || (standarddrawablemodel_607_.aFloatArray5875.length ^ 0xffffffff) > (anInt5813 ^ 0xffffffff)) {
+			if (standarddrawablemodel_607_.aFloatArray5875 == null || anInt5813 > standarddrawablemodel_607_.aFloatArray5875.length) {
 				int i_622_ = anInt5885;
 				standarddrawablemodel_609_.aFloatArray5875 = standarddrawablemodel_607_.aFloatArray5875 = new float[i_622_];
 				standarddrawablemodel_609_.aFloatArray5860 = standarddrawablemodel_607_.aFloatArray5860 = new float[i_622_];
@@ -2759,7 +2759,7 @@ public class StandardDrawableModel extends DrawableModel
 				standarddrawablemodel_609_.aFloatArray5875 = standarddrawablemodel_607_.aFloatArray5875;
 				standarddrawablemodel_609_.aFloatArray5860 = standarddrawablemodel_607_.aFloatArray5860;
 			}
-			for (int i_623_ = 0; (i_623_ ^ 0xffffffff) > (anInt5885 ^ 0xffffffff); i_623_++) {
+			for (int i_623_ = 0; anInt5885 > i_623_; i_623_++) {
 				standarddrawablemodel_609_.aFloatArray5875[i_623_] = aFloatArray5875[i_623_];
 				standarddrawablemodel_609_.aFloatArray5860[i_623_] = aFloatArray5860[i_623_];
 			}
@@ -2778,7 +2778,7 @@ public class StandardDrawableModel extends DrawableModel
 			standarddrawablemodel_609_.aClass347_5822 = null;
 		}
 		if (Class144_Sub2.method1634(anInt5896, i, false)) {
-			if (standarddrawablemodel_607_.aShortArray5841 != null && (anInt5813 ^ 0xffffffff) >= (standarddrawablemodel_607_.aShortArray5841.length ^ 0xffffffff)) {
+			if (standarddrawablemodel_607_.aShortArray5841 != null && standarddrawablemodel_607_.aShortArray5841.length >= anInt5813) {
 				standarddrawablemodel_609_.aShortArray5846 = standarddrawablemodel_607_.aShortArray5846;
 				standarddrawablemodel_609_.aShortArray5906 = standarddrawablemodel_607_.aShortArray5906;
 				standarddrawablemodel_609_.aShortArray5841 = standarddrawablemodel_607_.aShortArray5841;
@@ -2819,7 +2819,7 @@ public class StandardDrawableModel extends DrawableModel
 				int i_626_ = anInt5813;
 				standarddrawablemodel_609_.aShortArray5862 = standarddrawablemodel_607_.aShortArray5862 = new short[i_626_];
 			}
-			for (int i_627_ = 0; (anInt5813 ^ 0xffffffff) < (i_627_ ^ 0xffffffff); i_627_++)
+			for (int i_627_ = 0; i_627_ < anInt5813; i_627_++)
 				standarddrawablemodel_609_.aShortArray5862[i_627_] = aShortArray5862[i_627_];
 		}
 		if (Class320_Sub10.method3720(50560, i, anInt5896)) {
@@ -2920,7 +2920,7 @@ public class StandardDrawableModel extends DrawableModel
 				anIntArray5911 = null;
 			}
 			if (aByteArray5834 != null && !Node_Sub38_Sub8.method2812(anInt5881, false, anInt5896)) {
-				if (!((0x37 & anInt5896 ^ 0xffffffff) == -1 ? aClass347_5852 == null || aClass347_5852.method3979((byte) -94) : aClass347_5908 == null || aClass347_5908.method3979((byte) -52))) {
+				if (!((0x37 & anInt5896) == 0 ? aClass347_5852 == null || aClass347_5852.method3979((byte) -94) : aClass347_5908 == null || aClass347_5908.method3979((byte) -52))) {
 					aBoolean5826 = true;
 				} else {
 					aByteArray5834 = null;
@@ -3002,7 +3002,7 @@ public class StandardDrawableModel extends DrawableModel
 		anInt5901++;
 		d var_d = anAbstractToolkit5916.aD1543;
 		for (int i = 0; i < anInt5813; i++) {
-			if ((aShortArray5862[i] ^ 0xffffffff) == (s ^ 0xffffffff)) {
+			if (s == aShortArray5862[i]) {
 				aShortArray5862[i] = s_633_;
 			}
 		}
@@ -3015,10 +3015,10 @@ public class StandardDrawableModel extends DrawableModel
 		}
 		byte b_635_ = 0;
 		byte b_636_ = 0;
-		if ((s_633_ ^ 0xffffffff) != 0) {
+		if (s_633_ != -1) {
 			Class91 class91 = var_d.method10(s_633_ & 0xffff, -8217);
 			b_636_ = class91.aByte1217;
-			if ((class91.aByte1211 ^ 0xffffffff) != -1 || class91.aByte1203 != 0) {
+			if (class91.aByte1211 != 0 || class91.aByte1203 != 0) {
 				aBoolean5866 = true;
 			}
 			b_635_ = class91.aByte1225;
@@ -3037,7 +3037,7 @@ public class StandardDrawableModel extends DrawableModel
 	
 	final void ia(short s, short s_637_) {
 		anInt5809++;
-		for (int i = 0; (anInt5813 ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+		for (int i = 0; i < anInt5813; i++) {
 			if (s == aShortArray5802[i]) {
 				aShortArray5802[i] = s_637_;
 			}
@@ -3104,7 +3104,7 @@ public class StandardDrawableModel extends DrawableModel
 	final void method619(DrawableModel drawablemodel, int i, int i_644_, int i_645_, boolean bool) {
 		anInt5921++;
 		StandardDrawableModel standarddrawablemodel_646_ = (StandardDrawableModel) drawablemodel;
-		if (anInt5813 != 0 && (standarddrawablemodel_646_.anInt5813 ^ 0xffffffff) != -1) {
+		if (anInt5813 != 0 && standarddrawablemodel_646_.anInt5813 != 0) {
 			int i_647_ = standarddrawablemodel_646_.anInt5912;
 			int[] is = standarddrawablemodel_646_.anIntArray5879;
 			int[] is_648_ = standarddrawablemodel_646_.anIntArray5897;
@@ -3154,35 +3154,35 @@ public class StandardDrawableModel extends DrawableModel
 			int i_665_ = standarddrawablemodel_646_.anInt5815;
 			int i_666_ = standarddrawablemodel_646_.anInt5883;
 			int i_667_ = standarddrawablemodel_646_.anInt5909;
-			for (int i_668_ = 0; (i_668_ ^ 0xffffffff) > (anInt5912 ^ 0xffffffff); i_668_++) {
+			for (int i_668_ = 0; anInt5912 > i_668_; i_668_++) {
 				int i_669_ = -i_644_ + anIntArray5897[i_668_];
-				if ((i_662_ ^ 0xffffffff) >= (i_669_ ^ 0xffffffff) && (i_669_ ^ 0xffffffff) >= (i_663_ ^ 0xffffffff)) {
+				if (i_669_ >= i_662_ && i_663_ >= i_669_) {
 					int i_670_ = -i + anIntArray5879[i_668_];
-					if (i_670_ >= i_664_ && (i_665_ ^ 0xffffffff) <= (i_670_ ^ 0xffffffff)) {
+					if (i_670_ >= i_664_ && i_670_ <= i_665_) {
 						int i_671_ = -i_645_ + anIntArray5913[i_668_];
 						if (i_671_ >= i_666_ && i_667_ >= i_671_) {
 							int i_672_ = -1;
 							int i_673_ = anIntArray5911[i_668_];
 							int i_674_ = anIntArray5911[i_668_ + 1];
-							for (int i_675_ = i_673_; (i_674_ ^ 0xffffffff) < (i_675_ ^ 0xffffffff); i_675_++) {
+							for (int i_675_ = i_673_; i_675_ < i_674_; i_675_++) {
 								i_672_ = -1 + aShortArray5899[i_675_];
-								if ((i_672_ ^ 0xffffffff) == 0 || (aByteArray5834[i_672_] ^ 0xffffffff) != -1) {
+								if (i_672_ == -1 || aByteArray5834[i_672_] != 0) {
 									break;
 								}
 							}
 							if (i_672_ != -1) {
 								for (int i_676_ = 0; i_647_ > i_676_; i_676_++) {
-									if ((is[i_676_] ^ 0xffffffff) == (i_670_ ^ 0xffffffff) && is_649_[i_676_] == i_671_ && i_669_ == is_648_[i_676_]) {
+									if (i_670_ == is[i_676_] && is_649_[i_676_] == i_671_ && i_669_ == is_648_[i_676_]) {
 										i_673_ = is_660_[i_676_];
 										int i_677_ = -1;
 										i_674_ = is_660_[1 + i_676_];
 										for (int i_678_ = i_673_; i_678_ < i_674_; i_678_++) {
 											i_677_ = -1 + ses_661_[i_678_];
-											if (i_677_ == -1 || (bs[i_677_] ^ 0xffffffff) != -1) {
+											if (i_677_ == -1 || bs[i_677_] != 0) {
 												break;
 											}
 										}
-										if ((i_677_ ^ 0xffffffff) != 0) {
+										if (i_677_ != -1) {
 											if (ses_655_ == null) {
 												aClass284_5867 = new Class284();
 												ses_655_ = aClass284_5867.aShortArray3595 = Class39.method413(aShortArray5889, (byte) -32);
@@ -3203,7 +3203,7 @@ public class StandardDrawableModel extends DrawableModel
 											i_674_ = is_660_[1 + i_676_];
 											i_673_ = is_660_[i_676_];
 											byte b = aByteArray5834[i_672_];
-											for (int i_681_ = i_673_; (i_681_ ^ 0xffffffff) > (i_674_ ^ 0xffffffff); i_681_++) {
+											for (int i_681_ = i_673_; i_674_ > i_681_; i_681_++) {
 												int i_682_ = ses_661_[i_681_] - 1;
 												if (i_682_ == -1) {
 													break;
@@ -3269,30 +3269,30 @@ public class StandardDrawableModel extends DrawableModel
 		int i_692_ = -32768;
 		int i_693_ = 0;
 		int i_694_ = 0;
-		for (int i_695_ = 0; (i_695_ ^ 0xffffffff) > (anInt5912 ^ 0xffffffff); i_695_++) {
+		for (int i_695_ = 0; anInt5912 > i_695_; i_695_++) {
 			int i_696_ = anIntArray5879[i_695_];
 			int i_697_ = anIntArray5897[i_695_];
 			if (i_696_ > i_690_) {
 				i_690_ = i_696_;
 			}
-			if ((i_696_ ^ 0xffffffff) > (i ^ 0xffffffff)) {
+			if (i > i_696_) {
 				i = i_696_;
 			}
 			int i_698_ = anIntArray5913[i_695_];
-			if ((i_688_ ^ 0xffffffff) < (i_697_ ^ 0xffffffff)) {
+			if (i_697_ < i_688_) {
 				i_688_ = i_697_;
 			}
 			if (i_691_ < i_697_) {
 				i_691_ = i_697_;
 			}
-			if ((i_698_ ^ 0xffffffff) < (i_692_ ^ 0xffffffff)) {
+			if (i_692_ < i_698_) {
 				i_692_ = i_698_;
 			}
 			if (i_689_ > i_698_) {
 				i_689_ = i_698_;
 			}
 			int i_699_ = i_698_ * i_698_ + i_696_ * i_696_;
-			if ((i_693_ ^ 0xffffffff) > (i_699_ ^ 0xffffffff)) {
+			if (i_699_ > i_693_) {
 				i_693_ = i_699_;
 			}
 			i_699_ = i_698_ * i_698_ + (i_696_ * i_696_ + i_697_ * i_697_);
@@ -3331,7 +3331,7 @@ public class StandardDrawableModel extends DrawableModel
 		}
 		int i;
 		int i_700_;
-		if ((anAbstractToolkit5916.anInt6337 ^ 0xffffffff) < -1) {
+		if (anAbstractToolkit5916.anInt6337 > 0) {
 			i = anInt5825 + -(anInt5821 * anAbstractToolkit5916.anInt6337 >> 8) >> anAbstractToolkit5916.anInt6350;
 			i_700_ = anInt5815 - (anAbstractToolkit5916.anInt6337 * anInt5903 >> 8) >> anAbstractToolkit5916.anInt6350;
 		} else {
@@ -3340,7 +3340,7 @@ public class StandardDrawableModel extends DrawableModel
 		}
 		int i_701_;
 		int i_702_;
-		if ((anAbstractToolkit5916.anInt6286 ^ 0xffffffff) < -1) {
+		if (anAbstractToolkit5916.anInt6286 > 0) {
 			i_701_ = anInt5883 - (anInt5821 * anAbstractToolkit5916.anInt6286 >> 8) >> anAbstractToolkit5916.anInt6350;
 			i_702_ = anInt5909 - (anAbstractToolkit5916.anInt6286 * anInt5903 >> 8) >> anAbstractToolkit5916.anInt6350;
 		} else {
@@ -3369,10 +3369,10 @@ public class StandardDrawableModel extends DrawableModel
 			int i_711_ = (i_710_ & 0xfdc2) >> 10;
 			int i_712_ = (0x3fd & i_710_) >> 7;
 			int i_713_ = i_710_ & 0x7f;
-			if ((i_706_ ^ 0xffffffff) != 0) {
+			if (i_706_ != -1) {
 				i_712_ = ((i_706_ - i_712_) * i_708_ >> 7) + i_712_;
 			}
-			if ((i ^ 0xffffffff) != 0) {
+			if (i != -1) {
 				i_711_ = ((-i_711_ + i) * i_708_ >> 7) + i_711_;
 			}
 			if (i_707_ != -1) {
@@ -3459,7 +3459,7 @@ public class StandardDrawableModel extends DrawableModel
 			int i_726_ = anIntArray5911[1 + i_722_];
 			for (int i_727_ = i_725_; i_727_ < i_726_; i_727_++) {
 				int i_728_ = aShortArray5899[i_727_] + -1;
-				if ((i_728_ ^ 0xffffffff) == 0) {
+				if (i_728_ == -1) {
 					break;
 				}
 				Class107.anIntArray1363[i_728_] = i_723_;
@@ -3480,7 +3480,7 @@ public class StandardDrawableModel extends DrawableModel
 				int i_735_ = Class365.anIntArray4525[s];
 				int i_736_ = Class365.anIntArray4525[s_730_];
 				int i_737_ = Class365.anIntArray4525[s_731_];
-				if ((-((-i_735_ + i_736_) * (-i_733_ + i_734_)) + (i_732_ - i_733_) * (-i_737_ + i_736_) ^ 0xffffffff) < -1) {
+				if (-((-i_735_ + i_736_) * (-i_733_ + i_734_)) + (i_732_ - i_733_) * (-i_737_ + i_736_) > 0) {
 					var_r_Sub1.method2368(i_734_, i_733_, i_732_, -104, i_736_, i_735_, i_737_);
 				}
 			}
@@ -3503,7 +3503,7 @@ public class StandardDrawableModel extends DrawableModel
 	
 	final void H(int i, int i_738_, int i_739_) {
 		for (int i_740_ = 0; i_740_ < anInt5912; i_740_++) {
-			if ((i ^ 0xffffffff) != -1) {
+			if (i != 0) {
 				anIntArray5879[i_740_] += i;
 			}
 			if (i_738_ != 0) {
@@ -3522,7 +3522,7 @@ public class StandardDrawableModel extends DrawableModel
 		anInt5830++;
 		if (aShortArray5814 != null) {
 			int[] is = new int[3];
-			for (int i_741_ = 0; (i_741_ ^ 0xffffffff) > (anInt5912 ^ 0xffffffff); i_741_++) {
+			for (int i_741_ = 0; anInt5912 > i_741_; i_741_++) {
 				if ((aShortArray5814[i_741_] & i) != 0) {
 					if (!bool) {
 						class336.method3853(anIntArray5879[i_741_], anIntArray5897[i_741_], anIntArray5913[i_741_], is);
@@ -3579,7 +3579,7 @@ public class StandardDrawableModel extends DrawableModel
 				anAbstractToolkit5916.method1354(1, 32011, aClass347_5852.anInterface15_Impl2_4288);
 				anAbstractToolkit5916.method1354(2, 32011, aClass347_5822.anInterface15_Impl2_4288);
 				boolean bool;
-				if ((anInt5896 & 0x37 ^ 0xffffffff) == -1) {
+				if ((anInt5896 & 0x37) == 0) {
 					bool = false;
 					anAbstractToolkit5916.method1296(i ^ 0xff85, false);
 					anAbstractToolkit5916.method1338(anAbstractToolkit5916.aClass213_6385, 9422);

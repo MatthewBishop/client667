@@ -33,7 +33,7 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 				i_6_ -= 2000;
 			}
 			long l = cachenode_sub13.aLong9563;
-			if ((i_6_ ^ 0xffffffff) == -45) {
+			if (i_6_ == 44) {
 				Player player = Class270_Sub2.aPlayerArray8038[i_7_];
 				if (player != null) {
 					Node_Sub37.anInt7431 = 0;
@@ -51,7 +51,7 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 					Class78.method778(0, player.anIntArray10908[0], player.method853((byte) 99), true, player.anIntArray10910[0], 0, -2, 32, player.method853((byte) 110));
 				}
 			}
-			if ((i_6_ ^ 0xffffffff) == -5) {
+			if (i_6_ == 4) {
 				Node_Sub38_Sub28.anInt10403 = 2;
 				Class163.anInt2014 = i;
 				Node_Sub37.anInt7431 = 0;
@@ -79,7 +79,7 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 				}
 			} else {
 				if (i_6_ == 58) {
-					if ((Class339_Sub7.anInt8729 ^ 0xffffffff) >= -1 || !Class175.aClass291_2100.method3450(119, 82) || !Class175.aClass291_2100.method3450(i_2_ ^ 0x6a, 81)) {
+					if (Class339_Sub7.anInt8729 <= 0 || !Class175.aClass291_2100.method3450(119, 82) || !Class175.aClass291_2100.method3450(i_2_ ^ 0x6a, 81)) {
 						Node_Sub13 node_sub13 = Class22.method298(i_4_, (byte) 125, i_5_, i_7_);
 						if (i_7_ == 1) {
 							node_sub13.aPacket7113.method2226(-1, false);
@@ -110,17 +110,17 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 					CacheNode_Sub9.method2321(-1, Node_Sub25_Sub3.aWidget9990);
 				}
 				Class318 class318 = null;
-				if ((i_6_ ^ 0xffffffff) == -3) {
+				if (i_6_ == 2) {
 					class318 = Class228.aClass318_2720;
-				} else if ((i_6_ ^ 0xffffffff) != -23) {
-					if ((i_6_ ^ 0xffffffff) == -53) {
+				} else if (i_6_ != 22) {
+					if (i_6_ == 52) {
 						class318 = OutputStream_Sub2.aClass318_93;
 					} else if (i_6_ != 30) {
-						if ((i_6_ ^ 0xffffffff) != -54) {
+						if (i_6_ != 53) {
 							if (i_6_ == 9) {
 								class318 = Class290_Sub4.aClass318_8089;
-							} else if ((i_6_ ^ 0xffffffff) != -52) {
-								if ((i_6_ ^ 0xffffffff) == -16) {
+							} else if (i_6_ != 51) {
+								if (i_6_ == 15) {
 									class318 = Mobile_Sub4.aClass318_10992;
 								} else if (i_6_ == 48) {
 									class318 = CacheNode_Sub15.aClass318_9590;
@@ -162,9 +162,9 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 					if (i_6_ != 5) {
 						if (i_6_ == 50) {
 							class318_8_ = CacheNode_Sub16.aClass318_9599;
-						} else if ((i_6_ ^ 0xffffffff) != -7) {
-							if ((i_6_ ^ 0xffffffff) != -46) {
-								if ((i_6_ ^ 0xffffffff) == -1008) {
+						} else if (i_6_ != 6) {
+							if (i_6_ != 45) {
+								if (i_6_ == 1007) {
 									class318_8_ = Class51_Sub1.aClass318_9061;
 								}
 							} else {
@@ -194,7 +194,7 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 					Class223.method2104(0, i_5_, i_4_);
 				}
 				if (i_6_ == 11) {
-					if ((Class339_Sub7.anInt8729 ^ 0xffffffff) < -1 && Class175.aClass291_2100.method3450(-121, 82) && Class175.aClass291_2100.method3450(111, 81)) {
+					if (Class339_Sub7.anInt8729 > 0 && Class175.aClass291_2100.method3450(-121, 82) && Class175.aClass291_2100.method3450(111, 81)) {
 						Class331.method3843(false, Class295.aPlayer3692.aByte5933, Class320_Sub4.anInt8243 + i_5_, Node_Sub53.anInt7668 + i_4_);
 					} else {
 						Node_Sub37.anInt7431 = 0;
@@ -208,7 +208,7 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 						Class218.worldResponseBuffer.method1514(126, node_sub13);
 					}
 				}
-				if ((i_6_ ^ 0xffffffff) == -19) {
+				if (i_6_ == 18) {
 					Widget widget = Node_Sub3.method2169(-101, i_4_, i_5_);
 					if (widget != null) {
 						Class166.method1747((byte) -53, widget);
@@ -217,12 +217,12 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 				Class318 class318_9_ = null;
 				if (i_6_ != 49) {
 					if (i_6_ != 59) {
-						if ((i_6_ ^ 0xffffffff) == -48) {
+						if (i_6_ == 47) {
 							class318_9_ = Class68.aClass318_933;
-						} else if ((i_6_ ^ 0xffffffff) == -58) {
+						} else if (i_6_ == 57) {
 							class318_9_ = Class163.aClass318_2018;
 						} else if (i_6_ != 3) {
-							if ((i_6_ ^ 0xffffffff) == -1012) {
+							if (i_6_ == 1011) {
 								class318_9_ = Class66_Sub2_Sub1.aClass318_10581;
 							}
 						} else {
@@ -253,11 +253,11 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 				Class318 class318_10_ = null;
 				if (i_6_ != 19) {
 					if (i_6_ != 13) {
-						if ((i_6_ ^ 0xffffffff) != -47) {
+						if (i_6_ != 46) {
 							if (i_6_ != 8) {
-								if ((i_6_ ^ 0xffffffff) == -1011) {
+								if (i_6_ == 1010) {
 									class318_10_ = Class194_Sub3_Sub1.aClass318_9373;
-								} else if ((i_6_ ^ 0xffffffff) == -1009) {
+								} else if (i_6_ == 1008) {
 									class318_10_ = Animable_Sub2.aClass318_9114;
 								}
 							} else {
@@ -286,10 +286,10 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 					Class218.worldResponseBuffer.method1514(i_2_ + 125, node_sub13);
 					Class25.method306(-43, i_4_, l, i_5_);
 				}
-				if ((i_6_ ^ 0xffffffff) == -1004 || (i_6_ ^ 0xffffffff) == -1002 || i_6_ == 1006 || i_6_ == 1009 || i_6_ == 1004) {
+				if (i_6_ == 1003 || i_6_ == 1001 || i_6_ == 1006 || i_6_ == 1009 || i_6_ == 1004) {
 					Class262_Sub20.method3204((byte) -121, i_4_, i_7_, i_6_);
 				}
-				if ((i_6_ ^ 0xffffffff) == -22) {
+				if (i_6_ == 21) {
 					Class93_Sub2.anInt6067 = i_3_;
 					Node_Sub38_Sub28.anInt10403 = 1;
 					Class163.anInt2014 = i;
@@ -304,7 +304,7 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 					Class218.worldResponseBuffer.method1514(127, node_sub13);
 					Class78.method778(0, i_5_, 1, true, i_4_, 0, -4, -107, 1);
 				}
-				if ((i_6_ ^ 0xffffffff) == -18) {
+				if (i_6_ == 17) {
 					Node_Sub38_Sub28.anInt10403 = 2;
 					Node_Sub37.anInt7431 = 0;
 					Class163.anInt2014 = i;
@@ -321,7 +321,7 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 					Class218.worldResponseBuffer.method1514(127, node_sub13);
 					Class223.method2104(0, i_5_, i_4_);
 				}
-				if ((i_6_ ^ 0xffffffff) == -24) {
+				if (i_6_ == 23) {
 					Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) i_7_);
 					if (node_sub41 != null) {
 						Npc npc = node_sub41.aNpc7518;
@@ -340,7 +340,7 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 						Class78.method778(0, npc.anIntArray10908[0], npc.method853((byte) 44), true, npc.anIntArray10910[0], 0, -2, i_2_ ^ ~0x5b, npc.method853((byte) 50));
 					}
 				}
-				if ((i_6_ ^ 0xffffffff) == -21 || (i_6_ ^ 0xffffffff) == -1003) {
+				if (i_6_ == 20 || i_6_ == 1002) {
 					r_Sub1.method2364(-54, i_5_, i_4_, cachenode_sub13.aString9558, i_7_);
 				}
 				if (i_6_ == 60) {
@@ -375,7 +375,7 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 		if (i_11_ != -25900) {
 			anInt9014 = -33;
 		}
-		if (i != 3 && (i ^ 0xffffffff) != -5) {
+		if (i != 3 && i != 4) {
 			return false;
 		}
 		return true;

@@ -66,7 +66,7 @@ public class Class259
 		if (bool != false) {
 			method3128(false);
 		}
-		if ((anInt3259 ^ 0xffffffff) != 0) {
+		if (anInt3259 != -1) {
 			return anInt3259;
 		}
 		if (anIntArray3294 != null) {
@@ -99,8 +99,8 @@ public class Class259
 			anInt3304 = -27;
 		}
 		if (anIntArray3294 != null) {
-			for (int i_1_ = 0; (anIntArray3294.length ^ 0xffffffff) < (i_1_ ^ 0xffffffff); i_1_++) {
-				if ((anIntArray3294[i_1_] ^ 0xffffffff) == (i ^ 0xffffffff)) {
+			for (int i_1_ = 0; i_1_ < anIntArray3294.length; i_1_++) {
+				if (i == anIntArray3294[i_1_]) {
 					return true;
 				}
 			}
@@ -110,7 +110,7 @@ public class Class259
 	
 	final Class336[] method3131(int i, GraphicsToolkit graphicstoolkit) {
 		anInt3257++;
-		if (aClass336Array3280 != null && (anInt3295 ^ 0xffffffff) == (graphicstoolkit.anInt1537 ^ 0xffffffff)) {
+		if (aClass336Array3280 != null && graphicstoolkit.anInt1537 == anInt3295) {
 			return aClass336Array3280;
 		}
 		if (anIntArrayArray3273 == null) {
@@ -132,7 +132,7 @@ public class Class259
 				i_6_ = anIntArrayArray3273[i_2_][3] << 3;
 				i_3_ = anIntArrayArray3273[i_2_][0];
 			}
-			if (i_3_ != 0 || i_4_ != 0 || (i_5_ ^ 0xffffffff) != -1 || i_6_ != 0 || (i_7_ ^ 0xffffffff) != -1 || i_8_ != 0) {
+			if (i_3_ != 0 || i_4_ != 0 || i_5_ != 0 || i_6_ != 0 || i_7_ != 0 || i_8_ != 0) {
 				Class336 class336 = aClass336Array3280[i_2_] = graphicstoolkit.y();
 				if (i_8_ != 0) {
 					class336.method3868(i_8_);
@@ -140,7 +140,7 @@ public class Class259
 				if (i_6_ != 0) {
 					class336.method3859(i_6_);
 				}
-				if ((i_7_ ^ 0xffffffff) != -1) {
+				if (i_7_ != 0) {
 					class336.method3856(i_7_);
 				}
 				class336.method3863(i_3_, i_4_, i_5_);
@@ -155,8 +155,8 @@ public class Class259
 	static final void method3132(int i, int i_9_, int i_10_, byte b) {
 		anInt3248++;
 		i = Class213.aNode_Sub27_2512.aClass320_Sub25_7274.method3776(false) * i >> 8;
-		if ((i ^ 0xffffffff) != -1 && (i_9_ ^ 0xffffffff) != 0) {
-			if (!Class377_Sub1.aBoolean8775 && (Class313.anInt4013 ^ 0xffffffff) != 0 && Class36.method390(b ^ 0x11) && !Class113.method1152(-85)) {
+		if (i != 0 && i_9_ != -1) {
+			if (!Class377_Sub1.aBoolean8775 && Class313.anInt4013 != -1 && Class36.method390(b ^ 0x11) && !Class113.method1152(-85)) {
 				EntityNode_Sub1.aNode_Sub9_Sub1_5929 = Class230.method2129((byte) -127);
 				Node_Sub9_Sub1 node_sub9_sub1 = Class32.method359(EntityNode_Sub1.aNode_Sub9_Sub1_5929, -9293);
 				AnimableAnimator_Sub1.method256(true, 1405, node_sub9_sub1);
@@ -175,24 +175,24 @@ public class Class259
 			if (i_11_ == 1) {
 				anInt3259 = buffer.method2219(-130546744);
 				anInt3277 = buffer.method2219(-130546744);
-				if ((anInt3259 ^ 0xffffffff) == -65536) {
+				if (anInt3259 == 65535) {
 					anInt3259 = -1;
 				}
-				if ((anInt3277 ^ 0xffffffff) == -65536) {
+				if (anInt3277 == 65535) {
 					anInt3277 = -1;
 				}
 			} else if (i_11_ != 2) {
 				if (i_11_ == 3) {
 					anInt3297 = buffer.method2219(-130546744);
-				} else if ((i_11_ ^ 0xffffffff) == -5) {
+				} else if (i_11_ == 4) {
 					anInt3269 = buffer.method2219(-130546744);
-				} else if ((i_11_ ^ 0xffffffff) != -6) {
+				} else if (i_11_ != 5) {
 					if (i_11_ != 6) {
-						if ((i_11_ ^ 0xffffffff) != -8) {
+						if (i_11_ != 7) {
 							if (i_11_ != 8) {
 								if (i_11_ != 9) {
-									if ((i_11_ ^ 0xffffffff) != -27) {
-										if ((i_11_ ^ 0xffffffff) == -28) {
+									if (i_11_ != 26) {
+										if (i_11_ == 27) {
 											if (anIntArrayArray3273 == null) {
 												anIntArrayArray3273 = new int[aClass281_3265.aClass363_3578.anIntArray4508.length][];
 											}
@@ -204,15 +204,15 @@ public class Class259
 											if (i_11_ != 29) {
 												if (i_11_ != 30) {
 													if (i_11_ != 31) {
-														if ((i_11_ ^ 0xffffffff) == -33) {
+														if (i_11_ == 32) {
 															anInt3284 = buffer.method2219(-130546744);
-														} else if ((i_11_ ^ 0xffffffff) != -34) {
-															if ((i_11_ ^ 0xffffffff) != -35) {
-																if ((i_11_ ^ 0xffffffff) == -36) {
+														} else if (i_11_ != 33) {
+															if (i_11_ != 34) {
+																if (i_11_ == 35) {
 																	anInt3289 = buffer.method2219(-130546744);
-																} else if ((i_11_ ^ 0xffffffff) == -37) {
+																} else if (i_11_ == 36) {
 																	anInt3285 = buffer.method2193(-122);
-																} else if ((i_11_ ^ 0xffffffff) == -38) {
+																} else if (i_11_ == 37) {
 																	anInt3256 = buffer.method2233(255);
 																} else if (i_11_ == 38) {
 																	anInt3299 = buffer.method2219(-130546744);
@@ -223,20 +223,20 @@ public class Class259
 																		anInt3301 = buffer.method2219(-130546744);
 																	} else if (i_11_ == 42) {
 																		anInt3287 = buffer.method2219(-130546744);
-																	} else if ((i_11_ ^ 0xffffffff) != -44) {
+																	} else if (i_11_ != 43) {
 																		if (i_11_ == 44) {
 																			anInt3292 = buffer.method2219(-130546744);
-																		} else if ((i_11_ ^ 0xffffffff) == -46) {
+																		} else if (i_11_ == 45) {
 																			anInt3303 = buffer.method2219(-130546744);
-																		} else if ((i_11_ ^ 0xffffffff) != -47) {
+																		} else if (i_11_ != 46) {
 																			if (i_11_ == 47) {
 																				anInt3260 = buffer.method2219(-130546744);
-																			} else if ((i_11_ ^ 0xffffffff) != -49) {
+																			} else if (i_11_ != 48) {
 																				if (i_11_ == 49) {
 																					anInt3253 = buffer.method2219(-130546744);
-																				} else if ((i_11_ ^ 0xffffffff) == -51) {
+																				} else if (i_11_ == 50) {
 																					anInt3298 = buffer.method2219(-130546744);
-																				} else if ((i_11_ ^ 0xffffffff) == -52) {
+																				} else if (i_11_ == 51) {
 																					anInt3305 = buffer.method2219(-130546744);
 																				} else if (i_11_ == 52) {
 																					int i_14_ = buffer.method2233(255);
@@ -250,7 +250,7 @@ public class Class259
 																					}
 																				} else if (i_11_ == 53) {
 																					aBoolean3267 = false;
-																				} else if ((i_11_ ^ 0xffffffff) != -55) {
+																				} else if (i_11_ != 54) {
 																					if (i_11_ != 55) {
 																						if (i_11_ == 56) {
 																							if (anIntArrayArray3249 == null) {
@@ -258,7 +258,7 @@ public class Class259
 																							}
 																							int i_17_ = buffer.method2233(255);
 																							anIntArrayArray3249[i_17_] = new int[3];
-																							for (int i_18_ = 0; (i_18_ ^ 0xffffffff) > -4; i_18_++)
+																							for (int i_18_ = 0; i_18_ < 3; i_18_++)
 																								anIntArrayArray3249[i_17_][i_18_] = buffer.method2193(-102);
 																						}
 																					} else {

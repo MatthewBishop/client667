@@ -211,13 +211,13 @@ public class Widget
 		}
 		if (anInt4744 > 0) {
 			class383.method4192(anInt4744);
-		} else if ((anInt4796 ^ 0xffffffff) != -1) {
+		} else if (anInt4796 != 0) {
 			class383.method4192(1);
 		}
-		if ((anInt4744 ^ 0xffffffff) <= -2) {
+		if (anInt4744 >= 1) {
 			class383.method4197(1);
 		}
-		if ((anInt4744 ^ 0xffffffff) <= -3) {
+		if (anInt4744 >= 2) {
 			class383.method4197(16777215);
 		}
 		if (anInt4796 != 0) {
@@ -265,7 +265,7 @@ public class Widget
 	private final Object[] method4138(boolean bool, Buffer buffer) {
 		anInt4739++;
 		int i = buffer.method2233(255);
-		if ((i ^ 0xffffffff) == -1) {
+		if (i == 0) {
 			return null;
 		}
 		Object[] objects = new Object[i];
@@ -273,7 +273,7 @@ public class Widget
 			int i_4_ = buffer.method2233(255);
 			if (i_4_ == 0) {
 				objects[i_3_] = new Integer(buffer.method2186(-75));
-			} else if ((i_4_ ^ 0xffffffff) == -2) {
+			} else if (i_4_ == 1) {
 				objects[i_3_] = buffer.method2195(-1);
 			}
 		}
@@ -287,7 +287,7 @@ public class Widget
 	static final void method4139(GraphicsToolkit graphicstoolkit, int i, int i_5_, int i_6_, int i_7_, int i_8_, CacheNode_Sub13 cachenode_sub13, int i_9_, int i_10_, int i_11_, int i_12_, int i_13_) {
 		if (i_13_ == -4392) {
 			anInt4766++;
-			if ((i_11_ ^ 0xffffffff) > (i_12_ ^ 0xffffffff) && (i + i_11_ ^ 0xffffffff) < (i_12_ ^ 0xffffffff) && i_10_ > i_7_ + -13 && i_7_ - -3 > i_10_ && cachenode_sub13.aBoolean9571) {
+			if (i_12_ > i_11_ && i_12_ < i + i_11_ && i_10_ > i_7_ + -13 && i_7_ - -3 > i_10_ && cachenode_sub13.aBoolean9571) {
 				i_9_ = i_8_;
 			}
 			int[] is = null;
@@ -370,7 +370,7 @@ public class Widget
 			i = -1;
 		}
 		anInt4841 = buffer.method2233(255);
-		if ((anInt4841 & 0x80 ^ 0xffffffff) != -1) {
+		if ((anInt4841 & 0x80) != 0) {
 			anInt4841 &= 0x7f;
 			aString4765 = buffer.method2195(-1);
 		}
@@ -390,14 +390,14 @@ public class Widget
 			anInt4692 = -1;
 		}
 		int i_17_ = buffer.method2233(255);
-		aBoolean4689 = (0x1 & i_17_ ^ 0xffffffff) != -1;
+		aBoolean4689 = (0x1 & i_17_) != 0;
 		if (i >= 0) {
-			aBoolean4858 = (i_17_ & 0x2 ^ 0xffffffff) != -1;
+			aBoolean4858 = (i_17_ & 0x2) != 0;
 		}
 		if (anInt4841 == 0) {
 			anInt4735 = buffer.method2219(-130546744);
 			anInt4691 = buffer.method2219(-130546744);
-			if ((i ^ 0xffffffff) > -1) {
+			if (i < 0) {
 				aBoolean4858 = buffer.method2233(255) == 1;
 			}
 		}
@@ -405,7 +405,7 @@ public class Widget
 			anInt4820 = buffer.method2186(-89);
 			anInt4728 = buffer.method2219(-130546744);
 			int i_18_ = buffer.method2233(255);
-			aBoolean4861 = (i_18_ & 0x1 ^ 0xffffffff) != -1;
+			aBoolean4861 = (i_18_ & 0x1) != 0;
 			aBoolean4738 = (i_18_ & 0x2) != 0;
 			anInt4757 = buffer.method2233(255);
 			anInt4744 = buffer.method2233(255);
@@ -413,21 +413,21 @@ public class Widget
 			aBoolean4732 = buffer.method2233(255) == 1;
 			aBoolean4743 = buffer.method2233(255) == 1;
 			anInt4754 = buffer.method2186(95);
-			if ((i ^ 0xffffffff) <= -4) {
-				aBoolean4782 = (buffer.method2233(255) ^ 0xffffffff) == -2;
+			if (i >= 3) {
+				aBoolean4782 = buffer.method2233(255) == 1;
 			}
 		}
 		if (anInt4841 == 6) {
 			anInt4844 = 1;
 			anInt4864 = buffer.method2219(-130546744);
-			if ((anInt4864 ^ 0xffffffff) == -65536) {
+			if (anInt4864 == 65535) {
 				anInt4864 = -1;
 			}
 			int i_19_ = buffer.method2233(255);
 			aBoolean4707 = (0x4 & i_19_) == 4;
 			boolean bool = (0x1 & i_19_) == 1;
-			aBoolean4865 = (i_19_ & 0x2 ^ 0xffffffff) == -3;
-			aBoolean4727 = (0x8 & i_19_ ^ 0xffffffff) == -9;
+			aBoolean4865 = (i_19_ & 0x2) == 2;
+			aBoolean4727 = (0x8 & i_19_) == 8;
 			if (bool) {
 				anInt4709 = buffer.method2193(-121);
 				anInt4797 = buffer.method2193(-17);
@@ -445,13 +445,13 @@ public class Widget
 				anInt4787 = buffer.method2193(-35);
 			}
 			anInt4773 = buffer.method2219(-130546744);
-			if ((anInt4773 ^ 0xffffffff) == -65536) {
+			if (anInt4773 == 65535) {
 				anInt4773 = -1;
 			}
 			if (aByte4750 != 0) {
 				anInt4800 = buffer.method2219(-130546744);
 			}
-			if ((aByte4741 ^ 0xffffffff) != -1) {
+			if (aByte4741 != 0) {
 				anInt4849 = buffer.method2219(-130546744);
 			}
 		}
@@ -460,33 +460,33 @@ public class Widget
 			if (anInt4759 == 65535) {
 				anInt4759 = -1;
 			}
-			if ((i ^ 0xffffffff) <= -3) {
-				aBoolean4832 = (buffer.method2233(255) ^ 0xffffffff) == -2;
+			if (i >= 2) {
+				aBoolean4832 = buffer.method2233(255) == 1;
 			}
 			aString4790 = buffer.method2195(-1);
 			anInt4697 = buffer.method2233(255);
 			anInt4835 = buffer.method2233(255);
 			anInt4825 = buffer.method2233(255);
-			aBoolean4710 = (buffer.method2233(255) ^ 0xffffffff) == -2;
+			aBoolean4710 = buffer.method2233(255) == 1;
 			anInt4754 = buffer.method2186(52);
 			anInt4757 = buffer.method2233(255);
-			if ((i ^ 0xffffffff) <= -1) {
+			if (i >= 0) {
 				anInt4767 = buffer.method2233(255);
 			}
 		}
-		if ((anInt4841 ^ 0xffffffff) == -4) {
+		if (anInt4841 == 3) {
 			anInt4754 = buffer.method2186(49);
-			aBoolean4769 = (buffer.method2233(255) ^ 0xffffffff) == -2;
+			aBoolean4769 = buffer.method2233(255) == 1;
 			anInt4757 = buffer.method2233(255);
 		}
-		if ((anInt4841 ^ 0xffffffff) == -10) {
+		if (anInt4841 == 9) {
 			anInt4752 = buffer.method2233(255);
 			anInt4754 = buffer.method2186(-127);
 			aBoolean4721 = buffer.method2233(255) == 1;
 		}
 		int i_20_ = buffer.method2220(1819759595);
 		int i_21_ = buffer.method2233(255);
-		if ((i_21_ ^ 0xffffffff) != -1) {
+		if (i_21_ != 0) {
 			aByteArray4806 = new byte[11];
 			aByteArray4733 = new byte[11];
 			anIntArray4705 = new int[11];
@@ -498,7 +498,7 @@ public class Widget
 					i_21_ = -1;
 				}
 				byte b_23_ = buffer.method2214((byte) -94);
-				if ((b_23_ ^ 0xffffffff) != -1) {
+				if (b_23_ != 0) {
 					aBoolean4802 = true;
 				}
 				byte b_24_ = buffer.method2214((byte) -111);
@@ -512,18 +512,18 @@ public class Widget
 		int i_26_ = 0xf & i_25_;
 		if (i_26_ > 0) {
 			aStringArray4686 = new String[i_26_];
-			for (int i_27_ = 0; (i_27_ ^ 0xffffffff) > (i_26_ ^ 0xffffffff); i_27_++)
+			for (int i_27_ = 0; i_26_ > i_27_; i_27_++)
 				aStringArray4686[i_27_] = buffer.method2195(-1);
 		}
 		int i_28_ = i_25_ >> 4;
-		if ((i_28_ ^ 0xffffffff) < -1) {
+		if (i_28_ > 0) {
 			int i_29_ = buffer.method2233(255);
 			anIntArray4863 = new int[i_29_ - -1];
-			for (int i_30_ = 0; (i_30_ ^ 0xffffffff) > (anIntArray4863.length ^ 0xffffffff); i_30_++)
+			for (int i_30_ = 0; anIntArray4863.length > i_30_; i_30_++)
 				anIntArray4863[i_30_] = -1;
 			anIntArray4863[i_29_] = buffer.method2219(-130546744);
 		}
-		if ((i_28_ ^ 0xffffffff) < -2) {
+		if (i_28_ > 1) {
 			int i_31_ = buffer.method2233(255);
 			anIntArray4863[i_31_] = buffer.method2219(-130546744);
 		}
@@ -536,13 +536,13 @@ public class Widget
 		anInt4860 = buffer.method2233(255);
 		aString4786 = buffer.method2195(-1);
 		int i_32_ = -1;
-		if ((Animable_Sub4.method925(i_20_, 34933) ^ 0xffffffff) != -1) {
+		if (Animable_Sub4.method925(i_20_, 34933) != 0) {
 			i_32_ = buffer.method2219(-130546744);
 			if (i_32_ == 65535) {
 				i_32_ = -1;
 			}
 			anInt4698 = buffer.method2219(-130546744);
-			if ((anInt4698 ^ 0xffffffff) == -65536) {
+			if (anInt4698 == 65535) {
 				anInt4698 = -1;
 			}
 			anInt4839 = buffer.method2219(-130546744);
@@ -582,7 +582,7 @@ public class Widget
 		anObjectArray4788 = method4138(false, buffer);
 		anObjectArray4701 = method4138(false, buffer);
 		anObjectArray4770 = method4138(false, buffer);
-		if ((i ^ 0xffffffff) <= -1) {
+		if (i >= 0) {
 			anObjectArray4751 = method4138(false, buffer);
 		}
 		anObjectArray4834 = method4138(false, buffer);
@@ -606,7 +606,7 @@ public class Widget
 		if (aStringArray4686 == null || i >= aStringArray4686.length) {
 			String[] strings = new String[i + 1];
 			if (aStringArray4686 != null) {
-				for (int i_42_ = 0; (i_42_ ^ 0xffffffff) > (aStringArray4686.length ^ 0xffffffff); i_42_++)
+				for (int i_42_ = 0; aStringArray4686.length > i_42_; i_42_++)
 					strings[i_42_] = aStringArray4686[i_42_];
 			}
 			aStringArray4686 = strings;
@@ -645,13 +645,13 @@ public class Widget
 						Class52.anInt800 = 2;
 					}
 				}
-				if ((Class52.anInt800 ^ 0xffffffff) != -4) {
+				if (Class52.anInt800 != 3) {
 					break;
 				}
 				int i_44_ = Class307.aNode_Sub9_Sub1_3902.method2471(i + 15);
 				if (i_44_ < Class17.anInt282 && Class307.aNode_Sub9_Sub1_3902.method2445((byte) -84)) {
 					i_44_ += Class339_Sub8.anInt8733;
-					if ((i_44_ ^ 0xffffffff) < (Class17.anInt282 ^ 0xffffffff)) {
+					if (Class17.anInt282 < i_44_) {
 						i_44_ = Class17.anInt282;
 					}
 					Class307.aNode_Sub9_Sub1_3902.method2439(-12651, i_44_);
@@ -678,7 +678,7 @@ public class Widget
 		long l = 0xffffffffL & (long) anInt4687 | (long) anInt4822 << 32;
 		Class127 class127 = (Class127) Class243.aClass61_3065.method607(l, 0);
 		if (class127 != null) {
-			if ((class127.anInt1645 ^ 0xffffffff) != (anInt4820 ^ 0xffffffff)) {
+			if (anInt4820 != class127.anInt1645) {
 				class127 = null;
 				Class243.aClass61_3065.method605(l, i ^ ~0x330a);
 			}
@@ -737,7 +737,7 @@ public class Widget
 		if (bool != false) {
 			return null;
 		}
-		for (int i = string.indexOf(string_53_); (i ^ 0xffffffff) != 0; i = string.indexOf(string_53_, i - -string_54_.length()))
+		for (int i = string.indexOf(string_53_); i != -1; i = string.indexOf(string_53_, i - -string_54_.length()))
 			string = string.substring(0, i) + string_54_ + string.substring(string_53_.length() + i);
 		return string;
 	}
@@ -763,12 +763,12 @@ public class Widget
 			method4149(42, 8, true);
 		}
 		anInt4715++;
-		if (anIntArray4863 == null || (i ^ 0xffffffff) <= (anIntArray4863.length ^ 0xffffffff)) {
+		if (anIntArray4863 == null || anIntArray4863.length <= i) {
 			int[] is = new int[i - -1];
 			if (anIntArray4863 != null) {
 				for (int i_58_ = 0; anIntArray4863.length > i_58_; i_58_++)
 					is[i_58_] = anIntArray4863[i_58_];
-				for (int i_59_ = anIntArray4863.length; (i ^ 0xffffffff) < (i_59_ ^ 0xffffffff); i_59_++)
+				for (int i_59_ = anIntArray4863.length; i_59_ < i; i_59_++)
 					is[i_59_] = -1;
 			}
 			anIntArray4863 = is;
@@ -844,8 +844,8 @@ public class Widget
 		if (i != 1869940680) {
 			return false;
 		}
-		for (int i_61_ = 0; (node_sub53.anInt7658 ^ 0xffffffff) < (i_61_ ^ 0xffffffff); i_61_++) {
-			if (node_sub53.aClass241Array7657[i_61_] != null && (node_sub53.aClass241Array7657[i_61_].anInt2953 ^ 0xffffffff) == -1) {
+		for (int i_61_ = 0; i_61_ < node_sub53.anInt7658; i_61_++) {
+			if (node_sub53.aClass241Array7657[i_61_] != null && node_sub53.aClass241Array7657[i_61_].anInt2953 == 0) {
 				return false;
 			}
 			if (node_sub53.aClass241Array7664[i_61_] != null && node_sub53.aClass241Array7664[i_61_].anInt2953 == 0) {
@@ -875,7 +875,7 @@ public class Widget
 			long l = -1L;
 			long[] ls = CacheNode_Sub20.aLongArray9626;
 			if (aShortArray4785 != null) {
-				for (int i_63_ = 0; (i_63_ ^ 0xffffffff) > (aShortArray4785.length ^ 0xffffffff); i_63_++) {
+				for (int i_63_ = 0; aShortArray4785.length > i_63_; i_63_++) {
 					l = l >>> 8 ^ ls[(int) (((long) (aShortArray4785[i_63_] >> 8) ^ l) & 0xffL)];
 					l = l >>> 8 ^ ls[(int) (0xffL & ((long) aShortArray4785[i_63_] ^ l))];
 					l = ls[(int) (0xffL & ((long) (aShortArray4690[i_63_] >> 8) ^ l))] ^ l >>> 8;
@@ -884,7 +884,7 @@ public class Widget
 				i |= 0x4000;
 			}
 			if (aShortArray4837 != null) {
-				for (int i_64_ = 0; (i_64_ ^ 0xffffffff) > (aShortArray4837.length ^ 0xffffffff); i_64_++) {
+				for (int i_64_ = 0; aShortArray4837.length > i_64_; i_64_++) {
 					l = ls[(int) (0xffL & ((long) (aShortArray4837[i_64_] >> 8) ^ l))] ^ l >>> 8;
 					l = ls[(int) (((long) aShortArray4837[i_64_] ^ l) & 0xffL)] ^ l >>> 8;
 					l = l >>> 8 ^ ls[(int) (((long) (aShortArray4717[i_64_] >> 8) ^ l) & 0xffL)];
@@ -894,7 +894,7 @@ public class Widget
 			}
 			long l_65_ = l & 0x3fffffffffL | ((long) anInt4864 << 38 | ((long) anInt4844 << 54 | (long) graphicstoolkit.anInt1537 << 59));
 			DrawableModel drawablemodel = (DrawableModel) Class166.aClass61_5097.method607(l_65_, 0);
-			if (drawablemodel == null || (graphicstoolkit.b(drawablemodel.ua(), i) ^ 0xffffffff) != -1) {
+			if (drawablemodel == null || graphicstoolkit.b(drawablemodel.ua(), i) != 0) {
 				if (drawablemodel != null) {
 					i = graphicstoolkit.c(i, drawablemodel.ua());
 				}
@@ -903,16 +903,16 @@ public class Widget
 					Class287.aBoolean3606 = true;
 					return null;
 				}
-				if ((model.anInt2614 ^ 0xffffffff) > -14) {
+				if (model.anInt2614 < 13) {
 					model.method2081(2, 0);
 				}
 				drawablemodel = graphicstoolkit.a(model, i, Node_Sub15_Sub3.anInt9787, 64, 768);
 				if (aShortArray4785 != null) {
-					for (int i_66_ = 0; (aShortArray4785.length ^ 0xffffffff) < (i_66_ ^ 0xffffffff); i_66_++)
+					for (int i_66_ = 0; i_66_ < aShortArray4785.length; i_66_++)
 						drawablemodel.ia(aShortArray4785[i_66_], aShortArray4690[i_66_]);
 				}
 				if (aShortArray4837 != null) {
-					for (int i_67_ = 0; (i_67_ ^ 0xffffffff) > (aShortArray4837.length ^ 0xffffffff); i_67_++)
+					for (int i_67_ = 0; aShortArray4837.length > i_67_; i_67_++)
 						drawablemodel.aa(aShortArray4837[i_67_], aShortArray4717[i_67_]);
 				}
 				Class166.aClass61_5097.method601(drawablemodel, 25566, l_65_);
@@ -924,7 +924,7 @@ public class Widget
 			drawablemodel.s(i_62_);
 			return drawablemodel;
 		}
-		if ((anInt4844 ^ 0xffffffff) == -3) {
+		if (anInt4844 == 2) {
 			DrawableModel drawablemodel = class279.method3376(anInt4864, (byte) 107).method3006(i, animator, class361, 412761072, graphicstoolkit, interface17);
 			if (drawablemodel == null) {
 				Class287.aBoolean3606 = true;
@@ -952,7 +952,7 @@ public class Widget
 			}
 			return drawablemodel;
 		}
-		if ((anInt4844 ^ 0xffffffff) == -7) {
+		if (anInt4844 == 6) {
 			DrawableModel drawablemodel = class279.method3376(anInt4864, (byte) 107).method3007(interface17, graphicstoolkit, class281, (byte) 50, animator, 0, null, class361, null, i, null);
 			if (drawablemodel == null) {
 				Class287.aBoolean3606 = true;
@@ -960,7 +960,7 @@ public class Widget
 			}
 			return drawablemodel;
 		}
-		if ((anInt4844 ^ 0xffffffff) == -8) {
+		if (anInt4844 == 7) {
 			if (playerdefinition == null) {
 				return null;
 			}

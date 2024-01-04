@@ -145,7 +145,7 @@ public class Animable_Sub1_Sub2 extends Animable_Sub1 implements Interface19
 	Animable_Sub1_Sub2(GraphicsToolkit graphicstoolkit, ObjectDefinition objectdefinition, int i, int i_5_, int i_6_, int i_7_, int i_8_, boolean bool, int i_9_, int i_10_) {
 		super(i_6_, i_7_, i_8_, i, i_5_, objectdefinition.anInt2983);
 		aClass310_10652 = new Class310(graphicstoolkit, objectdefinition, 22, i_9_, i, i_5_, this, bool, i_10_);
-		aBoolean10672 = (objectdefinition.anInt3057 ^ 0xffffffff) != -1 && !bool;
+		aBoolean10672 = objectdefinition.anInt3057 != 0 && !bool;
 	}
 	
 	final EntityNode_Sub6 method807(int i, GraphicsToolkit graphicstoolkit) {

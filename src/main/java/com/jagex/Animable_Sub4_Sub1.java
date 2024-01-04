@@ -96,7 +96,7 @@ public class Animable_Sub4_Sub1 extends Animable_Sub4 implements Interface19
 		if (objectdefinition.anInt3057 == 0) {
 			l_8_ |= l_7_;
 		}
-		if ((objectdefinition.anInt2970 ^ 0xffffffff) == -2) {
+		if (objectdefinition.anInt2970 == 1) {
 			l_8_ |= l;
 		}
 		l_8_ |= (long) interface19.method72(-32136) << 32;
@@ -144,7 +144,7 @@ public class Animable_Sub4_Sub1 extends Animable_Sub4 implements Interface19
 			anInt10687 = -94;
 		}
 		anInt10680++;
-		if ((c ^ 0xffffffff) > -49 || c > 57) {
+		if (c < 48 || c > 57) {
 			return false;
 		}
 		return true;
@@ -220,9 +220,9 @@ public class Animable_Sub4_Sub1 extends Animable_Sub4 implements Interface19
 		aByte10698 = (byte) i_17_;
 		anInt5934 = i_11_;
 		aByte10686 = (byte) i_16_;
-		aBoolean10702 = (objectdefinition.anInt3057 ^ 0xffffffff) != -1 && !bool;
+		aBoolean10702 = objectdefinition.anInt3057 != 0 && !bool;
 		aBoolean10673 = bool;
-		aBoolean10684 = graphicstoolkit.r() && objectdefinition.aBoolean2972 && !aBoolean10673 && (Class213.aNode_Sub27_2512.aClass320_Sub12_7282.method3730(false) ^ 0xffffffff) != -1;
+		aBoolean10684 = graphicstoolkit.r() && objectdefinition.aBoolean2972 && !aBoolean10673 && Class213.aNode_Sub27_2512.aClass320_Sub12_7282.method3730(false) != 0;
 		Class243 class243 = method932((byte) 24, graphicstoolkit, 2048, aBoolean10684);
 		if (class243 != null) {
 			aDrawableModel10696 = class243.aDrawableModel3064;

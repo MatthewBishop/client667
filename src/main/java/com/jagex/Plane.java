@@ -133,7 +133,7 @@ abstract class Plane
 			i_58_ = Class315.anInt4035 * 16 + 21;
 		}
 		int i_61_ = -(i_57_ / 2) + i_56_;
-		if ((Class360.anInt4480 ^ 0xffffffff) > (i_57_ + i_61_ ^ 0xffffffff)) {
+		if (i_57_ + i_61_ > Class360.anInt4480) {
 			i_61_ = -i_57_ + Class360.anInt4480;
 		}
 		int i_62_ = 16 / ((i - 56) / 41);
@@ -159,7 +159,7 @@ abstract class Plane
 		anInt3399++;
 		int i_70_ = i_69_ >> anInt3410;
 		int i_71_ = i >> anInt3410;
-		if ((i_70_ ^ 0xffffffff) > -1 || i_71_ < 0 || (anInt3408 + -1 ^ 0xffffffff) > (i_70_ ^ 0xffffffff) || -1 + anInt3404 < i_71_) {
+		if (i_70_ < 0 || i_71_ < 0 || i_70_ > anInt3408 + -1 || -1 + anInt3404 < i_71_) {
 			return 0;
 		}
 		int i_72_ = anInt3398 - 1 & i_69_;

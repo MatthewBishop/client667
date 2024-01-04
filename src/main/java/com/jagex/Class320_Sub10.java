@@ -74,7 +74,7 @@ public class Class320_Sub10 extends Class320
 			method3720(33, 110, 2);
 		}
 		anInt8302++;
-		if ((0xc580 & i_0_ ^ 0xffffffff) == -1) {
+		if ((0xc580 & i_0_) == 0) {
 			return false;
 		}
 		return true;

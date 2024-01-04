@@ -35,9 +35,9 @@ public class Class363
 				anIntArray4508 = new int[i_1_];
 				for (int i_2_ = 0; anIntArray4508.length > i_2_; i_2_++)
 					anIntArray4508[i_2_] = buffer.method2233(255);
-			} else if ((i_0_ ^ 0xffffffff) == -4) {
+			} else if (i_0_ == 3) {
 				anInt4506 = buffer.method2233(255);
-			} else if ((i_0_ ^ 0xffffffff) != -5) {
+			} else if (i_0_ != 4) {
 				if (i_0_ != 5) {
 					if (i_0_ == 6) {
 						anIntArray4507 = new int[buffer.method2233(255)];

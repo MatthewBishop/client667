@@ -82,7 +82,7 @@ public class Class323
 			}
 			int i_8_ = Node_Sub38_Sub5.aBoolean10130 ? 33 : 31;
 			int i_9_ = -i_8_ + i - -13;
-			if ((Class205.anInt5115 ^ 0xffffffff) > (i_6_ + i_9_ ^ 0xffffffff)) {
+			if (i_6_ + i_9_ > Class205.anInt5115) {
 				i_9_ = -i_6_ + Class205.anInt5115;
 			}
 			Class367.anInt4539 = i_7_;
@@ -100,10 +100,10 @@ public class Class323
 			return (byte) 71;
 		}
 		anInt4078++;
-		if ((i ^ 0xffffffff) != -10) {
+		if (i != 9) {
 			return (byte) 0;
 		}
-		if ((0x1 & i_10_ ^ 0xffffffff) != -1) {
+		if ((0x1 & i_10_) != 0) {
 			return (byte) 2;
 		}
 		return (byte) 1;

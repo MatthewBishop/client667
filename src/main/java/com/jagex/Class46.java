@@ -34,7 +34,7 @@ public class Class46
 					break;
 				}
 			}
-			if ((node_sub2.anInt6932 ^ 0xffffffff) == -1) {
+			if (node_sub2.anInt6932 == 0) {
 				Class243.method3060((byte) 103, bool, true, node_sub2);
 			}
 		}
@@ -61,7 +61,7 @@ public class Class46
 		if (i != 255) {
 			method467(21, false);
 		}
-		if ((Class315.anInt4035 ^ 0xffffffff) >= -1) {
+		if (Class315.anInt4035 <= 0) {
 			return false;
 		}
 		return true;

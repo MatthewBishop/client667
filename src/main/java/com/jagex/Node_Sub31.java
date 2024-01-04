@@ -46,10 +46,10 @@ public class Node_Sub31 extends Node
 		if (b <= 11) {
 			anInt7370 = -117;
 		}
-		if ((i ^ 0xffffffff) <= (anInt7374 ^ 0xffffffff) && i <= anInt7369 && (i_2_ ^ 0xffffffff) <= (anInt7365 ^ 0xffffffff) && (i_2_ ^ 0xffffffff) >= (anInt7370 ^ 0xffffffff)) {
+		if (anInt7374 <= i && i <= anInt7369 && anInt7365 <= i_2_ && anInt7370 >= i_2_) {
 			return true;
 		}
-		if ((anInt7371 ^ 0xffffffff) >= (i ^ 0xffffffff) && i <= anInt7364 && (anInt7363 ^ 0xffffffff) >= (i_2_ ^ 0xffffffff) && i_2_ <= anInt7366) {
+		if (i >= anInt7371 && i <= anInt7364 && i_2_ >= anInt7363 && i_2_ <= anInt7366) {
 			return true;
 		}
 		return false;

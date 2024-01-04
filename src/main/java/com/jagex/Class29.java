@@ -68,7 +68,7 @@ public class Class29
 			for (int i_14_ = i - 1; i_14_ >= 0; i_14_--) {
 				int i_15_ = anIntArray488[i_14_] <= 64 ? anIntArray488[i_14_] : 64;
 				if (i_15_ > 0) {
-					for (int i_16_ = i_15_ + -1; (i_16_ ^ 0xffffffff) <= -1; i_16_--) {
+					for (int i_16_ = i_15_ + -1; i_16_ >= 0; i_16_--) {
 						EntityNode_Sub3_Sub2 entitynode_sub3_sub2 = anEntityNode_Sub3_Sub2ArrayArray486[i_14_][i_16_];
 						int i_17_ = entitynode_sub3_sub2.anInt9176;
 						byte b_18_ = (byte) (i_17_ >> 16);
@@ -116,9 +116,9 @@ public class Class29
 						aFloatBuffer476.method2226(b_20_, false);
 						aFloatBuffer476.method2226(b_21_, false);
 					}
-					if ((anIntArray488[i_14_] ^ 0xffffffff) < -65) {
+					if (anIntArray488[i_14_] > 64) {
 						int i_26_ = -1 + (-64 + anIntArray488[i_14_]);
-						for (int i_27_ = anIntArray490[i_26_] - 1; (i_27_ ^ 0xffffffff) <= -1; i_27_--) {
+						for (int i_27_ = anIntArray490[i_26_] - 1; i_27_ >= 0; i_27_--) {
 							EntityNode_Sub3_Sub2 entitynode_sub3_sub2 = anEntityNode_Sub3_Sub2ArrayArray487[i_26_][i_27_];
 							int i_28_ = entitynode_sub3_sub2.anInt9176;
 							byte b_29_ = (byte) (i_28_ >> 16);
@@ -171,8 +171,8 @@ public class Class29
 			}
 		} else {
 			for (int i_37_ = i + -1; i_37_ >= 0; i_37_--) {
-				int i_38_ = (anIntArray488[i_37_] ^ 0xffffffff) < -65 ? 64 : anIntArray488[i_37_];
-				if ((i_38_ ^ 0xffffffff) < -1) {
+				int i_38_ = anIntArray488[i_37_] > 64 ? 64 : anIntArray488[i_37_];
+				if (i_38_ > 0) {
 					for (int i_39_ = -1 + i_38_; i_39_ >= 0; i_39_--) {
 						EntityNode_Sub3_Sub2 entitynode_sub3_sub2 = anEntityNode_Sub3_Sub2ArrayArray486[i_37_][i_39_];
 						int i_40_ = entitynode_sub3_sub2.anInt9176;
@@ -221,9 +221,9 @@ public class Class29
 						aFloatBuffer476.method2226(b_43_, false);
 						aFloatBuffer476.method2226(b_44_, false);
 					}
-					if ((anIntArray488[i_37_] ^ 0xffffffff) < -65) {
+					if (anIntArray488[i_37_] > 64) {
 						int i_49_ = -1 + (-64 + anIntArray488[i_37_]);
-						for (int i_50_ = anIntArray490[i_49_] + -1; (i_50_ ^ 0xffffffff) <= -1; i_50_--) {
+						for (int i_50_ = anIntArray490[i_49_] + -1; i_50_ >= 0; i_50_--) {
 							EntityNode_Sub3_Sub2 entitynode_sub3_sub2 = anEntityNode_Sub3_Sub2ArrayArray487[i_49_][i_50_];
 							int i_51_ = entitynode_sub3_sub2.anInt9176;
 							byte b_52_ = (byte) (i_51_ >> 16);
@@ -275,7 +275,7 @@ public class Class29
 				}
 			}
 		}
-		if ((aFloatBuffer476.anInt7002 ^ 0xffffffff) != -1) {
+		if (aFloatBuffer476.anInt7002 != 0) {
 			anInterface9_482.method22(aFloatBuffer476.aByteArray7019, aFloatBuffer476.anInt7002, 24, (byte) 74);
 			gltoolkit.method1482((byte) 111, aClass69_483, null, aClass69_480, aClass69_484);
 			gltoolkit.method1441(7, 0, aFloatBuffer476.anInt7002 / 24, (byte) -42);
@@ -309,7 +309,7 @@ public class Class29
 	final void method339(GLToolkit gltoolkit, Class198 class198, int i, boolean bool) {
 		anInt473++;
 		if (gltoolkit.aClass336_Sub3_6639 != null) {
-			if ((i ^ 0xffffffff) <= -1) {
+			if (i >= 0) {
 				method338(i, gltoolkit, 28322);
 			} else {
 				method334(false, gltoolkit);
@@ -336,7 +336,7 @@ public class Class29
 				}
 				int i_69_ = i_66_ + -i_65_;
 				int i_70_;
-				if ((i_69_ - -2 ^ 0xffffffff) >= -1601) {
+				if (i_69_ - -2 <= 1600) {
 					i_70_ = 0;
 					i_69_ += 2;
 				} else {
@@ -350,9 +350,9 @@ public class Class29
 				boolean bool_74_ = bool;
 				while (entitynode_sub3_71_ != entitynode_sub3) {
 					anInt485 = 0;
-					for (int i_75_ = 0; (i_75_ ^ 0xffffffff) > (i_69_ ^ 0xffffffff); i_75_++)
+					for (int i_75_ = 0; i_69_ > i_75_; i_75_++)
 						anIntArray488[i_75_] = 0;
-					for (int i_76_ = 0; (i_76_ ^ 0xffffffff) > -65; i_76_++)
+					for (int i_76_ = 0; i_76_ < 64; i_76_++)
 						anIntArray490[i_76_] = 0;
 					for (/**/; entitynode_sub3_71_ != entitynode_sub3; entitynode_sub3_71_ = entitynode_sub3_71_.anEntityNode_Sub3_5961) {
 						EntityNode_Sub3_Sub2 entitynode_sub3_sub2 = (EntityNode_Sub3_Sub2) entitynode_sub3_71_;
@@ -361,15 +361,15 @@ public class Class29
 							i_72_ = entitynode_sub3_sub2.anInt9177;
 							bool_74_ = false;
 						}
-						if ((i_64_ ^ 0xffffffff) < -1 && (entitynode_sub3_sub2.anInt9177 != i_72_ || entitynode_sub3_sub2.aBoolean9169 == !bool_73_)) {
+						if (i_64_ > 0 && (entitynode_sub3_sub2.anInt9177 != i_72_ || entitynode_sub3_sub2.aBoolean9169 == !bool_73_)) {
 							bool_74_ = true;
 							break;
 						}
 						int i_77_ = anIntArray489[i_64_++] + -i_65_ >> i_70_;
 						if (i_77_ < 1600) {
 							if (anIntArray488[i_77_] >= 64) {
-								if ((anIntArray488[i_77_] ^ 0xffffffff) == -65) {
-									if ((anInt485 ^ 0xffffffff) == -65) {
+								if (anIntArray488[i_77_] == 64) {
+									if (anInt485 == 64) {
 										continue;
 									}
 									anIntArray488[i_77_] += 1 + anInt485++;
@@ -380,7 +380,7 @@ public class Class29
 							}
 						}
 					}
-					if ((i_72_ ^ 0xffffffff) <= -1) {
+					if (i_72_ >= 0) {
 						gltoolkit.method1489(i_72_, -2);
 					} else {
 						gltoolkit.method1489(-1, -2);

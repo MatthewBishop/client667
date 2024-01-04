@@ -87,7 +87,7 @@ public class Class119
 			} else {
 				Class91 class91 = Class376.aD4661.method10(anInt1491, -8217);
 				if (aGLSprite1490 == null && Class376.aD4661.method7(i_19_ + 40162, anInt1491)) {
-					int[] is = (class91.anInt1226 ^ 0xffffffff) == -3 ? Class376.aD4661.method8(0.7F, anInt1491, anInt1507, false, false, anInt1507) : Class376.aD4661.method11(anInt1507, false, anInt1507, anInt1491, (byte) 0, 0.7F);
+					int[] is = class91.anInt1226 == 2 ? Class376.aD4661.method8(0.7F, anInt1491, anInt1507, false, false, anInt1507) : Class376.aD4661.method11(anInt1507, false, anInt1507, anInt1491, (byte) 0, 0.7F);
 					anInt1481 = is[0];
 					anInt1495 = is[is.length - 1];
 					aGLSprite1490 = graphicstoolkit.method1235(anInt1507, anInt1507, anInt1507, is, 0, 7468);
@@ -108,20 +108,20 @@ public class Class119
 					if (anInt1502 == 1) {
 						for (int i_29_ = -i_15_ + i_28_; i_18_ > i_29_; i_29_ = i_29_ + i_15_)
 							aGLSprite1490.method1199(i_20_ + i_29_, i_27_ + i_24_, i_15_, i_15_, 0, 0xffffff | i_25_ << 24, i_26_);
-						if ((~0xffffff & anInt1481 ^ 0xffffffff) != -1) {
+						if ((~0xffffff & anInt1481) != 0) {
 							graphicstoolkit.method1239(i_18_, i_27_ - (-i_24_ + -1), 0, (byte) 116, 0, anInt1481);
 						}
-						if ((~0xffffff & anInt1495 ^ 0xffffffff) != -1) {
+						if ((~0xffffff & anInt1495) != 0) {
 							graphicstoolkit.method1239(i_18_, i_15_ - (i_15_ + i_27_) + -i_24_, i_15_ + (i_24_ + i_27_), (byte) 116, 0, anInt1495);
 						}
 					} else {
-						for (/**/; (i_15_ ^ 0xffffffff) > (i_27_ ^ 0xffffffff); i_27_ -= i_15_) {
+						for (/**/; i_27_ > i_15_; i_27_ -= i_15_) {
 							/* empty */
 						}
 						for (/**/; i_27_ < 0; i_27_ += i_15_) {
 							/* empty */
 						}
-						for (int i_30_ = -i_15_ + i_28_; (i_18_ ^ 0xffffffff) < (i_30_ ^ 0xffffffff); i_30_ += i_15_) {
+						for (int i_30_ = -i_15_ + i_28_; i_30_ < i_18_; i_30_ += i_15_) {
 							for (int i_31_ = i_27_ - i_15_; i_15_ > i_31_; i_31_ += i_15_)
 								aGLSprite1490.method1199(i_20_ + i_30_, i_31_ - -i_24_, i_15_, i_15_, 0, 0xffffff | i_25_ << 24, i_26_);
 						}
@@ -219,23 +219,23 @@ public class Class119
 	}
 	
 	final boolean method1225(int i, int i_50_, int i_51_, GraphicsToolkit graphicstoolkit) {
-		if ((anInt1494 ^ 0xffffffff) != (i_51_ ^ 0xffffffff)) {
+		if (i_51_ != anInt1494) {
 			anInt1494 = i_51_;
 			int i_52_ = Class215.method2072(i_51_, true);
-			if ((i_52_ ^ 0xffffffff) < -513) {
+			if (i_52_ > 512) {
 				i_52_ = 512;
 			}
-			if ((i_52_ ^ 0xffffffff) >= -1) {
+			if (i_52_ <= 0) {
 				i_52_ = 1;
 			}
-			if ((i_52_ ^ 0xffffffff) != (anInt1507 ^ 0xffffffff)) {
+			if (anInt1507 != i_52_) {
 				anInt1507 = i_52_;
 				aGLSprite1490 = null;
 			}
 			if (aClass182Array1483 != null) {
 				anInt1492 = 0;
 				int[] is = new int[aClass182Array1483.length];
-				for (int i_53_ = 0; (aClass182Array1483.length ^ 0xffffffff) < (i_53_ ^ 0xffffffff); i_53_++) {
+				for (int i_53_ = 0; i_53_ < aClass182Array1483.length; i_53_++) {
 					Class182 class182 = aClass182Array1483[i_53_];
 					if (class182.method1839(anInt1512, anInt1493, anInt1488, anInt1494)) {
 						is[anInt1492] = class182.anInt2166;
@@ -250,7 +250,7 @@ public class Class119
 		boolean bool = false;
 		if (aBoolean1500) {
 			aBoolean1500 = false;
-			for (int i_54_ = anInt1492 - 1; (i_54_ ^ 0xffffffff) <= -1; i_54_--) {
+			for (int i_54_ = anInt1492 - 1; i_54_ >= 0; i_54_--) {
 				boolean bool_55_ = aClass182Array1484[i_54_].method1833(graphicstoolkit, aClass182_1505);
 				Class119 class119_56_ = this;
 				class119_56_.aBoolean1500 = class119_56_.aBoolean1500 | !bool_55_;
@@ -258,9 +258,9 @@ public class Class119
 			}
 		}
 		int i_57_ = 126 / ((i_50_ - -43) / 39);
-		if ((i ^ 0xffffffff) == -1 || !graphicstoolkit.a()) {
+		if (i == 0 || !graphicstoolkit.a()) {
 			aDrawableModel1504 = null;
-		} else if (aDrawableModel1504 == null && (anInt1501 ^ 0xffffffff) <= -1) {
+		} else if (aDrawableModel1504 == null && anInt1501 >= 0) {
 			method1223(0, graphicstoolkit);
 		}
 		if (aClass119_1499 != null && this != aClass119_1499) {

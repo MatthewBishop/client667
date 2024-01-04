@@ -55,9 +55,9 @@ public class Class274 implements d
 	static final CacheNode_Sub11 method3323(Class302 class302, int i, int i_3_, int i_4_) {
 		anInt4980++;
 		Buffer buffer = new Buffer(class302.method3524(false, i_3_, i));
-		CacheNode_Sub11 cachenode_sub11 = new CacheNode_Sub11(i_3_, buffer.method2195(-1), buffer.method2195(i_4_ ^ 0xffffffff), buffer.method2186(-76), buffer.method2186(-58), (buffer.method2233(255) ^ 0xffffffff) == -2, buffer.method2233(255), buffer.method2233(255));
+		CacheNode_Sub11 cachenode_sub11 = new CacheNode_Sub11(i_3_, buffer.method2195(-1), buffer.method2195(i_4_ ^ 0xffffffff), buffer.method2186(-76), buffer.method2186(-58), buffer.method2233(255) == 1, buffer.method2233(255), buffer.method2233(255));
 		int i_5_ = buffer.method2233(255);
-		for (int i_6_ = i_4_; (i_5_ ^ 0xffffffff) < (i_6_ ^ 0xffffffff); i_6_++)
+		for (int i_6_ = i_4_; i_6_ < i_5_; i_6_++)
 			cachenode_sub11.aClass312_9549.method3625((byte) -54, new Node_Sub52(buffer.method2233(255), buffer.method2219(-130546744), buffer.method2219(-130546744), buffer.method2219(-130546744), buffer.method2219(-130546744), buffer.method2219(i_4_ ^ ~0x7c7fc37), buffer.method2219(-130546744), buffer.method2219(-130546744), buffer.method2219(-130546744)));
 		cachenode_sub11.method2339(16);
 		return cachenode_sub11;
@@ -94,7 +94,7 @@ public class Class274 implements d
 	
 	static final void method3325(boolean bool, int i, int i_9_, int i_10_) {
 		anInt4973++;
-		if (i_9_ < 8000 || (i_9_ ^ 0xffffffff) < -48001) {
+		if (i_9_ < 8000 || i_9_ > 48000) {
 			throw new IllegalArgumentException();
 		}
 		if (i >= 112) {
@@ -292,7 +292,7 @@ public class Class274 implements d
 		Buffer buffer = new Buffer(class302.method3524(false, 0, 0));
 		anInt4976 = buffer.method2219(-130546744);
 		aClass91Array4967 = new Class91[anInt4976];
-		for (int i = 0; (i ^ 0xffffffff) > (anInt4976 ^ 0xffffffff); i++) {
+		for (int i = 0; anInt4976 > i; i++) {
 			if (buffer.method2233(255) == 1) {
 				aClass91Array4967[i] = new Class91();
 			}
@@ -309,10 +309,10 @@ public class Class274 implements d
 		}
 		for (int i = 0; anInt4976 > i; i++) {
 			if (aClass91Array4967[i] != null) {
-				aClass91Array4967[i].aBoolean1205 = (buffer.method2233(255) ^ 0xffffffff) == -2;
+				aClass91Array4967[i].aBoolean1205 = buffer.method2233(255) == 1;
 			}
 		}
-		for (int i = 0; (anInt4976 ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+		for (int i = 0; i < anInt4976; i++) {
 			if (aClass91Array4967[i] != null) {
 				aClass91Array4967[i].aByte1217 = buffer.method2214((byte) 98);
 			}
@@ -327,17 +327,17 @@ public class Class274 implements d
 				aClass91Array4967[i].aByte1214 = buffer.method2214((byte) 120);
 			}
 		}
-		for (int i = 0; (anInt4976 ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+		for (int i = 0; i < anInt4976; i++) {
 			if (aClass91Array4967[i] != null) {
 				aClass91Array4967[i].aByte1213 = buffer.method2214((byte) 107);
 			}
 		}
-		for (int i = 0; (anInt4976 ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+		for (int i = 0; i < anInt4976; i++) {
 			if (aClass91Array4967[i] != null) {
 				aClass91Array4967[i].aShort1221 = (short) buffer.method2219(-130546744);
 			}
 		}
-		for (int i = 0; (i ^ 0xffffffff) > (anInt4976 ^ 0xffffffff); i++) {
+		for (int i = 0; anInt4976 > i; i++) {
 			if (aClass91Array4967[i] != null) {
 				aClass91Array4967[i].aByte1211 = buffer.method2214((byte) -57);
 			}
@@ -347,9 +347,9 @@ public class Class274 implements d
 				aClass91Array4967[i].aByte1203 = buffer.method2214((byte) 39);
 			}
 		}
-		for (int i = 0; (i ^ 0xffffffff) > (anInt4976 ^ 0xffffffff); i++) {
+		for (int i = 0; anInt4976 > i; i++) {
 			if (aClass91Array4967[i] != null) {
-				aClass91Array4967[i].aBoolean1222 = (buffer.method2233(255) ^ 0xffffffff) == -2;
+				aClass91Array4967[i].aBoolean1222 = buffer.method2233(255) == 1;
 			}
 		}
 		for (int i = 0; anInt4976 > i; i++) {
@@ -362,22 +362,22 @@ public class Class274 implements d
 				aClass91Array4967[i].aByte1207 = buffer.method2214((byte) -116);
 			}
 		}
-		for (int i = 0; (anInt4976 ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+		for (int i = 0; i < anInt4976; i++) {
 			if (aClass91Array4967[i] != null) {
 				aClass91Array4967[i].aBoolean1212 = buffer.method2233(255) == 1;
 			}
 		}
-		for (int i = 0; (anInt4976 ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+		for (int i = 0; i < anInt4976; i++) {
 			if (aClass91Array4967[i] != null) {
 				aClass91Array4967[i].aBoolean1210 = buffer.method2233(255) == 1;
 			}
 		}
 		for (int i = 0; anInt4976 > i; i++) {
 			if (aClass91Array4967[i] != null) {
-				aClass91Array4967[i].aBoolean1215 = (buffer.method2233(255) ^ 0xffffffff) == -2;
+				aClass91Array4967[i].aBoolean1215 = buffer.method2233(255) == 1;
 			}
 		}
-		for (int i = 0; (i ^ 0xffffffff) > (anInt4976 ^ 0xffffffff); i++) {
+		for (int i = 0; anInt4976 > i; i++) {
 			if (aClass91Array4967[i] != null) {
 				aClass91Array4967[i].anInt1202 = buffer.method2233(255);
 			}

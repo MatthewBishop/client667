@@ -46,7 +46,7 @@ class AnimableAnimator extends Animator
 					i += -5 + (int) (10.0 * Math.random());
 					Class94.anInt1250 = i;
 					Class327.anInt5360 = i_0_;
-				} else if ((Class262_Sub8.anInt7756 ^ 0xffffffff) == 0 || (IOException_Sub1.anInt84 ^ 0xffffffff) == 0) {
+				} else if (Class262_Sub8.anInt7756 == -1 || IOException_Sub1.anInt84 == -1) {
 					Class20.aCacheNode_Sub11_318.method2334(2048, (0xfffc787 & Class20.aCacheNode_Sub11_318.anInt9535) >> 14, Class20.aCacheNode_Sub11_318.anInt9535 & 0x3fff, is);
 					Class327.anInt5360 = is[2] - Class20.anInt343;
 					Class94.anInt1250 = -Class20.anInt354 + is[1];
@@ -59,11 +59,11 @@ class AnimableAnimator extends Animator
 					Class369.aBoolean4555 = false;
 					Class262_Sub8.anInt7756 = IOException_Sub1.anInt84 = -1;
 				}
-				if ((Class20.aCacheNode_Sub11_318.anInt9547 ^ 0xffffffff) != -38) {
+				if (Class20.aCacheNode_Sub11_318.anInt9547 != 37) {
 					if (Class20.aCacheNode_Sub11_318.anInt9547 != 50) {
 						if (Class20.aCacheNode_Sub11_318.anInt9547 != 75) {
 							if (Class20.aCacheNode_Sub11_318.anInt9547 != 100) {
-								if ((Class20.aCacheNode_Sub11_318.anInt9547 ^ 0xffffffff) == -201) {
+								if (Class20.aCacheNode_Sub11_318.anInt9547 == 200) {
 									Class20.aFloat329 = Class20.aFloat327 = 16.0F;
 								} else {
 									Class20.aFloat329 = Class20.aFloat327 = 8.0F;
@@ -86,17 +86,17 @@ class AnimableAnimator extends Animator
 				Class20.method279();
 				Node_Sub43.aClass312_7541 = new Class312();
 				Class20.anInt323 += (int) (5.0 * Math.random()) - 2;
-				if ((Class20.anInt323 ^ 0xffffffff) > 7) {
+				if (Class20.anInt323 < -8) {
 					Class20.anInt323 = -8;
 				}
 				Class20.anInt324 += (int) (5.0 * Math.random()) - 2;
 				if (Class20.anInt323 > 8) {
 					Class20.anInt323 = 8;
 				}
-				if ((Class20.anInt324 ^ 0xffffffff) > 15) {
+				if (Class20.anInt324 < -16) {
 					Class20.anInt324 = -16;
 				}
-				if ((Class20.anInt324 ^ 0xffffffff) < -17) {
+				if (Class20.anInt324 > 16) {
 					Class20.anInt324 = 16;
 				}
 				Class20.method277(var_d, Class20.anInt323 >> 2 << 10, Class20.anInt324 >> 1);
@@ -109,7 +109,7 @@ class AnimableAnimator extends Animator
 				if (bool != false) {
 					method253(null, null, false);
 				}
-				if ((Node_Sub25_Sub1.anInt9947 ^ 0xffffffff) == -21) {
+				if (Node_Sub25_Sub1.anInt9947 == 20) {
 					Node_Sub24.method2650(true, -14651);
 					Class20.method290(graphicstoolkit, Class20.anInt323, Class20.anInt324);
 					Node_Sub25_Sub1.anInt9947 = 60;
@@ -128,22 +128,22 @@ class AnimableAnimator extends Animator
 					Node_Sub25_Sub1.anInt9947 = 70;
 					Node_Sub24.method2650(true, -14651);
 					Node_Sub38_Sub10.method2824(0);
-				} else if ((Node_Sub25_Sub1.anInt9947 ^ 0xffffffff) == -71) {
+				} else if (Node_Sub25_Sub1.anInt9947 == 70) {
 					Packet.aClass299_9394 = new Class299(graphicstoolkit, 11, true, Node_Sub38_Sub20.aCanvas10309);
 					Node_Sub25_Sub1.anInt9947 = 73;
 					Node_Sub24.method2650(true, -14651);
 					Node_Sub38_Sub10.method2824(0);
-				} else if ((Node_Sub25_Sub1.anInt9947 ^ 0xffffffff) == -74) {
+				} else if (Node_Sub25_Sub1.anInt9947 == 73) {
 					EntityNode_Sub6.aClass299_5988 = new Class299(graphicstoolkit, 12, true, Node_Sub38_Sub20.aCanvas10309);
 					Node_Sub25_Sub1.anInt9947 = 76;
 					Node_Sub24.method2650(true, -14651);
 					Node_Sub38_Sub10.method2824(0);
-				} else if ((Node_Sub25_Sub1.anInt9947 ^ 0xffffffff) == -77) {
+				} else if (Node_Sub25_Sub1.anInt9947 == 76) {
 					Class75.aClass299_1007 = new Class299(graphicstoolkit, 14, true, Node_Sub38_Sub20.aCanvas10309);
 					Node_Sub25_Sub1.anInt9947 = 79;
 					Node_Sub24.method2650(true, -14651);
 					Node_Sub38_Sub10.method2824(0);
-				} else if ((Node_Sub25_Sub1.anInt9947 ^ 0xffffffff) == -80) {
+				} else if (Node_Sub25_Sub1.anInt9947 == 79) {
 					Class352.aClass299_4329 = new Class299(graphicstoolkit, 17, true, Node_Sub38_Sub20.aCanvas10309);
 					Node_Sub25_Sub1.anInt9947 = 82;
 					Node_Sub24.method2650(true, -14651);
@@ -153,12 +153,12 @@ class AnimableAnimator extends Animator
 					Node_Sub25_Sub1.anInt9947 = 85;
 					Node_Sub24.method2650(true, -14651);
 					Node_Sub38_Sub10.method2824(0);
-				} else if ((Node_Sub25_Sub1.anInt9947 ^ 0xffffffff) == -86) {
+				} else if (Node_Sub25_Sub1.anInt9947 == 85) {
 					Node_Sub25_Sub3.aClass299_9980 = new Class299(graphicstoolkit, 22, true, Node_Sub38_Sub20.aCanvas10309);
 					Node_Sub25_Sub1.anInt9947 = 88;
 					Node_Sub24.method2650(true, -14651);
 					Node_Sub38_Sub10.method2824(0);
-				} else if ((Node_Sub25_Sub1.anInt9947 ^ 0xffffffff) == -89) {
+				} else if (Node_Sub25_Sub1.anInt9947 == 88) {
 					Class195.aClass299_2380 = new Class299(graphicstoolkit, 26, true, Node_Sub38_Sub20.aCanvas10309);
 					Node_Sub25_Sub1.anInt9947 = 91;
 					Node_Sub24.method2650(true, -14651);

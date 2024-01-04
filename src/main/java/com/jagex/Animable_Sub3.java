@@ -78,7 +78,7 @@ abstract class Animable_Sub3 extends Animable
 	
 	static final void method919(int i, int i_2_, int i_3_, int i_4_, int i_5_, boolean bool, int i_6_) {
 		anInt9143++;
-		if (i_2_ > i_5_ || i_3_ < 512 || (-1024 + Node_Sub54.anInt7675 * 512 ^ 0xffffffff) > (i_5_ ^ 0xffffffff) || (-1024 + Class377_Sub1.anInt8774 * 512 ^ 0xffffffff) > (i_3_ ^ 0xffffffff)) {
+		if (i_2_ > i_5_ || i_3_ < 512 || i_5_ > -1024 + Node_Sub54.anInt7675 * 512 || i_3_ > -1024 + Class377_Sub1.anInt8774 * 512) {
 			Class119.anIntArray1516[0] = Class119.anIntArray1516[1] = -1;
 		} else {
 			int i_7_ = Node_Sub38_Sub7.method2809(i, -29754, i_3_, i_5_) + -i_4_;
@@ -152,7 +152,7 @@ abstract class Animable_Sub3 extends Animable
 		int i_19_;
 		int i_20_;
 		if (i_10_ >= Class262_Sub4.anInt7722) {
-			if ((za_Sub2.anInt10513 ^ 0xffffffff) <= (i_10_ ^ 0xffffffff)) {
+			if (i_10_ <= za_Sub2.anInt10513) {
 				i_19_ = i_10_;
 				i_20_ = i_12_;
 			} else {
@@ -163,7 +163,7 @@ abstract class Animable_Sub3 extends Animable
 			i_19_ = Class262_Sub4.anInt7722;
 			i_20_ = i_16_ + (Class262_Sub4.anInt7722 * i_15_ >> 12);
 		}
-		if ((Class384.anInt4906 ^ 0xffffffff) >= (i_17_ ^ 0xffffffff)) {
+		if (i_17_ >= Class384.anInt4906) {
 			if (Node_Sub25_Sub1.anInt9936 < i_17_) {
 				i_18_ = (Node_Sub25_Sub1.anInt9936 - i_16_ << 12) / i_15_;
 				i_17_ = Node_Sub25_Sub1.anInt9936;
@@ -172,10 +172,10 @@ abstract class Animable_Sub3 extends Animable
 			i_17_ = Class384.anInt4906;
 			i_18_ = (-i_16_ + Class384.anInt4906 << 12) / i_15_;
 		}
-		if ((i_20_ ^ 0xffffffff) > (Class384.anInt4906 ^ 0xffffffff)) {
+		if (Class384.anInt4906 > i_20_) {
 			i_19_ = (-i_16_ + Class384.anInt4906 << 12) / i_15_;
 			i_20_ = Class384.anInt4906;
-		} else if ((Node_Sub25_Sub1.anInt9936 ^ 0xffffffff) > (i_20_ ^ 0xffffffff)) {
+		} else if (i_20_ > Node_Sub25_Sub1.anInt9936) {
 			i_19_ = (-i_16_ + Node_Sub25_Sub1.anInt9936 << 12) / i_15_;
 			i_20_ = Node_Sub25_Sub1.anInt9936;
 		}

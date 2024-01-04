@@ -136,7 +136,7 @@ public class GLDrawableModel extends DrawableModel
 	final void aa(short s, short s_0_) {
 		anInt5707++;
 		d var_d = aGLToolkit5692.aD1543;
-		for (int i = 0; (anInt5709 ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+		for (int i = 0; i < anInt5709; i++) {
 			if (s == aShortArray5699[i]) {
 				aShortArray5699[i] = s_0_;
 			}
@@ -154,7 +154,7 @@ public class GLDrawableModel extends DrawableModel
 			Class91 class91 = var_d.method10(s_0_ & 0xffff, -8217);
 			b_2_ = class91.aByte1225;
 			b_3_ = class91.aByte1217;
-			if (class91.aByte1211 != 0 || (class91.aByte1203 ^ 0xffffffff) != -1) {
+			if (class91.aByte1211 != 0 || class91.aByte1203 != 0) {
 				aBoolean5670 = true;
 			}
 		}
@@ -282,7 +282,7 @@ public class GLDrawableModel extends DrawableModel
 			if (bool) {
 				return true;
 			}
-			if ((aGLToolkit5692.anIntArray6747.length ^ 0xffffffff) > (anInt5665 ^ 0xffffffff)) {
+			if (anInt5665 > aGLToolkit5692.anIntArray6747.length) {
 				aGLToolkit5692.anIntArray6749 = new int[anInt5665];
 				aGLToolkit5692.anIntArray6747 = new int[anInt5665];
 			}
@@ -303,7 +303,7 @@ public class GLDrawableModel extends DrawableModel
 					int i_50_ = (int) ((float) aGLToolkit5692.anInt6702 + (float) i_19_ * f_48_ / f_46_);
 					int i_51_ = anIntArray5633[i_42_];
 					int i_52_ = anIntArray5633[i_42_ + 1];
-					for (int i_53_ = i_51_; (i_53_ ^ 0xffffffff) > (i_52_ ^ 0xffffffff); i_53_++) {
+					for (int i_53_ = i_51_; i_52_ > i_53_; i_53_++) {
 						int i_54_ = aShortArray5679[i_53_] - 1;
 						if (i_54_ == -1) {
 							break;
@@ -314,7 +314,7 @@ public class GLDrawableModel extends DrawableModel
 				} else {
 					int i_55_ = anIntArray5633[i_42_];
 					int i_56_ = anIntArray5633[i_42_ - -1];
-					for (int i_57_ = i_55_; (i_56_ ^ 0xffffffff) < (i_57_ ^ 0xffffffff); i_57_++) {
+					for (int i_57_ = i_55_; i_57_ < i_56_; i_57_++) {
 						int i_58_ = aShortArray5679[i_57_] + -1;
 						if (i_58_ == -1) {
 							break;
@@ -324,7 +324,7 @@ public class GLDrawableModel extends DrawableModel
 				}
 			}
 			for (int i_59_ = 0; i_59_ < anInt5709; i_59_++) {
-				if ((is[aShortArray5622[i_59_]] ^ 0xffffffff) != 999998 && is[aShortArray5683[i_59_]] != -999999 && is[aShortArray5706[i_59_]] != -999999 && method647(is[aShortArray5683[i_59_]], is[aShortArray5622[i_59_]], is_41_[aShortArray5706[i_59_]], i_7_, 46, is_41_[aShortArray5683[i_59_]], is[aShortArray5706[i_59_]], is_41_[aShortArray5622[i_59_]], i_6_)) {
+				if (is[aShortArray5622[i_59_]] != -999999 && is[aShortArray5683[i_59_]] != -999999 && is[aShortArray5706[i_59_]] != -999999 && method647(is[aShortArray5683[i_59_]], is[aShortArray5622[i_59_]], is_41_[aShortArray5706[i_59_]], i_7_, 46, is_41_[aShortArray5683[i_59_]], is[aShortArray5706[i_59_]], is_41_[aShortArray5622[i_59_]], i_6_)) {
 					return true;
 				}
 			}
@@ -346,17 +346,17 @@ public class GLDrawableModel extends DrawableModel
 		for (int i_68_ = 0; i_68_ < anInt5672; i_68_++) {
 			int i_69_ = anIntArray5595[i_68_];
 			int i_70_ = anIntArray5588[i_68_];
-			if ((i_63_ ^ 0xffffffff) > (i_70_ ^ 0xffffffff)) {
+			if (i_70_ > i_63_) {
 				i_63_ = i_70_;
 			}
-			if ((i_69_ ^ 0xffffffff) > (i ^ 0xffffffff)) {
+			if (i > i_69_) {
 				i = i_69_;
 			}
 			int i_71_ = anIntArray5637[i_68_];
 			if (i_70_ < i_60_) {
 				i_60_ = i_70_;
 			}
-			if ((i_69_ ^ 0xffffffff) < (i_62_ ^ 0xffffffff)) {
+			if (i_62_ < i_69_) {
 				i_62_ = i_69_;
 			}
 			if (i_71_ > i_65_) {
@@ -370,7 +370,7 @@ public class GLDrawableModel extends DrawableModel
 				i_66_ = i_72_;
 			}
 			i_72_ = i_71_ * i_71_ + i_69_ * i_69_ + i_70_ * i_70_;
-			if ((i_67_ ^ 0xffffffff) > (i_72_ ^ 0xffffffff)) {
+			if (i_72_ > i_67_) {
 				i_67_ = i_72_;
 			}
 		}
@@ -390,7 +390,7 @@ public class GLDrawableModel extends DrawableModel
 			if (i != 128) {
 				anIntArray5595[i_75_] = anIntArray5595[i_75_] * i >> 7;
 			}
-			if ((i_73_ ^ 0xffffffff) != -129) {
+			if (i_73_ != 128) {
 				anIntArray5588[i_75_] = i_73_ * anIntArray5588[i_75_] >> 7;
 			}
 			if (i_74_ != 128) {
@@ -414,7 +414,7 @@ public class GLDrawableModel extends DrawableModel
 		}
 		int i;
 		int i_76_;
-		if ((aGLToolkit5692.anInt6732 ^ 0xffffffff) < -1) {
+		if (aGLToolkit5692.anInt6732 > 0) {
 			i = aShort5619 + -(aShort5671 * aGLToolkit5692.anInt6732 >> 8) >> aGLToolkit5692.anInt6611;
 			i_76_ = -(aGLToolkit5692.anInt6732 * aShort5600 >> 8) + aShort5597 >> aGLToolkit5692.anInt6611;
 		} else {
@@ -559,7 +559,7 @@ public class GLDrawableModel extends DrawableModel
 				if (anIntArrayArray5615 != null && !Node_Sub15_Sub1.method2557(anInt5653, 1024, anInt5639)) {
 					anIntArrayArray5615 = null;
 				}
-				if (anIntArray5687 != null && (anInt5639 & 0x800 ^ 0xffffffff) == -1 && (0x40000 & anInt5639 ^ 0xffffffff) == -1) {
+				if (anIntArray5687 != null && (anInt5639 & 0x800) == 0 && (0x40000 & anInt5639) == 0) {
 					anIntArray5687 = null;
 				}
 			}
@@ -576,7 +576,7 @@ public class GLDrawableModel extends DrawableModel
 		boolean bool_84_ = false;
 		GLDrawableModel gldrawablemodel_85_;
 		GLDrawableModel gldrawablemodel_86_;
-		if ((b ^ 0xffffffff) >= -1 || (b ^ 0xffffffff) < -8) {
+		if (b <= 0 || b > 7) {
 			gldrawablemodel_85_ = gldrawablemodel_86_ = new GLDrawableModel(aGLToolkit5692);
 		} else {
 			gldrawablemodel_85_ = aGLToolkit5692.aGLDrawableModelArray6743[-1 + b];
@@ -633,10 +633,10 @@ public class GLDrawableModel extends DrawableModel
 		}
 		anInt5625++;
 		int i_95_ = Class85.anIntArray1158[Node_Sub36.method2757(i, i_94_, (byte) -93)];
-		if ((s ^ 0xffffffff) != 0) {
+		if (s != -1) {
 			Class91 class91 = aGLToolkit5692.aD1543.method10(0xffff & s, -8217);
 			int i_96_ = 0xff & class91.aByte1225;
-			if ((i_96_ ^ 0xffffffff) != -1) {
+			if (i_96_ != 0) {
 				int i_97_;
 				if (i_94_ < 0) {
 					i_97_ = 0;
@@ -657,11 +657,11 @@ public class GLDrawableModel extends DrawableModel
 			if (i_100_ != 0) {
 				i_100_ += 256;
 				int i_101_ = i_100_ * (0xff & i_95_ >> 16);
-				if ((i_101_ ^ 0xffffffff) < -65536) {
+				if (i_101_ > 65535) {
 					i_101_ = 65535;
 				}
 				int i_102_ = i_100_ * ((i_95_ & 0xff00) >> 8);
-				if ((i_102_ ^ 0xffffffff) < -65536) {
+				if (i_102_ > 65535) {
 					i_102_ = 65535;
 				}
 				int i_103_ = i_100_ * (i_95_ & 0xff);
@@ -678,7 +678,7 @@ public class GLDrawableModel extends DrawableModel
 		anInt5645++;
 		int i_104_ = Class335.anIntArray4167[i];
 		int i_105_ = Class335.anIntArray4165[i];
-		for (int i_106_ = 0; (i_106_ ^ 0xffffffff) > (anInt5672 ^ 0xffffffff); i_106_++) {
+		for (int i_106_ = 0; anInt5672 > i_106_; i_106_++) {
 			int i_107_ = anIntArray5637[i_106_] * i_104_ - -(anIntArray5595[i_106_] * i_105_) >> 14;
 			anIntArray5637[i_106_] = anIntArray5637[i_106_] * i_105_ + -(anIntArray5595[i_106_] * i_104_) >> 14;
 			anIntArray5595[i_106_] = i_107_;
@@ -690,7 +690,7 @@ public class GLDrawableModel extends DrawableModel
 	}
 	
 	final void wa() {
-		for (int i = 0; (anInt5644 ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+		for (int i = 0; i < anInt5644; i++) {
 			anIntArray5595[i] = anIntArray5595[i] - -7 >> 4;
 			anIntArray5588[i] = 7 + anIntArray5588[i] >> 4;
 			anIntArray5637[i] = 7 + anIntArray5637[i] >> 4;
@@ -711,7 +711,7 @@ public class GLDrawableModel extends DrawableModel
 		if (anIntArrayArray5684 == null) {
 			return false;
 		}
-		for (int i = 0; (anInt5644 ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+		for (int i = 0; i < anInt5644; i++) {
 			anIntArray5595[i] <<= 4;
 			anIntArray5588[i] <<= 4;
 			anIntArray5637[i] <<= 4;
@@ -739,14 +739,14 @@ public class GLDrawableModel extends DrawableModel
 		}
 		int[] is = aGLToolkit5692.anIntArray6747;
 		int[] is_108_ = aGLToolkit5692.anIntArray6749;
-		for (int i = 0; (anInt5672 ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+		for (int i = 0; i < anInt5672; i++) {
 			int i_109_ = -var_r_Sub2.anInt11064 + (anIntArray5595[i] - (anIntArray5588[i] * aGLToolkit5692.anInt6732 >> 8) >> aGLToolkit5692.anInt6611);
 			int i_110_ = -var_r_Sub2.anInt11067 + (anIntArray5637[i] + -(aGLToolkit5692.anInt6717 * anIntArray5588[i] >> 8) >> aGLToolkit5692.anInt6611);
 			int i_111_ = anIntArray5633[i];
 			int i_112_ = anIntArray5633[i - -1];
-			for (int i_113_ = i_111_; (i_113_ ^ 0xffffffff) > (i_112_ ^ 0xffffffff); i_113_++) {
+			for (int i_113_ = i_111_; i_112_ > i_113_; i_113_++) {
 				int i_114_ = -1 + aShortArray5679[i_113_];
-				if ((i_114_ ^ 0xffffffff) == 0) {
+				if (i_114_ == -1) {
 					break;
 				}
 				is[i_114_] = i_109_;
@@ -756,8 +756,8 @@ public class GLDrawableModel extends DrawableModel
 		if (bool != true) {
 			method624(31, 63, null, true, 0);
 		}
-		for (int i = 0; (anInt5616 ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
-			if (aByteArray5658 == null || (aByteArray5658[i] ^ 0xffffffff) >= -129) {
+		for (int i = 0; i < anInt5616; i++) {
+			if (aByteArray5658 == null || aByteArray5658[i] <= 128) {
 				short s = aShortArray5622[i];
 				short s_115_ = aShortArray5683[i];
 				short s_116_ = aShortArray5706[i];
@@ -781,14 +781,14 @@ public class GLDrawableModel extends DrawableModel
 	
 	final void H(int i, int i_123_, int i_124_) {
 		anInt5700++;
-		for (int i_125_ = 0; (i_125_ ^ 0xffffffff) > (anInt5672 ^ 0xffffffff); i_125_++) {
+		for (int i_125_ = 0; anInt5672 > i_125_; i_125_++) {
 			if (i != 0) {
 				anIntArray5595[i_125_] += i;
 			}
-			if ((i_123_ ^ 0xffffffff) != -1) {
+			if (i_123_ != 0) {
 				anIntArray5588[i_125_] += i_123_;
 			}
-			if ((i_124_ ^ 0xffffffff) != -1) {
+			if (i_124_ != 0) {
 				anIntArray5637[i_125_] += i_124_;
 			}
 		}
@@ -807,7 +807,7 @@ public class GLDrawableModel extends DrawableModel
 			method649(false, (byte) 41);
 			if (aClass107_5675 != null) {
 				if (aClass107_5675.anInterface1_1365 == null) {
-					method648((0x10 & aByte5651 ^ 0xffffffff) != -1, 5123);
+					method648((0x10 & aByte5651) != 0, 5123);
 				}
 				if (aClass107_5675.anInterface1_1365 != null) {
 					aGLToolkit5692.method1451(aClass69_5649 != null, -31277);
@@ -835,16 +835,16 @@ public class GLDrawableModel extends DrawableModel
 	private final boolean method647(int i, int i_130_, int i_131_, int i_132_, int i_133_, int i_134_, int i_135_, int i_136_, int i_137_) {
 		int i_138_ = -122 / ((i_133_ - -13) / 34);
 		anInt5623++;
-		if ((i_136_ ^ 0xffffffff) < (i_137_ ^ 0xffffffff) && i_134_ > i_137_ && (i_137_ ^ 0xffffffff) > (i_131_ ^ 0xffffffff)) {
+		if (i_137_ < i_136_ && i_134_ > i_137_ && i_131_ > i_137_) {
 			return false;
 		}
-		if ((i_136_ ^ 0xffffffff) > (i_137_ ^ 0xffffffff) && i_134_ < i_137_ && (i_137_ ^ 0xffffffff) < (i_131_ ^ 0xffffffff)) {
+		if (i_137_ > i_136_ && i_134_ < i_137_ && i_131_ < i_137_) {
 			return false;
 		}
-		if ((i_130_ ^ 0xffffffff) < (i_132_ ^ 0xffffffff) && (i ^ 0xffffffff) < (i_132_ ^ 0xffffffff) && (i_132_ ^ 0xffffffff) > (i_135_ ^ 0xffffffff)) {
+		if (i_132_ < i_130_ && i_132_ < i && i_135_ > i_132_) {
 			return false;
 		}
-		if (i_130_ < i_132_ && (i ^ 0xffffffff) > (i_132_ ^ 0xffffffff) && i_135_ < i_132_) {
+		if (i_130_ < i_132_ && i_132_ > i && i_135_ < i_132_) {
 			return false;
 		}
 		return true;
@@ -854,7 +854,7 @@ public class GLDrawableModel extends DrawableModel
 		anInt5676++;
 		Class336_Sub3 class336_sub3 = (Class336_Sub3) class336;
 		if (aClass300Array5681 != null) {
-			for (int i = 0; (aClass300Array5681.length ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+			for (int i = 0; i < aClass300Array5681.length; i++) {
 				Class300 class300 = aClass300Array5681[i];
 				Class300 class300_139_ = class300;
 				if (class300.aClass300_3763 != null) {
@@ -872,7 +872,7 @@ public class GLDrawableModel extends DrawableModel
 			}
 		}
 		if (aClass218Array5596 != null) {
-			for (int i = 0; (i ^ 0xffffffff) > (aClass218Array5596.length ^ 0xffffffff); i++) {
+			for (int i = 0; aClass218Array5596.length > i; i++) {
 				Class218 class218 = aClass218Array5596[i];
 				Class218 class218_140_ = class218;
 				if (class218.aClass218_2561 != null) {
@@ -894,7 +894,7 @@ public class GLDrawableModel extends DrawableModel
 		anInt5598++;
 		if (aShortArray5618 != null) {
 			int[] is = new int[3];
-			for (int i_141_ = 0; (i_141_ ^ 0xffffffff) > (anInt5672 ^ 0xffffffff); i_141_++) {
+			for (int i_141_ = 0; anInt5672 > i_141_; i_141_++) {
 				if ((i & aShortArray5618[i_141_]) != 0) {
 					if (!bool) {
 						class336.method3853(anIntArray5595[i_141_], anIntArray5588[i_141_], anIntArray5637[i_141_], is);
@@ -924,7 +924,7 @@ public class GLDrawableModel extends DrawableModel
 	
 	final void method611(Class336 class336, EntityNode_Sub5 entitynode_sub5, int i) {
 		anInt5662++;
-		if ((anInt5665 ^ 0xffffffff) != -1) {
+		if (anInt5665 != 0) {
 			Class336_Sub3 class336_sub3 = aGLToolkit5692.aClass336_Sub3_6639;
 			Class336_Sub3 class336_sub3_142_ = (Class336_Sub3) class336;
 			if (!aBoolean5698) {
@@ -1025,7 +1025,7 @@ public class GLDrawableModel extends DrawableModel
 								}
 							}
 							if (bool_154_) {
-								if ((i_159_ ^ 0xffffffff) < (i_162_ ^ 0xffffffff)) {
+								if (i_162_ < i_159_) {
 									entitynode_sub5.anInt5983 = aGLToolkit5692.anInt6714 - -(aGLToolkit5692.anInt6667 * (aShort5686 + i_157_) / i_159_) - entitynode_sub5.anInt5985;
 								} else {
 									entitynode_sub5.anInt5983 = aGLToolkit5692.anInt6714 - (-((i_160_ - -aShort5686) * aGLToolkit5692.anInt6667 / i_162_) + entitynode_sub5.anInt5982);
@@ -1045,7 +1045,7 @@ public class GLDrawableModel extends DrawableModel
 	}
 	
 	private final void method648(boolean bool, int i) {
-		if ((6 * anInt5616 ^ 0xffffffff) >= (aGLToolkit5692.aFloatBuffer6661.aByteArray7019.length ^ 0xffffffff)) {
+		if (aGLToolkit5692.aFloatBuffer6661.aByteArray7019.length >= 6 * anInt5616) {
 			aGLToolkit5692.aFloatBuffer6661.anInt7002 = 0;
 		} else {
 			aGLToolkit5692.aFloatBuffer6661 = new FloatBuffer((anInt5616 - -100) * 6);
@@ -1059,7 +1059,7 @@ public class GLDrawableModel extends DrawableModel
 				floatbuffer.method2191(i + -5181, aShortArray5706[i_169_]);
 			}
 		} else {
-			for (int i_170_ = 0; (anInt5616 ^ 0xffffffff) < (i_170_ ^ 0xffffffff); i_170_++) {
+			for (int i_170_ = 0; i_170_ < anInt5616; i_170_++) {
 				floatbuffer.method2210(aShortArray5622[i_170_], i + -5189);
 				floatbuffer.method2210(aShortArray5683[i_170_], -122);
 				floatbuffer.method2210(aShortArray5706[i_170_], i + -5242);
@@ -1068,7 +1068,7 @@ public class GLDrawableModel extends DrawableModel
 		if (i != 5123) {
 			anInterface9_5696 = null;
 		}
-		if ((floatbuffer.anInt7002 ^ 0xffffffff) != -1) {
+		if (floatbuffer.anInt7002 != 0) {
 			if (!bool) {
 				aClass107_5675.anInterface1_1365 = aGLToolkit5692.method1453(26099, false, floatbuffer.anInt7002, 5123, floatbuffer.aByteArray7019);
 			} else {
@@ -1096,7 +1096,7 @@ public class GLDrawableModel extends DrawableModel
 	final void method619(DrawableModel drawablemodel, int i, int i_171_, int i_172_, boolean bool) {
 		anInt5612++;
 		GLDrawableModel gldrawablemodel_173_ = (GLDrawableModel) drawablemodel;
-		if ((anInt5709 ^ 0xffffffff) != -1 && gldrawablemodel_173_.anInt5709 != 0) {
+		if (anInt5709 != 0 && gldrawablemodel_173_.anInt5709 != 0) {
 			int i_174_ = gldrawablemodel_173_.anInt5672;
 			int[] is = gldrawablemodel_173_.anIntArray5595;
 			int[] is_175_ = gldrawablemodel_173_.anIntArray5588;
@@ -1146,13 +1146,13 @@ public class GLDrawableModel extends DrawableModel
 			int i_192_ = gldrawablemodel_173_.aShort5597;
 			int i_193_ = gldrawablemodel_173_.aShort5589;
 			int i_194_ = gldrawablemodel_173_.aShort5677;
-			for (int i_195_ = 0; (i_195_ ^ 0xffffffff) > (anInt5672 ^ 0xffffffff); i_195_++) {
+			for (int i_195_ = 0; anInt5672 > i_195_; i_195_++) {
 				int i_196_ = -i_171_ + anIntArray5588[i_195_];
 				if (i_196_ >= i_189_ && i_196_ <= i_190_) {
 					int i_197_ = anIntArray5595[i_195_] - i;
-					if ((i_191_ ^ 0xffffffff) >= (i_197_ ^ 0xffffffff) && i_197_ <= i_192_) {
+					if (i_197_ >= i_191_ && i_197_ <= i_192_) {
 						int i_198_ = -i_172_ + anIntArray5637[i_195_];
-						if ((i_198_ ^ 0xffffffff) <= (i_193_ ^ 0xffffffff) && i_198_ <= i_194_) {
+						if (i_193_ <= i_198_ && i_198_ <= i_194_) {
 							int i_199_ = -1;
 							int i_200_ = anIntArray5633[i_195_];
 							int i_201_ = anIntArray5633[i_195_ - -1];
@@ -1164,13 +1164,13 @@ public class GLDrawableModel extends DrawableModel
 							}
 							if (i_199_ != -1) {
 								for (int i_203_ = 0; i_174_ > i_203_; i_203_++) {
-									if ((is[i_203_] ^ 0xffffffff) == (i_197_ ^ 0xffffffff) && is_176_[i_203_] == i_198_ && is_175_[i_203_] == i_196_) {
+									if (i_197_ == is[i_203_] && is_176_[i_203_] == i_198_ && is_175_[i_203_] == i_196_) {
 										i_200_ = is_187_[i_203_];
 										i_201_ = is_187_[1 + i_203_];
 										int i_204_ = -1;
 										for (int i_205_ = i_200_; i_201_ > i_205_; i_205_++) {
 											i_204_ = -1 + ses_188_[i_205_];
-											if ((i_204_ ^ 0xffffffff) == 0 || (bs[i_204_] ^ 0xffffffff) != -1) {
+											if (i_204_ == -1 || bs[i_204_] != 0) {
 												break;
 											}
 										}
@@ -1195,12 +1195,12 @@ public class GLDrawableModel extends DrawableModel
 											i_200_ = is_187_[i_203_];
 											byte b = aByteArray5640[i_199_];
 											i_201_ = is_187_[1 + i_203_];
-											for (int i_208_ = i_200_; (i_201_ ^ 0xffffffff) < (i_208_ ^ 0xffffffff); i_208_++) {
+											for (int i_208_ = i_200_; i_208_ < i_201_; i_208_++) {
 												int i_209_ = -1 + ses_188_[i_208_];
 												if (i_209_ == -1) {
 													break;
 												}
-												if ((bs_186_[i_209_] ^ 0xffffffff) != -1) {
+												if (bs_186_[i_209_] != 0) {
 													ses_183_[i_209_] += s;
 													ses_185_[i_209_] += s_206_;
 													ses_184_[i_209_] += s_207_;
@@ -1213,12 +1213,12 @@ public class GLDrawableModel extends DrawableModel
 											s_206_ = ses_177_[i_204_];
 											i_201_ = anIntArray5633[1 + i_195_];
 											s = ses[i_204_];
-											for (int i_210_ = i_200_; (i_201_ ^ 0xffffffff) < (i_210_ ^ 0xffffffff); i_210_++) {
+											for (int i_210_ = i_200_; i_210_ < i_201_; i_210_++) {
 												int i_211_ = -1 + aShortArray5679[i_210_];
 												if (i_211_ == -1) {
 													break;
 												}
-												if ((bs_182_[i_211_] ^ 0xffffffff) != -1) {
+												if (bs_182_[i_211_] != 0) {
 													ses_181_[i_211_] += s;
 													ses_179_[i_211_] += s_206_;
 													ses_180_[i_211_] += s_207_;
@@ -1258,9 +1258,9 @@ public class GLDrawableModel extends DrawableModel
 	
 	final void method617() {
 		anInt5695++;
-		if ((anInt5665 ^ 0xffffffff) < -1 && anInt5616 > 0) {
+		if (anInt5665 > 0 && anInt5616 > 0) {
 			method649(false, (byte) 41);
-			if ((0x10 & aByte5651 ^ 0xffffffff) == -1 && aClass107_5675.anInterface1_1365 == null) {
+			if ((0x10 & aByte5651) == 0 && aClass107_5675.anInterface1_1365 == null) {
 				method648(false, 5123);
 			}
 			method641((byte) -122);
@@ -1338,7 +1338,7 @@ public class GLDrawableModel extends DrawableModel
 							entitynode_sub5.anInt5982 = aGLToolkit5692.anInt6667 * i_230_ / i + aGLToolkit5692.anInt6714;
 							entitynode_sub5.anInt5985 = aGLToolkit5692.anInt6714 - -(aGLToolkit5692.anInt6667 * i_227_ / i);
 							entitynode_sub5.anInt5986 = aGLToolkit5692.anInt6730 * i_228_ / i + aGLToolkit5692.anInt6702;
-							if ((i_229_ ^ 0xffffffff) <= (aGLToolkit5692.anInt6693 ^ 0xffffffff) || (i_232_ ^ 0xffffffff) <= (aGLToolkit5692.anInt6693 ^ 0xffffffff)) {
+							if (aGLToolkit5692.anInt6693 <= i_229_ || aGLToolkit5692.anInt6693 <= i_232_) {
 								entitynode_sub5.aBoolean5987 = true;
 								entitynode_sub5.anInt5983 = -entitynode_sub5.anInt5985 + (i_227_ - -aShort5686) * aGLToolkit5692.anInt6667 / i + aGLToolkit5692.anInt6714;
 							}
@@ -1365,18 +1365,18 @@ public class GLDrawableModel extends DrawableModel
 	
 	final void P(int i, int i_233_, int i_234_, int i_235_) {
 		anInt5593++;
-		if ((i ^ 0xffffffff) == -1) {
+		if (i == 0) {
 			Class270_Sub2_Sub1.anInt10546 = 0;
 			int i_236_ = 0;
 			Class378.anInt4676 = 0;
 			Class297.anInt3702 = 0;
-			for (int i_237_ = 0; (i_237_ ^ 0xffffffff) > (anInt5672 ^ 0xffffffff); i_237_++) {
+			for (int i_237_ = 0; anInt5672 > i_237_; i_237_++) {
 				Class378.anInt4676 += anIntArray5595[i_237_];
 				Class297.anInt3702 += anIntArray5588[i_237_];
 				Class270_Sub2_Sub1.anInt10546 = Class270_Sub2_Sub1.anInt10546 + anIntArray5637[i_237_];
 				i_236_++;
 			}
-			if ((i_236_ ^ 0xffffffff) >= -1) {
+			if (i_236_ <= 0) {
 				Class297.anInt3702 = i_234_;
 				Class378.anInt4676 = i_233_;
 				Class270_Sub2_Sub1.anInt10546 = i_235_;
@@ -1385,14 +1385,14 @@ public class GLDrawableModel extends DrawableModel
 				Class270_Sub2_Sub1.anInt10546 = i_235_ + Class270_Sub2_Sub1.anInt10546 / i_236_;
 				Class297.anInt3702 = Class297.anInt3702 / i_236_ + i_234_;
 			}
-		} else if ((i ^ 0xffffffff) == -2) {
-			for (int i_238_ = 0; (anInt5672 ^ 0xffffffff) < (i_238_ ^ 0xffffffff); i_238_++) {
+		} else if (i == 1) {
+			for (int i_238_ = 0; i_238_ < anInt5672; i_238_++) {
 				anIntArray5595[i_238_] += i_233_;
 				anIntArray5588[i_238_] += i_234_;
 				anIntArray5637[i_238_] += i_235_;
 			}
-		} else if ((i ^ 0xffffffff) == -3) {
-			for (int i_239_ = 0; (anInt5672 ^ 0xffffffff) < (i_239_ ^ 0xffffffff); i_239_++) {
+		} else if (i == 2) {
+			for (int i_239_ = 0; i_239_ < anInt5672; i_239_++) {
 				anIntArray5595[i_239_] -= Class378.anInt4676;
 				anIntArray5588[i_239_] -= Class297.anInt3702;
 				anIntArray5637[i_239_] -= Class270_Sub2_Sub1.anInt10546;
@@ -1433,11 +1433,11 @@ public class GLDrawableModel extends DrawableModel
 				anIntArray5588[i_249_] += Class297.anInt3702;
 				anIntArray5637[i_249_] += Class270_Sub2_Sub1.anInt10546;
 			}
-		} else if ((i ^ 0xffffffff) == -6) {
-			for (int i_250_ = 0; (anInt5709 ^ 0xffffffff) < (i_250_ ^ 0xffffffff); i_250_++) {
+		} else if (i == 5) {
+			for (int i_250_ = 0; i_250_ < anInt5709; i_250_++) {
 				int i_251_ = (aByteArray5658[i_250_] & 0xff) - -(8 * i_233_);
 				if (i_251_ >= 0) {
-					if ((i_251_ ^ 0xffffffff) < -256) {
+					if (i_251_ > 255) {
 						i_251_ = 255;
 					}
 				} else {
@@ -1449,14 +1449,14 @@ public class GLDrawableModel extends DrawableModel
 				aClass69_5604.anInterface9_939 = null;
 			}
 			if (aClass72Array5627 != null) {
-				for (int i_252_ = 0; (i_252_ ^ 0xffffffff) > (anInt5659 ^ 0xffffffff); i_252_++) {
+				for (int i_252_ = 0; anInt5659 > i_252_; i_252_++) {
 					Class72 class72 = aClass72Array5627[i_252_];
 					Class190 class190 = aClass190Array5674[i_252_];
 					class190.anInt2335 = 0xffffff & class190.anInt2335 | -(0xff & aByteArray5658[class72.anInt975]) + 255 << 24;
 				}
 			}
-		} else if ((i ^ 0xffffffff) == -8) {
-			for (int i_253_ = 0; (anInt5709 ^ 0xffffffff) < (i_253_ ^ 0xffffffff); i_253_++) {
+		} else if (i == 7) {
+			for (int i_253_ = 0; i_253_ < anInt5709; i_253_++) {
 				int i_254_ = 0xffff & aShortArray5693[i_253_];
 				int i_255_ = 0x3f & i_254_ >> 10;
 				int i_256_ = (0x385 & i_254_) >> 7;
@@ -1464,14 +1464,14 @@ public class GLDrawableModel extends DrawableModel
 				int i_257_ = i_254_ & 0x7f;
 				i_256_ += i_234_ / 4;
 				if (i_256_ >= 0) {
-					if ((i_256_ ^ 0xffffffff) < -8) {
+					if (i_256_ > 7) {
 						i_256_ = 7;
 					}
 				} else {
 					i_256_ = 0;
 				}
 				i_257_ += i_235_;
-				if ((i_257_ ^ 0xffffffff) > -1) {
+				if (i_257_ < 0) {
 					i_257_ = 0;
 				} else if (i_257_ > 127) {
 					i_257_ = 127;
@@ -1482,26 +1482,26 @@ public class GLDrawableModel extends DrawableModel
 				aClass69_5604.anInterface9_939 = null;
 			}
 			if (aClass72Array5627 != null) {
-				for (int i_258_ = 0; (anInt5659 ^ 0xffffffff) < (i_258_ ^ 0xffffffff); i_258_++) {
+				for (int i_258_ = 0; i_258_ < anInt5659; i_258_++) {
 					Class72 class72 = aClass72Array5627[i_258_];
 					Class190 class190 = aClass190Array5674[i_258_];
 					class190.anInt2335 = class190.anInt2335 & ~0xffffff | 0xffffff & Class85.anIntArray1158[aShortArray5693[class72.anInt975] & 0xffff];
 				}
 			}
 		} else if (i == 8) {
-			for (int i_259_ = 0; (anInt5659 ^ 0xffffffff) < (i_259_ ^ 0xffffffff); i_259_++) {
+			for (int i_259_ = 0; i_259_ < anInt5659; i_259_++) {
 				Class190 class190 = aClass190Array5674[i_259_];
 				class190.anInt2337 += i_233_;
 				class190.anInt2329 += i_234_;
 			}
-		} else if ((i ^ 0xffffffff) == -11) {
-			for (int i_260_ = 0; (i_260_ ^ 0xffffffff) > (anInt5659 ^ 0xffffffff); i_260_++) {
+		} else if (i == 10) {
+			for (int i_260_ = 0; anInt5659 > i_260_; i_260_++) {
 				Class190 class190 = aClass190Array5674[i_260_];
 				class190.anInt2339 = class190.anInt2339 * i_233_ >> 7;
 				class190.anInt2332 = i_234_ * class190.anInt2332 >> 7;
 			}
 		} else if (i == 9) {
-			for (int i_261_ = 0; (anInt5659 ^ 0xffffffff) < (i_261_ ^ 0xffffffff); i_261_++) {
+			for (int i_261_ = 0; i_261_ < anInt5659; i_261_++) {
 				Class190 class190 = aClass190Array5674[i_261_];
 				class190.anInt2333 = 0x3fff & i_233_ + class190.anInt2333;
 			}
@@ -1520,7 +1520,7 @@ public class GLDrawableModel extends DrawableModel
 		anInt5648++;
 		int i_262_ = Class335.anIntArray4167[i];
 		int i_263_ = Class335.anIntArray4165[i];
-		for (int i_264_ = 0; (i_264_ ^ 0xffffffff) > (anInt5672 ^ 0xffffffff); i_264_++) {
+		for (int i_264_ = 0; anInt5672 > i_264_; i_264_++) {
 			int i_265_ = i_262_ * anIntArray5588[i_264_] + i_263_ * anIntArray5595[i_264_] >> 14;
 			anIntArray5588[i_264_] = -(anIntArray5595[i_264_] * i_262_) + anIntArray5588[i_264_] * i_263_ >> 14;
 			anIntArray5595[i_264_] = i_265_;
@@ -1550,11 +1550,11 @@ public class GLDrawableModel extends DrawableModel
 			Class297.anInt3702 = 0;
 			Class378.anInt4676 = 0;
 			Class270_Sub2_Sub1.anInt10546 = 0;
-			for (int i_273_ = 0; (i_273_ ^ 0xffffffff) > (i_271_ ^ 0xffffffff); i_273_++) {
+			for (int i_273_ = 0; i_271_ > i_273_; i_273_++) {
 				int i_274_ = is[i_273_];
-				if ((i_274_ ^ 0xffffffff) > (anIntArrayArray5684.length ^ 0xffffffff)) {
+				if (anIntArrayArray5684.length > i_274_) {
 					int[] is_275_ = anIntArrayArray5684[i_274_];
-					for (int i_276_ = 0; (i_276_ ^ 0xffffffff) > (is_275_.length ^ 0xffffffff); i_276_++) {
+					for (int i_276_ = 0; is_275_.length > i_276_; i_276_++) {
 						int i_277_ = is_275_[i_276_];
 						if (aShortArray5618 == null || (aShortArray5618[i_277_] & i_269_) != 0) {
 							Class378.anInt4676 += anIntArray5595[i_277_];
@@ -1565,7 +1565,7 @@ public class GLDrawableModel extends DrawableModel
 					}
 				}
 			}
-			if ((i_272_ ^ 0xffffffff) >= -1) {
+			if (i_272_ <= 0) {
 				Class270_Sub2_Sub1.anInt10546 = i_268_;
 				Class378.anInt4676 = i_266_;
 				Class297.anInt3702 = i_267_;
@@ -1575,7 +1575,7 @@ public class GLDrawableModel extends DrawableModel
 				Class378.anInt4676 = Class378.anInt4676 / i_272_ - -i_266_;
 				Class297.anInt3702 = i_267_ + Class297.anInt3702 / i_272_;
 			}
-		} else if ((i ^ 0xffffffff) == -2) {
+		} else if (i == 1) {
 			if (is_270_ != null) {
 				int i_278_ = is_270_[1] * i_267_ + i_266_ * is_270_[0] + (is_270_[2] * i_268_ - -8192) >> 14;
 				int i_279_ = 8192 + (i_268_ * is_270_[5] + i_267_ * is_270_[4]) + i_266_ * is_270_[3] >> 14;
@@ -1589,7 +1589,7 @@ public class GLDrawableModel extends DrawableModel
 			i_267_ <<= 4;
 			for (int i_281_ = 0; i_271_ > i_281_; i_281_++) {
 				int i_282_ = is[i_281_];
-				if ((anIntArrayArray5684.length ^ 0xffffffff) < (i_282_ ^ 0xffffffff)) {
+				if (i_282_ < anIntArrayArray5684.length) {
 					int[] is_283_ = anIntArrayArray5684[i_282_];
 					for (int i_284_ = 0; is_283_.length > i_284_; i_284_++) {
 						int i_285_ = is_283_[i_284_];
@@ -1601,7 +1601,7 @@ public class GLDrawableModel extends DrawableModel
 					}
 				}
 			}
-		} else if ((i ^ 0xffffffff) == -3) {
+		} else if (i == 2) {
 			if (is_270_ != null) {
 				int i_286_ = is_270_[9] << 4;
 				int i_287_ = is_270_[10] << 4;
@@ -1646,7 +1646,7 @@ public class GLDrawableModel extends DrawableModel
 				int i_308_ = Class297.anInt3702 + i_305_;
 				int i_309_ = Class270_Sub2_Sub1.anInt10546 + i_306_;
 				int[] is_310_ = new int[9];
-				for (int i_311_ = 0; (i_311_ ^ 0xffffffff) > -4; i_311_++) {
+				for (int i_311_ = 0; i_311_ < 3; i_311_++) {
 					for (int i_312_ = 0; i_312_ < 3; i_312_++) {
 						int i_313_ = 0;
 						for (int i_314_ = 0; i_314_ < 3; i_314_++)
@@ -1661,7 +1661,7 @@ public class GLDrawableModel extends DrawableModel
 				i_316_ += i_308_;
 				i_317_ += i_309_;
 				int[] is_318_ = new int[9];
-				for (int i_319_ = 0; (i_319_ ^ 0xffffffff) > -4; i_319_++) {
+				for (int i_319_ = 0; i_319_ < 3; i_319_++) {
 					for (int i_320_ = 0; i_320_ < 3; i_320_++) {
 						int i_321_ = 0;
 						for (int i_322_ = 0; i_322_ < 3; i_322_++)
@@ -1677,11 +1677,11 @@ public class GLDrawableModel extends DrawableModel
 				i_325_ += i_288_;
 				for (int i_326_ = 0; i_271_ > i_326_; i_326_++) {
 					int i_327_ = is[i_326_];
-					if ((anIntArrayArray5684.length ^ 0xffffffff) < (i_327_ ^ 0xffffffff)) {
+					if (i_327_ < anIntArrayArray5684.length) {
 						int[] is_328_ = anIntArrayArray5684[i_327_];
-						for (int i_329_ = 0; (is_328_.length ^ 0xffffffff) < (i_329_ ^ 0xffffffff); i_329_++) {
+						for (int i_329_ = 0; i_329_ < is_328_.length; i_329_++) {
 							int i_330_ = is_328_[i_329_];
-							if (aShortArray5618 == null || (aShortArray5618[i_330_] & i_269_ ^ 0xffffffff) != -1) {
+							if (aShortArray5618 == null || (aShortArray5618[i_330_] & i_269_) != 0) {
 								int i_331_ = 8192 + (anIntArray5588[i_330_] * is_318_[1] + is_318_[0] * anIntArray5595[i_330_] + anIntArray5637[i_330_] * is_318_[2]) >> 14;
 								int i_332_ = is_318_[4] * anIntArray5588[i_330_] + is_318_[3] * anIntArray5595[i_330_] + anIntArray5637[i_330_] * is_318_[5] + 8192 >> 14;
 								i_332_ += i_324_;
@@ -1713,7 +1713,7 @@ public class GLDrawableModel extends DrawableModel
 									anIntArray5588[i_338_] = i_340_ * anIntArray5588[i_338_] + (-(i_339_ * anIntArray5595[i_338_]) - -16383) >> 14;
 									anIntArray5595[i_338_] = i_341_;
 								}
-								if ((i_266_ ^ 0xffffffff) != -1) {
+								if (i_266_ != 0) {
 									int i_342_ = Class335.anIntArray4167[i_266_];
 									int i_343_ = Class335.anIntArray4165[i_266_];
 									int i_344_ = i_343_ * anIntArray5588[i_338_] + -(i_342_ * anIntArray5637[i_338_]) + 16383 >> 14;
@@ -1735,7 +1735,7 @@ public class GLDrawableModel extends DrawableModel
 					}
 				}
 				if (bool) {
-					for (int i_348_ = 0; (i_271_ ^ 0xffffffff) < (i_348_ ^ 0xffffffff); i_348_++) {
+					for (int i_348_ = 0; i_348_ < i_271_; i_348_++) {
 						int i_349_ = is[i_348_];
 						if (anIntArrayArray5684.length > i_349_) {
 							int[] is_350_ = anIntArrayArray5684[i_349_];
@@ -1744,12 +1744,12 @@ public class GLDrawableModel extends DrawableModel
 								if (aShortArray5618 == null || (aShortArray5618[i_352_] & i_269_) != 0) {
 									int i_353_ = anIntArray5633[i_352_];
 									int i_354_ = anIntArray5633[i_352_ - -1];
-									for (int i_355_ = i_353_; (i_355_ ^ 0xffffffff) > (i_354_ ^ 0xffffffff); i_355_++) {
+									for (int i_355_ = i_353_; i_354_ > i_355_; i_355_++) {
 										int i_356_ = aShortArray5679[i_355_] + -1;
-										if ((i_356_ ^ 0xffffffff) == 0) {
+										if (i_356_ == -1) {
 											break;
 										}
-										if ((i_268_ ^ 0xffffffff) != -1) {
+										if (i_268_ != 0) {
 											int i_357_ = Class335.anIntArray4167[i_268_];
 											int i_358_ = Class335.anIntArray4165[i_268_];
 											int i_359_ = 16383 + aShortArray5635[i_356_] * i_358_ + i_357_ * aShortArray5691[i_356_] >> 14;
@@ -1787,11 +1787,11 @@ public class GLDrawableModel extends DrawableModel
 			if (is_270_ == null) {
 				for (int i_366_ = 0; i_366_ < i_271_; i_366_++) {
 					int i_367_ = is[i_366_];
-					if ((i_367_ ^ 0xffffffff) > (anIntArrayArray5684.length ^ 0xffffffff)) {
+					if (anIntArrayArray5684.length > i_367_) {
 						int[] is_368_ = anIntArrayArray5684[i_367_];
-						for (int i_369_ = 0; (is_368_.length ^ 0xffffffff) < (i_369_ ^ 0xffffffff); i_369_++) {
+						for (int i_369_ = 0; i_369_ < is_368_.length; i_369_++) {
 							int i_370_ = is_368_[i_369_];
-							if (aShortArray5618 == null || (i_269_ & aShortArray5618[i_370_] ^ 0xffffffff) != -1) {
+							if (aShortArray5618 == null || (i_269_ & aShortArray5618[i_370_]) != 0) {
 								anIntArray5595[i_370_] -= Class378.anInt4676;
 								anIntArray5588[i_370_] -= Class297.anInt3702;
 								anIntArray5637[i_370_] -= Class270_Sub2_Sub1.anInt10546;
@@ -1853,7 +1853,7 @@ public class GLDrawableModel extends DrawableModel
 				for (int i_394_ = 0; i_394_ < 3; i_394_++) {
 					for (int i_395_ = 0; i_395_ < 3; i_395_++) {
 						int i_396_ = 0;
-						for (int i_397_ = 0; (i_397_ ^ 0xffffffff) > -4; i_397_++)
+						for (int i_397_ = 0; i_397_ < 3; i_397_++)
 							i_396_ += is_389_[i_395_ + 3 * i_397_] * is_270_[i_397_ + i_394_ * 3];
 						is_393_[i_395_ + i_394_ * 3] = 8192 + i_396_ >> 14;
 					}
@@ -1866,11 +1866,11 @@ public class GLDrawableModel extends DrawableModel
 				i_400_ += i_373_;
 				for (int i_401_ = 0; i_271_ > i_401_; i_401_++) {
 					int i_402_ = is[i_401_];
-					if ((i_402_ ^ 0xffffffff) > (anIntArrayArray5684.length ^ 0xffffffff)) {
+					if (anIntArrayArray5684.length > i_402_) {
 						int[] is_403_ = anIntArrayArray5684[i_402_];
-						for (int i_404_ = 0; (i_404_ ^ 0xffffffff) > (is_403_.length ^ 0xffffffff); i_404_++) {
+						for (int i_404_ = 0; is_403_.length > i_404_; i_404_++) {
 							int i_405_ = is_403_[i_404_];
-							if (aShortArray5618 == null || (i_269_ & aShortArray5618[i_405_] ^ 0xffffffff) != -1) {
+							if (aShortArray5618 == null || (i_269_ & aShortArray5618[i_405_]) != 0) {
 								int i_406_ = anIntArray5595[i_405_] * is_393_[0] + (is_393_[1] * anIntArray5588[i_405_] - -(is_393_[2] * anIntArray5637[i_405_])) + 8192 >> 14;
 								int i_407_ = 8192 + (is_393_[3] * anIntArray5595[i_405_] - -(anIntArray5588[i_405_] * is_393_[4])) - -(anIntArray5637[i_405_] * is_393_[5]) >> 14;
 								i_406_ += i_398_;
@@ -1885,17 +1885,17 @@ public class GLDrawableModel extends DrawableModel
 					}
 				}
 			}
-		} else if ((i ^ 0xffffffff) == -6) {
+		} else if (i == 5) {
 			if (anIntArrayArray5591 != null) {
 				for (int i_409_ = 0; i_409_ < i_271_; i_409_++) {
 					int i_410_ = is[i_409_];
-					if ((anIntArrayArray5591.length ^ 0xffffffff) < (i_410_ ^ 0xffffffff)) {
+					if (i_410_ < anIntArrayArray5591.length) {
 						int[] is_411_ = anIntArrayArray5591[i_410_];
 						for (int i_412_ = 0; is_411_.length > i_412_; i_412_++) {
 							int i_413_ = is_411_[i_412_];
-							if (aShortArray5629 == null || (aShortArray5629[i_413_] & i_269_ ^ 0xffffffff) != -1) {
+							if (aShortArray5629 == null || (aShortArray5629[i_413_] & i_269_) != 0) {
 								int i_414_ = 8 * i_266_ + (0xff & aByteArray5658[i_413_]);
-								if ((i_414_ ^ 0xffffffff) > -1) {
+								if (i_414_ < 0) {
 									i_414_ = 0;
 								} else if (i_414_ > 255) {
 									i_414_ = 255;
@@ -1931,7 +1931,7 @@ public class GLDrawableModel extends DrawableModel
 								int i_424_ = 0x7f & i_421_;
 								i_422_ = i_266_ + i_422_ & 0x3f;
 								i_423_ += i_267_ / 4;
-								if ((i_423_ ^ 0xffffffff) <= -1) {
+								if (i_423_ >= 0) {
 									if (i_423_ > 7) {
 										i_423_ = 7;
 									}
@@ -1966,7 +1966,7 @@ public class GLDrawableModel extends DrawableModel
 					int i_427_ = is[i_426_];
 					if (anIntArrayArray5615.length > i_427_) {
 						int[] is_428_ = anIntArrayArray5615[i_427_];
-						for (int i_429_ = 0; (is_428_.length ^ 0xffffffff) < (i_429_ ^ 0xffffffff); i_429_++) {
+						for (int i_429_ = 0; i_429_ < is_428_.length; i_429_++) {
 							Class190 class190 = aClass190Array5674[is_428_[i_429_]];
 							class190.anInt2329 += i_267_;
 							class190.anInt2337 += i_266_;
@@ -1974,13 +1974,13 @@ public class GLDrawableModel extends DrawableModel
 					}
 				}
 			}
-		} else if ((i ^ 0xffffffff) == -11) {
+		} else if (i == 10) {
 			if (anIntArrayArray5615 != null) {
 				for (int i_430_ = 0; i_430_ < i_271_; i_430_++) {
 					int i_431_ = is[i_430_];
 					if (i_431_ < anIntArrayArray5615.length) {
 						int[] is_432_ = anIntArrayArray5615[i_431_];
-						for (int i_433_ = 0; (is_432_.length ^ 0xffffffff) < (i_433_ ^ 0xffffffff); i_433_++) {
+						for (int i_433_ = 0; i_433_ < is_432_.length; i_433_++) {
 							Class190 class190 = aClass190Array5674[is_432_[i_433_]];
 							class190.anInt2339 = i_266_ * class190.anInt2339 >> 7;
 							class190.anInt2332 = i_267_ * class190.anInt2332 >> 7;
@@ -1988,12 +1988,12 @@ public class GLDrawableModel extends DrawableModel
 					}
 				}
 			}
-		} else if ((i ^ 0xffffffff) == -10 && anIntArrayArray5615 != null) {
-			for (int i_434_ = 0; (i_434_ ^ 0xffffffff) > (i_271_ ^ 0xffffffff); i_434_++) {
+		} else if (i == 9 && anIntArrayArray5615 != null) {
+			for (int i_434_ = 0; i_271_ > i_434_; i_434_++) {
 				int i_435_ = is[i_434_];
-				if ((i_435_ ^ 0xffffffff) > (anIntArrayArray5615.length ^ 0xffffffff)) {
+				if (anIntArrayArray5615.length > i_435_) {
 					int[] is_436_ = anIntArrayArray5615[i_435_];
-					for (int i_437_ = 0; (is_436_.length ^ 0xffffffff) < (i_437_ ^ 0xffffffff); i_437_++) {
+					for (int i_437_ = 0; i_437_ < is_436_.length; i_437_++) {
 						Class190 class190 = aClass190Array5674[is_436_[i_437_]];
 						class190.anInt2333 = 0x3fff & class190.anInt2333 - -i_266_;
 					}
@@ -2007,7 +2007,7 @@ public class GLDrawableModel extends DrawableModel
 		if (aShortArray5699 == null) {
 			return true;
 		}
-		for (int i = 0; (aShortArray5699.length ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+		for (int i = 0; i < aShortArray5699.length; i++) {
 			if (aShortArray5699[i] != -1 && !aGLToolkit5692.aD1543.method7(9900, aShortArray5699[i])) {
 				return false;
 			}
@@ -2019,12 +2019,12 @@ public class GLDrawableModel extends DrawableModel
 		anInt5614++;
 		int i_438_ = Class335.anIntArray4167[i];
 		int i_439_ = Class335.anIntArray4165[i];
-		for (int i_440_ = 0; (anInt5672 ^ 0xffffffff) < (i_440_ ^ 0xffffffff); i_440_++) {
+		for (int i_440_ = 0; i_440_ < anInt5672; i_440_++) {
 			int i_441_ = anIntArray5595[i_440_] * i_439_ + anIntArray5637[i_440_] * i_438_ >> 14;
 			anIntArray5637[i_440_] = -(i_438_ * anIntArray5595[i_440_]) + i_439_ * anIntArray5637[i_440_] >> 14;
 			anIntArray5595[i_440_] = i_441_;
 		}
-		for (int i_442_ = 0; (anInt5665 ^ 0xffffffff) < (i_442_ ^ 0xffffffff); i_442_++) {
+		for (int i_442_ = 0; i_442_ < anInt5665; i_442_++) {
 			int i_443_ = aShortArray5685[i_442_] * i_438_ + i_439_ * aShortArray5635[i_442_] >> 14;
 			aShortArray5685[i_442_] = (short) (i_439_ * aShortArray5685[i_442_] + -(aShortArray5635[i_442_] * i_438_) >> 14);
 			aShortArray5635[i_442_] = (short) i_443_;
@@ -2043,11 +2043,11 @@ public class GLDrawableModel extends DrawableModel
 	
 	final void method626(int i, int i_444_, int i_445_, int i_446_) {
 		anInt5647++;
-		for (int i_447_ = 0; (i_447_ ^ 0xffffffff) > (anInt5709 ^ 0xffffffff); i_447_++) {
+		for (int i_447_ = 0; anInt5709 > i_447_; i_447_++) {
 			int i_448_ = aShortArray5693[i_447_] & 0xffff;
 			int i_449_ = i_448_ >> 10 & 0x3f;
 			int i_450_ = (i_448_ & 0x3bf) >> 7;
-			if ((i ^ 0xffffffff) != 0) {
+			if (i != -1) {
 				i_449_ += (i + -i_449_) * i_446_ >> 7;
 			}
 			int i_451_ = i_448_ & 0x7f;
@@ -2078,7 +2078,7 @@ public class GLDrawableModel extends DrawableModel
 		boolean bool_455_ = aClass69_5654 != null && aClass69_5654.anInterface9_939 == null;
 		boolean bool_456_ = aClass69_5689 != null && aClass69_5689.anInterface9_939 == null;
 		if (bool) {
-			bool_454_ = bool_454_ & (0x4 & aByte5651 ^ 0xffffffff) != -1;
+			bool_454_ = bool_454_ & (0x4 & aByte5651) != 0;
 			bool_455_ = bool_455_ & (aByte5651 & 0x1) != 0;
 			bool_453_ = bool_453_ & (0x2 & aByte5651) != 0;
 			bool_456_ = bool_456_ & (0x8 & aByte5651) != 0;
@@ -2113,7 +2113,7 @@ public class GLDrawableModel extends DrawableModel
 			FloatBuffer floatbuffer = aGLToolkit5692.aFloatBuffer6661;
 			if (bool_455_) {
 				if (!aGLToolkit5692.aBoolean6736) {
-					for (int i = 0; (anInt5672 ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+					for (int i = 0; i < anInt5672; i++) {
 						int i_462_ = Stream.floatToRawIntBits((float) anIntArray5595[i]);
 						int i_463_ = Stream.floatToRawIntBits((float) anIntArray5588[i]);
 						int i_464_ = Stream.floatToRawIntBits((float) anIntArray5637[i]);
@@ -2131,15 +2131,15 @@ public class GLDrawableModel extends DrawableModel
 						}
 					}
 				} else {
-					for (int i = 0; (anInt5672 ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+					for (int i = 0; i < anInt5672; i++) {
 						int i_469_ = Stream.floatToRawIntBits((float) anIntArray5595[i]);
 						int i_470_ = Stream.floatToRawIntBits((float) anIntArray5588[i]);
 						int i_471_ = Stream.floatToRawIntBits((float) anIntArray5637[i]);
 						int i_472_ = anIntArray5633[i];
 						int i_473_ = anIntArray5633[i + 1];
-						for (int i_474_ = i_472_; (i_473_ ^ 0xffffffff) < (i_474_ ^ 0xffffffff); i_474_++) {
+						for (int i_474_ = i_472_; i_474_ < i_473_; i_474_++) {
 							int i_475_ = aShortArray5679[i_474_] - 1;
-							if ((i_475_ ^ 0xffffffff) == 0) {
+							if (i_475_ == -1) {
 								break;
 							}
 							floatbuffer.anInt7002 = b_457_ * i_475_;
@@ -2181,7 +2181,7 @@ public class GLDrawableModel extends DrawableModel
 						float f_487_ = (float) (i_483_ >>> 24) * aGLToolkit5692.aFloat6734;
 						short s = (short) bs[i_484_];
 						float f_488_;
-						if ((s ^ 0xffffffff) == -1) {
+						if (s == 0) {
 							f_488_ = (f_479_ * (float) ses[i_484_] + (f * (float) ses_477_[i_484_] + f_478_ * (float) ses_476_[i_484_])) * 0.0026041667F;
 						} else {
 							f_488_ = (f_479_ * (float) ses[i_484_] + (f_478_ * (float) ses_476_[i_484_] + (float) ses_477_[i_484_] * f)) / (float) (256 * s);
@@ -2189,22 +2189,22 @@ public class GLDrawableModel extends DrawableModel
 						float f_489_ = (!(f_488_ < 0.0F) ? f_481_ : f_482_) * f_488_ + f_480_;
 						int i_490_ = (int) (f_489_ * f_487_);
 						if (i_490_ >= 0) {
-							if ((i_490_ ^ 0xffffffff) < -256) {
+							if (i_490_ > 255) {
 								i_490_ = 255;
 							}
 						} else {
 							i_490_ = 0;
 						}
 						int i_491_ = (int) (f_485_ * f_489_);
-						if ((i_491_ ^ 0xffffffff) > -1) {
+						if (i_491_ < 0) {
 							i_491_ = 0;
 						} else if (i_491_ > 255) {
 							i_491_ = 255;
 						}
 						int i_492_ = (int) (f_489_ * f_486_);
-						if ((i_492_ ^ 0xffffffff) > -1) {
+						if (i_492_ < 0) {
 							i_492_ = 0;
-						} else if ((i_492_ ^ 0xffffffff) < -256) {
+						} else if (i_492_ > 255) {
 							i_492_ = 255;
 						}
 						floatbuffer.anInt7002 = b_459_ + i_484_ * b_457_;
@@ -2214,7 +2214,7 @@ public class GLDrawableModel extends DrawableModel
 						floatbuffer.method2226(-(aByteArray5658[i] & 0xff) + 255, false);
 						i_484_ = aShortArray5683[i];
 						s = (short) bs[i_484_];
-						if ((s ^ 0xffffffff) == -1) {
+						if (s == 0) {
 							f_488_ = 0.0026041667F * (f_479_ * (float) ses[i_484_] + ((float) ses_476_[i_484_] * f_478_ + (float) ses_477_[i_484_] * f));
 						} else {
 							f_488_ = (f * (float) ses_477_[i_484_] + (float) ses_476_[i_484_] * f_478_ + f_479_ * (float) ses[i_484_]) / (float) (s * 256);
@@ -2230,12 +2230,12 @@ public class GLDrawableModel extends DrawableModel
 						i_492_ = (int) (f_489_ * f_486_);
 						if (i_491_ < 0) {
 							i_491_ = 0;
-						} else if ((i_491_ ^ 0xffffffff) < -256) {
+						} else if (i_491_ > 255) {
 							i_491_ = 255;
 						}
 						floatbuffer.anInt7002 = i_484_ * b_457_ + b_459_;
-						if ((i_492_ ^ 0xffffffff) <= -1) {
-							if ((i_492_ ^ 0xffffffff) < -256) {
+						if (i_492_ >= 0) {
+							if (i_492_ > 255) {
 								i_492_ = 255;
 							}
 						} else {
@@ -2254,7 +2254,7 @@ public class GLDrawableModel extends DrawableModel
 						}
 						f_489_ = f_480_ + (f_488_ < 0.0F ? f_482_ : f_481_) * f_488_;
 						i_490_ = (int) (f_489_ * f_487_);
-						if ((i_490_ ^ 0xffffffff) > -1) {
+						if (i_490_ < 0) {
 							i_490_ = 0;
 						} else if (i_490_ > 255) {
 							i_490_ = 255;
@@ -2309,7 +2309,7 @@ public class GLDrawableModel extends DrawableModel
 				floatbuffer.anInt7002 = b_460_;
 				float f_496_ = 3.0F / (float) (aShort5664 / 2 + aShort5664);
 				if (aGLToolkit5692.aBoolean6736) {
-					for (int i = 0; (anInt5665 ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+					for (int i = 0; i < anInt5665; i++) {
 						int i_497_ = bs[i] & 0xff;
 						if (i_497_ == 0) {
 							floatbuffer.method2251(8, (float) ses_494_[i] * f_496_);
@@ -2324,9 +2324,9 @@ public class GLDrawableModel extends DrawableModel
 						floatbuffer.anInt7002 += b_457_ - 12;
 					}
 				} else {
-					for (int i = 0; (anInt5665 ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+					for (int i = 0; i < anInt5665; i++) {
 						int i_499_ = bs[i] & 0xff;
-						if ((i_499_ ^ 0xffffffff) != -1) {
+						if (i_499_ != 0) {
 							float f_500_ = f / (float) i_499_;
 							floatbuffer.method2252(-229385392, f_500_ * (float) ses_494_[i]);
 							floatbuffer.method2252(-229385392, f_500_ * (float) ses[i]);
@@ -2349,7 +2349,7 @@ public class GLDrawableModel extends DrawableModel
 						floatbuffer.anInt7002 += b_457_ - 8;
 					}
 				} else {
-					for (int i = 0; (i ^ 0xffffffff) > (anInt5665 ^ 0xffffffff); i++) {
+					for (int i = 0; anInt5665 > i; i++) {
 						floatbuffer.method2251(b + -33, aFloatArray5609[i]);
 						floatbuffer.method2251(b + -33, aFloatArray5650[i]);
 						floatbuffer.anInt7002 += -8 + b_457_;
@@ -2430,7 +2430,7 @@ public class GLDrawableModel extends DrawableModel
 		anInt5617++;
 		gldrawablemodel_505_.anInt5644 = anInt5644;
 		gldrawablemodel_505_.aBoolean5670 = aBoolean5670;
-		if ((i_504_ & 0x100 ^ 0xffffffff) != -1) {
+		if ((i_504_ & 0x100) != 0) {
 			gldrawablemodel_505_.aBoolean5599 = true;
 		} else {
 			gldrawablemodel_505_.aBoolean5599 = aBoolean5599;
@@ -2445,7 +2445,7 @@ public class GLDrawableModel extends DrawableModel
 			gldrawablemodel_505_.anIntArray5637 = anIntArray5637;
 		} else {
 			if (bool_506_) {
-				if (gldrawablemodel_502_.anIntArray5595 != null && (gldrawablemodel_502_.anIntArray5595.length ^ 0xffffffff) <= (anInt5644 ^ 0xffffffff)) {
+				if (gldrawablemodel_502_.anIntArray5595 != null && anInt5644 <= gldrawablemodel_502_.anIntArray5595.length) {
 					gldrawablemodel_505_.anIntArray5595 = gldrawablemodel_502_.anIntArray5595;
 				} else {
 					gldrawablemodel_505_.anIntArray5595 = gldrawablemodel_502_.anIntArray5595 = new int[anInt5644];
@@ -2455,7 +2455,7 @@ public class GLDrawableModel extends DrawableModel
 			}
 			if (!bool_507_) {
 				gldrawablemodel_505_.anIntArray5588 = anIntArray5588;
-			} else if (gldrawablemodel_502_.anIntArray5588 == null || (anInt5644 ^ 0xffffffff) < (gldrawablemodel_502_.anIntArray5588.length ^ 0xffffffff)) {
+			} else if (gldrawablemodel_502_.anIntArray5588 == null || gldrawablemodel_502_.anIntArray5588.length < anInt5644) {
 				gldrawablemodel_505_.anIntArray5588 = gldrawablemodel_502_.anIntArray5588 = new int[anInt5644];
 			} else {
 				gldrawablemodel_505_.anIntArray5588 = gldrawablemodel_502_.anIntArray5588;
@@ -2505,12 +2505,12 @@ public class GLDrawableModel extends DrawableModel
 				gldrawablemodel_505_.aShortArray5693[i_511_] = aShortArray5693[i_511_];
 		}
 		if (Class320_Sub7.method3711((byte) 46, i_504_, anInt5653)) {
-			if (gldrawablemodel_502_.aByteArray5658 == null || (gldrawablemodel_502_.aByteArray5658.length ^ 0xffffffff) > (anInt5709 ^ 0xffffffff)) {
+			if (gldrawablemodel_502_.aByteArray5658 == null || anInt5709 > gldrawablemodel_502_.aByteArray5658.length) {
 				gldrawablemodel_505_.aByteArray5658 = gldrawablemodel_502_.aByteArray5658 = new byte[anInt5709];
 			} else {
 				gldrawablemodel_505_.aByteArray5658 = gldrawablemodel_502_.aByteArray5658;
 			}
-			for (int i_512_ = 0; (anInt5709 ^ 0xffffffff) < (i_512_ ^ 0xffffffff); i_512_++)
+			for (int i_512_ = 0; i_512_ < anInt5709; i_512_++)
 				gldrawablemodel_505_.aByteArray5658[i_512_] = aByteArray5658[i_512_];
 		} else {
 			gldrawablemodel_505_.aByteArray5658 = aByteArray5658;
@@ -2536,7 +2536,7 @@ public class GLDrawableModel extends DrawableModel
 			gldrawablemodel_505_.aShortArray5635 = aShortArray5635;
 			gldrawablemodel_505_.aShortArray5685 = aShortArray5685;
 		} else {
-			if (gldrawablemodel_502_.aShortArray5635 != null && (anInt5665 ^ 0xffffffff) >= (gldrawablemodel_502_.aShortArray5635.length ^ 0xffffffff)) {
+			if (gldrawablemodel_502_.aShortArray5635 != null && gldrawablemodel_502_.aShortArray5635.length >= anInt5665) {
 				gldrawablemodel_505_.aShortArray5691 = gldrawablemodel_502_.aShortArray5691;
 				gldrawablemodel_505_.aShortArray5685 = gldrawablemodel_502_.aShortArray5685;
 				gldrawablemodel_505_.aShortArray5635 = gldrawablemodel_502_.aShortArray5635;
@@ -2551,14 +2551,14 @@ public class GLDrawableModel extends DrawableModel
 					gldrawablemodel_502_.aClass319_5592 = new Class319();
 				}
 				Class319 class319 = gldrawablemodel_505_.aClass319_5592 = gldrawablemodel_502_.aClass319_5592;
-				if (class319.aShortArray4061 == null || (anInt5665 ^ 0xffffffff) < (class319.aShortArray4061.length ^ 0xffffffff)) {
+				if (class319.aShortArray4061 == null || class319.aShortArray4061.length < anInt5665) {
 					int i_514_ = anInt5665;
 					class319.aShortArray4056 = new short[i_514_];
 					class319.aShortArray4061 = new short[i_514_];
 					class319.aShortArray4062 = new short[i_514_];
 					class319.aByteArray4059 = new byte[i_514_];
 				}
-				for (int i_515_ = 0; (anInt5665 ^ 0xffffffff) < (i_515_ ^ 0xffffffff); i_515_++) {
+				for (int i_515_ = 0; i_515_ < anInt5665; i_515_++) {
 					gldrawablemodel_505_.aShortArray5635[i_515_] = aShortArray5635[i_515_];
 					gldrawablemodel_505_.aShortArray5691[i_515_] = aShortArray5691[i_515_];
 					gldrawablemodel_505_.aShortArray5685[i_515_] = aShortArray5685[i_515_];
@@ -2597,7 +2597,7 @@ public class GLDrawableModel extends DrawableModel
 				gldrawablemodel_505_.aFloatArray5609 = gldrawablemodel_502_.aFloatArray5609 = new float[i_517_];
 				gldrawablemodel_505_.aFloatArray5650 = gldrawablemodel_502_.aFloatArray5650 = new float[i_517_];
 			}
-			for (int i_518_ = 0; (i_518_ ^ 0xffffffff) > (anInt5665 ^ 0xffffffff); i_518_++) {
+			for (int i_518_ = 0; anInt5665 > i_518_; i_518_++) {
 				gldrawablemodel_505_.aFloatArray5609[i_518_] = aFloatArray5609[i_518_];
 				gldrawablemodel_505_.aFloatArray5650[i_518_] = aFloatArray5650[i_518_];
 			}
@@ -2620,7 +2620,7 @@ public class GLDrawableModel extends DrawableModel
 			gldrawablemodel_505_.aClass69_5689.anInterface9_939 = aClass69_5689.anInterface9_939;
 		}
 		if (Class262_Sub16.method3193(anInt5653, i_504_, (byte) -61)) {
-			if (gldrawablemodel_502_.aShortArray5622 == null || (anInt5709 ^ 0xffffffff) < (gldrawablemodel_502_.aShortArray5622.length ^ 0xffffffff)) {
+			if (gldrawablemodel_502_.aShortArray5622 == null || gldrawablemodel_502_.aShortArray5622.length < anInt5709) {
 				int i_519_ = anInt5709;
 				gldrawablemodel_505_.aShortArray5683 = gldrawablemodel_502_.aShortArray5683 = new short[i_519_];
 				gldrawablemodel_505_.aShortArray5706 = gldrawablemodel_502_.aShortArray5706 = new short[i_519_];
@@ -2630,7 +2630,7 @@ public class GLDrawableModel extends DrawableModel
 				gldrawablemodel_505_.aShortArray5683 = gldrawablemodel_502_.aShortArray5683;
 				gldrawablemodel_505_.aShortArray5622 = gldrawablemodel_502_.aShortArray5622;
 			}
-			for (int i_520_ = 0; (i_520_ ^ 0xffffffff) > (anInt5709 ^ 0xffffffff); i_520_++) {
+			for (int i_520_ = 0; anInt5709 > i_520_; i_520_++) {
 				gldrawablemodel_505_.aShortArray5622[i_520_] = aShortArray5622[i_520_];
 				gldrawablemodel_505_.aShortArray5683[i_520_] = aShortArray5683[i_520_];
 				gldrawablemodel_505_.aShortArray5706[i_520_] = aShortArray5706[i_520_];
@@ -2660,7 +2660,7 @@ public class GLDrawableModel extends DrawableModel
 				int i_521_ = anInt5709;
 				gldrawablemodel_505_.aShortArray5699 = gldrawablemodel_502_.aShortArray5699 = new short[i_521_];
 			}
-			for (int i_522_ = 0; (i_522_ ^ 0xffffffff) > (anInt5709 ^ 0xffffffff); i_522_++)
+			for (int i_522_ = 0; anInt5709 > i_522_; i_522_++)
 				gldrawablemodel_505_.aShortArray5699[i_522_] = aShortArray5699[i_522_];
 		}
 		if (!Class71.method741(anInt5653, -23003, i_504_)) {
@@ -2668,11 +2668,11 @@ public class GLDrawableModel extends DrawableModel
 		} else if (gldrawablemodel_502_.aClass190Array5674 == null || anInt5659 > gldrawablemodel_502_.aClass190Array5674.length) {
 			int i_523_ = anInt5659;
 			gldrawablemodel_505_.aClass190Array5674 = gldrawablemodel_502_.aClass190Array5674 = new Class190[i_523_];
-			for (int i_524_ = 0; (i_524_ ^ 0xffffffff) > (anInt5659 ^ 0xffffffff); i_524_++)
+			for (int i_524_ = 0; anInt5659 > i_524_; i_524_++)
 				gldrawablemodel_505_.aClass190Array5674[i_524_] = aClass190Array5674[i_524_].method1941(true);
 		} else {
 			gldrawablemodel_505_.aClass190Array5674 = gldrawablemodel_502_.aClass190Array5674;
-			for (int i_525_ = 0; (i_525_ ^ 0xffffffff) > (anInt5659 ^ 0xffffffff); i_525_++)
+			for (int i_525_ = 0; anInt5659 > i_525_; i_525_++)
 				gldrawablemodel_505_.aClass190Array5674[i_525_].method1943((byte) -106, aClass190Array5674[i_525_]);
 		}
 		gldrawablemodel_505_.anIntArrayArray5684 = anIntArrayArray5684;
@@ -2704,13 +2704,13 @@ public class GLDrawableModel extends DrawableModel
 	
 	final void ia(short s, short s_526_) {
 		for (int i = 0; anInt5709 > i; i++) {
-			if ((s ^ 0xffffffff) == (aShortArray5693[i] ^ 0xffffffff)) {
+			if (aShortArray5693[i] == s) {
 				aShortArray5693[i] = s_526_;
 			}
 		}
 		anInt5605++;
 		if (aClass72Array5627 != null) {
-			for (int i = 0; (anInt5659 ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+			for (int i = 0; i < anInt5659; i++) {
 				Class72 class72 = aClass72Array5627[i];
 				Class190 class190 = aClass190Array5674[i];
 				class190.anInt2335 = 0xffffff & Class85.anIntArray1158[0xffff & aShortArray5693[class72.anInt975]] | ~0xffffff & class190.anInt2335;
@@ -2724,7 +2724,7 @@ public class GLDrawableModel extends DrawableModel
 	final void method637(int i, int[] is, int i_527_, int i_528_, int i_529_, int i_530_, boolean bool) {
 		anInt5690++;
 		int i_531_ = is.length;
-		if ((i ^ 0xffffffff) == -1) {
+		if (i == 0) {
 			i_528_ <<= 4;
 			i_527_ <<= 4;
 			i_529_ <<= 4;
@@ -2745,7 +2745,7 @@ public class GLDrawableModel extends DrawableModel
 					}
 				}
 			}
-			if ((i_532_ ^ 0xffffffff) < -1) {
+			if (i_532_ > 0) {
 				Class297.anInt3702 = i_528_ + Class297.anInt3702 / i_532_;
 				Class270_Sub2_Sub1.anInt10546 = i_529_ + Class270_Sub2_Sub1.anInt10546 / i_532_;
 				Class378.anInt4676 = i_527_ + Class378.anInt4676 / i_532_;
@@ -2754,11 +2754,11 @@ public class GLDrawableModel extends DrawableModel
 				Class378.anInt4676 = i_527_;
 				Class297.anInt3702 = i_528_;
 			}
-		} else if ((i ^ 0xffffffff) == -2) {
+		} else if (i == 1) {
 			i_529_ <<= 4;
 			i_528_ <<= 4;
 			i_527_ <<= 4;
-			for (int i_538_ = 0; (i_538_ ^ 0xffffffff) > (i_531_ ^ 0xffffffff); i_538_++) {
+			for (int i_538_ = 0; i_531_ > i_538_; i_538_++) {
 				int i_539_ = is[i_538_];
 				if (i_539_ < anIntArrayArray5684.length) {
 					int[] is_540_ = anIntArrayArray5684[i_539_];
@@ -2776,26 +2776,26 @@ public class GLDrawableModel extends DrawableModel
 				if (i_544_ < anIntArrayArray5684.length) {
 					int[] is_545_ = anIntArrayArray5684[i_544_];
 					if ((i_530_ & 0x1) == 0) {
-						for (int i_546_ = 0; (is_545_.length ^ 0xffffffff) < (i_546_ ^ 0xffffffff); i_546_++) {
+						for (int i_546_ = 0; i_546_ < is_545_.length; i_546_++) {
 							int i_547_ = is_545_[i_546_];
 							anIntArray5595[i_547_] -= Class378.anInt4676;
 							anIntArray5588[i_547_] -= Class297.anInt3702;
 							anIntArray5637[i_547_] -= Class270_Sub2_Sub1.anInt10546;
-							if ((i_529_ ^ 0xffffffff) != -1) {
+							if (i_529_ != 0) {
 								int i_548_ = Class335.anIntArray4167[i_529_];
 								int i_549_ = Class335.anIntArray4165[i_529_];
 								int i_550_ = 16383 + (anIntArray5595[i_547_] * i_549_ + anIntArray5588[i_547_] * i_548_) >> 14;
 								anIntArray5588[i_547_] = 16383 + -(anIntArray5595[i_547_] * i_548_) + anIntArray5588[i_547_] * i_549_ >> 14;
 								anIntArray5595[i_547_] = i_550_;
 							}
-							if ((i_527_ ^ 0xffffffff) != -1) {
+							if (i_527_ != 0) {
 								int i_551_ = Class335.anIntArray4167[i_527_];
 								int i_552_ = Class335.anIntArray4165[i_527_];
 								int i_553_ = i_552_ * anIntArray5588[i_547_] - (anIntArray5637[i_547_] * i_551_ + -16383) >> 14;
 								anIntArray5637[i_547_] = 16383 + (i_551_ * anIntArray5588[i_547_] + i_552_ * anIntArray5637[i_547_]) >> 14;
 								anIntArray5588[i_547_] = i_553_;
 							}
-							if ((i_528_ ^ 0xffffffff) != -1) {
+							if (i_528_ != 0) {
 								int i_554_ = Class335.anIntArray4167[i_528_];
 								int i_555_ = Class335.anIntArray4165[i_528_];
 								int i_556_ = 16383 + (i_555_ * anIntArray5595[i_547_] + i_554_ * anIntArray5637[i_547_]) >> 14;
@@ -2807,19 +2807,19 @@ public class GLDrawableModel extends DrawableModel
 							anIntArray5637[i_547_] += Class270_Sub2_Sub1.anInt10546;
 						}
 					} else {
-						for (int i_557_ = 0; (is_545_.length ^ 0xffffffff) < (i_557_ ^ 0xffffffff); i_557_++) {
+						for (int i_557_ = 0; i_557_ < is_545_.length; i_557_++) {
 							int i_558_ = is_545_[i_557_];
 							anIntArray5595[i_558_] -= Class378.anInt4676;
 							anIntArray5588[i_558_] -= Class297.anInt3702;
 							anIntArray5637[i_558_] -= Class270_Sub2_Sub1.anInt10546;
-							if ((i_527_ ^ 0xffffffff) != -1) {
+							if (i_527_ != 0) {
 								int i_559_ = Class335.anIntArray4167[i_527_];
 								int i_560_ = Class335.anIntArray4165[i_527_];
 								int i_561_ = -(i_559_ * anIntArray5637[i_558_]) + (anIntArray5588[i_558_] * i_560_ - -16383) >> 14;
 								anIntArray5637[i_558_] = 16383 + anIntArray5637[i_558_] * i_560_ + anIntArray5588[i_558_] * i_559_ >> 14;
 								anIntArray5588[i_558_] = i_561_;
 							}
-							if ((i_529_ ^ 0xffffffff) != -1) {
+							if (i_529_ != 0) {
 								int i_562_ = Class335.anIntArray4167[i_529_];
 								int i_563_ = Class335.anIntArray4165[i_529_];
 								int i_564_ = i_563_ * anIntArray5595[i_558_] + (anIntArray5588[i_558_] * i_562_ + 16383) >> 14;
@@ -2849,26 +2849,26 @@ public class GLDrawableModel extends DrawableModel
 							int i_572_ = is_570_[i_571_];
 							int i_573_ = anIntArray5633[i_572_];
 							int i_574_ = anIntArray5633[1 + i_572_];
-							for (int i_575_ = i_573_; (i_574_ ^ 0xffffffff) < (i_575_ ^ 0xffffffff); i_575_++) {
+							for (int i_575_ = i_573_; i_575_ < i_574_; i_575_++) {
 								int i_576_ = -1 + aShortArray5679[i_575_];
-								if ((i_576_ ^ 0xffffffff) == 0) {
+								if (i_576_ == -1) {
 									break;
 								}
-								if ((i_529_ ^ 0xffffffff) != -1) {
+								if (i_529_ != 0) {
 									int i_577_ = Class335.anIntArray4167[i_529_];
 									int i_578_ = Class335.anIntArray4165[i_529_];
 									int i_579_ = i_577_ * aShortArray5691[i_576_] - (-(aShortArray5635[i_576_] * i_578_) - 16383) >> 14;
 									aShortArray5691[i_576_] = (short) (-(aShortArray5635[i_576_] * i_577_) + (aShortArray5691[i_576_] * i_578_ + 16383) >> 14);
 									aShortArray5635[i_576_] = (short) i_579_;
 								}
-								if ((i_527_ ^ 0xffffffff) != -1) {
+								if (i_527_ != 0) {
 									int i_580_ = Class335.anIntArray4167[i_527_];
 									int i_581_ = Class335.anIntArray4165[i_527_];
 									int i_582_ = 16383 + (i_581_ * aShortArray5691[i_576_] + -(i_580_ * aShortArray5685[i_576_])) >> 14;
 									aShortArray5685[i_576_] = (short) (16383 + (aShortArray5685[i_576_] * i_581_ + aShortArray5691[i_576_] * i_580_) >> 14);
 									aShortArray5691[i_576_] = (short) i_582_;
 								}
-								if ((i_528_ ^ 0xffffffff) != -1) {
+								if (i_528_ != 0) {
 									int i_583_ = Class335.anIntArray4167[i_528_];
 									int i_584_ = Class335.anIntArray4165[i_528_];
 									int i_585_ = 16383 + i_584_ * aShortArray5635[i_576_] + aShortArray5685[i_576_] * i_583_ >> 14;
@@ -2886,12 +2886,12 @@ public class GLDrawableModel extends DrawableModel
 					aClass69_5649.anInterface9_939 = null;
 				}
 			}
-		} else if ((i ^ 0xffffffff) == -4) {
+		} else if (i == 3) {
 			for (int i_586_ = 0; i_586_ < i_531_; i_586_++) {
 				int i_587_ = is[i_586_];
-				if ((anIntArrayArray5684.length ^ 0xffffffff) < (i_587_ ^ 0xffffffff)) {
+				if (i_587_ < anIntArrayArray5684.length) {
 					int[] is_588_ = anIntArrayArray5684[i_587_];
-					for (int i_589_ = 0; (is_588_.length ^ 0xffffffff) < (i_589_ ^ 0xffffffff); i_589_++) {
+					for (int i_589_ = 0; i_589_ < is_588_.length; i_589_++) {
 						int i_590_ = is_588_[i_589_];
 						anIntArray5595[i_590_] -= Class378.anInt4676;
 						anIntArray5588[i_590_] -= Class297.anInt3702;
@@ -2907,11 +2907,11 @@ public class GLDrawableModel extends DrawableModel
 			}
 		} else if (i == 5) {
 			if (anIntArrayArray5591 != null) {
-				for (int i_591_ = 0; (i_591_ ^ 0xffffffff) > (i_531_ ^ 0xffffffff); i_591_++) {
+				for (int i_591_ = 0; i_531_ > i_591_; i_591_++) {
 					int i_592_ = is[i_591_];
 					if (i_592_ < anIntArrayArray5591.length) {
 						int[] is_593_ = anIntArrayArray5591[i_592_];
-						for (int i_594_ = 0; (is_593_.length ^ 0xffffffff) < (i_594_ ^ 0xffffffff); i_594_++) {
+						for (int i_594_ = 0; i_594_ < is_593_.length; i_594_++) {
 							int i_595_ = is_593_[i_594_];
 							int i_596_ = 8 * i_527_ + (0xff & aByteArray5658[i_595_]);
 							if (i_596_ < 0) {
@@ -2921,13 +2921,13 @@ public class GLDrawableModel extends DrawableModel
 							}
 							aByteArray5658[i_595_] = (byte) i_596_;
 						}
-						if ((is_593_.length ^ 0xffffffff) < -1 && aClass69_5604 != null) {
+						if (is_593_.length > 0 && aClass69_5604 != null) {
 							aClass69_5604.anInterface9_939 = null;
 						}
 					}
 				}
 				if (aClass72Array5627 != null) {
-					for (int i_597_ = 0; (i_597_ ^ 0xffffffff) > (anInt5659 ^ 0xffffffff); i_597_++) {
+					for (int i_597_ = 0; anInt5659 > i_597_; i_597_++) {
 						Class72 class72 = aClass72Array5627[i_597_];
 						Class190 class190 = aClass190Array5674[i_597_];
 						class190.anInt2335 = 0xffffff & class190.anInt2335 | 255 + -(0xff & aByteArray5658[class72.anInt975]) << 24;
@@ -2940,7 +2940,7 @@ public class GLDrawableModel extends DrawableModel
 					int i_599_ = is[i_598_];
 					if (i_599_ < anIntArrayArray5591.length) {
 						int[] is_600_ = anIntArrayArray5591[i_599_];
-						for (int i_601_ = 0; (is_600_.length ^ 0xffffffff) < (i_601_ ^ 0xffffffff); i_601_++) {
+						for (int i_601_ = 0; i_601_ < is_600_.length; i_601_++) {
 							int i_602_ = is_600_[i_601_];
 							int i_603_ = aShortArray5693[i_602_] & 0xffff;
 							int i_604_ = (0xfe45 & i_603_) >> 10;
@@ -2951,11 +2951,11 @@ public class GLDrawableModel extends DrawableModel
 							i_606_ += i_529_;
 							if (i_605_ < 0) {
 								i_605_ = 0;
-							} else if ((i_605_ ^ 0xffffffff) < -8) {
+							} else if (i_605_ > 7) {
 								i_605_ = 7;
 							}
-							if ((i_606_ ^ 0xffffffff) <= -1) {
-								if ((i_606_ ^ 0xffffffff) < -128) {
+							if (i_606_ >= 0) {
+								if (i_606_ > 127) {
 									i_606_ = 127;
 								}
 							} else {
@@ -2963,26 +2963,26 @@ public class GLDrawableModel extends DrawableModel
 							}
 							aShortArray5693[i_602_] = (short) Node_Sub16.method2590(Node_Sub16.method2590(i_604_ << 10, i_605_ << 7), i_606_);
 						}
-						if ((is_600_.length ^ 0xffffffff) < -1 && aClass69_5604 != null) {
+						if (is_600_.length > 0 && aClass69_5604 != null) {
 							aClass69_5604.anInterface9_939 = null;
 						}
 					}
 				}
 				if (aClass72Array5627 != null) {
-					for (int i_607_ = 0; (i_607_ ^ 0xffffffff) > (anInt5659 ^ 0xffffffff); i_607_++) {
+					for (int i_607_ = 0; anInt5659 > i_607_; i_607_++) {
 						Class72 class72 = aClass72Array5627[i_607_];
 						Class190 class190 = aClass190Array5674[i_607_];
 						class190.anInt2335 = class190.anInt2335 & ~0xffffff | Class85.anIntArray1158[aShortArray5693[class72.anInt975] & 0xffff] & 0xffffff;
 					}
 				}
 			}
-		} else if ((i ^ 0xffffffff) == -9) {
+		} else if (i == 8) {
 			if (anIntArrayArray5615 != null) {
-				for (int i_608_ = 0; (i_608_ ^ 0xffffffff) > (i_531_ ^ 0xffffffff); i_608_++) {
+				for (int i_608_ = 0; i_531_ > i_608_; i_608_++) {
 					int i_609_ = is[i_608_];
 					if (i_609_ < anIntArrayArray5615.length) {
 						int[] is_610_ = anIntArrayArray5615[i_609_];
-						for (int i_611_ = 0; (is_610_.length ^ 0xffffffff) < (i_611_ ^ 0xffffffff); i_611_++) {
+						for (int i_611_ = 0; i_611_ < is_610_.length; i_611_++) {
 							Class190 class190 = aClass190Array5674[is_610_[i_611_]];
 							class190.anInt2329 += i_528_;
 							class190.anInt2337 += i_527_;
@@ -2992,9 +2992,9 @@ public class GLDrawableModel extends DrawableModel
 			}
 		} else if (i == 10) {
 			if (anIntArrayArray5615 != null) {
-				for (int i_612_ = 0; (i_612_ ^ 0xffffffff) > (i_531_ ^ 0xffffffff); i_612_++) {
+				for (int i_612_ = 0; i_531_ > i_612_; i_612_++) {
 					int i_613_ = is[i_612_];
-					if ((i_613_ ^ 0xffffffff) > (anIntArrayArray5615.length ^ 0xffffffff)) {
+					if (anIntArrayArray5615.length > i_613_) {
 						int[] is_614_ = anIntArrayArray5615[i_613_];
 						for (int i_615_ = 0; i_615_ < is_614_.length; i_615_++) {
 							Class190 class190 = aClass190Array5674[is_614_[i_615_]];
@@ -3004,12 +3004,12 @@ public class GLDrawableModel extends DrawableModel
 					}
 				}
 			}
-		} else if ((i ^ 0xffffffff) == -10 && anIntArrayArray5615 != null) {
-			for (int i_616_ = 0; (i_616_ ^ 0xffffffff) > (i_531_ ^ 0xffffffff); i_616_++) {
+		} else if (i == 9 && anIntArrayArray5615 != null) {
+			for (int i_616_ = 0; i_531_ > i_616_; i_616_++) {
 				int i_617_ = is[i_616_];
-				if ((anIntArrayArray5615.length ^ 0xffffffff) < (i_617_ ^ 0xffffffff)) {
+				if (i_617_ < anIntArrayArray5615.length) {
 					int[] is_618_ = anIntArrayArray5615[i_617_];
-					for (int i_619_ = 0; (i_619_ ^ 0xffffffff) > (is_618_.length ^ 0xffffffff); i_619_++) {
+					for (int i_619_ = 0; is_618_.length > i_619_; i_619_++) {
 						Class190 class190 = aClass190Array5674[is_618_[i_619_]];
 						class190.anInt2333 = 0x3fff & class190.anInt2333 + i_527_;
 					}
@@ -3027,25 +3027,25 @@ public class GLDrawableModel extends DrawableModel
 		int i_626_ = i_622_ - -aShort5597;
 		int i_627_ = aShort5589 + i_624_;
 		int i_628_ = aShort5677 + i_624_;
-		if (i != 1 && i != 2 && (i ^ 0xffffffff) != -4 && (i ^ 0xffffffff) != -6 || i_625_ >= 0 && plane.anInt3408 > plane.anInt3398 + i_626_ >> plane.anInt3410 && (i_627_ ^ 0xffffffff) <= -1 && i_628_ + plane.anInt3398 >> plane.anInt3410 < plane.anInt3404) {
-			if ((i ^ 0xffffffff) != -5 && (i ^ 0xffffffff) != -6) {
+		if (i != 1 && i != 2 && i != 3 && i != 5 || i_625_ >= 0 && plane.anInt3408 > plane.anInt3398 + i_626_ >> plane.anInt3410 && i_627_ >= 0 && i_628_ + plane.anInt3398 >> plane.anInt3410 < plane.anInt3404) {
+			if (i != 4 && i != 5) {
 				i_625_ >>= plane.anInt3410;
 				i_626_ = i_626_ + (plane.anInt3398 + -1) >> plane.anInt3410;
 				i_627_ >>= plane.anInt3410;
 				i_628_ = -1 - -plane.anInt3398 + i_628_ >> plane.anInt3410;
-				if (plane.method3251(i_627_, i_625_, (byte) -118) == i_623_ && i_623_ == plane.method3251(i_627_, i_626_, (byte) -118) && (plane.method3251(i_628_, i_625_, (byte) -118) ^ 0xffffffff) == (i_623_ ^ 0xffffffff) && (i_623_ ^ 0xffffffff) == (plane.method3251(i_628_, i_626_, (byte) -118) ^ 0xffffffff)) {
+				if (plane.method3251(i_627_, i_625_, (byte) -118) == i_623_ && i_623_ == plane.method3251(i_627_, i_626_, (byte) -118) && i_623_ == plane.method3251(i_628_, i_625_, (byte) -118) && plane.method3251(i_628_, i_626_, (byte) -118) == i_623_) {
 					return;
 				}
-			} else if (plane_621_ == null || (i_625_ < 0 || plane_621_.anInt3408 <= i_626_ + plane_621_.anInt3398 >> plane_621_.anInt3410 || i_627_ < 0 || (plane_621_.anInt3404 ^ 0xffffffff) >= (plane_621_.anInt3398 + i_628_ >> plane_621_.anInt3410 ^ 0xffffffff))) {
+			} else if (plane_621_ == null || (i_625_ < 0 || plane_621_.anInt3408 <= i_626_ + plane_621_.anInt3398 >> plane_621_.anInt3410 || i_627_ < 0 || plane_621_.anInt3398 + i_628_ >> plane_621_.anInt3410 >= plane_621_.anInt3404)) {
 				return;
 			}
 			if (i != 1) {
 				if (i == 2) {
 					int i_629_ = aShort5600;
-					if ((i_629_ ^ 0xffffffff) == -1) {
+					if (i_629_ == 0) {
 						return;
 					}
-					for (int i_630_ = 0; (anInt5672 ^ 0xffffffff) < (i_630_ ^ 0xffffffff); i_630_++) {
+					for (int i_630_ = 0; i_630_ < anInt5672; i_630_++) {
 						int i_631_ = (anIntArray5588[i_630_] << 16) / i_629_;
 						if (i_631_ < i_620_) {
 							anIntArray5588[i_630_] = anIntArray5588[i_630_] + (-i_623_ + plane.method3260(anIntArray5637[i_630_] - -i_624_, -123, anIntArray5595[i_630_] + i_622_)) * (i_620_ - i_631_) / i_620_;
@@ -3056,11 +3056,11 @@ public class GLDrawableModel extends DrawableModel
 					int i_633_ = 4 * ((i_620_ & 0xff56) >> 8);
 					int i_634_ = (i_620_ >> 16 & 0xff) << 6;
 					int i_635_ = i_620_ >> 24 << 6 & 0x3fc0;
-					if ((-(i_632_ >> 1) + i_622_ ^ 0xffffffff) > -1 || plane.anInt3408 << plane.anInt3410 <= (i_632_ >> 1) + i_622_ + plane.anInt3398 || -(i_633_ >> 1) + i_624_ < 0 || (i_624_ - -(i_633_ >> 1) - -plane.anInt3398 ^ 0xffffffff) <= (plane.anInt3404 << plane.anInt3410 ^ 0xffffffff)) {
+					if (-(i_632_ >> 1) + i_622_ < 0 || plane.anInt3408 << plane.anInt3410 <= (i_632_ >> 1) + i_622_ + plane.anInt3398 || -(i_633_ >> 1) + i_624_ < 0 || plane.anInt3404 << plane.anInt3410 <= i_624_ - -(i_633_ >> 1) - -plane.anInt3398) {
 						return;
 					}
 					this.method628(i_623_, i_634_, i_622_, -7024, i_632_, i_624_, i_633_, plane, i_635_);
-				} else if ((i ^ 0xffffffff) != -5) {
+				} else if (i != 4) {
 					if (i == 5) {
 						int i_636_ = -aShort5600 + aShort5671;
 						for (int i_637_ = 0; i_637_ < anInt5672; i_637_++) {
@@ -3151,13 +3151,13 @@ public class GLDrawableModel extends DrawableModel
 		int i_655_ = anIntArray5633[i_654_];
 		int i_656_ = anIntArray5633[1 + i_654_];
 		int i_657_ = 0;
-		for (int i_658_ = i_655_; (i_656_ ^ 0xffffffff) < (i_658_ ^ 0xffffffff); i_658_++) {
+		for (int i_658_ = i_655_; i_658_ < i_656_; i_658_++) {
 			short s = aShortArray5679[i_658_];
 			if (s == 0) {
 				i_657_ = i_658_;
 				break;
 			}
-			if ((l ^ 0xffffffffffffffffL) == (Class184.aLongArray2197[i_658_] ^ 0xffffffffffffffffL)) {
+			if (Class184.aLongArray2197[i_658_] == l) {
 				return (short) (s + -1);
 			}
 		}
@@ -3181,7 +3181,7 @@ public class GLDrawableModel extends DrawableModel
 		anInt5646++;
 		int i_659_ = Class335.anIntArray4167[i];
 		int i_660_ = Class335.anIntArray4165[i];
-		for (int i_661_ = 0; (anInt5672 ^ 0xffffffff) < (i_661_ ^ 0xffffffff); i_661_++) {
+		for (int i_661_ = 0; i_661_ < anInt5672; i_661_++) {
 			int i_662_ = anIntArray5588[i_661_] * i_660_ - i_659_ * anIntArray5637[i_661_] >> 14;
 			anIntArray5637[i_661_] = i_659_ * anIntArray5588[i_661_] - -(i_660_ * anIntArray5637[i_661_]) >> 14;
 			anIntArray5588[i_661_] = i_662_;
@@ -3203,7 +3203,7 @@ public class GLDrawableModel extends DrawableModel
 			anIntArray5637[i] = -anIntArray5637[i];
 		for (int i = 0; anInt5665 > i; i++)
 			aShortArray5685[i] = (short) -aShortArray5685[i];
-		for (int i = 0; (anInt5709 ^ 0xffffffff) < (i ^ 0xffffffff); i++) {
+		for (int i = 0; i < anInt5709; i++) {
 			short s = aShortArray5622[i];
 			aShortArray5622[i] = aShortArray5706[i];
 			aShortArray5706[i] = s;
@@ -3268,11 +3268,11 @@ public class GLDrawableModel extends DrawableModel
 		d var_d = gltoolkit.aD1543;
 		int[] is = new int[model.anInt2572];
 		anIntArray5633 = new int[1 + model.anInt2573];
-		for (int i_666_ = 0; (model.anInt2572 ^ 0xffffffff) < (i_666_ ^ 0xffffffff); i_666_++) {
+		for (int i_666_ = 0; i_666_ < model.anInt2572; i_666_++) {
 			if (model.aByteArray2594 == null || model.aByteArray2594[i_666_] != 2) {
-				if (model.aShortArray2587 != null && (model.aShortArray2587[i_666_] ^ 0xffffffff) != 0) {
+				if (model.aShortArray2587 != null && model.aShortArray2587[i_666_] != -1) {
 					Class91 class91 = var_d.method10(0xffff & model.aShortArray2587[i_666_], -8217);
-					if (((0x40 & anInt5653 ^ 0xffffffff) == -1 || !class91.aBoolean1223) && class91.aBoolean1205) {
+					if (((0x40 & anInt5653) == 0 || !class91.aBoolean1223) && class91.aBoolean1205) {
 						continue;
 					}
 				}
@@ -3301,7 +3301,7 @@ public class GLDrawableModel extends DrawableModel
 						if (class352.aBoolean4325) {
 							bool_673_ = true;
 						}
-						if ((class352.anInt4330 ^ 0xffffffff) != 0) {
+						if (class352.anInt4330 != -1) {
 							Class91 class91_675_ = var_d.method10(class352.anInt4330, -8217);
 							if (class91_675_.anInt1226 == 2) {
 								aBoolean5599 = true;
@@ -3318,9 +3318,9 @@ public class GLDrawableModel extends DrawableModel
 			int i_676_ = -1;
 			if (model.aShortArray2587 != null) {
 				i_676_ = model.aShortArray2587[i_668_];
-				if ((i_676_ ^ 0xffffffff) != 0) {
+				if (i_676_ != -1) {
 					class91 = var_d.method10(0xffff & i_676_, -8217);
-					if ((0x40 & anInt5653 ^ 0xffffffff) == -1 || !class91.aBoolean1223) {
+					if ((0x40 & anInt5653) == 0 || !class91.aBoolean1223) {
 						i_671_ = class91.aByte1214;
 						i_672_ = class91.aByte1213;
 						if (class91.aByte1211 != 0 || class91.aByte1203 != 0) {
@@ -3346,7 +3346,7 @@ public class GLDrawableModel extends DrawableModel
 			ls[i_667_] = ((long) i_669_ << 32) - -(long) i_670_;
 			aBoolean5599 |= bool_677_;
 			GLDrawableModel gldrawablemodel_678_ = this;
-			gldrawablemodel_678_.aBoolean5670 = gldrawablemodel_678_.aBoolean5670 | (class91 != null && ((class91.aByte1211 ^ 0xffffffff) != -1 || class91.aByte1203 != 0));
+			gldrawablemodel_678_.aBoolean5670 = gldrawablemodel_678_.aBoolean5670 | (class91 != null && (class91.aByte1211 != 0 || class91.aByte1203 != 0));
 		}
 		Node_Sub3.method2170(-28, ls, is);
 		anIntArray5637 = model.anIntArray2574;
@@ -3366,8 +3366,8 @@ public class GLDrawableModel extends DrawableModel
 				Class17 class17 = model.aClass17Array2621[i_679_];
 				Class352 class352 = Class215.method2067(0, class17.anInt279);
 				int i_680_ = -1;
-				for (int i_681_ = 0; (i_681_ ^ 0xffffffff) > (anInt5709 ^ 0xffffffff); i_681_++) {
-					if ((class17.anInt273 ^ 0xffffffff) == (is[i_681_] ^ 0xffffffff)) {
+				for (int i_681_ = 0; anInt5709 > i_681_; i_681_++) {
+					if (is[i_681_] == class17.anInt273) {
 						i_680_ = i_681_;
 						break;
 					}
@@ -3402,7 +3402,7 @@ public class GLDrawableModel extends DrawableModel
 		aFloatArray5650 = new float[i_683_];
 		aByteArray5640 = new byte[i_683_];
 		int i_684_ = 0;
-		for (int i_685_ = 0; (model.anInt2573 ^ 0xffffffff) < (i_685_ ^ 0xffffffff); i_685_++) {
+		for (int i_685_ = 0; i_685_ < model.anInt2573; i_685_++) {
 			int i_686_ = anIntArray5633[i_685_];
 			anIntArray5633[i_685_] = i_684_;
 			i_684_ += i_686_;
@@ -3424,7 +3424,7 @@ public class GLDrawableModel extends DrawableModel
 			int i_696_ = -(i_692_ * i_694_) + i_695_ * i_691_;
 			int i_697_ = -(i_695_ * i_690_) + i_693_ * i_692_;
 			int i_698_;
-			for (i_698_ = -(i_691_ * i_693_) + i_690_ * i_694_; (i_696_ ^ 0xffffffff) < -8193 || (i_697_ ^ 0xffffffff) < -8193 || i_698_ > 8192 || i_696_ < -8192 || i_697_ < -8192 || (i_698_ ^ 0xffffffff) > 8191; i_698_ >>= 1) {
+			for (i_698_ = -(i_691_ * i_693_) + i_690_ * i_694_; i_696_ > 8192 || i_697_ > 8192 || i_698_ > 8192 || i_696_ < -8192 || i_697_ < -8192 || i_698_ < -8192; i_698_ >>= 1) {
 				i_697_ >>= 1;
 				i_696_ >>= 1;
 			}
@@ -3452,7 +3452,7 @@ public class GLDrawableModel extends DrawableModel
 				class152.anInt1934++;
 				class152.anInt1936 += i_697_;
 				class152.anInt1935 += i_698_;
-			} else if ((b ^ 0xffffffff) == -2) {
+			} else if (b == 1) {
 				Class132 class132 = class132s[i_687_] = new Class132();
 				class132.anInt1679 = i_696_;
 				class132.anInt1674 = i_697_;
@@ -3475,7 +3475,7 @@ public class GLDrawableModel extends DrawableModel
 				i_704_ = 0;
 			}
 			short s = model.aShortArray2587 != null ? model.aShortArray2587[i_701_] : (short) -1;
-			if ((s ^ 0xffffffff) != 0 && (anInt5653 & 0x40) != 0) {
+			if (s != -1 && (anInt5653 & 0x40) != 0) {
 				Class91 class91 = var_d.method10(0xffff & s, -8217);
 				if (class91.aBoolean1223) {
 					s = (short) -1;
@@ -3490,8 +3490,8 @@ public class GLDrawableModel extends DrawableModel
 			int i_710_ = 0;
 			int i_711_ = 0;
 			int i_712_ = 0;
-			if ((s ^ 0xffffffff) != 0) {
-				if ((i_703_ ^ 0xffffffff) == 0) {
+			if (s != -1) {
+				if (i_703_ == -1) {
 					f_706_ = 1.0F;
 					i_710_ = 1;
 					f_709_ = 0.0F;
@@ -3693,10 +3693,10 @@ public class GLDrawableModel extends DrawableModel
 			} else {
 				b = model.aByteArray2594[i_701_];
 			}
-			if ((b ^ 0xffffffff) != -1) {
+			if (b != 0) {
 				if (b == 1) {
 					Class132 class132 = class132s[i_701_];
-					long l = ((long) (i_702_ << 8) + ((long) (i_712_ << 24) + (long) i_704_) << 32) + (long) ((256 + class132.anInt1674 << 12) + ((i_703_ << 2) - (-((class132.anInt1679 ^ 0xffffffff) >= -1 ? 2048 : 1024) + -(256 + class132.anInt1683 << 22))));
+					long l = ((long) (i_702_ << 8) + ((long) (i_712_ << 24) + (long) i_704_) << 32) + (long) ((256 + class132.anInt1674 << 12) + ((i_703_ << 2) - (-(class132.anInt1679 <= 0 ? 2048 : 1024) + -(256 + class132.anInt1683 << 22))));
 					aShortArray5622[i_700_] = method651(l, class132.anInt1679, f, f_705_, 13, class132.anInt1674, 0, model, class132.anInt1683, model.aShortArray2600[i_701_]);
 					aShortArray5683[i_700_] = method651((long) i_710_ + l, class132.anInt1679, f_706_, f_707_, 13, class132.anInt1674, 0, model, class132.anInt1683, model.aShortArray2583[i_701_]);
 					aShortArray5706[i_700_] = method651(l + (long) i_711_, class132.anInt1679, f_708_, f_709_, 13, class132.anInt1674, 0, model, class132.anInt1683, model.aShortArray2589[i_701_]);
@@ -3724,7 +3724,7 @@ public class GLDrawableModel extends DrawableModel
 		}
 		int i_774_ = 0;
 		short s = -10000;
-		for (int i_775_ = 0; (i_775_ ^ 0xffffffff) > (anInt5616 ^ 0xffffffff); i_775_++) {
+		for (int i_775_ = 0; anInt5616 > i_775_; i_775_++) {
 			short s_776_ = aShortArray5699[i_775_];
 			if (s != s_776_) {
 				i_774_++;
@@ -3734,9 +3734,9 @@ public class GLDrawableModel extends DrawableModel
 		anIntArray5687 = new int[1 + i_774_];
 		s = (short) -10000;
 		i_774_ = 0;
-		for (int i_777_ = 0; (anInt5616 ^ 0xffffffff) < (i_777_ ^ 0xffffffff); i_777_++) {
+		for (int i_777_ = 0; i_777_ < anInt5616; i_777_++) {
 			short s_778_ = aShortArray5699[i_777_];
-			if ((s ^ 0xffffffff) != (s_778_ ^ 0xffffffff)) {
+			if (s_778_ != s) {
 				s = s_778_;
 				anIntArray5687[i_774_++] = i_777_;
 			}
@@ -3761,14 +3761,14 @@ public class GLDrawableModel extends DrawableModel
 			for (int i_781_ = 0; anInt5709 > i_781_; i_781_++) {
 				int i_782_ = model.anIntArray2602[is[i_781_]];
 				if (i_782_ >= 0) {
-					if ((i_782_ ^ 0xffffffff) < (i_779_ ^ 0xffffffff)) {
+					if (i_779_ < i_782_) {
 						i_779_ = i_782_;
 					}
 					is_780_[i_782_]++;
 				}
 			}
 			anIntArrayArray5591 = new int[i_779_ - -1][];
-			for (int i_783_ = 0; (i_783_ ^ 0xffffffff) >= (i_779_ ^ 0xffffffff); i_783_++) {
+			for (int i_783_ = 0; i_779_ >= i_783_; i_783_++) {
 				anIntArrayArray5591[i_783_] = new int[is_780_[i_783_]];
 				is_780_[i_783_] = 0;
 			}

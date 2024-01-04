@@ -33,7 +33,7 @@ public class Class351
 		}
 		for (int i_2_ = 0; i_2_ < 2; i_2_++) {
 			for (int i_3_ = 0; strings_1_.length > i_3_; i_3_++) {
-				for (int i_4_ = 0; (strings.length ^ 0xffffffff) < (i_4_ ^ 0xffffffff); i_4_++) {
+				for (int i_4_ = 0; i_4_ < strings.length; i_4_++) {
 					String string_5_ = strings[i_4_] + strings_1_[i_3_] + "/" + (string == null ? "" : string + "/") + string_0_;
 					RandomAccessFile randomaccessfile = null;
 					try {

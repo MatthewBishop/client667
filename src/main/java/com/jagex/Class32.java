@@ -61,7 +61,7 @@ public class Class32
 		if (i_5_ == 0) {
 			return i_4_;
 		}
-		if ((i_5_ ^ 0xffffffff) == -2) {
+		if (i_5_ == 1) {
 			return i_1_;
 		}
 		if (i_5_ == 2) {
@@ -99,13 +99,13 @@ public class Class32
 		cachenode_sub9.anInt9511 = buffer.method2219(-130546744);
 		cachenode_sub9.anInt9512 = buffer.method2219(-130546744);
 		int i_11_ = buffer.method2233(255);
-		if ((i_11_ ^ 0xffffffff) < -1) {
+		if (i_11_ > 0) {
 			cachenode_sub9.aHashTableArray9503 = new HashTable[i_11_];
 			for (int i_12_ = 0; i_11_ > i_12_; i_12_++) {
 				int i_13_ = buffer.method2219(-130546744);
 				HashTable hashtable = new HashTable(Class320_Sub19.method3753(i_13_, -729073628));
 				cachenode_sub9.aHashTableArray9503[i_12_] = hashtable;
-				while ((i_13_-- ^ 0xffffffff) < -1) {
+				while (i_13_-- > 0) {
 					int i_14_ = buffer.method2186(66);
 					int i_15_ = buffer.method2186(-64);
 					hashtable.method1515((long) i_14_, new Node_Sub32(i_15_), -128);
@@ -118,16 +118,16 @@ public class Class32
 		int i_16_ = 0;
 		while (buffer.anInt7002 < i_9_) {
 			int i_17_ = buffer.method2219(-130546744);
-			if ((i_17_ ^ 0xffffffff) == -4) {
+			if (i_17_ == 3) {
 				if (cachenode_sub9.aStringArray9504 == null) {
 					cachenode_sub9.aStringArray9504 = new String[i_10_];
 				}
 				cachenode_sub9.aStringArray9504[i_16_] = buffer.method2195(-1).intern();
-			} else if ((i_17_ ^ 0xffffffff) != -55) {
+			} else if (i_17_ != 54) {
 				if (cachenode_sub9.anIntArray9508 == null) {
 					cachenode_sub9.anIntArray9508 = new int[i_10_];
 				}
-				if ((i_17_ ^ 0xffffffff) > -151 && i_17_ != 21 && i_17_ != 38 && i_17_ != 39) {
+				if (i_17_ < 150 && i_17_ != 21 && i_17_ != 38 && i_17_ != 39) {
 					cachenode_sub9.anIntArray9508[i_16_] = buffer.method2186(-106);
 				} else {
 					cachenode_sub9.anIntArray9508[i_16_] = buffer.method2233(255);

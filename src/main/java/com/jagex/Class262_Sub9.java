@@ -52,20 +52,20 @@ public class Class262_Sub9 extends Class262
 			anInt7758 = -1;
 			anInt7764 = -1;
 		}
-		if ((0x2 & i ^ 0xffffffff) != -1) {
+		if ((0x2 & i) != 0) {
 			anInt7762 = buffer.method2219(-130546744);
 			anInt7766 = buffer.method2219(-130546744);
 		} else {
 			anInt7766 = -1;
 			anInt7762 = -1;
 		}
-		if ((0x4 & i ^ 0xffffffff) == -1) {
+		if ((0x4 & i) == 0) {
 			anInt7761 = -1;
 		} else {
 			int i_4_ = buffer.method2219(-130546744);
 			int i_5_ = buffer.method2219(-130546744);
 			int i_6_ = i_4_ * 255 / i_5_;
-			if ((i_4_ ^ 0xffffffff) < -1 && (i_6_ ^ 0xffffffff) > -2) {
+			if (i_4_ > 0 && i_6_ < 1) {
 				i_6_ = 1;
 			}
 			anInt7761 = i_6_;

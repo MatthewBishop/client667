@@ -18,8 +18,8 @@ public class Class250
 	
 	final int[] method3091(int i, byte b) {
 		anInt3174++;
-		if (i < 0 || (anIntArrayArray3172.length ^ 0xffffffff) >= (i ^ 0xffffffff)) {
-			if ((anInt3178 ^ 0xffffffff) != 0) {
+		if (i < 0 || i >= anIntArrayArray3172.length) {
+			if (anInt3178 != -1) {
 				return new int[] { anInt3178 };
 			}
 			return new int[0];
@@ -76,7 +76,7 @@ public class Class250
 	static final Class329 method3095(int i, int i_4_) {
 		anInt3169++;
 		Class329[] class329s = Class154.method1698(54);
-		for (int i_5_ = i_4_; (i_5_ ^ 0xffffffff) > (class329s.length ^ 0xffffffff); i_5_++) {
+		for (int i_5_ = i_4_; class329s.length > i_5_; i_5_++) {
 			Class329 class329 = class329s[i_5_];
 			if (class329.anInt4123 == i) {
 				return class329;
@@ -90,7 +90,7 @@ public class Class250
 			return false;
 		}
 		anInt3171++;
-		if (i != 0 && (i ^ 0xffffffff) != -3) {
+		if (i != 0 && i != 2) {
 			return false;
 		}
 		return true;
@@ -106,7 +106,7 @@ public class Class250
 			Class170[] class170s = Class262_Sub13.method3184(0);
 			boolean bool = true;
 			if (i_8_ == class170s.length) {
-				for (int i_9_ = 0; (i_9_ ^ 0xffffffff) > (class170s.length ^ 0xffffffff); i_9_++) {
+				for (int i_9_ = 0; class170s.length > i_9_; i_9_++) {
 					int i_10_ = buffer.method2233(255);
 					if (i_10_ != class170s[i_9_].anInt2047) {
 						bool = false;
@@ -128,7 +128,7 @@ public class Class250
 				aBooleanArray3173 = new boolean[i_12_ + 1];
 				for (int i_13_ = 0; i_11_ > i_13_; i_13_++) {
 					int i_14_ = buffer.method2233(255);
-					aBooleanArray3173[i_14_] = (buffer.method2233(255) ^ 0xffffffff) == -2;
+					aBooleanArray3173[i_14_] = buffer.method2233(255) == 1;
 					int i_15_ = buffer.method2219(-130546744);
 					if (anInt3178 != -1) {
 						anIntArrayArray3172[i_14_] = new int[1 + i_15_];
@@ -137,13 +137,13 @@ public class Class250
 							anIntArrayArray3172[i_14_][1 + i_16_] = buffer.method2219(-130546744);
 					} else {
 						anIntArrayArray3172[i_14_] = new int[i_15_];
-						for (int i_17_ = 0; (i_15_ ^ 0xffffffff) < (i_17_ ^ 0xffffffff); i_17_++)
+						for (int i_17_ = 0; i_17_ < i_15_; i_17_++)
 							anIntArrayArray3172[i_14_][i_17_] = buffer.method2219(-130546744);
 					}
 				}
 				for (int i_18_ = 0; i_18_ < i_12_ + 1; i_18_++) {
 					if (anIntArrayArray3172[i_18_] == null) {
-						if ((anInt3178 ^ 0xffffffff) == 0) {
+						if (anInt3178 == -1) {
 							anIntArrayArray3172[i_18_] = new int[0];
 						} else {
 							anIntArrayArray3172[i_18_] = new int[] { anInt3178 };

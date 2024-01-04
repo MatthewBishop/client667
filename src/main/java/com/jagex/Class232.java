@@ -54,7 +54,7 @@ public class Class232
 		} else {
 			bs_1_ = bs;
 		}
-		if ((bs_1_.length ^ 0xffffffff) != -66) {
+		if (bs_1_.length != 65) {
 			throw new RuntimeException();
 		}
 		byte[] bs_3_ = GLXToolkit.method1399((byte) 125, buffer.aByteArray7019, -bs.length + buffer.anInt7002 - 5, 5);
@@ -84,7 +84,7 @@ public class Class232
 		if (aBuffer2775 == null) {
 			throw new RuntimeException();
 		}
-		if ((i ^ 0xffffffff) > -1 || i >= aClass34_Sub1Array2777.length) {
+		if (i < 0 || i >= aClass34_Sub1Array2777.length) {
 			throw new RuntimeException();
 		}
 		if (aClass34_Sub1Array2777[i] != null) {
@@ -111,12 +111,12 @@ public class Class232
 	final void method2140(int i) {
 		anInt2776++;
 		if (aClass34_Sub1Array2777 != null) {
-			for (int i_10_ = 0; (i_10_ ^ 0xffffffff) > (aClass34_Sub1Array2777.length ^ 0xffffffff); i_10_++) {
+			for (int i_10_ = 0; aClass34_Sub1Array2777.length > i_10_; i_10_++) {
 				if (aClass34_Sub1Array2777[i_10_] != null) {
 					aClass34_Sub1Array2777[i_10_].method385(false);
 				}
 			}
-			for (int i_11_ = i; (aClass34_Sub1Array2777.length ^ 0xffffffff) < (i_11_ ^ 0xffffffff); i_11_++) {
+			for (int i_11_ = i; i_11_ < aClass34_Sub1Array2777.length; i_11_++) {
 				if (aClass34_Sub1Array2777[i_11_] != null) {
 					aClass34_Sub1Array2777[i_11_].method380(0);
 				}

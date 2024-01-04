@@ -12,7 +12,7 @@ public class CacheNode_Sub8 extends CacheNode
 		anInt9492++;
 		if (b == 124) {
 			int i_4_ = i_3_ * i_3_ + i * i;
-			if (((long) i_4_ ^ 0xffffffffffffffffL) >= (l ^ 0xffffffffffffffffL)) {
+			if (l >= (long) i_4_) {
 				int i_5_ = Math.min(widget.anInt4809 / 2, widget.anInt4695 / 2);
 				if (i_4_ <= i_5_ * i_5_) {
 					Class4.method171((byte) -116, i_2_, var_aa, Class101.aGLSpriteArray1301[i_1_], i_3_, i, widget, i_0_);
@@ -26,7 +26,7 @@ public class CacheNode_Sub8 extends CacheNode
 					}
 					int i_7_ = Class335.anIntArray4167[i_6_];
 					int i_8_ = Class335.anIntArray4165[i_6_];
-					if ((Class320_Sub22.anInt8415 ^ 0xffffffff) != -5) {
+					if (Class320_Sub22.anInt8415 != 4) {
 						i_8_ = i_8_ * 256 / (Node_Sub15_Sub13.anInt9870 + 256);
 						i_7_ = 256 * i_7_ / (256 + Node_Sub15_Sub13.anInt9870);
 					}

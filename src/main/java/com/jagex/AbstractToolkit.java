@@ -352,7 +352,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		if (i != 5) {
 			method1319(null, null, -18);
 		}
-		for (int i_0_ = -1 + anInt6370; (i_0_ ^ 0xffffffff) <= -1; i_0_--) {
+		for (int i_0_ = -1 + anInt6370; i_0_ >= 0; i_0_--) {
 			method1362(255, i_0_);
 			method1263(false);
 			method1254(true);
@@ -445,15 +445,15 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	final void T(int i, int i_14_, int i_15_, int i_16_) {
 		anInt6168++;
 		boolean bool = false;
-		if ((anInt6295 ^ 0xffffffff) > (i ^ 0xffffffff)) {
+		if (i > anInt6295) {
 			anInt6295 = i;
 			bool = true;
 		}
-		if ((anInt6294 ^ 0xffffffff) < (i_15_ ^ 0xffffffff)) {
+		if (i_15_ < anInt6294) {
 			anInt6294 = i_15_;
 			bool = true;
 		}
-		if ((anInt6325 ^ 0xffffffff) > (i_14_ ^ 0xffffffff)) {
+		if (i_14_ > anInt6325) {
 			bool = true;
 			anInt6325 = i_14_;
 		}
@@ -677,7 +677,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		if (!aBoolean6326) {
 			float[] fs = aFloatArray6316;
 			aBoolean6326 = true;
-			if (anInt6239 != 0 && (anInt6124 ^ 0xffffffff) != -1) {
+			if (anInt6239 != 0 && anInt6124 != 0) {
 				fs[6] = 0.0F;
 				fs[2] = 0.0F;
 				fs[10] = 0.5F;
@@ -745,7 +745,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		float f_66_ = 0.0F;
 		float f_67_ = f_63_;
 		float f_68_ = f_64_;
-		if ((i_58_ ^ 0xffffffff) <= (i_60_ ^ 0xffffffff)) {
+		if (i_60_ <= i_58_) {
 			f_68_ = (float) (i_58_ - i_60_) * f_61_;
 			f_67_ = f * (float) (i_58_ + -i_60_);
 		} else {
@@ -757,7 +757,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		float f_71_ = (float) i_59_ * f;
 		float f_72_ = f_61_ * (float) i_59_;
 		for (;;) {
-			if ((i_54_ ^ 0xffffffff) < (i ^ 0xffffffff)) {
+			if (i < i_54_) {
 				if ((float) i_54_ < f_69_) {
 					break;
 				}
@@ -939,7 +939,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		if (i != 0) {
 			p();
 		}
-		if ((anInt6334 ^ 0xffffffff) != -9) {
+		if (anInt6334 != 8) {
 			method1368((byte) -118);
 			method1371(true, false);
 			method1347(1, true);
@@ -1050,9 +1050,9 @@ abstract class AbstractToolkit extends GraphicsToolkit
 			boolean bool;
 			Class26 class26;
 			boolean bool_95_;
-			if ((i ^ 0xffffffff) != -2) {
+			if (i != 1) {
 				if (i != 2) {
-					if ((i ^ 0xffffffff) != -129) {
+					if (i != 128) {
 						class26 = Class231.aClass26_2750;
 						bool = false;
 						bool_95_ = false;
@@ -1093,12 +1093,12 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	}
 	
 	final void method1278(byte b, int i) {
-		if ((i ^ 0xffffffff) == -2) {
+		if (i == 1) {
 			method1318(-30, Class117_Sub1.aClass94_4924, Class117_Sub1.aClass94_4924);
 		} else if (i != 0) {
-			if ((i ^ 0xffffffff) != -3) {
-				if ((i ^ 0xffffffff) != -4) {
-					if ((i ^ 0xffffffff) == -5) {
+			if (i != 2) {
+				if (i != 3) {
+					if (i == 4) {
 						method1318(-30, GameStub.aClass94_11, GameStub.aClass94_11);
 					}
 				} else {
@@ -1270,7 +1270,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	
 	final void L(int i, int i_111_, int i_112_) {
 		anInt6120++;
-		if ((anInt6276 ^ 0xffffffff) != (i ^ 0xffffffff) || anInt6355 != i_111_ || (i_112_ ^ 0xffffffff) != (anInt6372 ^ 0xffffffff)) {
+		if (i != anInt6276 || anInt6355 != i_111_ || anInt6372 != i_112_) {
 			anInt6276 = i;
 			anInt6355 = i_111_;
 			anInt6372 = i_112_;
@@ -1417,7 +1417,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	final GLSprite a(Class383 class383, boolean bool) {
 		anInt6076++;
 		GLSprite glsprite;
-		if ((class383.anInt4897 ^ 0xffffffff) != -1 && class383.anInt4900 != 0) {
+		if (class383.anInt4897 != 0 && class383.anInt4900 != 0) {
 			int[] is = new int[class383.anInt4897 * class383.anInt4900];
 			int i = 0;
 			int i_129_ = 0;
@@ -1429,10 +1429,10 @@ abstract class AbstractToolkit extends GraphicsToolkit
 					}
 				}
 			} else {
-				for (int i_132_ = 0; (i_132_ ^ 0xffffffff) > (class383.anInt4900 ^ 0xffffffff); i_132_++) {
+				for (int i_132_ = 0; class383.anInt4900 > i_132_; i_132_++) {
 					for (int i_133_ = 0; i_133_ < class383.anInt4897; i_133_++) {
 						int i_134_ = class383.anIntArray4904[class383.aByteArray4903[i++] & 0xff];
-						is[i_129_++] = (i_134_ ^ 0xffffffff) == -1 ? 0 : Node_Sub16.method2590(i_134_, -16777216);
+						is[i_129_++] = i_134_ == 0 ? 0 : Node_Sub16.method2590(i_134_, -16777216);
 					}
 				}
 			}
@@ -1449,7 +1449,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 			aFloat6302 = -1.5301926F;
 		}
 		anInt6252++;
-		if ((2 * i_135_ ^ 0xffffffff) < (anInterface15_Impl1_6381.method57((byte) -126) ^ 0xffffffff)) {
+		if (anInterface15_Impl1_6381.method57((byte) -126) < 2 * i_135_) {
 			anInterface15_Impl1_6381.method56(-1696, i_135_);
 		}
 		return anInterface15_Impl1_6381;
@@ -1484,7 +1484,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		anInt6099++;
 		anInterface15_Impl2_6375 = method1380(2, false);
 		anInterface15_Impl2_6375.method37(28, 140, -12093);
-		for (int i_136_ = 0; (i_136_ ^ 0xffffffff) > -5; i_136_++) {
+		for (int i_136_ = 0; i_136_ < 4; i_136_++) {
 			jaclib.memory.Buffer buffer = anInterface15_Impl2_6375.method40(113, true);
 			if (buffer != null) {
 				Stream stream = method1324(true, buffer);
@@ -1757,19 +1757,19 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		bool &= z();
 		anInt6148++;
 		if (b < -30) {
-			if (!bool && ((i ^ 0xffffffff) == -5 || (i ^ 0xffffffff) == -9 || i == 9)) {
+			if (!bool && (i == 4 || i == 8 || i == 9)) {
 				i = 2;
-				i_148_ = (i ^ 0xffffffff) != -5 ? 1 : i_147_ & 0x1;
+				i_148_ = i != 4 ? 1 : i_147_ & 0x1;
 				i_147_ = 0;
 			}
-			if ((i ^ 0xffffffff) != -1 && bool_149_) {
+			if (i != 0 && bool_149_) {
 				i |= ~0x7fffffff;
 			}
-			if ((i ^ 0xffffffff) != (anInt6354 ^ 0xffffffff)) {
-				if ((anInt6354 ^ 0xffffffff) != -1) {
+			if (anInt6354 != i) {
+				if (anInt6354 != 0) {
 					aClass290Array6369[0x7fffffff & anInt6354].method3411(-8668);
 				}
-				if ((i ^ 0xffffffff) == -1) {
+				if (i == 0) {
 					aClass290_6281 = null;
 				} else {
 					aClass290_6281 = aClass290Array6369[i & 0x7fffffff];
@@ -1780,9 +1780,9 @@ abstract class AbstractToolkit extends GraphicsToolkit
 				anInt6349 = i_147_;
 				anInt6291 = i_148_;
 				anInt6354 = i;
-			} else if ((anInt6354 ^ 0xffffffff) != -1) {
+			} else if (anInt6354 != 0) {
 				aClass290Array6369[anInt6354 & 0x7fffffff].method3417(bool_149_, false);
-				if ((anInt6349 ^ 0xffffffff) != (i_147_ ^ 0xffffffff) || anInt6291 != i_148_) {
+				if (i_147_ != anInt6349 || anInt6291 != i_148_) {
 					aClass290Array6369[0x7fffffff & anInt6354].method3415(true, i_147_, i_148_);
 					anInt6291 = i_148_;
 					anInt6349 = i_147_;
@@ -1793,7 +1793,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	
 	final void j(int i) {
 		anInt6196++;
-		if ((i ^ 0xffffffff) != -2) {
+		if (i != 1) {
 			throw new IllegalArgumentException("");
 		}
 	}
@@ -1816,12 +1816,12 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	
 	final void KA(int i, int i_150_, int i_151_, int i_152_) {
 		anInt6245++;
-		if (i <= 0 && (-1 + anInt6239 ^ 0xffffffff) >= (i_151_ ^ 0xffffffff) && (i_150_ ^ 0xffffffff) >= -1 && -1 + anInt6124 <= i_152_) {
+		if (i <= 0 && i_151_ >= -1 + anInt6239 && i_150_ <= 0 && -1 + anInt6124 <= i_152_) {
 			la();
 		} else {
-			anInt6294 = (anInt6239 ^ 0xffffffff) <= (i_151_ ^ 0xffffffff) ? i_151_ : 0;
-			anInt6295 = (i ^ 0xffffffff) > -1 ? 0 : i;
-			anInt6325 = (i_150_ ^ 0xffffffff) > -1 ? 0 : i_150_;
+			anInt6294 = i_151_ <= anInt6239 ? i_151_ : 0;
+			anInt6295 = i < 0 ? 0 : i;
+			anInt6325 = i_150_ < 0 ? 0 : i_150_;
 			anInt6333 = anInt6239 < i_152_ ? 0 : i_152_;
 			if (!aBoolean6387) {
 				aBoolean6387 = true;
@@ -2103,10 +2103,10 @@ abstract class AbstractToolkit extends GraphicsToolkit
 			byte b = 0;
 			int i_199_ = 0;
 			byte b_200_ = !aBoolean6288 ? (byte) 0 : (byte) 3;
-			if ((i_196_ ^ 0xffffffff) <= -1) {
+			if (i_196_ >= 0) {
 				interface13_impl1 = aClass307_6290.method3581((byte) -45, i_196_);
 				Class91 class91 = aD1543.method10(i_196_, -8217);
-				if ((class91.aByte1211 ^ 0xffffffff) == -1 && (class91.aByte1203 ^ 0xffffffff) == -1) {
+				if (class91.aByte1211 == 0 && class91.aByte1203 == 0) {
 					method1255((byte) -12);
 				} else {
 					int i_201_ = class91.aBoolean1204 ? 64 : 128;
@@ -2160,7 +2160,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	
 	final void method1335(boolean bool) {
 		anInt6240++;
-		if ((anInt6334 ^ 0xffffffff) != -17) {
+		if (anInt6334 != 16) {
 			method1281(-116);
 			method1371(true, !bool);
 			method1347(1, true);
@@ -2207,7 +2207,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	final void X(int i) {
 		anInt6105++;
 		anInt6350 = 0;
-		for (/**/; (i ^ 0xffffffff) < -2; i >>= 1)
+		for (/**/; i > 1; i >>= 1)
 			anInt6350++;
 		anInt6320 = 1 << anInt6350;
 	}
@@ -2588,7 +2588,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		aClass336_Sub1Array6327 = new Class336_Sub1[anInt6370];
 		anInt6179++;
 		anInterface13Array6309 = new Interface13[anInt6370];
-		for (int i_244_ = 0; (i_244_ ^ 0xffffffff) > (anInt6370 ^ 0xffffffff); i_244_++) {
+		for (int i_244_ = 0; anInt6370 > i_244_; i_244_++) {
 			aClass94Array6296[i_244_] = Class116.aClass94_5075;
 			aClass94Array6351[i_244_] = Class116.aClass94_5075;
 			aClass346Array6343[i_244_] = Class119.aClass346_1515;
@@ -2669,7 +2669,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	}
 	
 	final void method1362(int i, int i_247_) {
-		if ((i_247_ ^ 0xffffffff) != (anInt6284 ^ 0xffffffff)) {
+		if (anInt6284 != i_247_) {
 			anInt6284 = i_247_;
 			method1309(i + -362);
 		}
@@ -2784,7 +2784,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		if (i != 1) {
 			method1305(true);
 		}
-		if ((anInt6334 ^ 0xffffffff) != -2) {
+		if (anInt6334 != 1) {
 			method1331(127);
 			method1371(false, false);
 			method1296(126, false);
@@ -2929,7 +2929,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	
 	final void f(int i) {
 		anInt6254++;
-		if ((i ^ 0xffffffff) > -129 || i > 1024) {
+		if (i < 128 || i > 1024) {
 			throw new IllegalArgumentException();
 		}
 		if (aClass307_6290 != null) {

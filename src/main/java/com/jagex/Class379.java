@@ -30,7 +30,7 @@ public class Class379
 	
 	final int method4160(int i, int i_0_, int i_1_) {
 		anInt4870++;
-		int i_2_ = (Class360.anInt4480 ^ 0xffffffff) < (i_0_ ^ 0xffffffff) ? Class360.anInt4480 : i_0_;
+		int i_2_ = i_0_ < Class360.anInt4480 ? Class360.anInt4480 : i_0_;
 		if (Class294.aClass379_3689 == this) {
 			return 0;
 		}
@@ -71,10 +71,10 @@ public class Class379
 				int i_4_ = string.charAt(1 + i_3_);
 				boolean bool = false;
 				int i_5_;
-				if ((i_4_ ^ 0xffffffff) <= -49 && (i_4_ ^ 0xffffffff) >= -58) {
+				if (i_4_ >= 48 && i_4_ <= 57) {
 					i_5_ = i_4_ - 48;
-				} else if (i_4_ < 97 || (i_4_ ^ 0xffffffff) < -103) {
-					if ((i_4_ ^ 0xffffffff) > -66 || (i_4_ ^ 0xffffffff) < -71) {
+				} else if (i_4_ < 97 || i_4_ > 102) {
+					if (i_4_ < 65 || i_4_ > 70) {
 						stringbuffer.append('%');
 						continue;
 					}
@@ -84,9 +84,9 @@ public class Class379
 				}
 				i_4_ = string.charAt(i_3_ - -2);
 				i_5_ *= 16;
-				if ((i_4_ ^ 0xffffffff) > -49 || i_4_ > 57) {
+				if (i_4_ < 48 || i_4_ > 57) {
 					if (i_4_ < 97 || i_4_ > 102) {
-						if ((i_4_ ^ 0xffffffff) <= -66 && i_4_ <= 70) {
+						if (i_4_ >= 65 && i_4_ <= 70) {
 							i_5_ += 10 - (-i_4_ - -65);
 						} else {
 							stringbuffer.append('%');
@@ -99,7 +99,7 @@ public class Class379
 					i_5_ += -48 + i_4_;
 				}
 				i_3_ += 2;
-				if ((i_5_ ^ 0xffffffff) != -1 && IOException_Sub1.method131(true, (byte) i_5_)) {
+				if (i_5_ != 0 && IOException_Sub1.method131(true, (byte) i_5_)) {
 					stringbuffer.append(Class20_Sub1.method294((byte) i_5_, (byte) 119));
 				}
 			}

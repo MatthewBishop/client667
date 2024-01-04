@@ -19,9 +19,9 @@ public class Callback_Sub1 extends Callback
 			int i_3_ = User32.GetWindowLong(i, -4);
 			return User32.CallWindowProc(i_3_, i, i_0_, i_1_, i_2_);
 		}
-		if ((i_0_ ^ 0xffffffff) == -33) {
+		if (i_0_ == 32) {
 			int i_4_ = i_2_ & 0xffff;
-			if ((i_4_ ^ 0xffffffff) == -2) {
+			if (i_4_ == 1) {
 				User32.SetCursor(aBoolean3 ? anInt4 : 0);
 				return 0;
 			}
@@ -30,7 +30,7 @@ public class Callback_Sub1 extends Callback
 			User32.SetCursor(aBoolean3 ? anInt4 : 0);
 			return 0;
 		}
-		if ((i_0_ ^ 0xffffffff) == -2) {
+		if (i_0_ == 1) {
 			anInt2 = 0;
 			aBoolean3 = true;
 		}

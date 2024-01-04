@@ -27,7 +27,7 @@ abstract class GraphicsBuffer extends Node
 			return true;
 		}
 		anInt7141++;
-		if ((i_8_ & 0x800 ^ 0xffffffff) == -1 || (i_9_ & 0x37) == 0) {
+		if ((i_8_ & 0x800) == 0 || (i_9_ & 0x37) == 0) {
 			return false;
 		}
 		return true;

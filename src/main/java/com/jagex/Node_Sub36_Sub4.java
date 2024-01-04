@@ -23,8 +23,8 @@ public class Node_Sub36_Sub4 extends Node_Sub36
 	while_226_:
 		do {
 			do {
-				if ((i_0_ ^ 0xffffffff) != -1) {
-					if ((i_0_ ^ 0xffffffff) != -2) {
+				if (i_0_ != 0) {
+					if (i_0_ != 1) {
 						if (i_0_ == 2) {
 							break;
 						}

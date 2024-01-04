@@ -141,8 +141,8 @@ public class Class339_Sub1 extends Class339
 			byte[][] bs_3_ = new byte[6][4096];
 			byte[][] bs_4_ = new byte[6][4096];
 			int i_5_ = 0;
-			for (int i_6_ = 0; (i_6_ ^ 0xffffffff) > -65; i_6_++) {
-				for (int i_7_ = 0; (i_7_ ^ 0xffffffff) > -65; i_7_++) {
+			for (int i_6_ = 0; i_6_ < 64; i_6_++) {
+				for (int i_7_ = 0; i_7_ < 64; i_7_++) {
 					float f = (float) i_6_ * 2.0F / 64.0F - 1.0F;
 					float f_8_ = -1.0F + (float) i_7_ * 2.0F / 64.0F;
 					float f_9_ = (float) (1.0 / Math.sqrt((double) (f_8_ * f_8_ + 1.0F + f * f)));
@@ -150,10 +150,10 @@ public class Class339_Sub1 extends Class339
 					f_8_ *= f_9_;
 					for (int i_10_ = 0; i_10_ < 6; i_10_++) {
 						float f_11_;
-						if ((i_10_ ^ 0xffffffff) != -1) {
+						if (i_10_ != 0) {
 							if (i_10_ != 1) {
 								if (i_10_ != 2) {
-									if ((i_10_ ^ 0xffffffff) == -4) {
+									if (i_10_ == 3) {
 										f_11_ = -f;
 									} else if (i_10_ == 4) {
 										f_11_ = f_9_;

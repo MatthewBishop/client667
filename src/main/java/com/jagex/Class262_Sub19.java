@@ -14,7 +14,7 @@ public class Class262_Sub19 extends Class262
 		anInt7857++;
 		Node_Sub19 node_sub19 = null;
 		for (Node_Sub19 node_sub19_6_ = (Node_Sub19) Class89.aClass312_1199.method3613(65280); node_sub19_6_ != null; node_sub19_6_ = (Node_Sub19) Class89.aClass312_1199.method3620(16776960)) {
-			if (i_3_ == node_sub19_6_.anInt7165 && node_sub19_6_.anInt7171 == i_2_ && i_5_ == node_sub19_6_.anInt7161 && (node_sub19_6_.anInt7166 ^ 0xffffffff) == (i_1_ ^ 0xffffffff)) {
+			if (i_3_ == node_sub19_6_.anInt7165 && node_sub19_6_.anInt7171 == i_2_ && i_5_ == node_sub19_6_.anInt7161 && i_1_ == node_sub19_6_.anInt7166) {
 				node_sub19 = node_sub19_6_;
 				break;
 			}

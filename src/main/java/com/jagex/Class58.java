@@ -112,7 +112,7 @@ public class Class58
 			anInt862 = 81;
 		}
 		anInt854++;
-		if ((i ^ 0xffffffff) != -12 && (i ^ 0xffffffff) != -13 && i != 13) {
+		if (i != 11 && i != 12 && i != 13) {
 			return false;
 		}
 		return true;

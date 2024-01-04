@@ -23,7 +23,7 @@ public class Class186
 	static final void method1870(byte b, Actor actor) {
 		anInt2253++;
 		Animator animator = actor.anAnimator10876;
-		if ((Class174.anInt2092 ^ 0xffffffff) == (actor.anInt10887 ^ 0xffffffff) || !animator.method245(-124) || animator.method226((byte) -105, 1)) {
+		if (actor.anInt10887 == Class174.anInt2092 || !animator.method245(-124) || animator.method226((byte) -105, 1)) {
 			int i = -actor.anInt10892 + actor.anInt10887;
 			int i_0_ = -actor.anInt10892 + Class174.anInt2092;
 			int i_1_ = actor.anInt10879 * 512 - -(256 * actor.method853((byte) 124));
@@ -40,13 +40,13 @@ public class Class186
 		if (actor.anInt10885 == 1) {
 			actor.method849(12288, -83, false);
 		}
-		if ((actor.anInt10885 ^ 0xffffffff) == -3) {
+		if (actor.anInt10885 == 2) {
 			actor.method849(0, -117, false);
 		}
 		if (b <= 16) {
 			method1870((byte) -110, null);
 		}
-		if ((actor.anInt10885 ^ 0xffffffff) == -4) {
+		if (actor.anInt10885 == 3) {
 			actor.method849(4096, -120, false);
 		}
 	}

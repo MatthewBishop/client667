@@ -71,11 +71,11 @@ public class Class110
 	
 	static final void method1131(int i, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_, int i_9_, int i_10_) {
 		anInt1381++;
-		if ((i_7_ ^ 0xffffffff) <= -1 && (i_4_ ^ 0xffffffff) <= -1 && -1 + Node_Sub54.anInt7675 > i_7_ && (Class377_Sub1.anInt8774 - 1 ^ 0xffffffff) < (i_4_ ^ 0xffffffff)) {
+		if (i_7_ >= 0 && i_4_ >= 0 && -1 + Node_Sub54.anInt7675 > i_7_ && i_4_ < Class377_Sub1.anInt8774 - 1) {
 			if (Class175.aClass261ArrayArrayArray2099 == null) {
 				return;
 			}
-			if ((i_10_ ^ 0xffffffff) == -1) {
+			if (i_10_ == 0) {
 				Interface19 interface19 = (Interface19) Node_Sub38_Sub12.method2830(i, i_7_, i_4_);
 				Interface19 interface19_11_ = (Interface19) Class328.method3827(i, i_7_, i_4_);
 				if (interface19 != null && i_5_ != 2) {
@@ -92,9 +92,9 @@ public class Class110
 						((Animable_Sub2_Sub1) interface19_11_).aClass310_10632.method3591(i_6_, i_9_ ^ ~0x7911);
 					}
 				}
-			} else if ((i_10_ ^ 0xffffffff) != -2) {
-				if ((i_10_ ^ 0xffffffff) != -3) {
-					if ((i_10_ ^ 0xffffffff) == -4) {
+			} else if (i_10_ != 1) {
+				if (i_10_ != 2) {
+					if (i_10_ == 3) {
 						Interface19 interface19 = (Interface19) Class270_Sub1_Sub1.method3303(i, i_7_, i_4_);
 						if (interface19 != null) {
 							if (interface19 instanceof Animable_Sub1_Sub2) {
@@ -107,7 +107,7 @@ public class Class110
 				} else {
 					Interface19 interface19 = (Interface19) Class262_Sub20.method3203(i, i_7_, i_4_, aClass1413 != null ? aClass1413 : (aClass1413 = method1136("com.jagex.Interface19")));
 					if (interface19 != null) {
-						if ((i_5_ ^ 0xffffffff) == -12) {
+						if (i_5_ == 11) {
 							i_5_ = 10;
 						}
 						if (!(interface19 instanceof Mobile_Sub3)) {
@@ -124,8 +124,8 @@ public class Class110
 						((Animable_Sub4_Sub2) interface19).aClass310_10794.method3591(i_6_, 30994);
 					} else {
 						int i_12_ = interface19.method72(-32136);
-						if (i_5_ != 4 && (i_5_ ^ 0xffffffff) != -6) {
-							if ((i_5_ ^ 0xffffffff) == -7) {
+						if (i_5_ != 4 && i_5_ != 5) {
+							if (i_5_ == 6) {
 								Class128.method1544(i_4_, 4, i_8_ + 4, i_7_, i_6_, i_10_, i, -128, i_12_);
 							} else if (i_5_ == 7) {
 								Class128.method1544(i_4_, 4, (0x3 & i_8_ + 2) - -4, i_7_, i_6_, i_10_, i, i_9_ ^ 0x79, i_12_);

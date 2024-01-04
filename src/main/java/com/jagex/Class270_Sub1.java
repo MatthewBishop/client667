@@ -36,9 +36,9 @@ abstract class Class270_Sub1 extends Class270
 	
 	static final void method3300(Widget widget, byte b, boolean bool) {
 		anInt8031++;
-		int i = (widget.anInt4735 ^ 0xffffffff) != -1 ? widget.anInt4735 : widget.anInt4809;
+		int i = widget.anInt4735 != 0 ? widget.anInt4735 : widget.anInt4809;
 		int i_1_ = -101 / ((-76 - b) / 36);
-		int i_2_ = (widget.anInt4691 ^ 0xffffffff) != -1 ? widget.anInt4691 : widget.anInt4695;
+		int i_2_ = widget.anInt4691 != 0 ? widget.anInt4691 : widget.anInt4695;
 		Class320_Sub9.method3716(true, i, bool, i_2_, Class134_Sub3.aWidgetArrayArray9035[widget.anInt4822 >> 16], widget.anInt4822);
 		if (widget.aWidgetArray4793 != null) {
 			Class320_Sub9.method3716(true, i, bool, i_2_, widget.aWidgetArray4793, widget.anInt4822);

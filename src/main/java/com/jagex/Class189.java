@@ -221,7 +221,7 @@ abstract class Class189
 					if (!(node_sub25 instanceof Node_Sub25_Sub4)) {
 						if (aNode_Sub25_Sub3_2316 == node_sub25) {
 							if (aNode_Sub25_Sub1_2310 == null && !aBoolean2304) {
-								for (int i = 0; (i ^ 0xffffffff) > -11 && method1919(126); i++) {
+								for (int i = 0; i < 10 && method1919(126); i++) {
 									method1918(-17507);
 									if (aBoolean2299) {
 										break;
@@ -230,8 +230,8 @@ abstract class Class189
 								break;
 							}
 						} else {
-							while ((node_sub25.anOggStreamState7235.packetOut(anOggPacket2324) ^ 0xffffffff) == -2) {
-								if ((node_sub25.anInt7234 ^ 0xffffffff) == -2 && node_sub25 instanceof Node_Sub25_Sub4) {
+							while (node_sub25.anOggStreamState7235.packetOut(anOggPacket2324) == 1) {
+								if (node_sub25.anInt7234 == 1 && node_sub25 instanceof Node_Sub25_Sub4) {
 									method1926(119, aString2321);
 								}
 								node_sub25.method2652(-4, anOggPacket2324);
@@ -262,7 +262,7 @@ abstract class Class189
 								return;
 							}
 						}
-						if ((aNode_Sub25_Sub1_2310.method2663(-103) ^ 0xffffffff) <= -51) {
+						if (aNode_Sub25_Sub1_2310.method2663(-103) >= 50) {
 							return;
 						}
 					}
