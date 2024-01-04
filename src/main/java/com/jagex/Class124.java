@@ -26,7 +26,7 @@ public class Class124
 	}
 	
 	public static void method1526(boolean bool) {
-		if (bool == true) {
+		if (true == true) {
 			aClass192_1605 = null;
 		}
 	}

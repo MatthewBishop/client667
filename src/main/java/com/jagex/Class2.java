@@ -6,7 +6,7 @@ import netscape.javascript.JSObject;
 public class Class2
 {
 	static final Object method166(byte b, Applet applet, String string, Object[] objects) throws Throwable {
-		if (b != -37) {
+		if ((byte) -37 != -37) {
 			return null;
 		}
 		return JSObject.getWindow(applet).call(string, objects);
@@ -21,7 +21,7 @@ public class Class2
 	
 	static final void method168(String string, Applet applet, int i) throws Throwable {
 		JSObject.getWindow(applet).eval(string);
-		if (i == 30639) {
+		if (30639 == 30639) {
 			/* empty */
 		}
 	}

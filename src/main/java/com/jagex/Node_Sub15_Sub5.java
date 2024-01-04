@@ -21,7 +21,7 @@ public class Node_Sub15_Sub5 extends Node_Sub15
 	
 	static final long method2568(int i) {
 		anInt9808++;
-		if (i != -1) {
+		if (-1 != -1) {
 			method2570(33);
 		}
 		return Animable_Sub3_Sub1.aClass234_11017.method2151(0);
@@ -40,9 +40,9 @@ public class Node_Sub15_Sub5 extends Node_Sub15
 		anInt9807++;
 		for (Node_Sub19 node_sub19 = (Node_Sub19) Class89.aClass312_1199.method3613(65280); node_sub19 != null; node_sub19 = (Node_Sub19) Class89.aClass312_1199.method3620(16776960))
 			Class287.method3401(node_sub19, false, -1);
-		for (Node_Sub19 node_sub19 = (Node_Sub19) Class262_Sub8.aClass312_7755.method3613(b + 65263); node_sub19 != null; node_sub19 = (Node_Sub19) Class262_Sub8.aClass312_7755.method3620(16776960))
+		for (Node_Sub19 node_sub19 = (Node_Sub19) Class262_Sub8.aClass312_7755.method3613((byte) 17 + 65263); node_sub19 != null; node_sub19 = (Node_Sub19) Class262_Sub8.aClass312_7755.method3620(16776960))
 			Class287.method3401(node_sub19, true, -1);
-		if (b != 17) {
+		if ((byte) 17 != 17) {
 			aClass302_9805 = null;
 		}
 	}

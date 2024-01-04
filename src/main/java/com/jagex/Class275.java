@@ -37,7 +37,7 @@ public class Class275 implements Interface17
 		anInt5413++;
 		Class70 class70 = IOException_Sub1.aClass128_85.method1549(i, 11);
 		int i_2_ = class70.anInt950;
-		if (b != -42) {
+		if ((byte) -42 != -42) {
 			aHashTable5420 = null;
 		}
 		int i_3_ = class70.anInt946;
@@ -55,13 +55,13 @@ public class Class275 implements Interface17
 				anIntArray5417[i] = 0;
 			}
 		}
-		if (b == -114) {
+		if ((byte) -114 == -114) {
 			aHashTable5420 = new HashTable(128);
 		}
 	}
 	
 	final void method3330(byte b, int i, int i_6_) {
-		if (b == 38) {
+		if ((byte) 38 == 38) {
 			anInt5423++;
 			Class70 class70 = IOException_Sub1.aClass128_85.method1549(i_6_, 11);
 			int i_7_ = class70.anInt950;
@@ -83,7 +83,7 @@ public class Class275 implements Interface17
 	}
 	
 	public static void method3331(int i) {
-		if (i != -1) {
+		if (-1 != -1) {
 			aClass312_5419 = null;
 		}
 		aClass312_5419 = null;
@@ -177,7 +177,7 @@ public class Class275 implements Interface17
 			}
 			i_41_ = Node_Sub36_Sub2.anIntArrayArray10047[i_28_ - i_26_][i_29_ + -i_27_];
 		}
-		if (b != -41) {
+		if ((byte) -41 != -41) {
 			aClass312_5419 = null;
 		}
 		int i_43_ = 0;
@@ -197,7 +197,7 @@ public class Class275 implements Interface17
 		int i_46_ = class70.anInt950;
 		int i_47_ = class70.anInt946;
 		int i_48_ = class70.anInt948;
-		if (i_45_ != -1) {
+		if (-1 != -1) {
 			anInt5412 = -83;
 		}
 		int i_49_ = Class141.anIntArray1750[-i_47_ + i_48_];
@@ -261,7 +261,7 @@ public class Class275 implements Interface17
 		if (i == 2) {
 			return -i_55_ + 1 + -i_54_ + 7;
 		}
-		int i_61_ = -120 / ((56 - i_59_) / 41);
+		int i_61_ = -120 / ((56 - 104) / 41);
 		return i_58_;
 	}
 }

@@ -73,12 +73,12 @@ public class Class255
 	
 	final GLSprite method3114(int i, GraphicsToolkit graphicstoolkit) {
 		anInt3233++;
-		if (anInt3221 < i) {
+		if (anInt3221 < 0) {
 			return null;
 		}
 		GLSprite glsprite = (GLSprite) aClass186_3217.aClass61_2258.method607((long) anInt3221, 0);
 		if (glsprite == null) {
-			method3115(i + -1, graphicstoolkit);
+			method3115(0 + -1, graphicstoolkit);
 			glsprite = (GLSprite) aClass186_3217.aClass61_2258.method607((long) anInt3221, 0);
 		}
 		return glsprite;
@@ -165,7 +165,7 @@ public class Class255
 			}
 			string = string.substring(0, i_0_) + Node_Sub29_Sub2.method2715((byte) 9, false, i) + string.substring(2 + i_0_);
 		}
-		if (bool != true) {
+		if (true != true) {
 			method3117(-15, true);
 		}
 		return string;
@@ -180,7 +180,7 @@ public class Class255
 			method3116(buffer, (byte) -16, i);
 		}
 		anInt3236++;
-		if (bool != false) {
+		if (false != false) {
 			method3111(null, 93);
 		}
 	}

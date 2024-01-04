@@ -12,10 +12,10 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 	private int anInt9020;
 	
 	Class134_Sub1(GLXToolkit glxtoolkit, Class68 class68, int i, int i_0_, int i_1_, byte[] bs) {
-		super(glxtoolkit, 32879, class68, Class372.aClass372_4594, i * (i_0_ * i_1_), false);
-		anInt9018 = i_1_;
+		super(glxtoolkit, 32879, class68, Class372.aClass372_4594, i * (128 * 16), false);
+		anInt9018 = 16;
 		anInt9020 = i;
-		anInt9019 = i_0_;
+		anInt9019 = 128;
 		aGLXToolkit5299.method1312((byte) -21, this);
 		OpenGL.glPixelStorei(3317, 1);
 		OpenGL.glTexImage3Dub(anInt5296, 0, this.method1570(10242), anInt9020, anInt9019, anInt9018, 0, Node_Sub36.method2753((byte) -18, aClass68_5317), 5121, bs, 0);
@@ -43,7 +43,7 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 					Class163.anInt2014 = i;
 					Node_Sub13 node_sub13 = FloatBuffer.method2250(-386, Class355.aClass318_4396, Class218.worldResponseBuffer.anIsaacCipher1571);
 					node_sub13.aPacket7113.method2199(i_7_, -1);
-					node_sub13.aPacket7113.method2215(i_2_ ^ 0x2f4396b1, Node_Sub15_Sub9.anInt9839);
+					node_sub13.aPacket7113.method2215(1 ^ 0x2f4396b1, Node_Sub15_Sub9.anInt9839);
 					node_sub13.aPacket7113.method2210(Class92.anInt1230, -33);
 					node_sub13.aPacket7113.method2245(-3528, !Class175.aClass291_2100.method3450(93, 82) ? 0 : 1);
 					node_sub13.aPacket7113.method2207(21226, Class46.anInt681);
@@ -61,14 +61,14 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 				node_sub13.aPacket7113.method2199(Class295.aPlayer3692.anInt10858, -1);
 				node_sub13.aPacket7113.method2215(792958640, Node_Sub15_Sub9.anInt9839);
 				node_sub13.aPacket7113.method2210(Class92.anInt1230, -52);
-				node_sub13.aPacket7113.method2245(-3528, Class175.aClass291_2100.method3450(i_2_ ^ ~0x20, 82) ? 1 : 0);
+				node_sub13.aPacket7113.method2245(-3528, Class175.aClass291_2100.method3450(1 ^ ~0x20, 82) ? 1 : 0);
 				node_sub13.aPacket7113.method2207(21226, Class46.anInt681);
 				Class218.worldResponseBuffer.method1514(127, node_sub13);
 			}
 			if (i_6_ == 12) {
-				Widget widget = Node_Sub3.method2169(i_2_ ^ ~0x65, i_4_, i_5_);
+				Widget widget = Node_Sub3.method2169(1 ^ ~0x65, i_4_, i_5_);
 				if (widget != null) {
-					Node_Sub38_Sub23.method2863(i_2_ ^ ~0x4b72);
+					Node_Sub38_Sub23.method2863(1 ^ ~0x4b72);
 					Node_Sub35 node_sub35 = client.method113(widget);
 					Node_Sub38_Sub18.method2846(node_sub35.method2743(-49), (byte) -109, widget, node_sub35.anInt7413);
 					Class84.aString1148 = Class205.method2033(widget, (byte) -104);
@@ -79,7 +79,7 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 				}
 			} else {
 				if (i_6_ == 58) {
-					if (Class339_Sub7.anInt8729 <= 0 || !Class175.aClass291_2100.method3450(119, 82) || !Class175.aClass291_2100.method3450(i_2_ ^ 0x6a, 81)) {
+					if (Class339_Sub7.anInt8729 <= 0 || !Class175.aClass291_2100.method3450(119, 82) || !Class175.aClass291_2100.method3450(1 ^ 0x6a, 81)) {
 						Node_Sub13 node_sub13 = Class22.method298(i_4_, (byte) 125, i_5_, i_7_);
 						if (i_7_ == 1) {
 							node_sub13.aPacket7113.method2226(-1, false);
@@ -99,7 +99,7 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 							Class93_Sub2.anInt6067 = i_3_;
 						}
 						Class218.worldResponseBuffer.method1514(126, node_sub13);
-						Class78.method778(0, i_5_, 1, true, i_4_, 0, -4, i_2_ ^ ~0x6b, 1);
+						Class78.method778(0, i_5_, 1, true, i_4_, 0, -4, 1 ^ ~0x6b, 1);
 					} else {
 						Class331.method3843(false, Class295.aPlayer3692.aByte5933, Class320_Sub4.anInt8243 - -i_5_, Node_Sub53.anInt7668 + i_4_);
 					}
@@ -150,11 +150,11 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 						Node_Sub13 node_sub13 = FloatBuffer.method2250(-386, class318, Class218.worldResponseBuffer.anIsaacCipher1571);
 						node_sub13.aPacket7113.method2226(Class175.aClass291_2100.method3450(-42, 82) ? 1 : 0, false);
 						node_sub13.aPacket7113.method2210(i_7_, -117);
-						Class218.worldResponseBuffer.method1514(i_2_ + 125, node_sub13);
+						Class218.worldResponseBuffer.method1514(1 + 125, node_sub13);
 						Class78.method778(0, player.anIntArray10908[0], player.method853((byte) 125), true, player.anIntArray10910[0], 0, -2, 127, player.method853((byte) 60));
 					}
 				}
-				if (i_2_ != 1) {
+				if (1 != 1) {
 					anInt9015 = 28;
 				}
 				Class318 class318_8_ = null;
@@ -185,7 +185,7 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 					Node_Sub38_Sub28.anInt10403 = 2;
 					Class93_Sub2.anInt6067 = i_3_;
 					Class282.anInt3587++;
-					Node_Sub13 node_sub13 = FloatBuffer.method2250(i_2_ ^ ~0x180, class318_8_, Class218.worldResponseBuffer.anIsaacCipher1571);
+					Node_Sub13 node_sub13 = FloatBuffer.method2250(1 ^ ~0x180, class318_8_, Class218.worldResponseBuffer.anIsaacCipher1571);
 					node_sub13.aPacket7113.method2230(i_7_, 128);
 					node_sub13.aPacket7113.method2226(!Class175.aClass291_2100.method3450(94, 82) ? 0 : 1, false);
 					node_sub13.aPacket7113.method2210(i_5_ + Class320_Sub4.anInt8243, -95);
@@ -243,8 +243,8 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 						Node_Sub38_Sub28.anInt10403 = 2;
 						Class163.anInt2014 = i;
 						Node_Sub37.anInt7431 = 0;
-						Node_Sub13 node_sub13 = FloatBuffer.method2250(i_2_ ^ ~0x180, class318_9_, Class218.worldResponseBuffer.anIsaacCipher1571);
-						node_sub13.aPacket7113.method2221(!Class175.aClass291_2100.method3450(i_2_ ^ 0x54, 82) ? 0 : 1, (byte) 127);
+						Node_Sub13 node_sub13 = FloatBuffer.method2250(1 ^ ~0x180, class318_9_, Class218.worldResponseBuffer.anIsaacCipher1571);
+						node_sub13.aPacket7113.method2221(!Class175.aClass291_2100.method3450(1 ^ 0x54, 82) ? 0 : 1, (byte) 127);
 						node_sub13.aPacket7113.method2230(i_7_, 128);
 						Class218.worldResponseBuffer.method1514(126, node_sub13);
 						Class78.method778(0, npc.anIntArray10908[0], npc.method853((byte) 76), true, npc.anIntArray10910[0], 0, -2, 116, npc.method853((byte) 103));
@@ -278,12 +278,12 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 					Node_Sub37.anInt7431 = 0;
 					Class93_Sub2.anInt6067 = i_3_;
 					Class317.anInt4039++;
-					Node_Sub13 node_sub13 = FloatBuffer.method2250(i_2_ ^ ~0x180, class318_10_, Class218.worldResponseBuffer.anIsaacCipher1571);
+					Node_Sub13 node_sub13 = FloatBuffer.method2250(1 ^ ~0x180, class318_10_, Class218.worldResponseBuffer.anIsaacCipher1571);
 					node_sub13.aPacket7113.method2221(Class175.aClass291_2100.method3450(99, 82) ? 1 : 0, (byte) 127);
-					node_sub13.aPacket7113.method2230(Node_Sub53.anInt7668 + i_4_, i_2_ ^ 0x81);
+					node_sub13.aPacket7113.method2230(Node_Sub53.anInt7668 + i_4_, 1 ^ 0x81);
 					node_sub13.aPacket7113.method2207(21226, (int) (l >>> 32) & 0x7fffffff);
 					node_sub13.aPacket7113.method2199(i_5_ - -Class320_Sub4.anInt8243, -1);
-					Class218.worldResponseBuffer.method1514(i_2_ + 125, node_sub13);
+					Class218.worldResponseBuffer.method1514(1 + 125, node_sub13);
 					Class25.method306(-43, i_4_, l, i_5_);
 				}
 				if (i_6_ == 1003 || i_6_ == 1001 || i_6_ == 1006 || i_6_ == 1009 || i_6_ == 1004) {
@@ -299,8 +299,8 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 					node_sub13.aPacket7113.method2230(Node_Sub53.anInt7668 - -i_4_, 128);
 					node_sub13.aPacket7113.method2199(Class92.anInt1230, -1);
 					node_sub13.aPacket7113.method2187(true, Node_Sub15_Sub9.anInt9839);
-					node_sub13.aPacket7113.method2230(Class320_Sub4.anInt8243 + i_5_, i_2_ + 127);
-					node_sub13.aPacket7113.method2210(Class46.anInt681, i_2_ ^ ~0x31);
+					node_sub13.aPacket7113.method2230(Class320_Sub4.anInt8243 + i_5_, 1 + 127);
+					node_sub13.aPacket7113.method2210(Class46.anInt681, 1 ^ ~0x31);
 					Class218.worldResponseBuffer.method1514(127, node_sub13);
 					Class78.method778(0, i_5_, 1, true, i_4_, 0, -4, -107, 1);
 				}
@@ -310,12 +310,12 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 					Class163.anInt2014 = i;
 					Class93_Sub2.anInt6067 = i_3_;
 					Class188_Sub1_Sub1.anInt9329++;
-					Node_Sub13 node_sub13 = FloatBuffer.method2250(i_2_ + -387, Class102.aClass318_1314, Class218.worldResponseBuffer.anIsaacCipher1571);
+					Node_Sub13 node_sub13 = FloatBuffer.method2250(1 + -387, Class102.aClass318_1314, Class218.worldResponseBuffer.anIsaacCipher1571);
 					node_sub13.aPacket7113.method2210(i_4_ + Node_Sub53.anInt7668, -96);
 					node_sub13.aPacket7113.method2210(Class320_Sub4.anInt8243 + i_5_, -105);
 					node_sub13.aPacket7113.method2207(21226, Class92.anInt1230);
 					node_sub13.aPacket7113.method2184(Node_Sub15_Sub9.anInt9839, (byte) -122);
-					node_sub13.aPacket7113.method2199(Class46.anInt681, i_2_ ^ ~0x1);
+					node_sub13.aPacket7113.method2199(Class46.anInt681, 1 ^ ~0x1);
 					node_sub13.aPacket7113.method2226(!Class175.aClass291_2100.method3450(125, 82) ? 0 : 1, false);
 					node_sub13.aPacket7113.method2199(i_7_, -1);
 					Class218.worldResponseBuffer.method1514(127, node_sub13);
@@ -337,7 +337,7 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 						node_sub13.aPacket7113.method2184(Node_Sub15_Sub9.anInt9839, (byte) -34);
 						node_sub13.aPacket7113.method2226(!Class175.aClass291_2100.method3450(-40, 82) ? 0 : 1, false);
 						Class218.worldResponseBuffer.method1514(127, node_sub13);
-						Class78.method778(0, npc.anIntArray10908[0], npc.method853((byte) 44), true, npc.anIntArray10910[0], 0, -2, i_2_ ^ ~0x5b, npc.method853((byte) 50));
+						Class78.method778(0, npc.anIntArray10908[0], npc.method853((byte) 44), true, npc.anIntArray10910[0], 0, -2, 1 ^ ~0x5b, npc.method853((byte) 50));
 					}
 				}
 				if (i_6_ == 20 || i_6_ == 1002) {

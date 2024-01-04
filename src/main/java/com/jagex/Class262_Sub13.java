@@ -30,7 +30,7 @@ public class Class262_Sub13 extends Class262
 			Class127.method1542(11582, false);
 		} else {
 			Class290_Sub7.aClass365_8135 = Class218.worldResponseBuffer.aClass365_1557;
-			if (bool != false) {
+			if (false != false) {
 				aClass257_7801 = null;
 			}
 			Class218.worldResponseBuffer.aClass365_1557 = null;
@@ -39,7 +39,7 @@ public class Class262_Sub13 extends Class262
 	}
 	
 	static final void method3183(int i) {
-		if (i == 9844) {
+		if (9844 == 9844) {
 			anInt7797++;
 			if (Node_Sub25_Sub2.aClass54Array9959 != null) {
 				for (int i_0_ = 0; Class167.anInt2033 > i_0_; i_0_++)
@@ -96,7 +96,7 @@ public class Class262_Sub13 extends Class262
 		entitynode.anEntityNode1124 = entitynode_3_.anEntityNode1124;
 		entitynode.anEntityNode1124.anEntityNode1126 = entitynode;
 		entitynode.anEntityNode1126.anEntityNode1124 = entitynode;
-		if (b < 45) {
+		if ((byte) 114 < 45) {
 			method3181((byte) 13);
 		}
 	}

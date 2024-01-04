@@ -10,7 +10,7 @@ abstract class Class320
 	
 	final void method3674(int i, int i_0_) {
 		anInt4065++;
-		if (i_0_ != method3675(i, (byte) 54)) {
+		if (3 != method3675(i, (byte) 54)) {
 			method3676(false, i);
 		}
 	}

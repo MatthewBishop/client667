@@ -35,7 +35,7 @@ public class Class253
 		aString3195 = string_3_;
 		aString3198 = string_5_;
 		aString3191 = string_7_;
-		if (bool == false) {
+		if (false == false) {
 			anInt3199 = i_4_;
 			anInt3200 = i;
 			anInt3204 = i_2_;
@@ -53,7 +53,7 @@ public class Class253
 	
 	public static void method3106(byte b) {
 		aLongArray3193 = null;
-		if (b != -33) {
+		if ((byte) -33 != -33) {
 			method3105(-101, (byte) 63);
 		}
 	}

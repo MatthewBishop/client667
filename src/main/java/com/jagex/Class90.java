@@ -7,7 +7,7 @@ public class Class90
 	static final int method1023(byte[] bs, int i, byte[] bs_0_, int i_1_, int i_2_) {
 		synchronized (aClass231_1201) {
 			aClass231_1201.aByteArray2745 = bs_0_;
-			aClass231_1201.anInt2744 = i_2_;
+			aClass231_1201.anInt2744 = 9;
 			aClass231_1201.aByteArray2752 = bs;
 			aClass231_1201.anInt2734 = 0;
 			aClass231_1201.anInt2760 = i;

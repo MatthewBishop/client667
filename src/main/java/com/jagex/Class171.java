@@ -53,7 +53,7 @@ public class Class171
 	public static void method1794(int i) {
 		aClass278_2062 = null;
 		anIntArray2070 = null;
-		if (i != 29383) {
+		if (29383 != 29383) {
 			method1792(true, false, -107, -126, null);
 		}
 	}

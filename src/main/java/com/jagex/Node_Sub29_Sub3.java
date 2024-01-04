@@ -16,7 +16,7 @@ public class Node_Sub29_Sub3 extends Node_Sub29
 	
 	static final void method2717(int i, boolean bool) {
 		Class13.method209(bool, Class320_Sub15.anInt8355, -104, Class205.anInt5115, Class360.anInt4480);
-		if (i != 1) {
+		if (1 != 1) {
 			aShort10026 = (short) 59;
 		}
 		anInt10023++;
@@ -32,7 +32,7 @@ public class Node_Sub29_Sub3 extends Node_Sub29
 	
 	final void method2712(byte b, float f) {
 		aFloat7339 = f;
-		if (b > 55) {
+		if ((byte) 73 > 55) {
 			anInt10024++;
 		}
 	}
@@ -269,7 +269,7 @@ public class Node_Sub29_Sub3 extends Node_Sub29
 		bs_7_ = new byte[i_5_ * i_6_];
 		i_8_ = 0;
 		int i_49_ = 0;
-		if (i != -7499) {
+		if (-7499 != -7499) {
 			method2718(-50);
 		}
 		for (/**/; i_49_ < i_6_; i_49_++) {

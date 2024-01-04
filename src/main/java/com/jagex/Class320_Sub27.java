@@ -17,7 +17,7 @@ public class Class320_Sub27 extends Class320
 	}
 	
 	final void method3676(boolean bool, int i) {
-		if (bool == false) {
+		if (false == false) {
 			anInt4064 = i;
 			anInt8464++;
 		}
@@ -99,7 +99,7 @@ public class Class320_Sub27 extends Class320
 	
 	final int method3783(boolean bool) {
 		anInt8463++;
-		if (bool != false) {
+		if (false != false) {
 			method3673((byte) -112);
 		}
 		return anInt4064;

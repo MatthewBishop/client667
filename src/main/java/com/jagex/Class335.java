@@ -39,7 +39,7 @@ public class Class335
 	
 	final CacheNode method3849(long l, boolean bool) {
 		anInt4160++;
-		if (bool != true) {
+		if (true != true) {
 			return null;
 		}
 		CacheNode cachenode = (CacheNode) aHashTable4170.method1518(3512, l);
@@ -50,7 +50,7 @@ public class Class335
 	}
 	
 	public static void method3850(int i) {
-		if (i != -14731) {
+		if (-14731 != -14731) {
 			aClass61_4161 = null;
 		}
 		anIntArray4167 = null;

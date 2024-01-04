@@ -34,7 +34,7 @@ public class Class205 implements Interface7
 	}
 	
 	static final String method2033(Widget widget, byte b) {
-		if (b != -104) {
+		if ((byte) -104 != -104) {
 			return null;
 		}
 		anInt5101++;

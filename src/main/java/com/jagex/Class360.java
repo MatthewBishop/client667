@@ -31,7 +31,7 @@ public class Class360 implements Runnable
 		} catch (InterruptedException interruptedexception) {
 			/* empty */
 		}
-		if (i != -14303) {
+		if (-14303 != -14303) {
 			anInt4470 = 113;
 		}
 	}
@@ -88,10 +88,10 @@ public class Class360 implements Runnable
 	
 	final void method4042(byte[] bs, int i, int i_1_, int i_2_) throws IOException {
 		anInt4471++;
-		if (i < 0 || i_2_ < 0 || bs.length < i_2_ + i) {
+		if (i < 0 || 0 < 0 || bs.length < 0 + i) {
 			throw new IOException();
 		}
-		if (i_1_ == -19032) {
+		if (-19032 == -19032) {
 			synchronized (this) {
 				if (anIOException4474 != null) {
 					throw new IOException(anIOException4474.toString());
@@ -107,10 +107,10 @@ public class Class360 implements Runnable
 				}
 				if (i + anInt4470 > anInt4475) {
 					int i_4_ = -anInt4470 + anInt4475;
-					Class311.method3608(bs, i_2_, aByteArray4477, anInt4470, i_4_);
-					Class311.method3608(bs, i_2_ + i_4_, aByteArray4477, 0, -i_4_ + i);
+					Class311.method3608(bs, 0, aByteArray4477, anInt4470, i_4_);
+					Class311.method3608(bs, 0 + i_4_, aByteArray4477, 0, -i_4_ + i);
 				} else {
-					Class311.method3608(bs, i_2_, aByteArray4477, anInt4470, i);
+					Class311.method3608(bs, 0, aByteArray4477, anInt4470, i);
 				}
 				anInt4470 = (i + anInt4470) % anInt4475;
 				this.notifyAll();
@@ -121,7 +121,7 @@ public class Class360 implements Runnable
 	static final Node_Sub6 method4043(Class302 class302, int i, boolean bool) {
 		anInt4473++;
 		byte[] bs = class302.method3518((byte) -124, i);
-		if (bool != false) {
+		if (false != false) {
 			return null;
 		}
 		if (bs == null) {
@@ -131,7 +131,7 @@ public class Class360 implements Runnable
 	}
 	
 	final void method4044(int i) {
-		if (i == 0) {
+		if (0 == 0) {
 			anInt4481++;
 			anOutputStream4478 = new OutputStream_Sub1();
 		}

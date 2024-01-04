@@ -23,10 +23,10 @@ public class Class169_Sub3 extends Class169
 	
 	static final byte[] method1778(int i, boolean bool) {
 		anInt8807++;
-		if (bool != true) {
+		if (true != true) {
 			method1780((byte) -62);
 		}
-		CacheNode_Sub7 cachenode_sub7 = (CacheNode_Sub7) Class262_Sub18.aClass335_7849.method3849((long) i, bool);
+		CacheNode_Sub7 cachenode_sub7 = (CacheNode_Sub7) Class262_Sub18.aClass335_7849.method3849((long) i, true);
 		if (cachenode_sub7 == null) {
 			byte[] bs = new byte[512];
 			Random random = new Random((long) i);
@@ -127,10 +127,10 @@ public class Class169_Sub3 extends Class169
 	}
 	
 	Class169_Sub3(GLToolkit gltoolkit, int i, int i_16_, int i_17_, int i_18_) {
-		super(gltoolkit, 32879, i, i_18_ * (i_17_ * i_16_), false);
-		anInt8809 = i_17_;
-		anInt8811 = i_18_;
-		anInt8819 = i_16_;
+		super(gltoolkit, 32879, 6408, 16 * (128 * 128), false);
+		anInt8809 = 128;
+		anInt8811 = 16;
+		anInt8819 = 128;
 		aGLToolkit4947.method1444(-2, this);
 		OpenGL.glTexImage3Dub(anInt4951, 0, anInt4950, anInt8819, anInt8809, anInt8811, 0, Class320_Sub16.method3742(6406, anInt4950), 5121, null, 0);
 		this.method1757(false, true);
@@ -138,8 +138,8 @@ public class Class169_Sub3 extends Class169
 	
 	static final int method1781(byte b) {
 		anInt8810++;
-		int i = Class252.aClass110_3189.method1130(b ^ ~0x50);
-		if (b != 82) {
+		int i = Class252.aClass110_3189.method1130((byte) 82 ^ ~0x50);
+		if ((byte) 82 != 82) {
 			method1779(null, null, false, null, null, 76);
 		}
 		if (Node_Sub25_Sub4.aClass110Array10006.length - 1 > i) {
@@ -165,10 +165,10 @@ public class Class169_Sub3 extends Class169
 	}
 	
 	final void method1783(int i, int i_23_, int i_24_, int i_25_, int i_26_, int i_27_, byte b, int i_28_) {
-		if (b == 98) {
-			aGLToolkit4947.method1444(b + -100, this);
+		if ((byte) 98 == 98) {
+			aGLToolkit4947.method1444((byte) 98 + -100, this);
 			anInt8814++;
-			OpenGL.glCopyTexSubImage3D(anInt4951, 0, i_27_, i, i_24_, i_25_, i_23_, i_26_, i_28_);
+			OpenGL.glCopyTexSubImage3D(anInt4951, 0, 0, 0, i_24_, 0, 0, i_26_, i_28_);
 			OpenGL.glFlush();
 		}
 	}
@@ -181,10 +181,10 @@ public class Class169_Sub3 extends Class169
 	}
 	
 	Class169_Sub3(GLToolkit gltoolkit, int i, int i_29_, int i_30_, int i_31_, byte[] bs, int i_32_) {
-		super(gltoolkit, 32879, i, i_29_ * i_30_ * i_31_, false);
-		anInt8809 = i_30_;
-		anInt8811 = i_31_;
-		anInt8819 = i_29_;
+		super(gltoolkit, 32879, i, 128 * 128 * 16, false);
+		anInt8809 = 128;
+		anInt8811 = 16;
+		anInt8819 = 128;
 		aGLToolkit4947.method1444(-2, this);
 		OpenGL.glPixelStorei(3317, 1);
 		OpenGL.glTexImage3Dub(anInt4951, 0, anInt4950, anInt8819, anInt8809, anInt8811, 0, i_32_, 5121, bs, 0);

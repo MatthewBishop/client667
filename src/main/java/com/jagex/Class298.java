@@ -50,7 +50,7 @@ public class Class298
 	}
 	
 	final void method3482(byte b, int i) {
-		if (b != -98) {
+		if ((byte) -98 != -98) {
 			aClass298_3732 = null;
 		}
 		anInt3708 = i;
@@ -78,7 +78,7 @@ public class Class298
 	
 	final int method3485(int i) {
 		anInt3713++;
-		if (i != 1) {
+		if (1 != 1) {
 			return -46;
 		}
 		return anInt3708;

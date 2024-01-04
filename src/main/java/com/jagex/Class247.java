@@ -164,7 +164,7 @@ public class Class247
 			aGLToolkit3121.method1434((byte) 69, 1);
 			aGLToolkit3121.la();
 			int i = 0;
-			if (b <= 46) {
+			if ((byte) 98 <= 46) {
 				method3083(false);
 			}
 			int i_0_ = 1;
@@ -233,7 +233,7 @@ public class Class247
 			}
 			method3082(30543, node_sub23);
 		}
-		if (b >= -95) {
+		if ((byte) -119 >= -95) {
 			method3075((byte) 1);
 		}
 		return false;
@@ -241,14 +241,14 @@ public class Class247
 	
 	private final void method3078(int i) {
 		anInt3125++;
-		if (i != -17454) {
+		if (-17454 != -17454) {
 			anInt3113 = -76;
 		}
 		boolean bool = false;
 		int i_4_ = 0;
 		int i_5_ = 0;
-		for (Node_Sub23 node_sub23 = (Node_Sub23) aClass312_3112.method3613(i + 82734); node_sub23 != null; node_sub23 = (Node_Sub23) aClass312_3112.method3620(16776960)) {
-			int i_6_ = node_sub23.method2630(i ^ ~0x442c);
+		for (Node_Sub23 node_sub23 = (Node_Sub23) aClass312_3112.method3613(-17454 + 82734); node_sub23 != null; node_sub23 = (Node_Sub23) aClass312_3112.method3620(16776960)) {
+			int i_6_ = node_sub23.method2630(-17454 ^ ~0x442c);
 			if (i_4_ < i_6_) {
 				i_4_ = i_6_;
 			}
@@ -282,7 +282,7 @@ public class Class247
 	}
 	
 	final boolean method3079(int i) {
-		if (i != -2) {
+		if (-2 != -2) {
 			return false;
 		}
 		anInt3120++;
@@ -294,7 +294,7 @@ public class Class247
 	
 	final void method3080(boolean bool) {
 		aCacheNode_Sub17_3137 = null;
-		if (bool != false) {
+		if (false != false) {
 			method3083(true);
 		}
 		anInt3117++;
@@ -329,10 +329,10 @@ public class Class247
 			anInt3111 = i_11_;
 			aGLToolkit3121.method1410(15, aClass382_3129);
 			aClass382_3129.method4183(0, (byte) 121);
-			aGLToolkit3121.method1465(anInt3113 - (-anInt3119 + aGLToolkit3121.anInt6567), -anInt3111, i + 16053);
+			aGLToolkit3121.method1465(anInt3113 - (-anInt3119 + aGLToolkit3121.anInt6567), -anInt3111, 0 + 16053);
 			return true;
 		}
-		if (i != 0) {
+		if (0 != 0) {
 			method3075((byte) -6);
 		}
 		return false;
@@ -343,7 +343,7 @@ public class Class247
 		node_sub23.aBoolean7205 = false;
 		node_sub23.method2626((byte) -128);
 		node_sub23.method2160((byte) 126);
-		if (i != 30543) {
+		if (30543 != 30543) {
 			aCacheNode_Sub17_3138 = null;
 		}
 		method3078(-17454);

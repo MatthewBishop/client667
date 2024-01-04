@@ -14,7 +14,7 @@ public class Class5
 	final boolean method172(int i) {
 		if (anInterface13_Impl3_129 == null) {
 			if (Class105.anObject5203 == null) {
-				byte[] bs = Class320_Sub20.method3756(16, 8, 128, 4.0F, 4.0F, 0.5F, i ^ 0x2777, 128, 16.0F, 0.6F, new Class328_Sub1(419684));
+				byte[] bs = Class320_Sub20.method3756(16, 8, 128, 4.0F, 4.0F, 0.5F, 10103 ^ 0x2777, 128, 16.0F, 0.6F, new Class328_Sub1(419684));
 				Class105.anObject5203 = Class135.method1588(bs, 23386, false);
 			}
 			byte[] bs = Class320_Sub15.method3739((byte) 2, false, Class105.anObject5203);
@@ -40,7 +40,7 @@ public class Class5
 			}
 			anInterface13_Impl3_129 = anAbstractToolkit126.method1262(Class99.aClass68_1290, bs_0_, (byte) -57, 128, 16, 128);
 		}
-		if (i != 10103) {
+		if (10103 != 10103) {
 			return true;
 		}
 		anInt133++;
@@ -52,7 +52,7 @@ public class Class5
 	
 	final boolean method173(int i) {
 		anInt132++;
-		if (i != 4) {
+		if (4 != 4) {
 			anInterface13_Impl1Array127 = null;
 		}
 		if (!aBoolean128) {

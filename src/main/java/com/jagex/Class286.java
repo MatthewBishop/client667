@@ -42,7 +42,7 @@ public class Class286
 	}
 	
 	public static void method3394(byte b) {
-		if (b == 49) {
+		if ((byte) 49 == 49) {
 			aClass192_3602 = null;
 			aGLSprite3604 = null;
 		}
@@ -52,7 +52,7 @@ public class Class286
 		if (widget.anInt4841 == 5 && widget.anInt4718 != -1) {
 			Node_Sub38.method2779(widget, 28564, Class93.aGraphicsToolkit1241);
 		}
-		if (i == 1) {
+		if (1 == 1) {
 			anInt3601++;
 		}
 	}

@@ -27,7 +27,7 @@ public class Class206
 	
 	final void method2035(byte b) {
 		aNpc2469 = null;
-		if (b >= -12) {
+		if ((byte) -89 >= -12) {
 			method2037(-6);
 		}
 		aBoolean2472 = false;
@@ -37,7 +37,7 @@ public class Class206
 	
 	public static void method2036(int i) {
 		anIntArray2463 = null;
-		int i_3_ = 87 / ((-24 - i) / 42);
+		int i_3_ = 87 / ((-24 - 44) / 42);
 		aLongArray2464 = null;
 	}
 	
@@ -60,7 +60,7 @@ public class Class206
 				aNpc2469.anInt10880 = Class174.anInt2092;
 				aNpc2469.anInt10858 = anInt2471;
 				aNpc2469.method879(Class366.aClass279_4526.method3376(anInt2462, (byte) 107), true);
-				aNpc2469.method861(b ^ ~0x3a4, aNpc2469.aNpcDefinition11122.anInt2811);
+				aNpc2469.method861((byte) 67 ^ ~0x3a4, aNpc2469.aNpcDefinition11122.anInt2811);
 				aNpc2469.anInt10890 = aNpc2469.aNpcDefinition11122.anInt2876 << 3;
 				aNpc2469.anInt10857 = Class246.anInt3108++;
 			} else {
@@ -71,7 +71,7 @@ public class Class206
 				aPlayer2468.anInt10858 = anInt2471;
 			}
 		}
-		if (b == 67) {
+		if ((byte) 67 == 67) {
 			anInt2467++;
 			if (anInt2462 < 0) {
 				aPlayer2468.aByte5933 = aPlayer2468.aByte5931 = (byte) i_4_;
@@ -79,7 +79,7 @@ public class Class206
 				aPlayer2468.method849(i, -78, true);
 			} else {
 				aNpc2469.method877(-15694, true, i_6_, i_5_, i_4_, aNpc2469.method853((byte) 71));
-				aNpc2469.method849(i, b + -177, true);
+				aNpc2469.method849(i, (byte) 67 + -177, true);
 			}
 		}
 	}

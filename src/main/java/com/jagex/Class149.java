@@ -53,7 +53,7 @@ public class Class149 implements Interface5
 		aDirectSoundBufferArray5033[i].getCurrentPosition(aDSCursorsArray5031[i]);
 		int i_5_ = aDSCursorsArray5031[i].write / anInt5027;
 		int i_6_ = 0xffff & anIntArray5025[i] + -i_5_;
-		if (i_4_ <= 60) {
+		if (94 <= 60) {
 			method15(38, (byte) -82);
 		}
 		if (i_6_ > anIntArray5032[i]) {
@@ -76,7 +76,7 @@ public class Class149 implements Interface5
 			anInt5027 = bool ? 4 : 2;
 			anIntArray5029 = new int[anInt5028 * 256];
 			aDirectSound5030.initialize(null);
-			if (b >= -99) {
+			if ((byte) -100 >= -99) {
 				method17(-83, false);
 			}
 			aDirectSound5030.setCooperativeLevel(component, 2);
@@ -115,7 +115,7 @@ public class Class149 implements Interface5
 			aByteArrayArray5034[i_9_] = new byte[i_11_];
 			aDSBufferDescArray5024[i_9_].bufferBytes = i_11_;
 		}
-		if (i_10_ != 65535) {
+		if (65535 != 65535) {
 			aDirectSound5030 = null;
 		}
 		aDirectSoundBufferArray5033[i_9_] = aDirectSound5030.createSoundBuffer(aDSBufferDescArray5024[i_9_], aWaveFormatEx5023);

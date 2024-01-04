@@ -8,7 +8,7 @@ abstract class Node_Sub15 extends Node
 	
 	public static void method2555(byte b) {
 		anIntArray7129 = null;
-		if (b >= -36) {
+		if ((byte) -70 >= -36) {
 			anIntArray7129 = null;
 		}
 	}

@@ -17,7 +17,7 @@ abstract class Class377
 	static Class379 aClass379_4675;
 	
 	final boolean method4120(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			return true;
 		}
 		anInt4669++;
@@ -30,7 +30,7 @@ abstract class Class377
 	public static void method4121(boolean bool) {
 		aClass318_4663 = null;
 		aClass379_4675 = null;
-		if (bool != false) {
+		if (false != false) {
 			aClass379_4675 = null;
 		}
 	}
@@ -58,10 +58,10 @@ abstract class Class377
 	static final void method4124(int i, Widget widget, Widget widget_1_) {
 		anInt4667++;
 		Class3.anInt5162++;
-		Node_Sub13 node_sub13 = FloatBuffer.method2250(i + -27933, Class357.aClass318_4441, Class218.worldResponseBuffer.anIsaacCipher1571);
-		node_sub13.aPacket7113.method2210(widget_1_.anInt4718, i ^ ~0x6bf7);
+		Node_Sub13 node_sub13 = FloatBuffer.method2250(27547 + -27933, Class357.aClass318_4441, Class218.worldResponseBuffer.anIsaacCipher1571);
+		node_sub13.aPacket7113.method2210(widget_1_.anInt4718, 27547 ^ ~0x6bf7);
 		node_sub13.aPacket7113.method2199(widget.anInt4687, -1);
-		if (i == 27547) {
+		if (27547 == 27547) {
 			node_sub13.aPacket7113.method2230(widget.anInt4718, 128);
 			node_sub13.aPacket7113.method2187(true, widget.anInt4822);
 			node_sub13.aPacket7113.method2199(widget_1_.anInt4687, -1);
@@ -82,7 +82,7 @@ abstract class Class377
 		} else {
 			i_2_ = i_3_ = Class94.anInt1249;
 		}
-		if (i >= 94) {
+		if (96 >= 94) {
 			if (aa.anInt101 == 3) {
 				for (int i_4_ = i_2_; i_4_ <= i_3_; i_4_++)
 					client.method106(i_4_);
@@ -101,7 +101,7 @@ abstract class Class377
 	}
 	
 	final boolean method4126(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			method4123(66);
 		}
 		anInt4666++;
@@ -116,7 +116,7 @@ abstract class Class377
 	}
 	
 	static final boolean method4127(int i, int i_6_, int i_7_) {
-		if (i_6_ != -31997) {
+		if (-31997 != -31997) {
 			return false;
 		}
 		anInt4672++;

@@ -16,7 +16,7 @@ class Class235 implements Interface7
 	static int anInt5127;
 	
 	public static void method2155(int i) {
-		if (i != 2) {
+		if (2 != 2) {
 			method2157(null, -79);
 		}
 		aClass318_5119 = null;
@@ -25,7 +25,7 @@ class Class235 implements Interface7
 	
 	static final int method2156(int i) {
 		anInt5117++;
-		if (i != -10532) {
+		if (-10532 != -10532) {
 			return 34;
 		}
 		return Node_Sub39.anInt7498;

@@ -64,7 +64,7 @@ public class Class7
 	}
 	
 	final void method182(Buffer buffer, int i) {
-		if (i != 16777215) {
+		if (16777215 != 16777215) {
 			anInt155 = 84;
 		}
 		for (;;) {
@@ -81,7 +81,7 @@ public class Class7
 		aStringArray164 = null;
 		aCRC32_163 = null;
 		aClass179_157 = null;
-		if (bool != false) {
+		if (false != false) {
 			aStringArray164 = null;
 		}
 	}

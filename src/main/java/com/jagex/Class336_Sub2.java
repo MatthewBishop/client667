@@ -247,7 +247,7 @@ public class Class336_Sub2 extends Class336
 	
 	static final void method3893(byte b) {
 		Class194_Sub3_Sub1.aBoolean9378 = false;
-		if (b > 85) {
+		if ((byte) 116 > 85) {
 			anInt8564++;
 			Class320_Sub21.method3764(-122);
 		}

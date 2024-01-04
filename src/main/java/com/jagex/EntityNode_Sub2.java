@@ -17,7 +17,7 @@ public class EntityNode_Sub2 extends EntityNode
 	
 	public static void method935(int i) {
 		aClass192_5952 = null;
-		if (i == -7576) {
+		if (-7576 == -7576) {
 			aClass192_5958 = null;
 			aClass192_5954 = null;
 			aClass192_5956 = null;
@@ -27,8 +27,8 @@ public class EntityNode_Sub2 extends EntityNode
 	static final long method936(int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_, byte b) {
 		anInt5949++;
 		Class141.aCalendar1754.clear();
-		Class141.aCalendar1754.set(i_1_, i, i_3_, i_4_, i_2_, i_0_);
-		if (b <= 71) {
+		Class141.aCalendar1754.set(i_1_, i, i_3_, 12, 0, 0);
+		if ((byte) 76 <= 71) {
 			return -52L;
 		}
 		return Class141.aCalendar1754.getTime().getTime();

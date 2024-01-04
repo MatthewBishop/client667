@@ -20,7 +20,7 @@ public class Class23
 	}
 	
 	static final Class379[] method302(int i) {
-		if (i != 1476280292) {
+		if (1476280292 != 1476280292) {
 			return null;
 		}
 		anInt435++;

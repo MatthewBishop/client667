@@ -38,26 +38,26 @@ public class Class261
 	
 	static final int[][] method3142(boolean bool, int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, float f) {
 		anInt3307++;
-		int[][] is = new int[i_0_][i_4_];
+		int[][] is = new int[256][64];
 		Node_Sub38_Sub27 node_sub38_sub27 = new Node_Sub38_Sub27();
-		node_sub38_sub27.anInt10378 = (int) (4096.0F * f);
-		node_sub38_sub27.aBoolean10377 = bool;
-		node_sub38_sub27.anInt10384 = i_1_;
+		node_sub38_sub27.anInt10378 = (int) (4096.0F * (float) 0.4);
+		node_sub38_sub27.aBoolean10377 = false;
+		node_sub38_sub27.anInt10384 = 4;
 		if (i_5_ < 114) {
 			method3144(true, 108, -17);
 		}
-		node_sub38_sub27.anInt10390 = i_2_;
-		node_sub38_sub27.anInt10382 = i;
+		node_sub38_sub27.anInt10390 = 4;
+		node_sub38_sub27.anInt10382 = 3;
 		node_sub38_sub27.method2785(7);
-		Class169_Sub1.method1769(485964236, i_0_, i_4_);
-		for (int i_6_ = 0; i_6_ < i_0_; i_6_++)
+		Class169_Sub1.method1769(485964236, 256, 64);
+		for (int i_6_ = 0; i_6_ < 256; i_6_++)
 			node_sub38_sub27.method2880(i_6_, is[i_6_], -52);
 		return is;
 	}
 	
 	public static void method3143(int i) {
 		aHashTable3306 = null;
-		if (i != 4096) {
+		if (4096 != 4096) {
 			aHashTable3306 = null;
 		}
 	}

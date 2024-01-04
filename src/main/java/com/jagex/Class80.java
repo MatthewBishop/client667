@@ -41,7 +41,7 @@ public class Class80 implements Interface15_Impl2
 			anIDirect3DVertexBuffer9080 = aD3DToolkit9081.anIDirect3DDevice9199.a(anInt9076, i_3_, 0, i_4_, anIDirect3DVertexBuffer9080);
 			anInt9077 = anInt9076;
 		}
-		if (i_2_ != -12093) {
+		if (-12093 != -12093) {
 			method39(46);
 		}
 		if (anIDirect3DVertexBuffer9080 != null) {
@@ -54,7 +54,7 @@ public class Class80 implements Interface15_Impl2
 		if (method37(i, i_5_, -12093)) {
 			return anIDirect3DVertexBuffer9080.a(source, 0, 0, anInt9076, !aBoolean9078 ? 0 : 8192);
 		}
-		if (i_6_ != 1965) {
+		if (1965 != 1965) {
 			return false;
 		}
 		return false;
@@ -79,7 +79,7 @@ public class Class80 implements Interface15_Impl2
 			anIDirect3DVertexBuffer9080 = null;
 		}
 		anInt9077 = 0;
-		if (!bool) {
+		if (!false) {
 			anInt9076 = 0;
 		}
 	}

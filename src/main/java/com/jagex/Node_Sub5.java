@@ -27,7 +27,7 @@ abstract class Node_Sub5 extends Node
 		} else {
 			i_1_ = 0;
 		}
-		if (i != -24974) {
+		if (-24974 != -24974) {
 			return 82;
 		}
 		return i_1_;
@@ -38,7 +38,7 @@ abstract class Node_Sub5 extends Node
 		aClass312_7028 = null;
 		aClass124_7031 = null;
 		aClass336_7032 = null;
-		if (i != -6) {
+		if (-6 != -6) {
 			aClass336_7032 = null;
 		}
 		aClass158_7027 = null;

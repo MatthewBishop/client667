@@ -57,10 +57,10 @@ public class D3DToolkit extends AbstractToolkit
 	}
 
 	final Interface13_Impl3 method1262(Class68 class68, byte[] bs, byte b, int i, int i_3_, int i_4_) {
-		if (b != -57) {
+		if ((byte) -57 != -57) {
 			return null;
 		}
-		return new Class265_Sub1(this, class68, i_4_, i, i_3_, bs);
+		return new Class265_Sub1(this, class68, 128, 128, 16, bs);
 	}
 
 	final void method1309(int i) {
@@ -116,16 +116,16 @@ public class D3DToolkit extends AbstractToolkit
 		} else {
 			return 2;
 		}
-		if (bool) {
+		if (false) {
 			anIntArray9198 = null;
 		}
 		throw new IllegalArgumentException();
 	}
 
 	final void method1354(int i, int i_9_, Interface15_Impl2 interface15_impl2) {
-		if (i_9_ == 32011) {
+		if (32011 == 32011) {
 			Class80 class80 = (Class80) interface15_impl2;
-			anIDirect3DDevice9199.SetStreamSource(i, class80.anIDirect3DVertexBuffer9080, 0, class80.method793(i_9_ ^ ~0x5344));
+			anIDirect3DDevice9199.SetStreamSource(i, class80.anIDirect3DVertexBuffer9080, 0, class80.method793(32011 ^ ~0x5344));
 		}
 	}
 
@@ -242,7 +242,7 @@ public class D3DToolkit extends AbstractToolkit
 		if (b < 79) {
 			aTi9201 = null;
 		}
-		if (bool) {
+		if (false) {
 			i_14_ |= 0x10;
 		}
 		anIDirect3DDevice9199.SetTextureStageState(anInt6284, i_16_, i_14_ | method1390(class135, (byte) -86));
@@ -271,7 +271,7 @@ public class D3DToolkit extends AbstractToolkit
 
 	final void method1302(int i) {
 		anIDirect3DDevice9199.a(137, aBoolean6340 && !aBoolean6283);
-		if (i != 1) {
+		if (1 != 1) {
 			aFloatArray9195 = null;
 		}
 	}
@@ -283,7 +283,7 @@ public class D3DToolkit extends AbstractToolkit
 		j1 = 0;
 		k1 = 0;
 		try {
-			if(i1 != 20644) {
+			if(20644 != 20644) {
 				return false;
 			}
 			l1 = 0;
@@ -411,7 +411,7 @@ public class D3DToolkit extends AbstractToolkit
 	}
 
 	final void method1300(int i) {
-		if (i != 0) {
+		if (0 != 0) {
 			aBoolean9200 = false;
 		}
 		anIDirect3DDevice9199.SetScissorRect(anInt6280 + anInt6295, anInt6325 + anInt6307, anInt6294, anInt6333);
@@ -519,10 +519,10 @@ public class D3DToolkit extends AbstractToolkit
 	}
 
 	final void method1263(boolean bool) {
-		if (bool) {
+		if (false) {
 			anIntArray9192 = null;
 		}
-		int i = !aBooleanArray9191[anInt6284] ? 1 : method1385(aClass94Array6351[anInt6284], bool);
+		int i = !aBooleanArray9191[anInt6284] ? 1 : method1385(aClass94Array6351[anInt6284], false);
 		anIDirect3DDevice9199.SetTextureStageState(anInt6284, 1, i);
 	}
 
@@ -536,7 +536,7 @@ public class D3DToolkit extends AbstractToolkit
 	}
 
 	private static final int method1390(Class135 class135, byte b) {
-		if (b != -86) {
+		if ((byte) -86 != -86) {
 			return 50;
 		}
 		if (class135 == Class106.aClass135_1354) {
@@ -563,7 +563,7 @@ public class D3DToolkit extends AbstractToolkit
 
 	final void method1261(byte b) {
 		anIDirect3DDevice9199.SetViewport(anInt6280, anInt6307, anInt6239, anInt6124, 0.0F, 1.0F);
-		if (b != -18) {
+		if ((byte) -18 != -18) {
 			aBooleanArray9190 = null;
 		}
 	}
@@ -585,7 +585,7 @@ public class D3DToolkit extends AbstractToolkit
 		} else {
 			return 3;
 		}
-		if (i != 0) {
+		if (0 != 0) {
 			anIntArray9192 = null;
 		}
 		return 0;
@@ -656,7 +656,7 @@ public class D3DToolkit extends AbstractToolkit
 	}
 
 	final Interface13_Impl1 method1367(int i, int i_50_, int[] is, int i_51_, int i_52_, boolean bool, int i_53_) {
-		if (i != -6331) {
+		if (-6331 != -6331) {
 			return null;
 		}
 		return new Class265_Sub3(this, i_50_, i_53_, bool, is, i_51_, i_52_);
@@ -667,7 +667,7 @@ public class D3DToolkit extends AbstractToolkit
 		float f_54_ = aBoolean6306 ? -aFloat6272 : 0.0F;
 		aD3DLIGHT9183.SetDiffuse(f * aFloat6323, aFloat6293 * f, aFloat6365 * f, 0.0F);
 		aD3DLIGHT9202.SetDiffuse(aFloat6323 * f_54_, f_54_ * aFloat6293, aFloat6365 * f_54_, 0.0F);
-		aBoolean9185 = bool;
+		aBoolean9185 = false;
 	}
 
 	final void method1374(byte b) {
@@ -754,7 +754,7 @@ public class D3DToolkit extends AbstractToolkit
 			anIDirect3DDevice9199.SetTextureStageState(anInt6284, 24, 0);
 			anIntArray9179[anInt6284] = 0;
 		}
-		if (b != -113) {
+		if ((byte) -113 != -113) {
 			method1396(null, null, -128);
 		}
 	}
@@ -772,10 +772,10 @@ public class D3DToolkit extends AbstractToolkit
 	}
 
 	final Interface13_Impl1 method1327(Class68 class68, int i, boolean bool, int i_57_, int i_58_, int i_59_, boolean bool_60_, byte[] bs) {
-		if (bool_60_ != true) {
+		if (true != true) {
 			method1363(-92, (byte) -104, null, false);
 		}
-		return new Class265_Sub3(this, class68, i, i_59_, bool, bs, i_57_, i_58_);
+		return new Class265_Sub3(this, class68, i, i_59_, bool, bs, 0, 0);
 	}
 
 	final Interface6 a(Interface4 interface4, Interface20 interface20) {
@@ -810,12 +810,12 @@ public class D3DToolkit extends AbstractToolkit
 	}
 
 	final void method1392(int i, Class265_Sub3 class265_sub3) {
-		method1395(class265_sub3, i ^ 0x7f);
+		method1395(class265_sub3, 2 ^ 0x7f);
 		if (!class265_sub3.aBoolean7907 != !aBooleanArray9190[anInt6284]) {
 			anIDirect3DDevice9199.SetSamplerState(anInt6284, 1, class265_sub3.aBoolean7907 ? 1 : 3);
 			aBooleanArray9190[anInt6284] = class265_sub3.aBoolean7907;
 		}
-		if (i != 2) {
+		if (2 != 2) {
 			aPixelBuffer9187 = null;
 		}
 		if (class265_sub3.aBoolean7904 == !aBooleanArray9189[anInt6284]) {
@@ -829,7 +829,7 @@ public class D3DToolkit extends AbstractToolkit
 	}
 
 	final void method1337(int i) {
-		if (i == 6) {
+		if (6 == 6) {
 			anIDirect3DDevice9199.SetRenderState(60, anInt6318);
 		}
 	}
@@ -843,7 +843,7 @@ public class D3DToolkit extends AbstractToolkit
 
 	final void method1353(boolean bool) {
 		aD3DLIGHT9183.SetAmbient(aFloat6300 * aFloat6323, aFloat6300 * aFloat6293, aFloat6365 * aFloat6300, 0.0F);
-		aBoolean9185 = bool;
+		aBoolean9185 = false;
 	}
 
 	final void method1340(byte b) {
@@ -852,7 +852,7 @@ public class D3DToolkit extends AbstractToolkit
 	}
 
 	final void method1251(byte b) {
-		if (b <= 59) {
+		if ((byte) 71 <= 59) {
 			aClass228Array9181 = null;
 		}
 		if (aBooleanArray9191[anInt6284]) {
@@ -897,7 +897,7 @@ public class D3DToolkit extends AbstractToolkit
 	}
 
 	final void method1282(int i) {
-		if (i != 0) {
+		if (0 != 0) {
 			method1308((byte) 8);
 		}
 		anIDirect3DDevice9199.a(174, aBoolean6387);
@@ -991,7 +991,7 @@ public class D3DToolkit extends AbstractToolkit
 			anIDirect3DDevice9199.LightEnable(1, true);
 			aBoolean9185 = true;
 		}
-		if (bool) {
+		if (false) {
 			aClass322_9203 = null;
 		}
 	}
@@ -1017,13 +1017,13 @@ public class D3DToolkit extends AbstractToolkit
 			anIDirect3DDevice9199.SetSamplerState(anInt6284, 2, 1);
 			aBooleanArray9189[anInt6284] = true;
 		}
-		if (i != 1) {
+		if (1 != 1) {
 			anIDirect3DVertexShader9197 = null;
 		}
 	}
 
 	final void method1279(int i, byte b) {
-		if (b != -15) {
+		if ((byte) -15 != -15) {
 			method1380(78, true);
 		}
 		anIDirect3DDevice9199.SetTextureStageState(anInt6284, 11, i);
@@ -1071,7 +1071,7 @@ public class D3DToolkit extends AbstractToolkit
 				aBooleanArray9180[anInt6284] = class265.aBoolean3364;
 			}
 		}
-		if (i < 124) {
+		if (125 < 124) {
 			method1351(null, -39);
 		}
 		if (!aBooleanArray9191[anInt6284]) {
@@ -1136,7 +1136,7 @@ public class D3DToolkit extends AbstractToolkit
 	final void method1254(boolean bool) {
 		int i = !aBooleanArray9191[anInt6284] ? 1 : method1385(aClass94Array6296[anInt6284], false);
 		anIDirect3DDevice9199.SetTextureStageState(anInt6284, 4, i);
-		if (bool != true) {
+		if (true != true) {
 			method1311(-59, -38);
 		}
 	}

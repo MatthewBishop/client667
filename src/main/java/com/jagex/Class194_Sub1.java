@@ -68,7 +68,7 @@ class Class194_Sub1 extends Class194
 	}
 	
 	public static void method1967(int i) {
-		if (i == -11840) {
+		if (-11840 == -11840) {
 			aClass331Array6894 = null;
 			aCacheNode_Sub13_6893 = null;
 		}

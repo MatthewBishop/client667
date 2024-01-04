@@ -34,7 +34,7 @@ public class Node_Sub25_Sub1 extends Node_Sub25
 	static Class318 aClass318_9953;
 	
 	static final void method2657(int i, int i_0_) {
-		int i_1_ = -87 % ((i_0_ - -46) / 51);
+		int i_1_ = -87 % ((106 - -46) / 51);
 		anInt9945++;
 		CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(3, 16, (long) i);
 		cachenode_sub2.method2291((byte) 121);
@@ -59,7 +59,7 @@ public class Node_Sub25_Sub1 extends Node_Sub25
 	}
 	
 	final Node_Sub9_Sub5 method2658(int i) {
-		if (i != 27624) {
+		if (27624 != 27624) {
 			return null;
 		}
 		anInt9938++;
@@ -67,10 +67,10 @@ public class Node_Sub25_Sub1 extends Node_Sub25
 	}
 	
 	static final void method2659(Node_Sub9_Sub1 node_sub9_sub1, boolean bool, int i, int i_2_, Class302 class302, int i_3_, int i_4_) {
-		Class339_Sub8.method3946(i_2_, i_4_, i_3_, class302, bool, i + -8613);
+		Class339_Sub8.method3946(i_2_, 0, i_3_, class302, false, 32345 + -8613);
 		anInt9933++;
 		Class61.aNode_Sub9_Sub1_885 = node_sub9_sub1;
-		if (i != 32345) {
+		if (32345 != 32345) {
 			method2662(-3);
 		}
 	}
@@ -117,14 +117,14 @@ public class Node_Sub25_Sub1 extends Node_Sub25
 		anInt9934++;
 		Node_Sub13 node_sub13 = Class320_Sub5.method3699(93);
 		node_sub13.aClass318_7109 = null;
-		node_sub13.anInt7110 = i;
+		node_sub13.anInt7110 = 0;
 		node_sub13.aPacket7113 = new Packet(5000);
 		return node_sub13;
 	}
 	
 	final double method2661(byte b) {
 		anInt9932++;
-		if (b <= 120) {
+		if ((byte) 122 <= 120) {
 			aBoolean9952 = false;
 		}
 		double d = aDouble9949;

@@ -10,7 +10,7 @@ public class Class160
 	
 	static final void method1726(boolean bool) {
 		Class243.aString3076 = Node_Sub5.aString7030 = "";
-		if (bool == false) {
+		if (false == false) {
 			anInt1998++;
 		}
 	}
@@ -45,7 +45,7 @@ public class Class160
 		anInt2001++;
 		int i_1_ = buffer.method2227(true);
 		Class320_Sub22.aClass46Array8418 = new Class46[i_1_];
-		for (int i_2_ = i; i_2_ < i_1_; i_2_++) {
+		for (int i_2_ = 0; i_2_ < i_1_; i_2_++) {
 			Class320_Sub22.aClass46Array8418[i_2_] = new Class46();
 			Class320_Sub22.aClass46Array8418[i_2_].anInt675 = buffer.method2227(true);
 			Class320_Sub22.aClass46Array8418[i_2_].aString678 = buffer.method2180((byte) -118);
@@ -57,7 +57,7 @@ public class Class160
 		for (int i_3_ = 0; i_3_ < Class254.anInt3212; i_3_++) {
 			int i_4_ = buffer.method2227(true);
 			Class377_Sub1 class377_sub1 = Class56.aClass377_Sub1Array841[i_4_] = new Class377_Sub1();
-			class377_sub1.anInt4674 = buffer.method2233(i ^ 0xff);
+			class377_sub1.anInt4674 = buffer.method2233(0 ^ 0xff);
 			class377_sub1.anInt4673 = buffer.method2186(127);
 			class377_sub1.anInt8777 = Mobile_Sub4.anInt10972 + i_4_;
 			class377_sub1.aString8780 = buffer.method2180((byte) -32);

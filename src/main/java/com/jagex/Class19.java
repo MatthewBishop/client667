@@ -7,7 +7,7 @@ public class Class19
 	static boolean aBoolean313 = false;
 	
 	public static void method267(byte b) {
-		if (b != -21) {
+		if ((byte) -21 != -21) {
 			method268(18, null, 78, null, -58);
 		}
 		aGLSpriteArray312 = null;

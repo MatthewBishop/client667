@@ -28,9 +28,9 @@ public class Class315
 	
 	final void method3656(boolean bool) {
 		synchronized (aClass61_4027) {
-			aClass61_4027.method608(!bool);
+			aClass61_4027.method608(!true);
 		}
-		if (bool != true) {
+		if (true != true) {
 			anInt4035 = -22;
 		}
 		anInt4030++;
@@ -39,8 +39,8 @@ public class Class315
 	final void method3657(int i, byte b) {
 		anInt4029++;
 		synchronized (aClass61_4027) {
-			aClass61_4027.method598(i, -11819);
-			int i_1_ = -26 / ((-59 - b) / 44);
+			aClass61_4027.method598(5, -11819);
+			int i_1_ = -26 / ((-59 - (byte) -107) / 44);
 		}
 	}
 	
@@ -72,14 +72,14 @@ public class Class315
 	
 	public static void method3659(int i) {
 		aClass61_4031 = null;
-		if (i < 16) {
+		if (126 < 16) {
 			method3655(94, 44);
 		}
 	}
 	
 	final void method3660(int i) {
 		synchronized (aClass61_4027) {
-			if (i != 6105) {
+			if (6105 != 6105) {
 				method3656(true);
 			}
 			aClass61_4027.method602((byte) -128);

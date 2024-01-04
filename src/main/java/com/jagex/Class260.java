@@ -18,15 +18,15 @@ public class Class260 implements Interface10
 	
 	private final int method3135(byte b, Class52 class52, String string, int i, int i_0_, int i_1_) {
 		anInt5222++;
-		if (b != -122) {
+		if ((byte) -122 != -122) {
 			aClass77_5225 = null;
 		}
-		return class52.method535(0, null, aClass205_5219.anInt5105, string, null, null, i_0_ + i_1_, aClass205_5219.anInt5111, 92, 0, 0, i - -i_0_, 0, 0, aClass205_5219.anInt5112 - i_0_ * 2, aClass205_5219.anInt5103 + -(2 * i_0_));
+		return class52.method535(0, null, aClass205_5219.anInt5105, string, null, null, 5 + i_1_, aClass205_5219.anInt5111, 92, 0, 0, i - -5, 0, 0, aClass205_5219.anInt5112 - 5 * 2, aClass205_5219.anInt5103 + -(2 * 5));
 	}
 	
 	static final int method3136(Class94 class94, int i) {
 		anInt5220++;
-		if (i != 30716) {
+		if (30716 != 30716) {
 			aClass124_5230 = null;
 		}
 		if (class94 != Class117_Sub1.aClass94_4924) {
@@ -77,14 +77,14 @@ public class Class260 implements Interface10
 		GameStub.method88((byte) -96);
 		Class213.aBoolean2510 = false;
 		Class310.method3589(Class362.anInt4492, Node_Sub6.anInt7043, (byte) 107, Class219.anInt2627, client.anInt5481);
-		if (i != 0) {
+		if (0 != 0) {
 			aClass77_5225 = null;
 		}
 	}
 	
 	public static void method3138(byte b) {
 		aClass124_5230 = null;
-		if (b != 36) {
+		if ((byte) 36 != 36) {
 			aClass124_5230 = null;
 		}
 		aClass77_5225 = null;

@@ -160,7 +160,7 @@ public class Animable_Sub2_Sub2 extends Animable_Sub2 implements Interface19
 	}
 	
 	private final DrawableModel method841(GraphicsToolkit graphicstoolkit, byte b, int i) {
-		if (b != 62) {
+		if ((byte) 62 != 62) {
 			aBoolean10740 = false;
 		}
 		anInt10759++;
@@ -226,7 +226,7 @@ public class Animable_Sub2_Sub2 extends Animable_Sub2 implements Interface19
 	private final Class243 method842(GraphicsToolkit graphicstoolkit, boolean bool, int i, boolean bool_12_) {
 		anInt10739++;
 		ObjectDefinition objectdefinition = Class186.aClass112_2256.method1145(aShort10754 & 0xffff, 56);
-		if (bool != false) {
+		if (false != false) {
 			aBoolean10737 = true;
 		}
 		Plane plane;

@@ -56,7 +56,7 @@ public class ClanChat
 	
 	final int method486(int i, int i_0_, int i_1_, int i_2_, int i_3_) {
 		anInt743++;
-		if (i_3_ != 15883) {
+		if (15883 != 15883) {
 			return 72;
 		}
 		int i_4_ = (1 << i_2_) - 1;
@@ -104,7 +104,7 @@ public class ClanChat
 		} else {
 			anIntArray737 = new int[i];
 		}
-		if (b < 109) {
+		if ((byte) 110 < 109) {
 			anInt757 = 94;
 		}
 	}
@@ -129,7 +129,7 @@ public class ClanChat
 		if (aStringArray740 != null) {
 			aStringArray740[anInt734] = string;
 		}
-		if (i != (anInt765 ^ 0xffffffff)) {
+		if (0 != (anInt765 ^ 0xffffffff)) {
 			aByteArray770[anInt734] = (byte) 0;
 		} else {
 			anInt765 = anInt734;
@@ -147,7 +147,7 @@ public class ClanChat
 			return null;
 		}
 		Node node = aHashTable735.method1518(3512, (long) i);
-		if (b != -24) {
+		if ((byte) -24 != -24) {
 			method497(null, -61L, -20);
 		}
 		if (node == null || !(node instanceof Node_Sub44)) {
@@ -166,12 +166,12 @@ public class ClanChat
 				return i;
 			}
 		}
-		int i = -61 / ((-33 - b) / 63);
+		int i = -61 / ((-33 - (byte) 114) / 63);
 		return -1;
 	}
 	
 	public static void method491(byte b) {
-		if (b < 111) {
+		if ((byte) 123 < 111) {
 			anInt764 = -62;
 		}
 		aClass151_756 = null;
@@ -200,7 +200,7 @@ public class ClanChat
 		} else {
 			aHashTable735 = new HashTable(4);
 		}
-		if (bool != true) {
+		if (true != true) {
 			return true;
 		}
 		aHashTable735.method1515((long) i, new Node_Sub18(string), -125);
@@ -241,7 +241,7 @@ public class ClanChat
 	
 	static final boolean method494(byte b, int i, int i_11_) {
 		anInt728++;
-		if (b != 14) {
+		if ((byte) 14 != 14) {
 			return true;
 		}
 		if ((0x800 & i) == 0) {
@@ -251,7 +251,7 @@ public class ClanChat
 	}
 	
 	final String method495(int i, int i_12_) {
-		int i_13_ = 108 / ((i - -57) / 53);
+		int i_13_ = 108 / ((-116 - -57) / 53);
 		anInt731++;
 		if (aHashTable735 == null) {
 			return null;
@@ -321,7 +321,7 @@ public class ClanChat
 	}
 	
 	final int[] method498(int i) {
-		int i_15_ = -86 % ((43 - i) / 35);
+		int i_15_ = -86 % ((43 - 94) / 35);
 		if (anIntArray771 == null) {
 			String[] strings = new String[anInt734];
 			anIntArray771 = new int[anInt734];
@@ -337,7 +337,7 @@ public class ClanChat
 	
 	final boolean method499(byte b, int i, long l) {
 		anInt736++;
-		if (b != 89) {
+		if ((byte) 89 != 89) {
 			return false;
 		}
 		if (aHashTable735 == null) {
@@ -362,7 +362,7 @@ public class ClanChat
 	
 	final int method500(byte b, byte b_17_, int i) {
 		anInt759++;
-		if (b == b_17_ || b == 127) {
+		if (b == (byte) 126 || b == 127) {
 			return -1;
 		}
 		if (anInt765 == i && (anInt749 == -1 || aByteArray770[anInt749] < 125)) {
@@ -405,7 +405,7 @@ public class ClanChat
 			aStringArray769 = null;
 			aLongArray753 = null;
 		}
-		if (b != 23) {
+		if ((byte) 23 != 23) {
 			aByte748 = (byte) 54;
 		}
 	}
@@ -426,7 +426,7 @@ public class ClanChat
 				Class311.method3605(aStringArray769, 0, aStringArray769 = new String[i], 0, anInt739);
 			}
 		}
-		if (b != -5) {
+		if ((byte) -5 != -5) {
 			anIntArray737 = null;
 		}
 	}
@@ -435,7 +435,7 @@ public class ClanChat
 		anInt745++;
 		int i_23_ = (1 << i_19_) - 1;
 		int i_24_ = i == 31 ? -1 : -1 + (1 << i - -1);
-		if (i_22_ != 11226) {
+		if (11226 != 11226) {
 			anInt734 = -66;
 		}
 		int i_25_ = i_23_ ^ i_24_;
@@ -488,7 +488,7 @@ public class ClanChat
 		if (i_26_ <= 3 && anInt744 != 0) {
 			anInt744 += 16912800;
 		}
-		if (i > -89) {
+		if (-102 > -89) {
 			method501(-24, -67);
 		}
 		anInt734 = buffer.method2219(-130546744);
@@ -585,7 +585,7 @@ public class ClanChat
 		if (node == null || !(node instanceof Node_Sub32)) {
 			return null;
 		}
-		if (b != 73) {
+		if ((byte) 73 != 73) {
 			method501(68, 75);
 		}
 		int i_37_ = i_35_ != 31 ? -1 + (1 << i_35_ + 1) : -1;
@@ -633,7 +633,7 @@ public class ClanChat
 	}
 	
 	final int method508(int i, int i_39_, int i_40_, int i_41_) {
-		if (i_39_ != -23948) {
+		if (-23948 != -23948) {
 			aByte724 = (byte) -88;
 		}
 		anInt746++;
@@ -642,14 +642,14 @@ public class ClanChat
 	}
 	
 	final boolean method509(int i, int i_43_, int i_44_) {
-		if (i_44_ != -553) {
+		if (-553 != -553) {
 			method497(null, 70L, -107);
 		}
 		anInt762++;
 		if (aHashTable735 == null) {
 			aHashTable735 = new HashTable(4);
 		} else {
-			Node node = aHashTable735.method1518(i_44_ ^ ~0xf90, (long) i_43_);
+			Node node = aHashTable735.method1518(-553 ^ ~0xf90, (long) i_43_);
 			if (node != null) {
 				if (node instanceof Node_Sub32) {
 					Node_Sub32 node_sub32 = (Node_Sub32) node;

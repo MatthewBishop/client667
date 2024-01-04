@@ -24,7 +24,7 @@ public class Class137
 	final void method1594(byte b) {
 		anInt1713++;
 		aClass349ArrayArray1703 = new Class349[anInt1702][anInt1708];
-		if (b < 0) {
+		if ((byte) -111 < 0) {
 			for (int i = 0; i < anInt1708; i++) {
 				for (int i_0_ = 0; i_0_ < anInt1702; i_0_++)
 					aClass349ArrayArray1703[i_0_][i] = new Class349(aGLToolkit1714, this, aGLPlane1707, i_0_, i, anInt1711, i_0_ * 128 + 1, 1 + i * 128);
@@ -81,7 +81,7 @@ public class Class137
 	final void method1596(int i, boolean bool, boolean bool_12_, int i_13_, boolean[][] bools, int i_14_) {
 		anInt1717++;
 		aGLToolkit1714.method1451(false, -31277);
-		if (bool_12_ != true) {
+		if (true != true) {
 			method1595((byte) 59, -97, -49, null);
 		}
 		aGLToolkit1714.method1415(771, false);
@@ -168,7 +168,7 @@ public class Class137
 		anInt1710++;
 		r_Sub2 var_r_Sub2 = (r_Sub2) var_r;
 		i_36_ += var_r_Sub2.anInt11067 - -1;
-		i_35_ += i + var_r_Sub2.anInt11064;
+		i_35_ += 1 + var_r_Sub2.anInt11064;
 		int i_37_ = i_36_ * anInt1706 + i_35_;
 		int i_38_ = var_r_Sub2.anInt11055;
 		int i_39_ = var_r_Sub2.anInt11057;
@@ -209,7 +209,7 @@ public class Class137
 		i += 1 + var_r_Sub2.anInt11067;
 		i_46_ += var_r_Sub2.anInt11064 - -1;
 		int i_47_ = anInt1706 * i + i_46_;
-		if (b <= 60) {
+		if ((byte) 63 <= 60) {
 			method1600(30);
 		}
 		int i_48_ = 0;
@@ -253,7 +253,7 @@ public class Class137
 		anInt1716++;
 		if (aClass349ArrayArray1703 != null) {
 			int i_61_ = i_60_ + -1 >> 7;
-			int i_62_ = i + (-1 + i_60_ + i_59_) >> 7;
+			int i_62_ = -1 + (-1 + i_60_ + i_59_) >> 7;
 			int i_63_ = -1 + i_57_ >> 7;
 			int i_64_ = -1 + (-1 + (i_57_ + i_58_)) >> 7;
 			for (int i_65_ = i_61_; i_65_ <= i_62_; i_65_++) {

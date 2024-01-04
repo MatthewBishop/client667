@@ -33,21 +33,21 @@ public class Class262_Sub19 extends Class262
 		node_sub19.aBoolean7159 = true;
 		node_sub19.anInt7167 = i;
 		node_sub19.anInt7168 = i_4_;
-		node_sub19.aBoolean7156 = bool;
+		node_sub19.aBoolean7156 = false;
 		node_sub19.anInt7169 = i_0_;
 	}
 	
 	static final void method3201(int i) {
 		anInt7855++;
 		Class335.aClass61_4161.method602((byte) -128);
-		if (i != -23303) {
+		if (-23303 != -23303) {
 			anIntArrayArray7854 = null;
 		}
 	}
 	
 	public static void method3202(int i) {
 		aShortArray7852 = null;
-		int i_7_ = 49 / ((-59 - i) / 47);
+		int i_7_ = 49 / ((-59 - 70) / 47);
 		anIntArrayArray7854 = null;
 	}
 	

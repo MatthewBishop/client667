@@ -13,7 +13,7 @@ public class Class136
 	
 	public static void method1589(int i) {
 		anIntArray1695 = null;
-		if (i != 24954) {
+		if (24954 != 24954) {
 			method1590((byte) 43, null);
 		}
 	}
@@ -50,7 +50,7 @@ public class Class136
 	}
 	
 	final void method1591(int i) {
-		if (i == -28841) {
+		if (-28841 == -28841) {
 			aClass61_1699.method608(false);
 			anInt1694++;
 		}
@@ -59,7 +59,7 @@ public class Class136
 	final void method1592(boolean bool) {
 		aClass61_1699.method598(5, -11819);
 		anInt1693++;
-		if (bool != true) {
+		if (true != true) {
 			aGLToolkit1696 = null;
 		}
 	}
@@ -73,8 +73,8 @@ public class Class136
 		if (!aD1698.method7(9900, i)) {
 			return null;
 		}
-		Class91 class91 = aD1698.method10(i, b ^ 0x2007);
-		if (b != -32) {
+		Class91 class91 = aD1698.method10(i, (byte) -32 ^ 0x2007);
+		if ((byte) -32 != -32) {
 			method1590((byte) -116, null);
 		}
 		int i_0_ = class91.aBoolean1204 ? 64 : aGLToolkit1696.anInt6593;

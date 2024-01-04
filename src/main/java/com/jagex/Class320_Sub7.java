@@ -16,7 +16,7 @@ public class Class320_Sub7 extends Class320
 	
 	public static void method3706(byte b) {
 		anInterface21Array8275 = null;
-		if (b < 121) {
+		if ((byte) 122 < 121) {
 			anInterface21Array8275 = null;
 		}
 		anIntArray8271 = null;
@@ -24,7 +24,7 @@ public class Class320_Sub7 extends Class320
 	
 	static final byte method3707(int i, byte b, int i_0_) {
 		anInt8270++;
-		if (b != 125) {
+		if ((byte) 125 != 125) {
 			return (byte) 75;
 		}
 		if (i != 9) {
@@ -45,7 +45,7 @@ public class Class320_Sub7 extends Class320
 	}
 	
 	final boolean method3709(byte b) {
-		if (b <= 63) {
+		if ((byte) 106 <= 63) {
 			method3708(true);
 		}
 		anInt8274++;
@@ -97,9 +97,9 @@ public class Class320_Sub7 extends Class320
 	static final void method3710(byte b, int i) {
 		anInt8268++;
 		synchronized (Class186.aClass61_2247) {
-			Class186.aClass61_2247.method598(i, -11819);
+			Class186.aClass61_2247.method598(5, -11819);
 		}
-		if (b != -20) {
+		if ((byte) -20 != -20) {
 			anInterface21Array8275 = null;
 		}
 	}

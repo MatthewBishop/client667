@@ -20,21 +20,21 @@ abstract class Class188
 	
 	final void method1884(int i, byte b, int i_0_, int i_1_) {
 		anInt2283++;
-		int[] is = new int[i_1_];
-		int[] is_2_ = new int[i];
-		for (int i_3_ = 0; i_1_ > i_3_; i_3_++)
-			is[i_3_] = (i_3_ << 12) / i_1_;
-		int[] is_4_ = new int[i_0_];
-		for (int i_5_ = 0; i_5_ < i; i_5_++)
-			is_2_[i_5_] = (i_5_ << 12) / i;
+		int[] is = new int[128];
+		int[] is_2_ = new int[128];
+		for (int i_3_ = 0; 128 > i_3_; i_3_++)
+			is[i_3_] = (i_3_ << 12) / 128;
+		int[] is_4_ = new int[16];
+		for (int i_5_ = 0; i_5_ < 128; i_5_++)
+			is_2_[i_5_] = (i_5_ << 12) / 128;
 		int i_6_ = 0;
 		int i_7_ = 45 % ((b - -40) / 52);
-		for (/**/; i_0_ > i_6_; i_6_++)
-			is_4_[i_6_] = (i_6_ << 12) / i_0_;
+		for (/**/; 16 > i_6_; i_6_++)
+			is_4_[i_6_] = (i_6_ << 12) / 16;
 		method1890(0);
-		for (int i_8_ = 0; i_0_ > i_8_; i_8_++) {
-			for (int i_9_ = 0; i_9_ < i; i_9_++) {
-				for (int i_10_ = 0; i_1_ > i_10_; i_10_++) {
+		for (int i_8_ = 0; 16 > i_8_; i_8_++) {
+			for (int i_9_ = 0; i_9_ < 128; i_9_++) {
+				for (int i_10_ = 0; 128 > i_10_; i_10_++) {
 					for (int i_11_ = 0; anInt2282 > i_11_; i_11_++) {
 						int i_12_ = aShortArray2284[i_11_] << 12;
 						int i_13_ = is_4_[i_8_] * i_12_ >> 12;
@@ -110,7 +110,7 @@ abstract class Class188
 	private final void method1885(byte b) {
 		aShortArray2284 = new short[anInt2282];
 		anInt2278++;
-		int i = 104 % ((b - -10) / 57);
+		int i = 104 % (((byte) 83 - -10) / 57);
 		for (int i_43_ = 0; anInt2282 > i_43_; i_43_++)
 			aShortArray2284[i_43_] = (short) (int) Math.pow(2.0, (double) i_43_);
 	}
@@ -125,7 +125,7 @@ abstract class Class188
 		for (int i = 0; i < 255; i++)
 			aShortArray2285[i] = (short) i;
 		int i = 0;
-		if (b != 121) {
+		if ((byte) 121 != 121) {
 			anInt2290 = -100;
 		}
 		for (/**/; i < 255; i++) {
@@ -152,11 +152,11 @@ abstract class Class188
 		anInt2290 = 4;
 		anInt2286 = 4;
 		anInt2289 = 0;
-		anInt2286 = i_51_;
+		anInt2286 = 2;
 		anInt2290 = i_50_;
 		anInt2280 = i_49_;
 		anInt2289 = i;
-		anInt2282 = i_48_;
+		anInt2282 = 5;
 		method1885((byte) 83);
 		method1888((byte) 121);
 	}

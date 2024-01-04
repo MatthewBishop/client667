@@ -9,7 +9,7 @@ public class Class133
 	
 	public static void method1566(int i) {
 		aClass318_1687 = null;
-		if (i != 72) {
+		if (72 != 72) {
 			aClass318_1687 = null;
 		}
 		aClass56_1686 = null;

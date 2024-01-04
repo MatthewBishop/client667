@@ -225,7 +225,7 @@ public class Npc extends Actor
 		if (bool_20_) {
 			drawablemodel.method626(aByte10896, aByte10878, aByte10884, aByte10888 & 0xff);
 		}
-		if (bool != true) {
+		if (true != true) {
 			return true;
 		}
 		this.method848(i_16_, i_19_, graphicstoolkit, class259, i_21_, i_18_, -69);
@@ -351,7 +351,7 @@ public class Npc extends Actor
 	}
 	
 	final void method877(int i, boolean bool, int i_27_, int i_28_, int i_29_, int i_30_) {
-		if (i != -15694) {
+		if (-15694 != -15694) {
 			method862((byte) 31);
 		}
 		aByte5933 = aByte5931 = (byte) i_29_;
@@ -365,7 +365,7 @@ public class Npc extends Actor
 		}
 		for (int i_31_ = 0; i_31_ < aClass165Array10886.length; i_31_++) {
 			if (aClass165Array10886[i_31_].anInt2030 != -1) {
-				Class195 class195 = Class16.aClass101_228.method1090(i ^ 0x3d20, aClass165Array10886[i_31_].anInt2030);
+				Class195 class195 = Class16.aClass101_228.method1090(-15694 ^ 0x3d20, aClass165Array10886[i_31_].anInt2030);
 				if (class195.aBoolean2402 && class195.anInt2394 != -1 && Class18.aClass37_306.method395(class195.anInt2394, (byte) -83).anInt718 == 1) {
 					aClass165Array10886[i_31_].anAnimator2026.method249(true, -1);
 					aClass165Array10886[i_31_].anInt2030 = -1;
@@ -403,17 +403,17 @@ public class Npc extends Actor
 	}
 	
 	Npc(int i) {
-		super(i);
+		super(25);
 		anInt11100 = -1;
 		anInt11124 = 1;
 		anInt11126 = 1;
 	}
 	
 	final void method878(int i, int i_35_, String string, byte b) {
-		int i_36_ = -21 / ((b - -4) / 49);
+		int i_36_ = -21 / (((byte) -60 - -4) / 49);
 		anInt11105++;
 		int i_37_ = Node_Sub15_Sub10.method2578((byte) -128) * CacheNode_Sub4.aClass1_9466.anInt116;
-		this.method864(i_37_, string, false, i_35_, i);
+		this.method864(i_37_, string, false, 0, 0);
 	}
 	
 	final void method820(GraphicsToolkit graphicstoolkit, int i) {
@@ -440,7 +440,7 @@ public class Npc extends Actor
 	}
 	
 	final void method879(NpcDefinition npcdefinition, boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			method810(72, -105, false, null);
 		}
 		if (npcdefinition != aNpcDefinition11122 && Class213.aBoolean2510 && Node_Sub23_Sub1.method2640(anInt10858, -60)) {
@@ -539,7 +539,7 @@ public class Npc extends Actor
 	
 	final int method818(byte b) {
 		anInt11098++;
-		int i = 8 % ((b - -21) / 46);
+		int i = 8 % (((byte) 47 - -21) / 46);
 		if (aNpcDefinition11122 == null) {
 			return 0;
 		}

@@ -56,7 +56,7 @@ public class Class379
 		StringBuffer stringbuffer = new StringBuffer();
 		int i = string.length();
 		int i_3_ = 0;
-		if (b != 53) {
+		if ((byte) 53 != 53) {
 			aClass329_4873 = null;
 		}
 		for (/**/; i > i_3_; i_3_++) {
@@ -113,7 +113,7 @@ public class Class379
 	
 	public static void method4163(byte b) {
 		aClass329_4873 = null;
-		if (b != 66) {
+		if ((byte) 66 != 66) {
 			aClass61_4872 = null;
 		}
 		aClass318_4869 = null;
@@ -121,7 +121,7 @@ public class Class379
 	}
 	
 	static final int method4164(int i, byte b) {
-		if (b < 18) {
+		if ((byte) 104 < 18) {
 			return 28;
 		}
 		anInt4867++;

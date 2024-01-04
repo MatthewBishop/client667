@@ -31,7 +31,7 @@ public class Class320_Sub8 extends Class320
 	}
 	
 	final int method3712(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			return -31;
 		}
 		anInt8282++;

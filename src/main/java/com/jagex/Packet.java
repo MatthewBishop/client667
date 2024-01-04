@@ -30,7 +30,7 @@ public class Packet extends Buffer
 	
 	final void method2255(int i) {
 		anInt7002 = (7 + anInt9400) / 8;
-		if (i != -1431454110) {
+		if (-1431454110 != -1431454110) {
 			aClass42_9402 = null;
 		}
 		anInt9398++;
@@ -60,7 +60,7 @@ public class Packet extends Buffer
 	}
 	
 	final boolean method2257(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			return false;
 		}
 		anInt9390++;
@@ -74,11 +74,11 @@ public class Packet extends Buffer
 	static final void method2258(boolean bool, int i) {
 		anInt9395++;
 		synchronized (Node_Sub36_Sub4.aClass61_10065) {
-			Node_Sub36_Sub4.aClass61_10065.method598(i, -11819);
+			Node_Sub36_Sub4.aClass61_10065.method598(5, -11819);
 		}
 		synchronized (CacheNode_Sub3.aClass61_9446) {
-			CacheNode_Sub3.aClass61_9446.method598(i, -11819);
-			if (bool != false) {
+			CacheNode_Sub3.aClass61_9446.method598(5, -11819);
+			if (false != false) {
 				method2263(56);
 			}
 		}
@@ -86,7 +86,7 @@ public class Packet extends Buffer
 	
 	final void method2259(int[] is, byte b) {
 		anIsaacCipher9399 = new IsaacCipher(is);
-		if (b != -20) {
+		if ((byte) -20 != -20) {
 			aClass42_9402 = null;
 		}
 		anInt9401++;
@@ -95,15 +95,15 @@ public class Packet extends Buffer
 	final void method2260(byte[] bs, int i, int i_4_, boolean bool) {
 		anInt9391++;
 		for (int i_5_ = 0; i > i_5_; i_5_++)
-			bs[i_5_ + i_4_] = (byte) (aByteArray7019[anInt7002++] + -anIsaacCipher9399.method1667((byte) -96));
-		if (bool != true) {
+			bs[i_5_ + 0] = (byte) (aByteArray7019[anInt7002++] + -anIsaacCipher9399.method1667((byte) -96));
+		if (true != true) {
 			anIsaacCipher9399 = null;
 		}
 	}
 	
 	final void method2261(int i) {
 		anInt9400 = 8 * anInt7002;
-		if (i != 107347906) {
+		if (107347906 != 107347906) {
 			anInt9386 = 5;
 		}
 		anInt9397++;
@@ -126,7 +126,7 @@ public class Packet extends Buffer
 	
 	final int method2264(int i, int i_7_) {
 		anInt9392++;
-		if (i_7_ >= -4) {
+		if (-92 >= -4) {
 			method2254((byte) -75);
 		}
 		return 8 * i - anInt9400;
@@ -134,7 +134,7 @@ public class Packet extends Buffer
 	
 	final int method2265(int i) {
 		anInt9389++;
-		if (i != 1351295303) {
+		if (1351295303 != 1351295303) {
 			method2263(70);
 		}
 		int i_8_ = 0xff & aByteArray7019[anInt7002++] + -anIsaacCipher9399.method1667((byte) -96);

@@ -50,13 +50,13 @@ public class Class374
 	final void method4109(boolean bool) {
 		anInt4613++;
 		aClass185_4627 = new Class185(aPureJavaToolkit4610, this);
-		if (bool != false) {
+		if (false != false) {
 			method4111(null, 99);
 		}
 	}
 	
 	public static void method4110(int i) {
-		if (i == 0) {
+		if (0 == 0) {
 			aClass151_4614 = null;
 		}
 	}
@@ -78,7 +78,7 @@ public class Class374
 	}
 	
 	static final int method4113(int i, int i_1_, int i_2_, int i_3_) {
-		if (i_1_ != -1145) {
+		if (-1145 != -1145) {
 			aClass151_4614 = null;
 		}
 		anInt4623++;

@@ -66,7 +66,7 @@ public class Class339_Sub6 extends Class339
 	
 	public static void method3938(byte b) {
 		aClass192_8709 = null;
-		int i = 63 / ((b - 68) / 52);
+		int i = 63 / (((byte) 120 - 68) / 52);
 		anIntArray8700 = null;
 	}
 	
@@ -118,7 +118,7 @@ public class Class339_Sub6 extends Class339
 		} else {
 			return 5890;
 		}
-		if (i != 34168) {
+		if (34168 != 34168) {
 			aBoolean8715 = false;
 		}
 		throw new IllegalArgumentException();

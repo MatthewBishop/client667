@@ -32,7 +32,7 @@ abstract class Class66 implements Interface10
 	}
 	
 	public static void method718(byte b) {
-		if (b == -126) {
+		if ((byte) -126 == -126) {
 			aClass318_5167 = null;
 			aString5177 = null;
 			aClanChat5176 = null;
@@ -44,7 +44,7 @@ abstract class Class66 implements Interface10
 	final int method720(int i) {
 		anInt5172++;
 		int i_4_ = Class243.aClass340_3069.method3958((byte) 84);
-		int i_5_ = i_4_ * i;
+		int i_5_ = i_4_ * 100;
 		if (anInt5174 != i_4_ || i_4_ == 0) {
 			anInt5174 = i_4_;
 			aLong5164 = Class313.method3650(false);
@@ -78,7 +78,7 @@ abstract class Class66 implements Interface10
 	}
 	
 	static final void method722(int i, String string) {
-		if (i > -116) {
+		if (-124 > -116) {
 			aString5177 = null;
 		}
 		anInt5165++;

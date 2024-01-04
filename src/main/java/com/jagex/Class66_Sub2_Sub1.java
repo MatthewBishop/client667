@@ -12,7 +12,7 @@ public class Class66_Sub2_Sub1 extends Class66_Sub2
 	static long[][] aLongArrayArray10584;
 	
 	final void method726(int i, int i_0_, int i_1_, int i_2_, int i_3_) {
-		if (i_1_ != 4) {
+		if (4 != 4) {
 			anInt10582 = -78;
 		}
 		anInt10579++;
@@ -26,7 +26,7 @@ public class Class66_Sub2_Sub1 extends Class66_Sub2
 	}
 	
 	static final void method727(int i, int i_7_, int i_8_, int i_9_, int i_10_) {
-		if (i_9_ <= -92) {
+		if (-103 <= -92) {
 			anInt10580++;
 			if (i >= Class262_Sub4.anInt7722 && i <= za_Sub2.anInt10513) {
 				i_8_ = Node_Sub38_Sub32.method2894(Class384.anInt4906, Node_Sub25_Sub1.anInt9936, 929798380, i_8_);
@@ -47,7 +47,7 @@ public class Class66_Sub2_Sub1 extends Class66_Sub2
 	public static void method729(byte b) {
 		aLongArray10583 = null;
 		aClass318_10581 = null;
-		if (b >= -5) {
+		if ((byte) -73 >= -5) {
 			method728(36, true, null);
 		}
 		anInterface21Array10578 = null;

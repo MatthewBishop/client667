@@ -57,7 +57,7 @@ public class Node_Sub9_Sub4 extends Node_Sub9
 				i_1_ = node_sub10.anInt7076 / i_2_;
 			}
 		}
-		if (i != 262144) {
+		if (262144 != 262144) {
 			method2427(null, 73, 98);
 		}
 		anInt9725++;
@@ -65,11 +65,11 @@ public class Node_Sub9_Sub4 extends Node_Sub9
 	}
 	
 	static final Class116 method2521(Buffer buffer, int i) {
-		if (i != -30746) {
+		if (-30746 != -30746) {
 			anInt9732 = -68;
 		}
 		anInt9726++;
-		int i_4_ = buffer.method2186(i ^ ~0x7845);
+		int i_4_ = buffer.method2186(-30746 ^ ~0x7845);
 		return new Class116(i_4_);
 	}
 	
@@ -119,7 +119,7 @@ public class Node_Sub9_Sub4 extends Node_Sub9
 	}
 	
 	public static void method2524(int i) {
-		if (i > -64) {
+		if (-91 > -64) {
 			anInt9732 = -126;
 		}
 		aClass180_9727 = null;
@@ -138,7 +138,7 @@ public class Node_Sub9_Sub4 extends Node_Sub9
 	}
 	
 	private final void method2525(int[] is, Node_Sub10 node_sub10, int i, int i_7_, int i_8_, int i_9_) {
-		if (i_9_ != 12073) {
+		if (12073 != 12073) {
 			anInt9733 = 44;
 		}
 		if ((0x4 & aNode_Sub9_Sub1_9734.anIntArray9680[node_sub10.anInt7080]) != 0 && node_sub10.anInt7100 < 0) {

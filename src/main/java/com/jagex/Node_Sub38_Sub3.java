@@ -51,7 +51,7 @@ public class Node_Sub38_Sub3 extends Node_Sub38
 	
 	public static void method2796(int i) {
 		aStringArray10105 = null;
-		if (i <= -29) {
+		if (-43 <= -29) {
 			aCharArray10101 = null;
 			aStringArray10107 = null;
 		}

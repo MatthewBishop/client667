@@ -24,7 +24,7 @@ public class Class54
 		anImage813 = null;
 		anIntArray816 = null;
 		aClass56_823 = null;
-		if (bool != true) {
+		if (true != true) {
 			anIntArray816 = null;
 		}
 	}

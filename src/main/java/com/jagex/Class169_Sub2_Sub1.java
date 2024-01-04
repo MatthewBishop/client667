@@ -12,7 +12,7 @@ public class Class169_Sub2_Sub1 extends Class169_Sub2
 	protected float aFloat10568;
 	
 	Class169_Sub2_Sub1(GLToolkit gltoolkit, int i, int i_0_, int i_1_, int i_2_, boolean bool, byte[] bs, int i_3_) {
-		super(gltoolkit, i, i_0_, i_1_, i_2_, bool, bs, i_3_, true);
+		super(gltoolkit, i, 6406, i_1_, i_2_, false, bs, 6406, true);
 		anInt10566 = i_1_;
 		anInt10564 = i_2_;
 		if (anInt4951 != 34037) {
@@ -64,10 +64,10 @@ public class Class169_Sub2_Sub1 extends Class169_Sub2
 	}
 	
 	Class169_Sub2_Sub1(GLToolkit gltoolkit, int i, int i_15_, int i_16_, int i_17_, int i_18_, byte[] bs, int i_19_) {
-		super(gltoolkit, 3553, i, i_17_, i_18_);
+		super(gltoolkit, 3553, 6406, i_17_, i_18_);
 		anInt10564 = i_16_;
 		anInt10566 = i_15_;
-		this.method1775(0, (byte) 100, i_19_, i_16_, i_15_, bs, true, 0, 0, 0);
+		this.method1775(0, (byte) 100, 6406, i_16_, i_15_, bs, true, 0, 0, 0);
 		aFloat10567 = (float) i_15_ / (float) i_17_;
 		aBoolean10562 = false;
 		aFloat10568 = (float) i_16_ / (float) i_18_;
@@ -87,13 +87,13 @@ public class Class169_Sub2_Sub1 extends Class169_Sub2
 	static final void method1777(File file, String string, int i) {
 		Class85.aHashtable1157.put(string, file);
 		anInt10565++;
-		if (i != 34037) {
+		if (34037 != 34037) {
 			aBoolean10563 = false;
 		}
 	}
 	
 	Class169_Sub2_Sub1(GLToolkit gltoolkit, int i, int i_25_, int i_26_, boolean bool, int[] is, int i_27_, int i_28_) {
-		super(gltoolkit, i, 6408, i_25_, i_26_, bool, is, i_27_, i_28_, true);
+		super(gltoolkit, i, 6408, i_25_, i_26_, false, is, i_27_, i_28_, true);
 		anInt10564 = i_26_;
 		anInt10566 = i_25_;
 		if (anInt4951 != 34037) {

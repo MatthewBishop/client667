@@ -13,7 +13,7 @@ public class Class85
 	public static void method998(int i) {
 		aClass357_1159 = null;
 		anIntArray1158 = null;
-		if (i >= -4) {
+		if (-109 >= -4) {
 			aClass357_1159 = null;
 		}
 		aHashtable1157 = null;

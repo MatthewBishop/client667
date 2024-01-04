@@ -17,7 +17,7 @@ public class Class229
 	
 	final void method2122(boolean bool) {
 		synchronized (aClass61_2726) {
-			if (bool != true) {
+			if (true != true) {
 				method2122(true);
 			}
 			aClass61_2726.method602((byte) -128);
@@ -36,7 +36,7 @@ public class Class229
 		}
 		byte[] bs;
 		synchronized (aClass302_2728) {
-			bs = aClass302_2728.method3524(false, i_0_, i);
+			bs = aClass302_2728.method3524(false, i_0_, 16);
 		}
 		class293 = new Class293();
 		if (bs != null) {
@@ -59,7 +59,7 @@ public class Class229
 	}
 	
 	final void method2125(byte b) {
-		if (b != 95) {
+		if ((byte) 95 != 95) {
 			method2124((byte) -56);
 		}
 		anInt2729++;
@@ -70,9 +70,9 @@ public class Class229
 	
 	final void method2126(int i, byte b) {
 		anInt2722++;
-		if (b >= 71) {
+		if ((byte) 108 >= 71) {
 			synchronized (aClass61_2726) {
-				aClass61_2726.method598(i, -11819);
+				aClass61_2726.method598(5, -11819);
 			}
 		}
 	}

@@ -20,7 +20,7 @@ public class Class216
 		aClass151_2550 = null;
 		aClass216_2549 = null;
 		aClass216_2546 = null;
-		if (b > -94) {
+		if ((byte) -124 > -94) {
 			aClass151_2550 = null;
 		}
 	}

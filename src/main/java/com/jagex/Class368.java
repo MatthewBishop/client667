@@ -92,7 +92,7 @@ public class Class368
 		aPlaneArray4548 = null;
 		aClass318_4544 = null;
 		aClass312_4549 = null;
-		if (b < 84) {
+		if ((byte) 102 < 84) {
 			method4080((byte) -8);
 		}
 	}
@@ -112,7 +112,7 @@ public class Class368
 	}
 	
 	static final void method4081(int i, int i_16_, int i_17_) {
-		if (i_17_ != -278174944) {
+		if (-278174944 != -278174944) {
 			aPlaneArray4548 = null;
 		}
 		anInt4547++;

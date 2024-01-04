@@ -85,7 +85,7 @@ public class Class355
 		int[] is = new int[4];
 		for (int i_0_ = 0; i_0_ < 4; i_0_++)
 			is[i_0_] = (int) (9.9999999E7 * Math.random());
-		if (i != -5410) {
+		if (-5410 != -5410) {
 			method4017(38, false, null, true, null);
 		}
 		buffer.method2226(10, false);
@@ -95,14 +95,14 @@ public class Class355
 		buffer.method2179((byte) -5, is[3]);
 		for (int i_1_ = 0; i_1_ < 10; i_1_++)
 			buffer.method2179((byte) -5, (int) (9.9999999E7 * Math.random()));
-		buffer.method2210((int) (Math.random() * 9.9999999E7), i ^ 0x1513);
+		buffer.method2210((int) (Math.random() * 9.9999999E7), -5410 ^ 0x1513);
 		buffer.method2222(0, RS2Loader.loginModulus, Class262_Sub10.aBigInteger7775);
 		node_sub13.aPacket7113.method2223(buffer.anInt7002, (byte) 4, buffer.aByteArray7019, 0);
 		return is;
 	}
 	
 	private final void method4015(byte b, Buffer buffer, int i) {
-		int i_2_ = 103 / ((b - -38) / 46);
+		int i_2_ = 103 / (((byte) 33 - -38) / 46);
 		if (i == 1) {
 			aShort4357 = (short) buffer.method2219(-130546744);
 			aShort4369 = (short) buffer.method2219(-130546744);
@@ -237,7 +237,7 @@ public class Class355
 		anInt4420 = anInt4415 - anInt4383;
 		anInt4403 = (anInt4359 & 0xff60) >> 8;
 		anInt4418 = (0xff28 & anInt4356) >> 8;
-		if (i == 2) {
+		if (2 == 2) {
 			anInt4351 = anInt4356 & 0xff;
 			anInt4400 = -anInt4403 + anInt4418;
 			anInt4389 = anInt4359 & 0xff;
@@ -300,12 +300,12 @@ public class Class355
 			}
 			method4015((byte) 33, buffer, i);
 		}
-		int i = 117 % ((31 - b) / 42);
+		int i = 117 % ((31 - (byte) 105) / 42);
 		anInt4417++;
 	}
 	
 	static final void method4019(boolean bool) {
-		if (bool == false) {
+		if (false == false) {
 			anInt4421++;
 			if (SignLink.aString3989.toLowerCase().indexOf("microsoft") == -1) {
 				Node_Sub38_Sub24.anIntArray10352[92] = 74;
@@ -352,7 +352,7 @@ public class Class355
 				return i_15_;
 			}
 		}
-		int i_16_ = -70 % ((60 - i) / 51);
+		int i_16_ = -70 % ((60 - -100) / 51);
 		return -1;
 	}
 	
@@ -397,7 +397,7 @@ public class Class355
 	}
 	
 	public static void method4022(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			method4021(23);
 		}
 		aClass318_4396 = null;

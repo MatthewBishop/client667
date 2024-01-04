@@ -22,7 +22,7 @@ public class Class230_Sub1 extends Class230
 		if (i == 1) {
 			return i_2_ * i_0_;
 		}
-		int i_3_ = -60 % ((-16 - i_1_) / 58);
+		int i_3_ = -60 % ((-16 - 62) / 58);
 		return i_2_;
 	}
 	
@@ -31,7 +31,7 @@ public class Class230_Sub1 extends Class230
 	}
 	
 	public static void method2132(int i) {
-		if (i != 2) {
+		if (2 != 2) {
 			anInt9012 = 103;
 		}
 		aClass212_9010 = null;
@@ -39,7 +39,7 @@ public class Class230_Sub1 extends Class230
 	
 	static final void method2133(int i, GraphicsToolkit graphicstoolkit) {
 		anInt9007++;
-		if (i > 82) {
+		if (95 > 82) {
 			if (!Node_Sub38_Sub5.aBoolean10130) {
 				Class89.method1021(graphicstoolkit, (byte) -71);
 			} else {

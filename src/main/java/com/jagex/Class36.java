@@ -16,7 +16,7 @@ public class Class36
 	
 	final void method389(int i) {
 		synchronized (aClass61_540) {
-			if (i != 11) {
+			if (11 != 11) {
 				anInt548 = 103;
 			}
 			aClass61_540.method602((byte) -123);
@@ -36,8 +36,8 @@ public class Class36
 	final void method391(int i, int i_1_) {
 		anInt539++;
 		synchronized (aClass61_540) {
-			aClass61_540.method598(i_1_, -11819);
-			if (i != 64) {
+			aClass61_540.method598(5, -11819);
+			if (64 != 64) {
 				method392((byte) 105);
 			}
 		}
@@ -56,7 +56,7 @@ public class Class36
 			aClass61_540.method608(false);
 		}
 		anInt545++;
-		int i_2_ = -117 / ((i - 60) / 48);
+		int i_2_ = -117 / ((125 - 60) / 48);
 	}
 	
 	final Class267 method394(int i, int i_3_) {

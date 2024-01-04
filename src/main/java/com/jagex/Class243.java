@@ -19,7 +19,7 @@ public class Class243
 	public static void method3058(int i) {
 		anIntArray3074 = null;
 		aString3076 = null;
-		if (i != -29825) {
+		if (-29825 != -29825) {
 			method3061(12);
 		}
 		aClass61_3065 = null;

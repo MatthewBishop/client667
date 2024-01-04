@@ -30,12 +30,12 @@ public class Class244
 	}
 	
 	static final void method3065(int i) {
-		if (i != 1) {
+		if (1 != 1) {
 			anInt3083 = 50;
 		}
 		if (Class350.method3993((byte) 108)) {
 			if (Class210.aStringArray2502 == null) {
-				Class147.method1647(i ^ 0x7d);
+				Class147.method1647(1 ^ 0x7d);
 			}
 			Class298.anInt3740 = 0;
 			Class194_Sub3_Sub1.aBoolean9378 = true;

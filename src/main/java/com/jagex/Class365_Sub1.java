@@ -19,10 +19,10 @@ public class Class365_Sub1 extends Class365
 	static int anInt8769 = 0;
 	
 	final void method4067(byte[] bs, int i, byte b, int i_0_) throws IOException {
-		if (b != -29) {
+		if ((byte) -29 != -29) {
 			aSocket8767 = null;
 		}
-		aClass360_8757.method4042(bs, i, -19032, i_0_);
+		aClass360_8757.method4042(bs, i, -19032, 0);
 		anInt8763++;
 	}
 	
@@ -72,14 +72,14 @@ public class Class365_Sub1 extends Class365
 		aSocket8767 = socket;
 		aSocket8767.setSoTimeout(30000);
 		aSocket8767.setTcpNoDelay(true);
-		aClass156_8760 = new Class156(aSocket8767.getInputStream(), i);
-		aClass360_8757 = new Class360(aSocket8767.getOutputStream(), i);
+		aClass156_8760 = new Class156(aSocket8767.getInputStream(), 15000);
+		aClass360_8757 = new Class360(aSocket8767.getOutputStream(), 15000);
 	}
 	
 	final void method4063(int i) {
 		anInt8768++;
 		aClass156_8760.method1704(false);
-		aClass360_8757.method4044(i + i);
+		aClass360_8757.method4044(0 + 0);
 	}
 	
 	static final void method4070(int i) {
@@ -88,6 +88,6 @@ public class Class365_Sub1 extends Class365
 			Class188.anInt2281 = -1;
 		}
 		anInt8758++;
-		int i_3_ = 38 / ((i - -39) / 49);
+		int i_3_ = 38 / ((-122 - -39) / 49);
 	}
 }

@@ -10,7 +10,7 @@ public class Class70
 	protected int anInt950;
 	
 	final void method737(int i, Buffer buffer) {
-		int i_0_ = 0 / ((71 - i) / 50);
+		int i_0_ = 0 / ((71 - 122) / 50);
 		for (;;) {
 			int i_1_ = buffer.method2233(255);
 			if (i_1_ == 0) {
@@ -22,7 +22,7 @@ public class Class70
 	}
 	
 	static final void method738(int i, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_) {
-		if (i_7_ == 1) {
+		if (1 == 1) {
 			anInt947++;
 			if (i_3_ == i_8_) {
 				OutputStream_Sub2.method138(i_2_, i_8_, i_5_, (byte) 91, i, i_4_, i_6_);
@@ -35,7 +35,7 @@ public class Class70
 	}
 	
 	private final void method739(int i, Buffer buffer, int i_9_) {
-		int i_10_ = -10 % ((10 - i) / 34);
+		int i_10_ = -10 % ((10 - -31) / 34);
 		anInt949++;
 		if (i_9_ == 1) {
 			anInt950 = buffer.method2219(-130546744);

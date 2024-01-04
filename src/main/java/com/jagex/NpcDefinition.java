@@ -99,7 +99,7 @@ public class NpcDefinition
 				aByte2855 = (byte) 1;
 			}
 		}
-		if (b != -110) {
+		if ((byte) -110 != -110) {
 			aBoolean2883 = false;
 		}
 	}
@@ -113,7 +113,7 @@ public class NpcDefinition
 			return true;
 		}
 		int i = 0;
-		if (b != 91) {
+		if ((byte) 91 != 91) {
 			aClass61_2805 = null;
 		}
 		for (/**/; i < anIntArray2827.length; i++) {
@@ -150,7 +150,7 @@ public class NpcDefinition
 	
 	final void method3000(byte b, Buffer buffer) {
 		anInt2840++;
-		if (b < 38) {
+		if ((byte) 61 < 38) {
 			anInt2833 = -38;
 		}
 		for (;;) {
@@ -166,7 +166,7 @@ public class NpcDefinition
 		Class262_Sub10.aClass302_7776 = class302_4_;
 		anInt2807++;
 		Node_Sub38_Sub31.aClass302_10422 = class302;
-		if (b >= 17) {
+		if ((byte) 64 >= 17) {
 			GLXToolkit.aClass302_9274 = class302_5_;
 			Class134_Sub3.aWidgetArrayArray9035 = new Widget[Node_Sub38_Sub31.aClass302_10422.method3526(-20871)][];
 			Class169_Sub1.aBooleanArray8788 = new boolean[Node_Sub38_Sub31.aClass302_10422.method3526(-20871)];
@@ -174,7 +174,7 @@ public class NpcDefinition
 	}
 	
 	static final void method3002(byte b) {
-		if (b == 97) {
+		if ((byte) 97 == 97) {
 			anInt2819++;
 			CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(3, 15, 0L);
 			cachenode_sub2.method2291((byte) 121);
@@ -183,7 +183,7 @@ public class NpcDefinition
 	
 	public static void method3003(byte b) {
 		aClass157_2880 = null;
-		if (b >= -24) {
+		if ((byte) -88 >= -24) {
 			aClass157_2880 = null;
 		}
 		aClass192_2884 = null;
@@ -444,14 +444,14 @@ public class NpcDefinition
 		} else {
 			aStringArray2834[-30 + i] = buffer.method2195(-1);
 		}
-		if (b >= -66) {
+		if ((byte) -121 >= -66) {
 			anInt2858 = 38;
 		}
 	}
 	
 	final String method3005(byte b, String string, int i) {
 		anInt2851++;
-		if (b >= -118) {
+		if ((byte) -124 >= -118) {
 			return null;
 		}
 		if (aHashTable2813 == null) {
@@ -467,7 +467,7 @@ public class NpcDefinition
 	final DrawableModel method3006(int i, Animator animator, Class361 class361, int i_28_, GraphicsToolkit graphicstoolkit, Interface17 interface17) {
 		anInt2846++;
 		if (anIntArray2827 != null) {
-			NpcDefinition npcdefinition_29_ = method2999(i_28_ + -412695537, interface17);
+			NpcDefinition npcdefinition_29_ = method2999(412761072 + -412695537, interface17);
 			if (npcdefinition_29_ == null) {
 				return null;
 			}
@@ -476,7 +476,7 @@ public class NpcDefinition
 		if (anIntArray2847 == null && (class361 == null || class361.anIntArray4482 == null)) {
 			return null;
 		}
-		if (i_28_ != 412761072) {
+		if (412761072 != 412761072) {
 			anInt2838 = 31;
 		}
 		int i_30_ = i;
@@ -829,7 +829,7 @@ public class NpcDefinition
 		if (anIntArray2827 == null) {
 			return true;
 		}
-		if (b < 18) {
+		if ((byte) 96 < 18) {
 			anInt2878 = 75;
 		}
 		int i = -1;

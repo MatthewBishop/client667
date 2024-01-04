@@ -143,7 +143,7 @@ public class IsaacCipher
 	}
 	
 	final int method1667(byte b) {
-		if (b != -96) {
+		if ((byte) -96 != -96) {
 			return -2;
 		}
 		if (anInt1831 == 0) {
@@ -189,11 +189,11 @@ public class IsaacCipher
 	}
 	
 	final int method1670(byte b) {
-		if (b != -21) {
+		if ((byte) -21 != -21) {
 			return 127;
 		}
 		if (anInt1831 == 0) {
-			method1668(b ^ ~0x5b13b8b6);
+			method1668((byte) -21 ^ ~0x5b13b8b6);
 			anInt1831 = 256;
 		}
 		anInt1838++;

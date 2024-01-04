@@ -52,7 +52,7 @@ public class Node_Sub53 extends Node
 	}
 	
 	public static void method2979(byte b) {
-		if (b <= 6) {
+		if ((byte) 13 <= 6) {
 			aGLSpriteArray7666 = null;
 		}
 		aClass176_7667 = null;

@@ -26,7 +26,7 @@ public class Class76
 	
 	static final void method768(int i) {
 		anInt1015++;
-		if (i == -147) {
+		if (-147 == -147) {
 			for (int i_1_ = 0; i_1_ < 5; i_1_++)
 				Plane.aBooleanArray3401[i_1_] = false;
 			Class328_Sub1.anInt8501 = Class98.anInt5061;
@@ -47,7 +47,7 @@ public class Class76
 	static final void method769(Actor actor, boolean bool) {
 		anInt1012++;
 		if (actor.anIntArray10845 != null || actor.anIntArray10881 != null) {
-			boolean bool_2_ = bool;
+			boolean bool_2_ = true;
 			for (int i = 0; actor.anIntArray10845.length > i; i++) {
 				int i_3_ = -1;
 				if (actor.anIntArray10845 != null) {
@@ -114,14 +114,14 @@ public class Class76
 	}
 	
 	static final Widget method771(byte b, int i) {
-		if (b != 107) {
+		if ((byte) 107 != 107) {
 			method770(108, 116, -70);
 		}
 		anInt1009++;
 		int i_14_ = i >> 16;
 		int i_15_ = i & 0xffff;
 		if (Class134_Sub3.aWidgetArrayArray9035[i_14_] == null || Class134_Sub3.aWidgetArrayArray9035[i_14_][i_15_] == null) {
-			boolean bool = CacheNode_Sub15.method2379(b + 6908, i_14_);
+			boolean bool = CacheNode_Sub15.method2379((byte) 107 + 6908, i_14_);
 			if (!bool) {
 				return null;
 			}

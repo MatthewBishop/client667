@@ -63,7 +63,7 @@ public class Class321
 	}
 	
 	static final boolean method3800(int i, int i_6_, int i_7_) {
-		if (i_7_ != 126) {
+		if (126 != 126) {
 			method3799(64L, -95);
 		}
 		anInt4070++;
@@ -78,7 +78,7 @@ public class Class321
 		if (c >= 32 && c <= 126) {
 			return true;
 		}
-		if (b <= 100) {
+		if ((byte) 127 <= 100) {
 			anIntArray4067 = null;
 		}
 		if (c >= 160 && c <= 255) {
@@ -91,7 +91,7 @@ public class Class321
 	}
 	
 	public static void method3802(int i) {
-		if (i != 1999) {
+		if (1999 != 1999) {
 			aLong4068 = 76L;
 		}
 		anIntArray4067 = null;

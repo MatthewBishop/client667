@@ -25,7 +25,7 @@ public class Class223
 		aClass383_2664 = null;
 		aString2656 = null;
 		aFloatArray2663 = null;
-		if (b != 71) {
+		if ((byte) 71 != 71) {
 			aFloatArray2663 = null;
 		}
 	}
@@ -54,7 +54,7 @@ public class Class223
 					}
 					String string_3_ = Class169_Sub4.aClass353_8825 != Class209.aClass353_2483 ? Class22.aClass22_391.method297(-12273, Class35.anInt537) : Class22.aClass22_393.method297(-12273, Class35.anInt537);
 					if (player.anInt11141 <= player.anInt11152) {
-						string = player.method893(false, true) + (bool_0_ ? Class368.method4077(i + -1625917681, Class295.aPlayer3692.anInt11152, player.anInt11152) : "<col=ffffff>") + " (" + string_3_ + player.anInt11152 + ")";
+						string = player.method893(false, true) + (bool_0_ ? Class368.method4077(-15052 + -1625917681, Class295.aPlayer3692.anInt11152, player.anInt11152) : "<col=ffffff>") + " (" + string_3_ + player.anInt11152 + ")";
 					} else {
 						string = player.method893(false, true) + (!bool_0_ ? "<col=ffffff>" : Class368.method4077(-1625932733, Class295.aPlayer3692.anInt11152, player.anInt11152)) + " (" + string_3_ + player.anInt11152 + "+" + (player.anInt11141 + -player.anInt11152) + ")";
 					}
@@ -67,7 +67,7 @@ public class Class223
 					Class320_Sub8.anInt8285++;
 					Node_Sub32.method2731(false, -1, (long) player.anInt10858, 0, 0, Class84.aString1148, 44, true, Class201.anInt2444, Class66.aString5177 + " -> <col=ffffff>" + string, (long) player.anInt10858, (byte) -18, false);
 				}
-				if (i != -15052) {
+				if (-15052 != -15052) {
 					aString2656 = null;
 				}
 				if (!bool) {
@@ -113,7 +113,7 @@ public class Class223
 	
 	static final void method2104(int i, int i_7_, int i_8_) {
 		anInt2652++;
-		if (i != 0) {
+		if (0 != 0) {
 			aClass383_2664 = null;
 		}
 		if (Class209.aClass353_2483 == Class169_Sub4.aClass353_8825) {
@@ -121,7 +121,7 @@ public class Class223
 				Class78.method778(0, i_7_, 1, false, i_8_, 0, -3, -59, 1);
 			}
 		} else if (!Class78.method778(0, i_7_, 1, false, i_8_, 0, -3, -69, 1)) {
-			Class78.method778(0, i_7_, 1, false, i_8_, 0, -2, i + 32, 1);
+			Class78.method778(0, i_7_, 1, false, i_8_, 0, -2, 0 + 32, 1);
 		}
 	}
 	

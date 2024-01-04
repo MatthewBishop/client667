@@ -12,7 +12,7 @@ abstract class r extends CacheNode
 	
 	static final boolean method2357(byte b, char c) {
 		anInt9581++;
-		if (b != -117) {
+		if ((byte) -117 != -117) {
 			anIntArray9580 = null;
 		}
 		if (Character.isISOControl(c)) {
@@ -40,8 +40,8 @@ abstract class r extends CacheNode
 	
 	static final void method2358(int i, byte b, int i_3_) {
 		anInt9582++;
-		if (b == -106) {
-			CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(b ^ ~0x6a, 1, (long) i_3_);
+		if ((byte) -106 == -106) {
+			CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754((byte) -106 ^ ~0x6a, 1, (long) i_3_);
 			cachenode_sub2.method2288(0);
 			cachenode_sub2.anInt9434 = i;
 		}
@@ -162,7 +162,7 @@ abstract class r extends CacheNode
 	}
 	
 	public static void method2362(int i) {
-		if (i != -10) {
+		if (-10 != -10) {
 			method2360(76, -49, -91, null, 88, 73, 82, 84);
 		}
 		aClass58_9578 = null;

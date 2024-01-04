@@ -68,12 +68,12 @@ public class Class188_Sub2_Sub1 extends Class188_Sub2
 	}
 	
 	final byte[] method1909(int i, int i_4_, int i_5_, int i_6_) {
-		aByteArray9351 = new byte[i_4_ * (i_5_ * i_6_) * 2];
-		if (i != 0) {
+		aByteArray9351 = new byte[128 * (128 * 16) * 2];
+		if (0 != 0) {
 			method1905((byte) -98, -78, (byte) -84);
 		}
 		anInt9358++;
-		this.method1884(i_4_, (byte) 53, i_6_, i_5_);
+		this.method1884(128, (byte) 53, 16, 128);
 		return aByteArray9351;
 	}
 	
@@ -97,7 +97,7 @@ public class Class188_Sub2_Sub1 extends Class188_Sub2
 				return class241;
 			}
 		}
-		if (b != 84) {
+		if ((byte) 84 != 84) {
 			method1906((byte) -58);
 		}
 		if (i == 2) {

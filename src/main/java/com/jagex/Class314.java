@@ -13,7 +13,7 @@ public class Class314
 	protected int anInt4023;
 	
 	public static void method3651(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			method3651(true);
 		}
 		aNode_Sub41Array4017 = null;
@@ -134,17 +134,17 @@ public class Class314
 		} else {
 			aChar4022 = Class20_Sub1.method294(buffer.method2214((byte) 121), (byte) 108);
 		}
-		if (bool != true) {
+		if (true != true) {
 			anInt4023 = -54;
 		}
 		anInt4019++;
 	}
 	
 	final void method3654(Buffer buffer, int i) {
-		if (i == -1050722685) {
+		if (-1050722685 == -1050722685) {
 			anInt4015++;
 			for (;;) {
-				int i_11_ = buffer.method2233(i + 1050722940);
+				int i_11_ = buffer.method2233(-1050722685 + 1050722940);
 				if (i_11_ == 0) {
 					break;
 				}

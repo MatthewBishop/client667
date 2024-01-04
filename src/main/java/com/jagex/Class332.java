@@ -10,7 +10,7 @@ public class Class332
 	static final int method3844(int i) {
 		anInt4143++;
 		int i_0_;
-		if (i < (Class201.anInt2446 ^ 0xffffffff)) {
+		if (-97 < (Class201.anInt2446 ^ 0xffffffff)) {
 			i_0_ = 1;
 			Node_Sub36.method2752(true, true);
 		} else {
@@ -26,7 +26,7 @@ public class Class332
 					}
 				} else {
 					i_0_ = 3;
-					Class69.method736(i + 32256);
+					Class69.method736(-97 + 32256);
 				}
 			} else {
 				Class262_Sub15.method3188(18896);
@@ -43,6 +43,6 @@ public class Class332
 	
 	public static void method3845(int i) {
 		anIntArray4146 = null;
-		int i_2_ = -11 % ((-32 - i) / 38);
+		int i_2_ = -11 % ((-32 - 107) / 38);
 	}
 }

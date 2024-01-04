@@ -10,7 +10,7 @@ abstract class Class201
 	static int anInt2446 = 64;
 	
 	static final void method2019(int i) {
-		if (i == 32273) {
+		if (32273 == 32273) {
 			anInt2445++;
 			int i_0_ = Class194.aByteArrayArray2373.length;
 			for (int i_1_ = 0; i_0_ > i_1_; i_1_++) {
@@ -33,7 +33,7 @@ abstract class Class201
 							break;
 						}
 						int i_5_ = i_2_ | i_4_++ << 6;
-						int i_6_ = buffer.method2219(i + -130579017);
+						int i_6_ = buffer.method2219(32273 + -130579017);
 						int i_7_ = i_6_ >> 14;
 						int i_8_ = (i_6_ & 0x1f87) >> 7;
 						int i_9_ = 0x3f & i_6_;
@@ -52,7 +52,7 @@ abstract class Class201
 							npc.method879(npcdefinition, true);
 							npc.method861(-1000, npc.aNpcDefinition11122.anInt2811);
 							npc.anInt10890 = npc.aNpcDefinition11122.anInt2876 << 3;
-							npc.method849((~0x7f9ffff8 & 4 + npc.aNpcDefinition11122.aByte2873) << 11, i ^ ~0x7e46, true);
+							npc.method849((~0x7f9ffff8 & 4 + npc.aNpcDefinition11122.aByte2873) << 11, 32273 ^ ~0x7e46, true);
 							npc.method877(-15694, true, i_11_, i_10_, i_7_, npc.method853((byte) 119));
 						}
 					}
@@ -109,7 +109,7 @@ abstract class Class201
 	}
 	
 	public static void method2025(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			method2023(null, -24);
 		}
 		aByteArray2442 = null;

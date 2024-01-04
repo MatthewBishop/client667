@@ -35,7 +35,7 @@ public class Node_Sub54 extends Node
 	final void method2980(int i, int i_0_) {
 		anInt7693++;
 		aStream7687.f(3 + i * 4);
-		if (i_0_ == 1) {
+		if (1 == 1) {
 			aStream7687.d(-1);
 		}
 	}
@@ -62,7 +62,7 @@ public class Node_Sub54 extends Node
 			class299.method3491(graphicstoolkit, string, i_1_, i_3_, i_6_, true);
 			i_3_ += class299.method3487();
 		}
-		if (b < 54) {
+		if ((byte) 118 < 54) {
 			anInt7675 = 86;
 		}
 	}
@@ -83,7 +83,7 @@ public class Node_Sub54 extends Node
 	
 	static final Node_Sub27 method2983(int i) {
 		anInt7678++;
-		if (i != -17555) {
+		if (-17555 != -17555) {
 			return null;
 		}
 		FileOnDisk fileondisk = null;
@@ -121,7 +121,7 @@ public class Node_Sub54 extends Node
 		aNativeHeapBuffer7670 = anAbstractToolkit7672.method1330(true, 80, 4 * i);
 		anInt7679++;
 		aStream7687 = new Stream(aNativeHeapBuffer7670, 0, 4 * i);
-		int i_10_ = -50 / ((-11 - b) / 62);
+		int i_10_ = -50 / ((-11 - (byte) 74) / 62);
 	}
 	
 	final void method2985(byte b, int[] is, int i) {
@@ -133,7 +133,7 @@ public class Node_Sub54 extends Node
 			int i_11_ = 0;
 			int i_12_ = 32767;
 			int i_13_ = -32768;
-			if (b != 60) {
+			if ((byte) 60 != 60) {
 				method2987(-11);
 			}
 			if (!Stream.b()) {
@@ -209,7 +209,7 @@ public class Node_Sub54 extends Node
 	}
 	
 	final void method2986(int i, int i_28_, int i_29_, int i_30_) {
-		if (i_28_ != 21883) {
+		if (21883 != 21883) {
 			method2989(-45, -114, 0.5913439F, 73, -48);
 		}
 		anIntArray7677[aStandardPlane7681.anInt3408 * i_30_ + i] = Node_Sub16.method2590(anIntArray7677[aStandardPlane7681.anInt3408 * i_30_ + i], 1 << i_29_);
@@ -229,7 +229,7 @@ public class Node_Sub54 extends Node
 		aStream7687.c();
 		anInterface15_Impl2_7691 = anAbstractToolkit7672.method1380(2, false);
 		anInterface15_Impl2_7691.method36(4, i * 4, aNativeHeapBuffer7670, 1965);
-		if (b < -118) {
+		if ((byte) -119 < -118) {
 			aNativeHeapBuffer7670 = null;
 			aStream7687 = null;
 		}

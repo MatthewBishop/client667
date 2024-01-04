@@ -31,13 +31,13 @@ public class CacheNode_Sub10 extends CacheNode
 	
 	final void method2325(Buffer buffer, int i) {
 		for (;;) {
-			int i_2_ = buffer.method2233(i + 1213);
+			int i_2_ = buffer.method2233(-958 + 1213);
 			if (i_2_ == 0) {
 				break;
 			}
-			method2333(buffer, i + 958, i_2_);
+			method2333(buffer, -958 + 958, i_2_);
 		}
-		if (i != -958) {
+		if (-958 != -958) {
 			method2328(-6);
 		}
 		anInt9514++;
@@ -51,7 +51,7 @@ public class CacheNode_Sub10 extends CacheNode
 		if (anIntArrayArray9515[i] == null || i_3_ < 0 || anIntArrayArray9515[i].length < i_3_) {
 			return -1;
 		}
-		if (bool != true) {
+		if (true != true) {
 			method2326(68, true, 121);
 		}
 		return anIntArrayArray9515[i][i_3_];
@@ -88,7 +88,7 @@ public class CacheNode_Sub10 extends CacheNode
 				stringbuffer.append(aClass109_9516.method1126(method2324(-28, i), buffer.method2244(Class240.method3028((byte) 9, anIntArray9518[i]).anInt1847, 8), anIntArrayArray9515[i], 1));
 			}
 		}
-		if (b != -49) {
+		if ((byte) -49 != -49) {
 			aStringArray9529 = null;
 		}
 		stringbuffer.append(aStringArray9529[-1 + aStringArray9529.length]);
@@ -110,7 +110,7 @@ public class CacheNode_Sub10 extends CacheNode
 	public static void method2331(int i) {
 		anIntArray9520 = null;
 		aHashTable9530 = null;
-		if (i != 1) {
+		if (1 != 1) {
 			aHashTable9530 = null;
 		}
 	}
@@ -122,7 +122,7 @@ public class CacheNode_Sub10 extends CacheNode
 			return "";
 		}
 		stringbuffer.append(aStringArray9529[0]);
-		if (i != -19244) {
+		if (-19244 != -19244) {
 			anIntArray9520 = null;
 		}
 		for (int i_7_ = 1; aStringArray9529.length > i_7_; i_7_++) {
@@ -136,10 +136,10 @@ public class CacheNode_Sub10 extends CacheNode
 		anInt9517++;
 		if (i_8_ != 1) {
 			if (i_8_ == 2) {
-				int i_9_ = buffer.method2233(i + 255);
+				int i_9_ = buffer.method2233(0 + 255);
 				anIntArray9522 = new int[i_9_];
 				for (int i_10_ = 0; i_9_ > i_10_; i_10_++)
-					anIntArray9522[i_10_] = buffer.method2219(Node_Sub19.method2612(i, -130546744));
+					anIntArray9522[i_10_] = buffer.method2219(Node_Sub19.method2612(0, -130546744));
 			} else if (i_8_ == 3) {
 				int i_11_ = buffer.method2233(255);
 				anIntArrayArray9515 = new int[i_11_][];
@@ -151,16 +151,16 @@ public class CacheNode_Sub10 extends CacheNode
 						anIntArray9518[i_12_] = i_13_;
 						anIntArrayArray9515[i_12_] = new int[class151.anInt1842];
 						for (int i_14_ = 0; i_14_ < class151.anInt1842; i_14_++)
-							anIntArrayArray9515[i_12_][i_14_] = buffer.method2219(i + -130546744);
+							anIntArrayArray9515[i_12_][i_14_] = buffer.method2219(0 + -130546744);
 					}
 				}
 			} else if (i_8_ == 4) {
 				aBoolean9521 = false;
 			}
 		} else {
-			aStringArray9529 = Class106.method1120((byte) -102, buffer.method2195(i ^ 0xffffffff), '<');
+			aStringArray9529 = Class106.method1120((byte) -102, buffer.method2195(0 ^ 0xffffffff), '<');
 		}
-		if (i != 0) {
+		if (0 != 0) {
 			method2326(21, true, -113);
 		}
 	}

@@ -71,7 +71,7 @@ public class Class320_Sub23 extends Class320
 	}
 	
 	final boolean method3769(byte b) {
-		if (b <= 63) {
+		if ((byte) 104 <= 63) {
 			method3673((byte) -124);
 		}
 		anInt8427++;
@@ -98,7 +98,7 @@ public class Class320_Sub23 extends Class320
 	
 	final int method3770(boolean bool) {
 		anInt8435++;
-		if (bool != false) {
+		if (false != false) {
 			return -66;
 		}
 		return anInt4064;

@@ -11,7 +11,7 @@ public class Class194_Sub2 extends Class194
 		Class167.anInt2033 = 0;
 		Class239.aBoolean2930 = false;
 		Node_Sub25_Sub2.aClass54Array9959 = new Class54[500];
-		if (i <= 15) {
+		if (27 <= 15) {
 			method1972(-74);
 		}
 		Class83.anInt5183 = 0;
@@ -32,7 +32,7 @@ public class Class194_Sub2 extends Class194
 	}
 	
 	public static void method1971(byte b) {
-		int i = 114 % ((75 - b) / 34);
+		int i = 114 % ((75 - (byte) 112) / 34);
 		aClass6_6899 = null;
 		aClass318_6897 = null;
 	}

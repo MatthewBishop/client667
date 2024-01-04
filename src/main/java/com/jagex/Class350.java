@@ -87,7 +87,7 @@ public class Class350 implements Interface16
 	}
 	
 	static final boolean method3993(byte b) {
-		if (b != 108) {
+		if ((byte) 108 != 108) {
 			return true;
 		}
 		anInt5401++;
@@ -129,7 +129,7 @@ public class Class350 implements Interface16
 		aBoolean5372 = method4002(object, var_class_4_, false, "yMiddle");
 		anInt5387 = method3997(var_class_4_, object, true, "xOffset");
 		anInt5388 = method3997(var_class_4_, object, true, "yOffset");
-		if (i != 3630) {
+		if (3630 != 3630) {
 			aFont5361 = null;
 		}
 		anInt5371 = method3997(var_class_4_, object, true, "width");
@@ -142,7 +142,7 @@ public class Class350 implements Interface16
 	}
 	
 	public final void method59(int i) {
-		if (i == 6312) {
+		if (6312 == 6312) {
 			Class71.method745(22732);
 			anInt5402++;
 		}
@@ -151,7 +151,7 @@ public class Class350 implements Interface16
 	private final void method3996(boolean bool) {
 		Class163.method1736(Class243.aClass340_3069.method3958((byte) 84), GLDrawableModel.aColorArray5590[Class178.anInt2118], Canvas.aColorArray73[Class178.anInt2118], Class382.aColorArray5258[Class178.anInt2118], Class243.aClass340_3069.method3957((byte) 39), (byte) -117);
 		anInt5380++;
-		if (bool != true) {
+		if (true != true) {
 			method3999(30L, true, -119, -71);
 		}
 	}
@@ -159,7 +159,7 @@ public class Class350 implements Interface16
 	private final int method3997(Class var_class, Object object, boolean bool, String string) throws IllegalAccessException, NoSuchFieldException {
 		anInt5368++;
 		Field field = var_class.getDeclaredField(string);
-		if (bool != true) {
+		if (true != true) {
 			return 101;
 		}
 		return field.getInt(object);
@@ -203,14 +203,14 @@ public class Class350 implements Interface16
 	}
 	
 	public static void method4000(int i) {
-		int i_11_ = -94 % ((i - 77) / 37);
+		int i_11_ = -94 % ((-13 - 77) / 37);
 		aClass170_5391 = null;
 	}
 	
 	private final Object method4001(Class var_class, String string, byte b) throws IllegalAccessException, NoSuchFieldException {
 		anInt5399++;
 		Field field = var_class.getDeclaredField(string);
-		if (b != -44) {
+		if ((byte) -44 != -44) {
 			return null;
 		}
 		Object object = field.get(Class96.anApplet1270);
@@ -219,7 +219,7 @@ public class Class350 implements Interface16
 	}
 	
 	public final int method58(int i) {
-		if (i != 27285) {
+		if (27285 != 27285) {
 			method3999(-112L, false, -70, -27);
 		}
 		anInt5363++;
@@ -326,7 +326,7 @@ public class Class350 implements Interface16
 	}
 	
 	private final boolean method4002(Object object, Class var_class, boolean bool, String string) throws IllegalAccessException, NoSuchFieldException {
-		if (bool != false) {
+		if (false != false) {
 			anInt5366 = -90;
 		}
 		anInt5396++;

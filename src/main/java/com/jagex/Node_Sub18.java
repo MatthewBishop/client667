@@ -23,7 +23,7 @@ public class Node_Sub18 extends Node
 		anInt7153++;
 		Class10.aGLSprite172 = null;
 		Class346.anInt4278 = -1;
-		if (i != 126) {
+		if (126 != 126) {
 			method2605((byte) 62);
 		}
 	}
@@ -34,7 +34,7 @@ public class Node_Sub18 extends Node
 	
 	static final int method2607(byte b, int i, int i_0_) {
 		anInt7152++;
-		if (b != 31) {
+		if ((byte) 31 != 31) {
 			return -18;
 		}
 		i = (i_0_ & 0x7f) * i >> 7;

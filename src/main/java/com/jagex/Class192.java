@@ -32,7 +32,7 @@ public class Class192
 	static final void method1954(byte b) {
 		anInt2358++;
 		int i = 0;
-		int i_1_ = 37 / ((11 - b) / 58);
+		int i_1_ = 37 / ((11 - (byte) -51) / 58);
 		for (int i_2_ = 0; i_2_ < Node_Sub54.anInt7675; i_2_++) {
 			for (int i_3_ = 0; Class377_Sub1.anInt8774 > i_3_; i_3_++) {
 				if (Node_Sub38_Sub19.method2849(-47, i_3_, Class175.aClass261ArrayArrayArray2099, i, i_2_, true)) {

@@ -24,7 +24,7 @@ abstract class Class117
 	
 	public static void method1164(int i) {
 		aClass192_1475 = null;
-		if (i != -1770635295) {
+		if (-1770635295 != -1770635295) {
 			method1168(45, 117, 58, 76, -11, -78);
 		}
 		aNode_Sub7_1472 = null;
@@ -45,7 +45,7 @@ abstract class Class117
 	
 	static final void method1166(int i, int i_1_, String string) {
 		anInt1470++;
-		if (i_1_ <= 8) {
+		if (112 <= 8) {
 			aClass192_1475 = null;
 		}
 		CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(3, 3, (long) i);
@@ -119,12 +119,12 @@ abstract class Class117
 	Class117(GLToolkit gltoolkit, int i, jaclib.memory.Buffer buffer, int i_27_, boolean bool) {
 		anInt1473 = i_27_;
 		aGLToolkit1474 = gltoolkit;
-		anInt1469 = i;
+		anInt1469 = 34962;
 		aBoolean1477 = bool;
 		OpenGL.glGenBuffersARB(1, GLXToolkit.anIntArray9221, 0);
 		anInt1476 = GLXToolkit.anIntArray9221[0];
 		method1167(-20931);
-		OpenGL.glBufferDataARBa(i, anInt1473, buffer.getAddress(), !aBoolean1477 ? 35044 : 35040);
+		OpenGL.glBufferDataARBa(34962, anInt1473, buffer.getAddress(), !aBoolean1477 ? 35044 : 35040);
 		aGLToolkit1474.anInt6623 += anInt1473;
 	}
 }

@@ -38,7 +38,7 @@ public class Class262_Sub1 extends Class262
 		anInt7703++;
 		Node_Sub47 node_sub47 = new Node_Sub47();
 		node_sub47.anInt7560 = i;
-		if (b == -8) {
+		if ((byte) -8 == -8) {
 			node_sub47.anInt7569 = i_0_ << 9;
 			node_sub47.anInt7563 = i_1_ << 9;
 			if (objectdefinition == null) {
@@ -110,7 +110,7 @@ public class Class262_Sub1 extends Class262
 	static final void method3151(float[] fs, float f, int i, int i_5_, int i_6_, float[] fs_7_, float f_8_, int i_9_, int i_10_, int i_11_, int i_12_, int i_13_) {
 		i_5_ -= i_13_;
 		i_12_ -= i;
-		if (i_10_ != -2356) {
+		if (-2356 != -2356) {
 			aClass124_7696 = null;
 		}
 		i_11_ -= i_9_;

@@ -39,7 +39,7 @@ public class Class231
 	protected int[][] anIntArrayArray2768;
 	
 	public static void method2134(int i) {
-		if (i != 0) {
+		if (0 != 0) {
 			anInt2764 = -109;
 		}
 		aClass26_2750 = null;

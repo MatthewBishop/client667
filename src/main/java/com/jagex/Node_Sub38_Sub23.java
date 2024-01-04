@@ -29,7 +29,7 @@ public class Node_Sub38_Sub23 extends Node_Sub38
 	private final void method2861(byte b) {
 		anInt10338++;
 		Random random = new Random((long) anInt10335);
-		if (b < 97) {
+		if ((byte) 120 < 97) {
 			method2862(null, 73, -116, 76);
 		}
 		aShortArray10337 = new short[512];
@@ -163,14 +163,14 @@ public class Node_Sub38_Sub23 extends Node_Sub38
 	static final void method2863(int i) {
 		anInt10328++;
 		if (Class87.aBoolean1185) {
-			Widget widget = Node_Sub3.method2169(i ^ 0x4b17, Class46.anInt681, Node_Sub15_Sub9.anInt9839);
+			Widget widget = Node_Sub3.method2169(-19316 ^ 0x4b17, Class46.anInt681, Node_Sub15_Sub9.anInt9839);
 			if (widget != null && widget.anObjectArray4771 != null) {
 				Node_Sub37 node_sub37 = new Node_Sub37();
 				node_sub37.anObjectArray7434 = widget.anObjectArray4771;
 				node_sub37.aWidget7437 = widget;
 				Class305.method3556(node_sub37);
 			}
-			if (i != -19316) {
+			if (-19316 != -19316) {
 				method2862(null, 60, -116, -94);
 			}
 			Class239.anInt2928 = -1;
@@ -336,7 +336,7 @@ public class Node_Sub38_Sub23 extends Node_Sub38
 	static final void method2865(byte b) {
 		anInt10342++;
 		if (!Node_Sub3.aBoolean6948) {
-			int i = -80 / ((b - -18) / 46);
+			int i = -80 / (((byte) -68 - -18) / 46);
 			Class291.aFloat3666 += (-Class291.aFloat3666 + -24.0F) / 2.0F;
 			Node_Sub3.aBoolean6948 = true;
 			Node_Sub25_Sub1.aBoolean9950 = true;
@@ -351,7 +351,7 @@ public class Node_Sub38_Sub23 extends Node_Sub38
 		if (Node_Sub38_Sub8.anInt10163 != 0 || Class4.anInt124 != 0) {
 			return false;
 		}
-		if (bool != false) {
+		if (false != false) {
 			aClass124_10344 = null;
 		}
 		return true;

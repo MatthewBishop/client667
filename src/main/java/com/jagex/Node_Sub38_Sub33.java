@@ -12,7 +12,7 @@ public class Node_Sub38_Sub33 extends Node_Sub38
 		anInt10437++;
 		int i_7_ = -(i_5_ >> 2);
 		i_5_ = -(i_5_ & 0x3);
-		if (i_6_ != 0) {
+		if (0 != 0) {
 			aBufferedConnection10440 = null;
 		}
 		for (int i_8_ = -i_4_; i_8_ < 0; i_8_++) {
@@ -42,7 +42,7 @@ public class Node_Sub38_Sub33 extends Node_Sub38
 	}
 	
 	public static void method2899(byte b) {
-		if (b != 58) {
+		if ((byte) 58 != 58) {
 			aClass151_10439 = null;
 		}
 		aBufferedConnection10440 = null;

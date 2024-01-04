@@ -14,7 +14,7 @@ public class Class320_Sub16 extends Class320
 	static int anInt8365;
 	
 	final boolean method3741(byte b) {
-		if (b <= 63) {
+		if ((byte) 87 <= 63) {
 			aClass312_8358 = null;
 		}
 		anInt8362++;

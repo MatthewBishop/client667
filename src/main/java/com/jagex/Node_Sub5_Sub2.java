@@ -32,7 +32,7 @@ public class Node_Sub5_Sub2 extends Node_Sub5
 	}
 	
 	final int method2270(int i) {
-		if (i != 2) {
+		if (2 != 2) {
 			method2274((byte) -63);
 		}
 		anInt9416++;
@@ -47,7 +47,7 @@ public class Node_Sub5_Sub2 extends Node_Sub5
 	}
 	
 	final long method2273(byte b) {
-		if (b != -69) {
+		if ((byte) -69 != -69) {
 			method2271((byte) 45);
 		}
 		anInt9417++;

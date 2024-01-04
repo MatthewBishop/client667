@@ -14,18 +14,18 @@ public class Class262_Sub5 extends Class262
 	private int anInt7741;
 	
 	public static void method3162(int i) {
-		if (i != 0) {
+		if (0 != 0) {
 			aClass199Array7732 = null;
 		}
 		aClass199Array7732 = null;
 	}
 	
 	static final boolean method3163(String string, boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			anInt7737 = -72;
 		}
 		anInt7738++;
-		return Class71.aHashtable958.containsKey(string);
+		return Class71.aHashtable958.containsKey("jagtheora");
 	}
 	
 	Class262_Sub5(Buffer buffer) {

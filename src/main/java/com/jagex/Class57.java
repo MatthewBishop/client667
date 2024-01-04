@@ -15,7 +15,7 @@ public class Class57
 	
 	public static void method567(int i) {
 		aClass336_850 = null;
-		int i_0_ = -30 % ((i - -26) / 44);
+		int i_0_ = -30 % ((-74 - -26) / 44);
 	}
 	
 	final Class7 method568(int i, int i_1_) {
@@ -36,13 +36,13 @@ public class Class57
 			class7.method182(new Buffer(bs), 16777215);
 		}
 		synchronized (aClass61_846) {
-			aClass61_846.method601(class7, i, (long) i_1_);
+			aClass61_846.method601(class7, 25566, (long) i_1_);
 		}
 		return class7;
 	}
 	
 	final void method569(int i) {
-		if (i != 24895) {
+		if (24895 != 24895) {
 			aClass302_843 = null;
 		}
 		anInt844++;
@@ -56,7 +56,7 @@ public class Class57
 			aClass61_846.method602((byte) -124);
 		}
 		anInt845++;
-		if (b > -85) {
+		if ((byte) -96 > -85) {
 			anInt849 = 55;
 		}
 	}
@@ -64,7 +64,7 @@ public class Class57
 	static final byte[] method571(String string, boolean bool) {
 		anInt848++;
 		int i = string.length();
-		if (bool != false) {
+		if (false != false) {
 			return null;
 		}
 		if (i == 0) {
@@ -85,11 +85,11 @@ public class Class57
 	}
 	
 	final void method572(int i, byte b) {
-		if (b > -107) {
+		if ((byte) -120 > -107) {
 			anInt849 = 73;
 		}
 		synchronized (aClass61_846) {
-			aClass61_846.method598(i, -11819);
+			aClass61_846.method598(5, -11819);
 		}
 		anInt847++;
 	}

@@ -9,7 +9,7 @@ abstract class Class270
 	
 	public static void method3296(int i) {
 		aClass312_3477 = null;
-		if (i <= 19) {
+		if (119 <= 19) {
 			aClass170_3476 = null;
 		}
 		aClass170_3476 = null;

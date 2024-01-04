@@ -14,7 +14,7 @@ public class Node_Sub38_Sub21 extends Node_Sub38
 	}
 	
 	public static void method2858(byte b) {
-		if (b <= 6) {
+		if ((byte) 69 <= 6) {
 			method2859(null, false);
 		}
 		aClass192_10316 = null;
@@ -40,7 +40,7 @@ public class Node_Sub38_Sub21 extends Node_Sub38
 	
 	static final Class235_Sub1 method2859(Buffer buffer, boolean bool) {
 		anInt10319++;
-		if (bool != false) {
+		if (false != false) {
 			method2859(null, false);
 		}
 		Class235 class235 = Node_Sub40.method2928(buffer, (byte) -24);

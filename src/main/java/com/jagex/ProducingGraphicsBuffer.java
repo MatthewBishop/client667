@@ -40,8 +40,8 @@ public class ProducingGraphicsBuffer extends GraphicsBuffer implements ImageProd
 	}
 	
 	final void method2597(int i, int i_0_, int i_1_, boolean bool, Graphics graphics, int i_2_, int i_3_, int i_4_) {
-		if (bool == false) {
-			method2599(i_0_, i_4_, i_2_, bool, i);
+		if (false == false) {
+			method2599(i_0_, i_4_, i_2_, false, i);
 			anInt9888++;
 			Shape shape = graphics.getClip();
 			graphics.clipRect(i_1_, i_3_, i, i_2_);
@@ -64,7 +64,7 @@ public class ProducingGraphicsBuffer extends GraphicsBuffer implements ImageProd
 		aCanvas9889 = canvas;
 		anInt9884++;
 		anInt7146 = i;
-		if (bool == true) {
+		if (true == true) {
 			anIntArray7145 = new int[anInt7146 * anInt7142];
 			aColorModel9892 = new DirectColorModel(32, 16711680, 65280, 255);
 			anImage9887 = aCanvas9889.createImage(this);
@@ -96,7 +96,7 @@ public class ProducingGraphicsBuffer extends GraphicsBuffer implements ImageProd
 	private final synchronized void method2600(int i) {
 		anInt9883++;
 		if (anImageConsumer9899 != null) {
-			anImageConsumer9899.setPixels(0, i, anInt7146, anInt7142, aColorModel9892, anIntArray7145, 0, anInt7146);
+			anImageConsumer9899.setPixels(0, 0, anInt7146, anInt7142, aColorModel9892, anIntArray7145, 0, anInt7146);
 			anImageConsumer9899.imageComplete(2);
 		}
 	}
@@ -137,7 +137,7 @@ public class ProducingGraphicsBuffer extends GraphicsBuffer implements ImageProd
 	public static void method2602(byte b) {
 		anInterface17_9901 = null;
 		anIntArray9895 = null;
-		if (b < 57) {
+		if ((byte) 112 < 57) {
 			aBoolean9900 = true;
 		}
 		aClass212_9894 = null;

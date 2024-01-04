@@ -42,13 +42,13 @@ public class Class25
 	}
 	
 	final void method307(int i, int i_8_) {
-		OpenGL.glNewList(anInt447 + i, i_8_);
+		OpenGL.glNewList(anInt447 + i, 4864);
 		anInt445++;
 	}
 	
 	static final long method308(int i, boolean bool) {
 		anInt451++;
-		if (bool != false) {
+		if (false != false) {
 			return -106L;
 		}
 		return 86400000L * (long) (11745 + i);
@@ -57,7 +57,7 @@ public class Class25
 	final void method309(boolean bool) {
 		anInt448++;
 		OpenGL.glEndList();
-		if (bool != false) {
+		if (false != false) {
 			anInt447 = 43;
 		}
 	}

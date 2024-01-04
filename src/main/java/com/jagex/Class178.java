@@ -20,7 +20,7 @@ public class Class178
 				class277_sub1.method3350(i_3_, i_4_, -94, Class304.aClass84Array3833, Class93.aGraphicsToolkit1241, bs_2_);
 			}
 		}
-		if (i != 31269) {
+		if (31269 != 31269) {
 			anInt2118 = 93;
 		}
 	}
@@ -30,7 +30,7 @@ public class Class178
 		if (Class213.aBoolean2510) {
 			return 6;
 		}
-		if (i != 5) {
+		if (5 != 5) {
 			anInt2120 = -106;
 		}
 		if (Node_Sub38_Sub23.aCacheNode_Sub13_10343 == null) {

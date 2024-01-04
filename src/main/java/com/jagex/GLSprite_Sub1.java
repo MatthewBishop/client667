@@ -42,7 +42,7 @@ public class GLSprite_Sub1 extends GLSprite
 		OpenGL.glPixelTransferf(3353, 0.499F);
 		OpenGL.glPixelTransferf(3354, 0.5F);
 		OpenGL.glPixelTransferf(3355, 0.499F);
-		aClass169_Sub2_Sub1_8854 = Class158.method1724(i, aClass169_Sub2_Sub1_8855.anInt10564, aClass169_Sub2_Sub1_8855.anInt10566, (byte) 83, i_0_, aGLToolkit8861);
+		aClass169_Sub2_Sub1_8854 = Class158.method1724(0, aClass169_Sub2_Sub1_8855.anInt10564, aClass169_Sub2_Sub1_8855.anInt10566, (byte) 83, 0, aGLToolkit8861);
 		anInt8869 = i_1_;
 		OpenGL.glPixelTransferf(3348, 1.0F);
 		OpenGL.glPixelTransferf(3349, 0.0F);
@@ -53,7 +53,7 @@ public class GLSprite_Sub1 extends GLSprite
 	}
 	
 	final void method1184(int i, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_) {
-		aClass169_Sub2_Sub1_8855.method1757(false, (i_8_ & 0x1) != 0);
+		aClass169_Sub2_Sub1_8855.method1757(false, (1 & 0x1) != 0);
 		anInt8858++;
 		aGLToolkit8861.method1461(34962);
 		aGLToolkit8861.method1460(i_7_, 3);
@@ -168,7 +168,7 @@ public class GLSprite_Sub1 extends GLSprite
 		}
 		float f_35_ = f_17_ + (-f + f_15_);
 		float f_36_ = f_18_ - f_14_ + f_16_;
-		aClass169_Sub2_Sub1_8855.method1757(false, (i & 0x1) != 0);
+		aClass169_Sub2_Sub1_8855.method1757(false, (1 & 0x1) != 0);
 		aGLToolkit8861.method1461(34962);
 		aGLToolkit8861.method1444(-2, aClass169_Sub2_Sub1_8855);
 		aGLToolkit8861.method1434((byte) 94, 1);
@@ -201,7 +201,7 @@ public class GLSprite_Sub1 extends GLSprite
 	}
 	
 	static final void method1201(int i, int i_39_, int i_40_, int i_41_, int i_42_, int i_43_) {
-		if (i_41_ == -12935) {
+		if (-12935 == -12935) {
 			if (Node_Sub25_Sub1.anInt9936 >= i_43_ && i >= Class384.anInt4906) {
 				boolean bool;
 				if (Class262_Sub4.anInt7722 > i_39_) {
@@ -301,7 +301,7 @@ public class GLSprite_Sub1 extends GLSprite
 	}
 	
 	static final boolean method1202(byte b) {
-		int i = -39 % ((b - 59) / 36);
+		int i = -39 % (((byte) 21 - 59) / 36);
 		anInt8871++;
 		if (Animable_Sub2_Sub1.aBoolean10628) {
 			try {
@@ -406,7 +406,7 @@ public class GLSprite_Sub1 extends GLSprite
 		anInt8856++;
 		float f_87_ = f_68_ + (-f + f_66_);
 		float f_88_ = f_69_ - f_65_ + f_67_;
-		aClass169_Sub2_Sub1_8855.method1757(false, (0x1 & i_72_) != 0);
+		aClass169_Sub2_Sub1_8855.method1757(false, (0x1 & 1) != 0);
 		aGLToolkit8861.method1461(34962);
 		aGLToolkit8861.method1444(-2, aClass169_Sub2_Sub1_8855);
 		aGLToolkit8861.method1460(i_71_, 3);
@@ -428,10 +428,10 @@ public class GLSprite_Sub1 extends GLSprite
 		aGLToolkit8861.method1457(33984, 1);
 		anInt8870++;
 		aGLToolkit8861.method1444(-2, null);
-		aGLToolkit8861.method1474(i + -25, 8448, 8448);
+		aGLToolkit8861.method1474(0 + -25, 8448, 8448);
 		aGLToolkit8861.method1464(34168, 768, 1, (byte) -51);
 		aGLToolkit8861.method1472(-34, 0, 770, 5890);
-		aGLToolkit8861.method1457(33984, i);
+		aGLToolkit8861.method1457(33984, 0);
 		aGLToolkit8861.method1464(34168, 768, 1, (byte) -51);
 	}
 	
@@ -546,7 +546,7 @@ public class GLSprite_Sub1 extends GLSprite
 	}
 	
 	private final void method1204(int i, int i_113_, int i_114_, int i_115_, int[] is, int i_116_, int i_117_) {
-		aClass169_Sub2_Sub1_8855.method1772((byte) -28, is, true, i, i_115_, i_114_, i_113_, i_117_, i_116_);
+		aClass169_Sub2_Sub1_8855.method1772((byte) -28, is, true, i, i_115_, i_114_, i_113_, i_117_, 0);
 		anInt8853++;
 	}
 	
@@ -570,7 +570,7 @@ public class GLSprite_Sub1 extends GLSprite
 	private final void method1206(boolean bool, int i) {
 		aGLToolkit8861.method1457(33984, 1);
 		anInt8867++;
-		if (bool == true) {
+		if (true == true) {
 			aGLToolkit8861.method1444(-2, aClass169_Sub2_Sub1_8855);
 			aGLToolkit8861.method1474(126, 7681, aGLToolkit8861.method1420(i, false));
 			aGLToolkit8861.method1464(34167, 768, 1, (byte) -51);

@@ -32,7 +32,7 @@ public class Node_Sub19 extends Node
 		int i_9_ = Node_Sub38_Sub32.method2894(Class384.anInt4906, Node_Sub25_Sub1.anInt9936, 929798380, i_0_ - -i);
 		int i_10_ = Node_Sub38_Sub32.method2894(Class384.anInt4906, Node_Sub25_Sub1.anInt9936, 929798380, i_2_ + -i);
 		int i_11_ = i_5_;
-		if (b < 35) {
+		if ((byte) 97 < 35) {
 			anInt7163 = 45;
 		}
 		for (/**/; i_11_ < i_9_; i_11_++)
@@ -92,7 +92,7 @@ public class Node_Sub19 extends Node
 	
 	static final boolean method2610(byte b, boolean bool) {
 		anInt7162++;
-		if (b != -58) {
+		if ((byte) -58 != -58) {
 			anInt7173 = -19;
 		}
 		boolean bool_17_ = Class93.aGraphicsToolkit1241.w();
@@ -117,7 +117,7 @@ public class Node_Sub19 extends Node
 	static final void method2611(boolean bool) {
 		anInt7155++;
 		Class220.method2097(19810);
-		if (bool != false) {
+		if (false != false) {
 			anInt7173 = -46;
 		}
 	}

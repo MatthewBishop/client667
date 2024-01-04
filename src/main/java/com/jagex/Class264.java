@@ -26,7 +26,7 @@ public class Class264
 					if (i != 40) {
 						if (i != 41) {
 							if (i >= 60 && i < 70) {
-								anIntArray3362[-60 + i] = buffer.method2219(Node_Sub19.method2612(b, -130546749));
+								anIntArray3362[-60 + i] = buffer.method2219(Node_Sub19.method2612((byte) 11, -130546749));
 							}
 						} else {
 							int i_0_ = buffer.method2233(255);
@@ -38,7 +38,7 @@ public class Class264
 							}
 						}
 					} else {
-						int i_2_ = buffer.method2233(b + 244);
+						int i_2_ = buffer.method2233((byte) 11 + 244);
 						aShortArray3359 = new short[i_2_];
 						aShortArray3349 = new short[i_2_];
 						for (int i_3_ = 0; i_2_ > i_3_; i_3_++) {
@@ -48,15 +48,15 @@ public class Class264
 					}
 				}
 			} else {
-				int i_4_ = buffer.method2233(b + 244);
+				int i_4_ = buffer.method2233((byte) 11 + 244);
 				anIntArray3357 = new int[i_4_];
 				for (int i_5_ = 0; i_5_ < i_4_; i_5_++)
 					anIntArray3357[i_5_] = buffer.method2219(-130546744);
 			}
 		} else {
-			buffer.method2233(b + 244);
+			buffer.method2233((byte) 11 + 244);
 		}
-		if (b != 11) {
+		if ((byte) 11 != 11) {
 			aShortArray3349 = null;
 		}
 	}
@@ -64,13 +64,13 @@ public class Class264
 	final void method3226(Buffer buffer, byte b) {
 		anInt3358++;
 		for (;;) {
-			int i = buffer.method2233(b + 279);
+			int i = buffer.method2233((byte) -24 + 279);
 			if (i == 0) {
 				break;
 			}
 			method3225((byte) 11, i, buffer);
 		}
-		if (b != -24) {
+		if ((byte) -24 != -24) {
 			anIntArray3352 = null;
 		}
 	}
@@ -108,7 +108,7 @@ public class Class264
 	
 	final boolean method3228(boolean bool) {
 		anInt3354++;
-		boolean bool_10_ = bool;
+		boolean bool_10_ = true;
 		synchronized (aClass181_3360.aClass302_2156) {
 			for (int i = 0; i < 5; i++) {
 				if (anIntArray3362[i] != -1 && !aClass181_3360.aClass302_2156.method3515(0, anIntArray3362[i], 0)) {
@@ -126,7 +126,7 @@ public class Class264
 		}
 		boolean bool = true;
 		synchronized (aClass181_3360.aClass302_2156) {
-			for (int i_11_ = i; i_11_ < anIntArray3357.length; i_11_++) {
+			for (int i_11_ = 0; i_11_ < anIntArray3357.length; i_11_++) {
 				if (!aClass181_3360.aClass302_2156.method3515(0, anIntArray3357[i_11_], 0)) {
 					bool = false;
 				}
@@ -136,7 +136,7 @@ public class Class264
 	}
 	
 	public static void method3230(byte b) {
-		if (b != -5) {
+		if ((byte) -5 != -5) {
 			anIntArray3352 = null;
 		}
 		anIntArray3352 = null;
@@ -149,8 +149,8 @@ public class Class264
 		}
 		Model[] models = new Model[anIntArray3357.length];
 		synchronized (aClass181_3360.aClass302_2156) {
-			for (int i_12_ = i; anIntArray3357.length > i_12_; i_12_++)
-				models[i_12_] = Renderer.method3448(anIntArray3357[i_12_], i + 7, 0, aClass181_3360.aClass302_2156);
+			for (int i_12_ = 0; anIntArray3357.length > i_12_; i_12_++)
+				models[i_12_] = Renderer.method3448(anIntArray3357[i_12_], 0 + 7, 0, aClass181_3360.aClass302_2156);
 		}
 		for (int i_13_ = 0; anIntArray3357.length > i_13_; i_13_++) {
 			if (models[i_13_].anInt2614 < 13) {

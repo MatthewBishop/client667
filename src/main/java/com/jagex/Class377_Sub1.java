@@ -31,7 +31,7 @@ public class Class377_Sub1 extends Class377
 			hashtable.put(object, Class71.aHashtable958.get(object));
 		}
 		try {
-			if (i != 0) {
+			if (0 != 0) {
 				aBoolean8778 = true;
 			}
 			Class var_class = Class.forName("java.lang.reflect.AccessibleObject");
@@ -94,7 +94,7 @@ public class Class377_Sub1 extends Class377
 	
 	static final boolean method4129(byte b, int i) {
 		anInt8770++;
-		if (b != 83) {
+		if ((byte) 83 != 83) {
 			return false;
 		}
 		if (i == 1 || i == 7) {
@@ -111,14 +111,14 @@ public class Class377_Sub1 extends Class377
 			i_7_ <<= 1;
 			i_8_ = -i_7_;
 		}
-		if (i == -10385) {
+		if (-10385 == -10385) {
 			Class93.aGraphicsToolkit1241.f(i_8_, i_7_);
 		}
 	}
 	
 	final Class46 method4131(byte b) {
 		anInt8772++;
-		if (b != -97) {
+		if ((byte) -97 != -97) {
 			aNode_Sub29Array8782 = null;
 		}
 		return Class320_Sub22.aClass46Array8418[anInt4674];
@@ -127,7 +127,7 @@ public class Class377_Sub1 extends Class377
 	public static void method4132(int i) {
 		anIntArray8776 = null;
 		aNode_Sub29Array8782 = null;
-		if (i != 104) {
+		if (104 != 104) {
 			anInt8774 = -1;
 		}
 	}

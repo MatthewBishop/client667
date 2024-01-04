@@ -77,21 +77,21 @@ public class Class290_Sub6 extends Class290
 		}
 		if (Class118.anInt5405 == 1) {
 			GLToolkit.aClass298Array6403 = Class298.method3481(-125);
-			Class298.aClass298_3712.method3484(new Class108(Class176.aClass302_2102), i + -13627);
+			Class298.aClass298_3712.method3484(new Class108(Class176.aClass302_2102), 14627 + -13627);
 			Class298.aClass298_3715.method3484(new Class45("jaggl"), 1000);
-			Class298.aClass298_3716.method3484(new Class45("jagdx"), i + -13627);
+			Class298.aClass298_3716.method3484(new Class45("jagdx"), 14627 + -13627);
 			Class298.aClass298_3717.method3484(new Class45("jagmisc"), 1000);
 			Class298.aClass298_3718.method3484(new Class45("sw3d"), 1000);
 			Class298.aClass298_3719.method3484(new Class45("hw3d"), 1000);
 			Class298.aClass298_3720.method3484(new Class45("jagtheora"), 1000);
-			Class298.aClass298_3721.method3484(new Class108(Class262_Sub2.aClass302_7707), i + -13627);
+			Class298.aClass298_3721.method3484(new Class108(Class262_Sub2.aClass302_7707), 14627 + -13627);
 			Class298.aClass298_3722.method3484(new Class108(Node_Sub38_Sub10.aClass302_10197), 1000);
-			Class298.aClass298_3723.method3484(new Class108(Class4.aClass302_122), i ^ 0x3acb);
+			Class298.aClass298_3723.method3484(new Class108(Class4.aClass302_122), 14627 ^ 0x3acb);
 			Class298.aClass298_3724.method3484(new Class108(Class247.aClass302_3143), 1000);
-			Class298.aClass298_3725.method3484(new Class108(Class14.aClass302_219), i + -13627);
+			Class298.aClass298_3725.method3484(new Class108(Class14.aClass302_219), 14627 + -13627);
 			Class298.aClass298_3726.method3484(new Class108(Class174.aClass302_2093), 1000);
-			Class298.aClass298_3727.method3484(new Class108(Class205.aClass302_5104), i ^ 0x3acb);
-			Class298.aClass298_3728.method3484(new Class108(Class262_Sub23.aClass302_7886), i + -13627);
+			Class298.aClass298_3727.method3484(new Class108(Class205.aClass302_5104), 14627 ^ 0x3acb);
+			Class298.aClass298_3728.method3484(new Class108(Class262_Sub23.aClass302_7886), 14627 + -13627);
 			Class298.aClass298_3729.method3484(new Class108(Node_Sub15_Sub5.aClass302_9805), 1000);
 			Class298.aClass298_3730.method3484(new Class108(Class127.aClass302_1646), 1000);
 			Class298.aClass298_3731.method3484(new Class108(Node_Sub38_Sub4.aClass302_10116), 1000);
@@ -101,7 +101,7 @@ public class Class290_Sub6 extends Class290
 			Class298.aClass298_3735.method3484(new Class258(Class250.aClass302_3179, "huffman"), 1000);
 			Class298.aClass298_3736.method3484(new Class108(Class293.aClass302_3681), 1000);
 			Class298.aClass298_3737.method3484(new Class108(Class21.aClass302_357), 1000);
-			Class298.aClass298_3738.method3484(new Class108(AnimableAnimator_Sub1.aClass302_9091), i + -13627);
+			Class298.aClass298_3738.method3484(new Class108(AnimableAnimator_Sub1.aClass302_9091), 14627 + -13627);
 			Class298.aClass298_3739.method3484(new Class88(r_Sub1.aClass302_11047, "details"), 1000);
 			for (int i_2_ = 0; GLToolkit.aClass298Array6403.length > i_2_; i_2_++) {
 				if (GLToolkit.aClass298Array6403[i_2_].method3483((byte) -99) == null) {
@@ -129,7 +129,7 @@ public class Class290_Sub6 extends Class290
 		for (int i_9_ = 0; class298s.length > i_9_; i_9_++) {
 			Class298 class298 = class298s[i_9_];
 			int i_10_ = class298.method3485(1);
-			int i_11_ = class298.method3483((byte) -106).method35(i ^ ~0x392f);
+			int i_11_ = class298.method3483((byte) -106).method35(14627 ^ ~0x392f);
 			i_8_ += i_10_ * i_11_ / 100;
 			if (i_11_ < 100) {
 				bool = false;
@@ -137,7 +137,7 @@ public class Class290_Sub6 extends Class290
 			i_7_ += i_10_;
 		}
 		if (bool) {
-			if (!((Class45) Class298.aClass298_3717.method3483((byte) -106)).method464(i ^ ~0x3954)) {
+			if (!((Class45) Class298.aClass298_3717.method3483((byte) -106)).method464(14627 ^ ~0x3954)) {
 				Class158.aClient1983.method86(7834);
 			}
 			if (!((Class45) Class298.aClass298_3720.method3483((byte) -121)).method464(34)) {
@@ -146,7 +146,7 @@ public class Class290_Sub6 extends Class290
 			GLToolkit.aClass298Array6403 = null;
 		}
 		i_8_ -= Class209.anInt2493;
-		if (i != 14627) {
+		if (14627 != 14627) {
 			aClass312_8122 = null;
 		}
 		i_7_ -= Class209.anInt2493;
@@ -161,6 +161,6 @@ public class Class290_Sub6 extends Class290
 		aClass336_8114 = null;
 		anIntArray8123 = null;
 		aClass312_8122 = null;
-		int i = -26 / ((b - -53) / 62);
+		int i = -26 / (((byte) -120 - -53) / 62);
 	}
 }

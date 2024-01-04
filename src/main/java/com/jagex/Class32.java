@@ -19,7 +19,7 @@ public class Class32
 		synchronized (aClass61_518) {
 			aClass61_518.method602((byte) -121);
 		}
-		if (b != -75) {
+		if ((byte) -75 != -75) {
 			method353(37, (byte) -82);
 		}
 	}
@@ -57,7 +57,7 @@ public class Class32
 			i_2_ = i_6_;
 		}
 		anInt509++;
-		int i_7_ = 78 % ((b - -54) / 47);
+		int i_7_ = 78 % (((byte) 45 - -54) / 47);
 		if (i_5_ == 0) {
 			return i_4_;
 		}
@@ -71,11 +71,11 @@ public class Class32
 	}
 	
 	final void method355(int i, int i_8_) {
-		if (i != -2) {
+		if (-2 != -2) {
 			method359(null, -91);
 		}
 		synchronized (aClass61_518) {
-			aClass61_518.method598(i_8_, -11819);
+			aClass61_518.method598(5, -11819);
 		}
 		anInt512++;
 	}
@@ -87,7 +87,7 @@ public class Class32
 		buffer.anInt7002 = -2 + buffer.aByteArray7019.length;
 		int i = buffer.method2219(-130546744);
 		int i_9_ = buffer.aByteArray7019.length - (2 - -i) - 16;
-		if (bool != false) {
+		if (false != false) {
 			method359(null, -93);
 		}
 		buffer.anInt7002 = i_9_;
@@ -148,13 +148,13 @@ public class Class32
 			aClass61_518.method608(false);
 		}
 		anInt515++;
-		if (i != 23415) {
+		if (23415 != 23415) {
 			method353(99, (byte) 57);
 		}
 	}
 	
 	public static void method358(int i) {
-		if (i != 7) {
+		if (7 != 7) {
 			anAnimableArray516 = null;
 		}
 		aClass359_508 = null;

@@ -46,13 +46,13 @@ public class Class263
 	final void method3218(boolean[][] bools, int i, int i_10_, int i_11_, boolean bool, int i_12_) {
 		anInt3335++;
 		anAbstractToolkit3331.method1296(126, false);
-		if (i_12_ != -1) {
+		if (-1 != -1) {
 			method3220(null, -45, -2, -18);
 		}
 		anAbstractToolkit3331.method1307(-113, false);
 		anAbstractToolkit3331.method1277((byte) 61, 1);
 		anAbstractToolkit3331.method1278((byte) -12, 1);
-		anAbstractToolkit3331.method1332(i_12_ ^ ~0x3, false, -2, false);
+		anAbstractToolkit3331.method1332(-1 ^ ~0x3, false, -2, false);
 		float f = 1.0F / (float) (anAbstractToolkit3331.anInt6320 * 128);
 		if (bool) {
 			for (int i_13_ = 0; i_13_ < anInt3345; i_13_++) {
@@ -71,7 +71,7 @@ public class Class263
 										class336_sub1.method3877(1.0F, (byte) -112, f, f);
 										class336_sub1.method3863(-i_16_, -i_13_, 0);
 										anAbstractToolkit3331.method1297(-21029, BufferedConnection.aClass346_615);
-										aClass245ArrayArray3342[i_16_][i_13_].method3070(i_12_);
+										aClass245ArrayArray3342[i_16_][i_13_].method3070(-1);
 										break while_222_;
 									}
 								}
@@ -87,7 +87,7 @@ public class Class263
 				for (int i_24_ = 0; anInt3334 > i_24_; i_24_++) {
 					Class245 class245 = aClass245ArrayArray3342[i_24_][i_21_];
 					if (class245 != null) {
-						Interface15_Impl1 interface15_impl1 = anAbstractToolkit3331.method1298(i_12_ + 1, class245.anInt3100 * 3);
+						Interface15_Impl1 interface15_impl1 = anAbstractToolkit3331.method1298(-1 + 1, class245.anInt3100 * 3);
 						jaclib.memory.Buffer buffer = interface15_impl1.method54(true, (byte) 83);
 						if (buffer != null) {
 							Stream stream = anAbstractToolkit3331.method1324(true, buffer);
@@ -194,7 +194,7 @@ public class Class263
 		i += var_r_Sub1.anInt11050 - -1;
 		int i_46_ = i_45_ * anInt3347 + i;
 		int i_47_ = var_r_Sub1.anInt11049;
-		if (b >= -95) {
+		if ((byte) -96 >= -95) {
 			method3219(false);
 		}
 		int i_48_ = var_r_Sub1.anInt11042;
@@ -281,7 +281,7 @@ public class Class263
 		int i_78_ = i_69_ - i_73_;
 		int i_79_ = i_67_ * i_67_;
 		int i_80_ = i_69_ * i_69_;
-		if (i_68_ != -21595) {
+		if (-21595 != -21595) {
 			method3219(true);
 		}
 		int i_81_ = i_77_ * i_77_;
@@ -311,7 +311,7 @@ public class Class263
 		if (Class384.anInt4906 <= i_71_ && Node_Sub25_Sub1.anInt9936 >= i_71_) {
 			int[] is = Class169_Sub4.anIntArrayArray8826[i_71_];
 			int i_105_ = Node_Sub38_Sub32.method2894(Class262_Sub4.anInt7722, za_Sub2.anInt10513, 929798380, -i_67_ + i);
-			int i_106_ = Node_Sub38_Sub32.method2894(Class262_Sub4.anInt7722, za_Sub2.anInt10513, i_68_ ^ ~0x376bccb6, i - -i_67_);
+			int i_106_ = Node_Sub38_Sub32.method2894(Class262_Sub4.anInt7722, za_Sub2.anInt10513, -21595 ^ ~0x376bccb6, i - -i_67_);
 			int i_107_ = Node_Sub38_Sub32.method2894(Class262_Sub4.anInt7722, za_Sub2.anInt10513, 929798380, i - i_77_);
 			int i_108_ = Node_Sub38_Sub32.method2894(Class262_Sub4.anInt7722, za_Sub2.anInt10513, 929798380, i + i_77_);
 			Class369.method4086(i_107_, i_70_, i_105_, is, 0);
@@ -365,11 +365,11 @@ public class Class263
 			int i_109_ = -(--i_75_) + i_71_;
 			int i_110_ = i_71_ - -i_75_;
 			if (i_110_ >= Class384.anInt4906 && Node_Sub25_Sub1.anInt9936 >= i_109_) {
-				int i_111_ = Node_Sub38_Sub32.method2894(Class262_Sub4.anInt7722, za_Sub2.anInt10513, i_68_ ^ ~0x376bccb6, i - -i_74_);
+				int i_111_ = Node_Sub38_Sub32.method2894(Class262_Sub4.anInt7722, za_Sub2.anInt10513, -21595 ^ ~0x376bccb6, i - -i_74_);
 				int i_112_ = Node_Sub38_Sub32.method2894(Class262_Sub4.anInt7722, za_Sub2.anInt10513, 929798380, i - i_74_);
 				if (bool) {
-					int i_113_ = Node_Sub38_Sub32.method2894(Class262_Sub4.anInt7722, za_Sub2.anInt10513, i_68_ + 929819975, i - -i_76_);
-					int i_114_ = Node_Sub38_Sub32.method2894(Class262_Sub4.anInt7722, za_Sub2.anInt10513, i_68_ + 929819975, i - i_76_);
+					int i_113_ = Node_Sub38_Sub32.method2894(Class262_Sub4.anInt7722, za_Sub2.anInt10513, -21595 + 929819975, i - -i_76_);
+					int i_114_ = Node_Sub38_Sub32.method2894(Class262_Sub4.anInt7722, za_Sub2.anInt10513, -21595 + 929819975, i - i_76_);
 					if (Class384.anInt4906 <= i_109_) {
 						int[] is = Class169_Sub4.anIntArrayArray8826[i_109_];
 						Class369.method4086(i_114_, i_70_, i_112_, is, 0);
@@ -398,7 +398,7 @@ public class Class263
 		anInt3332++;
 		aClass245ArrayArray3342 = new Class245[anInt3334][anInt3345];
 		int i = 0;
-		if (b == 122) {
+		if ((byte) 122 == 122) {
 			for (/**/; anInt3345 > i; i++) {
 				for (int i_115_ = 0; anInt3334 > i_115_; i_115_++) {
 					aClass245ArrayArray3342[i_115_][i] = new Class245(anAbstractToolkit3331, this, aStandardPlane3344, i_115_, i, anInt3330, 1 + 128 * i_115_, 128 * i - -1);

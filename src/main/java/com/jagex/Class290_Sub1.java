@@ -38,13 +38,13 @@ public class Class290_Sub1 extends Class290
 	
 	public static void method3423(boolean bool) {
 		aGLSprite8062 = null;
-		if (bool != false) {
+		if (false != false) {
 			method3425(62, 0, 81);
 		}
 	}
 	
 	final void method3419(Interface13 interface13, int i, byte b) {
-		if (b == 92) {
+		if ((byte) 92 == 92) {
 			anInt8054++;
 		}
 	}

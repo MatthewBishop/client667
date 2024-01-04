@@ -29,7 +29,7 @@ public class Class340 implements Runnable
 	private int anInt4230;
 	
 	final Class110 method3949(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			method3954(-61, null, null, 84, 34L);
 		}
 		anInt4208++;
@@ -37,7 +37,7 @@ public class Class340 implements Runnable
 	}
 	
 	final long method3950(byte b) {
-		if (b < 37) {
+		if ((byte) 121 < 37) {
 			anInterface16_4228 = null;
 		}
 		anInt4211++;
@@ -63,7 +63,7 @@ public class Class340 implements Runnable
 		anInt4207++;
 		anInterface16_4228 = anInterface16_4216;
 		anInterface16_4216 = interface16;
-		if (b <= -42) {
+		if ((byte) -68 <= -42) {
 			aLong4222 = Class313.method3650(false);
 		}
 	}
@@ -82,7 +82,7 @@ public class Class340 implements Runnable
 		if (aClass110_4223 == null) {
 			return 0;
 		}
-		if (i != 7398) {
+		if (7398 != 7398) {
 			anInt4229 = -104;
 		}
 		int i_2_ = aClass110_4223.method1130(-3);
@@ -100,7 +100,7 @@ public class Class340 implements Runnable
 	
 	final synchronized boolean method3956(int i) {
 		anInt4226++;
-		int i_3_ = -96 % ((-17 - i) / 60);
+		int i_3_ = -96 % ((-17 - -79) / 60);
 		return anInterface16_4216.method61(false, aLong4222);
 	}
 	
@@ -114,7 +114,7 @@ public class Class340 implements Runnable
 	
 	final int method3958(byte b) {
 		anInt4213++;
-		if (b != 84) {
+		if ((byte) 84 != 84) {
 			method3959(79);
 		}
 		return anInt4230;

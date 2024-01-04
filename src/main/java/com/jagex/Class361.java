@@ -16,7 +16,7 @@ public class Class361
 		anInt4484++;
 		Buffer buffer = new Buffer(bs);
 		int i_0_ = buffer.method2233(255);
-		if (i_0_ != i) {
+		if (i_0_ != 2) {
 			return false;
 		}
 		boolean bool = buffer.method2233(255) == 1;
@@ -30,7 +30,7 @@ public class Class361
 	static final void method4046(int i, int i_1_, int i_2_) {
 		anInt4489++;
 		CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(3, 16, (long) i_1_);
-		if (i != 2) {
+		if (2 != 2) {
 			aClass191_4486 = null;
 		}
 		cachenode_sub2.method2288(0);
@@ -39,7 +39,7 @@ public class Class361
 	
 	static final Class291 method4047(int i, Component component) {
 		anInt4483++;
-		if (i != 2) {
+		if (2 != 2) {
 			aClass191_4486 = null;
 		}
 		return new Class291_Sub1(component);
@@ -47,7 +47,7 @@ public class Class361
 	
 	public static void method4048(byte b) {
 		aClass191_4486 = null;
-		if (b != 4) {
+		if ((byte) 4 != 4) {
 			aClass191_4486 = null;
 		}
 	}

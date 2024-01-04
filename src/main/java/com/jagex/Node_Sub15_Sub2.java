@@ -37,7 +37,7 @@ public class Node_Sub15_Sub2 extends Node_Sub15
 			}
 			i_0_ += i_2_;
 		}
-		if (i_4_ != -1941613085) {
+		if (-1941613085 != -1941613085) {
 			aBoolean9780 = false;
 		}
 		return false;
@@ -46,7 +46,7 @@ public class Node_Sub15_Sub2 extends Node_Sub15
 	static final short method2560(int i, int i_11_) {
 		anInt9777++;
 		int i_12_ = i_11_ >> 10 & 0x3f;
-		if (i != 5310) {
+		if (5310 != 5310) {
 			return (short) 117;
 		}
 		int i_13_ = i_11_ >> 3 & 0x70;
@@ -92,14 +92,14 @@ public class Node_Sub15_Sub2 extends Node_Sub15
 		anInt9783++;
 		Node_Sub41.aClass114_7519 = new Class114(8);
 		Class51_Sub2.anInt9070 = 0;
-		if (i == 1993405383) {
+		if (1993405383 == 1993405383) {
 			for (EntityNode_Sub4 entitynode_sub4 = (EntityNode_Sub4) Animable_Sub2.aClass103_9116.method1113((byte) -114); entitynode_sub4 != null; entitynode_sub4 = (EntityNode_Sub4) Animable_Sub2.aClass103_9116.method1108(74))
 				entitynode_sub4.method961();
 		}
 	}
 	
 	public static void method2562(int i) {
-		if (i >= 45) {
+		if (66 >= 45) {
 			aClass104_9779 = null;
 			aClass138Array9784 = null;
 		}

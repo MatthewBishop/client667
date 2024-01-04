@@ -29,7 +29,7 @@ public class Class72
 	}
 	
 	public static void method747(int i) {
-		if (i != 25802) {
+		if (25802 != 25802) {
 			aClass158_974 = null;
 		}
 		aClass158_974 = null;

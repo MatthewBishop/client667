@@ -16,7 +16,7 @@ public class Class138
 	protected int anInt1729;
 	
 	final int method1601(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			return 15;
 		}
 		anInt1718++;
@@ -27,7 +27,7 @@ public class Class138
 	}
 	
 	final int method1602(int i) {
-		if (i != 28771) {
+		if (28771 != 28771) {
 			return 18;
 		}
 		anInt1727++;
@@ -40,7 +40,7 @@ public class Class138
 			return false;
 		}
 		int i_1_ = i >> 16;
-		if (b <= 68) {
+		if ((byte) 95 <= 68) {
 			anInt1726 = 54;
 		}
 		int i_2_ = 0xffff & i;
@@ -69,7 +69,7 @@ public class Class138
 	}
 	
 	static final boolean method1604(int i, int i_4_, int i_5_) {
-		if (i_5_ != 0) {
+		if (0 != 0) {
 			anInt1724 = -101;
 		}
 		anInt1719++;

@@ -232,7 +232,7 @@ public class Widget
 		anInt4843++;
 		drawablemodel.method614(class336);
 		Class300[] class300s = drawablemodel.method620();
-		if (i <= 85) {
+		if (123 <= 85) {
 			method4135(false, null);
 		}
 		Class218[] class218s = drawablemodel.method618();
@@ -250,13 +250,13 @@ public class Widget
 			aHashTable4823 = new HashTable(16);
 			aHashTable4823.method1515((long) i, new Node_Sub32(i_2_), -127);
 		} else {
-			Node_Sub32 node_sub32 = (Node_Sub32) aHashTable4823.method1518(i_1_ + 3496, (long) i);
+			Node_Sub32 node_sub32 = (Node_Sub32) aHashTable4823.method1518(16 + 3496, (long) i);
 			if (node_sub32 != null) {
 				node_sub32.anInt7381 = i_2_;
 			} else {
-				aHashTable4823.method1515((long) i, new Node_Sub32(i_2_), i_1_ ^ ~0x6e);
+				aHashTable4823.method1515((long) i, new Node_Sub32(i_2_), 16 ^ ~0x6e);
 			}
-			if (i_1_ != 16) {
+			if (16 != 16) {
 				anInt4679 = -101;
 			}
 		}
@@ -278,14 +278,14 @@ public class Widget
 			}
 		}
 		aBoolean4808 = true;
-		if (bool != false) {
+		if (false != false) {
 			anObjectArray4799 = null;
 		}
 		return objects;
 	}
 	
 	static final void method4139(GraphicsToolkit graphicstoolkit, int i, int i_5_, int i_6_, int i_7_, int i_8_, CacheNode_Sub13 cachenode_sub13, int i_9_, int i_10_, int i_11_, int i_12_, int i_13_) {
-		if (i_13_ == -4392) {
+		if (-4392 == -4392) {
 			anInt4766++;
 			if (i_12_ > i_11_ && i_12_ < i + i_11_ && i_10_ > i_7_ + -13 && i_7_ - -3 > i_10_ && cachenode_sub13.aBoolean9571) {
 				i_9_ = i_8_;
@@ -295,7 +295,7 @@ public class Widget
 				if (cachenode_sub13.anInt9569 == -1) {
 					if (!Class318.method3666(cachenode_sub13.anInt9562, (byte) 120)) {
 						if (Class194_Sub3.method1973(cachenode_sub13.anInt9562, 31922)) {
-							ObjectDefinition objectdefinition = Class186.aClass112_2256.method1145((int) (0x7fffffffL & cachenode_sub13.aLong9563 >>> 32), i_13_ + 4491);
+							ObjectDefinition objectdefinition = Class186.aClass112_2256.method1145((int) (0x7fffffffL & cachenode_sub13.aLong9563 >>> 32), -4392 + 4491);
 							if (objectdefinition.anIntArray2984 != null) {
 								objectdefinition = objectdefinition.method3038(13, Class24.aClass275_442);
 							}
@@ -317,7 +317,7 @@ public class Widget
 						}
 					}
 				} else {
-					is = EntityNode_Sub3_Sub1.aClass86_9166.method1010(cachenode_sub13.anInt9569, i_13_ ^ ~0x2945).anIntArray1926;
+					is = EntityNode_Sub3_Sub1.aClass86_9166.method1010(cachenode_sub13.anInt9569, -4392 ^ ~0x2945).anIntArray1926;
 				}
 			} else {
 				is = EntityNode_Sub3_Sub1.aClass86_9166.method1010((int) cachenode_sub13.aLong9563, 14434).anIntArray1926;
@@ -354,7 +354,7 @@ public class Widget
 			return string;
 		}
 		Node_Sub18 node_sub18 = (Node_Sub18) aHashTable4823.method1518(3512, (long) i);
-		if (i_16_ < 43) {
+		if (121 < 43) {
 			anInt4693 = -75;
 		}
 		if (node_sub18 == null) {
@@ -575,7 +575,7 @@ public class Widget
 		anObjectArray4706 = method4138(false, buffer);
 		anObjectArray4818 = method4138(false, buffer);
 		anObjectArray4771 = method4138(false, buffer);
-		int i_40_ = -36 / ((b - -45) / 50);
+		int i_40_ = -36 / (((byte) -106 - -45) / 50);
 		anObjectArray4768 = method4138(false, buffer);
 		anObjectArray4807 = method4138(false, buffer);
 		anObjectArray4742 = method4138(false, buffer);
@@ -611,7 +611,7 @@ public class Widget
 			}
 			aStringArray4686 = strings;
 		}
-		if (i_41_ != 0) {
+		if (0 != 0) {
 			method4157(90, null, null);
 		}
 		anInt4731++;
@@ -734,7 +734,7 @@ public class Widget
 	
 	static final String method4147(String string, boolean bool, String string_53_, String string_54_) {
 		anInt4737++;
-		if (bool != false) {
+		if (false != false) {
 			return null;
 		}
 		for (int i = string.indexOf(string_53_); i != -1; i = string.indexOf(string_53_, i - -string_54_.length()))
@@ -754,7 +754,7 @@ public class Widget
 			} else {
 				aHashTable4823.method1515((long) i, new Node_Sub18(string), -124);
 			}
-			int i_56_ = 70 / ((12 - i_55_) / 37);
+			int i_56_ = 70 / ((12 - -60) / 37);
 		}
 	}
 	
@@ -818,7 +818,7 @@ public class Widget
 		anObjectArray4807 = null;
 		anIntArray4789 = null;
 		anObjectArray4758 = null;
-		if (i > -98) {
+		if (-104 > -98) {
 			method4146((byte) 87);
 		}
 		anObjectArray4745 = null;
@@ -841,7 +841,7 @@ public class Widget
 		if (node_sub53 == null) {
 			return false;
 		}
-		if (i != 1869940680) {
+		if (1869940680 != 1869940680) {
 			return false;
 		}
 		for (int i_61_ = 0; i_61_ < node_sub53.anInt7658; i_61_++) {
@@ -978,7 +978,7 @@ public class Widget
 	}
 	
 	final void method4154(int i, int i_71_) {
-		if (i_71_ == 5) {
+		if (5 == 5) {
 			if (aHashTable4823 != null) {
 				Node node = aHashTable4823.method1518(3512, (long) i);
 				if (node != null) {
@@ -990,7 +990,7 @@ public class Widget
 	}
 	
 	final Class52 method4155(boolean bool, GraphicsToolkit graphicstoolkit) {
-		if (bool != true) {
+		if (true != true) {
 			return null;
 		}
 		anInt4685++;
@@ -1005,7 +1005,7 @@ public class Widget
 			return i;
 		}
 		Node_Sub32 node_sub32 = (Node_Sub32) aHashTable4823.method1518(3512, (long) i_73_);
-		if (i_72_ != 18131) {
+		if (18131 != 18131) {
 			anIntArray4863 = null;
 		}
 		if (node_sub32 == null) {
@@ -1033,7 +1033,7 @@ public class Widget
 	
 	final void method4158(int i, short s, int i_74_, short s_75_) {
 		anInt4855++;
-		if (i_74_ < i) {
+		if (i_74_ < 5) {
 			if (aShortArray4785 == null) {
 				aShortArray4690 = new short[5];
 				aShortArray4785 = new short[5];

@@ -68,7 +68,7 @@ public class Class336_Sub3 extends Class336
 		aFloat8605 = -aFloat8605;
 		aFloat8604 = -aFloat8604;
 		aFloat8591 = -aFloat8591;
-		if (i != 0) {
+		if (0 != 0) {
 			method3896(0.34738505F, 0.74615884F, -0.7928313F, 0.15693718F, null, (byte) -111);
 		}
 		aFloat8625 = -aFloat8625;
@@ -94,7 +94,7 @@ public class Class336_Sub3 extends Class336
 		aFloat8604 = class336_sub3_7_.aFloat8604;
 		aFloat8609 = -(class336_sub3_7_.aFloat8615 * aFloat8591 + (class336_sub3_7_.aFloat8594 * aFloat8625 + aFloat8607 * class336_sub3_7_.aFloat8609));
 		aFloat8615 = -(class336_sub3_7_.aFloat8594 * aFloat8605 + class336_sub3_7_.aFloat8609 * aFloat8593 + aFloat8604 * class336_sub3_7_.aFloat8615);
-		if (b < 26) {
+		if ((byte) 112 < 26) {
 			aFloat8608 = -1.4741409F;
 		}
 	}
@@ -233,7 +233,7 @@ public class Class336_Sub3 extends Class336
 			aFloat8625 = aFloat8605 = aFloat8608 = aFloat8593 = aFloat8617 = aFloat8591 = 0.0F;
 			aFloat8607 = (float) i_40_;
 		}
-		if (b >= 6) {
+		if ((byte) 99 >= 6) {
 			anInt8618++;
 			aFloat8615 = f_41_;
 			aFloat8609 = f_42_;
@@ -257,7 +257,7 @@ public class Class336_Sub3 extends Class336
 		Class326.aFloatArray4097[14] = 0.0F;
 		Class326.aFloatArray4097[6] = aFloat8593;
 		Class326.aFloatArray4097[4] = aFloat8608;
-		if (b >= -69) {
+		if ((byte) -87 >= -69) {
 			return null;
 		}
 		Class326.aFloatArray4097[10] = aFloat8604;
@@ -327,7 +327,7 @@ public class Class336_Sub3 extends Class336
 	public static void method3900(int i) {
 		aClass383_8624 = null;
 		aClass170_8613 = null;
-		if (i < 34) {
+		if (98 < 34) {
 			method3901(null, -119, 119, -109, -4, 13);
 		}
 	}

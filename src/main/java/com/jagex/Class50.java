@@ -16,7 +16,7 @@ public class Class50
 	static int anInt783;
 	
 	public static void method510(int i) {
-		if (i != 0) {
+		if (0 != 0) {
 			method511(-117, 43, 59, -14, -17);
 		}
 		aClass318_780 = null;
@@ -65,8 +65,8 @@ public class Class50
 			aa.aGLSprite102.method1196(i_8_, i_7_);
 			Class339_Sub7.aGLSprite8718.method1196(-Class339_Sub7.aGLSprite8718.method1193() + i + i_8_, i_7_);
 		}
-		if (b == -39) {
-			Class262_Sub4.aClass52_7721.method538(i_8_ + 3, 14 + i_7_, string, -1, b ^ ~0x27, ~0xffffff | Class320_Sub26.anInt8451);
+		if ((byte) -39 == -39) {
+			Class262_Sub4.aClass52_7721.method538(i_8_ + 3, 14 + i_7_, string, -1, (byte) -39 ^ ~0x27, ~0xffffff | Class320_Sub26.anInt8451);
 			graphicstoolkit.aa(i_8_, i_7_ - -i_9_, i, -i_9_ + i_6_, -Node_Sub36_Sub3.anInt10056 + 255 << 24 | AnimableAnimator.anInt5501, 1);
 		}
 	}

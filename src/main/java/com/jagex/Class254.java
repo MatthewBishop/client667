@@ -12,7 +12,7 @@ public class Class254
 	static float[] aFloatArray3213 = new float[4];
 	
 	private final void method3107(int i, Buffer buffer, byte b) {
-		if (b <= 105) {
+		if ((byte) 119 <= 105) {
 			method3109((byte) 37, null);
 		}
 		anInt3207++;

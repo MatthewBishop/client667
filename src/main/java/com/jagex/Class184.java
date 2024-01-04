@@ -28,7 +28,7 @@ public class Class184
 	private String aString2211;
 	
 	final void method1843(int i) {
-		if (i != -18) {
+		if (-18 != -18) {
 			anIntArray2204 = null;
 		}
 		anInt2196++;
@@ -45,7 +45,7 @@ public class Class184
 	}
 	
 	private final void method1845(int i, Buffer buffer, byte b) {
-		if (b < 46) {
+		if ((byte) 100 < 46) {
 			aClass158_2189 = null;
 		}
 		if (i != 1) {
@@ -201,14 +201,14 @@ public class Class184
 			}
 			method1845(i_24_, buffer, (byte) 100);
 		}
-		if (i == 6991) {
+		if (6991 == 6991) {
 			anInt2205++;
 		}
 	}
 	
 	public static void method1848(int i) {
 		aClass158_2189 = null;
-		if (i != 0) {
+		if (0 != 0) {
 			aClass158_2189 = null;
 		}
 		aLongArray2197 = null;

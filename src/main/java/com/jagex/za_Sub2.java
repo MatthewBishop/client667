@@ -12,7 +12,7 @@ public class za_Sub2 extends za
 	
 	static final boolean method2994(int i, byte b, int i_0_) {
 		anInt10509++;
-		int i_1_ = 116 / ((82 - b) / 41);
+		int i_1_ = 116 / ((82 - (byte) 123) / 41);
 		if (!(Class234.method2150(i_0_, 256, i) | (0x40000 & i) != 0) && !Node_Sub41.method2932(-100, i, i_0_)) {
 			return false;
 		}
@@ -21,7 +21,7 @@ public class za_Sub2 extends za
 	
 	final void method2995(byte b) {
 		anInt10511++;
-		if (b > -43) {
+		if ((byte) -115 > -43) {
 			anInt10513 = 35;
 		}
 		aNativeHeap10510.b();
@@ -33,6 +33,6 @@ public class za_Sub2 extends za
 	
 	public static void method2996(int i) {
 		aClass318_10512 = null;
-		int i_2_ = 29 % ((-51 - i) / 63);
+		int i_2_ = 29 % ((-51 - 21) / 63);
 	}
 }

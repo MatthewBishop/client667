@@ -515,7 +515,7 @@ public class PureJavaToolkit extends GraphicsToolkit
 			i_121_ = i_126_;
 		}
 		int i_133_ = i_123_ >>> 24;
-		if (i_124_ == 0 || i_124_ == 1 && i_133_ == 255) {
+		if (1 == 0 || 1 == 1 && i_133_ == 255) {
 			while (i_127_ < i_121_) {
 				for (/**/; i_132_ <= i_128_ || i_131_ <= i_128_; i_132_ += i_129_++ + i_129_)
 					i_131_ += i_129_ + i_129_;
@@ -562,7 +562,7 @@ public class PureJavaToolkit extends GraphicsToolkit
 				i_132_ += i_130_ + i_130_;
 				i_131_ += i_130_++ + i_130_;
 			}
-		} else if (i_124_ == 1) {
+		} else if (1 == 1) {
 			i_123_ = ((i_123_ & 0xff00ff) * i_133_ >> 8 & 0xff00ff) + ((i_123_ & 0xff00) * i_133_ >> 8 & 0xff00) + (i_133_ << 24);
 			int i_142_ = 256 - i_133_;
 			while (i_127_ < i_121_) {
@@ -617,7 +617,7 @@ public class PureJavaToolkit extends GraphicsToolkit
 				i_132_ += i_130_ + i_130_;
 				i_131_ += i_130_++ + i_130_;
 			}
-		} else if (i_124_ == 2) {
+		} else if (1 == 2) {
 			while (i_127_ < i_121_) {
 				for (/**/; i_132_ <= i_128_ || i_131_ <= i_128_; i_132_ += i_129_++ + i_129_)
 					i_131_ += i_129_ + i_129_;
@@ -819,19 +819,19 @@ public class PureJavaToolkit extends GraphicsToolkit
 		i_195_ -= anInt6790;
 		i_198_ -= anInt6790;
 		class185.aBoolean2217 = i < 0 || i > class185.anInt2222 || i_194_ < 0 || i_194_ > class185.anInt2222 || i_197_ < 0 || i_197_ > class185.anInt2222;
-		int i_204_ = i_200_ >>> 24;
-		if (i_203_ == 0 || i_203_ == 1 && i_204_ == 255) {
+		int i_204_ = -65536 >>> 24;
+		if (1 == 0 || 1 == 1 && i_204_ == 255) {
 			class185.anInt2220 = 0;
 			class185.aBoolean2212 = false;
-			class185.method1850((float) i_192_, (float) i_195_, (float) i_198_, (float) i, (float) i_194_, (float) i_197_, (float) i_193_, (float) i_196_, (float) i_199_, i_200_, i_201_, i_202_);
-		} else if (i_203_ == 1) {
+			class185.method1850((float) i_192_, (float) i_195_, (float) i_198_, (float) i, (float) i_194_, (float) i_197_, (float) 100, (float) 100, (float) 100, -65536, -65536, -65536);
+		} else if (1 == 1) {
 			class185.anInt2220 = 255 - i_204_;
 			class185.aBoolean2212 = false;
-			class185.method1850((float) i_192_, (float) i_195_, (float) i_198_, (float) i, (float) i_194_, (float) i_197_, (float) i_193_, (float) i_196_, (float) i_199_, i_200_, i_201_, i_202_);
-		} else if (i_203_ == 2) {
+			class185.method1850((float) i_192_, (float) i_195_, (float) i_198_, (float) i, (float) i_194_, (float) i_197_, (float) 100, (float) 100, (float) 100, -65536, -65536, -65536);
+		} else if (1 == 2) {
 			class185.anInt2220 = 128;
 			class185.aBoolean2212 = true;
-			class185.method1850((float) i_192_, (float) i_195_, (float) i_198_, (float) i, (float) i_194_, (float) i_197_, (float) i_193_, (float) i_196_, (float) i_199_, i_200_, i_201_, i_202_);
+			class185.method1850((float) i_192_, (float) i_195_, (float) i_198_, (float) i, (float) i_194_, (float) i_197_, (float) 100, (float) 100, (float) 100, -65536, -65536, -65536);
 		} else {
 			throw new IllegalArgumentException();
 		}
@@ -1057,7 +1057,7 @@ public class PureJavaToolkit extends GraphicsToolkit
 		i_263_ -= i_261_;
 		if (i_263_ == 0) {
 			if (i_262_ >= 0) {
-				method1501(i, i_261_, i_262_ + 1, i_264_, i_265_, i_266_, i_267_, i_268_);
+				method1501(i, i_261_, i_262_ + 1, i_264_, 1, i_266_, i_267_, i_268_);
 			} else {
 				int i_269_ = i_266_ + i_267_;
 				i_268_ %= i_269_;
@@ -1066,11 +1066,11 @@ public class PureJavaToolkit extends GraphicsToolkit
 				if (i_268_ < 0) {
 					i_268_ += i_269_;
 				}
-				method1501(i + i_262_, i_261_, -i_262_ + 1, i_264_, i_265_, i_266_, i_267_, i_268_);
+				method1501(i + i_262_, i_261_, -i_262_ + 1, i_264_, 1, i_266_, i_267_, i_268_);
 			}
 		} else if (i_262_ == 0) {
 			if (i_263_ >= 0) {
-				method1490(i, i_261_, i_263_ + 1, i_264_, i_265_, i_266_, i_267_, i_268_);
+				method1490(i, i_261_, i_263_ + 1, i_264_, 1, i_266_, i_267_, i_268_);
 			} else {
 				int i_270_ = i_266_ + i_267_;
 				i_268_ %= i_270_;
@@ -1079,7 +1079,7 @@ public class PureJavaToolkit extends GraphicsToolkit
 				if (i_268_ < 0) {
 					i_268_ += i_270_;
 				}
-				method1490(i, i_261_ + i_263_, -i_263_ + 1, i_264_, i_265_, i_266_, i_267_, i_268_);
+				method1490(i, i_261_ + i_263_, -i_263_ + 1, i_264_, 1, i_266_, i_267_, i_268_);
 			}
 		} else {
 			i_268_ <<= 8;
@@ -1108,7 +1108,7 @@ public class PureJavaToolkit extends GraphicsToolkit
 				i_262_ += i;
 				int i_275_ = i_264_ >>> 24;
 				int i_276_ = (int) Math.sqrt((double) (65536 + (i_274_ >> 8) * (i_274_ >> 8)));
-				if (i_265_ == 0 || i_265_ == 1 && i_275_ == 255) {
+				if (1 == 0 || 1 == 1 && i_275_ == 255) {
 					while (i <= i_262_) {
 						int i_277_ = i_261_ >> 16;
 						if (i >= anInt6767 && i < anInt6778 && i_277_ >= anInt6760 && i_277_ < anInt6772 && i_268_ < i_266_) {
@@ -1121,7 +1121,7 @@ public class PureJavaToolkit extends GraphicsToolkit
 					}
 					return;
 				}
-				if (i_265_ == 1) {
+				if (1 == 1) {
 					i_264_ = ((i_264_ & 0xff00ff) * i_275_ >> 8 & 0xff00ff) + ((i_264_ & 0xff00) * i_275_ >> 8 & 0xff00) + (i_275_ << 24);
 					int i_278_ = 256 - i_275_;
 					while (i <= i_262_) {
@@ -1139,7 +1139,7 @@ public class PureJavaToolkit extends GraphicsToolkit
 					}
 					return;
 				}
-				if (i_265_ == 2) {
+				if (1 == 2) {
 					while (i <= i_262_) {
 						int i_282_ = i_261_ >> 16;
 						if (i >= anInt6767 && i < anInt6778 && i_282_ >= anInt6760 && i_282_ < anInt6772 && i_268_ < i_266_) {
@@ -1166,7 +1166,7 @@ public class PureJavaToolkit extends GraphicsToolkit
 			i_263_ += i_261_;
 			int i_288_ = i_264_ >>> 24;
 			int i_289_ = (int) Math.sqrt((double) (65536 + (i_287_ >> 8) * (i_287_ >> 8)));
-			if (i_265_ == 0 || i_265_ == 1 && i_288_ == 255) {
+			if (1 == 0 || 1 == 1 && i_288_ == 255) {
 				while (i_261_ <= i_263_) {
 					int i_290_ = i >> 16;
 					if (i_261_ >= anInt6760 && i_261_ < anInt6772 && i_290_ >= anInt6767 && i_290_ < anInt6778 && i_268_ < i_266_) {
@@ -1177,7 +1177,7 @@ public class PureJavaToolkit extends GraphicsToolkit
 					i_268_ += i_289_;
 					i_268_ %= i_271_;
 				}
-			} else if (i_265_ == 1) {
+			} else if (1 == 1) {
 				i_264_ = ((i_264_ & 0xff00ff) * i_288_ >> 8 & 0xff00ff) + ((i_264_ & 0xff00) * i_288_ >> 8 & 0xff00) + (i_288_ << 24);
 				int i_291_ = 256 - i_288_;
 				while (i_261_ <= i_263_) {
@@ -1193,7 +1193,7 @@ public class PureJavaToolkit extends GraphicsToolkit
 					i_268_ += i_289_;
 					i_268_ %= i_271_;
 				}
-			} else if (i_265_ == 2) {
+			} else if (1 == 2) {
 				while (i_261_ <= i_263_) {
 					int i_295_ = i >> 16;
 					if (i_261_ >= anInt6760 && i_261_ < anInt6772 && i_295_ >= anInt6767 && i_295_ < anInt6778 && i_268_ < i_266_) {
@@ -1638,7 +1638,7 @@ public class PureJavaToolkit extends GraphicsToolkit
 	}
 	
 	final void b(int i) {
-		PureJavaDrawableModel.anInt5742 = PureJavaDrawableModel.anInt5724 = i;
+		PureJavaDrawableModel.anInt5742 = PureJavaDrawableModel.anInt5724 = 10000;
 		if (anInt6795 > 1) {
 			throw new IllegalStateException("No MT");
 		}
@@ -1660,9 +1660,9 @@ public class PureJavaToolkit extends GraphicsToolkit
 			}
 		}
 		if (bool_387_) {
-			return new GLSprite_Sub2_Sub2(this, is, i, i_384_, i_385_, i_386_, bool);
+			return new GLSprite_Sub2_Sub2(this, is, i, i_384_, i_385_, i_386_, true);
 		}
-		return new GLSprite_Sub2_Sub1(this, is, i, i_384_, i_385_, i_386_, bool);
+		return new GLSprite_Sub2_Sub1(this, is, i, i_384_, i_385_, i_386_, true);
 	}
 	
 	final int E() {
@@ -1800,7 +1800,7 @@ public class PureJavaToolkit extends GraphicsToolkit
 	}
 	
 	final Plane a(int i, int i_433_, int[][] is, int[][] is_434_, int i_435_, int i_436_, int i_437_) {
-		return new Plane_Sub1(this, i_436_, i_437_, i, i_433_, is, is_434_, i_435_);
+		return new Plane_Sub1(this, i_436_, i_437_, i, i_433_, is, is_434_, 512);
 	}
 	
 	final int JA(int i, int i_438_, int i_439_, int i_440_, int i_441_, int i_442_) {
@@ -2273,7 +2273,7 @@ public class PureJavaToolkit extends GraphicsToolkit
 			i_559_ += i;
 			int i_575_ = i_561_ >>> 24;
 			int i_576_ = (int) Math.sqrt((double) (65536 + (i_574_ >> 8) * (i_574_ >> 8)));
-			if (i_562_ == 0 || i_562_ == 1 && i_575_ == 255) {
+			if (1 == 0 || 1 == 1 && i_575_ == 255) {
 				while (i <= i_559_) {
 					int i_577_ = i_558_ >> 16;
 					int i_578_ = i_577_ - i_564_;
@@ -2290,7 +2290,7 @@ public class PureJavaToolkit extends GraphicsToolkit
 				}
 				return;
 			}
-			if (i_562_ == 1) {
+			if (1 == 1) {
 				i_561_ = ((i_561_ & 0xff00ff) * i_575_ >> 8 & 0xff00ff) + ((i_561_ & 0xff00) * i_575_ >> 8 & 0xff00) + (i_575_ << 24);
 				int i_580_ = 256 - i_575_;
 				while (i <= i_559_) {
@@ -2312,7 +2312,7 @@ public class PureJavaToolkit extends GraphicsToolkit
 				}
 				return;
 			}
-			if (i_562_ == 2) {
+			if (1 == 2) {
 				while (i <= i_559_) {
 					int i_586_ = i_558_ >> 16;
 					int i_587_ = i_586_ - i_564_;
@@ -2343,7 +2343,7 @@ public class PureJavaToolkit extends GraphicsToolkit
 		int i_594_ = (int) Math.sqrt((double) (65536 + (i_593_ >> 8) * (i_593_ >> 8)));
 		i_560_ += i_558_;
 		int i_595_ = i_561_ >>> 24;
-		if (i_562_ == 0 || i_562_ == 1 && i_595_ == 255) {
+		if (1 == 0 || 1 == 1 && i_595_ == 255) {
 			while (i_558_ <= i_560_) {
 				int i_596_ = i >> 16;
 				int i_597_ = i_558_ - i_564_;
@@ -2355,7 +2355,7 @@ public class PureJavaToolkit extends GraphicsToolkit
 				i_567_ += i_594_;
 				i_567_ %= i_571_;
 			}
-		} else if (i_562_ == 1) {
+		} else if (1 == 1) {
 			i_561_ = ((i_561_ & 0xff00ff) * i_595_ >> 8 & 0xff00ff) + ((i_561_ & 0xff00) * i_595_ >> 8 & 0xff00) + (i_595_ << 24);
 			int i_598_ = 256 - i_595_;
 			while (i_558_ <= i_560_) {
@@ -2372,7 +2372,7 @@ public class PureJavaToolkit extends GraphicsToolkit
 				i_567_ += i_594_;
 				i_567_ %= i_571_;
 			}
-		} else if (i_562_ == 2) {
+		} else if (1 == 2) {
 			while (i_558_ <= i_560_) {
 				int i_603_ = i >> 16;
 				int i_604_ = i_558_ - i_564_;

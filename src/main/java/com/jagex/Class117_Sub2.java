@@ -18,7 +18,7 @@ public class Class117_Sub2 extends Class117 implements Interface9
 	}
 	
 	public final int method21(int i) {
-		if (i != 23144) {
+		if (23144 != 23144) {
 			method22(null, 15, -83, (byte) -8);
 		}
 		anInt5148++;
@@ -26,7 +26,7 @@ public class Class117_Sub2 extends Class117 implements Interface9
 	}
 	
 	public final long method23(int i) {
-		if (i != 28552) {
+		if (28552 != 28552) {
 			anInt5155 = -59;
 		}
 		anInt5147++;
@@ -35,14 +35,14 @@ public class Class117_Sub2 extends Class117 implements Interface9
 	
 	public final int method24(int i) {
 		anInt5152++;
-		if (i != 29121) {
+		if (29121 != 29121) {
 			method1173((byte) -49);
 		}
 		return anInt1476;
 	}
 	
 	Class117_Sub2(GLToolkit gltoolkit, int i, jaclib.memory.Buffer buffer, int i_1_, boolean bool) {
-		super(gltoolkit, 34962, buffer, i_1_, bool);
+		super(gltoolkit, 34962, buffer, i_1_, false);
 		anInt5155 = i;
 	}
 	
@@ -84,7 +84,7 @@ public class Class117_Sub2 extends Class117 implements Interface9
 				i_11_ = 8;
 			}
 			graphicstoolkit.Q(i_6_, i_9_, i_4_, i, i_10_, i_3_, bs[-1 + i_11_][i_8_], i_5_, i_7_);
-			int i_12_ = -68 / (-b / 58);
+			int i_12_ = -68 / (-(byte) -122 / 58);
 		}
 	}
 	

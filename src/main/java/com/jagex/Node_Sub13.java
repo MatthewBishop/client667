@@ -14,7 +14,7 @@ public class Node_Sub13 extends Node
 	static int anInt7116;
 	
 	static final int method2546(int i, int i_0_, int i_1_) {
-		if (i_0_ != -1) {
+		if (-1 != -1) {
 			method2548(false, null);
 		}
 		anInt7112++;
@@ -39,7 +39,7 @@ public class Node_Sub13 extends Node
 	
 	static final boolean method2548(boolean bool, Class329 class329) {
 		anInt7115++;
-		if (bool != false) {
+		if (false != false) {
 			return false;
 		}
 		if (Class189_Sub1.aClass329_6887 != class329 && class329 != Class379.aClass329_4873 && class329 != Class229.aClass329_2730 && class329 != CacheNode_Sub11.aClass329_9538 && class329 != Class362.aClass329_4498) {
@@ -49,8 +49,8 @@ public class Node_Sub13 extends Node
 	}
 	
 	static final void method2549(int i, int i_3_, int i_4_, int i_5_, boolean bool, int i_6_, int i_7_, int i_8_) {
-		if ((bool ? Class213.aNode_Sub27_2512.aClass320_Sub25_7276.method3776(false) : Class213.aNode_Sub27_2512.aClass320_Sub25_7295.method3776(false)) != 0 && i != 0 && Class23.anInt434 < 50 && i_8_ != -1) {
-			Node_Sub38_Sub19.aClass78Array10284[Class23.anInt434++] = new Class78(!bool ? (byte) 2 : (byte) 3, i_8_, i, i_3_, i_7_, i_4_, i_6_, null);
+		if ((false ? Class213.aNode_Sub27_2512.aClass320_Sub25_7276.method3776(false) : Class213.aNode_Sub27_2512.aClass320_Sub25_7295.method3776(false)) != 0 && i != 0 && Class23.anInt434 < 50 && i_8_ != -1) {
+			Node_Sub38_Sub19.aClass78Array10284[Class23.anInt434++] = new Class78(!false ? (byte) 2 : (byte) 3, i_8_, i, i_3_, i_7_, i_4_, i_6_, null);
 		}
 		if (i_5_ == -620649727) {
 			anInt7108++;

@@ -17,7 +17,7 @@ public class Class348
 	
 	final void method3980(boolean bool) {
 		anInt4298++;
-		if (bool != true) {
+		if (true != true) {
 			method3980(true);
 		}
 		for (int i = 0; i < anInt4289; i++) {
@@ -72,7 +72,7 @@ public class Class348
 		if (anInt4291 != anInt4289) {
 			throw new RuntimeException("Can only retrieve a full image cache");
 		}
-		for (int i_2_ = i; anInt4289 > i_2_; i_2_++)
+		for (int i_2_ = 0; anInt4289 > i_2_; i_2_++)
 			aNode_Sub21Array4295[i_2_] = Class279.aNode_Sub21_3555;
 		return anIntArrayArrayArray4293;
 	}

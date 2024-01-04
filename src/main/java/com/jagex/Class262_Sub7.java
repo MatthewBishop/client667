@@ -23,7 +23,7 @@ public class Class262_Sub7 extends Class262
 	}
 	
 	public static void method3167(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			method3167(false);
 		}
 		aClass192_7750 = null;

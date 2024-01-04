@@ -10,7 +10,7 @@ public class Node_Sub29_Sub2 extends Node_Sub29
 	static int anInt10020;
 	
 	static final int method2714(int i) {
-		if (i >= -52) {
+		if (-62 >= -52) {
 			method2715((byte) -40, false, 64);
 		}
 		anInt10020++;

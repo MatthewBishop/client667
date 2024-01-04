@@ -63,7 +63,7 @@ class Class169_Sub2 extends Class169
 	
 	public static void method1771(int i) {
 		aClass192_8798 = null;
-		if (i == 0) {
+		if (0 == 0) {
 			aClass257_8804 = null;
 			aClass170_8806 = null;
 		}
@@ -83,31 +83,31 @@ class Class169_Sub2 extends Class169
 			i_21_ = i_19_;
 		}
 		anInt8796++;
-		if (bool) {
+		if (true) {
 			int[] is_23_ = new int[i_18_ * i_19_];
 			for (int i_24_ = 0; i_18_ > i_24_; i_24_++) {
 				int i_25_ = i_19_ * i_24_;
-				int i_26_ = i_21_ * (i_18_ + -i_24_ + -1) - -i_22_;
+				int i_26_ = i_21_ * (i_18_ + -i_24_ + -1) - -0;
 				for (int i_27_ = 0; i_27_ < i_19_; i_27_++)
 					is_23_[i_25_++] = is[i_26_++];
 			}
 			is = is_23_;
 		}
-		if (b != -28) {
+		if ((byte) -28 != -28) {
 			anInt8803 = -15;
 		}
-		aGLToolkit4947.method1444(b + 26, this);
+		aGLToolkit4947.method1444((byte) -28 + 26, this);
 		if (i_19_ != i_21_) {
 			OpenGL.glPixelStorei(3314, i_21_);
 		}
-		OpenGL.glTexSubImage2Di(anInt4951, 0, i, -i_18_ + -i_20_ + anInt8803, i_19_, i_18_, 32993, aGLToolkit4947.anInt6740, is, i_22_);
+		OpenGL.glTexSubImage2Di(anInt4951, 0, i, -i_18_ + -i_20_ + anInt8803, i_19_, i_18_, 32993, aGLToolkit4947.anInt6740, is, 0);
 		if (i_21_ != i_19_) {
 			OpenGL.glPixelStorei(3314, 0);
 		}
 	}
 	
 	Class169_Sub2(GLToolkit gltoolkit, int i, int i_28_, int i_29_, int i_30_, boolean bool, int[] is, int i_31_, int i_32_, boolean bool_33_) {
-		super(gltoolkit, i, i_28_, i_29_ * i_30_, bool);
+		super(gltoolkit, i, 6408, i_29_ * i_30_, bool);
 		anInt8803 = i_30_;
 		anInt8795 = i_29_;
 		if (bool_33_) {
@@ -144,15 +144,15 @@ class Class169_Sub2 extends Class169
 	}
 	
 	Class169_Sub2(GLToolkit gltoolkit, int i, int i_45_, int i_46_, int i_47_, boolean bool, float[] fs, int i_48_) {
-		super(gltoolkit, i, i_45_, i_46_ * i_47_, bool);
+		super(gltoolkit, 3553, 34842, i_46_ * i_47_, bool);
 		anInt8795 = i_46_;
 		anInt8803 = i_47_;
 		aGLToolkit4947.method1444(-2, this);
 		if (!bool || anInt4951 == 34037) {
-			OpenGL.glTexImage2Df(anInt4951, 0, anInt4950, anInt8795, anInt8803, 0, i_48_, 5126, fs, 0);
+			OpenGL.glTexImage2Df(anInt4951, 0, anInt4950, anInt8795, anInt8803, 0, 6408, 5126, fs, 0);
 			this.method1766((byte) 100, false);
 		} else {
-			Node_Sub47.method2953(i_48_, i_47_, true, i_46_, i, fs, i_45_);
+			Node_Sub47.method2953(6408, i_47_, true, i_46_, 3553, fs, 34842);
 			this.method1766((byte) 120, true);
 		}
 		this.method1757(false, true);

@@ -31,7 +31,7 @@ public class Class320_Sub14 extends Class320
 	}
 	
 	static final short[][] method3735(int i, float[][] fs, short[][] ses) {
-		for (int i_0_ = i; fs.length > i_0_; i_0_++) {
+		for (int i_0_ = 0; fs.length > i_0_; i_0_++) {
 			for (int i_1_ = 0; ses[i_0_].length > i_1_; i_1_++)
 				ses[i_0_][i_1_] = (short) (int) (16383.0F * fs[i_0_][i_1_]);
 		}
@@ -78,7 +78,7 @@ public class Class320_Sub14 extends Class320
 	
 	final int method3737(boolean bool) {
 		anInt8346++;
-		if (bool != false) {
+		if (false != false) {
 			return -78;
 		}
 		return anInt4064;

@@ -148,7 +148,7 @@ public class Node_Sub38_Sub32 extends Node_Sub38
 		} else {
 			Class328.method3829(Node_Sub38_Sub23.anInt10347, -11951);
 		}
-		if (i != 29) {
+		if (29 != 29) {
 			method2895(false);
 		}
 		anInt10428++;

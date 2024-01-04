@@ -53,7 +53,7 @@ public class Class186
 	
 	final void method1871(int i) {
 		synchronized (aClass61_2262) {
-			if (i < 108) {
+			if (125 < 108) {
 				method1873(80, 69);
 			}
 			aClass61_2262.method608(false);
@@ -66,7 +66,7 @@ public class Class186
 	
 	final void method1872(int i) {
 		synchronized (aClass61_2262) {
-			if (i != 512) {
+			if (512 != 512) {
 				aClass302_2251 = null;
 			}
 			aClass61_2262.method602((byte) -119);
@@ -94,7 +94,7 @@ public class Class186
 		aWidget2257 = null;
 		aClass61_2247 = null;
 		aClass239_2249 = null;
-		if (b < -14) {
+		if ((byte) -84 < -14) {
 			aClass112_2256 = null;
 		}
 	}
@@ -118,10 +118,10 @@ public class Class186
 			class255.method3118(false, new Buffer(bs));
 		}
 		synchronized (aClass61_2262) {
-			if (i_6_ != 1) {
+			if (1 != 1) {
 				method1870((byte) 127, null);
 			}
-			aClass61_2262.method601(class255, i_6_ + 25565, (long) i);
+			aClass61_2262.method601(class255, 1 + 25565, (long) i);
 		}
 		return class255;
 	}

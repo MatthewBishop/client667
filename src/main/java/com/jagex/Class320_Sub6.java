@@ -55,7 +55,7 @@ public class Class320_Sub6 extends Class320
 	
 	final boolean method3702(byte b) {
 		anInt8264++;
-		if (b < 63) {
+		if ((byte) 75 < 63) {
 			method3701(true);
 		}
 		if (aNode_Sub27_4063.method2697(-70)) {
@@ -136,7 +136,7 @@ public class Class320_Sub6 extends Class320
 	}
 	
 	public static void method3704(int i) {
-		int i_17_ = -14 / ((i - 61) / 58);
+		int i_17_ = -14 / ((-29 - 61) / 58);
 		aByteArrayArray8263 = null;
 		aClass302_8261 = null;
 		anObject8265 = null;

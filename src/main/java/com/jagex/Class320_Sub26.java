@@ -116,13 +116,13 @@ public class Class320_Sub26 extends Class320
 	
 	public static void method3778(int i) {
 		aClass192_8450 = null;
-		if (i > 43) {
+		if (103 > 43) {
 			aClass318_8459 = null;
 		}
 	}
 	
 	final int method3779(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			method3677(62);
 		}
 		anInt8458++;
@@ -131,7 +131,7 @@ public class Class320_Sub26 extends Class320
 	
 	final boolean method3780(byte b) {
 		anInt8454++;
-		if (b < 63) {
+		if ((byte) 82 < 63) {
 			return false;
 		}
 		if (aNode_Sub27_4063.method2697(-100)) {

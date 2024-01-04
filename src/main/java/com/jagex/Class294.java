@@ -10,7 +10,7 @@ public class Class294
 	static Class302 aClass302_3690;
 	
 	public static void method3465(byte b) {
-		if (b != 116) {
+		if ((byte) 116 != 116) {
 			method3467(-103, -96, 110, -100);
 		}
 		aClass302_3690 = null;

@@ -26,7 +26,7 @@ public class Class273
 				aClass33_3497.notify();
 			}
 		}
-		if (b != 51) {
+		if ((byte) 51 != 51) {
 			aString3492 = null;
 		}
 	}
@@ -42,7 +42,7 @@ public class Class273
 	final EntityNode method3316(boolean bool) {
 		anInt3496++;
 		Object object = null;
-		if (bool != true) {
+		if (true != true) {
 			return null;
 		}
 		EntityNode entitynode;
@@ -61,7 +61,7 @@ public class Class273
 	}
 	
 	final void method3318(Animable animable, byte b) {
-		if (b != -36) {
+		if ((byte) -36 != -36) {
 			method3321(null, 121);
 		}
 		animable.aBoolean5935 = true;
@@ -79,7 +79,7 @@ public class Class273
 	
 	final boolean method3319(int i) {
 		anInt3494++;
-		if (i != -10968) {
+		if (-10968 != -10968) {
 			aString3492 = null;
 		}
 		if (anInt3495 != 0) {
@@ -90,7 +90,7 @@ public class Class273
 	
 	final void method3320(boolean bool, Class33 class33) {
 		anInt3488++;
-		if (bool != false) {
+		if (false != false) {
 			method3315(31, -98);
 		}
 		aClass33_3497 = class33;

@@ -30,12 +30,12 @@ public class Class239
 	
 	final void method3023(int i, int i_0_) {
 		anInt2921++;
-		if (i == 33) {
+		if (33 == 33) {
 			synchronized (aClass61_2919) {
-				aClass61_2919.method598(i_0_, i ^ ~0x2e0b);
+				aClass61_2919.method598(5, 33 ^ ~0x2e0b);
 			}
 			synchronized (aClass61_2925) {
-				aClass61_2925.method598(i_0_, -11819);
+				aClass61_2925.method598(5, -11819);
 			}
 		}
 	}
@@ -43,14 +43,14 @@ public class Class239
 	public static void method3024(int i) {
 		aClass318_2929 = null;
 		aClass302_2931 = null;
-		if (i != 2) {
+		if (2 != 2) {
 			method3022(true);
 		}
 		aBigInteger2924 = null;
 	}
 	
 	final void method3025(byte b) {
-		if (b < 85) {
+		if ((byte) 105 < 85) {
 			aBoolean2930 = true;
 		}
 		synchronized (aClass61_2919) {
@@ -66,7 +66,7 @@ public class Class239
 		anInt2917++;
 		Class364 class364;
 		synchronized (aClass61_2919) {
-			class364 = (Class364) aClass61_2919.method607((long) i_1_, i ^ i);
+			class364 = (Class364) aClass61_2919.method607((long) i_1_, 33 ^ 33);
 		}
 		if (class364 != null) {
 			return class364;
@@ -78,16 +78,16 @@ public class Class239
 		class364 = new Class364();
 		class364.aClass239_4516 = this;
 		if (bs != null) {
-			class364.method4061(new Buffer(bs), i + -33);
+			class364.method4061(new Buffer(bs), 33 + -33);
 		}
 		synchronized (aClass61_2919) {
-			aClass61_2919.method601(class364, i + 25533, (long) i_1_);
+			aClass61_2919.method601(class364, 33 + 25533, (long) i_1_);
 		}
 		return class364;
 	}
 	
 	final void method3027(byte b) {
-		if (b < -124) {
+		if ((byte) -125 < -124) {
 			synchronized (aClass61_2919) {
 				aClass61_2919.method608(false);
 			}

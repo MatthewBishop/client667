@@ -9,7 +9,7 @@ abstract class Class233
 	
 	public static void method2142(int i) {
 		aClass124_2784 = null;
-		if (i == 31) {
+		if (31 == 31) {
 			aClass192_2785 = null;
 		}
 	}

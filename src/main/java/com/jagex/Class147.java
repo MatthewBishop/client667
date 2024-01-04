@@ -23,7 +23,7 @@ public class Class147
 	
 	public static void method1648(boolean bool) {
 		aBooleanArray1820 = null;
-		if (bool != true) {
+		if (true != true) {
 			aBooleanArray1820 = null;
 		}
 		anObjectArray1821 = null;

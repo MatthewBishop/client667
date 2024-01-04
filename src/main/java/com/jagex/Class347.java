@@ -25,7 +25,7 @@ public class Class347
 	
 	public static void method3978(byte b) {
 		anObject4286 = null;
-		if (b > -87) {
+		if ((byte) -109 > -87) {
 			anObject4286 = null;
 		}
 	}

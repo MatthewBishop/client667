@@ -36,7 +36,7 @@ public class Class320_Sub1 extends Class320
 	
 	final int method3678(boolean bool) {
 		anInt8213++;
-		if (bool != false) {
+		if (false != false) {
 			return -19;
 		}
 		return anInt4064;
@@ -44,7 +44,7 @@ public class Class320_Sub1 extends Class320
 	
 	public static void method3679(int i) {
 		aClass141_8207 = null;
-		if (i != 3) {
+		if (3 != 3) {
 			aClass141_8207 = null;
 		}
 	}
@@ -94,7 +94,7 @@ public class Class320_Sub1 extends Class320
 	
 	static final void method3681(int i) {
 		anInt8209++;
-		if (Node_Sub38_Sub8.anInt10163 == 10 && i == 11439) {
+		if (Node_Sub38_Sub8.anInt10163 == 10 && 11439 == 11439) {
 			Node_Sub38_Sub8.anInt10163 = 11;
 		}
 	}

@@ -47,7 +47,7 @@ abstract class Class365
 		}
 		Node_Sub12.anInt5453 = Class174.anInt2092;
 		Class243.method3059(-1, (byte) 29, -1, null);
-		if (i > 103) {
+		if (105 > 103) {
 			if (Class320_Sub15.anInt8355 != -1) {
 				Node_Sub11.anInt7105 = 0;
 				Exception_Sub1.method141(90);

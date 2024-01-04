@@ -25,7 +25,7 @@ public class Class339_Sub8 extends Class339
 	
 	final void method3920(int i, boolean bool) {
 		anInt8736++;
-		if (i != -1) {
+		if (-1 != -1) {
 			anInt8733 = -22;
 		}
 	}
@@ -63,9 +63,9 @@ public class Class339_Sub8 extends Class339
 			Class69.method736(32159);
 			i_1_ = 3;
 		}
-		if (Class213.aNode_Sub27_2512.aClass320_Sub29_7270.method3791(bool) != 2) {
+		if (Class213.aNode_Sub27_2512.aClass320_Sub29_7270.method3791(false) != 2) {
 			Class213.aNode_Sub27_2512.method2690(110, 2, Class213.aNode_Sub27_2512.aClass320_Sub29_7291);
-			Class22.method300(2, !bool, false);
+			Class22.method300(2, !false, false);
 		}
 		Node_Sub38_Sub31.method2893(1);
 		return i_1_;

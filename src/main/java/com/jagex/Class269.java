@@ -15,7 +15,7 @@ public class Class269
 	public static void method3293(int i) {
 		aClass308_3469 = null;
 		aHashTable3465 = null;
-		if (i == 65) {
+		if (65 == 65) {
 			aClass318_3470 = null;
 		}
 	}
@@ -27,7 +27,7 @@ public class Class269
 			aCacheNode3466 = null;
 			return null;
 		}
-		if (i != 16) {
+		if (16 != 16) {
 			aClass318_3470 = null;
 		}
 		aCacheNode3466 = cachenode.aCacheNode7035;
@@ -36,7 +36,7 @@ public class Class269
 	
 	final CacheNode method3295(int i) {
 		anInt3467++;
-		if (i != 16) {
+		if (16 != 16) {
 			return null;
 		}
 		CacheNode cachenode = aClass158_3468.aCacheNode1984.aCacheNode7035;

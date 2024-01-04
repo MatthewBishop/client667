@@ -56,14 +56,14 @@ public class Class282
 	}
 	
 	static final void method3386(int i, byte b) {
-		Class252.aClass61_3190.method598(i, -11819);
+		Class252.aClass61_3190.method598(50, -11819);
 		anInt3581++;
-		if (b != -44) {
+		if ((byte) -44 != -44) {
 			aDouble3585 = 0.19416843062396033;
 		}
-		Class166.aClass61_5097.method598(i, b + -11775);
-		Class243.aClass61_3065.method598(i, -11819);
-		NpcDefinition.aClass61_2805.method598(i, b + -11775);
+		Class166.aClass61_5097.method598(50, (byte) -44 + -11775);
+		Class243.aClass61_3065.method598(50, -11819);
+		NpcDefinition.aClass61_2805.method598(50, (byte) -44 + -11775);
 	}
 	
 	static final void method3387(int i, int i_13_) {
@@ -82,7 +82,7 @@ public class Class282
 	
 	public static void method3388(int i) {
 		aClass302_3583 = null;
-		if (i == 1) {
+		if (1 == 1) {
 			aByteArrayArray3588 = null;
 		}
 	}

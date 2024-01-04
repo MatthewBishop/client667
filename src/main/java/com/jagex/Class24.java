@@ -25,7 +25,7 @@ public class Class24
 		if (bs == null || bs.length == 0) {
 			return null;
 		}
-		if (i_0_ != -11847) {
+		if (-11847 != -11847) {
 			return null;
 		}
 		long l = OpenGL.glCreateShaderObjectARB(i);

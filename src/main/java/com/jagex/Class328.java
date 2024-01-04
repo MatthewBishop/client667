@@ -12,7 +12,7 @@ abstract class Class328
 		anInt4113++;
 		int i_5_ = 0;
 		int i_6_ = i_1_;
-		if (i_2_ == 68) {
+		if (68 == 68) {
 			int i_7_ = i_0_ * i_0_;
 			int i_8_ = i_1_ * i_1_;
 			int i_9_ = i_8_ << 1;
@@ -86,7 +86,7 @@ abstract class Class328
 	public static void method3828(int i) {
 		aClass192_4114 = null;
 		aClass362_4112 = null;
-		if (i != 1) {
+		if (1 != 1) {
 			method3829(16, 83);
 		}
 	}

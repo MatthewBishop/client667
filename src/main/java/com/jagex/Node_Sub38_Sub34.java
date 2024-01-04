@@ -17,7 +17,7 @@ public class Node_Sub38_Sub34 extends Node_Sub38
 		anInt10442++;
 		int i_2_ = i_1_ + 57 * i_0_;
 		i_2_ = i_2_ << 1 ^ i_2_;
-		if (i >= -95) {
+		if (-102 >= -95) {
 			return 89;
 		}
 		return 4096 - (1376312589 + (15731 * (i_2_ * i_2_) - -789221) * i_2_ & 0x7fffffff) / 262144;
@@ -65,7 +65,7 @@ public class Node_Sub38_Sub34 extends Node_Sub38
 	}
 	
 	public static void method2902(byte b) {
-		if (b <= 118) {
+		if ((byte) 124 <= 118) {
 			method2901(null, true);
 		}
 		aClass353_10443 = null;

@@ -39,7 +39,7 @@ public class Class320_Sub24 extends Class320
 	}
 	
 	static final void method3772(int i, byte b, int i_0_, int i_1_, int i_2_) {
-		int i_3_ = 78 % ((23 - b) / 49);
+		int i_3_ = 78 % ((23 - (byte) -27) / 49);
 		Widget.anInt4859 = i_0_;
 		ClanChat.anInt764 = i_1_;
 		Class150_Sub2.anInt8955 = i;
@@ -48,7 +48,7 @@ public class Class320_Sub24 extends Class320
 	}
 	
 	final int method3773(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			method3675(-93, (byte) 21);
 		}
 		anInt8444++;
@@ -73,7 +73,7 @@ public class Class320_Sub24 extends Class320
 	
 	static final void method3774(int i) {
 		anInt8436++;
-		if (i <= -7) {
+		if (-51 <= -7) {
 			for (CacheNode_Sub12 cachenode_sub12 = (CacheNode_Sub12) Class270.aClass312_3477.method3613(65280); cachenode_sub12 != null; cachenode_sub12 = (CacheNode_Sub12) Class270.aClass312_3477.method3620(16776960)) {
 				Mobile_Sub1 mobile_sub1 = cachenode_sub12.aMobile_Sub1_9554;
 				if (Class174.anInt2092 <= mobile_sub1.anInt10923) {

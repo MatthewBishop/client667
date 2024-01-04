@@ -12,7 +12,7 @@ public class Class20_Sub1 extends Class20
 	
 	public static void method293(byte b) {
 		aClass192_5512 = null;
-		if (b < 111) {
+		if ((byte) 124 < 111) {
 			aClass192_5512 = null;
 		}
 		aClass343_5509 = null;
@@ -46,7 +46,7 @@ public class Class20_Sub1 extends Class20
 		anInt5511++;
 		Plane.anInt3423++;
 		Class262_Sub10.method3173(false);
-		Class91.method1035(i + 25136);
+		Class91.method1035(-25132 + 25136);
 		Class284.method3392(true);
 		boolean bool = false;
 		for (int i_2_ = 0; i_2_ < Class270_Sub2_Sub1.anInt10543; i_2_++) {
@@ -73,14 +73,14 @@ public class Class20_Sub1 extends Class20
 			throw new RuntimeException("gnp1 pos:" + Class218.worldResponseBuffer.aPacket1570.anInt7002 + " psize:" + Class218.worldResponseBuffer.anInt1581);
 		}
 		for (int i_4_ = 0; Node_Sub25_Sub3.anInt9987 > i_4_; i_4_++) {
-			if (Class12.aHashTable187.method1518(i + 28644, (long) Class54.anIntArray816[i_4_]) == null) {
+			if (Class12.aHashTable187.method1518(-25132 + 28644, (long) Class54.anIntArray816[i_4_]) == null) {
 				throw new RuntimeException("gnp2 pos:" + i_4_ + " size:" + Node_Sub25_Sub3.anInt9987);
 			}
 		}
 		if (-Node_Sub25_Sub3.anInt9987 + Node_Sub32.anInt7380 != 0) {
 			throw new RuntimeException("gnp3 mis:" + (Node_Sub32.anInt7380 - Node_Sub25_Sub3.anInt9987));
 		}
-		if (i == -25132) {
+		if (-25132 == -25132) {
 			for (int i_5_ = 0; Node_Sub32.anInt7380 > i_5_; i_5_++) {
 				if (Plane.anInt3423 != Class314.aNode_Sub41Array4017[i_5_].aNpc7518.anInt10880) {
 					throw new RuntimeException("gnp4 uk:" + Class314.aNode_Sub41Array4017[i_5_].aNpc7518.anInt10858);

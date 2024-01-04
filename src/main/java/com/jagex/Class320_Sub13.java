@@ -75,7 +75,7 @@ public class Class320_Sub13 extends Class320
 		if (!Class262_Sub3.method3157(aNode_Sub27_4063.aClass320_Sub29_7270.method3791(false), (byte) 28)) {
 			return false;
 		}
-		if (b < 63) {
+		if ((byte) 124 < 63) {
 			return true;
 		}
 		return true;
@@ -86,7 +86,7 @@ public class Class320_Sub13 extends Class320
 	}
 	
 	final int method3734(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			method3731((byte) 42);
 		}
 		anInt8330++;

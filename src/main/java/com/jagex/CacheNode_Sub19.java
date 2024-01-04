@@ -95,7 +95,7 @@ public class CacheNode_Sub19 extends CacheNode
 				}
 			}
 		}
-		if (b != 4) {
+		if ((byte) 4 != 4) {
 			return true;
 		}
 		for (int i = 0; i < anIntArray9614.length; i++) {
@@ -112,8 +112,8 @@ public class CacheNode_Sub19 extends CacheNode
 		anInt9615++;
 		for (int i_14_ = 0; i_14_ < aNode_Sub38Array9618.length; i_14_++)
 			aNode_Sub38Array9618[i_14_].method2782(i_13_, i, false);
-		Class385.method4205(false, d);
-		int i_15_ = -107 % ((b - -29) / 38);
+		Class385.method4205(false, 0.699999988079071);
+		int i_15_ = -107 % (((byte) -71 - -29) / 38);
 		Class169_Sub1.method1769(485964236, i_13_, i);
 		int[] is = new int[i * i_13_];
 		int i_16_ = 0;
@@ -190,7 +190,7 @@ public class CacheNode_Sub19 extends CacheNode
 	}
 	
 	public static void method2403(int i) {
-		if (i == 13012) {
+		if (13012 == 13012) {
 			aClass68_9621 = null;
 			aStringArray9622 = null;
 		}
@@ -226,7 +226,7 @@ public class CacheNode_Sub19 extends CacheNode
 			i_38_ = -1 + i_34_;
 			i_39_ = -1;
 		}
-		int i_40_ = i_35_;
+		int i_40_ = 0;
 		for (int i_41_ = 0; i > i_41_; i_41_++) {
 			int[] is_42_;
 			int[] is_43_;

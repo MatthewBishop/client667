@@ -36,11 +36,11 @@ public class Class262_Sub4 extends Class262
 		if (Class29.aNode_Sub43_477 != null && (i_0_ >= 0 && Class29.aNode_Sub43_477.anInt7531 > i_0_)) {
 			Class24 class24 = Class29.aNode_Sub43_477.aClass24Array7533[i_0_];
 			if (class24.aByte438 == -1) {
-				if (i != 7) {
+				if (7 != 7) {
 					aClass379_7731 = null;
 				}
 				Class123 class123 = Class262_Sub23.method3213((byte) -68);
-				Node_Sub13 node_sub13 = FloatBuffer.method2250(i + -393, Node_Sub39.aClass318_7486, class123.anIsaacCipher1571);
+				Node_Sub13 node_sub13 = FloatBuffer.method2250(7 + -393, Node_Sub39.aClass318_7486, class123.anIsaacCipher1571);
 				node_sub13.aPacket7113.method2226(Class126.method1536(-20826, class24.aString437) + 2, false);
 				node_sub13.aPacket7113.method2210(i_0_, -43);
 				node_sub13.aPacket7113.method2228(class24.aString437, 63);
@@ -73,7 +73,7 @@ public class Class262_Sub4 extends Class262
 		aClass318_7726 = null;
 		aClass52_7721 = null;
 		aClass379_7731 = null;
-		int i_5_ = 98 / ((i - 31) / 62);
+		int i_5_ = 98 / ((-94 - 31) / 62);
 	}
 	
 	static {

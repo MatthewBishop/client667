@@ -12,7 +12,7 @@ public class InputStream_Sub1 extends InputStream
 	}
 	
 	public static void method127(int i) {
-		if (i != -1) {
+		if (-1 != -1) {
 			anIntArray77 = null;
 		}
 		anIntArray77 = null;

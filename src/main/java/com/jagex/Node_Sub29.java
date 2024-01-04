@@ -22,7 +22,7 @@ abstract class Node_Sub29 extends Node
 	static int anInt7350;
 	
 	final int method2704(int i) {
-		if (i != 30) {
+		if (30 != 30) {
 			anInt7342 = -123;
 		}
 		anInt7348++;
@@ -41,7 +41,7 @@ abstract class Node_Sub29 extends Node
 	
 	final float method2707(int i) {
 		anInt7335++;
-		if (i != 1) {
+		if (1 != 1) {
 			method2708(-90);
 		}
 		return aFloat7339;
@@ -58,10 +58,10 @@ abstract class Node_Sub29 extends Node
 	static final Class150_Sub3_Sub1 method2709(Buffer buffer, byte b) {
 		anInt7334++;
 		Class150_Sub3 class150_sub3 = Class380.method4169((byte) 110, buffer);
-		if (b != -23) {
+		if ((byte) -23 != -23) {
 			aClass192_7347 = null;
 		}
-		int i = buffer.method2193(b + -99);
+		int i = buffer.method2193((byte) -23 + -99);
 		return new Class150_Sub3_Sub1(class150_sub3.aClass379_5079, class150_sub3.aClass77_5087, class150_sub3.anInt5092, class150_sub3.anInt5080, class150_sub3.anInt5086, class150_sub3.anInt5081, class150_sub3.anInt5084, class150_sub3.anInt5083, class150_sub3.anInt5090, class150_sub3.anInt8971, class150_sub3.anInt8974, class150_sub3.anInt8972, class150_sub3.anInt8968, class150_sub3.anInt8965, class150_sub3.anInt8964, i);
 	}
 	
@@ -92,7 +92,7 @@ abstract class Node_Sub29 extends Node
 	
 	public static void method2713(int i) {
 		anIntArray7345 = null;
-		if (i != 1) {
+		if (1 != 1) {
 			aClass192_7347 = null;
 		}
 		aClass192_7347 = null;

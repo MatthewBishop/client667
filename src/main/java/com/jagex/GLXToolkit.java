@@ -134,7 +134,7 @@ public class GLXToolkit extends AbstractToolkit
 		anInt9284++;
 		OpenGL.glTexEnvi(8960, 34184 - -i, Class339_Sub6.method3939(class135, 34168));
 		if (b >= 79) {
-			OpenGL.glTexEnvi(8960, i + 34200, bool ? 771 : 770);
+			OpenGL.glTexEnvi(8960, i + 34200, false ? 771 : 770);
 		}
 	}
 	
@@ -192,10 +192,10 @@ public class GLXToolkit extends AbstractToolkit
 	
 	final Interface13_Impl3 method1262(Class68 class68, byte[] bs, byte b, int i, int i_3_, int i_4_) {
 		anInt9295++;
-		if (b != -57) {
+		if ((byte) -57 != -57) {
 			aMapBuffer9308 = null;
 		}
-		return new Class134_Sub1(this, class68, i_4_, i, i_3_, bs);
+		return new Class134_Sub1(this, class68, 128, 128, 16, bs);
 	}
 	
 	final void method1308(byte b) {
@@ -251,7 +251,7 @@ public class GLXToolkit extends AbstractToolkit
 	
 	final synchronized void method1398(int i, int i_5_, boolean bool) {
 		anInt9253++;
-		if (bool != true) {
+		if (true != true) {
 			method1349(null, (byte) -14, false, true, -23);
 		}
 		Node_Sub32 node_sub32 = new Node_Sub32(i);
@@ -294,7 +294,7 @@ public class GLXToolkit extends AbstractToolkit
 	}
 	
 	final void method1261(byte b) {
-		if (b != -18) {
+		if ((byte) -18 != -18) {
 			anIntArray9221 = null;
 		}
 		anInt9226++;
@@ -309,7 +309,7 @@ public class GLXToolkit extends AbstractToolkit
 			OpenGL.glBindTexture(i, 0);
 			OpenGL.glDisable(i);
 		}
-		if (b <= 59) {
+		if ((byte) 71 <= 59) {
 			aLong9312 = -35L;
 		}
 	}
@@ -354,7 +354,7 @@ public class GLXToolkit extends AbstractToolkit
 		} else {
 			OpenGL.glEnable(3008);
 		}
-		if (i != 14) {
+		if (14 != 14) {
 			d();
 		}
 	}
@@ -378,7 +378,7 @@ public class GLXToolkit extends AbstractToolkit
 	
 	final Interface13_Impl1 method1367(int i, int i_13_, int[] is, int i_14_, int i_15_, boolean bool, int i_16_) {
 		anInt9285++;
-		if (i != -6331) {
+		if (-6331 != -6331) {
 			anIntArray9221 = null;
 		}
 		if (aBoolean9320 || Class371.method4094(i_13_, false) && Class371.method4094(i_16_, false)) {
@@ -513,7 +513,7 @@ public class GLXToolkit extends AbstractToolkit
 	final synchronized void method1400(int i, int i_22_) {
 		anInt9281++;
 		Node node = new Node();
-		if (i_22_ != -15743) {
+		if (-15743 != -15743) {
 			method1275(-84, null, null);
 		}
 		node.aLong2797 = (long) i;
@@ -522,7 +522,7 @@ public class GLXToolkit extends AbstractToolkit
 	
 	static final boolean method1401(int i) {
 		anInt9261++;
-		if (i != -6279) {
+		if (-6279 != -6279) {
 			anInt9276 = -87;
 		}
 		return Class194_Sub3_Sub1.aBoolean9378;
@@ -535,7 +535,7 @@ public class GLXToolkit extends AbstractToolkit
 	}
 	
 	final void method1279(int i, byte b) {
-		if (b != -15) {
+		if ((byte) -15 != -15) {
 			method1399((byte) -124, null, -95, -109);
 		}
 		anInt9257++;
@@ -557,7 +557,7 @@ public class GLXToolkit extends AbstractToolkit
 	
 	final void method1300(int i) {
 		OpenGL.glScissor(anInt6295 + anInt6280, anInt6307 + anInt6124 - anInt6333, anInt6294 - anInt6295, anInt6333 + -anInt6325);
-		if (i != 0) {
+		if (0 != 0) {
 			a(60, -64, 90, -20);
 		}
 		anInt9250++;
@@ -597,7 +597,7 @@ public class GLXToolkit extends AbstractToolkit
 	}
 	
 	final void method1254(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			a(0.92554986F, -1.3076545F, 0.5009772F);
 		}
 		OpenGL.glTexEnvi(8960, 34162, Class260.method3136(aClass94Array6296[anInt6284], 30716));
@@ -616,7 +616,7 @@ public class GLXToolkit extends AbstractToolkit
 		anInt9243++;
 		GLDrawableModel.aFloatArray5626[1] = aFloat6300 * aFloat6293;
 		GLDrawableModel.aFloatArray5626[0] = aFloat6300 * aFloat6323;
-		if (bool != false) {
+		if (false != false) {
 			method1269((byte) -92);
 		}
 		GLDrawableModel.aFloatArray5626[2] = aFloat6300 * aFloat6365;
@@ -632,7 +632,7 @@ public class GLXToolkit extends AbstractToolkit
 	final void method1337(int i) {
 		GLDrawableModel.aFloatArray5626[3] = (float) (anInt6318 >>> 24) / 255.0F;
 		GLDrawableModel.aFloatArray5626[0] = (float) Node_Sub30.method2723(16711680, anInt6318) / 1.671168E7F;
-		if (i != 6) {
+		if (6 != 6) {
 			method1380(14, false);
 		}
 		GLDrawableModel.aFloatArray5626[2] = (float) Node_Sub30.method2723(anInt6318, 255) / 255.0F;
@@ -661,7 +661,7 @@ public class GLXToolkit extends AbstractToolkit
 		OpenGL.glLightfv(16384, 4609, GLDrawableModel.aFloatArray5626, 0);
 		GLDrawableModel.aFloatArray5626[1] = aFloat6293 * -aFloat6272;
 		GLDrawableModel.aFloatArray5626[3] = 1.0F;
-		if (bool != false) {
+		if (false != false) {
 			v();
 		}
 		GLDrawableModel.aFloatArray5626[0] = -aFloat6272 * aFloat6323;
@@ -670,7 +670,7 @@ public class GLXToolkit extends AbstractToolkit
 	}
 	
 	final synchronized void method1402(byte b, int i, int i_28_) {
-		if (b <= -22) {
+		if ((byte) -98 <= -22) {
 			anInt9220++;
 			Node_Sub32 node_sub32 = new Node_Sub32(i_28_);
 			node_sub32.aLong2797 = (long) i;
@@ -691,7 +691,7 @@ public class GLXToolkit extends AbstractToolkit
 		Node node = new Node();
 		node.aLong2797 = l;
 		aClass312_9304.method3625((byte) -54, node);
-		if (i != 2) {
+		if (2 != 2) {
 			method1338(null, -35);
 		}
 	}
@@ -916,18 +916,18 @@ public class GLXToolkit extends AbstractToolkit
 	
 	final Interface13_Impl1 method1327(Class68 class68, int i, boolean bool, int i_48_, int i_49_, int i_50_, boolean bool_51_, byte[] bs) {
 		anInt9283++;
-		if (bool_51_ != true) {
+		if (true != true) {
 			return null;
 		}
-		if (aBoolean9320 || Class371.method4094(i, !bool_51_) && Class371.method4094(i_50_, false)) {
-			return new Class134_Sub4(this, class68, i, i_50_, bool, bs, i_48_, i_49_);
+		if (aBoolean9320 || Class371.method4094(i, !true) && Class371.method4094(i_50_, false)) {
+			return new Class134_Sub4(this, class68, i, i_50_, bool, bs, 0, 0);
 		}
 		if (!aBoolean9317) {
 			Class134_Sub4 class134_sub4 = new Class134_Sub4(this, class68, Class372.aClass372_4594, Class320_Sub19.method3753(i, -729073628), Class320_Sub19.method3753(i_50_, -729073628));
-			class134_sub4.method50(i_48_, i_49_, i_50_, -15178, bs, 0, class68, 0, i);
+			class134_sub4.method50(0, 0, i_50_, -15178, bs, 0, class68, 0, i);
 			return class134_sub4;
 		}
-		return new Class134_Sub3(this, class68, i, i_50_, bs, i_48_, i_49_);
+		return new Class134_Sub3(this, class68, i, i_50_, bs, 0, 0);
 	}
 	
 	final void f() {
@@ -969,14 +969,14 @@ public class GLXToolkit extends AbstractToolkit
 	public static void method1404(int i) {
 		aClass54Array9292 = null;
 		anIntArray9221 = null;
-		if (i == 0) {
+		if (0 == 0) {
 			aClass302_9274 = null;
 		}
 	}
 	
 	final void method1333(boolean bool) {
 		anInt9293++;
-		if (bool != false) {
+		if (false != false) {
 			aBoolean9322 = true;
 		}
 	}
@@ -1003,7 +1003,7 @@ public class GLXToolkit extends AbstractToolkit
 			OpenGL.glLoadIdentity();
 		}
 		OpenGL.glMatrixMode(5888);
-		if (b != -113) {
+		if ((byte) -113 != -113) {
 			method1289(false);
 		}
 	}
@@ -1029,7 +1029,7 @@ public class GLXToolkit extends AbstractToolkit
 	
 	final void method1282(int i) {
 		anInt9296++;
-		if (i != 0) {
+		if (0 != 0) {
 			d(94, 59);
 		}
 		if (!aBoolean6387) {
@@ -1202,7 +1202,7 @@ public class GLXToolkit extends AbstractToolkit
 	
 	final void method1263(boolean bool) {
 		OpenGL.glTexEnvi(8960, 34161, Class260.method3136(aClass94Array6351[anInt6284], 30716));
-		if (bool != false) {
+		if (false != false) {
 			aBoolean9322 = true;
 		}
 		anInt9294++;
@@ -1322,7 +1322,7 @@ public class GLXToolkit extends AbstractToolkit
 	}
 	
 	final void method1302(int i) {
-		if (i == 1) {
+		if (1 == 1) {
 			if (!aBoolean6340 || aBoolean6283) {
 				OpenGL.glDisable(2896);
 			} else {

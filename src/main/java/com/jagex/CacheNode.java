@@ -30,7 +30,7 @@ class CacheNode extends Node
 		if (aCacheNode7036 == null) {
 			return false;
 		}
-		if (b < 52) {
+		if ((byte) 122 < 52) {
 			return true;
 		}
 		return true;
@@ -38,12 +38,12 @@ class CacheNode extends Node
 	
 	static final void method2277(int i, int i_0_) {
 		anInt7039++;
-		CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(i ^ 0x1, i, (long) i_0_);
+		CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(2 ^ 0x1, 2, (long) i_0_);
 		cachenode_sub2.method2291((byte) 121);
 	}
 	
 	public static void method2278(int i) {
-		if (i < 30) {
+		if (117 < 30) {
 			anInt7033 = -34;
 		}
 		aClass192_7038 = null;
@@ -60,12 +60,12 @@ class CacheNode extends Node
 		Class113.aClass336_1440 = Class44.aGraphicsToolkit668.y();
 		Npc.aClass336_11113 = Class44.aGraphicsToolkit668.y();
 		Class290_Sub4.anIntArray8102 = null;
-		Node_Sub23_Sub1.anInt9929 = i_2_;
-		Class372.anInt4600 = i_4_;
+		Node_Sub23_Sub1.anInt9929 = 100;
+		Class372.anInt4600 = 100;
 		Class352.anInterface6Array4332 = null;
 		Class320_Sub20.anInt8397 = 0;
 		Node_Sub15_Sub8.method2575(i_1_, i_3_, 122);
-		Node_Sub29_Sub1.anInt10012 = i;
+		Node_Sub29_Sub1.anInt10012 = -1;
 		Class368.anInt4550 = -1;
 		Class72.anInt973 = -1;
 	}

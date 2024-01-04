@@ -16,7 +16,7 @@ public class Class362
 	
 	static final String method4049(int i, String string) {
 		anInt4490++;
-		int i_0_ = 30 / ((i - -57) / 46);
+		int i_0_ = 30 / ((36 - -57) / 46);
 		String string_1_ = CacheNode_Sub6.method2313((byte) 126, Animable_Sub2_Sub2.method843(string, -120));
 		if (string_1_ == null) {
 			string_1_ = "";
@@ -25,7 +25,7 @@ public class Class362
 	}
 	
 	public static void method4050(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			anInt4492 = 13;
 		}
 		anIntArray4497 = null;
@@ -42,8 +42,8 @@ public class Class362
 		if (class39 != null) {
 			return class39;
 		}
-		byte[] bs = aClass302_4493.method3524(false, ObjectDefinition.method3050((byte) -128, i), Class200_Sub1.method2014(i_2_ + -29692, i));
-		if (i_2_ != -752) {
+		byte[] bs = aClass302_4493.method3524(false, ObjectDefinition.method3050((byte) -128, i), Class200_Sub1.method2014(-752 + -29692, i));
+		if (-752 != -752) {
 			method4052(-68, -125);
 		}
 		class39 = new Class39();

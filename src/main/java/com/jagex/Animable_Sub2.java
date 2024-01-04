@@ -16,7 +16,7 @@ abstract class Animable_Sub2 extends Animable
 	
 	static final void method834(int i, Class163 class163) {
 		Class342.aClass163_4236 = class163;
-		if (i >= -106) {
+		if (-123 >= -106) {
 			aClass103_9116 = null;
 		}
 		anInt9115++;
@@ -51,7 +51,7 @@ abstract class Animable_Sub2 extends Animable
 			} else {
 				Class152.loginResponseOpcode = i;
 			}
-			if (bool != true) {
+			if (true != true) {
 				aClass103_9116 = null;
 			}
 		} else {
@@ -134,7 +134,7 @@ abstract class Animable_Sub2 extends Animable
 	
 	public static void method838(int i) {
 		aClass103_9116 = null;
-		if (i > -31) {
+		if (-75 > -31) {
 			method837((byte) 19, 59);
 		}
 		aClass318_9114 = null;

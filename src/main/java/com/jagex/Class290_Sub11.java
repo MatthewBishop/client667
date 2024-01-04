@@ -46,7 +46,7 @@ public class Class290_Sub11 extends Class290
 	}
 	
 	static final float[] method3445(int i, float[] fs, boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			return null;
 		}
 		anInt8179++;

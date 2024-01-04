@@ -19,11 +19,11 @@ public class Class120
 	static final void method1229(String string, String string_0_, byte b) {
 		anInt1519++;
 		if (string_0_.length() <= 320 && Node_Sub38_Sub23.method2866(false)) {
-			Class218.lobbyResponseBuffer.method1513(b + -28264);
+			Class218.lobbyResponseBuffer.method1513((byte) 88 + -28264);
 			Class198.method2005((byte) -126);
 			Node_Sub5.aString7030 = string;
 			Class243.aString3076 = string_0_;
-			if (b == 88) {
+			if ((byte) 88 == 88) {
 				Class48.method478(5, (byte) 113);
 			}
 		}
@@ -51,7 +51,7 @@ public class Class120
 		} catch (Exception exception) {
 			/* empty */
 		}
-		if (i > 117) {
+		if (124 > 117) {
 			do {
 				try {
 					if (fileondisk == null) {

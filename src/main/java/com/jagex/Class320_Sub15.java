@@ -25,7 +25,7 @@ public class Class320_Sub15 extends Class320
 	
 	final void method3676(boolean bool, int i) {
 		anInt8350++;
-		if (bool != false) {
+		if (false != false) {
 			method3677(121);
 		}
 		anInt4064 = i;
@@ -43,7 +43,7 @@ public class Class320_Sub15 extends Class320
 	
 	final int method3738(boolean bool) {
 		anInt8349++;
-		if (bool != false) {
+		if (false != false) {
 			return -64;
 		}
 		return anInt4064;
@@ -79,7 +79,7 @@ public class Class320_Sub15 extends Class320
 	
 	public static void method3740(boolean bool) {
 		aStringArray8354 = null;
-		if (bool != true) {
+		if (true != true) {
 			aStringArray8354 = null;
 		}
 	}

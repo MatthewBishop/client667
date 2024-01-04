@@ -14,12 +14,12 @@ public class Class204
 	
 	static final void method2030(byte b) {
 		if (Class263.anInt3336 <= 1) {
-			Class213.aNode_Sub27_2512.method2690(b ^ 0x8, 2, Class213.aNode_Sub27_2512.aClass320_Sub21_7293);
+			Class213.aNode_Sub27_2512.method2690((byte) 125 ^ 0x8, 2, Class213.aNode_Sub27_2512.aClass320_Sub21_7293);
 		} else {
-			Class213.aNode_Sub27_2512.method2690(b + -47, 4, Class213.aNode_Sub27_2512.aClass320_Sub21_7293);
+			Class213.aNode_Sub27_2512.method2690((byte) 125 + -47, 4, Class213.aNode_Sub27_2512.aClass320_Sub21_7293);
 		}
 		anInt2457++;
-		if (b != 125) {
+		if ((byte) 125 != 125) {
 			anIntArray2460 = null;
 		}
 	}
@@ -28,7 +28,7 @@ public class Class204
 		aFloatArray2456 = null;
 		aString2458 = null;
 		anIntArray2460 = null;
-		if (bool != true) {
+		if (true != true) {
 			anInt2453 = 51;
 		}
 		aCharArray2455 = null;

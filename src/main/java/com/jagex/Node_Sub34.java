@@ -9,7 +9,7 @@ public class Node_Sub34 extends Node
 	
 	public static void method2740(byte b) {
 		aClass115_7410 = null;
-		if (b > -92) {
+		if ((byte) -112 > -92) {
 			aClass115_7410 = null;
 		}
 	}
@@ -18,13 +18,13 @@ public class Node_Sub34 extends Node
 		anInt7408++;
 		if (Class320_Sub15.anInt8355 != -1) {
 			int i = Class106.aClass93_1356.method1050((byte) -85);
-			int i_0_ = Class106.aClass93_1356.method1051(!bool);
+			int i_0_ = Class106.aClass93_1356.method1051(!false);
 			Node_Sub5 node_sub5 = (Node_Sub5) GraphicsToolkit.aClass312_1545.method3613(65280);
 			if (node_sub5 != null) {
 				i = node_sub5.method2270(2);
 				i_0_ = node_sub5.method2272(5);
 			}
-			if (bool == false) {
+			if (false == false) {
 				int i_1_ = 0;
 				int i_2_ = 0;
 				if (Class71.aBoolean967) {
@@ -44,7 +44,7 @@ public class Node_Sub34 extends Node
 		if (!client.method113(widget).method2748((byte) -57, i) && widget.anObjectArray4770 == null) {
 			return null;
 		}
-		if (i_3_ != -27187) {
+		if (-27187 != -27187) {
 			aClass115_7410 = null;
 		}
 		if (widget.aStringArray4686 == null || widget.aStringArray4686.length <= i || widget.aStringArray4686[i] == null || widget.aStringArray4686[i].trim().length() == 0) {

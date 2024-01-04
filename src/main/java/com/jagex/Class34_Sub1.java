@@ -105,7 +105,7 @@ public class Class34_Sub1 extends Class34
 	
 	final int method376(int i) {
 		anInt5533++;
-		if (i != 100) {
+		if (100 != 100) {
 			return 111;
 		}
 		if (method374((byte) 0) == null) {
@@ -122,14 +122,14 @@ public class Class34_Sub1 extends Class34
 		if (anArchive5540 == null) {
 			return 0;
 		}
-		int i_10_ = -110 % ((i - -4) / 42);
+		int i_10_ = -110 % ((-68 - -4) / 42);
 		return anArchive5540.anInt294;
 	}
 	
 	static final void method378(int i) {
 		Node_Sub38_Sub8.method2813(-1);
 		anInt5521++;
-		if (i != -4) {
+		if (-4 != -4) {
 			method382(null, -11, 36);
 		}
 		int i_11_ = Class213.aNode_Sub27_2512.aClass320_Sub3_7298.method3691(false);
@@ -157,7 +157,7 @@ public class Class34_Sub1 extends Class34
 	final void method368(int i, int i_12_) {
 		anInt5527++;
 		if (aClass6_5539 != null) {
-			if (i != 0) {
+			if (0 != 0) {
 				method381((byte) 122);
 			}
 			for (Node node = aClass312_5541.method3613(65280); node != null; node = aClass312_5541.method3620(16776960)) {
@@ -173,7 +173,7 @@ public class Class34_Sub1 extends Class34
 	
 	final int method379(int i) {
 		anInt5538++;
-		if (i != 0) {
+		if (0 != 0) {
 			anInt5542 = 2;
 		}
 		if (anArchive5540 == null) {
@@ -474,13 +474,13 @@ public class Class34_Sub1 extends Class34
 	
 	public static void method384(int i) {
 		anIntArray5528 = null;
-		if (i != -21352) {
+		if (-21352 != -21352) {
 			anIntArray5528 = null;
 		}
 	}
 	
 	final int method369(byte b, int i) {
-		if (b != -4) {
+		if ((byte) -4 != -4) {
 			aByteArray5526 = null;
 		}
 		anInt5518++;
@@ -510,7 +510,7 @@ public class Class34_Sub1 extends Class34
 					}
 				}
 			}
-			if (bool != false) {
+			if (false != false) {
 				method382(null, -92, -16);
 			}
 		}
@@ -521,7 +521,7 @@ public class Class34_Sub1 extends Class34
 		if (anArchive5540 != null) {
 			return anArchive5540;
 		}
-		if (b != 0) {
+		if ((byte) 0 != 0) {
 			return null;
 		}
 		if (aCacheNode_Sub16_5519 == null) {
@@ -543,7 +543,7 @@ public class Class34_Sub1 extends Class34
 			} catch (RuntimeException runtimeexception) {
 				aClass266_5535.method3233((byte) 98);
 				anArchive5540 = null;
-				if (!aClass266_5535.method3244(b ^ 0x5f2d)) {
+				if (!aClass266_5535.method3244((byte) 0 ^ 0x5f2d)) {
 					aCacheNode_Sub16_5519 = aClass266_5535.method3247(255, anInt5524, (byte) -79, true, (byte) 0);
 				} else {
 					aCacheNode_Sub16_5519 = null;
@@ -584,7 +584,7 @@ public class Class34_Sub1 extends Class34
 		anInt5531++;
 		if (aClass6_5539 != null) {
 			aBoolean5545 = true;
-			if (b != 119) {
+			if ((byte) 119 != 119) {
 				aLong5547 = -99L;
 			}
 			if (aClass312_5544 == null) {
@@ -606,7 +606,7 @@ public class Class34_Sub1 extends Class34
 		} else {
 			aBoolean5543 = false;
 		}
-		aBoolean5546 = bool;
+		aBoolean5546 = true;
 		aClass266_5535 = class266;
 		anInt5522 = i_33_;
 		anInt5536 = i_34_;

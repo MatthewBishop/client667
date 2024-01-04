@@ -5,7 +5,7 @@ import java.net.Socket;
 public class Class41_Sub1 extends Class41
 {
 	final Socket method435(int i) throws IOException {
-		if (i != 30749) {
+		if (30749 != 30749) {
 			return null;
 		}
 		return this.method434(false);

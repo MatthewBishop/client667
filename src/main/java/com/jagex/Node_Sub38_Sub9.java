@@ -56,7 +56,7 @@ public class Node_Sub38_Sub9 extends Node_Sub38
 	
 	private final void method2819(int i, int i_1_, int i_2_, int i_3_) {
 		anInt10179++;
-		if (i_1_ == 2) {
+		if (2 == 2) {
 			int i_4_ = i_3_ > 2048 ? -(i_3_ * i_2_ >> 12) + i_3_ + i_2_ : (i_2_ + 4096) * i_3_ >> 12;
 		while_92_:
 			do {
@@ -137,7 +137,7 @@ public class Node_Sub38_Sub9 extends Node_Sub38
 		anInt10177++;
 		Class169.anIntArrayArray4954 = null;
 		Class200_Sub2.anInt4935 = -1;
-		if (bool != true) {
+		if (true != true) {
 			anInt10192 = -85;
 		}
 		Node_Sub38_Sub7.anInt10153 = Class61.anInt898 = 0;
@@ -169,7 +169,7 @@ public class Node_Sub38_Sub9 extends Node_Sub38
 	}
 	
 	public static void method2821(byte b) {
-		if (b < 92) {
+		if ((byte) 97 < 92) {
 			aShortArray10186 = null;
 		}
 		aShortArray10186 = null;
@@ -178,7 +178,7 @@ public class Node_Sub38_Sub9 extends Node_Sub38
 	
 	static final void method2822(Class302 class302, int i) {
 		anInt10189++;
-		Packet.anInt9386 = i;
+		Packet.anInt9386 = 0;
 		Animable_Sub3_Sub1.anInt11012 = 0;
 		Animable_Sub2.aClass103_9116 = new Class103();
 		Class284.anEntityNode_Sub3_Sub2_Sub1Array3596 = new EntityNode_Sub3_Sub2_Sub1[1024];

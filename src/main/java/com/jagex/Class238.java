@@ -46,7 +46,7 @@ public class Class238
 			method3019(-1 + i_2_, i_0_, is, objects, false);
 			method3019(i, i_2_ - -1, is, objects, false);
 		}
-		if (bool != false) {
+		if (false != false) {
 			method3018((byte) 60);
 		}
 	}
@@ -58,7 +58,7 @@ public class Class238
 		int i_10_ = actor.anInt10883 * 512 - -(actor.method853((byte) 58) * 256);
 		actor.anInt5940 += (-actor.anInt5940 + i_10_) / i_8_;
 		actor.anInt5934 += (-actor.anInt5934 + i_9_) / i_8_;
-		actor.anInt10901 = i;
+		actor.anInt10901 = 0;
 		if (actor.anInt10885 == 0) {
 			actor.method856((byte) -115, 8192);
 		}

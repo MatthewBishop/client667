@@ -43,17 +43,17 @@ public class Class320_Sub21 extends Class320
 	}
 	
 	static final Class169_Sub2_Sub1 method3761(int i, int i_0_, int i_1_, byte[] bs, int i_2_, GLToolkit gltoolkit, int i_3_, boolean bool) {
-		if (i_1_ != 8222) {
+		if (8222 != 8222) {
 			anInt8406 = -66;
 		}
 		anInt8409++;
 		if (gltoolkit.aBoolean6652 || Class371.method4094(i_3_, false) && Class371.method4094(i, false)) {
-			return new Class169_Sub2_Sub1(gltoolkit, 3553, i_0_, i_3_, i, bool, bs, i_2_);
+			return new Class169_Sub2_Sub1(gltoolkit, 3553, 6406, i_3_, i, false, bs, 6406);
 		}
 		if (!gltoolkit.aBoolean6649) {
-			return new Class169_Sub2_Sub1(gltoolkit, i_0_, i_3_, i, Class320_Sub19.method3753(i_3_, -729073628), Class320_Sub19.method3753(i, -729073628), bs, i_2_);
+			return new Class169_Sub2_Sub1(gltoolkit, 6406, i_3_, i, Class320_Sub19.method3753(i_3_, -729073628), Class320_Sub19.method3753(i, -729073628), bs, 6406);
 		}
-		return new Class169_Sub2_Sub1(gltoolkit, 34037, i_0_, i_3_, i, bool, bs, i_2_);
+		return new Class169_Sub2_Sub1(gltoolkit, 34037, 6406, i_3_, i, false, bs, 6406);
 	}
 	
 	Class320_Sub21(Node_Sub27 node_sub27) {
@@ -71,7 +71,7 @@ public class Class320_Sub21 extends Class320
 	}
 	
 	final int method3762(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			return -53;
 		}
 		anInt8412++;

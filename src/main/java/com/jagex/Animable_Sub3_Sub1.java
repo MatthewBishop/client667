@@ -61,7 +61,7 @@ public class Animable_Sub3_Sub1 extends Animable_Sub3
 		anInt11006++;
 		try {
 			byte[] bs = new byte[i];
-			if (b != 22) {
+			if ((byte) 22 != 22) {
 				method923(82);
 			}
 			Class150.method1653(file, 127, bs, i);

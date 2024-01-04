@@ -12,13 +12,13 @@ public class Class265_Sub1 extends Class265 implements Interface13_Impl3
 	private int anInt7900;
 	
 	Class265_Sub1(D3DToolkit d3dtoolkit, Class68 class68, int i, int i_0_, int i_1_, byte[] bs) {
-		super(d3dtoolkit, class68, Class372.aClass372_4594, false, i_1_ * (i * i_0_));
+		super(d3dtoolkit, class68, Class372.aClass372_4594, false, i_1_ * (128 * i_0_));
 		anInt7899 = i_1_;
-		anInt7900 = i;
+		anInt7900 = 128;
 		anInt7897 = i_0_;
-		anIDirect3DVolumeTexture7898 = aD3DToolkit3365.anIDirect3DDevice9199.a(i, i_0_, i_1_, 1, 0, D3DToolkit.method1396(aClass372_3366, class68, -106), 1);
+		anIDirect3DVolumeTexture7898 = aD3DToolkit3365.anIDirect3DDevice9199.a(128, i_0_, i_1_, 1, 0, D3DToolkit.method1396(aClass372_3366, class68, -106), 1);
 		PixelBuffer pixelbuffer = aD3DToolkit3365.aPixelBuffer9187;
-		int i_2_ = anIDirect3DVolumeTexture7898.LockBox(0, 0, 0, 0, i, i_0_, i_1_, 0, pixelbuffer);
+		int i_2_ = anIDirect3DVolumeTexture7898.LockBox(0, 0, 0, 0, 128, i_0_, i_1_, 0, pixelbuffer);
 		if (lh.a((byte) 107, i_2_)) {
 			int i_3_ = anInt7900 * aClass68_3367.anInt934;
 			int i_4_ = i_3_ * anInt7897;
@@ -49,7 +49,7 @@ public class Class265_Sub1 extends Class265 implements Interface13_Impl3
 	}
 	
 	public final void method42(boolean bool) {
-		if (bool) {
+		if (false) {
 			anInt7900 = 7;
 		}
 		aD3DToolkit3365.method1394(this, 1);

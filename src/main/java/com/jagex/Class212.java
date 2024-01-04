@@ -62,7 +62,7 @@ public class Class212 implements Interface8
 			i_7_ >>= 1;
 			i_8_ >>= 1;
 		}
-		if (b != 98) {
+		if ((byte) 98 != 98) {
 			method2053(22, -78, 102, null, -72, 0.4513946F, null, -107, -64, 75, -103);
 		}
 	}
@@ -116,7 +116,7 @@ public class Class212 implements Interface8
 		int i_43_ = actor_37_.method855((byte) -71);
 		if (i_43_ != -1) {
 			Object object = null;
-			if (b == -124) {
+			if ((byte) -124 == -124) {
 				GLSprite glsprite = (GLSprite) Class262_Sub18.aClass61_7842.method607((long) i_43_, 0);
 				if (glsprite == null) {
 					Class383[] class383s = Class383.method4187(Node_Sub38_Sub39.aClass302_10500, i_43_, 0);

@@ -19,7 +19,7 @@ public class Class11 implements IEnumModesCallback
 	
 	final void method192(Frame frame, int i) {
 		aDirectDraw178.restoreDisplayMode();
-		aDirectDraw178.setCooperativeLevel((java.awt.Component) frame, i);
+		aDirectDraw178.setCooperativeLevel((java.awt.Component) frame, 8);
 	}
 	
 	final int[] method193(int i) {
@@ -29,7 +29,7 @@ public class Class11 implements IEnumModesCallback
 		aDirectDraw178.enumDisplayModes(0, null, null, this);
 		int[] is = anIntArray179;
 		anIntArray179 = null;
-		anInt177 = i;
+		anInt177 = 0;
 		return is;
 	}
 	

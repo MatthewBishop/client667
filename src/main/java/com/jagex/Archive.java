@@ -41,7 +41,7 @@ public class Archive
 		boolean bool_1_ = (0x1 & i_0_) != 0;
 		boolean bool_2_ = (0x2 & i_0_) != 0;
 		if (i >= 7) {
-			anInt294 = buffer.method2201(!bool);
+			anInt294 = buffer.method2201(!false);
 		} else {
 			anInt294 = buffer.method2219(-130546744);
 		}
@@ -153,7 +153,7 @@ public class Archive
 				aClass75Array288[i_28_] = new Class75(anIntArrayArray303[i_28_]);
 			}
 		}
-		if (bool != false) {
+		if (false != false) {
 			method264(-19);
 		}
 	}

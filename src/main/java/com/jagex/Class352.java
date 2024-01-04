@@ -45,7 +45,7 @@ public class Class352
 				anInt4330 = -1;
 			}
 		}
-		if (b != -2) {
+		if ((byte) -2 != -2) {
 			method4007(102, (byte) 75, null);
 		}
 	}
@@ -66,7 +66,7 @@ public class Class352
 	
 	static final GLSprite method4008(byte b, int i, GraphicsToolkit graphicstoolkit) {
 		anInt4327++;
-		int i_2_ = 96 % ((68 - b) / 40);
+		int i_2_ = 96 % ((68 - (byte) 125) / 40);
 		Node_Sub3 node_sub3 = (Node_Sub3) Class56.aHashTable839.method1518(3512, (long) i);
 		if (node_sub3 != null) {
 			Node_Sub25_Sub3 node_sub25_sub3 = node_sub3.aClass189_Sub1_6943.method1930((byte) -117);
@@ -81,7 +81,7 @@ public class Class352
 	static final void method4009(int i, int i_3_, int i_4_, int i_5_, Actor actor) {
 		anInt4328++;
 		Class259 class259 = actor.method868((byte) -127);
-		if (i_5_ != -1) {
+		if (-1 != -1) {
 			anInterface6Array4332 = null;
 		}
 		Animator animator = actor.anAnimator10860;
@@ -100,7 +100,7 @@ public class Class352
 				actor.aBoolean10867 = false;
 			} else if (!actor.aBoolean10867 || !class259.method3130(animator.method250((byte) -48), (byte) -128)) {
 				animator.method249(true, class259.method3128(false));
-				actor.aBoolean10867 = actor.anAnimator10860.method245(i_5_ + -123);
+				actor.aBoolean10867 = actor.anAnimator10860.method245(-1 + -123);
 			}
 		} else if (actor.anInt10838 != -1 && (i_6_ >= 10240 || i_6_ <= 2048)) {
 			int i_7_ = 0x3fff & -actor.aClass99_10893.anInt1281 + Node_Sub38_Sub21.anIntArray10318[i_4_];
@@ -182,7 +182,7 @@ public class Class352
 	public static void method4010(int i) {
 		anInterface6Array4332 = null;
 		aClass299_4329 = null;
-		if (i != -9757) {
+		if (-9757 != -9757) {
 			method4013(26, false, null);
 		}
 		aClass192_4338 = null;

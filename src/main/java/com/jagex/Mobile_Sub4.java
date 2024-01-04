@@ -41,7 +41,7 @@ public class Mobile_Sub4 extends Mobile
 		drawablemodel.method614(class336);
 		anInt10994++;
 		Class300[] class300s = drawablemodel.method620();
-		if (i != -1228) {
+		if (-1228 != -1228) {
 			anInt10987 = 20;
 		}
 		Class218[] class218s = drawablemodel.method618();
@@ -57,7 +57,7 @@ public class Mobile_Sub4 extends Mobile
 	private final DrawableModel method908(int i, int i_0_, GraphicsToolkit graphicstoolkit, int i_1_) {
 		anInt10984++;
 		Class195 class195 = Class16.aClass101_228.method1090(-81, i_0_);
-		if (i != 14437) {
+		if (14437 != 14437) {
 			method823((byte) 29);
 		}
 		Plane plane = Node_Sub38_Sub37.aPlaneArray10466[aByte5933];
@@ -98,7 +98,7 @@ public class Mobile_Sub4 extends Mobile
 	
 	final boolean method909(int i) {
 		anInt10980++;
-		if (i != 16) {
+		if (16 != 16) {
 			anInt10987 = -4;
 		}
 		if (anAnimator10968 == null || anAnimator10968.method242((byte) -77)) {
@@ -125,7 +125,7 @@ public class Mobile_Sub4 extends Mobile
 	static final void method910(int i) {
 		anInt10974++;
 		if (!aBoolean10988) {
-			if (i != 0) {
+			if (0 != 0) {
 				aBoolean10988 = true;
 			}
 			Node_Sub25_Sub1.aBoolean9950 = true;
@@ -144,7 +144,7 @@ public class Mobile_Sub4 extends Mobile
 	
 	static final void method911(byte b) {
 		anInt10995++;
-		if (b >= 2) {
+		if ((byte) 114 >= 2) {
 			CacheNode_Sub17.anInt8835 = 0;
 			int i = (Class295.aPlayer3692.anInt5934 >> 9) + Node_Sub53.anInt7668;
 			int i_3_ = Class320_Sub4.anInt8243 + (Class295.aPlayer3692.anInt5940 >> 9);
@@ -162,10 +162,10 @@ public class Mobile_Sub4 extends Mobile
 	
 	final void method912(int i, int i_4_) {
 		if (anAnimator10968 != null && !anAnimator10968.method238(-72)) {
-			anAnimator10968.method248(-92, i_4_);
+			anAnimator10968.method248(-92, 1);
 		}
 		anInt10963++;
-		if (i != -24396) {
+		if (-24396 != -24396) {
 			anInt10981 = 65;
 		}
 	}
@@ -229,7 +229,7 @@ public class Mobile_Sub4 extends Mobile
 				ses[i_19_++] = (short) i_22_;
 			}
 		}
-		int i_25_ = 23 / ((i - -91) / 34);
+		int i_25_ = 23 / ((72 - -91) / 34);
 		Animable_Sub1.anInt9096 = 0;
 		Class365_Sub1.anInt8759 = i_19_;
 		Node_Sub20.aShortArray7175 = ses;
@@ -295,7 +295,7 @@ public class Mobile_Sub4 extends Mobile
 					if (f < 0.0F) {
 						f *= -1.0F;
 					}
-					if (!((float) Node_Sub38_Sub6.anInt10139 > f) && Class121.method1231(0, -51, class54) && Class121.method1231(1, i_27_ ^ ~0x22, class54) && Class121.method1231(2, -51, class54) && Class121.method1231(3, -51, class54)) {
+					if (!((float) Node_Sub38_Sub6.anInt10139 > f) && Class121.method1231(0, -51, class54) && Class121.method1231(1, 16 ^ ~0x22, class54) && Class121.method1231(2, -51, class54) && Class121.method1231(3, -51, class54)) {
 						Node_Sub44.aClass54Array7548[Class320_Sub21.anInt8406++] = class54;
 					}
 				}
@@ -329,12 +329,12 @@ public class Mobile_Sub4 extends Mobile
 					if (f < 0.0F) {
 						f *= -1.0F;
 					}
-					if (!(f < (float) Node_Sub38_Sub6.anInt10139) && Class121.method1231(0, -51, class54) && Class121.method1231(1, i_27_ + -67, class54) && Class121.method1231(2, -51, class54) && Class121.method1231(3, i_27_ ^ ~0x22, class54)) {
+					if (!(f < (float) Node_Sub38_Sub6.anInt10139) && Class121.method1231(0, -51, class54) && Class121.method1231(1, 16 + -67, class54) && Class121.method1231(2, -51, class54) && Class121.method1231(3, 16 ^ ~0x22, class54)) {
 						Node_Sub44.aClass54Array7548[Class320_Sub21.anInt8406++] = class54;
 					}
 				}
 			}
-		} else if (class54.aByte822 == i_27_ || class54.aByte822 == 8) {
+		} else if (class54.aByte822 == 16 || class54.aByte822 == 8) {
 			int i_35_ = -Class216.anInt2551 + (class54.aShort821 + Node_Sub9_Sub1.anInt9656);
 			if (i_35_ >= 0 && Node_Sub9_Sub1.anInt9656 + Node_Sub9_Sub1.anInt9656 >= i_35_) {
 				int i_36_ = -EntityNode_Sub7.anInt6013 + class54.aShort815 + Node_Sub9_Sub1.anInt9656;
@@ -347,7 +347,7 @@ public class Mobile_Sub4 extends Mobile
 					if (f_37_ < 0.0F) {
 						f_37_ *= -1.0F;
 					}
-					if ((!((float) Node_Sub38_Sub6.anInt10139 > f) || !((float) Node_Sub38_Sub6.anInt10139 > f_37_)) && Class121.method1231(0, -51, class54) && Class121.method1231(1, -51, class54) && Class121.method1231(2, i_27_ ^ ~0x22, class54) && Class121.method1231(3, -51, class54)) {
+					if ((!((float) Node_Sub38_Sub6.anInt10139 > f) || !((float) Node_Sub38_Sub6.anInt10139 > f_37_)) && Class121.method1231(0, -51, class54) && Class121.method1231(1, -51, class54) && Class121.method1231(2, 16 ^ ~0x22, class54) && Class121.method1231(3, -51, class54)) {
 						Node_Sub44.aClass54Array7548[Class320_Sub21.anInt8406++] = class54;
 					}
 				}
@@ -395,7 +395,7 @@ public class Mobile_Sub4 extends Mobile
 						}
 					}
 				}
-				if (bool && Class121.method1231(0, -51, class54) && Class121.method1231(1, i_27_ ^ ~0x22, class54) && Class121.method1231(2, -51, class54) && Class121.method1231(3, i_27_ ^ ~0x22, class54)) {
+				if (bool && Class121.method1231(0, -51, class54) && Class121.method1231(1, 16 ^ ~0x22, class54) && Class121.method1231(2, -51, class54) && Class121.method1231(3, 16 ^ ~0x22, class54)) {
 					Node_Sub44.aClass54Array7548[Class320_Sub21.anInt8406++] = class54;
 				}
 			}
@@ -451,17 +451,17 @@ public class Mobile_Sub4 extends Mobile
 	
 	public static void method916(int i) {
 		aClass318_10992 = null;
-		if (i != -1) {
+		if (-1 != -1) {
 			anInt10987 = -72;
 		}
 	}
 	
 	final boolean method917(int i) {
 		anInt10967++;
-		if (i != -12978) {
+		if (-12978 != -12978) {
 			return false;
 		}
-		if (anAnimator10968 != null && !anAnimator10968.method238(i + 12910)) {
+		if (anAnimator10968 != null && !anAnimator10968.method238(-12978 + 12910)) {
 			return false;
 		}
 		return true;

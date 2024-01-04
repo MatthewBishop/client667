@@ -141,7 +141,7 @@ public class Class93_Sub2 extends Class93 implements MouseListener, MouseMotionL
 			Class230_Sub1.method2133(95, graphicstoolkit);
 		}
 		anInt6064++;
-		if (bool != false) {
+		if (false != false) {
 			aClass302_6049 = null;
 		}
 	}
@@ -153,7 +153,7 @@ public class Class93_Sub2 extends Class93 implements MouseListener, MouseMotionL
 	
 	final void method1045(int i) {
 		anInt6059++;
-		if (i == 7) {
+		if (7 == 7) {
 			method1060((byte) 96);
 		}
 	}
@@ -204,7 +204,7 @@ public class Class93_Sub2 extends Class93 implements MouseListener, MouseMotionL
 		anInt6070 = i_8_;
 		anInt6056++;
 		anInt6071 = i;
-		if (b != 36) {
+		if ((byte) 36 != 36) {
 			mouseExited(null);
 		}
 		if (aBoolean6074) {
@@ -256,7 +256,7 @@ public class Class93_Sub2 extends Class93 implements MouseListener, MouseMotionL
 	
 	public static void method1063(boolean bool) {
 		aClass302_6049 = null;
-		if (bool != true) {
+		if (true != true) {
 			method1063(true);
 		}
 	}

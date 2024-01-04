@@ -44,7 +44,7 @@ public class Class289
 	
 	final void method3406(int i) {
 		anInt3642++;
-		if (i != -13163) {
+		if (-13163 != -13163) {
 			aBoolean3636 = true;
 		}
 		anInt3633 = anInt3637 | anInt3633 << 8;
@@ -52,7 +52,7 @@ public class Class289
 	
 	public static void method3407(boolean bool) {
 		aHashTable3630 = null;
-		if (bool != false) {
+		if (false != false) {
 			anInt3645 = -4;
 		}
 	}
@@ -66,7 +66,7 @@ public class Class289
 			}
 			method3409((byte) 123, buffer, i);
 		}
-		if (b > -78) {
+		if ((byte) -95 > -78) {
 			method3405(-88, -55, -40, -98, 6, 127, (byte) 119);
 		}
 	}
@@ -111,7 +111,7 @@ public class Class289
 		} else {
 			anInt3631 = Node_Sub15_Sub12.method2582(buffer.method2220(1819759595), -1);
 		}
-		int i_12_ = 6 % ((74 - b) / 49);
+		int i_12_ = 6 % ((74 - (byte) 123) / 49);
 	}
 	
 	public Class289() {

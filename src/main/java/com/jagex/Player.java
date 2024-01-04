@@ -97,7 +97,7 @@ public class Player extends Actor
 	
 	public static void method884(int i) {
 		anIntArrayArray11128 = null;
-		if (i != 16053) {
+		if (16053 != 16053) {
 			method892(-8, -121);
 		}
 		aNode_Sub4_11155 = null;
@@ -202,7 +202,7 @@ public class Player extends Actor
 		}
 		anIntArray10910[0] = i_24_;
 		aByteArray10905[0] = b;
-		if (i != -24527) {
+		if (-24527 != -24527) {
 			method855((byte) -13);
 		}
 		anIntArray10908[0] = i_23_;
@@ -398,11 +398,11 @@ public class Player extends Actor
 				if (i_50_ == 0) {
 					is[i_49_] = 0;
 				} else {
-					int i_51_ = buffer.method2233(i + 255);
+					int i_51_ = buffer.method2233(0 + 255);
 					int i_52_ = (i_50_ << 8) - -i_51_;
 					if (i_49_ == 0 && i_52_ == 65535) {
 						i_48_ = buffer.method2219(-130546744);
-						anInt11134 = buffer.method2233(i ^ 0xff);
+						anInt11134 = buffer.method2233(0 ^ 0xff);
 						break;
 					}
 					if (i_52_ >= 32768) {
@@ -432,7 +432,7 @@ public class Player extends Actor
 			}
 		}
 		int[] is_57_ = new int[10];
-		for (int i_58_ = i; i_58_ < 10; i_58_++) {
+		for (int i_58_ = 0; i_58_ < 10; i_58_++) {
 			int i_59_ = buffer.method2233(255);
 			if (Class117_Sub2.aShortArrayArrayArray5151.length <= i_58_ || i_59_ < 0 || i_59_ >= Class117_Sub2.aShortArrayArrayArray5151[i_58_][0].length) {
 				i_59_ = 0;
@@ -448,7 +448,7 @@ public class Player extends Actor
 		anInt11152 = buffer.method2233(255);
 		if (!bool_46_) {
 			anInt11139 = 0;
-			anInt11141 = buffer.method2233(i + 255);
+			anInt11141 = buffer.method2233(0 + 255);
 			anInt11184 = buffer.method2233(255);
 			if (anInt11184 == 255) {
 				anInt11184 = -1;
@@ -472,7 +472,7 @@ public class Player extends Actor
 			int i_64_ = anInt11182;
 			int i_65_ = anInt11173;
 			anInt11167 = buffer.method2219(-130546744);
-			anInt11172 = buffer.method2219(i ^ ~0x7c7fc37);
+			anInt11172 = buffer.method2219(0 ^ ~0x7c7fc37);
 			anInt11153 = buffer.method2219(-130546744);
 			anInt11182 = buffer.method2219(-130546744);
 			anInt11173 = buffer.method2233(255);
@@ -584,11 +584,11 @@ public class Player extends Actor
 	}
 	
 	final String method891(boolean bool, int i) {
-		if (i != 1) {
+		if (1 != 1) {
 			return null;
 		}
 		anInt11179++;
-		if (!bool) {
+		if (!false) {
 			return aString11142;
 		}
 		return aString11132;
@@ -602,7 +602,7 @@ public class Player extends Actor
 	}
 	
 	Player(int i) {
-		super(i);
+		super(25);
 		aBoolean11131 = false;
 		aByte11154 = (byte) 0;
 		anInt11134 = 0;
@@ -674,7 +674,7 @@ public class Player extends Actor
 				is[aByte11145] = -1;
 			}
 		}
-		if (!bool_79_) {
+		if (!true) {
 			string += aString11142;
 		} else {
 			string += aString11132;
@@ -709,14 +709,14 @@ public class Player extends Actor
 		anInt11143++;
 		for (int i_82_ = 0; aClass165Array10886.length > i_82_; i_82_++) {
 			if (aClass165Array10886[i_82_].anInt2030 != -1) {
-				Class195 class195 = Class16.aClass101_228.method1090(i_81_ ^ ~0x24c3, aClass165Array10886[i_82_].anInt2030);
+				Class195 class195 = Class16.aClass101_228.method1090(-9380 ^ ~0x24c3, aClass165Array10886[i_82_].anInt2030);
 				if (class195.aBoolean2402 && class195.anInt2394 != -1 && Class18.aClass37_306.method395(class195.anInt2394, (byte) -107).anInt718 == 1) {
 					aClass165Array10886[i_82_].anAnimator2026.method249(true, -1);
 					aClass165Array10886[i_82_].anInt2030 = -1;
 				}
 			}
 		}
-		if (i_81_ != -9380) {
+		if (-9380 != -9380) {
 			method853((byte) -74);
 		}
 		anInt11180 = -1;

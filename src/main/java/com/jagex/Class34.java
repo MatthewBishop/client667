@@ -202,14 +202,14 @@ abstract class Class34
 		anInt529++;
 		CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(3, 15, 0L);
 		cachenode_sub2.method2288(0);
-		if (b < -64) {
+		if ((byte) -115 < -64) {
 			cachenode_sub2.anInt9434 = i_27_;
 			cachenode_sub2.anInt9432 = i;
 		}
 	}
 	
 	public static void method372(byte b) {
-		if (b == -72) {
+		if ((byte) -72 == -72) {
 			aClass318_528 = null;
 		}
 	}

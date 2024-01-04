@@ -8,7 +8,7 @@ public class Class384
 	
 	static final Class377_Sub1 method4202(byte b) {
 		anInt4908++;
-		if (b > -40) {
+		if ((byte) -92 > -40) {
 			return null;
 		}
 		Node_Sub5.anInt7029 = 0;
@@ -16,7 +16,7 @@ public class Class384
 	}
 	
 	static final void method4203(int i, int i_0_) {
-		if (i_0_ == 0) {
+		if (0 == 0) {
 			anInt4907++;
 			Class171.aLong2071 = 1000000000L / (long) i;
 		}

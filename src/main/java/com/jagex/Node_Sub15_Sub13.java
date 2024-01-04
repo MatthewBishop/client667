@@ -20,13 +20,13 @@ public class Node_Sub15_Sub13 extends Node_Sub15
 	
 	public static void method2585(int i) {
 		aClass192_9873 = null;
-		if (i == 0) {
+		if (0 == 0) {
 			aClass197_9871 = null;
 		}
 	}
 	
 	static final Class129[] method2586(int i) {
-		if (i != -11746) {
+		if (-11746 != -11746) {
 			anInt9870 = -68;
 		}
 		anInt9868++;

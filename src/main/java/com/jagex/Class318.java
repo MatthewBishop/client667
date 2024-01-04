@@ -36,14 +36,14 @@ public class Class318
 	
 	final int method3667(int i) {
 		anInt4049++;
-		if (i != -24626) {
+		if (-24626 != -24626) {
 			anInt4046 = 87;
 		}
 		return anInt4046;
 	}
 	
 	static final void method3668(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			method3670(34);
 		}
 		for (CacheNode_Sub18 cachenode_sub18 = (CacheNode_Sub18) Class20_Sub1.aHashTable5508.method1516(false); cachenode_sub18 != null; cachenode_sub18 = (CacheNode_Sub18) Class20_Sub1.aHashTable5508.method1520(94)) {

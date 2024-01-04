@@ -51,7 +51,7 @@ public class Node_Sub23_Sub1 extends Node_Sub23
 	}
 	
 	public static void method2639(byte b) {
-		if (b == -16) {
+		if ((byte) -16 == -16) {
 			aClass318_9920 = null;
 			anIntArray9928 = null;
 		}
@@ -69,7 +69,7 @@ public class Node_Sub23_Sub1 extends Node_Sub23
 	}
 	
 	final boolean method2641(int i) {
-		if (i <= 19) {
+		if (103 <= 19) {
 			aClass169_Sub2_9924 = null;
 		}
 		anInt9923++;
@@ -113,14 +113,14 @@ public class Node_Sub23_Sub1 extends Node_Sub23
 			aGLToolkit7197.method1436(aClass382_9905, (byte) 18);
 			aClass145_9903 = Class290_Sub4.method3431(aGLToolkit7197, 0, new Class210[] { Class134.method1568("#extension GL_ARB_texture_rectangle : enable\nuniform vec3 params;\nuniform sampler2DRect sceneTex;\nconst vec3 lumCoef = vec3(0.2126, 0.7152, 0.0722);\nvoid main() {\n    vec4 col = texture2DRect(sceneTex, gl_TexCoord[0].xy);\n    gl_FragColor = col*step(params.x, dot(lumCoef, col.rgb));\n}\n", aGLToolkit7197, -399874888, 35632) });
 			aClass145_9915 = Class290_Sub4.method3431(aGLToolkit7197, 0, new Class210[] { Class134.method1568("uniform vec3 params;\nuniform sampler2D sceneTex;\nconst vec3 lumCoef = vec3(0.2126, 0.7152, 0.0722);\nvoid main() {\n    vec4 col = texture2D(sceneTex, gl_TexCoord[0].xy);\n    gl_FragColor = col*step(params.x, dot(lumCoef, col.rgb));\n}\n", aGLToolkit7197, -399874888, 35632) });
-			aClass145_9907 = Class290_Sub4.method3431(aGLToolkit7197, 0, new Class210[] { Class134.method1568("#extension GL_ARB_texture_rectangle : enable\nuniform vec3 params;\nuniform vec3 dimScale;\nuniform sampler2D bloomTex;\nuniform sampler2DRect sceneTex;\nconst vec3 lumCoef = vec3(0.2126, 0.7152, 0.0722);\nvoid main() {\n\t vec4 bloomCol = texture2D(bloomTex, gl_TexCoord[1].xy);\n\t vec4 sceneCol = texture2DRect(sceneTex, gl_TexCoord[0].xy);\n\t float preLum = 0.99*dot(lumCoef, sceneCol.rgb)+0.01;\n    float postLum = preLum*(1.0+(preLum/params.y))/(preLum+1.0);\n\t gl_FragColor = sceneCol*(postLum/preLum)+bloomCol*params.x;\n}\n", aGLToolkit7197, b + -399874975, 35632) });
+			aClass145_9907 = Class290_Sub4.method3431(aGLToolkit7197, 0, new Class210[] { Class134.method1568("#extension GL_ARB_texture_rectangle : enable\nuniform vec3 params;\nuniform vec3 dimScale;\nuniform sampler2D bloomTex;\nuniform sampler2DRect sceneTex;\nconst vec3 lumCoef = vec3(0.2126, 0.7152, 0.0722);\nvoid main() {\n\t vec4 bloomCol = texture2D(bloomTex, gl_TexCoord[1].xy);\n\t vec4 sceneCol = texture2DRect(sceneTex, gl_TexCoord[0].xy);\n\t float preLum = 0.99*dot(lumCoef, sceneCol.rgb)+0.01;\n    float postLum = preLum*(1.0+(preLum/params.y))/(preLum+1.0);\n\t gl_FragColor = sceneCol*(postLum/preLum)+bloomCol*params.x;\n}\n", aGLToolkit7197, (byte) 87 + -399874975, 35632) });
 			aClass145_9911 = Class290_Sub4.method3431(aGLToolkit7197, 0, new Class210[] { Class134.method1568("uniform vec3 step;\nuniform sampler2D baseTex;\nvoid main() {\n\tvec4 fragCol = texture2D(baseTex, gl_TexCoord[0].xy)*0.091396265;\n\tfragCol += texture2D(baseTex, gl_TexCoord[0].xy+(-1.0*step.xy))*0.088584304;\n\tfragCol += texture2D(baseTex, gl_TexCoord[0].xy+( 1.0*step.xy))*0.088584304;\n\tfragCol += texture2D(baseTex, gl_TexCoord[0].xy+(-2.0*step.xy))*0.08065692;\n\tfragCol += texture2D(baseTex, gl_TexCoord[0].xy+( 2.0*step.xy))*0.08065692;\n\tfragCol += texture2D(baseTex, gl_TexCoord[0].xy+(-3.0*step.xy))*0.068989515;\n\tfragCol += texture2D(baseTex, gl_TexCoord[0].xy+( 3.0*step.xy))*0.068989515;\n\tfragCol += texture2D(baseTex, gl_TexCoord[0].xy+(-4.0*step.xy))*0.055434637;\n\tfragCol += texture2D(baseTex, gl_TexCoord[0].xy+( 4.0*step.xy))*0.055434637;\n\tfragCol += texture2D(baseTex, gl_TexCoord[0].xy+(-5.0*step.xy))*0.04184426;\n\tfragCol += texture2D(baseTex, gl_TexCoord[0].xy+( 5.0*step.xy))*0.04184426;\n\tfragCol += texture2D(baseTex, gl_TexCoord[0].xy+(-6.0*step.xy))*0.029672023;\n\tfragCol += texture2D(baseTex, gl_TexCoord[0].xy+( 6.0*step.xy))*0.029672023;\n\tfragCol += texture2D(baseTex, gl_TexCoord[0].xy+(-7.0*step.xy))*0.019765828;\n\tfragCol += texture2D(baseTex, gl_TexCoord[0].xy+( 7.0*step.xy))*0.019765828;\n\tfragCol += texture2D(baseTex, gl_TexCoord[0].xy+(-8.0*step.xy))*0.012369139;\n\tfragCol += texture2D(baseTex, gl_TexCoord[0].xy+( 8.0*step.xy))*0.012369139;\n\tgl_FragColor = fragCol;\n}\n", aGLToolkit7197, -399874888, 35632) });
 			if (aClass145_9915 == null || aClass145_9903 == null || aClass145_9907 == null || aClass145_9911 == null) {
 				return false;
 			}
 			return true;
 		}
-		if (b != 87) {
+		if ((byte) 87 != 87) {
 			method2637(78, 106, false);
 		}
 		return false;
@@ -159,9 +159,9 @@ public class Node_Sub23_Sub1 extends Node_Sub23
 			int i_7_ = 0;
 			while (i_5_ > 256 || i_6_ > 256) {
 				OpenGL.glViewport(0, 0, i_5_, i_6_);
-				aClass382_9906.method4181(i ^ 0x4758, aClass169_Sub2Array9921[i_7_], 0);
+				aClass382_9906.method4181(0 ^ 0x4758, aClass169_Sub2Array9921[i_7_], 0);
 				if (i_7_ == 0) {
-					aGLToolkit7197.method1444(i + -2, class169_sub2_3_);
+					aGLToolkit7197.method1444(0 + -2, class169_sub2_3_);
 					OpenGL.glBegin(7);
 					OpenGL.glTexCoord2f(0.0F, 0.0F);
 					OpenGL.glVertex2i(0, 0);
@@ -230,11 +230,11 @@ public class Node_Sub23_Sub1 extends Node_Sub23
 		OpenGL.glVertex2i(0, 1);
 		OpenGL.glEnd();
 		aClass382_9905.method4183(0, (byte) 122);
-		aGLToolkit7197.method1444(i ^ ~0x1, aClass169_Sub2_9924);
+		aGLToolkit7197.method1444(0 ^ ~0x1, aClass169_Sub2_9924);
 		OpenGL.glUniform3fARB(OpenGL.glGetUniformLocationARB(l, "step"), 0.0F, 0.00390625F, 0.0F);
 		OpenGL.glBegin(7);
 		OpenGL.glTexCoord2f(0.0F, 0.0F);
-		OpenGL.glVertex2i(0, i);
+		OpenGL.glVertex2i(0, 0);
 		OpenGL.glTexCoord2f(1.0F, 0.0F);
 		OpenGL.glVertex2i(1, 0);
 		OpenGL.glTexCoord2f(1.0F, 1.0F);
@@ -261,13 +261,13 @@ public class Node_Sub23_Sub1 extends Node_Sub23
 		OpenGL.glUseProgramObjectARB(0L);
 		anInt9913++;
 		aGLToolkit7197.method1457(33984, 1);
-		int i_9_ = -95 / (b / 49);
+		int i_9_ = -95 / ((byte) 113 / 49);
 		aGLToolkit7197.method1444(-2, null);
 		aGLToolkit7197.method1457(33984, 0);
 	}
 	
 	final boolean method2627(byte b) {
-		if (b >= -115) {
+		if ((byte) -116 >= -115) {
 			return false;
 		}
 		anInt9902++;
@@ -288,7 +288,7 @@ public class Node_Sub23_Sub1 extends Node_Sub23
 	final void method2632(int i, int i_10_, int i_11_) {
 		anInt9914 = i;
 		anInt9922++;
-		if (i_10_ != 0) {
+		if (0 != 0) {
 			method2626((byte) 91);
 		}
 		anInt9904 = i_11_;

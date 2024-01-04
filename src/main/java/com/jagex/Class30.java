@@ -10,15 +10,15 @@ public class Class30
 	
 	static final int method341(byte b, boolean bool, int i) {
 		anInt492++;
-		if (bool) {
+		if (false) {
 			return 0;
 		}
-		Node_Sub16 node_sub16 = Class295.method3472(i, (byte) 18, bool);
+		Node_Sub16 node_sub16 = Class295.method3472(i, (byte) 18, false);
 		if (node_sub16 == null) {
 			return Class269.aClass308_3469.method3584(i, -13798).anInt9479;
 		}
 		int i_0_ = 0;
-		if (b != 88) {
+		if ((byte) 88 != 88) {
 			anInt491 = 95;
 		}
 		for (int i_1_ = 0; node_sub16.anIntArray7137.length > i_1_; i_1_++) {

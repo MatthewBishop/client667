@@ -46,7 +46,7 @@ abstract class Plane
 	abstract void method3250(Node_Sub29 node_sub29, int[] is);
 	
 	final int method3251(int i, int i_10_, byte b) {
-		if (b != -118) {
+		if ((byte) -118 != -118) {
 			method3255(2, 101, 8, 52, -36, 105, 3, null);
 		}
 		anInt3400++;
@@ -69,7 +69,7 @@ abstract class Plane
 		aClass133_3416 = null;
 		aClass133_3412 = null;
 		aClass133_3419 = null;
-		int i = 100 / ((b - -56) / 51);
+		int i = 100 / (((byte) 115 - -56) / 51);
 		aClass133_3415 = null;
 		aClass133_3421 = null;
 		aClass133Array3422 = null;

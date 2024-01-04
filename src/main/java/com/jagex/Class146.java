@@ -37,7 +37,7 @@ public class Class146
 	public static void method1643(boolean bool) {
 		aShortArrayArray1802 = null;
 		aClass32_1812 = null;
-		if (bool == false) {
+		if (false == false) {
 			aClass10_1815 = null;
 			aSignLink1813 = null;
 			aClass192_1810 = null;
@@ -48,7 +48,7 @@ public class Class146
 		for (int i_1_ = 0; anInt1811 > i_1_; i_1_++)
 			anIntArrayArray1809[i_1_] = null;
 		anInt1806++;
-		if (i > -113) {
+		if (-119 > -113) {
 			method1642((byte) -112);
 		}
 		aNode_Sub50Array1808 = null;
@@ -58,7 +58,7 @@ public class Class146
 	}
 	
 	final int[] method1645(int i, int i_2_) {
-		if (i != 27356) {
+		if (27356 != 27356) {
 			method1643(false);
 		}
 		anInt1800++;
@@ -80,7 +80,7 @@ public class Class146
 					}
 					aNode_Sub50Array1808[i_2_] = node_sub50;
 				}
-				aClass312_1801.method3611(node_sub50, i ^ ~0x6aa5);
+				aClass312_1801.method3611(node_sub50, 27356 ^ ~0x6aa5);
 				return anIntArrayArray1809[node_sub50.anInt7626];
 			}
 			aBoolean1819 = i_2_ != anInt1803;

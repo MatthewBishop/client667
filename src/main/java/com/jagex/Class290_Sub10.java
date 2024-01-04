@@ -125,7 +125,7 @@ public class Class290_Sub10 extends Class290
 			}
 			idirect3ddevice.b(0, (float) ((anAbstractToolkit3654.anInt6276 & 0xff6aac) >> 16) / 255.0F, (float) (0xff & anAbstractToolkit3654.anInt6276 >> 8) / 255.0F, (float) (anAbstractToolkit3654.anInt6276 & 0xff) / 255.0F, 0.0F);
 		}
-		if (b != -56) {
+		if ((byte) -56 != -56) {
 			method3412(26);
 		}
 	}

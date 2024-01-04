@@ -25,7 +25,7 @@ public class Node_Sub38_Sub19 extends Node_Sub38
 		cachenode_0_.aCacheNode7036 = cachenode;
 		cachenode_0_.aCacheNode7036.aCacheNode7035 = cachenode_0_;
 		cachenode_0_.aCacheNode7035.aCacheNode7036 = cachenode_0_;
-		if (i != 255) {
+		if (255 != 255) {
 			method2851(2, 99, 72, (byte) 57, -126, -32);
 		}
 	}
@@ -38,7 +38,7 @@ public class Node_Sub38_Sub19 extends Node_Sub38
 	public static void method2848(int i) {
 		anIntArray10292 = null;
 		aClass302_10286 = null;
-		if (i < 92) {
+		if (113 < 92) {
 			aClass78Array10284 = null;
 		}
 		aClass78Array10284 = null;

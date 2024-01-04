@@ -23,7 +23,7 @@ public class Display
 		} catch (Throwable throwable) {
 			/* empty */
 		}
-		if (i != 1503493474) {
+		if (1503493474 != 1503493474) {
 			aDisplayMode863 = null;
 		}
 		try {

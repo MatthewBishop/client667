@@ -23,7 +23,7 @@ public class Class163
 	static boolean aBoolean2021;
 	
 	public static void method1733(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			anInt2019 = -21;
 		}
 		aClass192_2012 = null;
@@ -32,7 +32,7 @@ public class Class163
 	
 	static final Class144_Sub4 method1734(Buffer buffer, byte b) {
 		anInt2007++;
-		int i = 21 / ((b - 6) / 38);
+		int i = 21 / (((byte) -72 - 6) / 38);
 		return new Class144_Sub4(buffer.method2193(-17), buffer.method2193(-91), buffer.method2193(-53), buffer.method2193(-125), buffer.method2220(1819759595), buffer.method2233(255));
 	}
 	
@@ -183,7 +183,7 @@ public class Class163
 				graphics_9_.setFont(Node_Sub46.aFont7555);
 				graphics_9_.setColor(color_7_);
 				graphics_9_.drawString(string, (-(6 * string.length()) + 304) / 2 + i_10_, i_11_ + 22);
-				int i_12_ = -85 % ((b - 4) / 58);
+				int i_12_ = -85 % (((byte) -117 - 4) / 58);
 				if (EntityNode_Sub6.aString5991 != null) {
 					graphics_9_.setFont(Node_Sub46.aFont7555);
 					graphics_9_.setColor(color_7_);

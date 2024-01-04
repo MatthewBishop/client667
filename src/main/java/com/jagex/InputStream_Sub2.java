@@ -30,7 +30,7 @@ public class InputStream_Sub2 extends InputStream
 			}
 			Class93.aGraphicsToolkit1241.a(Node_Sub38_Sub20.aCanvas10309);
 		}
-		if (i != 30000) {
+		if (30000 != 30000) {
 			aClass281_83 = null;
 		}
 		anInt79++;
@@ -46,7 +46,7 @@ public class InputStream_Sub2 extends InputStream
 		Class175.anInt2097++;
 		anInt82++;
 		Animable_Sub1_Sub2.aBoolean10649 = true;
-		if (i != -1) {
+		if (-1 != -1) {
 			anIntArray81 = null;
 		}
 		return true;
@@ -54,7 +54,7 @@ public class InputStream_Sub2 extends InputStream
 	
 	public static void method130(int i) {
 		aClass281_83 = null;
-		if (i == 30000) {
+		if (30000 == 30000) {
 			anIntArray81 = null;
 		}
 	}

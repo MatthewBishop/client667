@@ -25,7 +25,7 @@ public class Class304
 	}
 	
 	static final boolean method3545(int i, int i_3_, int i_4_) {
-		if (i_3_ != 10215) {
+		if (10215 != 10215) {
 			aClass84Array3833 = null;
 		}
 		anInt3832++;

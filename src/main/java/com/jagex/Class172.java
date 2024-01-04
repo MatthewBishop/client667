@@ -14,7 +14,7 @@ public class Class172
 		aClass172_2080 = null;
 		aClass172_2079 = null;
 		aClass172_2077 = null;
-		if (i != -1) {
+		if (-1 != -1) {
 			aClass172_2077 = null;
 		}
 	}
@@ -24,7 +24,7 @@ public class Class172
 		int i_0_ = player.anInt11153;
 		Class259 class259 = player.method868((byte) -127);
 		int i_1_ = player.anAnimator10860.method250((byte) -53);
-		if (i == i_1_ || player.aBoolean10867) {
+		if (-1 == i_1_ || player.aBoolean10867) {
 			i_0_ = player.anInt11167;
 		} else if (i_1_ == class259.anInt3252 || class259.anInt3271 == i_1_ || class259.anInt3293 == i_1_ || class259.anInt3270 == i_1_) {
 			i_0_ = player.anInt11182;

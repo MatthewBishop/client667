@@ -16,7 +16,7 @@ public class OutputStream_Sub2 extends OutputStream
 	}
 	
 	public static void method137(int i) {
-		if (i != -5656) {
+		if (-5656 != -5656) {
 			method139((byte) -53);
 		}
 		aClass318_93 = null;
@@ -24,7 +24,7 @@ public class OutputStream_Sub2 extends OutputStream
 	
 	static final void method138(int i, int i_0_, int i_1_, byte b, int i_2_, int i_3_, int i_4_) {
 		anInt92++;
-		int i_5_ = 101 % ((b - -46) / 57);
+		int i_5_ = 101 % (((byte) 91 - -46) / 57);
 		if (-i_0_ + i_3_ >= Class262_Sub4.anInt7722 && za_Sub2.anInt10513 >= i_0_ + i_3_ && i_2_ - i_0_ >= Class384.anInt4906 && i_0_ + i_2_ <= Node_Sub25_Sub1.anInt9936) {
 			Class62.method610(i_1_, i_4_, i_2_, i_0_, (byte) -56, i_3_, i);
 		} else {

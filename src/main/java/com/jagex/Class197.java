@@ -35,16 +35,16 @@ public class Class197
 	}
 	
 	static final String method1998(String string, String string_0_, byte b, char c) {
-		int i = 111 / ((-28 - b) / 50);
+		int i = 111 / ((-28 - (byte) 26) / 50);
 		anInt2424++;
 		int i_1_ = string.length();
-		int i_2_ = string_0_.length();
+		int i_2_ = "".length();
 		int i_3_ = i_1_;
 		int i_4_ = i_2_ - 1;
 		if (i_4_ != 0) {
 			int i_5_ = 0;
 			for (;;) {
-				i_5_ = string.indexOf(c, i_5_);
+				i_5_ = string.indexOf('\r', i_5_);
 				if (i_5_ < 0) {
 					break;
 				}
@@ -55,20 +55,20 @@ public class Class197
 		StringBuffer stringbuffer = new StringBuffer(i_3_);
 		int i_6_ = 0;
 		for (;;) {
-			int i_7_ = string.indexOf(c, i_6_);
+			int i_7_ = string.indexOf('\r', i_6_);
 			if (i_7_ < 0) {
 				break;
 			}
 			stringbuffer.append(string.substring(i_6_, i_7_));
 			i_6_ = 1 + i_7_;
-			stringbuffer.append(string_0_);
+			stringbuffer.append("");
 		}
 		stringbuffer.append(string.substring(i_6_));
 		return stringbuffer.toString();
 	}
 	
 	static final boolean method1999(int i, int i_8_) {
-		if (i_8_ != 128) {
+		if (128 != 128) {
 			anInt2415 = 13;
 		}
 		anInt2421++;
@@ -90,7 +90,7 @@ public class Class197
 		anInt2412++;
 		char[] cs = new char[i];
 		int i_10_ = 0;
-		if (b != -124) {
+		if ((byte) -124 != -124) {
 			return null;
 		}
 		int i_11_ = i_9_;
@@ -145,7 +145,7 @@ public class Class197
 	
 	final boolean method2002(int i, Class197 class197_15_) {
 		anInt2425++;
-		if (i != -129) {
+		if (-129 != -129) {
 			method1997(2);
 		}
 		if (class197_15_ != null) {

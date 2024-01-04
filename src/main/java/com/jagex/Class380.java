@@ -27,7 +27,7 @@ public class Class380
 		anInt4890++;
 		anInt4891 = anInt4883 = 0;
 		aByteArray4876[0] = (byte) 0;
-		if (i < 29) {
+		if (60 < 29) {
 			method4170(null, 79, null, -124, false);
 		}
 		for (int i_1_ = 0; i_1_ < 8; i_1_++)
@@ -37,7 +37,7 @@ public class Class380
 	final void method4166(long l, byte[] bs, int i) {
 		anInt4875++;
 		int i_2_ = 0;
-		if (i != -27938) {
+		if (-27938 != -27938) {
 			method4171((byte) -98);
 		}
 		int i_3_ = -(0x7 & (int) l) + 8 & 0x7;
@@ -99,13 +99,13 @@ public class Class380
 			method4168((byte) 122);
 			anInt4883 = 0;
 		}
-		if (i_10_ == 3) {
+		if (3 == 3) {
 			while (anInt4883 < 32)
 				aByteArray4876[anInt4883++] = (byte) 0;
 			Class311.method3608(aByteArray4881, 0, aByteArray4876, 32, 32);
 			method4168((byte) 127);
 			int i_11_ = 0;
-			int i_12_ = i;
+			int i_12_ = 0;
 			for (/**/; i_11_ < 8; i_11_++) {
 				long l = aLongArray4878[i_11_];
 				bs[i_12_] = (byte) (int) (l >>> 56);
@@ -167,12 +167,12 @@ public class Class380
 	static final Class150_Sub3 method4169(byte b, Buffer buffer) {
 		anInt4884++;
 		Class150 class150 = Class338.method3906(buffer, -87);
-		int i = buffer.method2219(b ^ ~0x7c7fc59);
-		int i_25_ = buffer.method2219(b + -130546854);
-		int i_26_ = buffer.method2219(b ^ ~0x7c7fc59);
+		int i = buffer.method2219((byte) 110 ^ ~0x7c7fc59);
+		int i_25_ = buffer.method2219((byte) 110 + -130546854);
+		int i_26_ = buffer.method2219((byte) 110 ^ ~0x7c7fc59);
 		int i_27_ = buffer.method2219(-130546744);
 		int i_28_ = buffer.method2219(-130546744);
-		if (b != 110) {
+		if ((byte) 110 != 110) {
 			return null;
 		}
 		int i_29_ = buffer.method2219(-130546744);

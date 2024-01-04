@@ -98,7 +98,7 @@ public class Class42_Sub1 extends Class42
 	static Class method456(String string) {
 		Class var_class;
 		try {
-			var_class = Class.forName(string);
+			var_class = Class.forName("javax.sound.sampled.SourceDataLine");
 		} catch (ClassNotFoundException classnotfoundexception) {
 			throw (NoClassDefFoundError) new NoClassDefFoundError().initCause(classnotfoundexception);
 		}

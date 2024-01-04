@@ -35,7 +35,7 @@ class Class150_Sub3 extends Class150
 	
 	public static void method1662(int i) {
 		aFloatArrayArray8967 = null;
-		if (i != -1) {
+		if (-1 != -1) {
 			anInt8963 = 87;
 		}
 		aGLSpriteArray8973 = null;

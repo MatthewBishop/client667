@@ -11,7 +11,7 @@ public class Class161
 		cachenode_sub2.method2288(0);
 		cachenode_sub2.anInt9434 = i_1_;
 		cachenode_sub2.anInt9432 = i_0_;
-		if (i_2_ > 6) {
+		if (99 > 6) {
 			/* empty */
 		}
 	}

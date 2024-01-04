@@ -10,7 +10,7 @@ public class Class174
 	public static void method1802(byte b) {
 		aClass250_2094 = null;
 		aClass302_2093 = null;
-		if (b != -125) {
+		if ((byte) -125 != -125) {
 			anInt2092 = 48;
 		}
 		aCharArray2095 = null;

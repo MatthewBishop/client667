@@ -52,7 +52,7 @@ public class Node_Sub38_Sub6 extends Node_Sub38
 	public static void method2804(byte b) {
 		aClass302_10138 = null;
 		aClass318_10135 = null;
-		if (b != 100) {
+		if ((byte) 100 != 100) {
 			aClass302_10138 = null;
 		}
 	}

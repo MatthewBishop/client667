@@ -26,7 +26,7 @@ public class Class143
 		int[] is = new int[i_2_];
 		Node_Sub38_Sub27 node_sub38_sub27 = new Node_Sub38_Sub27();
 		node_sub38_sub27.anInt10378 = (int) (f * 4096.0F);
-		node_sub38_sub27.aBoolean10377 = bool;
+		node_sub38_sub27.aBoolean10377 = true;
 		node_sub38_sub27.anInt10389 = i_4_;
 		node_sub38_sub27.anInt10384 = i;
 		node_sub38_sub27.anInt10390 = i_3_;
@@ -40,7 +40,7 @@ public class Class143
 	static final void method1623(int i, int i_5_, int i_6_, int i_7_, int i_8_) {
 		anInt1780++;
 		int i_9_ = 0;
-		if (i_6_ == -957563775) {
+		if (-957563775 == -957563775) {
 			int i_10_ = i_7_;
 			int i_11_ = -i_7_;
 			Class369.method4086(i_7_ + i, i_5_, i - i_7_, Class169_Sub4.anIntArrayArray8826[i_8_], 0);
@@ -57,7 +57,7 @@ public class Class143
 					int i_14_ = i_9_ + i;
 					int i_15_ = i + -i_9_;
 					Class369.method4086(i_14_, i_5_, i_15_, is, 0);
-					Class369.method4086(i_14_, i_5_, i_15_, is_13_, i_6_ + 957563775);
+					Class369.method4086(i_14_, i_5_, i_15_, is_13_, -957563775 + 957563775);
 				}
 				int i_16_ = i_10_ + i;
 				int i_17_ = -i_10_ + i;
@@ -70,7 +70,7 @@ public class Class143
 	}
 	
 	public static void method1624(byte b) {
-		if (b <= 108) {
+		if ((byte) 122 <= 108) {
 			aByteArray1773 = null;
 		}
 		anIntArray1764 = null;
@@ -80,7 +80,7 @@ public class Class143
 	
 	final boolean method1625(int i, Class143 class143_19_) {
 		anInt1768++;
-		if (i <= 66) {
+		if (81 <= 66) {
 			method1622(2, 6, true, 113, -82, 64, 0.5866943F, -83);
 		}
 		if (class143_19_.anInt1767 == anInt1767 && class143_19_.anInt1776 == anInt1776 && anInt1769 == class143_19_.anInt1769) {

@@ -27,7 +27,7 @@ public class Class156 implements Runnable
 		if (i_0_ <= 0 || anInt1957 <= i_0_) {
 			throw new IOException();
 		}
-		int i_1_ = 125 / ((59 - i) / 40);
+		int i_1_ = 125 / ((59 - 113) / 40);
 		synchronized (this) {
 			int i_2_;
 			if (anInt1956 > anInt1960) {
@@ -47,7 +47,7 @@ public class Class156 implements Runnable
 	}
 	
 	final void method1704(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			aByteArray1971 = null;
 		}
 		anInt1966++;
@@ -126,7 +126,7 @@ public class Class156 implements Runnable
 	
 	public static void method1707(int i) {
 		aHashTable1964 = null;
-		if (i != 512) {
+		if (512 != 512) {
 			aClass192_1962 = null;
 		}
 		aGLSpriteArray1969 = null;
@@ -148,7 +148,7 @@ public class Class156 implements Runnable
 			if (i_7_ < i_5_) {
 				i_5_ = i_7_;
 			}
-			if (i != 1) {
+			if (1 != 1) {
 				method1706((byte) 78);
 			}
 			if (i_5_ == 0 && anIOException1968 != null) {

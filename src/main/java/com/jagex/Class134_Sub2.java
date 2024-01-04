@@ -21,7 +21,7 @@ public class Class134_Sub2 extends Class134 implements Interface13_Impl2
 	}
 	
 	static final boolean method1582(int i, int i_2_, byte[] bs, int i_3_, byte b, int i_4_, int i_5_) {
-		if (b != -78) {
+		if ((byte) -78 != -78) {
 			anInt9021 = -124;
 		}
 		anInt9023++;

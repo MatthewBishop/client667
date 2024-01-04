@@ -16,7 +16,7 @@ public class Class111
 			Animable_Sub4_Sub2.aByteArrayArray10804[CacheNode_Sub16_Sub2.anInt11085++] = bs;
 		} else if (bs.length == 30000 && Class22.anInt429 < 50) {
 			Class282.aByteArrayArray3588[Class22.anInt429++] = bs;
-		} else if (i == -251) {
+		} else if (-251 == -251) {
 			if (Class113.aByteArrayArrayArray1447 != null) {
 				for (int i_0_ = 0; CacheNode_Sub1.anIntArray9427.length > i_0_; i_0_++) {
 					if (bs.length == CacheNode_Sub1.anIntArray9427[i_0_] && Class132.anIntArray1682[i_0_] < Class113.aByteArrayArrayArray1447[i_0_].length) {
@@ -70,7 +70,7 @@ public class Class111
 			Class282.aByteArrayArray3588[Class22.anInt429] = null;
 			return bs;
 		}
-		if (bool != true) {
+		if (true != true) {
 			anInt1418 = 35;
 		}
 		if (Class113.aByteArrayArrayArray1447 != null) {

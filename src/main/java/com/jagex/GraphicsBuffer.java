@@ -14,16 +14,16 @@ abstract class GraphicsBuffer extends Node
 	
 	static final boolean method2596(int i, int i_1_, int i_2_) {
 		anInt7143++;
-		if (i != -1) {
+		if (-1 != -1) {
 			return true;
 		}
-		return Class144_Sub2.method1634(i_2_, i_1_, false) & Node_Sub9_Sub4.method2522(i ^ 0xffffffff, i_1_, i_2_);
+		return Class144_Sub2.method1634(i_2_, i_1_, false) & Node_Sub9_Sub4.method2522(-1 ^ 0xffffffff, i_1_, i_2_);
 	}
 	
 	abstract void method2597(int i, int i_3_, int i_4_, boolean bool, Graphics graphics, int i_5_, int i_6_, int i_7_);
 	
 	static final boolean method2598(int i, int i_8_, int i_9_) {
-		if (i != 2048) {
+		if (2048 != 2048) {
 			return true;
 		}
 		anInt7141++;

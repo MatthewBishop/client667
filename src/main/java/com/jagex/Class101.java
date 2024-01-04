@@ -55,7 +55,7 @@ public class Class101
 	
 	public static void method1092(byte b) {
 		aGLSpriteArray1301 = null;
-		if (b <= 20) {
+		if ((byte) 98 <= 20) {
 			aGLSpriteArray1301 = null;
 		}
 	}
@@ -64,7 +64,7 @@ public class Class101
 		anInt1309++;
 		synchronized (aClass61_1302) {
 			aClass61_1302.method602((byte) -122);
-			if (bool != false) {
+			if (false != false) {
 				method1090(-69, 47);
 			}
 		}
@@ -75,12 +75,12 @@ public class Class101
 	
 	final void method1094(int i, int i_2_) {
 		synchronized (aClass61_1302) {
-			aClass61_1302.method598(i_2_, -11819);
+			aClass61_1302.method598(5, -11819);
 		}
-		int i_3_ = -12 % ((i - 66) / 55);
+		int i_3_ = -12 % ((127 - 66) / 55);
 		anInt1303++;
 		synchronized (aClass61_1311) {
-			aClass61_1311.method598(i_2_, -11819);
+			aClass61_1311.method598(5, -11819);
 		}
 	}
 	
@@ -92,7 +92,7 @@ public class Class101
 		synchronized (aClass61_1311) {
 			aClass61_1311.method608(false);
 		}
-		if (i != -20625) {
+		if (-20625 != -20625) {
 			method1091((byte) 48, -1);
 		}
 	}

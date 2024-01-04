@@ -32,7 +32,7 @@ abstract class Animable_Sub3 extends Animable
 	
 	final boolean method806(int i) {
 		anInt9138++;
-		if (i != 0) {
+		if (0 != 0) {
 			return false;
 		}
 		return Class139.aBooleanArrayArray1730[-Class216.anInt2551 + ((anInt5934 >> Class36.anInt549) - -Node_Sub9_Sub1.anInt9656)][Node_Sub9_Sub1.anInt9656 + -EntityNode_Sub7.anInt6013 + (anInt5940 >> Class36.anInt549)];
@@ -69,7 +69,7 @@ abstract class Animable_Sub3 extends Animable
 	}
 	
 	final int method819(Node_Sub29[] node_sub29s, int i) {
-		if (i != 1) {
+		if (1 != 1) {
 			method919(-100, -66, -22, -120, -28, false, 26);
 		}
 		anInt9132++;
@@ -89,7 +89,7 @@ abstract class Animable_Sub3 extends Animable
 				Class93.aGraphicsToolkit1241.a(Class290_Sub6.aClass336_8114);
 			}
 			if (!Node_Sub15_Sub10.aBoolean9850) {
-				if (bool) {
+				if (false) {
 					Class93.aGraphicsToolkit1241.H(i_5_, i_7_, i_3_, Class119.anIntArray1516);
 				} else {
 					Class93.aGraphicsToolkit1241.da(i_5_, i_7_, i_3_, Class119.anIntArray1516);
@@ -108,7 +108,7 @@ abstract class Animable_Sub3 extends Animable
 	
 	public static void method920(int i) {
 		aClass124_9141 = null;
-		if (i != 22056) {
+		if (22056 != 22056) {
 			method918((byte) -100);
 		}
 		anIntArray9142 = null;
@@ -208,7 +208,7 @@ abstract class Animable_Sub3 extends Animable
 	/*synthetic*/ static Class method922(String string) {
 		Class var_class;
 		try {
-			var_class = Class.forName(string);
+			var_class = Class.forName("java.lang.Runtime");
 		} catch (ClassNotFoundException classnotfoundexception) {
 			throw (NoClassDefFoundError) new NoClassDefFoundError().initCause(classnotfoundexception);
 		}

@@ -32,7 +32,7 @@ abstract class Class51 implements Interface15
 	static int anInt5346;
 	
 	public static void method514(int i) {
-		if (i != 2) {
+		if (2 != 2) {
 			aClass302_5339 = null;
 		}
 		aClass192_5335 = null;
@@ -58,7 +58,7 @@ abstract class Class51 implements Interface15
 	
 	final long method515(byte b) {
 		anInt5328++;
-		if (b != 50) {
+		if ((byte) 50 != 50) {
 			return -22L;
 		}
 		if (anInt5324 == 0) {
@@ -88,14 +88,14 @@ abstract class Class51 implements Interface15
 			aGLXToolkit5332.anInt6260 += -anInt5329 + i;
 		}
 		anInt5329 = i;
-		if (bool != true) {
+		if (true != true) {
 			return true;
 		}
 		return true;
 	}
 	
 	final boolean method517(int i, MapBuffer mapbuffer) {
-		if (i != 0) {
+		if (0 != 0) {
 			method57((byte) 55);
 		}
 		anInt5334++;
@@ -145,11 +145,11 @@ abstract class Class51 implements Interface15
 	
 	final jaclib.memory.Buffer method519(boolean bool, MapBuffer mapbuffer, int i) {
 		anInt5333++;
-		if (i != -5934) {
+		if (-5934 != -5934) {
 			method518(74);
 		}
 		if (anInt5340 == 0) {
-			method520(i ^ ~0x1755);
+			method520(-5934 ^ ~0x1755);
 			if (anInt5324 <= 0) {
 				anInt5340 = 2;
 				return aNativeHeapBuffer5344;

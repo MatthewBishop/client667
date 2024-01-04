@@ -39,19 +39,19 @@ public class Node_Sub15_Sub1 extends Node_Sub15
 	
 	static final void method2558(int i) {
 		anInt9772++;
-		if (i != -1) {
+		if (-1 != -1) {
 			method2557(-79, 88, -65);
 		}
 		int[] is = Class66_Sub1.anIntArray8987;
 		for (int i_2_ = 0; Class178.anInt2120 > i_2_; i_2_++) {
 			Player player = Class270_Sub2.aPlayerArray8038[is[i_2_]];
 			if (player != null) {
-				player.method847(i);
+				player.method847(-1);
 			}
 		}
 		for (int i_3_ = 0; i_3_ < Node_Sub25_Sub3.anInt9987; i_3_++) {
 			long l = (long) Class54.anIntArray816[i_3_];
-			Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(i + 3513, l);
+			Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(-1 + 3513, l);
 			if (node_sub41 != null) {
 				node_sub41.aNpc7518.method847(-1);
 			}

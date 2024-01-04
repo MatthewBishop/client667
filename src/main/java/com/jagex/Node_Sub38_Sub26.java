@@ -16,7 +16,7 @@ public class Node_Sub38_Sub26 extends Node_Sub38
 	private final void method2873(int i, int i_0_) {
 		anInt10364 = (0xff00 & i_0_) >> 4;
 		anInt10363 = 0xff0 & i_0_ << 4;
-		anInt10365 = (i_0_ & i) >> 12;
+		anInt10365 = (i_0_ & 16711680) >> 12;
 		anInt10369++;
 	}
 	
@@ -57,13 +57,13 @@ public class Node_Sub38_Sub26 extends Node_Sub38
 	public static void method2874(int i) {
 		anIntArray10370 = null;
 		aClass192_10368 = null;
-		int i_6_ = 125 / ((i - -40) / 32);
+		int i_6_ = 125 / ((-105 - -40) / 32);
 	}
 	
 	static final byte[] method2875(byte[] bs, byte b) {
 		anInt10362++;
 		Buffer buffer = new Buffer(bs);
-		if (b != -104) {
+		if ((byte) -104 != -104) {
 			return null;
 		}
 		int i = buffer.method2233(255);
@@ -87,7 +87,7 @@ public class Node_Sub38_Sub26 extends Node_Sub38
 			return bs_9_;
 		}
 		byte[] bs_10_ = new byte[i_7_];
-		buffer.method2181(0, i_7_, bs_10_, b + -19313);
+		buffer.method2181(0, i_7_, bs_10_, (byte) -104 + -19313);
 		return bs_10_;
 	}
 	
@@ -115,7 +115,7 @@ public class Node_Sub38_Sub26 extends Node_Sub38
 	
 	private Node_Sub38_Sub26(int i) {
 		super(0, false);
-		method2873(16711680, i);
+		method2873(16711680, 0);
 	}
 	
 	static final boolean method2877(int i, int i_17_, int i_18_) {

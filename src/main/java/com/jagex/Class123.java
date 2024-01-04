@@ -34,7 +34,7 @@ public class Class123
 	
 	public static void method1509(int i) {
 		aClass192_1562 = null;
-		int i_0_ = 36 % ((-23 - i) / 47);
+		int i_0_ = 36 % ((-23 - 117) / 47);
 		aClass129_1564 = null;
 	}
 	
@@ -72,14 +72,14 @@ public class Class123
 				aBuffer1566.method2223(node_sub13.anInt7114, (byte) 4, node_sub13.aPacket7113.aByteArray7019, 0);
 				anInt1567 -= node_sub13.anInt7114;
 				node_sub13.method2160((byte) 36);
-				node_sub13.aPacket7113.method2202(b ^ 0x2a);
+				node_sub13.aPacket7113.method2202((byte) -89 ^ 0x2a);
 				node_sub13.method2547(false);
 			}
 			aClass365_1557.method4067(aBuffer1566.aByteArray7019, aBuffer1566.anInt7002, (byte) -29, 0);
 			anInt1579 = 0;
 			anInt1583 += aBuffer1566.anInt7002;
 		}
-		if (b != -89) {
+		if ((byte) -89 != -89) {
 			method1513(23);
 		}
 	}

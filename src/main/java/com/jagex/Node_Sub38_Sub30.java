@@ -9,7 +9,7 @@ public class Node_Sub38_Sub30 extends Node_Sub38
 	private int anInt10415 = 4;
 	
 	final int[][] method2778(int i, boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			anInt10411 = -56;
 		}
 		anInt10412++;

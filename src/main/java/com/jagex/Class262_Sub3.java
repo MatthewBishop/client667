@@ -32,7 +32,7 @@ public class Class262_Sub3 extends Class262
 	}
 	
 	static final boolean method3157(int i, byte b) {
-		if (b != 28) {
+		if ((byte) 28 != 28) {
 			return false;
 		}
 		anInt7720++;
@@ -44,7 +44,7 @@ public class Class262_Sub3 extends Class262
 	
 	public static void method3158(int i) {
 		aClass302_7715 = null;
-		if (i == 1) {
+		if (1 == 1) {
 			anIntArray7713 = null;
 		}
 	}

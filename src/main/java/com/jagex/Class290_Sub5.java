@@ -24,7 +24,7 @@ public class Class290_Sub5 extends Class290
 	static final void method3434(int i, byte b) {
 		anInt8106++;
 		if (Node_Sub38_Sub23.method2866(false)) {
-			if (b != 27) {
+			if ((byte) 27 != 27) {
 				aClass192_8103 = null;
 			}
 			if (i != Class336_Sub2.anInt8586) {
@@ -89,7 +89,7 @@ public class Class290_Sub5 extends Class290
 	
 	public static void method3437(int i) {
 		aClass192_8103 = null;
-		if (i != 0) {
+		if (0 != 0) {
 			anInt8107 = 21;
 		}
 	}

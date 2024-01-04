@@ -19,7 +19,7 @@ public class Class167
 			i = i_1_;
 		}
 		anInt2039++;
-		if (b != -21) {
+		if ((byte) -21 != -21) {
 			aClass318_2034 = null;
 		}
 		int i_2_;
@@ -37,7 +37,7 @@ public class Class167
 		}
 		Class382 class382 = aGLToolkit2036.aClass382_6701;
 		CacheNode_Sub17 cachenode_sub17 = new CacheNode_Sub17(aGLToolkit2036, 6408, class169_sub3.anInt8819, class169_sub3.anInt8809);
-		int i = 12 % ((b - 37) / 63);
+		int i = 12 % (((byte) -59 - 37) / 63);
 		boolean bool = false;
 		aGLToolkit2036.method1410(15, class382);
 		class382.method4178(cachenode_sub17, 0, 1);
@@ -52,7 +52,7 @@ public class Class167
 			OpenGL.glViewport(0, 0, class169_sub3.anInt8819, class169_sub3.anInt8809);
 			OpenGL.glUseProgramObjectARB(aClass145_2035.aLong1795);
 			OpenGL.glUniform1iARB(OpenGL.glGetUniformLocationARB(aClass145_2035.aLong1795, "heightMap"), 0);
-			OpenGL.glUniform1fARB(OpenGL.glGetUniformLocationARB(aClass145_2035.aLong1795, "rcpRelief"), 1.0F / f);
+			OpenGL.glUniform1fARB(OpenGL.glGetUniformLocationARB(aClass145_2035.aLong1795, "rcpRelief"), 1.0F / (float) 2.0);
 			OpenGL.glUniform2fARB(OpenGL.glGetUniformLocationARB(aClass145_2035.aLong1795, "sampleSize"), 1.0F / (float) class169_sub3_3_.anInt8819, 1.0F / (float) class169_sub3_3_.anInt8809);
 			for (int i_4_ = 0; i_4_ < class169_sub3.anInt8811; i_4_++) {
 				float f_5_ = (float) i_4_ / (float) class169_sub3.anInt8811;

@@ -11,7 +11,7 @@ public class Class265_Sub2 extends Class265 implements Interface13_Impl2
 	
 	public final void method42(boolean bool) {
 		aD3DToolkit3365.method1395(this, 125);
-		if (bool) {
+		if (false) {
 			method42(false);
 		}
 	}

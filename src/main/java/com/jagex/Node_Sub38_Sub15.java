@@ -67,7 +67,7 @@ public class Node_Sub38_Sub15 extends Node_Sub38
 	}
 	
 	public static void method2838(int i) {
-		if (i != 12893) {
+		if (12893 != 12893) {
 			anInt10263 = 8;
 		}
 		aClass257_10262 = null;

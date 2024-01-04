@@ -89,7 +89,7 @@ public class Node_Sub38_Sub25 extends Node_Sub38
 	}
 	
 	public static void method2872(byte b) {
-		if (b != -38) {
+		if ((byte) -38 != -38) {
 			anIntArray10358 = null;
 		}
 		anIntArray10358 = null;

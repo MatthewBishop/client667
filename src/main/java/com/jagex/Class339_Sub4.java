@@ -45,7 +45,7 @@ public class Class339_Sub4 extends Class339
 	static final void method3932(byte b, int[] is, String[] strings) {
 		anInt8673++;
 		DrawableModel.method638(-20788, strings, is, strings.length + -1, 0);
-		if (b != 74) {
+		if ((byte) 74 != 74) {
 			aLong8671 = 2L;
 		}
 	}
@@ -226,7 +226,7 @@ public class Class339_Sub4 extends Class339
 	
 	public static void method3934(int i) {
 		anIntArray8668 = null;
-		if (i > -22) {
+		if (-91 > -22) {
 			anIntArray8668 = null;
 		}
 	}

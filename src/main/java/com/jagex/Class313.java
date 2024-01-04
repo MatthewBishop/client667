@@ -28,7 +28,7 @@ public class Class313
 		if (Class233.anInt2786 < 100) {
 			return false;
 		}
-		if (bool != true) {
+		if (true != true) {
 			method3649(true, 77, 66, -67);
 		}
 		int i_4_ = Class240.anIntArrayArrayArray2948[i_2_][i_3_][i];
@@ -58,7 +58,7 @@ public class Class313
 		if (l < Node_Sub38_Sub11.aLong10215) {
 			Node_Sub38_Sub33.aLong10441 += -l + Node_Sub38_Sub11.aLong10215;
 		}
-		if (bool != false) {
+		if (false != false) {
 			return -72L;
 		}
 		Node_Sub38_Sub11.aLong10215 = l;

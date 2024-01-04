@@ -61,7 +61,7 @@ public class Class144_Sub3 extends Class144
 	}
 	
 	public static void method1636(int i) {
-		if (i != -1) {
+		if (-1 != -1) {
 			method1635((byte) -122);
 		}
 		anIntArray6835 = null;

@@ -42,7 +42,7 @@ public class Class266
 		}
 		anInt3373++;
 		aBufferedConnection3389 = null;
-		if (b != 98) {
+		if ((byte) 98 != 98) {
 			aClass158_3386 = null;
 		}
 		anInt3393 = -1;
@@ -75,7 +75,7 @@ public class Class266
 	}
 	
 	final void method3235(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			method3235(false);
 		}
 		if (aBufferedConnection3389 != null) {
@@ -99,7 +99,7 @@ public class Class266
 			}
 		}
 		anInt3374++;
-		if (i != 0) {
+		if (0 != 0) {
 			aHashTable3380 = null;
 		}
 	}
@@ -115,7 +115,7 @@ public class Class266
 			anInt3390 += i;
 			if (anInt3390 > 30000) {
 				try {
-					aBufferedConnection3389.method430(b + 20622);
+					aBufferedConnection3389.method430((byte) 70 + 20622);
 				} catch (Exception exception) {
 					/* empty */
 				}
@@ -124,7 +124,7 @@ public class Class266
 		}
 		anInt3379++;
 		if (aBufferedConnection3389 == null) {
-			if (method3236(b ^ 0x46) != 0 || method3246((byte) 111) != 0) {
+			if (method3236((byte) 70 ^ 0x46) != 0 || method3246((byte) 111) != 0) {
 				return false;
 			}
 			return true;
@@ -132,7 +132,7 @@ public class Class266
 		try {
 			aBufferedConnection3389.method423(-1650936088);
 			CacheNode_Sub16_Sub1 cachenode_sub16_sub1 = (CacheNode_Sub16_Sub1) aClass158_3384.method1723(13);
-			if (b != 70) {
+			if ((byte) 70 != 70) {
 				aClass158_3386 = null;
 			}
 			for (/**/; cachenode_sub16_sub1 != null; cachenode_sub16_sub1 = (CacheNode_Sub16_Sub1) aClass158_3384.method1721(0)) {
@@ -142,7 +142,7 @@ public class Class266
 				aBufferedConnection3389.method429(0, 4, aBuffer3392.aByteArray7019, (byte) 78);
 				aClass158_3386.method1719(true, cachenode_sub16_sub1);
 			}
-			for (CacheNode_Sub16_Sub1 cachenode_sub16_sub1_0_ = (CacheNode_Sub16_Sub1) aClass158_3387.method1723(b ^ 0x4b); cachenode_sub16_sub1_0_ != null; cachenode_sub16_sub1_0_ = (CacheNode_Sub16_Sub1) aClass158_3387.method1721(0)) {
+			for (CacheNode_Sub16_Sub1 cachenode_sub16_sub1_0_ = (CacheNode_Sub16_Sub1) aClass158_3387.method1723((byte) 70 ^ 0x4b); cachenode_sub16_sub1_0_ != null; cachenode_sub16_sub1_0_ = (CacheNode_Sub16_Sub1) aClass158_3387.method1721(0)) {
 				aBuffer3392.anInt7002 = 0;
 				aBuffer3392.method2226(0, false);
 				aBuffer3392.method2225((byte) 99, (int) cachenode_sub16_sub1_0_.aLong7037);
@@ -249,7 +249,7 @@ public class Class266
 			return true;
 		} catch (IOException ioexception) {
 			try {
-				aBufferedConnection3389.method430(b + 20622);
+				aBufferedConnection3389.method430((byte) 70 + 20622);
 			} catch (Exception exception) {
 				/* empty */
 			}
@@ -278,7 +278,7 @@ public class Class266
 		anInt3378++;
 		if (aBufferedConnection3389 != null) {
 			try {
-				aBuffer3392.anInt7002 = i;
+				aBuffer3392.anInt7002 = 0;
 				aBuffer3392.method2226(bool ? 2 : 3, false);
 				aBuffer3392.method2225((byte) 85, 0);
 				aBufferedConnection3389.method429(0, 4, aBuffer3392.aByteArray7019, (byte) 78);
@@ -306,7 +306,7 @@ public class Class266
 			aBufferedConnection3389 = null;
 		}
 		aBufferedConnection3389 = bufferedconnection;
-		if (i >= -7) {
+		if (-118 >= -7) {
 			method3234((byte) -124);
 		}
 		method3234((byte) 0);
@@ -355,7 +355,7 @@ public class Class266
 			try {
 				aBuffer3392.anInt7002 = 0;
 				aBuffer3392.method2226(7, false);
-				if (i >= -104) {
+				if (-110 >= -104) {
 					method3244(-53);
 				}
 				aBuffer3392.method2225((byte) 65, 0);
@@ -414,7 +414,7 @@ public class Class266
 	}
 	
 	final void method3245(int i) {
-		if (i != -2) {
+		if (-2 != -2) {
 			anInt3394 = 79;
 		}
 		if (aBufferedConnection3389 != null) {
@@ -433,7 +433,7 @@ public class Class266
 	
 	final CacheNode_Sub16_Sub1 method3247(int i, int i_17_, byte b, boolean bool, byte b_18_) {
 		anInt3372++;
-		if (b != -79) {
+		if ((byte) -79 != -79) {
 			method3236(-28);
 		}
 		long l = (long) ((i << 16) + i_17_);

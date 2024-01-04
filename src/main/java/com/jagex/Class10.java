@@ -16,10 +16,10 @@ abstract class Class10
 	
 	static final int method187(String string, int i, boolean bool) {
 		anInt171++;
-		if (bool != true) {
+		if (true != true) {
 			aGLSprite173 = null;
 		}
-		return Class145.method1638(21642, string, i, true);
+		return Class145.method1638(21642, string, 16, true);
 	}
 	
 	static final int method188(byte b, int i, int i_0_, byte[] bs) {
@@ -35,7 +35,7 @@ abstract class Class10
 	}
 	
 	static final void method189(Buffer buffer, int i) {
-		if (i < 1) {
+		if (101 < 1) {
 			method188((byte) -113, -117, 99, null);
 		}
 		anInt168++;
@@ -59,7 +59,7 @@ abstract class Class10
 		aClass192_175 = null;
 		aGLSprite173 = null;
 		aClass124_169 = null;
-		int i_5_ = -77 / ((i - 57) / 58);
+		int i_5_ = -77 / ((119 - 57) / 58);
 	}
 	
 	public Class10() {

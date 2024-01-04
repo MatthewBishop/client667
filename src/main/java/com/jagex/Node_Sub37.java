@@ -38,7 +38,7 @@ public class Node_Sub37 extends Node
 	
 	public static void method2773(boolean bool) {
 		aClass192_7438 = null;
-		if (bool != false) {
+		if (false != false) {
 			aFloat7446 = -0.3831248F;
 		}
 		aClass257_7443 = null;

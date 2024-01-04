@@ -20,7 +20,7 @@ public class Class116 implements Interface7
 	
 	public static void method1162(int i) {
 		aClass318_5073 = null;
-		if (i >= 44) {
+		if (103 >= 44) {
 			aClass94_5075 = null;
 		}
 	}
@@ -29,7 +29,7 @@ public class Class116 implements Interface7
 		GameStub.anInt49 = (int) (34.46 * (double) Node_Sub54.anInt7675);
 		Class22.anInt430 = 200;
 		anInt5077++;
-		GameStub.anInt49 <<= i;
+		GameStub.anInt49 <<= 2;
 		if (Class93.aGraphicsToolkit1241.p()) {
 			GameStub.anInt49 += 512;
 		}

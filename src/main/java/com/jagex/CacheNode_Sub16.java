@@ -13,7 +13,7 @@ abstract class CacheNode_Sub16 extends CacheNode
 	public static void method2384(byte b) {
 		anApplet9601 = null;
 		aClass318_9599 = null;
-		if (b == 63) {
+		if ((byte) 63 == 63) {
 			aClass312_9600 = null;
 		}
 	}

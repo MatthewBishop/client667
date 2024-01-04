@@ -16,7 +16,7 @@ public class Node_Sub20 extends Node
 		if (!Class352.method4012(80)) {
 			throw new RuntimeException("");
 		}
-		if (!Node_Sub38_Sub2.method2793(i_0_, "jaggl")) {
+		if (!Node_Sub38_Sub2.method2793(1, "jaggl")) {
 			throw new RuntimeException("");
 		}
 		OpenGL opengl = new OpenGL();
@@ -25,7 +25,7 @@ public class Node_Sub20 extends Node
 			throw new RuntimeException("");
 		}
 		GLXToolkit glxtoolkit = new GLXToolkit(opengl, canvas, l, var_d, class302, i);
-		glxtoolkit.method1358(i_0_ ^ 0x43);
+		glxtoolkit.method1358(1 ^ 0x43);
 		return glxtoolkit;
 	}
 	
@@ -112,7 +112,7 @@ public class Node_Sub20 extends Node
 				actor.anInt10904--;
 			} else {
 				int i_5_ = 16;
-				boolean bool_6_ = bool;
+				boolean bool_6_ = true;
 				if (actor instanceof Npc) {
 					bool_6_ = ((Npc) actor).aNpcDefinition11122.aBoolean2817;
 				}
@@ -277,7 +277,7 @@ public class Node_Sub20 extends Node
 	
 	public static void method2616(int i) {
 		aClass151_7178 = null;
-		if (i == 0) {
+		if (0 == 0) {
 			aShortArray7175 = null;
 		}
 	}

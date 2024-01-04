@@ -23,7 +23,7 @@ public class Node_Sub35 extends Node
 	
 	final boolean method2744(byte b) {
 		anInt7416++;
-		if (b < 70) {
+		if ((byte) 119 < 70) {
 			return true;
 		}
 		if ((0x1 & anInt7418 >> 22) == 0) {
@@ -33,7 +33,7 @@ public class Node_Sub35 extends Node
 	}
 	
 	final int method2745(int i) {
-		if (i > -70) {
+		if (-121 > -70) {
 			aClass192_7420 = null;
 		}
 		anInt7414++;
@@ -41,7 +41,7 @@ public class Node_Sub35 extends Node
 	}
 	
 	final boolean method2746(int i) {
-		if (i != 9336) {
+		if (9336 != 9336) {
 			method2743(115);
 		}
 		anInt7419++;
@@ -52,7 +52,7 @@ public class Node_Sub35 extends Node
 	}
 	
 	final boolean method2747(int i) {
-		if (i != 1) {
+		if (1 != 1) {
 			anInt7418 = -80;
 		}
 		anInt7412++;

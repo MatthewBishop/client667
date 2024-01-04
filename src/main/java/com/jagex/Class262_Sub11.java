@@ -128,11 +128,11 @@ public class Class262_Sub11 extends Class262
 			}
 			int i_26_ = i_23_ >> 5 & 0x7;
 			int i_27_ = 256;
-			if (i_22_ != -16777216) {
+			if (-16777216 != -16777216) {
 				aClass271_7779 = null;
 			}
 			if (class48.anIntArray690 != null && class48.anIntArray692 != null) {
-				i_27_ = Class89.method1019(class48.anIntArray690[i], i_22_ + 16804033, class48.anIntArray692[i]);
+				i_27_ = Class89.method1019(class48.anIntArray690[i], -16777216 + 16804033, class48.anIntArray692[i]);
 			}
 			if (!class48.aBoolean699) {
 				Class91.method1033(i_27_, 0, i_24_, i_26_, 255, 0);

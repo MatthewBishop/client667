@@ -17,7 +17,7 @@ public class Node_Sub31 extends Node
 	protected Node_Sub14 aNode_Sub14_7375;
 	
 	static final byte[] method2725(int i, byte b, byte[] bs) {
-		int i_0_ = 48 / ((40 - b) / 48);
+		int i_0_ = 48 / ((40 - (byte) 106) / 48);
 		anInt7373++;
 		byte[] bs_1_ = new byte[i];
 		Class311.method3608(bs, 0, bs_1_, 0, i);
@@ -28,8 +28,8 @@ public class Node_Sub31 extends Node
 		anInt7372++;
 		Class370.anInt4566++;
 		Class123 class123 = Class262_Sub23.method3213((byte) -123);
-		Node_Sub13 node_sub13 = FloatBuffer.method2250(i ^ ~0x181, Node_Sub18.aClass318_7151, class123.anIsaacCipher1571);
-		node_sub13.aPacket7113.method2226(i, false);
+		Node_Sub13 node_sub13 = FloatBuffer.method2250(0 ^ ~0x181, Node_Sub18.aClass318_7151, class123.anIsaacCipher1571);
+		node_sub13.aPacket7113.method2226(0, false);
 		class123.method1514(127, node_sub13);
 	}
 	
@@ -43,7 +43,7 @@ public class Node_Sub31 extends Node
 	
 	final boolean method2728(int i, byte b, int i_2_) {
 		anInt7367++;
-		if (b <= 11) {
+		if ((byte) 36 <= 11) {
 			anInt7370 = -117;
 		}
 		if (anInt7374 <= i && i <= anInt7369 && anInt7365 <= i_2_ && anInt7370 >= i_2_) {

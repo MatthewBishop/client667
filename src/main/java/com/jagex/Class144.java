@@ -17,7 +17,7 @@ abstract class Class144
 	
 	public static void method1627(boolean bool) {
 		aByteArrayArray1782 = null;
-		if (bool != false) {
+		if (false != false) {
 			aClass192_1786 = null;
 		}
 		aClass192_1790 = null;
@@ -29,13 +29,13 @@ abstract class Class144
 		Node_Sub38_Sub7.anInt10153 = Class61.anInt898 = -1;
 		anInt1783++;
 		Animable_Sub2.method837((byte) -97, 0);
-		for (int i_2_ = i; i_2_ < 4; i_2_++) {
+		for (int i_2_ = 0; i_2_ < 4; i_2_++) {
 			for (int i_3_ = 0; i_3_ < Node_Sub54.anInt7675 >> 3; i_3_++) {
 				for (int i_4_ = 0; Class377_Sub1.anInt8774 >> 3 > i_4_; i_4_++)
 					Class330.anIntArrayArrayArray4128[i_2_][i_3_][i_4_] = -1;
 			}
 		}
-		for (Node_Sub28 node_sub28 = (Node_Sub28) Class320_Sub16.aClass312_8358.method3613(65280); node_sub28 != null; node_sub28 = (Node_Sub28) Class320_Sub16.aClass312_8358.method3620(i + 16776960)) {
+		for (Node_Sub28 node_sub28 = (Node_Sub28) Class320_Sub16.aClass312_8358.method3613(65280); node_sub28 != null; node_sub28 = (Node_Sub28) Class320_Sub16.aClass312_8358.method3620(0 + 16776960)) {
 			int i_5_ = node_sub28.anInt7323;
 			boolean bool = (i_5_ & 0x1) == 1;
 			int i_6_ = node_sub28.anInt7325 >> 3;

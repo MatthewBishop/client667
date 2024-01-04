@@ -97,14 +97,14 @@ class Buffer extends Node
 	}
 	
 	final void method2178(int i, boolean bool) {
-		if (bool == true) {
+		if (true == true) {
 			aByteArray7019[anInt7002++] = (byte) -i;
 			anInt6973++;
 		}
 	}
 	
 	final void method2179(byte b, int i) {
-		if (b != -5) {
+		if ((byte) -5 != -5) {
 			aByteArray7019 = null;
 		}
 		aByteArray7019[anInt7002++] = (byte) (i >> 24);
@@ -144,10 +144,10 @@ class Buffer extends Node
 		anInt6964++;
 		int i = 0;
 		int i_6_;
-		for (i_6_ = method2227(bool); i_6_ == 32767; i_6_ = method2227(true))
+		for (i_6_ = method2227(true); i_6_ == 32767; i_6_ = method2227(true))
 			i += 32767;
 		i += i_6_;
-		if (bool != true) {
+		if (true != true) {
 			aByteArray7019 = null;
 		}
 		return i;
@@ -179,7 +179,7 @@ class Buffer extends Node
 	
 	final byte method2185(boolean bool) {
 		anInt6994++;
-		if (bool != false) {
+		if (false != false) {
 			method2229((byte) -73);
 		}
 		return (byte) (128 + -aByteArray7019[anInt7002++]);
@@ -214,7 +214,7 @@ class Buffer extends Node
 	
 	final void method2189(int i, int i_9_) {
 		anInt6968++;
-		if (i_9_ != 32768) {
+		if (32768 != 32768) {
 			method2197(71);
 		}
 		if (i >= 0 && i < 128) {
@@ -227,7 +227,7 @@ class Buffer extends Node
 	}
 	
 	final int method2190(int i, boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			anInt7023 = -121;
 		}
 		anInt6979++;
@@ -285,7 +285,7 @@ class Buffer extends Node
 		anInt6988++;
 		aByteArray7019[anInt7002 + -i - 2] = (byte) (i >> 8);
 		aByteArray7019[-1 + (anInt7002 - i)] = (byte) i;
-		if (i_20_ != -2887) {
+		if (-2887 != -2887) {
 			method2240((byte) 8);
 		}
 	}
@@ -307,7 +307,7 @@ class Buffer extends Node
 	}
 	
 	final long method2196(byte b) {
-		if (b != -104) {
+		if ((byte) -104 != -104) {
 			return -23L;
 		}
 		anInt7003++;
@@ -341,7 +341,7 @@ class Buffer extends Node
 		aByteArray7019[anInt7002++] = (byte) i;
 		anInt7016++;
 		aByteArray7019[anInt7002++] = (byte) (i >> 8);
-		if (i_27_ != -1) {
+		if (-1 != -1) {
 			aClass192_7014 = null;
 		}
 	}
@@ -352,7 +352,7 @@ class Buffer extends Node
 		aByteArray7019[anInt7002++] = (byte) (int) (l >> 48);
 		aByteArray7019[anInt7002++] = (byte) (int) (l >> 40);
 		aByteArray7019[anInt7002++] = (byte) (int) (l >> 32);
-		if (i != 1817671800) {
+		if (1817671800 != 1817671800) {
 			method2211(-93);
 		}
 		aByteArray7019[anInt7002++] = (byte) (int) (l >> 24);
@@ -363,7 +363,7 @@ class Buffer extends Node
 	
 	final int method2201(boolean bool) {
 		anInt6965++;
-		if (bool != true) {
+		if (true != true) {
 			method2225((byte) -68, 84);
 		}
 		if (aByteArray7019[anInt7002] >= 0) {
@@ -377,7 +377,7 @@ class Buffer extends Node
 		if (aByteArray7019 != null) {
 			Class111.method1137(aByteArray7019, -251);
 		}
-		int i_28_ = -99 / ((60 - i) / 50);
+		int i_28_ = -99 / ((60 - -115) / 50);
 		aByteArray7019 = null;
 	}
 	
@@ -401,7 +401,7 @@ class Buffer extends Node
 			method2179((byte) -5, i_33_);
 			method2179((byte) -5, i_34_);
 		}
-		if (bool != false) {
+		if (false != false) {
 			method2238(true);
 		}
 		anInt7002 = i_30_;
@@ -413,7 +413,7 @@ class Buffer extends Node
 		aByteArray7019[-3 + (-i + anInt7002)] = (byte) (i >> 16);
 		aByteArray7019[anInt7002 - i + -2] = (byte) (i >> 8);
 		aByteArray7019[anInt7002 + -i - 1] = (byte) i;
-		if (b < 126) {
+		if ((byte) 127 < 126) {
 			method2205(-97, null, null);
 		}
 	}
@@ -433,7 +433,7 @@ class Buffer extends Node
 	final void method2206(byte b, int i, long l) {
 		i--;
 		anInt7010++;
-		if (b <= 112) {
+		if ((byte) 126 <= 112) {
 			aByteArray7019 = null;
 		}
 		if (i < 0 || i > 7) {
@@ -445,7 +445,7 @@ class Buffer extends Node
 	
 	final void method2207(int i, int i_41_) {
 		aByteArray7019[anInt7002++] = (byte) (i_41_ - -128);
-		if (i != 21226) {
+		if (21226 != 21226) {
 			anInt7002 = 72;
 		}
 		anInt6991++;
@@ -455,7 +455,7 @@ class Buffer extends Node
 	final int method2208(boolean bool) {
 		anInt7024++;
 		anInt7002 += 4;
-		if (bool != true) {
+		if (true != true) {
 			anInt7002 = -26;
 		}
 		return (aByteArray7019[anInt7002 + -4] << 16 & 0xff0000) + (((aByteArray7019[anInt7002 + -3] & 0xff) << 24) - -((0xff & aByteArray7019[anInt7002 + -1]) << 8)) - -(aByteArray7019[anInt7002 - 2] & 0xff);
@@ -488,7 +488,7 @@ class Buffer extends Node
 	final int method2212(int i) {
 		anInt7018++;
 		anInt7002 += 2;
-		int i_43_ = (aByteArray7019[anInt7002 + -1] << 8 & 0xff00) + (0xff & aByteArray7019[-2 + anInt7002] + i);
+		int i_43_ = (aByteArray7019[anInt7002 + -1] << 8 & 0xff00) + (0xff & aByteArray7019[-2 + anInt7002] + -128);
 		if (i_43_ > 32767) {
 			i_43_ -= 65536;
 		}
@@ -510,7 +510,7 @@ class Buffer extends Node
 	}
 	
 	final void method2215(int i, int i_44_) {
-		if (i == 792958640) {
+		if (792958640 == 792958640) {
 			aByteArray7019[anInt7002++] = (byte) i_44_;
 			anInt6978++;
 			aByteArray7019[anInt7002++] = (byte) (i_44_ >> 8);
@@ -522,7 +522,7 @@ class Buffer extends Node
 	final boolean method2216(int i) {
 		anInt6995++;
 		anInt7002 -= 4;
-		int i_45_ = Class10.method188((byte) -58, anInt7002, i, aByteArray7019);
+		int i_45_ = Class10.method188((byte) -58, anInt7002, 0, aByteArray7019);
 		int i_46_ = method2186(-56);
 		if (i_45_ == i_46_) {
 			return true;
@@ -533,7 +533,7 @@ class Buffer extends Node
 	final void method2217(int i, byte b) {
 		anInt7017++;
 		aByteArray7019[anInt7002 - (i + 1)] = (byte) i;
-		if (b != -128) {
+		if ((byte) -128 != -128) {
 			method2181(43, 11, null, 99);
 		}
 	}
@@ -568,7 +568,7 @@ class Buffer extends Node
 	}
 	
 	final void method2221(int i, byte b) {
-		if (b == 127) {
+		if ((byte) 127 == 127) {
 			anInt6972++;
 			aByteArray7019[anInt7002++] = (byte) (i + 128);
 		}
@@ -579,7 +579,7 @@ class Buffer extends Node
 		int i_50_ = anInt7002;
 		anInt7002 = 0;
 		byte[] bs = new byte[i_50_];
-		method2181(i, i_50_, bs, -19417);
+		method2181(0, i_50_, bs, -19417);
 		BigInteger biginteger_51_ = new BigInteger(bs);
 		BigInteger biginteger_52_ = biginteger_51_.modPow(biginteger_49_, biginteger);
 		byte[] bs_53_ = biginteger_52_.toByteArray();
@@ -618,14 +618,14 @@ class Buffer extends Node
 	final void method2226(int i, boolean bool) {
 		anInt6969++;
 		aByteArray7019[anInt7002++] = (byte) i;
-		if (bool != false) {
+		if (false != false) {
 			method2240((byte) -31);
 		}
 	}
 	
 	final int method2227(boolean bool) {
 		anInt7007++;
-		if (bool != true) {
+		if (true != true) {
 			method2214((byte) 19);
 		}
 		int i = aByteArray7019[anInt7002] & 0xff;
@@ -662,19 +662,19 @@ class Buffer extends Node
 	final void method2230(int i, int i_58_) {
 		anInt6989++;
 		aByteArray7019[anInt7002++] = (byte) (i >> 8);
-		aByteArray7019[anInt7002++] = (byte) (i_58_ + i);
+		aByteArray7019[anInt7002++] = (byte) (128 + i);
 	}
 	
 	final void method2231(int i, int[] is, int i_59_, int i_60_) {
 		anInt6970++;
 		int i_61_ = anInt7002;
-		anInt7002 = i;
-		int i_62_ = (-i + i_59_) / 8;
-		if (i_60_ != -4901) {
+		anInt7002 = 5;
+		int i_62_ = (-5 + i_59_) / 8;
+		if (-4901 != -4901) {
 			method2246(-11);
 		}
 		for (int i_63_ = 0; i_62_ > i_63_; i_63_++) {
-			int i_64_ = method2186(i_60_ + 4968);
+			int i_64_ = method2186(-4901 + 4968);
 			int i_65_ = method2186(-62);
 			int i_66_ = -957401312;
 			int i_67_ = -1640531527;
@@ -706,7 +706,7 @@ class Buffer extends Node
 		}
 		anInt7022++;
 		method2226(0x7f & i_69_, false);
-		if (i != 65280) {
+		if (65280 != 65280) {
 			method2235(21);
 		}
 	}
@@ -721,7 +721,7 @@ class Buffer extends Node
 	
 	public static void method2234(boolean bool) {
 		aClass192_7014 = null;
-		if (bool != true) {
+		if (true != true) {
 			method2205(-95, null, null);
 		}
 	}
@@ -738,7 +738,7 @@ class Buffer extends Node
 	
 	final byte method2236(int i) {
 		anInt6974++;
-		if (i != -735307888) {
+		if (-735307888 != -735307888) {
 			aClass192_7014 = null;
 		}
 		return (byte) -aByteArray7019[anInt7002++];
@@ -756,7 +756,7 @@ class Buffer extends Node
 	}
 	
 	final int method2238(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			method2183(true);
 		}
 		anInt6992++;
@@ -766,7 +766,7 @@ class Buffer extends Node
 	final int method2239(int i) {
 		anInt6962++;
 		int i_72_ = aByteArray7019[anInt7002++];
-		int i_73_ = i;
+		int i_73_ = 0;
 		for (/**/; i_72_ < 0; i_72_ = aByteArray7019[anInt7002++])
 			i_73_ = (i_73_ | 0x7f & i_72_) << 7;
 		return i_72_ | i_73_;
@@ -801,14 +801,14 @@ class Buffer extends Node
 	
 	final byte method2242(byte b) {
 		anInt6952++;
-		if (b != -12) {
+		if ((byte) -12 != -12) {
 			method2177(35);
 		}
 		return (byte) (aByteArray7019[anInt7002++] - 128);
 	}
 	
 	final int method2243(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			return 0;
 		}
 		anInt6956++;
@@ -821,7 +821,7 @@ class Buffer extends Node
 		if (--i < 0 || i > 7) {
 			throw new IllegalArgumentException();
 		}
-		int i_76_ = i * i_75_;
+		int i_76_ = i * 8;
 		long l = 0L;
 		for (/**/; i_76_ >= 0; i_76_ -= 8)
 			l |= (0xffL & (long) aByteArray7019[anInt7002++]) << i_76_;
@@ -836,7 +836,7 @@ class Buffer extends Node
 	final void method2245(int i, int i_77_) {
 		aByteArray7019[anInt7002++] = (byte) (-i_77_ + 128);
 		anInt6954++;
-		if (i != -3528) {
+		if (-3528 != -3528) {
 			method2193(-49);
 		}
 	}

@@ -112,9 +112,9 @@ public class Class74
 				is_22_[i_23_] = anIntArray997[i_23_];
 			anIntArray997 = is_22_;
 		}
-		i_20_ += i;
+		i_20_ += 0;
 		int i_24_ = i_20_ - 2;
-		for (int i_25_ = i; i_25_ < i_20_; i_25_ += 2) {
+		for (int i_25_ = 0; i_25_ < i_20_; i_25_ += 2) {
 			int i_26_ = is[i_24_ + 1];
 			int i_27_ = is[i_25_ + 1];
 			if (i_26_ < i_27_) {
@@ -163,7 +163,7 @@ public class Class74
 			throw new IllegalStateException();
 		}
 		method753();
-		method758(is, i, i_32_);
+		method758(is, 0, i_32_);
 		method762(is_36_[1]);
 		while (method754(is_36_[3])) {
 			int i_37_ = anInt996;

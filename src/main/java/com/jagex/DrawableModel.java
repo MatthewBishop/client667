@@ -66,7 +66,7 @@ abstract class DrawableModel
 			}
 		}
 		anInt919++;
-		if (bool_8_ == false) {
+		if (false == false) {
 			if (i_6_ != 65535) {
 				I(i_5_, is, i_10_, i_11_, i, bool, i_6_, is_7_);
 			} else {
@@ -116,7 +116,7 @@ abstract class DrawableModel
 					method637(0, new int[0], 0, 0, 0, 0, bool);
 					method635(class222_32_, bools, i, true, (byte) 116, null, 0, i_26_, class222_31_, class222_31_.aNode_Sub40_2634, 65535, bool);
 					wa();
-					if (i_21_ >= -7) {
+					if (-65 >= -7) {
 						aBoolean913 = false;
 					}
 					method632();
@@ -129,7 +129,7 @@ abstract class DrawableModel
 	
 	static final void method616(int i, int i_33_, int i_34_, int i_35_, int i_36_, int i_37_, int i_38_, int i_39_, int i_40_, int i_41_) {
 		anInt908++;
-		if (i_34_ > -52) {
+		if (-102 > -52) {
 			aStringArray911 = null;
 		}
 		if (i >= Class262_Sub4.anInt7722 && i <= za_Sub2.anInt10513 && i_41_ >= Class262_Sub4.anInt7722 && za_Sub2.anInt10513 >= i_41_ && i_37_ >= Class262_Sub4.anInt7722 && za_Sub2.anInt10513 >= i_37_ && Class262_Sub4.anInt7722 <= i_40_ && i_40_ <= za_Sub2.anInt10513 && Class384.anInt4906 <= i_39_ && i_39_ <= Node_Sub25_Sub1.anInt9936 && Class384.anInt4906 <= i_33_ && i_33_ <= Node_Sub25_Sub1.anInt9936 && i_35_ >= Class384.anInt4906 && Node_Sub25_Sub1.anInt9936 >= i_35_ && Class384.anInt4906 <= i_38_ && Node_Sub25_Sub1.anInt9936 >= i_38_) {
@@ -160,7 +160,7 @@ abstract class DrawableModel
 	public static void method623(int i) {
 		aFrame907 = null;
 		aStringArray911 = null;
-		if (i != -3581) {
+		if (-3581 != -3581) {
 			aBoolean913 = true;
 		}
 	}
@@ -218,7 +218,7 @@ abstract class DrawableModel
 	final void method628(int i, int i_66_, int i_67_, int i_68_, int i_69_, int i_70_, int i_71_, Plane plane, int i_72_) {
 		anInt916++;
 		boolean bool = false;
-		if (i_68_ != -7024) {
+		if (-7024 != -7024) {
 			aBoolean914 = true;
 		}
 		boolean bool_73_ = false;
@@ -228,10 +228,10 @@ abstract class DrawableModel
 		int i_77_ = plane.method3260(i_76_ + i_70_, -124, i_67_ - -i_75_);
 		int i_78_ = i_69_ / 2;
 		int i_79_ = -i_71_ / 2;
-		int i_80_ = plane.method3260(i_79_ + i_70_, i_68_ + 6908, i_67_ + i_78_);
+		int i_80_ = plane.method3260(i_79_ + i_70_, -7024 + 6908, i_67_ + i_78_);
 		int i_81_ = -i_69_ / 2;
 		int i_82_ = i_71_ / 2;
-		int i_83_ = plane.method3260(i_82_ + i_70_, i_68_ ^ 0x1b1e, i_81_ + i_67_);
+		int i_83_ = plane.method3260(i_82_ + i_70_, -7024 ^ 0x1b1e, i_81_ + i_67_);
 		int i_84_ = i_69_ / 2;
 		int i_85_ = i_71_ / 2;
 		int i_86_ = plane.method3260(i_85_ + i_70_, -121, i_67_ - -i_84_);
@@ -331,7 +331,7 @@ abstract class DrawableModel
 			if (!NA()) {
 				method632();
 			} else {
-				if (b != -83) {
+				if ((byte) -83 != -83) {
 					method617();
 				}
 				Class222 class222 = cachenode_sub15.aClass222Array9595[i_101_];
@@ -343,7 +343,7 @@ abstract class DrawableModel
 						class222_106_ = null;
 					}
 				}
-				method635(class222_106_, null, i, false, (byte) 84, is, i_102_, i_103_, class222, node_sub40, i_105_, bool);
+				method635(class222_106_, null, i, false, (byte) 84, null, 0, i_103_, class222, node_sub40, i_105_, bool);
 				wa();
 				method632();
 			}
@@ -358,9 +358,9 @@ abstract class DrawableModel
 				if (bools == null || !bool != bools[s] || node_sub40.anIntArray7511[s] == 0) {
 					short s_113_ = class222_109_.aShortArray2635[i_112_];
 					if (s_113_ != -1) {
-						method613(0, 0, i_110_ & node_sub40.anIntArray7510[s_113_], node_sub40.anIntArrayArray7499[s_113_], is, bool_111_, false, i_107_, 0, 0);
+						method613(0, 0, i_110_ & node_sub40.anIntArray7510[s_113_], node_sub40.anIntArrayArray7499[s_113_], null, bool_111_, false, i_107_, 0, 0);
 					}
-					method613(class222_109_.aShortArray2643[i_112_], node_sub40.anIntArray7511[s], i_110_ & node_sub40.anIntArray7510[s], node_sub40.anIntArrayArray7499[s], is, bool_111_, false, i_107_, class222_109_.aShortArray2648[i_112_], class222_109_.aShortArray2649[i_112_]);
+					method613(class222_109_.aShortArray2643[i_112_], node_sub40.anIntArray7511[s], i_110_ & node_sub40.anIntArray7510[s], node_sub40.anIntArrayArray7499[s], null, bool_111_, false, i_107_, class222_109_.aShortArray2648[i_112_], class222_109_.aShortArray2649[i_112_]);
 				}
 			}
 		} else {
@@ -430,10 +430,10 @@ abstract class DrawableModel
 							}
 							if (s == -1) {
 								if (s_128_ != -1) {
-									method613(0, 0, i_110_ & node_sub40.anIntArray7510[s_128_], node_sub40.anIntArrayArray7499[s_128_], is, bool_111_, false, i_107_, 0, 0);
+									method613(0, 0, i_110_ & node_sub40.anIntArray7510[s_128_], node_sub40.anIntArrayArray7499[s_128_], null, bool_111_, false, i_107_, 0, 0);
 								}
 							} else {
-								method613(0, 0, i_110_ & node_sub40.anIntArray7510[s], node_sub40.anIntArrayArray7499[s], is, bool_111_, false, i_107_, 0, 0);
+								method613(0, 0, i_110_ & node_sub40.anIntArray7510[s], node_sub40.anIntArrayArray7499[s], null, bool_111_, false, i_107_, 0, 0);
 							}
 							int i_130_;
 							int i_131_;
@@ -482,7 +482,7 @@ abstract class DrawableModel
 								i_131_ = i_123_;
 								i_132_ = i_122_;
 							}
-							method613(i_132_, i_120_, node_sub40.anIntArray7510[i_116_] & i_110_, node_sub40.anIntArrayArray7499[i_116_], is, bool_111_, false, i_107_, i_131_, i_130_);
+							method613(i_132_, i_120_, node_sub40.anIntArray7510[i_116_] & i_110_, node_sub40.anIntArrayArray7499[i_116_], null, bool_111_, false, i_107_, i_131_, i_130_);
 						}
 					}
 				}
@@ -509,7 +509,7 @@ abstract class DrawableModel
 	abstract void method637(int i, int[] is, int i_145_, int i_146_, int i_147_, int i_148_, boolean bool);
 	
 	static final void method638(int i, String[] strings, int[] is, int i_149_, int i_150_) {
-		if (i != -20788) {
+		if (-20788 != -20788) {
 			aFrame907 = null;
 		}
 		if (i_150_ < i_149_) {

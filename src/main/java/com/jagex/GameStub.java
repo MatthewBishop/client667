@@ -84,7 +84,7 @@ public abstract class GameStub extends Applet implements Runnable, FocusListener
 	static final void method83(byte b, int i) {
 		anInt12++;
 		CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(3, 9, (long) i);
-		if (b > -43) {
+		if ((byte) -106 > -43) {
 			method101(-74);
 		}
 		cachenode_sub2.method2291((byte) 121);
@@ -147,7 +147,7 @@ public abstract class GameStub extends Applet implements Runnable, FocusListener
 	abstract void method85(int i);
 	
 	final boolean method86(int i) {
-		if (i != 7834) {
+		if (7834 != 7834) {
 			anInt49 = 53;
 		}
 		anInt22++;
@@ -162,22 +162,22 @@ public abstract class GameStub extends Applet implements Runnable, FocusListener
 		anInt20++;
 		try {
 			CacheNode_Sub16.anApplet9601 = null;
-			Class320_Sub14.anInt8347 = i_0_;
-			Class36.anInt542 = Class360.anInt4480 = i_3_;
+			Class320_Sub14.anInt8347 = 667;
+			Class36.anInt542 = Class360.anInt4480 = 1024;
 			Class131.anInt5447 = 0;
 			Class270_Sub1.anInt8033 = 0;
-			CacheNode_Sub3.anInt9441 = Class205.anInt5115 = i_2_;
+			CacheNode_Sub3.anInt9441 = Class205.anInt5115 = 768;
 			Class82.aGameStub1123 = this;
 			Node_Sub29.aFrame7344 = new Frame();
 			Node_Sub29.aFrame7344.setTitle("Jagex");
 			Node_Sub29.aFrame7344.setResizable(true);
-			int i_4_ = -42 / ((b - -60) / 35);
+			int i_4_ = -42 / (((byte) 127 - -60) / 35);
 			Node_Sub29.aFrame7344.addWindowListener(this);
 			Node_Sub29.aFrame7344.setVisible(true);
 			Node_Sub29.aFrame7344.toFront();
 			Insets insets = Node_Sub29.aFrame7344.getInsets();
 			Node_Sub29.aFrame7344.setSize(Class36.anInt542 - -insets.left - -insets.right, insets.bottom + insets.top + CacheNode_Sub3.anInt9441);
-			Class152.aSignLink1940 = Class240.aSignLink2946 = new SignLink(i_1_, string, i, true);
+			Class152.aSignLink1940 = Class240.aSignLink2946 = new SignLink(i_1_, string, 37, true);
 			Class241 class241 = Class240.aSignLink2946.method3641((byte) 50, this, 1);
 			while (class241.anInt2953 == 0)
 				Class262_Sub22.method3208(10L, false);
@@ -236,7 +236,7 @@ public abstract class GameStub extends Applet implements Runnable, FocusListener
 			do {
 				try {
 					getAppletContext().showDocument(new URL(getCodeBase(), "error_game_" + string + ".ws"), "_top");
-					if (b == 39) {
+					if ((byte) 39 == 39) {
 						break;
 					}
 					aClass94_11 = null;
@@ -255,7 +255,7 @@ public abstract class GameStub extends Applet implements Runnable, FocusListener
 	private final void method91(int i) {
 		anInt43++;
 		long l = Class313.method3650(false);
-		if (i >= -59) {
+		if (-74 >= -59) {
 			aFloatArray42 = null;
 		}
 		long l_5_ = Class253.aLongArray3193[Class376.anInt4662];
@@ -297,13 +297,13 @@ public abstract class GameStub extends Applet implements Runnable, FocusListener
 			} else {
 				CacheNode_Sub16.anApplet9601 = Class96.anApplet1270;
 				Class36.anInt542 = Class360.anInt4480 = i_8_;
-				Class320_Sub14.anInt8347 = i_7_;
+				Class320_Sub14.anInt8347 = 667;
 				Class270_Sub1.anInt8033 = 0;
 				CacheNode_Sub3.anInt9441 = Class205.anInt5115 = i_11_;
 				Class131.anInt5447 = 0;
 				Class82.aGameStub1123 = this;
-				int i_12_ = 3 % ((52 - i) / 57);
-				Class152.aSignLink1940 = Class240.aSignLink2946 = new SignLink(i_9_, string, i_10_, Class96.anApplet1270 != null);
+				int i_12_ = 3 % ((52 - -102) / 57);
+				Class152.aSignLink1940 = Class240.aSignLink2946 = new SignLink(i_9_, string, 37, Class96.anApplet1270 != null);
 				Class241 class241 = Class240.aSignLink2946.method3641((byte) 50, this, 1);
 				while (class241.anInt2953 == 0)
 					Class262_Sub22.method3208(10L, false);
@@ -464,13 +464,13 @@ public abstract class GameStub extends Applet implements Runnable, FocusListener
 		aFloatArray42 = null;
 		anIntArray44 = null;
 		aClass94_11 = null;
-		if (b > -68) {
+		if ((byte) -99 > -68) {
 			method101(54);
 		}
 	}
 	
 	final boolean method95(byte b) {
-		if (b != -45) {
+		if ((byte) -45 != -45) {
 			return true;
 		}
 		anInt36++;
@@ -500,11 +500,11 @@ public abstract class GameStub extends Applet implements Runnable, FocusListener
 	}
 	
 	final boolean method96(byte b) {
-		if (b != -35) {
+		if ((byte) -35 != -35) {
 			return false;
 		}
 		anInt30++;
-		return Node_Sub38_Sub2.method2793(b ^ ~0x23, "jaclib");
+		return Node_Sub38_Sub2.method2793((byte) -35 ^ ~0x23, "jaclib");
 	}
 	
 	abstract void method97(int i);
@@ -519,7 +519,7 @@ public abstract class GameStub extends Applet implements Runnable, FocusListener
 		}
 		Class209.anInt2491 = 0x1f & 1 + Class209.anInt2491;
 		synchronized (this) {
-			if (i != -15337) {
+			if (-15337 != -15337) {
 				aClass94_11 = null;
 			}
 			Class51.aBoolean5331 = Class114.aBoolean1458;
@@ -561,7 +561,7 @@ public abstract class GameStub extends Applet implements Runnable, FocusListener
 	
 	String method100(int i) {
 		anInt17++;
-		if (i != 10) {
+		if (10 != 10) {
 			init();
 		}
 		return null;
@@ -607,7 +607,7 @@ public abstract class GameStub extends Applet implements Runnable, FocusListener
 	
 	final boolean method103(int i) {
 		anInt24++;
-		if (i != -31930) {
+		if (-31930 != -31930) {
 			method84(-92, false);
 		}
 		return Node_Sub38_Sub2.method2793(1, "jagtheora");

@@ -42,7 +42,7 @@ public class Class144_Sub2 extends Class144
 	
 	static final boolean method1634(int i, int i_9_, boolean bool) {
 		anInt6814++;
-		if (bool != false) {
+		if (false != false) {
 			method1633(-109, 100);
 		}
 		if ((0x10 & i_9_) == 0) {

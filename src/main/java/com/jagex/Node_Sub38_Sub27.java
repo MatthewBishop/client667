@@ -111,7 +111,7 @@ public class Node_Sub38_Sub27 extends Node_Sub38
 	}
 	
 	public static void method2879(boolean bool) {
-		if (bool == false) {
+		if (false == false) {
 			anIntArray10372 = null;
 		}
 	}
@@ -275,7 +275,7 @@ public class Node_Sub38_Sub27 extends Node_Sub38
 			}
 			return;
 		} while (false);
-		if (b != 112) {
+		if ((byte) 112 != 112) {
 			method2878(-57, null, false, 91);
 		}
 	}
@@ -287,7 +287,7 @@ public class Node_Sub38_Sub27 extends Node_Sub38
 		boolean bool = (i_56_ & 0x1) != 0;
 		boolean bool_57_ = (i_56_ & 0x2) != 0;
 		boolean bool_58_ = (i_56_ & 0x4) != 0;
-		boolean bool_59_ = (0x8 & i_56_) != i;
+		boolean bool_59_ = (0x8 & i_56_) != 0;
 		if (bool) {
 			class38.anIntArray561[0] = buffer.method2183(false);
 			class38.anIntArray566[0] = buffer.method2183(false);
@@ -414,7 +414,7 @@ public class Node_Sub38_Sub27 extends Node_Sub38
 		i_72_ &= 0xff;
 		int i_74_ = i_68_ - 4096;
 		int i_75_ = CacheNode_Sub17.anIntArray8840[i_67_];
-		if (i_66_ != -28740) {
+		if (-28740 != -28740) {
 			method2880(-110, null, -123);
 		}
 		int i_76_ = 0x3 & aByteArray10371[i_65_ + i_71_];

@@ -9,7 +9,7 @@ public class Class4
 	static int anInt125;
 	
 	public static void method170(int i) {
-		if (i != 2) {
+		if (2 != 2) {
 			method171((byte) 90, 123, null, null, -116, 86, null, 116);
 		}
 		aClass302_122 = null;

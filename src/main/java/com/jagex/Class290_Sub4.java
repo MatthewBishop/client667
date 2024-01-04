@@ -118,7 +118,7 @@ public class Class290_Sub4 extends Class290
 	}
 	
 	static final void method3430(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			method3432(103, -65, -36);
 		}
 		if (AnimableAnimator.aClass42_5498 != null) {
@@ -132,7 +132,7 @@ public class Class290_Sub4 extends Class290
 	
 	static final Class145 method3431(GLToolkit gltoolkit, int i, Class210[] class210s) {
 		anInt8099++;
-		for (int i_12_ = i; i_12_ < class210s.length; i_12_++) {
+		for (int i_12_ = 0; i_12_ < class210s.length; i_12_++) {
 			if (class210s[i_12_] == null || class210s[i_12_].aLong2500 <= 0L) {
 				return null;
 			}
@@ -237,7 +237,7 @@ public class Class290_Sub4 extends Class290
 	}
 	
 	public static void method3433(int i) {
-		if (i != 64) {
+		if (64 != 64) {
 			method3432(-10, -50, 16);
 		}
 		anIntArray8102 = null;

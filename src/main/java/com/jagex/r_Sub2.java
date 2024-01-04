@@ -361,7 +361,7 @@ public class r_Sub2 extends r
 	
 	final boolean method2373(int i, int i_18_, int i_19_) {
 		anInt11053++;
-		if (i_18_ != 0) {
+		if (0 != 0) {
 			return true;
 		}
 		if (aByteArray11058.length < i * i_19_) {
@@ -373,7 +373,7 @@ public class r_Sub2 extends r
 	final void method2374(int i) {
 		anInt11065++;
 		int i_20_ = -1;
-		int i_21_ = aByteArray11058.length + i;
+		int i_21_ = aByteArray11058.length + -8;
 		while (i_20_ < i_21_) {
 			aByteArray11058[++i_20_] = (byte) 0;
 			aByteArray11058[++i_20_] = (byte) 0;
@@ -391,12 +391,12 @@ public class r_Sub2 extends r
 	static final void method2375(boolean bool, byte b, Actor actor) {
 		anInt11059++;
 		int i = -1;
-		if (b != -49) {
+		if ((byte) -49 != -49) {
 			aClass192_11056 = null;
 		}
 		int i_22_ = 0;
 		if (Class174.anInt2092 < actor.anInt10892) {
-			Class238.method3020(b + 49, actor);
+			Class238.method3020((byte) -49 + 49, actor);
 		} else if (actor.anInt10887 < Class174.anInt2092) {
 			Node_Sub20.method2614(true, actor, bool);
 			i = Class275.anInt5412;
@@ -704,7 +704,7 @@ public class r_Sub2 extends r
 	public static void method2377(byte b) {
 		aClass192_11056 = null;
 		aClass253Array11063 = null;
-		if (b <= 55) {
+		if ((byte) 107 <= 55) {
 			anInt11054 = 2;
 		}
 	}

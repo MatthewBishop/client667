@@ -10,7 +10,7 @@ public class Class44
 	
 	public static void method460(int i) {
 		aClass119_670 = null;
-		if (i != 0) {
+		if (0 != 0) {
 			aClass270_669 = null;
 		}
 		aClass270_669 = null;
@@ -21,7 +21,7 @@ public class Class44
 	static final Class357 method461(int i, int i_0_, int i_1_, Class302 class302) {
 		anInt666++;
 		int i_2_ = -66 / ((i_0_ - 70) / 45);
-		byte[] bs = class302.method3524(false, i, i_1_);
+		byte[] bs = class302.method3524(false, 0, i_1_);
 		if (bs == null) {
 			return null;
 		}

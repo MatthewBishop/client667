@@ -59,7 +59,7 @@ public class CacheNode_Sub20_Sub1 extends CacheNode_Sub20
 	static final void method2413(boolean bool, int i, String string) {
 		anInt11088++;
 		CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(3, 2, (long) i);
-		if (bool != true) {
+		if (true != true) {
 			method2413(true, -71, null);
 		}
 		cachenode_sub2.method2288(0);

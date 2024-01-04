@@ -47,7 +47,7 @@ public class Class112
 		if (!bool != !aBoolean1431) {
 			aBoolean1431 = bool;
 			method1142(52);
-			if (i != 32648) {
+			if (32648 != 32648) {
 				aClass61_1435 = null;
 			}
 		}
@@ -74,14 +74,14 @@ public class Class112
 	
 	final void method1143(int i, boolean bool) {
 		anInt1425++;
-		if (!bool != !aBoolean1424 && i == -2098) {
+		if (!bool != !aBoolean1424 && -2098 == -2098) {
 			aBoolean1424 = bool;
 			method1142(109);
 		}
 	}
 	
 	final void method1144(int i, int i_0_) {
-		if (i != 64) {
+		if (64 != 64) {
 			aClass302_1433 = null;
 		}
 		aClass61_1427 = new Class61(i_0_);
@@ -128,18 +128,18 @@ public class Class112
 	
 	final void method1146(int i, int i_2_) {
 		anInt1428++;
-		if (i_2_ == 500) {
+		if (500 == 500) {
 			synchronized (aClass61_1427) {
-				aClass61_1427.method598(i, -11819);
+				aClass61_1427.method598(5, -11819);
 			}
 			synchronized (aClass61_1434) {
-				aClass61_1434.method598(i, -11819);
+				aClass61_1434.method598(5, -11819);
 			}
 			synchronized (aClass61_1435) {
-				aClass61_1435.method598(i, i_2_ + -12319);
+				aClass61_1435.method598(5, 500 + -12319);
 			}
 			synchronized (aClass61_1436) {
-				aClass61_1436.method598(i, -11819);
+				aClass61_1436.method598(5, -11819);
 			}
 		}
 	}
@@ -156,7 +156,7 @@ public class Class112
 		synchronized (aClass61_1436) {
 			aClass61_1436.method608(false);
 		}
-		if (i_3_ != 29988) {
+		if (29988 != 29988) {
 			method1140(-121);
 		}
 	}
@@ -166,7 +166,7 @@ public class Class112
 		aClass353_1421 = class353;
 		anInt1422 = i;
 		aClass302_1430 = class302;
-		aBoolean1431 = bool;
+		aBoolean1431 = true;
 		if (aClass302_1430 != null) {
 			int i_5_ = -1 + aClass302_1430.method3526(-20871);
 			aClass302_1430.method3537(-2, i_5_);

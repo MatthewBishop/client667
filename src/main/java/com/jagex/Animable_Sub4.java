@@ -39,7 +39,7 @@ abstract class Animable_Sub4 extends Animable
 	}
 	
 	static final int method925(int i, int i_2_) {
-		if (i_2_ != 34933) {
+		if (34933 != 34933) {
 			method926(null, 59, null, (byte) 88);
 		}
 		anInt9149++;
@@ -90,7 +90,7 @@ abstract class Animable_Sub4 extends Animable
 	}
 	
 	final boolean method806(int i) {
-		if (i != 0) {
+		if (0 != 0) {
 			aShort9145 = (short) 74;
 		}
 		anInt9151++;

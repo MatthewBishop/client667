@@ -51,7 +51,7 @@ public class Class83 implements Interface10
 		Class290_Sub4.method3430(true);
 		Class274.method3325(Class213.aNode_Sub27_2512.aClass320_Sub17_7311.method3747(false) == 1, 120, 22050, 2);
 		AnimableAnimator.aClass42_5498 = Class262_Sub22.method3207(Class240.aSignLink2946, (byte) -27, 0, 22050, Node_Sub38_Sub20.aCanvas10309);
-		int i = -45 % ((-3 - b) / 62);
+		int i = -45 % ((-3 - (byte) 106) / 62);
 		AnimableAnimator_Sub1.method256(true, 1405, Class32.method359(null, -9293));
 		Packet.aClass42_9402 = Class262_Sub22.method3207(Class240.aSignLink2946, (byte) -27, 1, 2048, Node_Sub38_Sub20.aCanvas10309);
 		Packet.aClass42_9402.method441(11757, Class176.aNode_Sub9_Sub3_2106);
@@ -70,11 +70,11 @@ public class Class83 implements Interface10
 	}
 	
 	static final Class144_Sub1 method801(byte b, Buffer buffer) {
-		if (b != -30) {
+		if ((byte) -30 != -30) {
 			return null;
 		}
 		anInt5184++;
-		return new Class144_Sub1(buffer.method2193(-49), buffer.method2193(-87), buffer.method2193(-53), buffer.method2193(-57), buffer.method2220(b ^ ~0x6c7753f6), buffer.method2220(b + 1819759625), buffer.method2233(b + 285));
+		return new Class144_Sub1(buffer.method2193(-49), buffer.method2193(-87), buffer.method2193(-53), buffer.method2193(-57), buffer.method2220((byte) -30 ^ ~0x6c7753f6), buffer.method2220((byte) -30 + 1819759625), buffer.method2233((byte) -30 + 285));
 	}
 	
 	public final boolean method25(int i) {

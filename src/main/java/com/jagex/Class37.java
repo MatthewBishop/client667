@@ -46,19 +46,19 @@ public class Class37
 	final void method396(int i, int i_0_) {
 		anInt552++;
 		synchronized (aClass61_551) {
-			aClass61_551.method598(i_0_, -11819);
-			if (i != 0) {
+			aClass61_551.method598(5, -11819);
+			if (0 != 0) {
 				aClass61_560 = null;
 			}
 		}
 		synchronized (aClass61_560) {
-			aClass61_560.method598(i_0_, i + -11819);
+			aClass61_560.method598(5, 0 + -11819);
 		}
 	}
 	
 	final void method397(int i) {
 		synchronized (aClass61_551) {
-			if (i != 53) {
+			if (53 != 53) {
 				return;
 			}
 			aClass61_551.method602((byte) -125);
@@ -70,7 +70,7 @@ public class Class37
 	}
 	
 	final void method398(byte b) {
-		if (b == -128) {
+		if ((byte) -128 == -128) {
 			synchronized (aClass61_551) {
 				aClass61_551.method608(false);
 			}
@@ -101,7 +101,7 @@ public class Class37
 	}
 	
 	public static void method400(int i) {
-		if (i != -14514) {
+		if (-14514 != -14514) {
 			aFloat558 = -0.60005486F;
 		}
 		aClass318_557 = null;
@@ -120,7 +120,7 @@ public class Class37
 			return -1;
 		}
 		String string_3_ = Class117_Sub1.aString4931 + string_2_;
-		if (!Class239.aClass302_2931.method3506(string_3_, bool, "")) {
+		if (!Class239.aClass302_2931.method3506(string_3_, true, "")) {
 			return -1;
 		}
 		if (!Class239.aClass302_2931.method3527(string_3_, 0)) {

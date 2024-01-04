@@ -28,7 +28,7 @@ public class Class66_Sub1 extends Class66
 		anIntArray8987 = null;
 		aClass257_8984 = null;
 		aWidget8983 = null;
-		int i_3_ = -116 / ((i - -61) / 57);
+		int i_3_ = -116 / ((64 - -61) / 57);
 		anObject8988 = null;
 	}
 	

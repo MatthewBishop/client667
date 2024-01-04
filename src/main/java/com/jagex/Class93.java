@@ -20,7 +20,7 @@ abstract class Class93
 	abstract boolean method1040(int i);
 	
 	final boolean method1041(byte b) {
-		if (b < 15) {
+		if ((byte) 34 < 15) {
 			return false;
 		}
 		anInt1243++;
@@ -32,7 +32,7 @@ abstract class Class93
 	
 	public static void method1042(byte b) {
 		aFloatArray1238 = null;
-		if (b != 48) {
+		if ((byte) 48 != 48) {
 			method1046(null, -73);
 		}
 		aByteArrayArray1244 = null;
@@ -81,7 +81,7 @@ abstract class Class93
 		node_sub2.anInt6933 = i_9_;
 		node_sub2.anInt6932 = i;
 		Class289.aHashTable3630.method1515((long) i_10_, node_sub2, -126);
-		Node_Sub11.method2543(i_9_, i_11_);
+		Node_Sub11.method2543(i_9_, 0);
 		Widget widget = Class76.method771((byte) 107, i_10_);
 		if (widget != null) {
 			CacheNode_Sub9.method2321(-1, widget);
@@ -98,7 +98,7 @@ abstract class Class93
 			Class305.method3550(i_9_);
 		}
 		if (!bool && Class320_Sub15.anInt8355 != -1) {
-			Class76.method770(i_11_ + 115, 1, Class320_Sub15.anInt8355);
+			Class76.method770(0 + 115, 1, Class320_Sub15.anInt8355);
 		}
 		return node_sub2;
 	}
@@ -106,7 +106,7 @@ abstract class Class93
 	abstract Node_Sub5 method1048(byte b);
 	
 	static final void method1049(int[] is, int i, int[] is_12_, int i_13_, int i_14_) {
-		if (i_14_ == 28627) {
+		if (28627 == 28627) {
 			if (i_13_ < i) {
 				int i_15_ = (i + i_13_) / 2;
 				int i_16_ = i_13_;

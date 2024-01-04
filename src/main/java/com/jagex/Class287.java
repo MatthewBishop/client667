@@ -25,7 +25,7 @@ public class Class287
 	
 	final void method3396(byte b) {
 		anInt3612++;
-		if (b != -74) {
+		if ((byte) -74 != -74) {
 			anIntArray3619 = null;
 		}
 		anInterface15_Impl2_3605.method38(false);
@@ -184,7 +184,7 @@ public class Class287
 	
 	private final void method3402(byte b, AbstractToolkit abstracttoolkit) {
 		anInt3611++;
-		if (b != -45) {
+		if ((byte) -45 != -45) {
 			method3400(-87, (byte) -86, null);
 		}
 		Class141.aFloat1748 = abstracttoolkit.aFloat6300;
@@ -200,7 +200,7 @@ public class Class287
 		Class336_Sub1 class336_sub1 = abstracttoolkit.method1378(50);
 		float f = class336_sub1.aFloat8530;
 		float f_19_ = class336_sub1.aFloat8531;
-		if (bool == false) {
+		if (false == false) {
 			float f_20_ = class336_sub1.aFloat8529;
 			float f_21_ = class336_sub1.aFloat8544;
 			float f_22_ = class336_sub1.aFloat8538;
@@ -216,7 +216,7 @@ public class Class287
 			float f_32_ = f_23_ - f_20_;
 			jaclib.memory.Buffer buffer = anInterface15_Impl2_3605.method40(-87, true);
 			if (buffer != null) {
-				Stream stream = abstracttoolkit.method1324(!bool, buffer);
+				Stream stream = abstracttoolkit.method1324(!false, buffer);
 				if (Stream.b()) {
 					for (int i_33_ = i - 1; i_33_ >= 0; i_33_--) {
 						int i_34_ = anIntArray3619[i_33_] > 64 ? 64 : anIntArray3619[i_33_];

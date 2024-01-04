@@ -302,15 +302,15 @@ class Class20
 			i_68_++;
 		}
 		for (int i_69_ = 0; i_69_ < i_67_; i_69_++) {
-			int i_70_ = (i_65_ + i * i_69_ >> 16) + anInt344;
-			int i_71_ = (i_65_ + i * (i_69_ + 1) >> 16) + anInt344;
+			int i_70_ = (0 + i * i_69_ >> 16) + anInt344;
+			int i_71_ = (0 + i * (i_69_ + 1) >> 16) + anInt344;
 			int i_72_ = i_71_ - i_70_;
 			if (i_72_ > 0) {
 				int i_73_ = anInt349 + i_69_;
 				if (i_73_ < 0 || i_73_ >= anInt345) {
 					for (int i_74_ = 0; i_74_ < i_68_; i_74_++) {
-						int i_75_ = anInt339 - (i_66_ + i_64_ * (i_74_ + 1) >> 16);
-						int i_76_ = anInt339 - (i_66_ + i_64_ * i_74_ >> 16);
+						int i_75_ = anInt339 - (0 + i_64_ * (i_74_ + 1) >> 16);
+						int i_76_ = anInt339 - (0 + i_64_ * i_74_ >> 16);
 						int i_77_ = i_76_ - i_75_;
 						int i_78_;
 						if (aCacheNode_Sub11_318.anInt9542 != -1) {
@@ -327,8 +327,8 @@ class Class20
 					}
 				} else {
 					for (int i_79_ = 0; i_79_ < i_68_; i_79_++) {
-						int i_80_ = anInt339 - (i_66_ + i_64_ * (i_79_ + 1) >> 16);
-						int i_81_ = anInt339 - (i_66_ + i_64_ * i_79_ >> 16);
+						int i_80_ = anInt339 - (0 + i_64_ * (i_79_ + 1) >> 16);
+						int i_81_ = anInt339 - (0 + i_64_ * i_79_ >> 16);
 						int i_82_ = i_81_ - i_80_;
 						if (i_82_ > 0) {
 							int i_83_ = i_79_ + anInt352;
@@ -376,15 +376,15 @@ class Class20
 			}
 		}
 		for (int i_88_ = -16; i_88_ < i_67_ + 16; i_88_++) {
-			int i_89_ = (i_65_ + i * i_88_ >> 16) + anInt344;
-			int i_90_ = (i_65_ + i * (i_88_ + 1) >> 16) + anInt344;
+			int i_89_ = (0 + i * i_88_ >> 16) + anInt344;
+			int i_90_ = (0 + i * (i_88_ + 1) >> 16) + anInt344;
 			int i_91_ = i_90_ - i_89_;
 			if (i_91_ > 0) {
 				int i_92_ = i_88_ + anInt349;
 				if (i_92_ >= 0 && i_92_ < anInt345) {
 					for (int i_93_ = -16; i_93_ < i_68_ + 16; i_93_++) {
-						int i_94_ = anInt339 - (i_66_ + i_64_ * (i_93_ + 1) >> 16);
-						int i_95_ = anInt339 - (i_66_ + i_64_ * i_93_ >> 16);
+						int i_94_ = anInt339 - (0 + i_64_ * (i_93_ + 1) >> 16);
+						int i_95_ = anInt339 - (0 + i_64_ * i_93_ >> 16);
 						int i_96_ = i_95_ - i_94_;
 						if (i_96_ > 0) {
 							int i_97_ = i_93_ + anInt352;
@@ -436,10 +436,10 @@ class Class20
 						for (EntityNode_Sub9 entitynode_sub9 = (EntityNode_Sub9) class103.method1113((byte) -118); entitynode_sub9 != null; entitynode_sub9 = (EntityNode_Sub9) class103.method1108(106)) {
 							int i_108_ = i_106_ + entitynode_sub9.aByte6029 - anInt354 - anInt349;
 							int i_109_ = i_107_ + entitynode_sub9.aByte6031 - anInt343 - anInt352;
-							int i_110_ = (i_65_ + i * i_108_ >> 16) + anInt344;
-							int i_111_ = (i_65_ + i * (i_108_ + 1) >> 16) + anInt344;
-							int i_112_ = anInt339 - (i_66_ + i_64_ * (i_109_ + 1) >> 16);
-							int i_113_ = anInt339 - (i_66_ + i_64_ * i_109_ >> 16);
+							int i_110_ = (0 + i * i_108_ >> 16) + anInt344;
+							int i_111_ = (0 + i * (i_108_ + 1) >> 16) + anInt344;
+							int i_112_ = anInt339 - (0 + i_64_ * (i_109_ + 1) >> 16);
+							int i_113_ = anInt339 - (0 + i_64_ * i_109_ >> 16);
 							method271(graphicstoolkit, i_110_, i_112_, i_111_ - i_110_, i_113_ - i_112_, entitynode_sub9.anInt6027, entitynode_sub9.aByte6028 & 0xff, entitynode_sub9.aByte6026, entitynode_sub9.aShortArray6025, entitynode_sub9.aByteArray6030, false);
 						}
 					}
@@ -454,10 +454,10 @@ class Class20
 						for (EntityNode_Sub9 entitynode_sub9 = (EntityNode_Sub9) class103.method1113((byte) 127); entitynode_sub9 != null; entitynode_sub9 = (EntityNode_Sub9) class103.method1108(94)) {
 							int i_118_ = i_116_ + entitynode_sub9.aByte6029 - anInt354 - anInt349;
 							int i_119_ = i_117_ + entitynode_sub9.aByte6031 - anInt343 - anInt352;
-							int i_120_ = (i_65_ + i * i_118_ >> 16) + anInt344;
-							int i_121_ = (i_65_ + i * (i_118_ + 1) >> 16) + anInt344;
-							int i_122_ = anInt339 - (i_66_ + i_64_ * (i_119_ + 1) >> 16);
-							int i_123_ = anInt339 - (i_66_ + i_64_ * i_119_ >> 16);
+							int i_120_ = (0 + i * i_118_ >> 16) + anInt344;
+							int i_121_ = (0 + i * (i_118_ + 1) >> 16) + anInt344;
+							int i_122_ = anInt339 - (0 + i_64_ * (i_119_ + 1) >> 16);
+							int i_123_ = anInt339 - (0 + i_64_ * i_119_ >> 16);
 							method273(graphicstoolkit, i_120_, i_122_, i_121_ - i_120_, i_123_ - i_122_, entitynode_sub9.aShortArray6025, entitynode_sub9.aByteArray6030);
 						}
 					}
@@ -593,8 +593,8 @@ class Class20
 	}
 	
 	private static final void method283(GraphicsToolkit graphicstoolkit, Node_Sub14 node_sub14, int i, int i_151_, int i_152_, int i_153_) {
-		node_sub14.anInt7126 = anInt344 + (i_152_ + i * (node_sub14.anInt7125 - anInt349) >> 16);
-		node_sub14.anInt7118 = anInt339 - (i_153_ + i_151_ * (node_sub14.anInt7120 - anInt352) >> 16);
+		node_sub14.anInt7126 = anInt344 + (0 + i * (node_sub14.anInt7125 - anInt349) >> 16);
+		node_sub14.anInt7118 = anInt339 - (0 + i_151_ * (node_sub14.anInt7120 - anInt352) >> 16);
 	}
 	
 	private static final void method284(GraphicsToolkit graphicstoolkit, Buffer buffer, int i, int i_154_, int i_155_, int i_156_, int[] is, int[] is_157_) {
@@ -887,7 +887,7 @@ class Class20
 	
 	private static final Class312 method292(GraphicsToolkit graphicstoolkit, int i, int i_209_, int i_210_, int i_211_) {
 		for (Node_Sub14 node_sub14 = (Node_Sub14) aClass312_331.method3613(65280); node_sub14 != null; node_sub14 = (Node_Sub14) aClass312_331.method3620(16776960))
-			method283(graphicstoolkit, node_sub14, i, i_209_, i_210_, i_211_);
+			method283(graphicstoolkit, node_sub14, i, i_209_, 0, 0);
 		return aClass312_331;
 	}
 	

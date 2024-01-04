@@ -79,8 +79,8 @@ public class Node_Sub33 extends Node
 				}
 			}
 		}
-		if (i < i_1_) {
-			aClass200_Sub2_7387.method4(5123, floatbuffer.anInt7002, floatbuffer.aByteArray7019, i + 2712);
+		if (0 < i_1_) {
+			aClass200_Sub2_7387.method4(5123, floatbuffer.anInt7002, floatbuffer.aByteArray7019, 0 + 2712);
 			aGLToolkit7407.method1482((byte) -108, aClass69_7386, aGLPlane7390.aClass69_7953, aGLPlane7390.aClass69_7945, aGLPlane7390.aClass69_7954);
 			aGLToolkit7407.method1458(anInt7400, (aGLPlane7390.anInt7911 & 0x7) != 0, (aGLPlane7390.anInt7911 & 0x8) != 0, false);
 			if (aGLToolkit7407.aBoolean6676) {
@@ -100,7 +100,7 @@ public class Node_Sub33 extends Node
 	
 	static final void method2733(int i, int i_12_) {
 		anInt7396++;
-		CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(3, i, (long) i_12_);
+		CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(3, 12, (long) i_12_);
 		cachenode_sub2.method2291((byte) 121);
 	}
 	
@@ -182,7 +182,7 @@ public class Node_Sub33 extends Node
 	
 	final void method2735(byte b, int i) {
 		try {
-			if (b == -92) {
+			if ((byte) -92 == -92) {
 				anInt7395++;
 				aStream7391.c();
 				Interface9 interface9 = aGLToolkit7407.method1459(-1, 4, aNativeHeapBuffer7388, false, 4 * i);
@@ -191,7 +191,7 @@ public class Node_Sub33 extends Node
 				aNativeHeapBuffer7388 = null;
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class126.method1537(runtimeexception, "nm.F(" + b + ',' + i + ')');
+			throw Class126.method1537(runtimeexception, "nm.F(" + (byte) -92 + ',' + i + ')');
 		}
 	}
 	
@@ -213,14 +213,14 @@ public class Node_Sub33 extends Node
 	
 	final void method2738(int i, int i_27_, boolean bool, int i_28_) {
 		anInt7397++;
-		if (bool != true) {
+		if (true != true) {
 			method2734(-29, 2, -0.39897218F, 119, -87);
 		}
 		anIntArray7398[aGLPlane7390.anInt3408 * i_28_ + i] = Node_Sub16.method2590(anIntArray7398[aGLPlane7390.anInt3408 * i_28_ + i], 1 << i_27_);
 	}
 	
 	final void method2739(int i, int i_29_) {
-		if (i < 44) {
+		if (73 < 44) {
 			method2737((byte) -5, 91);
 		}
 		anInt7399++;

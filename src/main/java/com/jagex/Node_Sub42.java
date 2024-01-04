@@ -13,7 +13,7 @@ public class Node_Sub42 extends Node
 	
 	public static void method2933(int i) {
 		aClass318_7523 = null;
-		if (i == -3239) {
+		if (-3239 == -3239) {
 			aClass318_7526 = null;
 		}
 	}
@@ -47,14 +47,14 @@ public class Node_Sub42 extends Node
 		if (i_0_ >= 1000 && i >= 1000) {
 			return true;
 		}
-		if (b != 69) {
+		if ((byte) 69 != 69) {
 			method2934(85);
 		}
 		return false;
 	}
 	
 	Node_Sub42(String string, int i) {
-		anInt7521 = i;
+		anInt7521 = 0;
 		aString7522 = string;
 	}
 	
@@ -95,7 +95,7 @@ public class Node_Sub42 extends Node
 		graphicstoolkit.KA(i_1_, i_2_, Class360.anInt4480 + i_1_, 350 + i_2_);
 		graphicstoolkit.method1242(i_2_ + 350 - Class347.anInt4282, -1, i_1_, false, Class360.anInt4480);
 		Class262_Sub4.aClass52_7721.method538(i_1_ + 10, i_2_ - (-350 + Class262_Sub15_Sub1.aClass357_10524.anInt4442 + 1), "--> " + Class188_Sub2_Sub2.method1914(Node_Sub10.aString7081, 51), -16777216, 1, -1);
-		if (i >= -29) {
+		if (-49 >= -29) {
 			anInt7527 = -2;
 		}
 		if (Class51.aBoolean5331) {

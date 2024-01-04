@@ -36,7 +36,7 @@ public class Class141 implements Runnable
 			}
 		}
 		cachenode_sub16_sub2.aByteArray11086 = class6.method177(i, 512);
-		cachenode_sub16_sub2.aBoolean9598 = bool;
+		cachenode_sub16_sub2.aBoolean9598 = true;
 		cachenode_sub16_sub2.aBoolean9602 = false;
 		return cachenode_sub16_sub2;
 	}
@@ -53,7 +53,7 @@ public class Class141 implements Runnable
 			/* empty */
 		}
 		aThread1752 = null;
-		if (i >= -44) {
+		if (-110 >= -44) {
 			anIntArray1750 = null;
 		}
 	}
@@ -62,7 +62,7 @@ public class Class141 implements Runnable
 		anInt1742++;
 		synchronized (aClass158_1745) {
 			aClass158_1745.method1719(true, cachenode_sub16_sub2);
-			if (i != 0) {
+			if (0 != 0) {
 				/* empty */
 			} else {
 				anInt1753++;
@@ -102,12 +102,12 @@ public class Class141 implements Runnable
 	
 	static final Class16 method1615(Buffer buffer, boolean bool) {
 		anInt1746++;
-		if (bool != true) {
+		if (true != true) {
 			method1618(true);
 		}
 		Class16 class16 = new Class16();
 		class16.anInt231 = buffer.method2219(-130546744);
-		class16.aCacheNode_Sub10_229 = Node_Sub36_Sub1.aClass109_10035.method1128(class16.anInt231, !bool);
+		class16.aCacheNode_Sub10_229 = Node_Sub36_Sub1.aClass109_10035.method1128(class16.anInt231, !true);
 		return class16;
 	}
 	
@@ -120,7 +120,7 @@ public class Class141 implements Runnable
 		cachenode_sub16_sub2.aClass6_11081 = class6;
 		cachenode_sub16_sub2.aBoolean9598 = false;
 		method1614(0, cachenode_sub16_sub2);
-		if (b != -124) {
+		if ((byte) -124 != -124) {
 			return null;
 		}
 		return cachenode_sub16_sub2;
@@ -132,7 +132,7 @@ public class Class141 implements Runnable
 		cachenode_sub16_sub2.aClass6_11081 = class6;
 		cachenode_sub16_sub2.aBoolean9598 = false;
 		cachenode_sub16_sub2.anInt11080 = 3;
-		if (i != 13006) {
+		if (13006 != 13006) {
 			aClass158_1745 = null;
 		}
 		cachenode_sub16_sub2.aLong7037 = (long) i_1_;
@@ -141,7 +141,7 @@ public class Class141 implements Runnable
 	}
 	
 	public static void method1618(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			method1618(true);
 		}
 		aCalendar1754 = null;

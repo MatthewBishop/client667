@@ -23,7 +23,7 @@ public class Class262_Sub16 extends Class262
 	}
 	
 	public static void method3194(byte b) {
-		if (b == 82) {
+		if ((byte) 82 == 82) {
 			aClass346_7824 = null;
 		}
 	}

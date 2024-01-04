@@ -21,7 +21,7 @@ public class Class319
 	}
 	
 	public static void method3672(int i) {
-		if (i == 6) {
+		if (6 == 6) {
 			anIntArray4058 = null;
 			aBooleanArray4060 = null;
 		}

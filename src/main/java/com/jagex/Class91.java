@@ -78,7 +78,7 @@ public class Class91
 		if ((i_1_ & 0x20000) != 0) {
 			player.aByte10896 = packet.method2185(false);
 			player.aByte10878 = packet.method2185(false);
-			player.aByte10884 = packet.method2236(i + -735307887);
+			player.aByte10884 = packet.method2236(-1 + -735307887);
 			player.aByte10888 = (byte) packet.method2233(255);
 			player.anInt10895 = Class174.anInt2092 - -packet.method2243(false);
 			player.anInt10882 = Class174.anInt2092 + packet.method2219(-130546744);
@@ -88,7 +88,7 @@ public class Class91
 		}
 		if ((0x2000 & i_1_) != 0) {
 			int i_14_ = packet.method2224(-602457616);
-			player.anInt10856 = packet.method2233(i ^ ~0xff);
+			player.anInt10856 = packet.method2233(-1 ^ ~0xff);
 			player.anInt10848 = packet.method2238(true);
 			player.aBoolean10871 = (i_14_ & 0x8000) != 0;
 			player.anInt10855 = i_14_ & 0x7fff;
@@ -113,7 +113,7 @@ public class Class91
 			player.aBoolean11135 = packet.method2238(true) == 1;
 		}
 		if ((0x4 & i_1_) != 0) {
-			int i_20_ = packet.method2233(i ^ ~0xff);
+			int i_20_ = packet.method2233(-1 ^ ~0xff);
 			if (i_20_ > 0) {
 				for (int i_21_ = 0; i_21_ < i_20_; i_21_++) {
 					int i_22_ = -1;
@@ -148,7 +148,7 @@ public class Class91
 					int i_32_ = packet.method2219(-130546744);
 					is[i_30_] = Node_Sub16.method2590(i_32_, i_31_ << 16);
 				}
-				is_29_[i_30_] = packet.method2224(Node_Sub19.method2612(i, 602457615));
+				is_29_[i_30_] = packet.method2224(Node_Sub19.method2612(-1, 602457615));
 			}
 			player.method866(is_29_, is, (byte) 103);
 		}
@@ -156,17 +156,17 @@ public class Class91
 			int i_33_ = packet.method2213((byte) 104);
 			byte[] bs = new byte[i_33_];
 			Buffer buffer = new Buffer(bs);
-			packet.method2181(0, i_33_, bs, i + -19416);
+			packet.method2181(0, i_33_, bs, -1 + -19416);
 			Class249.aBufferArray3154[i_0_] = buffer;
-			player.method889(buffer, i + 1);
+			player.method889(buffer, -1 + 1);
 		}
 		if ((i_1_ & 0x4000) != 0) {
-			String string = packet.method2195(i);
+			String string = packet.method2195(-1);
 			if (string.charAt(0) == '~') {
 				string = string.substring(1);
-				Class28.method331(string, player.method893(false, true), -110, 0, player.aString11132, player.method891(false, i + 2), 2);
+				Class28.method331(string, player.method893(false, true), -110, 0, player.aString11132, player.method891(false, -1 + 2), 2);
 			} else if (player == Class295.aPlayer3692) {
-				Class28.method331(string, player.method893(false, true), i + -62, 0, player.aString11132, player.method891(false, 1), 2);
+				Class28.method331(string, player.method893(false, true), -1 + -62, 0, player.aString11132, player.method891(false, 1), 2);
 			}
 			player.method882(0, 0, string, (byte) 117);
 		}
@@ -176,8 +176,8 @@ public class Class91
 		if ((0x1 & i_1_) != 0) {
 			Class73.aByteArray981[i_0_] = packet.method2185(false);
 		}
-		if ((i_1_ & 0x10 ^ 0xffffffff) != i) {
-			int i_34_ = packet.method2224(i + -602457615);
+		if ((i_1_ & 0x10 ^ 0xffffffff) != -1) {
+			int i_34_ = packet.method2224(-1 + -602457615);
 			if (i_34_ == 65535) {
 				i_34_ = -1;
 			}
@@ -190,7 +190,7 @@ public class Class91
 			player.anInt10891 = packet.method2242((byte) -12);
 			player.anInt10892 = packet.method2209((byte) 14) - -Class174.anInt2092;
 			player.anInt10887 = packet.method2243(false) + Class174.anInt2092;
-			player.anInt10885 = packet.method2211(i + 4256);
+			player.anInt10885 = packet.method2211(-1 + 4256);
 			if (!player.aBoolean11156) {
 				player.anInt10897 += player.anIntArray10910[0];
 				player.anInt10904 = 1;
@@ -214,12 +214,12 @@ public class Class91
 			}
 		}
 		if ((0x2 & i_1_) != 0) {
-			int i_35_ = packet.method2219(i ^ 0x7c7fc37);
+			int i_35_ = packet.method2219(-1 ^ 0x7c7fc37);
 			int i_36_ = packet.method2176((byte) -119);
 			if (i_35_ == 65535) {
 				i_35_ = -1;
 			}
-			int i_37_ = packet.method2211(i + 4256);
+			int i_37_ = packet.method2211(-1 + 4256);
 			int i_38_ = 0x7 & i_37_;
 			int i_39_ = i_37_ >> 3 & 0xf;
 			if (i_39_ == 15) {
@@ -252,7 +252,7 @@ public class Class91
 					b_45_ = Class73.aByteArray981[i_0_];
 				}
 				Class372.method4103(65, player, b_45_);
-				player.method894(player.anInt11160, player.anInt11147, i + -9379, b_45_);
+				player.method894(player.anInt11160, player.anInt11147, -1 + -9379, b_45_);
 			} else {
 				player.method888(player.anInt11147, -89, player.anInt11160);
 			}
@@ -296,7 +296,7 @@ public class Class91
 			Class54.anIntArray816[Node_Sub25_Sub3.anInt9987++] = i_51_;
 			npc.anInt10880 = Plane.anInt3423;
 			if (npc.aNpcDefinition11122 != null && npc.aNpcDefinition11122.method2998((byte) 91)) {
-				Node_Sub38_Sub4.method2799(i + -107, npc);
+				Node_Sub38_Sub4.method2799(4 + -107, npc);
 			}
 			int i_52_ = 0x3a6e & 4 + packet.method2256((byte) -125, 3) << 11;
 			int i_53_ = packet.method2256((byte) -126, 1);
@@ -325,14 +325,14 @@ public class Class91
 			}
 		}
 		packet.method2255(-1431454110);
-		if (i != 4) {
+		if (4 != 4) {
 			method1033(-63, -75, 81, -64, -90, 72);
 		}
 	}
 	
 	static final int method1036(int i, float f, float f_58_, float f_59_) {
 		anInt1208++;
-		if (i != 2) {
+		if (2 != 2) {
 			method1034((byte) -50);
 		}
 		float f_60_ = !(f_58_ < 0.0F) ? f_58_ : -f_58_;

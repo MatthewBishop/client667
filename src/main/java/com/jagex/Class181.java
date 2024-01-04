@@ -24,7 +24,7 @@ public class Class181
 		synchronized (aClass61_2146) {
 			aClass61_2146.method602((byte) -122);
 		}
-		if (i != 64) {
+		if (64 != 64) {
 			aClass302_2156 = null;
 		}
 	}
@@ -68,13 +68,13 @@ public class Class181
 			aClass61_2146.method608(false);
 		}
 		anInt2147++;
-		int i_0_ = 48 % ((-13 - i) / 62);
+		int i_0_ = 48 % ((-13 - 75) / 62);
 	}
 	
 	final void method1828(int i, int i_1_) {
-		if (i_1_ > 115) {
+		if (123 > 115) {
 			synchronized (aClass61_2146) {
-				aClass61_2146.method598(i, -11819);
+				aClass61_2146.method598(5, -11819);
 			}
 			anInt2154++;
 		}
@@ -82,7 +82,7 @@ public class Class181
 	
 	static final void method1829(int i) {
 		anInt2159++;
-		if (i != -20412) {
+		if (-20412 != -20412) {
 			aClass197_2155 = null;
 		}
 		if (Class332.anInt4145 > 0) {
@@ -101,7 +101,7 @@ public class Class181
 	static final Class119 method1830(boolean bool, int i, int i_4_, int i_5_, int i_6_) {
 		anInt2152++;
 		long l = 0xffffL & (long) i_4_ | ((0xffffL & (long) i_6_) << 16 | ((long) i_5_ << 48 & 65535L << 48 | (0xffffL & (long) i) << 32));
-		if (bool != false) {
+		if (false != false) {
 			return null;
 		}
 		Class119 class119 = (Class119) Class62.aClass61_904.method607(l, 0);
@@ -115,7 +115,7 @@ public class Class181
 	public static void method1831(int i) {
 		aClass192_2144 = null;
 		aClass302_2158 = null;
-		if (i == -50) {
+		if (-50 == -50) {
 			aClass197_2155 = null;
 		}
 	}

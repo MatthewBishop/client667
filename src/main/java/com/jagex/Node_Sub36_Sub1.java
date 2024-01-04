@@ -77,7 +77,7 @@ public class Node_Sub36_Sub1 extends Node_Sub36
 		class24.anInt441 = anInt10037;
 		class24.aByte438 = aByte10029;
 		class24.aString437 = aString10033;
-		if (i != 0) {
+		if (0 != 0) {
 			anInt10039 = -114;
 		}
 		node_sub43.method2938((byte) -118, class24);
@@ -86,7 +86,7 @@ public class Node_Sub36_Sub1 extends Node_Sub36
 	public static void method2759(byte b) {
 		aClass109_10035 = null;
 		aClass318_10031 = null;
-		int i = 122 % ((b - -6) / 56);
+		int i = 122 % (((byte) -93 - -6) / 56);
 	}
 	
 	final void method2756(Buffer buffer, int i) {

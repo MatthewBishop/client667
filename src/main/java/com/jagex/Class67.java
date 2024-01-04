@@ -30,7 +30,7 @@ public class Class67
 				stringbuffer.append("<lt>");
 			}
 		}
-		if (bool != false) {
+		if (false != false) {
 			aClass77_930 = null;
 		}
 		return stringbuffer.toString();
@@ -41,7 +41,7 @@ public class Class67
 		if (Class213.aBoolean2510 || Node_Sub38_Sub23.aCacheNode_Sub13_10343 == null) {
 			return "";
 		}
-		if (b != 115) {
+		if ((byte) 115 != 115) {
 			return null;
 		}
 		if ((Node_Sub38_Sub23.aCacheNode_Sub13_10343.aString9558 == null || Node_Sub38_Sub23.aCacheNode_Sub13_10343.aString9558.length() == 0) && Node_Sub38_Sub23.aCacheNode_Sub13_10343.aString9565 != null && Node_Sub38_Sub23.aCacheNode_Sub13_10343.aString9565.length() > 0) {
@@ -51,7 +51,7 @@ public class Class67
 	}
 	
 	public static void method732(byte b) {
-		if (b >= 78) {
+		if ((byte) 91 >= 78) {
 			aClass77_930 = null;
 		}
 	}

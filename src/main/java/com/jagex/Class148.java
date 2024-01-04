@@ -11,7 +11,7 @@ public class Class148
 		entitynode_sub6.anAnimable5990 = null;
 		anInt1828++;
 		int i_0_ = entitynode_sub6.anEntityNode_Sub5Array5995.length;
-		for (int i_1_ = i; i_1_ < i_0_; i_1_++)
+		for (int i_1_ = 0; i_1_ < i_0_; i_1_++)
 			entitynode_sub6.anEntityNode_Sub5Array5995[i_1_].aBoolean5987 = false;
 		synchronized (Class30.aClass103Array494) {
 			if (i_0_ < Class30.aClass103Array494.length && Class89.anIntArray1195[i_0_] < 200) {
@@ -22,7 +22,7 @@ public class Class148
 	}
 	
 	public static void method1651(int i) {
-		if (i >= 86) {
+		if (118 >= 86) {
 			aClass302_1827 = null;
 		}
 	}

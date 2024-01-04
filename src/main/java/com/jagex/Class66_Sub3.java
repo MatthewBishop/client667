@@ -42,7 +42,7 @@ public class Class66_Sub3 extends Class66
 	final void method721(int i, int i_2_, boolean bool, int i_3_) {
 		anInt9004++;
 		int i_4_ = this.method720(100) * aClass150_5171.anInt5086 / 10000;
-		int i_5_ = -97 % ((i_2_ - -10) / 40);
+		int i_5_ = -97 % ((-50 - -10) / 40);
 		int[] is = new int[4];
 		Class93.aGraphicsToolkit1241.K(is);
 		Class93.aGraphicsToolkit1241.KA(i, 2 + i_3_, i - -i_4_, i_3_ + aClass150_5171.anInt5081);

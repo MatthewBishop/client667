@@ -23,7 +23,7 @@ public class Class49
 		anInt719++;
 		int i = Class178.anInt2120;
 		int[] is = Class66_Sub1.anIntArray8987;
-		if (b == -59) {
+		if ((byte) -59 == -59) {
 			for (int i_1_ = 0; i > i_1_; i_1_++) {
 				Player player = Class270_Sub2.aPlayerArray8038[is[i_1_]];
 				if (player != null) {

@@ -45,7 +45,7 @@ public class Class290_Sub3 extends Class290
 	}
 	
 	public static void method3428(byte b) {
-		int i = 13 % ((-27 - b) / 37);
+		int i = 13 % ((-27 - (byte) -120) / 37);
 		anIntArray8077 = null;
 	}
 	
@@ -76,7 +76,7 @@ public class Class290_Sub3 extends Class290
 	
 	static final Class10 method3429(boolean bool) {
 		anInt8087++;
-		if (bool != true) {
+		if (true != true) {
 			return null;
 		}
 		try {

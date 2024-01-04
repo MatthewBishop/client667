@@ -26,7 +26,7 @@ public class GraphicsBuffer_Sub1 extends GraphicsBuffer
 		graphics.setClip(aRectangle9877);
 		graphics.drawImage(anImage9876, i_1_ - i_0_, i_3_ - i_4_, aCanvas9879);
 		graphics.setClip(aShape9878);
-		if (bool) {
+		if (false) {
 			aCanvas9879 = null;
 		}
 	}
@@ -36,7 +36,7 @@ public class GraphicsBuffer_Sub1 extends GraphicsBuffer
 		aRectangle9877 = new Rectangle();
 		anInt7142 = i_5_;
 		anInt7146 = i;
-		if (bool != true) {
+		if (true != true) {
 			aShape9878 = null;
 		}
 		anIntArray7145 = new int[anInt7142 * anInt7146];

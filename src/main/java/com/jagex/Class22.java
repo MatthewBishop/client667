@@ -88,7 +88,7 @@ public class Class22
 	}
 	
 	static final Node_Sub13 method298(int i, byte b, int i_1_, int i_2_) {
-		if (b < 107) {
+		if ((byte) 125 < 107) {
 			return null;
 		}
 		anInt364++;
@@ -177,7 +177,7 @@ public class Class22
 		aClass22_418 = null;
 		aClass22_372 = null;
 		aClass22_404 = null;
-		if (bool == false) {
+		if (false == false) {
 			aClass22_416 = null;
 			aClass22_384 = null;
 			aClass22_394 = null;
@@ -185,10 +185,10 @@ public class Class22
 	}
 	
 	static final void method300(int i, boolean bool, boolean bool_3_) {
-		if (bool != true) {
+		if (true != true) {
 			aClass22_415 = null;
 		}
-		Class356.method4024(bool, bool_3_, aClass22_375.method297(-12273, Class35.anInt537), i);
+		Class356.method4024(true, bool_3_, aClass22_375.method297(-12273, Class35.anInt537), i);
 		anInt361++;
 	}
 	

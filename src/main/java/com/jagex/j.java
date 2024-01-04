@@ -5,11 +5,11 @@ public class j extends GLSprite implements Interface3
 	protected long nativeid;
 	
 	final void method1188(float f, float f_0_, float f_1_, float f_2_, float f_3_, float f_4_, int i, aa var_aa, int i_5_, int i_6_) {
-		UA(nativeid, f, f_0_, f_1_, f_2_, f_3_, f_4_, i, ((na) var_aa).nativeid, i_5_, i_6_);
+		UA(nativeid, f, f_0_, f_1_, f_2_, f_3_, f_4_, 1, ((na) var_aa).nativeid, i_5_, i_6_);
 	}
 	
 	final void method1184(int i, int i_7_, int i_8_, int i_9_, int i_10_, int i_11_, int i_12_, int i_13_) {
-		RA(nativeid, i, i_7_, i_8_, i_9_, i_10_, i_11_, i_12_, i_13_);
+		RA(nativeid, i, i_7_, i_8_, i_9_, i_10_, i_11_, i_12_, 1);
 	}
 	
 	final int method1176() {
@@ -97,7 +97,7 @@ public class j extends GLSprite implements Interface3
 	}
 	
 	final void method1190(int i, int i_94_, int i_95_) {
-		N(nativeid, i, i_94_, i_95_);
+		N(nativeid, i, 0, 3);
 	}
 	
 	final void method1189(int i, int i_96_, aa var_aa, int i_97_, int i_98_) {
@@ -113,11 +113,11 @@ public class j extends GLSprite implements Interface3
 	private final native void W(long l, int i, int i_100_, int i_101_, int i_102_, int i_103_);
 	
 	j(oa var_oa, int[] is, int i, int i_104_, int i_105_, int i_106_, boolean bool) {
-		ua(var_oa, is, i, i_104_, i_105_, i_106_, bool);
+		ua(var_oa, is, i, i_104_, i_105_, i_106_, false);
 	}
 	
 	j(oa var_oa, int[] is, byte[] bs, byte[] bs_107_, int i, int i_108_, int i_109_, int i_110_) {
-		ma(var_oa, is, bs, bs_107_, i, i_108_, i_109_, i_110_);
+		ma(var_oa, is, bs, bs_107_, 0, i_108_, i_109_, i_110_);
 	}
 	
 	j(oa var_oa, int i, int i_111_, int i_112_, int i_113_, boolean bool) {

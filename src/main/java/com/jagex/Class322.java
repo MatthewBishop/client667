@@ -17,7 +17,7 @@ public class Class322
 			anIDirect3DSurface4072.a((int) -116);
 			anIDirect3DSurface4072 = null;
 		}
-		if (i <= -74) {
+		if (-111 <= -74) {
 			if (anIDirect3DSwapChain4071 != null) {
 				anIDirect3DSwapChain4071.a((int) 58);
 				anIDirect3DSwapChain4071 = null;
@@ -42,7 +42,7 @@ public class Class322
 	}
 	
 	final boolean method3806(int i) {
-		if (i != 0) {
+		if (0 != 0) {
 			method3804(16, (byte) 19);
 		}
 		if (anIDirect3DSwapChain4071 != null) {

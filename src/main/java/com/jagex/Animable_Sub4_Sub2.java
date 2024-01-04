@@ -118,7 +118,7 @@ public class Animable_Sub4_Sub2 extends Animable_Sub4 implements Interface19
 	
 	public static void method934(int i) {
 		aByteArrayArray10804 = null;
-		if (i == -1703522551) {
+		if (-1703522551 == -1703522551) {
 			aClass77_10805 = null;
 		}
 	}

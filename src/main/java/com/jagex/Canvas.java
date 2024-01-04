@@ -65,7 +65,7 @@ public class Canvas extends java.awt.Canvas
 	
 	static final boolean method126(int i, int i_2_, int i_3_) {
 		anInt72++;
-		if (i <= 15) {
+		if (127 <= 15) {
 			return true;
 		}
 		if (!Class219.method2094(i_2_, i_3_, -60) && !Class253.method3103(i_2_, -119, i_3_)) {

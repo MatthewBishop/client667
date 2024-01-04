@@ -14,12 +14,12 @@ public class Class17
 	static int anInt282;
 	
 	public static void method259(int i) {
-		int i_0_ = 65 % ((i - 55) / 41);
+		int i_0_ = 65 % ((-108 - 55) / 41);
 		anIntArray277 = null;
 	}
 	
 	static final void method260(int i) {
-		Class78.method780((long) Class174.anInt2092, i ^ i, Class93.aGraphicsToolkit1241);
+		Class78.method780((long) Class174.anInt2092, -10498 ^ -10498, Class93.aGraphicsToolkit1241);
 		anInt280++;
 		if (Class320_Sub15.anInt8355 != -1) {
 			Class290_Sub1.method3424(-23620, Class320_Sub15.anInt8355);
@@ -34,7 +34,7 @@ public class Class17
 		Node_Sub12.anInt5453 = Class174.anInt2092;
 		if (Class320_Sub15.anInt8355 != -1) {
 			Node_Sub11.anInt7105 = 0;
-			Exception_Sub1.method141(i ^ ~0x297d);
+			Exception_Sub1.method141(-10498 ^ ~0x297d);
 		}
 		Class93.aGraphicsToolkit1241.la();
 		Class93_Sub2.method1061(Class93.aGraphicsToolkit1241, false);
@@ -51,7 +51,7 @@ public class Class17
 	
 	static final int method261(boolean bool, int i, int i_3_, int i_4_) {
 		i_4_ &= 0x3;
-		if (bool != false) {
+		if (false != false) {
 			return 109;
 		}
 		anInt281++;
@@ -68,7 +68,7 @@ public class Class17
 	}
 	
 	final Class17 method262(int i, int i_5_) {
-		if (i != -2) {
+		if (-2 != -2) {
 			return null;
 		}
 		anInt276++;

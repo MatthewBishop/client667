@@ -18,7 +18,7 @@ public class Class271
 			anInflater3480 = new Inflater(true);
 		}
 		try {
-			anInflater3480.setInput(buffer.aByteArray7019, i + buffer.anInt7002, -8 - buffer.anInt7002 - (10 - buffer.aByteArray7019.length));
+			anInflater3480.setInput(buffer.aByteArray7019, 10 + buffer.anInt7002, -8 - buffer.anInt7002 - (10 - buffer.aByteArray7019.length));
 			anInflater3480.inflate(bs);
 		} catch (Exception exception) {
 			anInflater3480.reset();
@@ -30,7 +30,7 @@ public class Class271
 	final byte[] method3312(byte[] bs, boolean bool) {
 		anInt3482++;
 		Buffer buffer = new Buffer(bs);
-		if (bool != true) {
+		if (true != true) {
 			return null;
 		}
 		buffer.anInt7002 = bs.length - 4;

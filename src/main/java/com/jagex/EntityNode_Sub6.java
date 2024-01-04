@@ -20,7 +20,7 @@ public class EntityNode_Sub6 extends EntityNode
 		for (int i_3_ = i_1_; 104 + i_1_ > i_3_; i_3_++) {
 			for (int i_4_ = i_2_; 104 + i_2_ > i_4_; i_4_++) {
 				for (int i_5_ = i; i_5_ <= 3; i_5_++) {
-					if (Class369.method4085(i_4_, i_0_ + -6400, i, i_3_, i_5_)) {
+					if (Class369.method4085(i_4_, 6400 + -6400, i, i_3_, i_5_)) {
 						int i_6_ = i_5_;
 						if (Class238.method3021(i_4_, i_3_, 84)) {
 							i_6_--;
@@ -40,7 +40,7 @@ public class EntityNode_Sub6 extends EntityNode
 			is[i_7_] = -16777216;
 		Class10.aGLSprite172 = graphicstoolkit.method1235(512, 512, 512, is, 0, 7468);
 		Class55.method562((byte) 18);
-		if (i_0_ != 6400) {
+		if (6400 != 6400) {
 			return true;
 		}
 		int i_8_ = 238 + (int) (Math.random() * 20.0) + (-10 + (-10 + (238 - -(int) (Math.random() * 20.0)) << 8) + (-10 + ((int) (20.0 * Math.random()) + 238) << 16)) | ~0xffffff;
@@ -82,7 +82,7 @@ public class EntityNode_Sub6 extends EntityNode
 							for (int i_23_ = -4; Class111.anInt1415 > i_23_; i_23_++) {
 								int i_24_ = i_22_ + i_11_;
 								int i_25_ = i_23_ + i_12_;
-								if (i_24_ >= i_1_ && i_25_ >= i_2_ && Class369.method4085(i_25_, i_0_ + -6400, i, i_24_, i_19_)) {
+								if (i_24_ >= i_1_ && i_25_ >= i_2_ && Class369.method4085(i_25_, 6400 + -6400, i, i_24_, i_19_)) {
 									int i_26_ = i_19_;
 									if (Class238.method3021(i_25_, i_24_, -33)) {
 										i_26_--;
@@ -107,7 +107,7 @@ public class EntityNode_Sub6 extends EntityNode
 							} else if ((i_31_ & 0x800000) != 0) {
 								graphicstoolkit.method1242(-4 + (Class111.anInt1415 + -i_28_) * 4 + i_14_, -1713569622, i_13_ - -(i_27_ * 4), false, 4);
 							} else if ((0x2000000 & i_31_) != 0) {
-								graphicstoolkit.method1243(4, -4 + i_14_ + (-i_28_ + Class111.anInt1415) * 4, -1713569622, 3 + 4 * i_27_ + i_13_, i_0_ + -6398);
+								graphicstoolkit.method1243(4, -4 + i_14_ + (-i_28_ + Class111.anInt1415) * 4, -1713569622, 3 + 4 * i_27_ + i_13_, 6400 + -6398);
 							} else if ((0x8000000 & i_31_) != 0) {
 								graphicstoolkit.method1242(3 + (-i_28_ + Class111.anInt1415) * 4 + (i_14_ + -4), -1713569622, 4 * i_27_ + i_13_, false, 4);
 							} else if ((i_31_ & 0x20000000) != 0) {
@@ -122,7 +122,7 @@ public class EntityNode_Sub6 extends EntityNode
 		}
 		graphicstoolkit.la();
 		graphicstoolkit.GA(-16777215);
-		Class320_Sub21.method3764(i_0_ + -6505);
+		Class320_Sub21.method3764(6400 + -6505);
 		Class283.anInt3590 = 0;
 		Node_Sub47.aClass312_7558.method3614(-601);
 		if (!Class320_Sub3.aBoolean8235) {
@@ -150,7 +150,7 @@ public class EntityNode_Sub6 extends EntityNode
 									if (objectdefinition.anIntArray2984 != null) {
 										for (int i_36_ = 0; i_36_ < objectdefinition.anIntArray2984.length; i_36_++) {
 											if (objectdefinition.anIntArray2984[i_36_] != -1) {
-												ObjectDefinition objectdefinition_37_ = Class186.aClass112_2256.method1145(objectdefinition.anIntArray2984[i_36_], i_0_ ^ 0x1957);
+												ObjectDefinition objectdefinition_37_ = Class186.aClass112_2256.method1145(objectdefinition.anIntArray2984[i_36_], 6400 ^ 0x1957);
 												if (objectdefinition_37_.anInt2994 >= 0) {
 													i_35_ = objectdefinition_37_.anInt2994;
 												}
@@ -216,7 +216,7 @@ public class EntityNode_Sub6 extends EntityNode
 						}
 					}
 				}
-				Class304.aClass215_3834.method2068(i_0_ + -6401, 128, 64);
+				Class304.aClass215_3834.method2068(6400 + -6401, 128, 64);
 				Class4.aClass302_122.anInt3795 = 2;
 				Class4.aClass302_122.method3521((byte) -18);
 			}
@@ -227,7 +227,7 @@ public class EntityNode_Sub6 extends EntityNode
 	public static void method970(int i) {
 		aString5991 = null;
 		aClass299_5988 = null;
-		if (i != 0) {
+		if (0 != 0) {
 			aClass299_5988 = null;
 		}
 	}
@@ -245,7 +245,7 @@ public class EntityNode_Sub6 extends EntityNode
 				anEntityNode_Sub5Array5995[i_52_].anInt5983 >>= i_51_;
 			}
 		}
-		int i_53_ = -42 % ((b - 71) / 34);
+		int i_53_ = -42 % (((byte) 126 - 71) / 34);
 		return false;
 	}
 	
@@ -256,7 +256,7 @@ public class EntityNode_Sub6 extends EntityNode
 	/*synthetic*/ static Class method972(String string) {
 		Class var_class;
 		try {
-			var_class = Class.forName(string);
+			var_class = Class.forName("com.jagex.Interface19");
 		} catch (ClassNotFoundException classnotfoundexception) {
 			throw (NoClassDefFoundError) new NoClassDefFoundError().initCause(classnotfoundexception);
 		}

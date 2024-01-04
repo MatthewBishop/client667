@@ -12,7 +12,7 @@ public class Class47
 	static int[] anIntArray689 = new int[1];
 	
 	private final void method472(Buffer buffer, int i) {
-		aLong687 = buffer.method2235(i + -2023329393);
+		aLong687 = buffer.method2235(17 + -2023329393);
 		anInt685++;
 		aLong684 = buffer.method2235(-2023329376);
 		for (int i_0_ = buffer.method2233(255); i_0_ != 0; i_0_ = buffer.method2233(255)) {
@@ -36,13 +36,13 @@ public class Class47
 			node_sub36.method2756(buffer, -1);
 			aClass312_686.method3625((byte) -54, node_sub36);
 		}
-		if (i != 17) {
+		if (17 != 17) {
 			anIntArray689 = null;
 		}
 	}
 	
 	final void method473(Node_Sub43 node_sub43, boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			aClass312_686 = null;
 		}
 		anInt682++;
@@ -66,7 +66,7 @@ public class Class47
 		anInt683++;
 		CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(3, 17, (long) i_1_);
 		cachenode_sub2.method2291((byte) 121);
-		if (i >= -51) {
+		if (-111 >= -51) {
 			anIntArray689 = null;
 		}
 	}

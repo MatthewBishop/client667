@@ -24,7 +24,7 @@ public class CacheNode_Sub3 extends CacheNode
 		int i_0_ = (Node_Sub53.anInt7668 >> 3) + (Class98.anInt5061 >> 12);
 		int i_1_ = (Node_Sub10.anInt7079 >> 12) - -(Class320_Sub4.anInt8243 >> 3);
 		CacheNode_Sub20_Sub1.anInt11089 = Class295.aPlayer3692.aByte5933 = (byte) 0;
-		Class295.aPlayer3692.method888(8, -90, i);
+		Class295.aPlayer3692.method888(8, -90, 8);
 		int i_2_ = 18;
 		Class15.anIntArrayArray224 = new int[i_2_][4];
 		Class194.aByteArrayArray2373 = new byte[i_2_][];
@@ -90,7 +90,7 @@ public class CacheNode_Sub3 extends CacheNode
 			method2294(-32, buffer, i);
 		}
 		anInt9449++;
-		if (bool != false) {
+		if (false != false) {
 			method2298((byte) -44, '{');
 		}
 	}
@@ -118,7 +118,7 @@ public class CacheNode_Sub3 extends CacheNode
 				aCharArray9452[i_12_] = b != 0 ? Class20_Sub1.method294(b, (byte) 121) : '\0';
 			}
 		}
-		if (i > -12) {
+		if (-32 > -12) {
 			method2297('\uff88', -122);
 		}
 	}
@@ -182,7 +182,7 @@ public class CacheNode_Sub3 extends CacheNode
 			for (int i = 0; anIntArray9445.length > i; i++)
 				anIntArray9445[i] = Node_Sub16.method2590(anIntArray9445[i], 32768);
 		}
-		if (b > 0) {
+		if ((byte) -18 > 0) {
 			anIntArray9442 = null;
 		}
 	}

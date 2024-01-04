@@ -53,7 +53,7 @@ public class Class337 implements Runnable
 	public static void method3903(int i) {
 		aClass52_4181 = null;
 		aClass192_4180 = null;
-		if (i != 30694) {
+		if (30694 != 30694) {
 			aClass192_4180 = null;
 		}
 	}
@@ -83,7 +83,7 @@ public class Class337 implements Runnable
 		if (aClass241_4178.anInt2953 != 1) {
 			return false;
 		}
-		if (i > -103) {
+		if (-106 > -103) {
 			method3902(21, 82);
 		}
 		if (aThread4179 == null) {

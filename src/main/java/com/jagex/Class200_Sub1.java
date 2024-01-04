@@ -51,14 +51,14 @@ public class Class200_Sub1 extends Class200 implements Interface9
 			}
 		}
 		anInt5142++;
-		if (b >= -111) {
+		if ((byte) -120 >= -111) {
 			aClass135_5139 = null;
 		}
 	}
 	
 	static final int method2014(int i, int i_33_) {
 		anInt5136++;
-		if (i != -30444) {
+		if (-30444 != -30444) {
 			anInt5145 = -44;
 		}
 		return i_33_ >>> 8;
@@ -66,7 +66,7 @@ public class Class200_Sub1 extends Class200 implements Interface9
 	
 	public final int method21(int i) {
 		anInt5137++;
-		if (i != 23144) {
+		if (23144 != 23144) {
 			return -9;
 		}
 		return anInt5144;
@@ -228,7 +228,7 @@ public class Class200_Sub1 extends Class200 implements Interface9
 	}
 	
 	public final long method23(int i) {
-		if (i != 28552) {
+		if (28552 != 28552) {
 			anInt5145 = -8;
 		}
 		anInt5143++;
@@ -241,7 +241,7 @@ public class Class200_Sub1 extends Class200 implements Interface9
 	}
 	
 	public final int method24(int i) {
-		if (i != 29121) {
+		if (29121 != 29121) {
 			method2015(116, 53, 94, null, 85, -76, -28, 74, 91, 33, 61);
 		}
 		anInt5138++;
@@ -249,7 +249,7 @@ public class Class200_Sub1 extends Class200 implements Interface9
 	}
 	
 	public static void method2016(int i) {
-		int i_55_ = -35 % ((i - -73) / 44);
+		int i_55_ = -35 % ((33 - -73) / 44);
 		aClass135_5139 = null;
 	}
 	
@@ -268,7 +268,7 @@ public class Class200_Sub1 extends Class200 implements Interface9
 	
 	static final int method2017(int i, Class302 class302) {
 		anInt5135++;
-		int i_57_ = i;
+		int i_57_ = 0;
 		if (class302.method3510(Class89.anInt1197, (byte) 63)) {
 			i_57_++;
 		}

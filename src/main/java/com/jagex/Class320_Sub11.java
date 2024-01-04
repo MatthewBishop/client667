@@ -16,7 +16,7 @@ public class Class320_Sub11 extends Class320 {
 	static int anInt8315;
 
 	final int method3722(boolean flag) {
-		if(flag) {
+		if(false) {
 			return 58;
 		} else {
 			anInt8312++;
@@ -34,7 +34,7 @@ public class Class320_Sub11 extends Class320 {
 
 	static final Class133[] method3723(int i) {
 		anInt8313++;
-		if(i != 0) {
+		if(0 != 0) {
 			anInt8315 = 50;
 		}
 		return (new Class133[] {
@@ -4471,7 +4471,7 @@ public class Class320_Sub11 extends Class320 {
 		if(Node_Sub3.aBoolean6948) {
 			return;
 		}
-		if(i != 0) {
+		if(0 != 0) {
 			return;
 		} else {
 			Node_Sub25_Sub1.aBoolean9950 = true;

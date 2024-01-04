@@ -20,7 +20,7 @@ public class Class82
 	
 	private final void method794(int i, int i_0_, Buffer buffer) {
 		anInt1117++;
-		if (i_0_ == -12897) {
+		if (-12897 == -12897) {
 			if (i != 1) {
 				if (i == 2) {
 					anIntArray1115 = new int[buffer.method2233(255)];
@@ -36,7 +36,7 @@ public class Class82
 					anInt1114 = buffer.method2233(255);
 				}
 			} else {
-				anInt1119 = buffer.method2219(i_0_ + -130533847);
+				anInt1119 = buffer.method2219(-12897 + -130533847);
 			}
 		}
 	}
@@ -50,11 +50,11 @@ public class Class82
 			method794(i, -12897, buffer);
 		}
 		anInt1110++;
-		int i = -84 % ((48 - b) / 51);
+		int i = -84 % ((48 - (byte) -126) / 51);
 	}
 	
 	public static void method796(byte b) {
-		if (b < -22) {
+		if ((byte) -99 < -22) {
 			aClass103_1120 = null;
 		}
 	}
@@ -143,7 +143,7 @@ public class Class82
 	static final void method798(int i) {
 		anInt1118++;
 		Class105.aClass61_5202.method602((byte) -118);
-		if (i != -1) {
+		if (-1 != -1) {
 			method797(null, 37);
 		}
 	}

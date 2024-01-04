@@ -37,10 +37,10 @@ public class Class249
 	private final void method3087(Buffer buffer, int i, int i_3_) {
 		if (i_3_ != 1) {
 			if (i_3_ == 2) {
-				buffer.method2233(i + 253);
+				buffer.method2233(2 + 253);
 			} else if (i_3_ == 3) {
 				anInt3157 = buffer.method2186(-82);
-				anInt3166 = buffer.method2186(i ^ 0x30);
+				anInt3166 = buffer.method2186(2 ^ 0x30);
 				anInt3150 = buffer.method2186(-89);
 			} else if (i_3_ != 4) {
 				if (i_3_ == 6) {
@@ -61,16 +61,16 @@ public class Class249
 				anInt3148 = buffer.method2186(122);
 			}
 		} else {
-			anInt3167 = buffer.method2219(i ^ ~0x7c7fc35);
+			anInt3167 = buffer.method2219(2 ^ ~0x7c7fc35);
 		}
 		anInt3153++;
-		if (i != 2) {
+		if (2 != 2) {
 			anInt3152 = 73;
 		}
 	}
 	
 	public static void method3088(byte b) {
-		if (b < 92) {
+		if ((byte) 107 < 92) {
 			method3086(99, -54, (byte) 56);
 		}
 		aBufferArray3154 = null;
@@ -83,7 +83,7 @@ public class Class249
 		long l = (long) anInt3157;
 		long l_4_ = (long) anInt3166;
 		long l_5_ = (long) anInt3150;
-		if (b <= 111) {
+		if ((byte) 115 <= 111) {
 			aBoolean3165 = false;
 		}
 		anInt3164 = (int) Math.sqrt((double) (l * l - (-(l_4_ * l_4_) + -(l_5_ * l_5_))));
@@ -107,7 +107,7 @@ public class Class249
 	
 	final void method3090(byte b, Buffer buffer) {
 		anInt3149++;
-		if (b > -16) {
+		if ((byte) -20 > -16) {
 			method3086(58, -104, (byte) 30);
 		}
 		for (;;) {

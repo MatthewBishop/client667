@@ -11,7 +11,7 @@ public class Class213_Sub1 extends Class213
 	
 	static final aa_Sub2 method2057(int[] is, int[] is_0_, int i, int i_1_, AbstractToolkit abstracttoolkit, int i_2_) {
 		anInt6912++;
-		if (i != -16777216) {
+		if (-16777216 != -16777216) {
 			return null;
 		}
 		if (abstracttoolkit.method1295(Node_Sub52.aClass68_7639, Class372.aClass372_4594, 1)) {

@@ -23,7 +23,7 @@ public class Class71
 	
 	final void method740(byte b) {
 		synchronized (aClass61_960) {
-			if (b > -49) {
+			if ((byte) -90 > -49) {
 				method745(31);
 			}
 			aClass61_960.method608(false);
@@ -43,7 +43,7 @@ public class Class71
 	}
 	
 	final void method742(int i) {
-		if (i >= -43) {
+		if (-79 >= -43) {
 			aClass318_964 = null;
 		}
 		synchronized (aClass61_960) {

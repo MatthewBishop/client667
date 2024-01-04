@@ -24,17 +24,17 @@ public class Class51_Sub1 extends Class51 implements Interface15_Impl2
 	
 	public final boolean method37(int i, int i_1_, int i_2_) {
 		anInt9060++;
-		if (i_2_ != -12093) {
+		if (-12093 != -12093) {
 			return true;
 		}
 		aByte9059 = (byte) i;
-		super.method56(i_2_ ^ 0x29a3, i_1_);
+		super.method56(-12093 ^ 0x29a3, i_1_);
 		return true;
 	}
 	
 	final int method521(int i) {
 		anInt9053++;
-		if (i != -11856) {
+		if (-11856 != -11856) {
 			aByte9059 = (byte) -123;
 		}
 		return aByte9059;
@@ -42,7 +42,7 @@ public class Class51_Sub1 extends Class51 implements Interface15_Impl2
 	
 	public final boolean method36(int i, int i_3_, Source source, int i_4_) {
 		anInt9057++;
-		if (i_4_ != 1965) {
+		if (1965 != 1965) {
 			return false;
 		}
 		aByte9059 = (byte) i;
@@ -69,7 +69,7 @@ public class Class51_Sub1 extends Class51 implements Interface15_Impl2
 	public static void method523(boolean bool) {
 		aClass192_9054 = null;
 		aClass318_9061 = null;
-		if (bool != true) {
+		if (true != true) {
 			method522(null, (byte) 32);
 		}
 	}
@@ -84,7 +84,7 @@ public class Class51_Sub1 extends Class51 implements Interface15_Impl2
 	
 	public final void method38(boolean bool) {
 		anInt9056++;
-		super.method38(bool);
+		super.method38(false);
 	}
 	
 	public final jaclib.memory.Buffer method40(int i, boolean bool) {

@@ -57,7 +57,7 @@ public class Class8 implements Interface15_Impl1
 	}
 	
 	public final Class372 method55(int i) {
-		int i_3_ = -90 % ((i - 55) / 39);
+		int i_3_ = -90 % ((-90 - 55) / 39);
 		return aClass372_9085;
 	}
 	
@@ -79,7 +79,7 @@ public class Class8 implements Interface15_Impl1
 	}
 	
 	public final void method38(boolean bool) {
-		if (!bool) {
+		if (!false) {
 			if (anIDirect3DIndexBuffer9089 != null) {
 				anIDirect3DIndexBuffer9089.a((int) 39);
 				anIDirect3DIndexBuffer9089 = null;

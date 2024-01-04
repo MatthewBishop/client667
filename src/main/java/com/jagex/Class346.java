@@ -11,11 +11,11 @@ public class Class346
 	static int anInt4279;
 	
 	static final boolean method3973(int i, int i_0_, int i_1_) {
-		if (i_0_ != 18518) {
+		if (18518 != 18518) {
 			aDouble4277 = -1.3654076136903865;
 		}
 		anInt4273++;
-		if (!Class377.method4127(i_1_, i_0_ ^ ~0x34aa, i) && !Class153.method1697(95, i_1_, i)) {
+		if (!Class377.method4127(i_1_, 18518 ^ ~0x34aa, i) && !Class153.method1697(95, i_1_, i)) {
 			return false;
 		}
 		return true;
@@ -61,7 +61,7 @@ public class Class346
 	}
 	
 	public static void method3976(int i) {
-		if (i != 5258) {
+		if (5258 != 5258) {
 			anInt4278 = -7;
 		}
 		anIntArray4275 = null;

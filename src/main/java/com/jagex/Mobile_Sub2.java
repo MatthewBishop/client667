@@ -102,7 +102,7 @@ public class Mobile_Sub2 extends Mobile implements Interface19
 	}
 	
 	private final DrawableModel method902(byte b, GraphicsToolkit graphicstoolkit, int i) {
-		if (b != 69) {
+		if ((byte) 69 != 69) {
 			aBoolean10729 = true;
 		}
 		anInt10713++;
@@ -160,7 +160,7 @@ public class Mobile_Sub2 extends Mobile implements Interface19
 	
 	final int method903(int i) {
 		anInt10706++;
-		if (i >= -20) {
+		if (-78 >= -20) {
 			anInt10722 = 47;
 		}
 		if (aDrawableModel10724 == null) {

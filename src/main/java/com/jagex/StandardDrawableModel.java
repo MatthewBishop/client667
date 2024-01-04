@@ -805,7 +805,7 @@ public class StandardDrawableModel extends DrawableModel
 		if (aClass347_5828 != null) {
 			aClass347_5828.aBoolean4287 = false;
 		}
-		if (i != 4259) {
+		if (4259 != 4259) {
 			ba(null);
 		}
 		anInt5895++;
@@ -920,9 +920,9 @@ public class StandardDrawableModel extends DrawableModel
 			aClass347_5852.method3977(-17311);
 		}
 		if (aClass347_5908 != null) {
-			aClass347_5908.method3977(i + -17311);
+			aClass347_5908.method3977(0 + -17311);
 		}
-		if (i != 0) {
+		if (0 != 0) {
 			anInt5909 = 88;
 		}
 		if (aClass333_5808 != null) {
@@ -939,9 +939,9 @@ public class StandardDrawableModel extends DrawableModel
 			aClass333_5808.anInterface15_Impl1_4147 = anAbstractToolkit5916.method1346(aBoolean5880, (byte) 102);
 		}
 		Interface15_Impl1 interface15_impl1 = aClass333_5808.anInterface15_Impl1_4147;
-		interface15_impl1.method56(i ^ ~0x69f, anInt5859 * 6);
+		interface15_impl1.method56(0 ^ ~0x69f, anInt5859 * 6);
 		jaclib.memory.Buffer buffer = interface15_impl1.method54(true, (byte) 119);
-		if (i != 0) {
+		if (0 != 0) {
 			method695(-5, -84, -0.8228106F, -106, -127, 35, -100, 0.8634375F, 8L, -2, null);
 		}
 		if (buffer != null) {
@@ -971,12 +971,12 @@ public class StandardDrawableModel extends DrawableModel
 	}
 	
 	private final void method692(int i) {
-		if (i == -449434265) {
+		if (-449434265 == -449434265) {
 			anInt5824++;
 			if (aClass268Array5856 != null) {
 				anAbstractToolkit5916.C(!aBoolean5819);
-				anAbstractToolkit5916.method1296(i ^ ~0x1ac9d2e6, false);
-				anAbstractToolkit5916.method1304(1, i ^ ~0x1ac9d298, Node_Sub35.aClass135_7421);
+				anAbstractToolkit5916.method1296(-449434265 ^ ~0x1ac9d2e6, false);
+				anAbstractToolkit5916.method1304(1, -449434265 ^ ~0x1ac9d298, Node_Sub35.aClass135_7421);
 				anAbstractToolkit5916.method1366((byte) -81, Node_Sub35.aClass135_7421, 1);
 				for (int i_163_ = 0; i_163_ < anInt5811; i_163_++) {
 					Class268 class268 = aClass268Array5856[i_163_];
@@ -996,7 +996,7 @@ public class StandardDrawableModel extends DrawableModel
 						int i_170_ = class14.anInt220;
 						anAbstractToolkit5916.method1332(3, false, class268.aShort3460, false);
 						anAbstractToolkit5916.method1277((byte) 61, class268.aByte3462);
-						anAbstractToolkit5916.method1336(i + 449434263, i_170_);
+						anAbstractToolkit5916.method1336(-449434265 + 449434263, i_170_);
 						anAbstractToolkit5916.method1283((byte) -128);
 					}
 				}
@@ -1253,7 +1253,7 @@ public class StandardDrawableModel extends DrawableModel
 		Node_Sub36_Sub4.aFloat10072 = class336_sub1_206_.aFloat8535 * class336_sub1.aFloat8508 + (class336_sub1.aFloat8531 * class336_sub1_206_.aFloat8544 + class336_sub1.aFloat8538 * class336_sub1_206_.aFloat8538);
 		Class163.aFloat2013 = class336_sub1_206_.aFloat8531 * class336_sub1.aFloat8544 + class336_sub1.aFloat8530 * class336_sub1_206_.aFloat8530 + class336_sub1_206_.aFloat8529 * class336_sub1.aFloat8547;
 		float f_208_ = class336_sub1_206_.aFloat8542 + (class336_sub1.aFloat8542 * class336_sub1_206_.aFloat8556 + (class336_sub1_206_.aFloat8547 * class336_sub1.aFloat8550 + class336_sub1.aFloat8521 * class336_sub1_206_.aFloat8508));
-		boolean bool_209_ = bool;
+		boolean bool_209_ = false;
 		float f_210_ = 3.4028235E38F;
 		float f_211_ = -3.4028235E38F;
 		float f_212_ = 3.4028235E38F;
@@ -2213,7 +2213,7 @@ public class StandardDrawableModel extends DrawableModel
 	
 	private final void method694(int i) {
 		anInt5873++;
-		if ((anInt5896 & 0x37 ^ 0xffffffff) != i) {
+		if ((anInt5896 & 0x37 ^ 0xffffffff) != -1) {
 			if (aClass347_5908 != null) {
 				aClass347_5908.aBoolean4287 = false;
 			}
@@ -2375,7 +2375,7 @@ public class StandardDrawableModel extends DrawableModel
 		if (i_568_ > i_563_ && i_567_ > i_563_ && i_565_ > i_563_) {
 			return false;
 		}
-		if (b != 37) {
+		if ((byte) 37 != 37) {
 			return false;
 		}
 		if (i_568_ < i_563_ && i_563_ > i_567_ && i_563_ > i_565_) {
@@ -2669,7 +2669,7 @@ public class StandardDrawableModel extends DrawableModel
 			for (int i_616_ = 0; anInt5813 > i_616_; i_616_++)
 				standarddrawablemodel_609_.aShortArray5802[i_616_] = aShortArray5802[i_616_];
 		}
-		if (Class234.method2150(anInt5896, i_610_ ^ ~0x100, i)) {
+		if (Class234.method2150(anInt5896, -1 ^ ~0x100, i)) {
 			if (standarddrawablemodel_607_.aByteArray5886 == null || standarddrawablemodel_607_.aByteArray5886.length < anInt5813) {
 				standarddrawablemodel_609_.aByteArray5886 = standarddrawablemodel_607_.aByteArray5886 = new byte[anInt5813];
 			} else {
@@ -2750,7 +2750,7 @@ public class StandardDrawableModel extends DrawableModel
 		} else {
 			standarddrawablemodel_609_.aClass347_5908 = aClass347_5908;
 		}
-		if (Class219.method2094(i, anInt5896, i_610_ + -97)) {
+		if (Class219.method2094(i, anInt5896, -1 + -97)) {
 			if (standarddrawablemodel_607_.aFloatArray5875 == null || anInt5813 > standarddrawablemodel_607_.aFloatArray5875.length) {
 				int i_622_ = anInt5885;
 				standarddrawablemodel_609_.aFloatArray5875 = standarddrawablemodel_607_.aFloatArray5875 = new float[i_622_];
@@ -2798,8 +2798,8 @@ public class StandardDrawableModel extends DrawableModel
 			standarddrawablemodel_609_.aShortArray5841 = aShortArray5841;
 			standarddrawablemodel_609_.aShortArray5846 = aShortArray5846;
 		}
-		if (!GraphicsBuffer.method2596(i_610_, i, anInt5896)) {
-			if (Node_Sub9_Sub4.method2522(i_610_ + 1, i, anInt5896)) {
+		if (!GraphicsBuffer.method2596(-1, i, anInt5896)) {
+			if (Node_Sub9_Sub4.method2522(-1 + 1, i, anInt5896)) {
 				standarddrawablemodel_609_.aClass333_5808 = aClass333_5808;
 			} else {
 				standarddrawablemodel_609_.aClass333_5808 = null;
@@ -2810,7 +2810,7 @@ public class StandardDrawableModel extends DrawableModel
 			standarddrawablemodel_609_.aClass333_5808.anInterface15_Impl1_4151 = aClass333_5808.anInterface15_Impl1_4151;
 			standarddrawablemodel_609_.aClass333_5808.aBoolean4148 = true;
 		}
-		if (!Class294.method3466(i, i_610_, anInt5896)) {
+		if (!Class294.method3466(i, -1, anInt5896)) {
 			standarddrawablemodel_609_.aShortArray5862 = aShortArray5862;
 		} else {
 			if (standarddrawablemodel_607_.aShortArray5862 != null && standarddrawablemodel_607_.aShortArray5862.length >= anInt5813) {
@@ -2871,7 +2871,7 @@ public class StandardDrawableModel extends DrawableModel
 		anInt5840++;
 		if (aBoolean5826) {
 			aBoolean5826 = false;
-			if (aClass300Array5905 == null && aClass218Array5817 == null && aClass268Array5856 == null && !Node_Sub38_Sub1.method2792(anInt5896, anInt5881, i ^ ~0x40000)) {
+			if (aClass300Array5905 == null && aClass218Array5817 == null && aClass268Array5856 == null && !Node_Sub38_Sub1.method2792(anInt5896, anInt5881, 262144 ^ ~0x40000)) {
 				boolean bool = false;
 				boolean bool_631_ = false;
 				if (anIntArray5879 != null && !Class304.method3545(anInt5881, 10215, anInt5896)) {
@@ -2955,8 +2955,8 @@ public class StandardDrawableModel extends DrawableModel
 					aShortArray5862 = null;
 				}
 			}
-			if (aShortArray5841 != null && !CacheNode_Sub14_Sub2.method2352(i + -262144, anInt5881, anInt5896)) {
-				if (aClass333_5808 != null && !aClass333_5808.method3847(i + -254147) || aClass347_5852 != null && !aClass347_5852.method3979((byte) -101)) {
+			if (aShortArray5841 != null && !CacheNode_Sub14_Sub2.method2352(262144 + -262144, anInt5881, anInt5896)) {
+				if (aClass333_5808 != null && !aClass333_5808.method3847(262144 + -254147) || aClass347_5852 != null && !aClass347_5852.method3979((byte) -101)) {
 					aBoolean5826 = true;
 				} else {
 					aShortArray5841 = aShortArray5846 = aShortArray5906 = null;
@@ -2976,7 +2976,7 @@ public class StandardDrawableModel extends DrawableModel
 					aBoolean5826 = true;
 				}
 			}
-			if (anIntArrayArray5900 != null && !EntityNode_Sub3.method940(i ^ ~0x40000, anInt5896, anInt5881)) {
+			if (anIntArrayArray5900 != null && !EntityNode_Sub3.method940(262144 ^ ~0x40000, anInt5896, anInt5881)) {
 				aShortArray5861 = null;
 				anIntArrayArray5900 = null;
 			}
@@ -2992,7 +2992,7 @@ public class StandardDrawableModel extends DrawableModel
 				anIntArray5835 = null;
 				anIntArray5884 = null;
 			}
-			if (i != 262144) {
+			if (262144 != 262144) {
 				wa();
 			}
 		}
@@ -3054,7 +3054,7 @@ public class StandardDrawableModel extends DrawableModel
 	
 	public static void method699(byte b) {
 		aClass192_5878 = null;
-		if (b != -39) {
+		if ((byte) -39 != -39) {
 			anInt5918 = -101;
 		}
 	}
@@ -3082,7 +3082,7 @@ public class StandardDrawableModel extends DrawableModel
 	static final void method700(int i) {
 		anInt5907++;
 		Node.aClass61_2795.method608(false);
-		if (i != -1) {
+		if (-1 != -1) {
 			anInt5918 = -47;
 		}
 		Class62.aClass61_904.method608(false);
@@ -3312,7 +3312,7 @@ public class StandardDrawableModel extends DrawableModel
 	}
 	
 	private final void method702(int i) {
-		if (i >= -66) {
+		if (-115 >= -66) {
 			method688((byte) -92);
 		}
 		if (aClass333_5808 != null) {
@@ -3466,7 +3466,7 @@ public class StandardDrawableModel extends DrawableModel
 				Class365.anIntArray4525[i_728_] = i_724_;
 			}
 		}
-		if (i != -873913272) {
+		if (-873913272 != -873913272) {
 			method620();
 		}
 		for (int i_729_ = 0; anInt5859 > i_729_; i_729_++) {
@@ -3571,20 +3571,20 @@ public class StandardDrawableModel extends DrawableModel
 	private final void method706(int i) {
 		anInt5917++;
 		if (anInt5859 != 0) {
-			if (i != 65535) {
+			if (65535 != 65535) {
 				method703(-68);
 			}
 			if (method688((byte) 60) && method691(0)) {
-				anAbstractToolkit5916.method1354(0, i ^ 0x82f4, aClass347_5828.anInterface15_Impl2_4288);
+				anAbstractToolkit5916.method1354(0, 65535 ^ 0x82f4, aClass347_5828.anInterface15_Impl2_4288);
 				anAbstractToolkit5916.method1354(1, 32011, aClass347_5852.anInterface15_Impl2_4288);
 				anAbstractToolkit5916.method1354(2, 32011, aClass347_5822.anInterface15_Impl2_4288);
 				boolean bool;
 				if ((anInt5896 & 0x37) == 0) {
 					bool = false;
-					anAbstractToolkit5916.method1296(i ^ 0xff85, false);
+					anAbstractToolkit5916.method1296(65535 ^ 0xff85, false);
 					anAbstractToolkit5916.method1338(anAbstractToolkit5916.aClass213_6385, 9422);
 				} else {
-					anAbstractToolkit5916.method1296(i + -65412, true);
+					anAbstractToolkit5916.method1296(65535 + -65412, true);
 					bool = true;
 					anAbstractToolkit5916.method1354(3, 32011, aClass347_5908.anInterface15_Impl2_4288);
 					anAbstractToolkit5916.method1338(anAbstractToolkit5916.aClass213_6382, 9422);

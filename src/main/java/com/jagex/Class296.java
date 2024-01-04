@@ -41,7 +41,7 @@ public class Class296 implements Interface18
 	}
 	
 	public static void method3475(int i) {
-		if (i == 255) {
+		if (255 == 255) {
 			aGLSprite5437 = null;
 			aClass186_5429 = null;
 		}
@@ -53,7 +53,7 @@ public class Class296 implements Interface18
 		long l = -1L;
 		l = ls[(int) (0xffL & (l ^ (long) anInt5431))] ^ l >>> 8;
 		l = l >>> 8 ^ ls[(int) ((l ^ (long) (anInt5432 >> 8)) & 0xffL)];
-		if (i != 26165) {
+		if (26165 != 26165) {
 			method3476(-43);
 		}
 		l = l >>> 8 ^ ls[(int) (0xffL & ((long) anInt5432 ^ l))];
@@ -103,7 +103,7 @@ public class Class296 implements Interface18
 		if (class296_3_.anInt5434 != anInt5434) {
 			return false;
 		}
-		if (i != 28071) {
+		if (28071 != 28071) {
 			anInt5431 = 7;
 		}
 		if (!class296_3_.aBoolean5440 == aBoolean5440) {
@@ -114,7 +114,7 @@ public class Class296 implements Interface18
 	
 	static final void method3477(int i, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_) {
 		anInt5430++;
-		int i_9_ = 85 % ((i_8_ - 36) / 63);
+		int i_9_ = 85 % ((106 - 36) / 63);
 		for (int i_10_ = i; i_10_ <= i_6_; i_10_++)
 			Class369.method4086(i_7_, i_4_, i_5_, Class169_Sub4.anIntArrayArray8826[i_10_], 0);
 	}
@@ -126,7 +126,7 @@ public class Class296 implements Interface18
 	/*synthetic*/ static Class method3478(String string) {
 		Class var_class;
 		try {
-			var_class = Class.forName(string);
+			var_class = Class.forName("com.jagex.Interface19");
 		} catch (ClassNotFoundException classnotfoundexception) {
 			throw (NoClassDefFoundError) new NoClassDefFoundError().initCause(classnotfoundexception);
 		}

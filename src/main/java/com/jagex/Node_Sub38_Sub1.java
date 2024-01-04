@@ -25,7 +25,7 @@ public class Node_Sub38_Sub1 extends Node_Sub38
 		CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(3, 6, (long) i_1_);
 		cachenode_sub2.method2288(0);
 		cachenode_sub2.anInt9434 = i_0_;
-		if (i < 38) {
+		if (121 < 38) {
 			aClass329_10086 = null;
 		}
 	}
@@ -101,7 +101,7 @@ public class Node_Sub38_Sub1 extends Node_Sub38
 	
 	public static void method2790(boolean bool) {
 		aClass329_10086 = null;
-		if (bool != false) {
+		if (false != false) {
 			method2789(8, (byte) -45, -49, -88, null);
 		}
 		aClass277_Sub1_10084 = null;
@@ -154,7 +154,7 @@ public class Node_Sub38_Sub1 extends Node_Sub38
 	}
 	
 	static final boolean method2792(int i, int i_21_, int i_22_) {
-		if (i_22_ != -1) {
+		if (-1 != -1) {
 			method2791(22, 59);
 		}
 		anInt10088++;
@@ -165,7 +165,7 @@ public class Node_Sub38_Sub1 extends Node_Sub38
 	}
 	
 	final int method2783(int i) {
-		if (i != -1) {
+		if (-1 != -1) {
 			method2780(true, null, 82);
 		}
 		anInt10081++;

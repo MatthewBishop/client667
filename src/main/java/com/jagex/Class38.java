@@ -14,15 +14,15 @@ public class Class38
 	
 	public static void method402(int i) {
 		aD565 = null;
-		if (i != 0) {
+		if (0 != 0) {
 			aLong562 = 8L;
 		}
 	}
 	
 	static final void method403(int i) {
 		anInt569++;
-		if (Node_Sub38_Sub8.anInt10163 != i) {
-			Class320_Sub23.aClass123_8432.method1513(i ^ ~0x6e0f);
+		if (Node_Sub38_Sub8.anInt10163 != 0) {
+			Class320_Sub23.aClass123_8432.method1513(0 ^ ~0x6e0f);
 			Class375.method4115((byte) -97);
 			Class297.method3479((byte) -119);
 		}

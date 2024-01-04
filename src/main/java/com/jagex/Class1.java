@@ -23,7 +23,7 @@ public class Class1
 		anInt114++;
 		boolean bool = false;
 		for (;;) {
-			int i_0_ = buffer.method2233(i + -9945);
+			int i_0_ = buffer.method2233(10200 + -9945);
 			if (i_0_ == 0) {
 				break;
 			}
@@ -34,7 +34,7 @@ public class Class1
 							if (i_0_ == 5) {
 								anInt120 = buffer.method2220(1819759595);
 							} else if (i_0_ == 6) {
-								anInt112 = buffer.method2220(i ^ 0x6c777433);
+								anInt112 = buffer.method2220(10200 ^ 0x6c777433);
 							} else if (i_0_ == 7) {
 								aShortArrayArrayArray113 = new short[10][4][];
 								aShortArrayArray106 = new short[10][4];
@@ -48,7 +48,7 @@ public class Class1
 										int i_4_ = buffer.method2219(-130546744);
 										aShortArrayArrayArray113[i_1_][i_2_] = new short[i_4_];
 										for (int i_5_ = 0; i_4_ > i_5_; i_5_++) {
-											int i_6_ = buffer.method2219(i ^ ~0x7c7dbef);
+											int i_6_ = buffer.method2219(10200 ^ ~0x7c7dbef);
 											if (i_6_ == 65535) {
 												i_6_ = -1;
 											}
@@ -86,8 +86,8 @@ public class Class1
 				}
 				bool = true;
 				for (int i_7_ = 0; i_7_ < anIntArray119.length; i_7_++) {
-					anIntArray119[i_7_] = buffer.method2193(Node_Sub19.method2612(i, -10172));
-					anIntArray108[i_7_] = buffer.method2193(i + -10231);
+					anIntArray119[i_7_] = buffer.method2193(Node_Sub19.method2612(10200, -10172));
+					anIntArray108[i_7_] = buffer.method2193(10200 + -10231);
 				}
 			}
 		}
@@ -102,7 +102,7 @@ public class Class1
 				anIntArray108[i_8_] = i_8_ * 20;
 			}
 		}
-		if (i != 10200) {
+		if (10200 != 10200) {
 			method164(null, (byte) -62, -57);
 		}
 	}
@@ -118,7 +118,7 @@ public class Class1
 	}
 	
 	public static void method165(byte b) {
-		if (b < -78) {
+		if ((byte) -112 < -78) {
 			anIntArray109 = null;
 		}
 	}

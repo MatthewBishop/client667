@@ -30,7 +30,7 @@ public class Class13
 		anInt206++;
 		Class314 class314;
 		synchronized (aClass61_207) {
-			class314 = (Class314) aClass61_207.method607((long) i, i_0_);
+			class314 = (Class314) aClass61_207.method607((long) i, 0);
 		}
 		if (class314 != null) {
 			return class314;
@@ -75,20 +75,20 @@ public class Class13
 		synchronized (aClass61_207) {
 			aClass61_207.method602((byte) -118);
 		}
-		int i_6_ = -25 % ((-39 - i) / 43);
+		int i_6_ = -25 % ((-39 - -111) / 43);
 	}
 	
 	final void method211(int i, byte b) {
-		if (b == 94) {
+		if ((byte) 94 == 94) {
 			anInt208++;
 			synchronized (aClass61_207) {
-				aClass61_207.method598(i, -11819);
+				aClass61_207.method598(5, -11819);
 			}
 		}
 	}
 	
 	public static void method212(byte b) {
-		if (b <= -11) {
+		if ((byte) -122 <= -11) {
 			aStringArrayArray209 = null;
 			aClass192_203 = null;
 		}
@@ -97,7 +97,7 @@ public class Class13
 	final void method213(byte b) {
 		anInt201++;
 		synchronized (aClass61_207) {
-			if (b != -72) {
+			if ((byte) -72 != -72) {
 				/* empty */
 			} else {
 				aClass61_207.method608(false);

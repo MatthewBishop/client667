@@ -23,7 +23,7 @@ public class Class191
 			Class3.anInt5161 = i;
 			CacheNode_Sub9.aClass216_9498 = Class216.aClass216_2546;
 		}
-		int i_1_ = 73 % ((-6 - i_0_) / 63);
+		int i_1_ = 73 % ((-6 - 73) / 63);
 		if (Class216.aClass216_2546 == CacheNode_Sub9.aClass216_9498) {
 			byte[] bs = Node_Sub15_Sub10.aClass302_9853.method3518((byte) 113, i);
 			if (bs == null) {
@@ -89,10 +89,10 @@ public class Class191
 		int i_17_ = player.anIntArray10910[0];
 		int i_18_ = player.anIntArray10908[0];
 		if (i_17_ >= 0 && i_17_ < Node_Sub54.anInt7675 && i_18_ >= 0 && Class377_Sub1.anInt8774 > i_18_ && (i >= 0 && i < Node_Sub54.anInt7675 && i_16_ >= 0 && Class377_Sub1.anInt8774 > i_16_)) {
-			int i_19_ = Class275.method3332(i_16_, player.method853((byte) 65), bool, 0, i_17_, 0, Class258.anIntArray5289, (byte) -41, 0, i_18_, -4, Class304.aClass84Array3833[player.aByte5933], Class328_Sub1.anIntArray8504, i, 0);
+			int i_19_ = Class275.method3332(i_16_, player.method853((byte) 65), true, 0, i_17_, 0, Class258.anIntArray5289, (byte) -41, 0, i_18_, -4, Class304.aClass84Array3833[player.aByte5933], Class328_Sub1.anIntArray8504, i, 0);
 			if (i_19_ >= 1 && i_19_ <= 3) {
 				for (int i_20_ = 0; i_20_ < i_19_ + -1; i_20_++)
-					player.method887(-24527, Class258.anIntArray5289[i_20_], Class328_Sub1.anIntArray8504[i_20_], b);
+					player.method887(-24527, Class258.anIntArray5289[i_20_], Class328_Sub1.anIntArray8504[i_20_], (byte) 2);
 			}
 		}
 	}
@@ -100,7 +100,7 @@ public class Class191
 	static final String method1947(int i, int i_21_) {
 		anInt2347++;
 		String string = Integer.toString(i_21_);
-		for (int i_22_ = string.length() - i; i_22_ > 0; i_22_ -= 3)
+		for (int i_22_ = string.length() - 3; i_22_ > 0; i_22_ -= 3)
 			string = string.substring(0, i_22_) + "," + string.substring(i_22_);
 		if (string.length() > 9) {
 			return " <col=00ff80>" + string.substring(0, -8 + string.length()) + Class22.aClass22_396.method297(-12273, Class35.anInt537) + " (" + string + ")</col>";
@@ -153,7 +153,7 @@ public class Class191
 			}
 		}
 		anInt2345++;
-		if (i != -14) {
+		if (-14 != -14) {
 			method1945(-56, 114);
 		}
 		return bs;
@@ -162,7 +162,7 @@ public class Class191
 	public static void method1950(boolean bool) {
 		aString2350 = null;
 		aClass139_2349 = null;
-		if (bool != false) {
+		if (false != false) {
 			aString2350 = null;
 		}
 	}
@@ -198,7 +198,7 @@ public class Class191
 				}
 			}
 		}
-		if (i != 30664) {
+		if (30664 != 30664) {
 			return null;
 		}
 		return ses;

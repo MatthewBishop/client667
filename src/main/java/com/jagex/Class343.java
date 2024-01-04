@@ -35,7 +35,7 @@ public class Class343
 	
 	public static void method3963(int i) {
 		aShortArray4255 = null;
-		if (i != -28381) {
+		if (-28381 != -28381) {
 			anInt4252 = 59;
 		}
 	}
@@ -56,7 +56,7 @@ public class Class343
 	
 	final void method3965(Buffer buffer, boolean bool) {
 		aFloat4244 = (float) (8 * buffer.method2233(255)) / 255.0F;
-		if (bool != true) {
+		if (true != true) {
 			method3962(null, -51, 80, null);
 		}
 		anInt4242++;
@@ -67,7 +67,7 @@ public class Class343
 	final void method3966(Buffer buffer, int i) {
 		anInt4241++;
 		int i_6_ = buffer.method2233(255);
-		if (i != 24176) {
+		if (24176 != 24176) {
 			method3964(null, -46);
 		}
 		if (Class213.aNode_Sub27_2512.aClass320_Sub24_7317.method3773(false) != 1 || Class229.aGraphicsToolkit2732.e() <= 0) {
@@ -91,7 +91,7 @@ public class Class343
 			if ((i_6_ & 0x1) == 0) {
 				anInt4253 = Class42.anInt649;
 			} else {
-				anInt4253 = buffer.method2186(i + -24070);
+				anInt4253 = buffer.method2186(24176 + -24070);
 			}
 			if ((0x2 & i_6_) == 0) {
 				aFloat4254 = 1.1523438F;
@@ -106,12 +106,12 @@ public class Class343
 			if ((i_6_ & 0x8) == 0) {
 				aFloat4250 = 1.2F;
 			} else {
-				aFloat4250 = (float) buffer.method2219(i ^ ~0x7c7a247) / 256.0F;
+				aFloat4250 = (float) buffer.method2219(24176 ^ ~0x7c7a247) / 256.0F;
 			}
 		}
 		if ((0x10 & i_6_) != 0) {
 			anInt4249 = buffer.method2193(-92);
-			anInt4247 = buffer.method2193(i ^ ~0x5e6d);
+			anInt4247 = buffer.method2193(24176 ^ ~0x5e6d);
 			anInt4248 = buffer.method2193(-104);
 		} else {
 			anInt4249 = -50;
@@ -131,9 +131,9 @@ public class Class343
 		if ((0x80 & i_6_) != 0) {
 			int i_7_ = buffer.method2219(-130546744);
 			int i_8_ = buffer.method2219(-130546744);
-			int i_9_ = buffer.method2219(i ^ ~0x7c7a247);
+			int i_9_ = buffer.method2219(24176 ^ ~0x7c7a247);
 			int i_10_ = buffer.method2219(-130546744);
-			int i_11_ = buffer.method2219(i ^ ~0x7c7a247);
+			int i_11_ = buffer.method2219(24176 ^ ~0x7c7a247);
 			int i_12_ = buffer.method2219(-130546744);
 			aClass270_4240 = Class320_Sub14.method3736(i_11_, -98, i_8_, i_9_, i_10_, i_12_, i_7_);
 		} else {
@@ -142,7 +142,7 @@ public class Class343
 	}
 	
 	static final boolean method3967(int i, int i_13_, int i_14_) {
-		if (i_14_ < 10) {
+		if (77 < 10) {
 			aShortArray4255 = null;
 		}
 		anInt4243++;
@@ -154,7 +154,7 @@ public class Class343
 	
 	final boolean method3968(byte b, Class343 class343_15_) {
 		anInt4246++;
-		int i = 39 / ((b - -4) / 42);
+		int i = 39 / (((byte) 97 - -4) / 42);
 		if (anInt4253 != class343_15_.anInt4253 || class343_15_.aFloat4254 != aFloat4254 || aFloat4256 != class343_15_.aFloat4256 || aFloat4250 != class343_15_.aFloat4250 || class343_15_.aFloat4239 != aFloat4239 || aFloat4244 != class343_15_.aFloat4244 || aFloat4251 != class343_15_.aFloat4251 || class343_15_.anInt4257 != anInt4257 || anInt4258 != class343_15_.anInt4258 || class343_15_.aClass270_4240 != aClass270_4240 || class343_15_.aClass119_4238 != aClass119_4238) {
 			return false;
 		}

@@ -44,7 +44,7 @@ public class Class338
 		}
 		anInt4194++;
 		synchronized (aClass61_4200) {
-			if (b != -101) {
+			if ((byte) -101 != -101) {
 				/* empty */
 			} else {
 				aClass61_4200.method602((byte) -124);
@@ -53,7 +53,7 @@ public class Class338
 	}
 	
 	final void method3908(int i) {
-		if (i != -32478) {
+		if (-32478 != -32478) {
 			aClass61_4200 = null;
 		}
 		synchronized (aClass61_4189) {
@@ -76,12 +76,12 @@ public class Class338
 		}
 		byte[] bs;
 		synchronized (aClass302_4192) {
-			bs = aClass302_4192.method3524(false, i, i_7_);
+			bs = aClass302_4192.method3524(false, i, 34);
 		}
 		class140 = new Class140();
 		class140.aClass338_1733 = this;
 		if (bs != null) {
-			class140.method1611(new Buffer(bs), i_7_ ^ ~0x7f8c);
+			class140.method1611(new Buffer(bs), 34 ^ ~0x7f8c);
 		}
 		synchronized (aClass61_4189) {
 			aClass61_4189.method601(class140, 25566, (long) i);
@@ -90,7 +90,7 @@ public class Class338
 	}
 	
 	public static void method3910(int i) {
-		if (i < 96) {
+		if (107 < 96) {
 			aClass318_4198 = null;
 		}
 		aClass192_4201 = null;
@@ -102,7 +102,7 @@ public class Class338
 	
 	static final boolean method3911(int i, int i_8_, int i_9_) {
 		anInt4195++;
-		if (i_9_ != 24987) {
+		if (24987 != 24987) {
 			method3906(null, 46);
 		}
 		if (!((i & 0x800) != 0 | Class150_Sub3.method1663((byte) -21, i, i_8_)) && !Class110.method1135(i, i_8_, false)) {
@@ -122,7 +122,7 @@ public class Class338
 	
 	static final void method3913(int i, Node_Sub47 node_sub47, int i_12_, int i_13_, byte b, int i_14_) {
 		anInt4185++;
-		if ((node_sub47.anInt7564 != -1 || node_sub47.anIntArray7579 != null) && b == 54) {
+		if ((node_sub47.anInt7564 != -1 || node_sub47.anIntArray7579 != null) && (byte) 54 == 54) {
 			int i_15_ = 0;
 			int i_16_ = node_sub47.anInt7570 * Class213.aNode_Sub27_2512.aClass320_Sub25_7265.method3776(false) >> 8;
 			if (node_sub47.anInt7582 < i_13_) {
@@ -261,13 +261,13 @@ public class Class338
 	final void method3914(int i, int i_29_) {
 		anInt4187++;
 		synchronized (aClass61_4189) {
-			if (i_29_ != 34) {
+			if (34 != 34) {
 				aClass302_4192 = null;
 			}
-			aClass61_4189.method598(i, i_29_ + -11853);
+			aClass61_4189.method598(5, 34 + -11853);
 		}
 		synchronized (aClass61_4200) {
-			aClass61_4200.method598(i, -11819);
+			aClass61_4200.method598(5, -11819);
 		}
 	}
 	

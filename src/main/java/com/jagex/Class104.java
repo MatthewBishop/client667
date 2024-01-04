@@ -27,7 +27,7 @@ public class Class104
 		}
 		Actor actor = null;
 		int i_6_ = -1;
-		if (i_5_ != 252) {
+		if (252 != 252) {
 			return null;
 		}
 		for (Class256 class256 = class261.aClass256_3312; class256 != null; class256 = class256.aClass256_3238) {

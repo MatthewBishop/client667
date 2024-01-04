@@ -48,7 +48,7 @@ public class Class327 implements Interface16
 	}
 	
 	public static void method3824(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			method3823(90, -76);
 		}
 		anIntArray5348 = null;
@@ -61,12 +61,12 @@ public class Class327 implements Interface16
 		}
 		anInt5355++;
 		aGraphicsToolkit5356.GA(0);
-		if (i == 1939) {
+		if (1939 == 1939) {
 			Interface10[] interface10s = anInterface10Array5357;
 			for (int i_1_ = 0; i_1_ < interface10s.length; i_1_++) {
 				Interface10 interface10 = interface10s[i_1_];
 				if (interface10 != null) {
-					interface10.method26(i + -1840);
+					interface10.method26(1939 + -1840);
 				}
 			}
 		}
@@ -76,7 +76,7 @@ public class Class327 implements Interface16
 		anInt5351++;
 		int i_2_ = 0;
 		Interface10[] interface10s = anInterface10Array5357;
-		if (i != 27285) {
+		if (27285 != 27285) {
 			anInterface10Array5357 = null;
 		}
 		for (int i_3_ = 0; interface10s.length > i_3_; i_3_++) {
@@ -112,7 +112,7 @@ public class Class327 implements Interface16
 	}
 	
 	public final void method59(int i) {
-		if (i != 6312) {
+		if (6312 != 6312) {
 			anInterface10Array5357 = null;
 		}
 		anInt5350++;

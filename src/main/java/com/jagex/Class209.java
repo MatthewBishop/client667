@@ -18,7 +18,7 @@ public class Class209
 	
 	public static void method2048(boolean bool) {
 		aClass353_2483 = null;
-		if (bool != true) {
+		if (true != true) {
 			method2048(true);
 		}
 	}

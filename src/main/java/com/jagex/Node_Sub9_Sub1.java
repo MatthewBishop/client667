@@ -126,9 +126,9 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 	private final synchronized void method2434(byte b, boolean bool) {
 		anInt9645++;
 		aClass27_9666.method319();
-		if (b == 87) {
+		if ((byte) 87 == 87) {
 			aNode_Sub4_9705 = null;
-			method2465(b ^ 0x2d, bool);
+			method2465((byte) 87 ^ 0x2d, bool);
 		}
 	}
 	
@@ -160,7 +160,7 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 	
 	final synchronized void method2435(boolean bool) {
 		anInt9694++;
-		if (bool == false) {
+		if (false == false) {
 			method2434((byte) 87, true);
 		}
 	}
@@ -177,7 +177,7 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 			aClass27_9666.method329(i_9_);
 			aClass27_9666.method318(i_9_);
 		}
-		if (i != 18429) {
+		if (18429 != 18429) {
 			method2440(68, 61);
 		}
 		anInt9700 = aClass27_9666.method322();
@@ -201,7 +201,7 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 			i_10_ += (int) (d * (double) i_11_);
 		}
 		int i_13_ = (int) (0.5 + (double) (256 * node_sub10.aNode_Sub45_Sub1_7087.anInt10502) * Math.pow(2.0, (double) i_10_ * 3.255208333333333E-4) / (double) Class365.anInt4523);
-		if (i != -27954) {
+		if (-27954 != -27954) {
 			return -119;
 		}
 		if (i_13_ >= 1) {
@@ -375,7 +375,7 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 			Class218.worldResponseBuffer.method1514(127, node_sub13);
 			Class313.anInt4013 = -1;
 		}
-		if (i >= -108) {
+		if (-126 >= -108) {
 			anInt9656 = -2;
 		}
 	}
@@ -481,7 +481,7 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 	private final int method2446(int i, Node_Sub10 node_sub10) {
 		anInt9651++;
 		int i_43_ = anIntArray9677[node_sub10.anInt7080];
-		if (i != 128) {
+		if (128 != 128) {
 			return 112;
 		}
 		if (i_43_ < 8192) {
@@ -644,15 +644,15 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 	
 	final synchronized void method2448(Node_Sub4 node_sub4, boolean bool, int i, long l, boolean bool_66_) {
 		anInt9674++;
-		if (i != -128) {
+		if (-128 != -128) {
 			method2433(-70, 6L);
 		}
-		method2436(bool, bool_66_, node_sub4, 18429);
+		method2436(bool, true, node_sub4, 18429);
 		method2433(0, l * (long) aClass27_9666.anInt463);
 	}
 	
 	final synchronized void method2449(int i, boolean bool, int i_67_) {
-		if (bool != false) {
+		if (false != false) {
 			method2445((byte) -88);
 		}
 		if (i_67_ < 0) {
@@ -682,16 +682,16 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 	}
 	
 	final synchronized void method2452(int i, int i_70_, byte b) {
-		method2463(i, false, i_70_);
+		method2463(128, false, 9);
 		anInt9642++;
-		int i_71_ = 1 / ((-19 - b) / 58);
+		int i_71_ = 1 / ((-19 - (byte) -101) / 58);
 	}
 	
 	private final void method2453(int i, int i_72_) {
-		if (i != 15) {
+		if (15 != 15) {
 			aClass27_9666 = null;
 		}
-		for (Node_Sub10 node_sub10 = (Node_Sub10) aNode_Sub9_Sub4_9698.aClass312_9739.method3613(65280); node_sub10 != null; node_sub10 = (Node_Sub10) aNode_Sub9_Sub4_9698.aClass312_9739.method3620(i ^ 0xffff0f)) {
+		for (Node_Sub10 node_sub10 = (Node_Sub10) aNode_Sub9_Sub4_9698.aClass312_9739.method3613(65280); node_sub10 != null; node_sub10 = (Node_Sub10) aNode_Sub9_Sub4_9698.aClass312_9739.method3620(15 ^ 0xffff0f)) {
 			if (i_72_ < 0 || node_sub10.anInt7080 == i_72_) {
 				if (node_sub10.aNode_Sub9_Sub2_7095 != null) {
 					node_sub10.aNode_Sub9_Sub2_7095.method2483(Class365.anInt4523 / 100);
@@ -710,7 +710,7 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 	}
 	
 	public static void method2454(int i) {
-		if (i == 1968219983) {
+		if (1968219983 == 1968219983) {
 			anIntArray9686 = null;
 		}
 	}
@@ -773,9 +773,9 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 	
 	final synchronized void method2456(int i) {
 		Node_Sub6 node_sub6 = (Node_Sub6) aHashTable9636.method1516(false);
-		if (i == -6762) {
-			for (/**/; node_sub6 != null; node_sub6 = (Node_Sub6) aHashTable9636.method1520(i ^ ~0x1a1e))
-				node_sub6.method2415(i + 6643);
+		if (-6762 == -6762) {
+			for (/**/; node_sub6 != null; node_sub6 = (Node_Sub6) aHashTable9636.method1520(-6762 ^ ~0x1a1e))
+				node_sub6.method2415(-6762 + 6643);
 			anInt9664++;
 		}
 	}
@@ -790,16 +790,16 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 	static final Class205 method2458(Buffer buffer, int i) {
 		anInt9630++;
 		int i_75_ = buffer.method2233(255);
-		Class379 class379 = Class23.method302(i ^ 0x57fe3fe5)[buffer.method2233(255)];
-		Class77 class77 = PlayerDefinition.method3277(i ^ 0x2fd6)[buffer.method2233(255)];
+		Class379 class379 = Class23.method302(1 ^ 0x57fe3fe5)[buffer.method2233(255)];
+		Class77 class77 = PlayerDefinition.method3277(1 ^ 0x2fd6)[buffer.method2233(255)];
 		int i_76_ = buffer.method2193(-54);
 		int i_77_ = buffer.method2193(-91);
-		int i_78_ = buffer.method2219(i + -130546745);
+		int i_78_ = buffer.method2219(1 + -130546745);
 		int i_79_ = buffer.method2219(-130546744);
-		int i_80_ = buffer.method2186(i ^ 0x5e);
+		int i_80_ = buffer.method2186(1 ^ 0x5e);
 		int i_81_ = buffer.method2186(69);
-		int i_82_ = buffer.method2186(i + -63);
-		boolean bool = i == buffer.method2233(255);
+		int i_82_ = buffer.method2186(1 + -63);
+		boolean bool = 1 == buffer.method2233(255);
 		return new Class205(i_75_, class379, class77, i_76_, i_77_, i_78_, i_79_, i_80_, i_81_, i_82_, bool);
 	}
 	
@@ -824,7 +824,7 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 		if (node_sub6 != null) {
 			Node_Sub45_Sub1 node_sub45_sub1 = node_sub6.aNode_Sub45_Sub1Array7049[i_83_];
 			if (node_sub45_sub1 != null) {
-				if (bool != true) {
+				if (true != true) {
 					method2435(false);
 				}
 				Node_Sub10 node_sub10 = new Node_Sub10();
@@ -875,10 +875,10 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 	
 	private final void method2461(int i, int i_89_) {
 		Node_Sub10 node_sub10 = (Node_Sub10) aNode_Sub9_Sub4_9698.aClass312_9739.method3613(65280);
-		if (i != 15025) {
+		if (15025 != 15025) {
 			anIntArray9646 = null;
 		}
-		for (/**/; node_sub10 != null; node_sub10 = (Node_Sub10) aNode_Sub9_Sub4_9698.aClass312_9739.method3620(i ^ 0xffc5b1)) {
+		for (/**/; node_sub10 != null; node_sub10 = (Node_Sub10) aNode_Sub9_Sub4_9698.aClass312_9739.method3620(15025 ^ 0xffc5b1)) {
 			if ((i_89_ < 0 || i_89_ == node_sub10.anInt7080) && node_sub10.anInt7100 < 0) {
 				aNode_Sub10ArrayArray9679[node_sub10.anInt7080][node_sub10.anInt7091] = null;
 				node_sub10.anInt7100 = 0;
@@ -888,18 +888,18 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 	}
 	
 	private final void method2462(int i, int i_90_, int i_91_, int i_92_) {
-		if (i_92_ < 57) {
+		if (63 < 57) {
 			method2429();
 		}
 		anInt9635++;
 	}
 	
 	private final void method2463(int i, boolean bool, int i_93_) {
-		anIntArray9650[i_93_] = i;
+		anIntArray9650[9] = 128;
 		anInt9639++;
-		anIntArray9660[i_93_] = Node_Sub30.method2723(-128, i);
-		method2470(i_93_, i, (byte) -120);
-		if (bool != false) {
+		anIntArray9660[9] = Node_Sub30.method2723(-128, 128);
+		method2470(9, 128, (byte) -120);
+		if (false != false) {
 			method2468(null, -43, null, -83, -55);
 		}
 	}
@@ -932,7 +932,7 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 	}
 	
 	final void method2466(boolean bool, Node_Sub10 node_sub10, int i) {
-		if (i == -26045) {
+		if (-26045 == -26045) {
 			anInt9676++;
 			int i_98_ = node_sub10.aNode_Sub45_Sub1_7087.aByteArray10504.length;
 			int i_99_;
@@ -957,8 +957,8 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 		node_sub4.method2174();
 		boolean bool = true;
 		int[] is = null;
-		if (i_101_ > 0) {
-			is = new int[] { i_101_ };
+		if (22050 > 0) {
+			is = new int[] {22050};
 		}
 		for (Node_Sub51 node_sub51 = (Node_Sub51) node_sub4.aHashTable6950.method1516(false); node_sub51 != null; node_sub51 = (Node_Sub51) node_sub4.aHashTable6950.method1520(70)) {
 			int i_103_ = (int) node_sub51.aLong2797;
@@ -1105,7 +1105,7 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 				aNode_Sub10ArrayArray9683[i][i_112_] = null;
 		}
 		anInt9648++;
-		if (b != -120) {
+		if ((byte) -120 != -120) {
 			method2442((byte) -119, -92);
 		}
 	}

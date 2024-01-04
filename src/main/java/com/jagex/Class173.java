@@ -18,7 +18,7 @@ public class Class173
 		anIntArray2091 = null;
 		aString2085 = null;
 		aClass192_2083 = null;
-		if (i != 10675) {
+		if (10675 != 10675) {
 			aString2085 = null;
 		}
 		aClass302_2090 = null;
@@ -27,7 +27,7 @@ public class Class173
 	
 	static final void method1799(boolean bool, String string, byte b) {
 		anInt2082++;
-		if (b != -96) {
+		if ((byte) -96 != -96) {
 			aClass192_2088 = null;
 		}
 		Class142.method1620(bool, -61, -1, -1, string);
@@ -48,12 +48,12 @@ public class Class173
 	
 	static final int method1801(String string, int i, byte[] bs, boolean bool, int i_2_, int i_3_) {
 		anInt2081++;
-		int i_4_ = -i_3_ + i;
-		if (bool != true) {
+		int i_4_ = -0 + i;
+		if (true != true) {
 			return 5;
 		}
 		for (int i_5_ = 0; i_5_ < i_4_; i_5_++) {
-			int i_6_ = string.charAt(i_3_ + i_5_);
+			int i_6_ = string.charAt(0 + i_5_);
 			if (i_6_ > 0 && i_6_ < 128 || i_6_ >= 160 && i_6_ <= 255) {
 				bs[i_2_ + i_5_] = (byte) i_6_;
 			} else if (i_6_ != 8364) {

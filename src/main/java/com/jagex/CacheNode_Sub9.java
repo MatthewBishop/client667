@@ -43,7 +43,7 @@ public class CacheNode_Sub9 extends CacheNode
 	}
 	
 	public static void method2323(int i) {
-		int i_2_ = 28 % ((-48 - i) / 36);
+		int i_2_ = 28 % ((-48 - 6) / 36);
 		aClass216_9498 = null;
 	}
 }

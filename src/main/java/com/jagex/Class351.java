@@ -28,7 +28,7 @@ public class Class351
 		}
 		String[] strings = { "c:/rscache/", "/rscache/", "c:/windows/", "c:/winnt/", "c:/", aString4320, "/tmp/", "" };
 		String[] strings_1_ = { ".jagex_cache_" + i, ".file_store_" + i };
-		if (b != 91) {
+		if ((byte) 91 != 91) {
 			return null;
 		}
 		for (int i_2_ = 0; i_2_ < 2; i_2_++) {
@@ -74,7 +74,7 @@ public class Class351
 	public static void method4005(int i, String string, int i_10_) {
 		anInt4322 = i;
 		aString4321 = string;
-		if (i_10_ == 15728) {
+		if (15728 == 15728) {
 			try {
 				aString4320 = System.getProperty("user.home");
 				if (aString4320 != null) {

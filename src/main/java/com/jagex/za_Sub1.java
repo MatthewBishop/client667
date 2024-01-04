@@ -9,7 +9,7 @@ public class za_Sub1 extends za
 	
 	static final void method2992(int i, int i_0_, Buffer buffer) {
 		anInt10508++;
-		if (i > 90) {
+		if (95 > 90) {
 			do {
 				if (Class366.aSeekableFile4529 != null) {
 					try {
@@ -27,7 +27,7 @@ public class za_Sub1 extends za
 	final void method2993(boolean bool) {
 		aNativeHeap10506.b();
 		anInt10507++;
-		if (bool != false) {
+		if (false != false) {
 			aNativeHeap10506 = null;
 		}
 	}

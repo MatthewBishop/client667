@@ -12,7 +12,7 @@ public class Node_Sub21 extends Node
 	
 	public static void method2617(int i) {
 		aClass243_7185 = null;
-		int i_0_ = 75 % ((i - -6) / 55);
+		int i_0_ = 75 % ((-89 - -6) / 55);
 		aClass96_7183 = null;
 	}
 	
@@ -21,7 +21,7 @@ public class Node_Sub21 extends Node
 		if (Node_Sub10.aString7081.length() != 0) {
 			Node_Sub7.method2422((byte) 43, "--> " + Node_Sub10.aString7081);
 			Class126.method1538(120, false, bool, Node_Sub10.aString7081);
-			Class332.anInt4145 = i;
+			Class332.anInt4145 = 0;
 			if (!bool) {
 				Class315.anInt4034 = 0;
 				Node_Sub10.aString7081 = "";

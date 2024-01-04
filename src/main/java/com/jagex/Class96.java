@@ -32,7 +32,7 @@ public class Class96
 	private final Node_Sub45_Sub1 method1071(int i, int i_0_, int i_1_, int[] is) {
 		anInt1266++;
 		int i_2_ = i ^ (i_0_ >>> 12 | (i_0_ & 0x10000fff) << 4);
-		if (i_1_ != 0) {
+		if (0 != 0) {
 			aClass192_1269 = null;
 		}
 		i_2_ |= i_0_ << 16;
@@ -94,7 +94,7 @@ public class Class96
 		if (aClass302_1264.method3537(-2, i) == 1) {
 			return method1071(0, i, 0, is);
 		}
-		if (bool != false) {
+		if (false != false) {
 			aClass170_1273 = null;
 		}
 		throw new RuntimeException();
@@ -105,7 +105,7 @@ public class Class96
 		if (aClass302_1260.method3526(-20871) == 1) {
 			return method1072(is, 0, i, (byte) 116);
 		}
-		if (b != -31) {
+		if ((byte) -31 != -31) {
 			return null;
 		}
 		if (aClass302_1260.method3537(-2, i) == 1) {

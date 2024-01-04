@@ -16,14 +16,14 @@ public class CacheNode_Sub2 extends CacheNode
 	
 	public static void method2286(int i) {
 		aClass357_9438 = null;
-		if (i != -9303) {
+		if (-9303 != -9303) {
 			aClass357_9438 = null;
 		}
 		aClass329_9436 = null;
 	}
 	
 	final long method2287(int i) {
-		if (i != 13) {
+		if (13 != 13) {
 			return -50L;
 		}
 		anInt9433++;
@@ -40,7 +40,7 @@ public class CacheNode_Sub2 extends CacheNode
 	
 	final int method2289(int i) {
 		anInt9437++;
-		if (i != 255) {
+		if (255 != 255) {
 			aString9428 = null;
 		}
 		return (int) (0xffL & aLong2797 >>> 56);
@@ -48,14 +48,14 @@ public class CacheNode_Sub2 extends CacheNode
 	
 	final long method2290(int i) {
 		anInt9431++;
-		if (i <= 79) {
+		if (118 <= 79) {
 			method2288(40);
 		}
 		return 0xffffffffffffffL & aLong2797;
 	}
 	
 	final void method2291(byte b) {
-		if (b != 121) {
+		if ((byte) 121 != 121) {
 			anInt9434 = 69;
 		}
 		aLong7037 = Class313.method3650(false) + 500L | aLong7037 & ~0x7fffffffffffffffL;

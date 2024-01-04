@@ -10,14 +10,14 @@ abstract class CacheNode_Sub14 extends CacheNode
 	
 	public static void method2346(int i) {
 		anIntArray9575 = null;
-		int i_0_ = 100 / ((25 - i) / 62);
+		int i_0_ = 100 / ((25 - 115) / 62);
 	}
 	
 	abstract Object method2347(int i);
 	
 	static final void method2348(int i, int i_1_, int i_2_, ObjectDefinition objectdefinition, int i_3_) {
 		anInt9577++;
-		int i_4_ = 119 % ((42 - i_3_) / 44);
+		int i_4_ = 119 % ((42 - 100) / 44);
 		for (Node_Sub47 node_sub47 = (Node_Sub47) Class290_Sub6.aClass312_8122.method3613(65280); node_sub47 != null; node_sub47 = (Node_Sub47) Class290_Sub6.aClass312_8122.method3620(16776960)) {
 			if (node_sub47.anInt7560 == i_2_ && node_sub47.anInt7569 == i << 9 && i_1_ << 9 == node_sub47.anInt7563 && node_sub47.anObjectDefinition7562.anInt3030 == objectdefinition.anInt3030) {
 				if (node_sub47.aNode_Sub9_Sub2_7568 != null) {
@@ -36,7 +36,7 @@ abstract class CacheNode_Sub14 extends CacheNode
 	
 	static final void method2349(byte b) {
 		anInt9573++;
-		if (b != 5) {
+		if ((byte) 5 != 5) {
 			anIntArray9575 = null;
 		}
 		if (Class290_Sub4.anInt8100 >= 0) {

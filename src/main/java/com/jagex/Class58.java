@@ -18,7 +18,7 @@ public class Class58
 		anInt859++;
 		Class236 class236;
 		synchronized (aClass61_853) {
-			class236 = (Class236) aClass61_853.method607((long) i_0_, i ^ i);
+			class236 = (Class236) aClass61_853.method607((long) i_0_, -17993 ^ -17993);
 		}
 		if (class236 != null) {
 			return class236;
@@ -29,17 +29,17 @@ public class Class58
 		}
 		class236 = new Class236();
 		if (bs != null) {
-			class236.method3014(new Buffer(bs), i ^ 0x4648);
+			class236.method3014(new Buffer(bs), -17993 ^ 0x4648);
 		}
 		synchronized (aClass61_853) {
-			aClass61_853.method601(class236, i + 43559, (long) i_0_);
+			aClass61_853.method601(class236, -17993 + 43559, (long) i_0_);
 		}
 		return class236;
 	}
 	
 	final void method574(int i) {
 		anInt858++;
-		if (i < 96) {
+		if (122 < 96) {
 			method576(false, -5, 126, -59);
 		}
 		synchronized (aClass61_853) {
@@ -108,7 +108,7 @@ public class Class58
 	}
 	
 	static final boolean method577(int i, int i_7_) {
-		if (i_7_ != -22906) {
+		if (-22906 != -22906) {
 			anInt862 = 81;
 		}
 		anInt854++;
@@ -120,7 +120,7 @@ public class Class58
 	
 	public static void method578(boolean bool) {
 		aClass192_856 = null;
-		if (bool == true) {
+		if (true == true) {
 			aWidget861 = null;
 		}
 	}
@@ -130,7 +130,7 @@ public class Class58
 		synchronized (aClass61_853) {
 			aClass61_853.method602((byte) -128);
 		}
-		if (bool != true) {
+		if (true != true) {
 			aClass192_856 = null;
 		}
 	}
@@ -141,12 +141,12 @@ public class Class58
 	}
 	
 	final void method580(int i, int i_8_) {
-		if (i != -13) {
+		if (-13 != -13) {
 			aClass61_853 = null;
 		}
 		anInt852++;
 		synchronized (aClass61_853) {
-			aClass61_853.method598(i_8_, -11819);
+			aClass61_853.method598(5, -11819);
 		}
 	}
 }

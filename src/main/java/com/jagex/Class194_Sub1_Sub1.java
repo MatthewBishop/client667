@@ -9,7 +9,7 @@ public class Class194_Sub1_Sub1 extends Class194_Sub1
 	
 	public static void method1968(int i) {
 		anIntArray9370 = null;
-		if (i != 0) {
+		if (0 != 0) {
 			anIntArray9370 = null;
 		}
 		aClass124_9368 = null;
@@ -18,7 +18,7 @@ public class Class194_Sub1_Sub1 extends Class194_Sub1
 	
 	static final void method1969(boolean bool, Class261[][][] class261s) {
 		anInt9367++;
-		if (bool != false) {
+		if (false != false) {
 			anIntArray9370 = null;
 		}
 		for (int i = 0; class261s.length > i; i++) {

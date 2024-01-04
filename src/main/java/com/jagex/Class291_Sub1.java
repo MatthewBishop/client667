@@ -37,7 +37,7 @@ public class Class291_Sub1 extends Class291 implements KeyListener, FocusListene
 			Class194_Sub1.aBoolean6892 = true;
 			Class72.anInt973 = i;
 			Class368.anInt4550 = i_1_;
-			if (i_2_ == 128) {
+			if (128 == 128) {
 				Node_Sub29_Sub1.anInt10012 = i_0_;
 				double d = -(3.141592653589793 * (double) (i_1_ * 2)) / 16384.0;
 				double d_3_ = -((double) (2 * i) * 3.141592653589793) / 16384.0;
@@ -81,7 +81,7 @@ public class Class291_Sub1 extends Class291 implements KeyListener, FocusListene
 		Node_Sub12 node_sub12 = new Node_Sub12();
 		node_sub12.aChar5458 = c;
 		node_sub12.anInt5454 = i_9_;
-		if (i != 10830) {
+		if (10830 != 10830) {
 			method3452((byte) 83);
 		}
 		node_sub12.anInt5463 = i_10_;
@@ -94,11 +94,11 @@ public class Class291_Sub1 extends Class291 implements KeyListener, FocusListene
 	}
 	
 	final Interface21 method3449(int i) {
-		if (i != -22959) {
+		if (-22959 != -22959) {
 			method3460((byte) 59);
 		}
 		anInt8189++;
-		return (Interface21) aClass312_8197.method3619(i + 22869);
+		return (Interface21) aClass312_8197.method3619(-22959 + 22869);
 	}
 	
 	public final synchronized void keyReleased(KeyEvent keyevent) {
@@ -169,7 +169,7 @@ public class Class291_Sub1 extends Class291 implements KeyListener, FocusListene
 	
 	public static void method3457(int i) {
 		anIntArray8193 = null;
-		if (i != 112) {
+		if (112 != 112) {
 			aBoolean8188 = true;
 		}
 		aClass13_8198 = null;
@@ -193,7 +193,7 @@ public class Class291_Sub1 extends Class291 implements KeyListener, FocusListene
 			i_13_ = 0;
 		}
 		if (i_13_ != 0) {
-			if (b != -51) {
+			if ((byte) -51 != -51) {
 				aComponent8205 = null;
 			}
 			method3456('\0', 10830, i_13_, i);
@@ -213,7 +213,7 @@ public class Class291_Sub1 extends Class291 implements KeyListener, FocusListene
 				/* empty */
 			}
 		}
-		if (i == 0) {
+		if (0 == 0) {
 			aComponent8205.addKeyListener(this);
 			aComponent8205.addFocusListener(this);
 		}

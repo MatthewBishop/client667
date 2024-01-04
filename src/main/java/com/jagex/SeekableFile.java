@@ -138,7 +138,7 @@ public class SeekableFile
 	
 	static final int method3569(int i, int i_11_, int i_12_, int i_13_, int i_14_) {
 		anInt3877++;
-		int i_15_ = i - Class335.anIntArray4165[i_14_ * 8192 / i_11_] >> 1;
+		int i_15_ = 65536 - Class335.anIntArray4165[i_14_ * 8192 / i_11_] >> 1;
 		return (i_15_ * i_13_ >> 16) + (i_12_ * (-i_15_ + 65536) >> 16);
 	}
 	
@@ -206,7 +206,7 @@ public class SeekableFile
 			aLong3887 = -1L;
 			throw ioexception;
 		}
-		if (i != 5033) {
+		if (5033 != 5033) {
 			method3567(-38);
 		}
 	}
@@ -225,7 +225,7 @@ public class SeekableFile
 	private final void method3572(byte b) throws IOException {
 		anInt3886++;
 		anInt3891 = 0;
-		if (b > -119) {
+		if ((byte) -128 > -119) {
 			anInt3880 = -97;
 		}
 		if (aLong3878 != aLong3887) {
@@ -249,7 +249,7 @@ public class SeekableFile
 	
 	final long method3573(int i) {
 		anInt3873++;
-		if (i != -1) {
+		if (-1 != -1) {
 			aByteArray3885 = null;
 		}
 		return aLong3888;
@@ -258,25 +258,25 @@ public class SeekableFile
 	final void method3574(byte[] bs, byte b) throws IOException {
 		method3568(-77, bs.length, bs, 0);
 		anInt3874++;
-		int i = 23 / ((-64 - b) / 39);
+		int i = 23 / ((-64 - (byte) -1) / 39);
 	}
 	
 	final void method3575(int i) throws IOException {
 		method3576(true);
 		anInt3876++;
 		aFileOnDisk3890.method1098(true);
-		if (i != 2) {
+		if (2 != 2) {
 			anInt3891 = 42;
 		}
 	}
 	
 	private final void method3576(boolean bool) throws IOException {
-		if (bool != true) {
+		if (true != true) {
 			aLong3888 = 87L;
 		}
 		if (aLong3895 != -1) {
 			if (aLong3887 != aLong3895) {
-				aFileOnDisk3890.method1100(bool, aLong3895);
+				aFileOnDisk3890.method1100(true, aLong3895);
 				aLong3887 = aLong3895;
 			}
 			aFileOnDisk3890.method1102((byte) 76, aByteArray3894, 0, anInt3880);
@@ -314,7 +314,7 @@ public class SeekableFile
 			throw new IOException("Invalid seek to " + l + " in file " + method3567(65536));
 		}
 		aLong3878 = l;
-		if (bool != false) {
+		if (false != false) {
 			method3578(-99);
 		}
 	}
@@ -332,6 +332,6 @@ public class SeekableFile
 		aLong3888 = aLong3879 = fileondisk.method1101(0);
 		aLong3878 = 0L;
 		aByteArray3885 = new byte[i];
-		aByteArray3894 = new byte[i_24_];
+		aByteArray3894 = new byte[0];
 	}
 }

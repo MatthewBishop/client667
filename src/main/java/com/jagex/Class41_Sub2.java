@@ -28,7 +28,7 @@ public class Class41_Sub2 extends Class41
 		if (!(socketaddress instanceof InetSocketAddress)) {
 			return null;
 		}
-		if (b != -68) {
+		if ((byte) -68 != -68) {
 			aProxySelector5548 = null;
 		}
 		InetSocketAddress inetsocketaddress = (InetSocketAddress) socketaddress;
@@ -115,7 +115,7 @@ public class Class41_Sub2 extends Class41
 		try {
 			list = aProxySelector5548.select(new URI((bool_10_ ? "https" : "http") + "://" + aString625));
 			list_11_ = aProxySelector5548.select(new URI((!bool_10_ ? "https" : "http") + "://" + aString625));
-			if (i != 30749) {
+			if (30749 != 30749) {
 				aProxySelector5548 = null;
 			}
 		} catch (URISyntaxException urisyntaxexception) {

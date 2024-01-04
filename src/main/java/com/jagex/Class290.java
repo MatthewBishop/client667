@@ -38,7 +38,7 @@ abstract class Class290
 	abstract void method3415(boolean bool, int i, int i_1_);
 	
 	void method3416(byte b) {
-		if (b != -56) {
+		if ((byte) -56 != -56) {
 			anInt3655 = -66;
 		}
 		anInt3649++;

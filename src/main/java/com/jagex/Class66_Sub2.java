@@ -46,7 +46,7 @@ class Class66_Sub2 extends Class66
 	final void method721(int i, int i_7_, boolean bool, int i_8_) {
 		anInt8995++;
 		int i_9_ = i + aGLSprite8992.method1197();
-		int i_10_ = 69 / ((i_7_ - -10) / 40);
+		int i_10_ = 69 / ((-50 - -10) / 40);
 		int i_11_ = i + (aClass150_5171.anInt5086 - aGLSprite8990.method1197());
 		int i_12_ = aGLSprite8993.method1186() + i_8_;
 		int i_13_ = i_8_ - -aClass150_5171.anInt5081 + -aGLSprite8996.method1186();
@@ -72,7 +72,7 @@ class Class66_Sub2 extends Class66
 	void method726(int i, int i_17_, int i_18_, int i_19_, int i_20_) {
 		aGLSprite8999.method1192(i_17_, i, i_19_, i_20_);
 		anInt8994++;
-		if (i_18_ != 4) {
+		if (4 != 4) {
 			method25(-108);
 		}
 	}

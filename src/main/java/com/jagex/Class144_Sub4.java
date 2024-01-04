@@ -36,7 +36,7 @@ public class Class144_Sub4 extends Class144
 	}
 	
 	final void method1626(int i, int i_11_, int i_12_) {
-		if (i_12_ != 3) {
+		if (3 != 3) {
 			aFloatArray6843 = null;
 		}
 		anInt6844++;
@@ -53,7 +53,7 @@ public class Class144_Sub4 extends Class144
 		aClass318_6847 = null;
 		aClass124_6846 = null;
 		aFloatArray6843 = null;
-		if (i <= 120) {
+		if (124 <= 120) {
 			aClass318_6847 = null;
 		}
 	}

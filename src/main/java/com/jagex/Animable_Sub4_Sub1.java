@@ -55,7 +55,7 @@ public class Animable_Sub4_Sub1 extends Animable_Sub4 implements Interface19
 		if (aDrawableModel10696 != null && graphicstoolkit.b(aDrawableModel10696.ua(), i) == 0) {
 			return aDrawableModel10696;
 		}
-		if (i_4_ != 25524) {
+		if (25524 != 25524) {
 			method820(null, -111);
 		}
 		Class243 class243 = method932((byte) 24, graphicstoolkit, i, false);
@@ -87,7 +87,7 @@ public class Animable_Sub4_Sub1 extends Animable_Sub4 implements Interface19
 	static final long method929(Interface19 interface19, int i, int i_6_, boolean bool) {
 		anInt10694++;
 		long l = 4194304L;
-		if (bool != true) {
+		if (true != true) {
 			method927(-86, -65, -50, null, 40);
 		}
 		long l_7_ = -9223372036854775808L;
@@ -232,7 +232,7 @@ public class Animable_Sub4_Sub1 extends Animable_Sub4 implements Interface19
 	
 	static final boolean method931(int i, boolean bool, int i_18_) {
 		anInt10674++;
-		if (bool != true) {
+		if (true != true) {
 			method930(122, '.');
 		}
 		if ((0x800 & i) == 0) {
@@ -254,7 +254,7 @@ public class Animable_Sub4_Sub1 extends Animable_Sub4 implements Interface19
 	}
 	
 	private final Class243 method932(byte b, GraphicsToolkit graphicstoolkit, int i, boolean bool) {
-		if (b != 24) {
+		if ((byte) 24 != 24) {
 			return null;
 		}
 		anInt10678++;

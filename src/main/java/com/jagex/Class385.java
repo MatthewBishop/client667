@@ -35,7 +35,7 @@ public class Class385
 			Class320_Sub21.anInt8406 = 0;
 			for (int i_0_ = 0; i_0_ < Class167.anInt2033; i_0_++)
 				Mobile_Sub4.method915(i, Node_Sub25_Sub2.aClass54Array9959[i_0_], 16, graphicstoolkit);
-			if (b != -20) {
+			if ((byte) -20 != -20) {
 				anIntArray4914 = null;
 			}
 			for (int i_1_ = 0; i_1_ < NpcDefinition.anInt2885; i_1_++)
@@ -74,7 +74,7 @@ public class Class385
 	}
 	
 	static final void method4205(boolean bool, double d) {
-		if (bool != false) {
+		if (false != false) {
 			aClass94_4911 = null;
 		}
 		anInt4910++;
@@ -90,7 +90,7 @@ public class Class385
 	public static void method4206(byte b) {
 		aClass94_4911 = null;
 		anIntArray4914 = null;
-		if (b != 77) {
+		if ((byte) 77 != 77) {
 			method4205(false, -0.395281652712193);
 		}
 	}

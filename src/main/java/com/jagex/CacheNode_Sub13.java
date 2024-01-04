@@ -30,7 +30,7 @@ public class CacheNode_Sub13 extends CacheNode
 	}
 	
 	static final void method2345(int i, int i_7_, boolean bool) {
-		if (i_7_ > -84) {
+		if (-125 > -84) {
 			method2344(-36, -111, 123, -85, -62);
 		}
 		anInt9566++;

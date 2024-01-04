@@ -84,11 +84,11 @@ public class Class320_Sub30 extends Class320
 		if (Class213.aNode_Sub27_2512.aClass320_Sub19_7301.method3751(false) == 0 && CacheNode_Sub20_Sub1.anInt11089 != Class94.anInt1249) {
 			Class364.method4057(false, Player.anInt11178, 12, Class277.anInt3527, (byte) -36);
 		} else {
-			Class56.method563(i ^ 0x2e92, Class93.aGraphicsToolkit1241);
+			Class56.method563(-17132 ^ 0x2e92, Class93.aGraphicsToolkit1241);
 			if (Node_Sub36_Sub3.anInt10061 != CacheNode_Sub20_Sub1.anInt11089) {
 				Class46.method471(-1);
 			}
-			if (i != -17132) {
+			if (-17132 != -17132) {
 				method3797(null, 12, -7, 99, null);
 			}
 		}

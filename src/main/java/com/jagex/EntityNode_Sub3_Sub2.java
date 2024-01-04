@@ -16,7 +16,7 @@ class EntityNode_Sub3_Sub2 extends EntityNode_Sub3
 	
 	static final boolean method945(int i, int i_0_) {
 		anInt9175++;
-		if (i_0_ != -11) {
+		if (-11 != -11) {
 			aFloat9168 = -0.68641424F;
 		}
 		if (i != 9 && i != 10) {
@@ -27,7 +27,7 @@ class EntityNode_Sub3_Sub2 extends EntityNode_Sub3
 	
 	static final void method946(boolean bool) {
 		anInt9167++;
-		if (bool == false) {
+		if (false == false) {
 			Class134_Sub3.aWidgetArrayArray9035 = new Widget[Node_Sub38_Sub31.aClass302_10422.method3526(-20871)][];
 			Class79.aWidgetArrayArray1082 = new Widget[Node_Sub38_Sub31.aClass302_10422.method3526(-20871)][];
 			Class169_Sub1.aBooleanArray8788 = new boolean[Node_Sub38_Sub31.aClass302_10422.method3526(-20871)];

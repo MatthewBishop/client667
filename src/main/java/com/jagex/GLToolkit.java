@@ -416,7 +416,7 @@ public class GLToolkit extends GraphicsToolkit
 		Class254.aFloatArray3213[2] = aFloat6672 * aFloat6645;
 		Class254.aFloatArray3213[3] = 1.0F;
 		Class254.aFloatArray3213[0] = aFloat6645 * aFloat6734;
-		if (i != -1) {
+		if (-1 != -1) {
 			method1478(true, (byte) -48);
 		}
 		OpenGL.glLightfv(16384, 4609, Class254.aFloatArray3213, 0);
@@ -429,10 +429,10 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final void ra(int i, int i_0_, int i_1_, int i_2_) {
 		aBoolean6676 = true;
-		anInt6731 = i_0_;
-		anInt6689 = i;
-		anInt6697 = i_1_;
-		anInt6739 = i_2_;
+		anInt6731 = 1583160;
+		anInt6689 = -1;
+		anInt6697 = 40;
+		anInt6739 = 127;
 		anInt6563++;
 	}
 	
@@ -445,7 +445,7 @@ public class GLToolkit extends GraphicsToolkit
 	}
 	
 	final void method1410(int i, Interface11 interface11) {
-		if (i != 15) {
+		if (15 != 15) {
 			method1415(-125, false);
 		}
 		anInt6525++;
@@ -465,7 +465,7 @@ public class GLToolkit extends GraphicsToolkit
 	}
 	
 	final synchronized void method1411(int i, int i_3_) {
-		if (i_3_ != 20010) {
+		if (20010 != 20010) {
 			H(77, -90, 73, null);
 		}
 		anInt6582++;
@@ -495,10 +495,10 @@ public class GLToolkit extends GraphicsToolkit
 		if (aBoolean6657) {
 			OpenGL.glLoadIdentity();
 		}
-		OpenGL.glTranslatef(f_6_, f_5_, f);
+		OpenGL.glTranslatef(f_6_, f_5_, (float) 0.0);
 		OpenGL.glMatrixMode(5888);
 		aBoolean6657 = true;
-		int i_7_ = 0 % ((76 - i) / 50);
+		int i_7_ = 0 % ((76 - 127) / 50);
 	}
 	
 	final synchronized void method1414(int i, int i_8_, int i_9_) {
@@ -506,7 +506,7 @@ public class GLToolkit extends GraphicsToolkit
 		Node_Sub32 node_sub32 = new Node_Sub32(i);
 		node_sub32.aLong2797 = (long) i_8_;
 		aClass312_6626.method3625((byte) -54, node_sub32);
-		if (i_9_ != 25911) {
+		if (25911 != 25911) {
 			a(107, -115, -66, 49, 80, 18, -124);
 		}
 	}
@@ -578,7 +578,7 @@ public class GLToolkit extends GraphicsToolkit
 	}
 	
 	final void method1417(int i) {
-		if (i != 21447) {
+		if (21447 != 21447) {
 			method1435(61);
 		}
 		anInt6467++;
@@ -589,7 +589,7 @@ public class GLToolkit extends GraphicsToolkit
 			method1449(-31, false);
 			method1415(771, false);
 			method1489(-2, -2);
-			method1460(1, i ^ 0x53c4);
+			method1460(1, 21447 ^ 0x53c4);
 			anInt6636 = 4;
 		}
 	}
@@ -633,11 +633,11 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final void method1418(boolean bool, boolean bool_21_, int i) {
 		anInt6406++;
-		method1458(i, bool, bool_21_, false);
+		method1458(i, bool, true, false);
 	}
 	
 	private final void method1419(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			P(36, 53, -18, -58, 114);
 		}
 		anInt6548++;
@@ -773,13 +773,13 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final void method1421(int i) {
 		anInt6472++;
-		if (i != 1) {
+		if (1 != 1) {
 			na(-26, 32, -116, -12);
 		}
 		if (anInt6636 != 16) {
 			method1486((byte) -116);
 			method1478(true, (byte) -53);
-			method1449(i ^ ~0x18, true);
+			method1449(1 ^ ~0x18, true);
 			method1415(771, true);
 			method1460(1, 3);
 			anInt6636 = 16;
@@ -838,7 +838,7 @@ public class GLToolkit extends GraphicsToolkit
 		method1464(34167, 768, 0, (byte) -51);
 		float f = class169_sub2_sub1.aFloat10567 / (float) class169_sub2_sub1.anInt10566;
 		float f_55_ = class169_sub2_sub1.aFloat10568 / (float) class169_sub2_sub1.anInt10564;
-		OpenGL.glColor4ub((byte) (i >> 16), (byte) (i >> 8), (byte) i, (byte) (i >> 24));
+		OpenGL.glColor4ub((byte) (-16777216 >> 16), (byte) (-16777216 >> 8), (byte) -16777216, (byte) (-16777216 >> 24));
 		OpenGL.glBegin(7);
 		OpenGL.glTexCoord2f((float) (-i_53_ + anInt6644) * f, (float) (anInt6745 + -i_54_) * f_55_);
 		OpenGL.glVertex2i(anInt6644, anInt6745);
@@ -933,7 +933,7 @@ public class GLToolkit extends GraphicsToolkit
 			Class204.aFloatArray2456[3] = 1.0F;
 			OpenGL.glLightfv(i_62_, 4611, Class204.aFloatArray2456, 0);
 			int i_63_ = node_sub29.method2710((byte) 78);
-			float f = node_sub29.method2707(b ^ 0x54) / 255.0F;
+			float f = node_sub29.method2707((byte) 85 ^ 0x54) / 255.0F;
 			Class204.aFloatArray2456[0] = (float) (Node_Sub30.method2723(16717910, i_63_) >> 16) * f;
 			Class204.aFloatArray2456[2] = (float) Node_Sub30.method2723(i_63_, 255) * f;
 			Class204.aFloatArray2456[1] = f * (float) Node_Sub30.method2723(255, i_63_ >> 8);
@@ -943,7 +943,7 @@ public class GLToolkit extends GraphicsToolkit
 		}
 		for (/**/; i < anInt6704; i++)
 			OpenGL.glDisable(i + 16386);
-		if (b == 85) {
+		if ((byte) 85 == 85) {
 			anInt6704 = anInt6742;
 		}
 	}
@@ -1006,7 +1006,7 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final synchronized void method1426(int i, byte b, int i_71_) {
 		anInt6560++;
-		if (b != -32) {
+		if ((byte) -32 != -32) {
 			a(null, -95, 23);
 		}
 		Node_Sub32 node_sub32 = new Node_Sub32(i_71_);
@@ -1029,7 +1029,7 @@ public class GLToolkit extends GraphicsToolkit
 		anInt6455++;
 		for (int i_75_ = anInt6680 - 1; i_75_ >= 0; i_75_--) {
 			method1457(33984, i_75_);
-			method1444(i + -5636, null);
+			method1444(5634 + -5636, null);
 			OpenGL.glTexEnvi(8960, 8704, 34160);
 		}
 		method1474(-68, 8448, 8448);
@@ -1045,7 +1045,7 @@ public class GLToolkit extends GraphicsToolkit
 		OpenGL.glColorMask(true, true, true, true);
 		aBoolean6638 = true;
 		method1478(true, (byte) -53);
-		method1451(true, i ^ ~0x6c2e);
+		method1451(true, 5634 ^ ~0x6c2e);
 		method1449(-46, true);
 		method1415(771, true);
 		method1424(8);
@@ -1058,7 +1058,7 @@ public class GLToolkit extends GraphicsToolkit
 		OpenGL.glCullFace(1029);
 		OpenGL.glMatrixMode(5888);
 		OpenGL.glLoadIdentity();
-		OpenGL.glColorMaterial(1028, i);
+		OpenGL.glColorMaterial(1028, 5634);
 		OpenGL.glEnable(2903);
 		float[] fs = { 0.0F, 0.0F, 0.0F, 1.0F };
 		for (int i_76_ = 0; i_76_ < 8; i_76_++) {
@@ -1094,7 +1094,7 @@ public class GLToolkit extends GraphicsToolkit
 	}
 	
 	private final void method1429(int i) {
-		if (i != 2917) {
+		if (2917 != 2917) {
 			anInterface9_6647 = null;
 		}
 		anInt6564++;
@@ -1111,7 +1111,7 @@ public class GLToolkit extends GraphicsToolkit
 	}
 	
 	final void method1431(int i, Interface11 interface11) {
-		if (i != -10785) {
+		if (-10785 != -10785) {
 			aBoolean6677 = false;
 		}
 		anInt6524++;
@@ -1119,7 +1119,7 @@ public class GLToolkit extends GraphicsToolkit
 			throw new RuntimeException();
 		}
 		anInterface11Array6615[anInt6618--] = null;
-		interface11.method32(i + 19157);
+		interface11.method32(-10785 + 19157);
 		if (anInt6618 >= 0) {
 			anInterface11_6617 = anInterface11Array6615[anInt6618];
 			anInterface11_6617.method31((byte) 116);
@@ -1222,7 +1222,7 @@ public class GLToolkit extends GraphicsToolkit
 		anInt6399++;
 		aFloat6710 = (aFloatArray6684[14] - (float) anInt6705) / aFloatArray6684[10];
 		aFloat6695 = (float) anInt6705;
-		if (bool != false) {
+		if (false != false) {
 			d(-8, -10);
 		}
 	}
@@ -1237,7 +1237,7 @@ public class GLToolkit extends GraphicsToolkit
 		float[] fs = aFloatArray6684;
 		float f = (float) (anInt6693 * -anInt6714) / (float) anInt6667;
 		float f_81_ = (float) (anInt6693 * (-anInt6714 + anInt6474)) / (float) anInt6667;
-		if (i <= 107) {
+		if (111 <= 107) {
 			method1484(-58, null);
 		}
 		float f_82_ = (float) (anInt6702 * anInt6693) / (float) anInt6730;
@@ -1345,8 +1345,8 @@ public class GLToolkit extends GraphicsToolkit
 	}
 	
 	static final String method1437(int i, int i_88_, long l) {
-		Node_Sub43.method2941(i + -17572, l);
-		if (i != 17578) {
+		Node_Sub43.method2941(17578 + -17572, l);
+		if (17578 != 17578) {
 			aNode_Sub7_6558 = null;
 		}
 		anInt6437++;
@@ -1423,7 +1423,7 @@ public class GLToolkit extends GraphicsToolkit
 		OpenGL.glGetIntegerv(34018, is, 0);
 		anInt6680 = is[0];
 		OpenGL.glGetIntegerv(34929, is, 0);
-		int i_96_ = 2 / ((-16 - i) / 38);
+		int i_96_ = 2 / ((-16 - 46) / 38);
 		anInt6643 = is[0];
 		OpenGL.glGetIntegerv(34930, is, 0);
 		anInt6682 = is[0];
@@ -1477,10 +1477,10 @@ public class GLToolkit extends GraphicsToolkit
 	}
 	
 	final void method1441(int i, int i_101_, int i_102_, byte b) {
-		if (b != -42) {
+		if ((byte) -42 != -42) {
 			a((Interface6) null);
 		}
-		OpenGL.glDrawArrays(i, i_101_, i_102_);
+		OpenGL.glDrawArrays(7, 0, i_102_);
 		anInt6537++;
 	}
 	
@@ -1526,7 +1526,7 @@ public class GLToolkit extends GraphicsToolkit
 	}
 	
 	private final void method1442(int i) {
-		if (i != 2) {
+		if (2 != 2) {
 			M();
 		}
 		if (aBoolean6657) {
@@ -1591,7 +1591,7 @@ public class GLToolkit extends GraphicsToolkit
 		} else {
 			OpenGL.glScissor(anInt6644 + anInt6690, anInt6699 - (-anInt6567 - -anInt6696), -anInt6644 + anInt6733, anInt6696 - anInt6745);
 		}
-		if (b != 47) {
+		if ((byte) 47 != 47) {
 			n();
 		}
 	}
@@ -1653,11 +1653,11 @@ public class GLToolkit extends GraphicsToolkit
 	final void method1445(int i, Interface1 interface1) {
 		if (anInterface1_6709 != interface1) {
 			if (aBoolean6658) {
-				OpenGL.glBindBufferARB(34963, interface1.method2(i + 45955));
+				OpenGL.glBindBufferARB(34963, interface1.method2(-30197 + 45955));
 			}
 			anInterface1_6709 = interface1;
 		}
-		if (i != -30197) {
+		if (-30197 != -30197) {
 			o();
 		}
 		anInt6482++;
@@ -1691,7 +1691,7 @@ public class GLToolkit extends GraphicsToolkit
 		}
 		anInterface11_6617 = anInterface11Array6615[++anInt6618] = interface11;
 		anInterface11_6617.method31((byte) -125);
-		if (i != 32760) {
+		if (32760 != 32760) {
 			a(-3, -32);
 		}
 	}
@@ -1786,7 +1786,7 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final synchronized void method1450(byte b, int i) {
 		anInt6516++;
-		if (b == -33) {
+		if ((byte) -33 == -33) {
 			Node node = new Node();
 			node.aLong2797 = (long) i;
 			aClass312_6630.method3625((byte) -54, node);
@@ -1794,7 +1794,7 @@ public class GLToolkit extends GraphicsToolkit
 	}
 	
 	final void method1451(boolean bool, int i) {
-		if (i == -31277) {
+		if (-31277 == -31277) {
 			anInt6443++;
 			if (!aBoolean6660 == bool) {
 				aBoolean6660 = bool;
@@ -1817,19 +1817,19 @@ public class GLToolkit extends GraphicsToolkit
 	}
 	
 	final Interface1 method1453(int i, boolean bool, int i_136_, int i_137_, byte[] bs) {
-		if (i != 26099) {
+		if (26099 != 26099) {
 			method1485(49L, -38);
 		}
 		anInt6559++;
 		if (aBoolean6658 && (!bool || aBoolean6729)) {
-			return new Class117_Sub1(this, i_137_, bs, i_136_, bool);
+			return new Class117_Sub1(this, 5123, bs, i_136_, bool);
 		}
-		return new Class200_Sub2(this, i_137_, bs, i_136_);
+		return new Class200_Sub2(this, 5123, bs, i_136_);
 	}
 	
 	final void method1454(byte b) {
 		OpenGL.glPushMatrix();
-		int i = -41 / ((b - -50) / 62);
+		int i = -41 / (((byte) -127 - -50) / 62);
 		anInt6414++;
 	}
 	
@@ -1848,7 +1848,7 @@ public class GLToolkit extends GraphicsToolkit
 	final void method1455(Class336_Sub3 class336_sub3, byte b) {
 		OpenGL.glLoadMatrixf(class336_sub3.method3899(-92), 0);
 		anInt6592++;
-		if (b != 70) {
+		if ((byte) 70 != 70) {
 			aNode_Sub23_Sub1_6594 = null;
 		}
 	}
@@ -1883,7 +1883,7 @@ public class GLToolkit extends GraphicsToolkit
 	}
 	
 	final void method1458(int i, boolean bool, boolean bool_146_, boolean bool_147_) {
-		if (bool_147_ != false) {
+		if (false != false) {
 			method1464(116, 88, 47, (byte) -14);
 		}
 		if (anInt6706 != i || !aBoolean6676 != !aBoolean6708) {
@@ -1990,10 +1990,10 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final Interface9 method1459(int i, int i_171_, jaclib.memory.Buffer buffer, boolean bool, int i_172_) {
 		anInt6451++;
-		if (aBoolean6658 && (!bool || aBoolean6729)) {
-			return new Class117_Sub2(this, i_171_, buffer, i_172_, bool);
+		if (aBoolean6658 && (!false || aBoolean6729)) {
+			return new Class117_Sub2(this, i_171_, buffer, i_172_, false);
 		}
-		if (i != -1) {
+		if (-1 != -1) {
 			aBoolean6735 = false;
 		}
 		return new Class200_Sub1(this, i_171_, buffer);
@@ -2035,7 +2035,7 @@ public class GLToolkit extends GraphicsToolkit
 	}
 	
 	final void method1460(int i, int i_178_) {
-		if (i_178_ != 3) {
+		if (3 != 3) {
 			method1448(109);
 		}
 		anInt6561++;
@@ -2140,7 +2140,7 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final Plane a(int i, int i_189_, int[][] is, int[][] is_190_, int i_191_, int i_192_, int i_193_) {
 		anInt6471++;
-		return new GLPlane(this, i_192_, i_193_, i, i_189_, is, is_190_, i_191_);
+		return new GLPlane(this, i_192_, i_193_, i, i_189_, is, is_190_, 512);
 	}
 	
 	final void method1461(int i) {
@@ -2148,13 +2148,13 @@ public class GLToolkit extends GraphicsToolkit
 			method1446((byte) 112);
 			method1478(false, (byte) -53);
 			method1451(false, -31277);
-			method1449(i + -35056, false);
+			method1449(34962 + -35056, false);
 			method1415(771, false);
 			method1489(-2, -2);
 			anInt6636 = 2;
 		}
 		anInt6497++;
-		if (i != 34962) {
+		if (34962 != 34962) {
 			anInt6714 = -124;
 		}
 	}
@@ -2167,7 +2167,7 @@ public class GLToolkit extends GraphicsToolkit
 	private final void method1462(int i) {
 		anInt6530++;
 		OpenGL.glLoadIdentity();
-		OpenGL.glMultMatrixf(aClass336_Sub3_6641.method3899(-96), i);
+		OpenGL.glMultMatrixf(aClass336_Sub3_6641.method3899(-96), 0);
 		if (aBoolean6708) {
 			aClass73_6602.aClass339_Sub6_986.method3940(88);
 		}
@@ -2178,7 +2178,7 @@ public class GLToolkit extends GraphicsToolkit
 	final void method1463(Class336_Sub3 class336_sub3, int i) {
 		OpenGL.glPushMatrix();
 		anInt6504++;
-		if (i == 1) {
+		if (1 == 1) {
 			OpenGL.glMultMatrixf(class336_sub3.method3899(-52), 0);
 		}
 	}
@@ -2319,14 +2319,14 @@ public class GLToolkit extends GraphicsToolkit
 	final void a(int i, int i_217_, int i_218_, int i_219_, int i_220_, int i_221_, int i_222_, int i_223_, int i_224_, int i_225_, int i_226_, int i_227_, int i_228_) {
 		anInt6514++;
 		method1469((byte) 88);
-		method1460(i_228_, 3);
+		method1460(1, 3);
 		OpenGL.glBegin(4);
-		OpenGL.glColor4ub((byte) (i_225_ >> 16), (byte) (i_225_ >> 8), (byte) i_225_, (byte) (i_225_ >> 24));
-		OpenGL.glVertex3f((float) i + 0.35F, (float) i_217_ + 0.35F, (float) i_218_);
-		OpenGL.glColor4ub((byte) (i_226_ >> 16), (byte) (i_226_ >> 8), (byte) i_226_, (byte) (i_226_ >> 24));
-		OpenGL.glVertex3f((float) i_219_ + 0.35F, (float) i_220_ + 0.35F, (float) i_221_);
-		OpenGL.glColor4ub((byte) (i_227_ >> 16), (byte) (i_227_ >> 8), (byte) i_227_, (byte) (i_227_ >> 24));
-		OpenGL.glVertex3f(0.35F + (float) i_222_, 0.35F + (float) i_223_, (float) i_224_);
+		OpenGL.glColor4ub((byte) (-65536 >> 16), (byte) (-65536 >> 8), (byte) -65536, (byte) (-65536 >> 24));
+		OpenGL.glVertex3f((float) i + 0.35F, (float) i_217_ + 0.35F, (float) 100);
+		OpenGL.glColor4ub((byte) (-65536 >> 16), (byte) (-65536 >> 8), (byte) -65536, (byte) (-65536 >> 24));
+		OpenGL.glVertex3f((float) i_219_ + 0.35F, (float) i_220_ + 0.35F, (float) 100);
+		OpenGL.glColor4ub((byte) (-65536 >> 16), (byte) (-65536 >> 8), (byte) -65536, (byte) (-65536 >> 24));
+		OpenGL.glVertex3f(0.35F + (float) i_222_, 0.35F + (float) i_223_, (float) 100);
 		OpenGL.glEnd();
 	}
 	
@@ -2522,7 +2522,7 @@ public class GLToolkit extends GraphicsToolkit
 	}
 	
 	final void method1465(int i, int i_235_, int i_236_) {
-		if (i_236_ != 16053) {
+		if (16053 != 16053) {
 			aClass69_6698 = null;
 		}
 		anInt6690 = i_235_;
@@ -2537,7 +2537,7 @@ public class GLToolkit extends GraphicsToolkit
 		if (i_237_ == 5121 || i_237_ == 5120) {
 			return 1;
 		}
-		if (i < 126) {
+		if (127 < 126) {
 			return 51;
 		}
 		if (i_237_ == 5123 || i_237_ == 5122) {
@@ -2704,7 +2704,7 @@ public class GLToolkit extends GraphicsToolkit
 	}
 	
 	private final void method1469(byte b) {
-		if (b == 88) {
+		if ((byte) 88 == 88) {
 			if (anInt6636 != 1) {
 				method1446((byte) 119);
 				method1478(false, (byte) -53);
@@ -2738,7 +2738,7 @@ public class GLToolkit extends GraphicsToolkit
 			anInt6636 = 8;
 		}
 		anInt6395++;
-		if (i != 1) {
+		if (1 != 1) {
 			DA(4, -27, 45, -40);
 		}
 	}
@@ -2787,7 +2787,7 @@ public class GLToolkit extends GraphicsToolkit
 	final void method1472(int i, int i_254_, int i_255_, int i_256_) {
 		OpenGL.glTexEnvi(8960, 34184 + i_254_, i_256_);
 		anInt6445++;
-		OpenGL.glTexEnvi(8960, 34200 + i_254_, i_255_);
+		OpenGL.glTexEnvi(8960, 34200 + i_254_, 770);
 		if (i > -27) {
 			aFloat6656 = -0.9195587F;
 		}
@@ -2798,7 +2798,7 @@ public class GLToolkit extends GraphicsToolkit
 		Node_Sub32 node_sub32 = new Node_Sub32(i_257_);
 		node_sub32.aLong2797 = (long) i;
 		aClass312_6627.method3625((byte) -54, node_sub32);
-		if (i_258_ != -22302) {
+		if (-22302 != -22302) {
 			aClass298Array6403 = null;
 		}
 	}
@@ -2840,7 +2840,7 @@ public class GLToolkit extends GraphicsToolkit
 			Class169_Sub2_Sub1 class169_sub2_sub1 = var_aa_Sub3.aClass169_Sub2_Sub1_5494;
 			method1461(34962);
 			method1444(-2, var_aa_Sub3.aClass169_Sub2_Sub1_5494);
-			method1460(i_266_, 3);
+			method1460(1, 3);
 			method1474(-4, 8448, 7681);
 			method1464(34167, 768, 0, (byte) -51);
 			float f = class169_sub2_sub1.aFloat10567 / (float) class169_sub2_sub1.anInt10566;
@@ -2932,7 +2932,7 @@ public class GLToolkit extends GraphicsToolkit
 		}
 		if (anInt6644 <= i + i_287_ && -i_287_ + i <= anInt6733 && i_286_ - -i_287_ >= anInt6745 && anInt6696 >= -i_287_ + i_286_) {
 			method1469((byte) 88);
-			method1460(i_289_, 3);
+			method1460(1, 3);
 			OpenGL.glColor4ub((byte) (i_288_ >> 16), (byte) (i_288_ >> 8), (byte) i_288_, (byte) (i_288_ >> 24));
 			float f = (float) i + 0.35F;
 			float f_290_ = 0.35F + (float) i_286_;
@@ -3000,11 +3000,11 @@ public class GLToolkit extends GraphicsToolkit
 		if (anInt6686 != 2) {
 			anInt6686 = 2;
 			method1448(512);
-			method1462(i);
+			method1462(0);
 			anInt6636 &= ~0x7;
 		}
 		anInt6577++;
-		if (i != 0) {
+		if (0 != 0) {
 			k();
 		}
 	}
@@ -3025,7 +3025,7 @@ public class GLToolkit extends GraphicsToolkit
 		int i_301_ = interface1.method3((byte) -126);
 		i *= method1466(127, i_301_);
 		method1445(-30197, interface1);
-		OpenGL.glDrawElements(i_299_, i_300_, i_301_, interface1.method1(32711) + (long) i);
+		OpenGL.glDrawElements(4, i_300_, i_301_, interface1.method1(32711) + (long) i);
 	}
 	
 	final void P(int i, int i_302_, int i_303_, int i_304_, int i_305_) {
@@ -3055,7 +3055,7 @@ public class GLToolkit extends GraphicsToolkit
 	
 	final void method1479(int i, Interface11 interface11) {
 		anInt6543++;
-		if (i == 29630) {
+		if (29630 == 29630) {
 			if (anInt6612 >= 3) {
 				throw new RuntimeException();
 			}
@@ -3063,7 +3063,7 @@ public class GLToolkit extends GraphicsToolkit
 				anInterface11Array6616[anInt6612].method28((byte) -106);
 			}
 			anInterface11_6620 = anInterface11Array6616[++anInt6612] = interface11;
-			anInterface11_6620.method33(i + -29226);
+			anInterface11_6620.method33(29630 + -29226);
 		}
 	}
 	
@@ -3073,7 +3073,7 @@ public class GLToolkit extends GraphicsToolkit
 		aFloat6663 = (float) (-anInt6702 + anInt6696);
 		aFloat6674 = (float) (-anInt6714 + anInt6733);
 		aFloat6687 = (float) (-anInt6702 + anInt6745);
-		if (i != 3657) {
+		if (3657 != 3657) {
 			aFloat6737 = -0.2419358F;
 		}
 	}
@@ -3096,7 +3096,7 @@ public class GLToolkit extends GraphicsToolkit
 		} else {
 			anInterface11_6620 = null;
 		}
-		if (bool != false) {
+		if (false != false) {
 			method1467(true, -84, null, -107, -44);
 		}
 	}
@@ -3200,7 +3200,7 @@ public class GLToolkit extends GraphicsToolkit
 			aBoolean6716 = bool;
 			method1452(-114);
 		}
-		if (i != 1028) {
+		if (1028 != 1028) {
 			method1430((byte) -21);
 		}
 	}
@@ -3267,7 +3267,7 @@ public class GLToolkit extends GraphicsToolkit
 	}
 	
 	private final void method1486(byte b) {
-		int i = -90 % ((-49 - b) / 61);
+		int i = -90 % ((-49 - (byte) -116) / 61);
 		anInt6446++;
 		if (anInt6686 != 3) {
 			anInt6686 = 3;
@@ -3291,7 +3291,7 @@ public class GLToolkit extends GraphicsToolkit
 	}
 	
 	private final void method1487(int i) {
-		if (i != 6479) {
+		if (6479 != 6479) {
 			u();
 		}
 		anInt6447++;
@@ -3322,7 +3322,7 @@ public class GLToolkit extends GraphicsToolkit
 	final void method1489(int i, int i_330_) {
 		method1418(true, true, i);
 		anInt6583++;
-		if (i_330_ != -2) {
+		if (-2 != -2) {
 			anInt6714 = -45;
 		}
 	}

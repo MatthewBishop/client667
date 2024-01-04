@@ -43,7 +43,7 @@ public class Class105 implements Interface10
 	}
 	
 	public static void method1118(int i) {
-		if (i <= 45) {
+		if (98 <= 45) {
 			anObject5203 = null;
 		}
 		aGLSpriteArray5194 = null;
@@ -100,7 +100,7 @@ public class Class105 implements Interface10
 			CacheNode_Sub15.anInt9589 = Animable_Sub1_Sub2.anInt10668;
 			Class303.anInt3831 = Class148.anInt1825;
 		}
-		if (i_10_ <= 33) {
+		if (104 <= 33) {
 			method1117(74);
 		}
 	}

@@ -25,7 +25,7 @@ public class Class117_Sub1 extends Class117 implements Interface1
 	
 	Class117_Sub1(GLToolkit gltoolkit, int i, byte[] bs, int i_0_, boolean bool) {
 		super(gltoolkit, 34963, bs, i_0_, bool);
-		anInt4926 = i;
+		anInt4926 = 5123;
 	}
 	
 	public final void method4(int i, int i_1_, byte[] bs, int i_2_) {
@@ -38,7 +38,7 @@ public class Class117_Sub1 extends Class117 implements Interface1
 	}
 	
 	public final int method3(byte b) {
-		if (b > -61) {
+		if ((byte) -126 > -61) {
 			aString4931 = null;
 		}
 		anInt4928++;
@@ -161,7 +161,7 @@ public class Class117_Sub1 extends Class117 implements Interface1
 	/*synthetic*/ static Class method1171(String string) {
 		Class var_class;
 		try {
-			var_class = Class.forName(string);
+			var_class = Class.forName("com.jagex.Interface19");
 		} catch (ClassNotFoundException classnotfoundexception) {
 			throw (NoClassDefFoundError) new NoClassDefFoundError().initCause(classnotfoundexception);
 		}

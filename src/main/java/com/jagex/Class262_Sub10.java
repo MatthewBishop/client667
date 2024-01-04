@@ -17,7 +17,7 @@ public class Class262_Sub10 extends Class262
 	public static void method3172(boolean bool) {
 		aClass302_7776 = null;
 		anIntArray7773 = null;
-		if (bool != true) {
+		if (true != true) {
 			anIntArray7773 = null;
 		}
 		aBigInteger7775 = null;
@@ -32,7 +32,7 @@ public class Class262_Sub10 extends Class262
 			for (int i_0_ = i; Node_Sub25_Sub3.anInt9987 > i_0_; i_0_++)
 				FileOnDisk.anIntArray1322[Class270_Sub2_Sub1.anInt10543++] = Class54.anIntArray816[i_0_];
 		}
-		if (bool != false) {
+		if (false != false) {
 			method3173(false);
 		}
 		if (Node_Sub25_Sub3.anInt9987 < i) {

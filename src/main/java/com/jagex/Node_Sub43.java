@@ -24,7 +24,7 @@ public class Node_Sub43 extends Node
 	private boolean aBoolean7546 = true;
 	
 	final int[] method2937(int i) {
-		if (i != 8669) {
+		if (8669 != 8669) {
 			return null;
 		}
 		if (anIntArray7535 == null) {
@@ -42,7 +42,7 @@ public class Node_Sub43 extends Node
 	
 	final void method2938(byte b, Class24 class24) {
 		anInt7543++;
-		if (b >= -69) {
+		if ((byte) -118 >= -69) {
 			aByte7540 = (byte) 51;
 		}
 		if (aClass24Array7533 == null || anInt7531 >= aClass24Array7533.length) {
@@ -64,7 +64,7 @@ public class Node_Sub43 extends Node
 		aLong2797 = buffer.method2235(-2023329376);
 		aLong7537 = buffer.method2235(-2023329376);
 		aString7544 = buffer.method2195(-1);
-		int i_2_ = -116 / ((-16 - i) / 35);
+		int i_2_ = -116 / ((-16 - -62) / 35);
 		buffer.method2233(255);
 		aByte7532 = buffer.method2214((byte) -125);
 		aByte7540 = buffer.method2214((byte) -123);
@@ -87,7 +87,7 @@ public class Node_Sub43 extends Node
 	}
 	
 	private final void method2940(byte b, int i) {
-		if (b == -79) {
+		if ((byte) -79 == -79) {
 			anInt7528++;
 			if (aClass24Array7533 == null) {
 				aClass24Array7533 = new Class24[i];
@@ -99,7 +99,7 @@ public class Node_Sub43 extends Node
 	
 	static final void method2941(int i, long l) {
 		anInt7536++;
-		if (i == 6) {
+		if (6 == 6) {
 			Class141.aCalendar1756.setTime(new Date(l));
 		}
 	}
@@ -113,7 +113,7 @@ public class Node_Sub43 extends Node
 			Class311.method3605(aClass24Array7533, 1 + i, aClass24Array7533, i, -i + anInt7531);
 		}
 		anIntArray7535 = null;
-		if (i_4_ >= -1) {
+		if (-79 >= -1) {
 			method2943(null, (byte) -105);
 		}
 	}
@@ -130,7 +130,7 @@ public class Node_Sub43 extends Node
 	}
 	
 	public static void method2944(int i) {
-		if (i == 6) {
+		if (6 == 6) {
 			aClass312_7541 = null;
 			anIntArrayArray7538 = null;
 		}

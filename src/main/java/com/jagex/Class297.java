@@ -21,7 +21,7 @@ public class Class297
 			Class48.method478(7, (byte) 103);
 		}
 		anInt3701++;
-		if (b != -119) {
+		if ((byte) -119 != -119) {
 			method3480((byte) -77);
 		}
 	}

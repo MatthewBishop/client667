@@ -20,7 +20,7 @@ public class Class277_Sub1 extends Class277
 	final void method3350(int i, int i_0_, int i_1_, Class84[] class84s, GraphicsToolkit graphicstoolkit, byte[] bs) {
 		anInt8052++;
 		Buffer buffer = new Buffer(bs);
-		int i_2_ = -97 % ((i_1_ - -25) / 63);
+		int i_2_ = -97 % ((-94 - -25) / 63);
 		int i_3_ = -1;
 		for (;;) {
 			int i_4_ = buffer.method2182(true);
@@ -65,11 +65,11 @@ public class Class277_Sub1 extends Class277
 		if (!aBoolean3516) {
 			boolean bool = false;
 			Class343 class343 = null;
-			if (i_17_ != 17986) {
+			if (17986 != 17986) {
 				method3360((byte) -79, null, null, null);
 			}
 			while (buffer.aByteArray7019.length > buffer.anInt7002) {
-				int i_18_ = buffer.method2233(i_17_ + -17731);
+				int i_18_ = buffer.method2233(17986 + -17731);
 				if (i_18_ != 0) {
 					if (i_18_ != 1) {
 						if (i_18_ != 2) {
@@ -216,7 +216,7 @@ public class Class277_Sub1 extends Class277
 				} else if (class343 == null) {
 					class343 = new Class343(buffer);
 				} else {
-					class343.method3966(buffer, i_17_ ^ 0x1832);
+					class343.method3966(buffer, 17986 ^ 0x1832);
 				}
 			}
 			if (class343 != null) {
@@ -647,7 +647,7 @@ public class Class277_Sub1 extends Class277
 			Class343 class343 = null;
 			int i_91_ = 8 * (0x7 & i_87_);
 			int i_92_ = 8 * (0x7 & i_85_);
-			if (i_84_ != -1670) {
+			if (-1670 != -1670) {
 				aClass318_8050 = null;
 			}
 			while (buffer.aByteArray7019.length > buffer.anInt7002) {
@@ -664,20 +664,20 @@ public class Class277_Sub1 extends Class277
 						for (int i_95_ = 0; i_94_ > i_95_; i_95_++) {
 							Class326 class326 = new Class326(graphicstoolkit, buffer, 2);
 							if (class326.anInt4110 == 31) {
-								Class367 class367 = Class32.aClass359_508.method4039(buffer.method2219(i_84_ ^ 0x7c7fab2), (byte) 123);
+								Class367 class367 = Class32.aClass359_508.method4039(buffer.method2219(-1670 ^ 0x7c7fab2), (byte) 123);
 								class326.method3819(class367.anInt4538, (byte) -27, class367.anInt4536, class367.anInt4537, class367.anInt4542);
 							}
 							if (graphicstoolkit.e() > 0) {
 								Node_Sub29 node_sub29 = class326.aNode_Sub29_4100;
-								int i_96_ = node_sub29.method2705(i_84_ + 33981) >> 9;
+								int i_96_ = node_sub29.method2705(-1670 + 33981) >> 9;
 								int i_97_ = node_sub29.method2708(27433) >> 9;
 								if (i_89_ == class326.anInt4092 && i_96_ >= i_91_ && 8 + i_91_ > i_96_ && i_92_ <= i_97_ && i_92_ + 8 > i_97_) {
 									int i_98_ = Class17.method261(false, 0xfff & node_sub29.method2705(32311), 0xfff & node_sub29.method2708(27433), i_88_) + (i << 9);
 									i_96_ = i_98_ >> 9;
-									int i_99_ = (i_90_ << 9) + Node_Sub38.method2781(0xfff & node_sub29.method2708(i_84_ + 29103), i_88_, 0xfff & node_sub29.method2705(32311), 27542);
+									int i_99_ = (i_90_ << 9) + Node_Sub38.method2781(0xfff & node_sub29.method2708(-1670 + 29103), i_88_, 0xfff & node_sub29.method2705(32311), 27542);
 									i_97_ = i_99_ >> 9;
 									if (i_96_ >= 0 && i_97_ >= 0 && i_96_ < anInt3524 && anInt3521 > i_97_) {
-										node_sub29.method2706(i_84_ ^ ~0x1415, i_98_, i_99_, anIntArrayArrayArray3520[i_89_][i_96_][i_97_] - node_sub29.method2704(30));
+										node_sub29.method2706(-1670 ^ ~0x1415, i_98_, i_99_, anIntArrayArrayArray3520[i_89_][i_96_][i_97_] - node_sub29.method2704(30));
 										Class370.method4089(class326);
 									}
 								}
@@ -791,7 +791,7 @@ public class Class277_Sub1 extends Class277
 		if (i_118_ == 3) {
 			interface19 = (Interface19) Class270_Sub1_Sub1.method3303(i_117_, i, i_116_);
 		}
-		if (i_119_ != 10675) {
+		if (10675 != 10675) {
 			method3359(62, (byte) -10, 24, null, -19, -3, null);
 		}
 		return interface19;
@@ -848,7 +848,7 @@ public class Class277_Sub1 extends Class277
 	final void method3356(boolean bool, GraphicsToolkit graphicstoolkit, byte b) {
 		anInt8045++;
 		Class170.method1788();
-		if (b != 83) {
+		if ((byte) 83 != 83) {
 			method3358(true);
 		}
 		if (!bool) {
@@ -938,7 +938,7 @@ public class Class277_Sub1 extends Class277
 				i_153_ = Class226.method2112(256);
 			}
 			int i_154_ = i + Class106.aClass93_1356.method1050((byte) -117);
-			int i_155_ = Class106.aClass93_1356.method1051(bool) + i_153_;
+			int i_155_ = Class106.aClass93_1356.method1051(true) + i_153_;
 			i_154_ -= Node_Sub5_Sub2.anInt9412;
 			i_155_ -= Class83.anInt5179;
 			if (i_154_ < Class62.anInt905) {
@@ -1163,7 +1163,7 @@ public class Class277_Sub1 extends Class277
 	/*synthetic*/ static Class method3361(String string) {
 		Class var_class;
 		try {
-			var_class = Class.forName(string);
+			var_class = Class.forName("com.jagex.Interface19");
 		} catch (ClassNotFoundException classnotfoundexception) {
 			throw (NoClassDefFoundError) new NoClassDefFoundError().initCause(classnotfoundexception);
 		}

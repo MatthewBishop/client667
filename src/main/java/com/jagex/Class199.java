@@ -52,7 +52,7 @@ public class Class199
 		int i_7_ = anIntArray2430[0];
 		class206.method2034(i_7_ >>> 16, (byte) -42, i_6_, i_7_ & 0xffff);
 		Actor actor = class206.method2037(-76);
-		if (i != 8980) {
+		if (8980 != 8980) {
 			anIntArray2430 = null;
 		}
 		actor.anInt10904 = 0;
@@ -84,7 +84,7 @@ public class Class199
 			for (Node_Sub14 node_sub14 = (Node_Sub14) class312.method3613(65280); node_sub14 != null; node_sub14 = (Node_Sub14) class312.method3620(16776960)) {
 				Class79 class79 = Class20.aClass215_322.method2069((byte) 122, node_sub14.anInt7128);
 				if (Class220.method2099(true, class79)) {
-					boolean bool = Class339_Sub4.method3933(graphicstoolkit, i_12_, class79, -118, node_sub14, i_11_);
+					boolean bool = Class339_Sub4.method3933(graphicstoolkit, 0, class79, -118, node_sub14, 0);
 					if (bool) {
 						Class277_Sub1.method3360((byte) 43, node_sub14, graphicstoolkit, class79);
 					}

@@ -21,7 +21,7 @@ public class Class107
 	
 	public static void method1125(int i) {
 		aClass302_1364 = null;
-		int i_0_ = 83 % ((i - -49) / 48);
+		int i_0_ = 83 % ((-114 - -49) / 48);
 		anIntArray1359 = null;
 		anIntArray1363 = null;
 	}

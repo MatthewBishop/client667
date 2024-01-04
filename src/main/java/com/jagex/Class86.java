@@ -43,7 +43,7 @@ public class Class86
 	}
 	
 	public static void method1001(int i) {
-		if (i != 32) {
+		if (32 != 32) {
 			aClass192_1163 = null;
 		}
 		aClass192_1163 = null;
@@ -95,18 +95,18 @@ public class Class86
 	}
 	
 	final void method1003(int i, int i_10_) {
-		if (i != 250) {
+		if (250 != 250) {
 			aClass12_1179 = null;
 		}
 		anInt1169++;
 		synchronized (aClass61_1174) {
-			aClass61_1174.method598(i_10_, -11819);
+			aClass61_1174.method598(5, -11819);
 		}
 		synchronized (aClass61_1176) {
-			aClass61_1176.method598(i_10_, i + -12069);
+			aClass61_1176.method598(5, 250 + -12069);
 		}
 		synchronized (aClass12_1179) {
-			aClass12_1179.method199(false, i_10_);
+			aClass12_1179.method199(false, 5);
 		}
 	}
 	
@@ -129,7 +129,7 @@ public class Class86
 	final void method1005(int i, int i_11_) {
 		anInt1181 = i;
 		anInt1178++;
-		if (i_11_ > -20) {
+		if (-64 > -20) {
 			method1004((byte) -108);
 		}
 		synchronized (aClass61_1176) {
@@ -167,7 +167,7 @@ public class Class86
 		synchronized (aClass12_1179) {
 			aClass12_1179.method196(false);
 		}
-		if (i != 50) {
+		if (50 != 50) {
 			aClass61_1176 = null;
 		}
 	}
@@ -176,7 +176,7 @@ public class Class86
 		anInt1167++;
 		if (aBoolean1162 == !bool) {
 			aBoolean1162 = bool;
-			if (b <= 57) {
+			if ((byte) 80 <= 57) {
 				aStringArray1184 = null;
 			}
 			method1000((byte) -72);
@@ -251,7 +251,7 @@ public class Class86
 		aClass302_1168 = class302_17_;
 		aClass36_1182 = class36;
 		aClass302_1173 = class302;
-		aBoolean1162 = bool;
+		aBoolean1162 = true;
 		if (aClass302_1173 != null) {
 			int i_18_ = aClass302_1173.method3526(-20871) - 1;
 			anInt1175 = aClass302_1173.method3537(-2, i_18_) + i_18_ * 256;

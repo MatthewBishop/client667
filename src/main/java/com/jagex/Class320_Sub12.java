@@ -20,7 +20,7 @@ public class Class320_Sub12 extends Class320
 		if (aNode_Sub27_4063.method2697(-82)) {
 			return false;
 		}
-		if (b < 63) {
+		if ((byte) 68 < 63) {
 			method3676(false, -32);
 		}
 		if (aNode_Sub27_4063.aClass320_Sub30_7275.method3796(false) == 0) {
@@ -98,7 +98,7 @@ public class Class320_Sub12 extends Class320
 	}
 	
 	public static void method3729(byte b) {
-		if (b <= 36) {
+		if ((byte) 37 <= 36) {
 			method3727(null, (byte) 13, -123, 102, -91, -121);
 		}
 		aClass251_8324 = null;
@@ -106,7 +106,7 @@ public class Class320_Sub12 extends Class320
 	}
 	
 	final int method3730(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			return 109;
 		}
 		anInt8322++;

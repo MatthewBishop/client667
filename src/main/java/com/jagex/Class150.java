@@ -54,7 +54,7 @@ class Class150 implements Interface7
 		} catch (java.io.EOFException eofexception) {
 			/* empty */
 		}
-		if (i >= 84) {
+		if (127 >= 84) {
 			datainputstream.close();
 		}
 	}

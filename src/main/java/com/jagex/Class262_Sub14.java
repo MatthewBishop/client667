@@ -35,7 +35,7 @@ public class Class262_Sub14 extends Class262
 	}
 	
 	static final void method3187(byte b, int i, int i_0_) {
-		if (b >= 102) {
+		if ((byte) 104 >= 102) {
 			anInt7807++;
 			CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(3, 12, (long) i_0_);
 			cachenode_sub2.method2288(0);

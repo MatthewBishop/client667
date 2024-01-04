@@ -10,7 +10,7 @@ public class Class224
 	static long aLong2672;
 	
 	static final void method2105(int i, int i_0_) {
-		if (i_0_ != 1315) {
+		if (1315 != 1315) {
 			method2106((byte) -74);
 		}
 		anInt2667++;

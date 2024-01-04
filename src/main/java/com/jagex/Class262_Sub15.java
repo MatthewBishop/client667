@@ -19,9 +19,9 @@ abstract class Class262_Sub15 extends Class262
 	
 	static final void method3188(int i) {
 		anInt7816++;
-		Class213.aNode_Sub27_2512.method2690(i + -18849, 1, Class213.aNode_Sub27_2512.aClass320_Sub19_7277);
+		Class213.aNode_Sub27_2512.method2690(18896 + -18849, 1, Class213.aNode_Sub27_2512.aClass320_Sub19_7277);
 		Class213.aNode_Sub27_2512.method2690(29, 1, Class213.aNode_Sub27_2512.aClass320_Sub19_7301);
-		Class213.aNode_Sub27_2512.method2690(i + -18835, 2, Class213.aNode_Sub27_2512.aClass320_Sub4_7302);
+		Class213.aNode_Sub27_2512.method2690(18896 + -18835, 2, Class213.aNode_Sub27_2512.aClass320_Sub4_7302);
 		Class213.aNode_Sub27_2512.method2690(24, 2, Class213.aNode_Sub27_2512.aClass320_Sub4_7304);
 		Class213.aNode_Sub27_2512.method2690(124, 1, Class213.aNode_Sub27_2512.aClass320_Sub6_7267);
 		Class213.aNode_Sub27_2512.method2690(74, 1, Class213.aNode_Sub27_2512.aClass320_Sub23_7290);
@@ -31,7 +31,7 @@ abstract class Class262_Sub15 extends Class262
 		Class213.aNode_Sub27_2512.method2690(45, 1, Class213.aNode_Sub27_2512.aClass320_Sub30_7275);
 		Class213.aNode_Sub27_2512.method2690(124, 2, Class213.aNode_Sub27_2512.aClass320_Sub12_7282);
 		Class213.aNode_Sub27_2512.method2690(29, 1, Class213.aNode_Sub27_2512.aClass320_Sub24_7317);
-		if (i != 18896) {
+		if (18896 != 18896) {
 			method3189(-0.07388028F, -0.37611273F, -3.4285033F, 4, -5, 83, -82, -43);
 		}
 		Class213.aNode_Sub27_2512.method2690(124, 2, Class213.aNode_Sub27_2512.aClass320_Sub26_7269);
@@ -113,7 +113,7 @@ abstract class Class262_Sub15 extends Class262
 	
 	public static void method3190(byte b) {
 		anAnimableArray7817 = null;
-		if (b > -58) {
+		if ((byte) -114 > -58) {
 			anAnimableArray7817 = null;
 		}
 		anIntArray7821 = null;

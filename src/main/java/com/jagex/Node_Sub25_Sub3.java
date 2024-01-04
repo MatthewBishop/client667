@@ -48,7 +48,7 @@ public class Node_Sub25_Sub3 extends Node_Sub25
 		if (!aBoolean9991 || aTheoraInfo9972.b()) {
 			return 0.0F;
 		}
-		if (i != 0) {
+		if (0 != 0) {
 			aLong9973 = -77L;
 		}
 		return (float) aTheoraInfo9972.fpsNumerator / (float) aTheoraInfo9972.fpsDenominator;
@@ -57,7 +57,7 @@ public class Node_Sub25_Sub3 extends Node_Sub25
 	public static void method2668(byte b) {
 		aClass299_9980 = null;
 		aClass192_9978 = null;
-		if (b == -77) {
+		if ((byte) -77 == -77) {
 			aWidget9990 = null;
 			anIntArray9966 = null;
 		}
@@ -75,7 +75,7 @@ public class Node_Sub25_Sub3 extends Node_Sub25
 			}
 			aDecoderContext9961.setPostProcessingLevel(anInt9975);
 		}
-		int i_0_ = 24 % ((-47 - b) / 57);
+		int i_0_ = 24 % ((-47 - (byte) -125) / 57);
 	}
 	
 	final GLSprite method2670(GraphicsToolkit graphicstoolkit, int i) {
@@ -106,7 +106,7 @@ public class Node_Sub25_Sub3 extends Node_Sub25
 				break;
 			}
 		}
-		if (i != -13472) {
+		if (-13472 != -13472) {
 			return null;
 		}
 		for (/**/; i_2_ > i_1_; i_2_--) {
@@ -135,7 +135,7 @@ public class Node_Sub25_Sub3 extends Node_Sub25
 	}
 	
 	static final Class299 method2672(boolean bool, int i) {
-		if (bool != true) {
+		if (true != true) {
 			anIntArray9966 = null;
 		}
 		anInt9977++;
@@ -210,7 +210,7 @@ public class Node_Sub25_Sub3 extends Node_Sub25
 			method2674(100, -17, 53);
 		}
 		anInt9976++;
-		Node_Sub16 node_sub16 = Class295.method3472(i_8_, (byte) 18, bool_7_);
+		Node_Sub16 node_sub16 = Class295.method3472(i_8_, (byte) 18, false);
 		if (node_sub16 == null) {
 			return 0;
 		}
@@ -245,7 +245,7 @@ public class Node_Sub25_Sub3 extends Node_Sub25
 	}
 	
 	final long method2675(int i) {
-		if (i != -3744) {
+		if (-3744 != -3744) {
 			anInt9987 = -126;
 		}
 		anInt9984++;
@@ -259,7 +259,7 @@ public class Node_Sub25_Sub3 extends Node_Sub25
 	}
 	
 	final boolean method2677(byte b) {
-		if (b < 82) {
+		if ((byte) 85 < 82) {
 			return true;
 		}
 		anInt9962++;
@@ -305,7 +305,7 @@ public class Node_Sub25_Sub3 extends Node_Sub25
 				throw new IllegalStateException(String.valueOf(i_16_));
 			}
 		}
-		if (i != 18986) {
+		if (18986 != 18986) {
 			method2670(null, -63);
 		}
 	}

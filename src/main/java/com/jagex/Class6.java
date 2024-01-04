@@ -21,11 +21,11 @@ public class Class6
 	static final void method174(byte b) {
 		Class315.aClass61_4031.method608(false);
 		anInt141++;
-		int i = -61 / ((-52 - b) / 45);
+		int i = -61 / ((-52 - (byte) -110) / 45);
 	}
 	
 	static final void method175(byte[] bs, boolean bool) {
-		if (bool == true) {
+		if (true == true) {
 			anInt142++;
 			Buffer buffer = new Buffer(bs);
 			for (;;) {
@@ -54,7 +54,7 @@ public class Class6
 			if (i < 0 || i > anInt139) {
 				throw new IllegalArgumentException();
 			}
-			boolean bool_2_ = method179(bs, 11233, i_1_, i, bool);
+			boolean bool_2_ = method179(bs, 11233, i_1_, i, true);
 			if (!bool_2_) {
 				bool_2_ = method179(bs, 11233, i_1_, i, false);
 			}
@@ -129,7 +129,7 @@ public class Class6
 	private final boolean method179(byte[] bs, int i, int i_14_, int i_15_, boolean bool) {
 		anInt147++;
 		synchronized (aSeekableFile134) {
-			if (i != 11233) {
+			if (11233 != 11233) {
 				method177(114, 33);
 			}
 			try {
@@ -139,7 +139,7 @@ public class Class6
 						return false;
 					}
 					aSeekableFile137.method3577((long) (i_14_ * 6), false);
-					aSeekableFile137.method3568(i + -11299, 6, Class157.aByteArray1973, 0);
+					aSeekableFile137.method3568(11233 + -11299, 6, Class157.aByteArray1973, 0);
 					i_16_ = (0xff & Class157.aByteArray1973[5]) + ((0xff0000 & Class157.aByteArray1973[3] << 16) - -(Class157.aByteArray1973[4] << 8 & 0xff00));
 					if (i_16_ <= 0 || aSeekableFile134.method3573(-1) / 520L < (long) i_16_) {
 						return false;
@@ -176,13 +176,13 @@ public class Class6
 						if (i_20_ != i_14_ || i_21_ != i_18_ || i_22_ != anInt143) {
 							return false;
 						}
-						if (i_19_ < 0 || (long) i_19_ > aSeekableFile134.method3573(i + -11234) / 520L) {
+						if (i_19_ < 0 || (long) i_19_ > aSeekableFile134.method3573(11233 + -11234) / 520L) {
 							return false;
 						}
 					}
 					if (i_19_ == 0) {
 						bool = false;
-						i_19_ = (int) ((519L + aSeekableFile134.method3573(i + -11234)) / 520L);
+						i_19_ = (int) ((519L + aSeekableFile134.method3573(11233 + -11234)) / 520L);
 						if (i_19_ == 0) {
 							i_19_++;
 						}

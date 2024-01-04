@@ -31,7 +31,7 @@ public class Node_Sub11 extends Node
 		anInt7103++;
 		if (CacheNode_Sub15.method2379(7015, i)) {
 			Widget[] widgets = Class134_Sub3.aWidgetArrayArray9035[i];
-			for (int i_1_ = i_0_; widgets.length > i_1_; i_1_++) {
+			for (int i_1_ = 0; widgets.length > i_1_; i_1_++) {
 				Widget widget = widgets[i_1_];
 				if (widget != null && widget.anAnimator4755 != null) {
 					widget.anAnimator4755.method235(0);

@@ -59,7 +59,7 @@ public class Class234_Sub1 extends Class234
 	}
 	
 	private final long method2152(byte b) {
-		if (b != -15) {
+		if ((byte) -15 != -15) {
 			return 4L;
 		}
 		long l = 1000000L * Class313.method3650(false);

@@ -22,7 +22,7 @@ public class Class98 implements Interface7
 	static int anInt5070;
 	
 	static final void method1081(int i, byte b) {
-		if (b != -68) {
+		if ((byte) -68 != -68) {
 			anInt5061 = 113;
 		}
 		anInt5070++;
@@ -59,7 +59,7 @@ public class Class98 implements Interface7
 		Node_Sub38_Sub19.anInt10296 = i;
 		anInt5058++;
 		Class168.anInt2044 = 3;
-		int i_4_ = 97 / ((i_3_ - -32) / 58);
+		int i_4_ = 97 / ((-126 - -32) / 58);
 		Class253.anInt3201 = -1;
 	}
 	

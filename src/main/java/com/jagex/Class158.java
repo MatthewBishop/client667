@@ -17,7 +17,7 @@ public class Class158
 	
 	public static void method1716(byte b) {
 		aClient1983 = null;
-		if (b <= 59) {
+		if ((byte) 91 <= 59) {
 			anInt1994 = -116;
 		}
 	}
@@ -37,7 +37,7 @@ public class Class158
 	
 	static final void method1718(int i, int i_0_, int i_1_) {
 		anInt1985++;
-		if (i == -5091) {
+		if (-5091 == -5091) {
 			CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(3, 13, (long) i_0_);
 			cachenode_sub2.method2288(0);
 			cachenode_sub2.anInt9434 = i_1_;
@@ -51,7 +51,7 @@ public class Class158
 		}
 		cachenode.aCacheNode7035 = aCacheNode1984;
 		cachenode.aCacheNode7036 = aCacheNode1984.aCacheNode7036;
-		if (bool != true) {
+		if (true != true) {
 			aCacheNode1984 = null;
 		}
 		cachenode.aCacheNode7036.aCacheNode7035 = cachenode;

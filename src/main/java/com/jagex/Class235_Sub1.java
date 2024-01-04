@@ -18,7 +18,7 @@ public class Class235_Sub1 extends Class235
 	
 	public static void method2159(int i) {
 		aClass318_8979 = null;
-		if (i != 79) {
+		if (79 != 79) {
 			method2158((byte) 102, null);
 		}
 		anInterface16Array8978 = null;

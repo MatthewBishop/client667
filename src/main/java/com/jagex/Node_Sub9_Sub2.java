@@ -462,12 +462,12 @@ public class Node_Sub9_Sub2 extends Node_Sub9
 	}
 	
 	private final synchronized void method2485(int i) {
-		method2500(i, method2511());
+		method2500(0, method2511());
 	}
 	
 	final synchronized void method2486(boolean bool) {
 		anInt9710 = (anInt9710 ^ anInt9710 >> 31) + (anInt9710 >>> 31);
-		if (bool) {
+		if (true) {
 			anInt9710 = -anInt9710;
 		}
 	}

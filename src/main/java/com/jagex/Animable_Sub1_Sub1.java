@@ -152,7 +152,7 @@ public class Animable_Sub1_Sub1 extends Animable_Sub1 implements Interface19
 	}
 	
 	public static void method827(byte b) {
-		if (b == -37) {
+		if ((byte) -37 == -37) {
 			aSignLink10616 = null;
 			aClass302_10618 = null;
 			aNode_Sub35_10613 = null;

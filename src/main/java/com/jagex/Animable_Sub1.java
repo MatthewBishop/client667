@@ -57,7 +57,7 @@ abstract class Animable_Sub1 extends Animable
 	
 	static final void method826(int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_, int i_7_) {
 		anInt9097++;
-		if (i_0_ != -1) {
+		if (-1 != -1) {
 			method824((byte) -108);
 		}
 		Animable_Sub3.method919(i_6_, 512, i_5_, i, i_1_, false, 0);
@@ -74,9 +74,9 @@ abstract class Animable_Sub1 extends Animable
 	
 	final int method819(Node_Sub29[] node_sub29s, int i) {
 		anInt9103++;
-		if (i != 1) {
+		if (1 != 1) {
 			aShort9102 = (short) -111;
 		}
-		return this.method808(i ^ ~0x59ee, node_sub29s, anInt5940 >> Class36.anInt549, anInt5934 >> Class36.anInt549);
+		return this.method808(1 ^ ~0x59ee, node_sub29s, anInt5940 >> Class36.anInt549, anInt5934 >> Class36.anInt549);
 	}
 }

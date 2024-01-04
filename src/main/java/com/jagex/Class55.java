@@ -18,18 +18,18 @@ public class Class55
 		Node_Sub13 node_sub13 = Node_Sub25_Sub1.method2660(0);
 		node_sub13.aPacket7113.method2226(Plane.aClass133_3419.anInt1688, false);
 		node_sub13.aPacket7113.method2210(0, -86);
-		if (b != -119) {
+		if ((byte) -119 != -119) {
 			anIntArray834 = null;
 		}
 		int i = node_sub13.aPacket7113.anInt7002;
-		node_sub13.aPacket7113.method2210(667, b + -4);
+		node_sub13.aPacket7113.method2210(667, (byte) -119 + -4);
 		int[] is = Class355.method4014(-5410, node_sub13);
 		int i_0_ = node_sub13.aPacket7113.anInt7002;
-		node_sub13.aPacket7113.method2228(string, b ^ ~0x27);
+		node_sub13.aPacket7113.method2228(string, (byte) -119 ^ ~0x27);
 		node_sub13.aPacket7113.method2226(Class35.anInt537, false);
 		node_sub13.aPacket7113.anInt7002 += 7;
 		node_sub13.aPacket7113.method2203(is, i_0_, false, node_sub13.aPacket7113.anInt7002);
-		node_sub13.aPacket7113.method2194(-i + node_sub13.aPacket7113.anInt7002, b + -2768);
+		node_sub13.aPacket7113.method2194(-i + node_sub13.aPacket7113.anInt7002, (byte) -119 + -2768);
 		Class218.lobbyResponseBuffer.method1514(127, node_sub13);
 		Node_Sub36_Sub4.anInt10073 = -3;
 		Class51_Sub2.anInt9069 = 0;
@@ -38,7 +38,7 @@ public class Class55
 	}
 	
 	private final Interface7 method559(int i, Buffer buffer, Class170 class170) {
-		if (i != 0) {
+		if (0 != 0) {
 			method562((byte) -11);
 		}
 		anInt827++;
@@ -88,7 +88,7 @@ public class Class55
 		anInt828++;
 		anInt832 = buffer.method2219(-130546744);
 		anInterface7Array825 = new Interface7[buffer.method2233(255)];
-		if (b < 24) {
+		if ((byte) 31 < 24) {
 			method560((byte) -4);
 		}
 		Class170[] class170s = Class262_Sub13.method3184(0);

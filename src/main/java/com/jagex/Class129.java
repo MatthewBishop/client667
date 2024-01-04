@@ -25,7 +25,7 @@ public class Class129
 	}
 	
 	final int method1554(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			anIntArray1661 = null;
 		}
 		anInt1666++;
@@ -34,7 +34,7 @@ public class Class129
 	
 	public static void method1555(int i) {
 		anIntArray1669 = null;
-		int i_1_ = 104 % ((16 - i) / 42);
+		int i_1_ = 104 % ((16 - -66) / 42);
 		anIntArray1661 = null;
 		aShortArray1665 = null;
 	}
@@ -57,7 +57,7 @@ public class Class129
 				GameStub.anInt45 = -1;
 				Class187.anInt2276 = -1;
 			}
-			Animable_Sub2.method836(-3, bool_2_);
+			Animable_Sub2.method836(-3, true);
 			Node_Sub38_Sub8.anInt10163 = 1;
 			Class262_Sub12.anInt7791 = 0;
 			Class45.anInt5264 = 0;

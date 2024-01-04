@@ -349,7 +349,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		method1269((byte) 21);
 		method1259(92);
 		method1284(14);
-		if (i != 5) {
+		if (5 != 5) {
 			method1319(null, null, -18);
 		}
 		for (int i_0_ = -1 + anInt6370; i_0_ >= 0; i_0_--) {
@@ -433,7 +433,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	}
 	
 	final void method1248(Class336_Sub1 class336_sub1, boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			method1281(-96);
 		}
 		anInt6204++;
@@ -481,7 +481,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	}
 	
 	final int method1249(byte b) {
-		if (b != 114) {
+		if ((byte) 114 != 114) {
 			method1322(null, false, -19, -16, (byte) 78, null, 104, 113);
 		}
 		anInt6208++;
@@ -499,7 +499,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	}
 	
 	final int method1250(int i) {
-		if (i != 0) {
+		if (0 != 0) {
 			method1356(60, true);
 		}
 		anInt6091++;
@@ -509,7 +509,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	abstract void method1251(byte b);
 	
 	final Interface13_Impl1 method1252(int i, byte[] bs, Class68 class68, int i_25_, byte b, boolean bool) {
-		if (b != -3) {
+		if ((byte) -3 != -3) {
 			method1356(-32, false);
 		}
 		anInt6134++;
@@ -527,7 +527,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	}
 	
 	private final void method1253(byte b) {
-		if (b == 10) {
+		if ((byte) 10 == 10) {
 			if (!aBoolean6352) {
 				float[] fs = aFloatArray6321;
 				float f = (float) anInt6364;
@@ -585,7 +585,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	}
 	
 	final void method1255(byte b) {
-		if (b == -12) {
+		if ((byte) -12 == -12) {
 			if (aClass346Array6343[anInt6284] != Class119.aClass346_1515) {
 				aClass346Array6343[anInt6284] = Class119.aClass346_1515;
 				aClass336_Sub1Array6327[anInt6284].method3862();
@@ -596,7 +596,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	}
 	
 	private final void method1256(byte b) {
-		if (b != 127) {
+		if ((byte) 127 != 127) {
 			o();
 		}
 		anInt6263++;
@@ -642,13 +642,13 @@ abstract class AbstractToolkit extends GraphicsToolkit
 				fs[14] = 0.0F;
 				fs[2] = 0.0F;
 			}
-			method1328(b + -222);
+			method1328((byte) 127 + -222);
 			aBoolean6346 = true;
 		}
 	}
 	
 	private final void method1257(int i) {
-		if (i == 9) {
+		if (9 == 9) {
 			method1310((byte) -113);
 			anInt6224++;
 			if (aClass290_6281 != null) {
@@ -659,7 +659,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	
 	final Interface13_Impl1 method1258(boolean bool, int i, boolean bool_46_, int i_47_, int[] is) {
 		anInt6110++;
-		if (bool_46_ != true) {
+		if (true != true) {
 			aFloat6323 = 1.8776237F;
 		}
 		return method1367(-6331, i_47_, is, 0, 0, bool, i);
@@ -713,7 +713,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 				fs[0] = 1.0F;
 			}
 		}
-		if (b != 2) {
+		if ((byte) 2 != 2) {
 			anInt6333 = 109;
 		}
 	}
@@ -735,7 +735,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		method1336(-2, i_56_);
 		method1304(0, 0, Node_Sub35.aClass135_7421);
 		method1366((byte) 113, Node_Sub35.aClass135_7421, 0);
-		method1277((byte) 61, i_57_);
+		method1277((byte) 61, 1);
 		method1320((byte) -119);
 		method1365(false, (byte) -128);
 		i_60_ %= i_58_ + i_59_;
@@ -811,7 +811,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	abstract void method1263(boolean bool);
 	
 	final Class336_Sub1 method1264(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			return null;
 		}
 		anInt6203++;
@@ -936,14 +936,14 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	
 	final void method1268(int i) {
 		anInt6103++;
-		if (i != 0) {
+		if (0 != 0) {
 			p();
 		}
 		if (anInt6334 != 8) {
 			method1368((byte) -118);
 			method1371(true, false);
 			method1347(1, true);
-			method1307(i + -102, true);
+			method1307(0 + -102, true);
 			method1277((byte) 61, 1);
 			anInt6334 = 8;
 		}
@@ -968,7 +968,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	
 	private final void method1271(int i, int i_88_, Class104 class104) {
 		anInt6197++;
-		method1354(i, 32011, anInterface15_Impl2_6375);
+		method1354(0, 32011, anInterface15_Impl2_6375);
 		method1338(aClass213_6379, 9422);
 		method1303(class104, 36, 0, i_88_);
 	}
@@ -986,12 +986,12 @@ abstract class AbstractToolkit extends GraphicsToolkit
 			Class381.method4172(-124);
 		}
 		try {
-			if (i != 0) {
+			if (0 != 0) {
 				method1267(null, -51, 39, 90, 103, -123, -5, true, true);
 			}
 			Class var_class = Class.forName("com.sun.management.HotSpotDiagnosticMXBean");
 			Method method = var_class.getDeclaredMethod("dumpHeap", new Class[] { aClass6389 == null ? aClass6389 = method1383("java.lang.String") : aClass6389, Boolean.TYPE });
-			method.invoke(Class66_Sub1.anObject8988, new Object[] { file.getAbsolutePath(), new Boolean(bool) });
+			method.invoke(Class66_Sub1.anObject8988, new Object[] { file.getAbsolutePath(), new Boolean(false) });
 		} catch (Exception exception) {
 			System.out.println("HeapDump error:");
 			exception.printStackTrace();
@@ -1019,7 +1019,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	
 	final void method1274(byte b, boolean bool) {
 		method1336(-2, b | (b << 24 | b << 16 | b << 8));
-		if (bool != false) {
+		if (false != false) {
 			B();
 		}
 		anInt6265++;
@@ -1073,7 +1073,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 			}
 			if (!aBoolean6279 == bool) {
 				aBoolean6279 = bool;
-				method1284(b + -47);
+				method1284((byte) 61 + -47);
 			}
 			if (bool_95_ != aBoolean6330) {
 				aBoolean6330 = bool_95_;
@@ -1087,7 +1087,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 			anInt6334 &= ~0x1c;
 		}
 		anInt6243++;
-		if (b != 61) {
+		if ((byte) 61 != 61) {
 			c(-53, -111, 97, -41, -124, -52);
 		}
 	}
@@ -1110,7 +1110,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		} else {
 			method1318(-30, Class116.aClass94_5075, Class116.aClass94_5075);
 		}
-		if (b == -12) {
+		if ((byte) -12 == -12) {
 			anInt6136++;
 		}
 	}
@@ -1158,7 +1158,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 				}
 			}
 		}
-		if (b <= 108) {
+		if ((byte) 111 <= 108) {
 			k(39);
 		}
 		aClass213_6377 = method1372((byte) -121, new Class207[] { new Class207(Class126.aClass126_1620) });
@@ -1195,7 +1195,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	}
 	
 	final void method1283(byte b) {
-		if (b == -128) {
+		if ((byte) -128 == -128) {
 			anInt6129++;
 			method1271(0, 2, Class169_Sub3.aClass104_8818);
 		}
@@ -1250,7 +1250,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		anInterface15_Impl2_6375.method38(false);
 		anInterface15_Impl2_6376.method38(false);
 		anInterface15_Impl2_6384.method38(false);
-		for (int i_110_ = i; i_110_ < 7; i_110_++)
+		for (int i_110_ = 0; i_110_ < 7; i_110_++)
 			aStandardDrawableModelArray6374[i_110_].method690(0);
 		aClass287_6353.method3396((byte) -74);
 		anInterface15_Impl1_6381.method38(false);
@@ -1259,7 +1259,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	private final void method1286(int i) {
 		anInt6194++;
 		aBoolean6346 = false;
-		if (i != 28214) {
+		if (28214 != 28214) {
 			aFloat6298 = 1.0441684F;
 		}
 		method1256((byte) 127);
@@ -1297,14 +1297,14 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	abstract Interface13_Impl2 method1287(int i, int[][] is, boolean bool, int i_116_);
 	
 	final void method1288(int i) {
-		if (i == 0) {
+		if (0 == 0) {
 			if (anInt6334 != 4) {
-				method1331(i + -14);
+				method1331(0 + -14);
 				method1371(false, false);
 				method1296(122, false);
-				method1347(i + 1, false);
+				method1347(0 + 1, false);
 				method1307(-84, false);
-				method1332(i ^ 0x3, false, -2, false);
+				method1332(0 ^ 0x3, false, -2, false);
 				method1277((byte) 61, 1);
 				method1278((byte) -12, 0);
 				anInt6334 = 4;
@@ -1316,7 +1316,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	abstract void method1289(boolean bool);
 	
 	final Class336_Sub1 method1290(byte b) {
-		if (b != 86) {
+		if ((byte) 86 != 86) {
 			aFloat6272 = 0.26983792F;
 		}
 		anInt6109++;
@@ -1331,7 +1331,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	}
 	
 	final Class336_Sub1 method1292(byte b) {
-		if (b != -82) {
+		if ((byte) -82 != -82) {
 			return null;
 		}
 		anInt6207++;
@@ -1354,7 +1354,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	
 	private final void method1294(byte b) {
 		anInt6180++;
-		if (b == -34) {
+		if ((byte) -34 == -34) {
 			aBoolean6326 = false;
 			if (aClass56_6303 == Class54.aClass56_823) {
 				method1260((byte) 2);
@@ -1408,7 +1408,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	final void method1297(int i, Class346 class346) {
 		anInt6177++;
 		aClass346Array6343[anInt6284] = class346;
-		if (i != -21029) {
+		if (-21029 != -21029) {
 			method1265(null, null, -43);
 		}
 		method1257(9);
@@ -1568,7 +1568,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 			}
 		}
 		aClass213_6379 = method1372((byte) -123, new Class207[] { new Class207(new Class126[] { Class126.aClass126_1620, Class126.aClass126_1628, Class126.aClass126_1628 }) });
-		if (i <= 117) {
+		if (124 <= 117) {
 			aFloat6323 = 1.5852143F;
 		}
 	}
@@ -1641,7 +1641,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	
 	final Class336_Sub1 method1306(int i) {
 		anInt6146++;
-		if (i != 7) {
+		if (7 != 7) {
 			return null;
 		}
 		return aClass336_Sub1Array6327[anInt6284];
@@ -1734,7 +1734,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 			}
 			anInt6334 &= ~0x1;
 		}
-		if (b != -21) {
+		if ((byte) -21 != -21) {
 			B();
 		}
 		anInt6131++;
@@ -1756,7 +1756,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	private final void method1314(int i, boolean bool, byte b, int i_147_, int i_148_, boolean bool_149_) {
 		bool &= z();
 		anInt6148++;
-		if (b < -30) {
+		if ((byte) -72 < -30) {
 			if (!bool && (i == 4 || i == 8 || i == 9)) {
 				i = 2;
 				i_148_ = i != 4 ? 1 : i_147_ & 0x1;
@@ -1799,7 +1799,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	}
 	
 	private final void method1315(byte b) {
-		if (b != -101) {
+		if ((byte) -101 != -101) {
 			method1258(false, 61, true, 45, null);
 		}
 		anInt6174++;
@@ -1833,7 +1833,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	}
 	
 	final int method1316(int i) {
-		if (i != -2) {
+		if (-2 != -2) {
 			return -80;
 		}
 		anInt6181++;
@@ -1844,7 +1844,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		if (aClass290_6281 != null) {
 			aClass290_6281.method3416((byte) -56);
 		}
-		if (b != 40) {
+		if ((byte) 40 != 40) {
 			aFloat6371 = -0.8928218F;
 		}
 		anInt6202++;
@@ -1874,11 +1874,11 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	
 	final void ra(int i, int i_154_, int i_155_, int i_156_) {
 		aBoolean6288 = true;
-		anInt6339 = i_156_;
+		anInt6339 = 127;
 		anInt6104++;
-		anInt6287 = i_155_;
-		anInt6324 = i;
-		anInt6315 = i_154_;
+		anInt6287 = 40;
+		anInt6324 = -1;
+		anInt6315 = 1583160;
 	}
 	
 	abstract void method1319(Object object, java.awt.Canvas canvas, int i);
@@ -1975,13 +1975,13 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	abstract Interface13_Impl1 method1322(Class68 class68, boolean bool, int i, int i_174_, byte b, float[] fs, int i_175_, int i_176_);
 	
 	final void method1323(byte b) {
-		if (b == 28) {
+		if ((byte) 28 == 28) {
 			if (anInt6334 != 2) {
 				method1331(127);
 				method1371(false, false);
 				method1296(120, false);
 				method1347(1, false);
-				method1307(b + -108, false);
+				method1307((byte) 28 + -108, false);
 				method1332(3, false, -2, false);
 				anInt6334 = 2;
 			}
@@ -1992,7 +1992,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	final Stream method1324(boolean bool, jaclib.memory.Buffer buffer) {
 		aStream6312.a(buffer);
 		anInt6142++;
-		if (bool != true) {
+		if (true != true) {
 			method1370(104);
 		}
 		return aStream6312;
@@ -2052,7 +2052,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		anInt6249++;
 		aFloatArray6359[10] = aFloat6278;
 		aFloat6302 = ((float) -anInt6335 + aFloatArray6359[14]) / aFloatArray6359[10];
-		if (i > -44) {
+		if (-95 > -44) {
 			aClass290_6281 = null;
 		}
 	}
@@ -2162,13 +2162,13 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		anInt6240++;
 		if (anInt6334 != 16) {
 			method1281(-116);
-			method1371(true, !bool);
+			method1371(true, !true);
 			method1347(1, true);
 			method1307(-96, true);
 			method1277((byte) 61, 1);
 			anInt6334 = 16;
 		}
-		if (bool != true) {
+		if (true != true) {
 			method1370(82);
 		}
 	}
@@ -2223,7 +2223,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		method1277((byte) 61, 1);
 		method1318(-30, Class117_Sub1.aClass94_4924, Class117_Sub1.aClass94_4924);
 		method1304(0, 0, Node_Sub35.aClass135_7421);
-		method1336(-2, i);
+		method1336(-2, -16777216);
 		aClass336_Sub1_6262.method3877(0.0F, (byte) -112, (float) anInt6124, (float) anInt6239);
 		method1266((byte) 110);
 		aClass336_Sub1Array6327[0].method3877(1.0F, (byte) -112, interface13_impl1.method49((float) anInt6124, (byte) -51), interface13_impl1.method45((float) anInt6239, -101));
@@ -2239,7 +2239,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		method1376(530);
 		anInt6258++;
 		method1350(false);
-		if (i <= 95) {
+		if (103 <= 95) {
 			method1330(true, -45, 92);
 		}
 	}
@@ -2285,7 +2285,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 				/* empty */
 			}
 		}
-		int i = -73 / ((b - -55) / 59);
+		int i = -73 / (((byte) 66 - -55) / 59);
 		return false;
 	}
 	
@@ -2298,7 +2298,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	}
 	
 	final Interface13_Impl1 method1345(int i, float[] fs, Class68 class68, boolean bool, boolean bool_221_, int i_222_) {
-		if (bool != false) {
+		if (false != false) {
 			method1299(67);
 		}
 		anInt6159++;
@@ -2364,7 +2364,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 			method1340((byte) 58);
 			anInt6334 &= ~0x1f;
 		}
-		if (i != 1) {
+		if (1 != 1) {
 			method1380(-12, true);
 		}
 	}
@@ -2373,7 +2373,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		method1354(0, 32011, anInterface15_Impl2_6376);
 		anInt6139++;
 		method1338(aClass213_6386, 9422);
-		method1303(StandardSprite.aClass104_8926, 87, 0, i);
+		method1303(StandardSprite.aClass104_8926, 87, 0, 1);
 	}
 	
 	abstract void method1349(Class135 class135, byte b, boolean bool, boolean bool_224_, int i);
@@ -2393,7 +2393,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	
 	private final void method1350(boolean bool) {
 		method1334(-114);
-		if (bool != false) {
+		if (false != false) {
 			aFloat6274 = -0.025888432F;
 		}
 		anInt6137++;
@@ -2412,7 +2412,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	private final void method1352(byte b) {
 		aFloat6371 = (float) anInt6335;
 		anInt6191++;
-		if (b <= 113) {
+		if ((byte) 119 <= 113) {
 			anInt6333 = 40;
 		}
 	}
@@ -2565,7 +2565,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	
 	final float[] method1357(byte b) {
 		anInt6140++;
-		if (b != 86) {
+		if ((byte) 86 != 86) {
 			aBoolean6322 = false;
 		}
 		return aFloatArray6305;
@@ -2703,7 +2703,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	abstract Interface13_Impl1 method1367(int i, int i_249_, int[] is, int i_250_, int i_251_, boolean bool, int i_252_);
 	
 	private final void method1368(byte b) {
-		if (b >= -110) {
+		if ((byte) -118 >= -110) {
 			aFloat6317 = -0.09793644F;
 		}
 		anInt6185++;
@@ -2766,7 +2766,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	abstract void method1370(int i);
 	
 	final void method1371(boolean bool, boolean bool_257_) {
-		if (bool_257_ != false) {
+		if (false != false) {
 			anInterface15_Impl2_6376 = null;
 		}
 		if (!aBoolean6299 != !bool) {
@@ -2781,7 +2781,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	
 	private final void method1373(int i) {
 		anInt6113++;
-		if (i != 1) {
+		if (1 != 1) {
 			method1305(true);
 		}
 		if (anInt6334 != 1) {
@@ -2825,7 +2825,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 			aFloatArray6314 = aFloatArray6305;
 			anInt6334 &= ~0x1f;
 		}
-		if (i != 530) {
+		if (530 != 530) {
 			X(22);
 		}
 		anInt6089++;
@@ -2844,7 +2844,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	}
 	
 	final Class336_Sub1 method1378(int i) {
-		if (i != 50) {
+		if (50 != 50) {
 			method1318(-72, null, null);
 		}
 		anInt6216++;
@@ -2869,19 +2869,19 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		if (!Stream.b()) {
 			stream.b(f_264_);
 			stream.b(f_266_);
-			stream.b(f_267_);
+			stream.b((float) 0.0);
 			stream.b(f);
 			stream.b(f_265_);
-			stream.b(f_263_);
+			stream.b((float) 0.0);
 		} else {
 			stream.a(f_264_);
 			stream.a(f_266_);
-			stream.a(f_267_);
+			stream.a((float) 0.0);
 			stream.a(f);
 			stream.a(f_265_);
-			stream.a(f_263_);
+			stream.a((float) 0.0);
 		}
-		if (i != 5) {
+		if (5 != 5) {
 			return true;
 		}
 		stream.c();
@@ -2941,7 +2941,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	/*synthetic*/ static Class method1383(String string) {
 		Class var_class;
 		try {
-			var_class = Class.forName(string);
+			var_class = Class.forName("java.lang.String");
 		} catch (ClassNotFoundException classnotfoundexception) {
 			throw (NoClassDefFoundError) new NoClassDefFoundError().initCause(classnotfoundexception);
 		}

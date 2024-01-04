@@ -145,7 +145,7 @@ abstract class Class134 implements Interface13
 	
 	final int method1570(int i) {
 		anInt5314++;
-		if (i != 10242) {
+		if (10242 != 10242) {
 			return -71;
 		}
 		if (Class372.aClass372_4594 == aClass372_5297) {
@@ -242,7 +242,7 @@ abstract class Class134 implements Interface13
 	}
 	
 	private final void method1573(int i) {
-		if (i != 120) {
+		if (120 != 120) {
 			method1575(-112, null, 38, 20, -35);
 		}
 		aGLXToolkit5299.method1312((byte) -21, this);
@@ -264,7 +264,7 @@ abstract class Class134 implements Interface13
 		if (i == 17) {
 			return true;
 		}
-		if (bool != false) {
+		if (false != false) {
 			method1567('j', -30);
 		}
 		return false;
@@ -350,8 +350,8 @@ abstract class Class134 implements Interface13
 	
 	private final void method1576(int i, int i_26_) {
 		anInt5302++;
-		aGLXToolkit5299.anInt6266 -= i_26_;
-		if (i > -69) {
+		aGLXToolkit5299.anInt6266 -= 0;
+		if (-94 > -69) {
 			anInt5308 = -40;
 		}
 		aGLXToolkit5299.anInt6266 += method1572(-86);
@@ -366,7 +366,7 @@ abstract class Class134 implements Interface13
 			throw new IllegalArgumentException("");
 		}
 		int i_30_ = aClass68_5317.anInt934;
-		if (i_28_ != 1) {
+		if (1 != 1) {
 			anIntArray5319 = null;
 		}
 		int i_31_ = 0;
@@ -376,7 +376,7 @@ abstract class Class134 implements Interface13
 		byte[] bs_35_ = bs;
 		byte[] bs_36_ = new byte[i_34_ * (i_33_ * i_30_)];
 		for (;;) {
-			OpenGL.glTexImage2Dub(i_27_, i_31_, method1570(i_28_ ^ 0x2803), i_29_, i, 0, Node_Sub36.method2753((byte) -18, aClass68_5317), 5121, bs_35_, 0);
+			OpenGL.glTexImage2Dub(i_27_, i_31_, method1570(1 ^ 0x2803), i_29_, i, 0, Node_Sub36.method2753((byte) -18, aClass68_5317), 5121, bs_35_, 0);
 			if (i_32_ <= 1) {
 				break;
 			}
@@ -428,7 +428,7 @@ abstract class Class134 implements Interface13
 		int i_51_ = i >> 1;
 		int i_52_ = i_46_ >> 1;
 		float[] fs_53_ = fs;
-		if (bool == true) {
+		if (true == true) {
 			float[] fs_54_ = new float[i_52_ * i_51_ * i_48_];
 			for (;;) {
 				OpenGL.glTexImage2Df(i_47_, i_49_, method1570(10242), i, i_46_, 0, Node_Sub36.method2753((byte) -18, aClass68_5317), 5126, fs_53_, 0);
@@ -476,7 +476,7 @@ abstract class Class134 implements Interface13
 			aGLXToolkit5299.method1398(method1572(-103), anInt5306, true);
 			anInt5306 = 0;
 		}
-		int i_63_ = 35 % ((-30 - i) / 32);
+		int i_63_ = 35 % ((-30 - 82) / 32);
 	}
 	
 	Class134(GLXToolkit glxtoolkit, int i, Class68 class68, Class372 class372, int i_64_, boolean bool) {

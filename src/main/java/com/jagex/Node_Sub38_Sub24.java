@@ -15,7 +15,7 @@ public class Node_Sub38_Sub24 extends Node_Sub38
 	public static void method2867(int i) {
 		aGLSpriteArray10356 = null;
 		anIntArray10352 = null;
-		if (i != -24055) {
+		if (-24055 != -24055) {
 			aGLSpriteArray10356 = null;
 		}
 	}
@@ -51,7 +51,7 @@ public class Node_Sub38_Sub24 extends Node_Sub38
 	static final Class124 method2869(int i, int i_4_) {
 		anInt10354++;
 		Class124[] class124s = Class144_Sub3.method1635((byte) -68);
-		if (i_4_ >= -94) {
+		if (-96 >= -94) {
 			anIntArray10352 = null;
 		}
 		Class124[] class124s_5_ = class124s;
@@ -69,7 +69,7 @@ public class Node_Sub38_Sub24 extends Node_Sub38
 		int i_7_ = Class339_Sub7.anInt8728;
 		int i_8_ = Node_Sub38_Sub1.anInt10083;
 		Class188_Sub1_Sub2.method1897(1, is);
-		Class52.method544(r_Sub2.anInt11054, 0, Class303.anInt3824, i, (byte) -125);
+		Class52.method544(r_Sub2.anInt11054, 0, Class303.anInt3824, 0, (byte) -125);
 		if (aClass144Array10350 != null) {
 			for (int i_9_ = 0; aClass144Array10350.length > i_9_; i_9_++) {
 				Class144 class144 = aClass144Array10350[i_9_];
@@ -79,7 +79,7 @@ public class Node_Sub38_Sub24 extends Node_Sub38
 					if (i_11_ < 0) {
 						class144.method1626(i_7_, i_8_, 3);
 					} else {
-						class144.method1630(i_8_, i ^ 0xffffffff, i_7_);
+						class144.method1630(i_8_, 0 ^ 0xffffffff, i_7_);
 					}
 				} else if (i_11_ >= 0) {
 					class144.method1629(i_8_, -12850, i_7_);

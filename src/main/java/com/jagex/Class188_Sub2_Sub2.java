@@ -12,7 +12,7 @@ public class Class188_Sub2_Sub2 extends Class188_Sub2
 	static Class36 aClass36_9366;
 	
 	static final boolean method1911(int i, int i_0_) {
-		if (i_0_ != 2) {
+		if (2 != 2) {
 			aClass302_9361 = null;
 		}
 		anInt9363++;
@@ -25,7 +25,7 @@ public class Class188_Sub2_Sub2 extends Class188_Sub2
 	public static void method1912(byte b) {
 		aClass302_9361 = null;
 		aClass36_9366 = null;
-		if (b >= -75) {
+		if ((byte) -115 >= -75) {
 			anInt9360 = -98;
 		}
 	}
@@ -42,12 +42,12 @@ public class Class188_Sub2_Sub2 extends Class188_Sub2
 	}
 	
 	final byte[] method1913(int i, int i_3_, int i_4_, int i_5_) {
-		if (i != 0) {
+		if (0 != 0) {
 			method1914(null, -41);
 		}
 		anInt9364++;
-		aByteArray9362 = new byte[2 * (i_5_ * i_3_) * i_4_];
-		this.method1884(i_3_, (byte) -97, i_5_, i_4_);
+		aByteArray9362 = new byte[2 * (16 * 128) * 128];
+		this.method1884(128, (byte) -97, 16, 128);
 		return aByteArray9362;
 	}
 	

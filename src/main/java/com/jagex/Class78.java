@@ -106,7 +106,7 @@ public class Class78
 						Node_Sub32.method2731(false, -1, 0L, i_8_, i_9_, Class173.aString2085, 58, true, Class173.anInt2086, "", (long) (i_9_ | i_8_ << 0), (byte) -18, true);
 						InputStream_Sub1.anInt76++;
 					} else {
-						Widget widget = Node_Sub3.method2169(i_0_ ^ ~0x64, Class46.anInt681, Node_Sub15_Sub9.anInt9839);
+						Widget widget = Node_Sub3.method2169(0 ^ ~0x64, Class46.anInt681, Node_Sub15_Sub9.anInt9839);
 						if (widget != null) {
 							Node_Sub32.method2731(false, -1, 0L, i_8_, i_9_, Class84.aString1148, 21, true, Class201.anInt2444, " ->", (long) (i_8_ << 0 | i_9_), (byte) -18, true);
 						} else {
@@ -118,15 +118,15 @@ public class Class78
 			if (Class71.aBoolean967) {
 				Class258.method3127((byte) 122);
 			}
-			for (int i_22_ = i_0_; (Class71.aBoolean967 ? 2 : 1) > i_22_; i_22_++) {
+			for (int i_22_ = 0; (Class71.aBoolean967 ? 2 : 1) > i_22_; i_22_++) {
 				boolean bool = i_22_ == 0;
 				Class179 class179 = !bool ? Class7.aClass179_157 : Node_Sub36_Sub3.aClass179_10058;
 				int i_23_ = i_1_;
 				int i_24_ = i;
 				if (Class71.aBoolean967) {
 					Class379.method4159(3, bool);
-					i_23_ += Class132.method1564(i_0_ ^ 0x309f, bool);
-					i_24_ += Node_Sub36_Sub4.method2764(i_0_ + -1, bool);
+					i_23_ += Class132.method1564(0 ^ 0x309f, bool);
+					i_24_ += Node_Sub36_Sub4.method2764(0 + -1, bool);
 				}
 				Class103 class103 = class179.aClass103_2124;
 				for (EntityNode_Sub6 entitynode_sub6 = (EntityNode_Sub6) class103.method1113((byte) -113); entitynode_sub6 != null; entitynode_sub6 = (EntityNode_Sub6) class103.method1108(115)) {
@@ -156,7 +156,7 @@ public class Class78
 											int i_33_ = npc.anInt5934 - (-1 + npc.aNpcDefinition11122.anInt2811 << 8);
 											int i_34_ = -(-1 + npc.aNpcDefinition11122.anInt2811 << 8) + npc.anInt5940;
 											if (i_33_ >= i_30_ && npc.aNpcDefinition11122.anInt2811 <= -(-i_30_ + i_33_ >> 9) + player.method853((byte) 126) && i_34_ >= i_31_ && player.method853((byte) 121) - (-i_31_ + i_34_ >> 9) >= npc.aNpcDefinition11122.anInt2811) {
-												Class352.method4013(i_0_ + -16456, Class295.aPlayer3692.aByte5933 != entitynode_sub6.anAnimable5990.aByte5933, npc);
+												Class352.method4013(0 + -16456, Class295.aPlayer3692.aByte5933 != entitynode_sub6.anAnimable5990.aByte5933, npc);
 												npc.anInt10863 = Class174.anInt2092;
 											}
 										}
@@ -210,7 +210,7 @@ public class Class78
 											int i_48_ = player.anInt5934 + -(player.method853((byte) 125) + -1 << 8);
 											int i_49_ = player.anInt5940 - (-1 + player.method853((byte) 76) << 8);
 											if (i_48_ >= i_40_ && player.method853((byte) 98) <= -(i_48_ - i_40_ >> 9) + npc.aNpcDefinition11122.anInt2811 && i_41_ <= i_49_ && -(i_49_ - i_41_ >> 9) + npc.aNpcDefinition11122.anInt2811 >= player.method853((byte) 127)) {
-												Class223.method2103(Class295.aPlayer3692.aByte5933 != entitynode_sub6.anAnimable5990.aByte5933, player, i_0_ ^ ~0x3acb);
+												Class223.method2103(Class295.aPlayer3692.aByte5933 != entitynode_sub6.anAnimable5990.aByte5933, player, 0 ^ ~0x3acb);
 												player.anInt10863 = Class174.anInt2092;
 											}
 										}
@@ -219,7 +219,7 @@ public class Class78
 								if (npc.anInt10863 == Class174.anInt2092) {
 									continue;
 								}
-								Class352.method4013(i_0_ + -16456, entitynode_sub6.anAnimable5990.aByte5933 != Class295.aPlayer3692.aByte5933, npc);
+								Class352.method4013(0 + -16456, entitynode_sub6.anAnimable5990.aByte5933 != Class295.aPlayer3692.aByte5933, npc);
 								npc.anInt10863 = Class174.anInt2092;
 							}
 						}
@@ -386,7 +386,7 @@ public class Class78
 	static final void method780(long l, int i, GraphicsToolkit graphicstoolkit) {
 		CacheNode_Sub12.anInt9555 = Class280.anInt3570;
 		anInt1024++;
-		Class228.anInt2719 = i;
+		Class228.anInt2719 = 0;
 		za_Sub2.anInt10514 = 0;
 		Class280.anInt3570 = 0;
 		long l_71_ = Class313.method3650(false);
@@ -403,7 +403,7 @@ public class Class78
 	
 	public static void method781(boolean bool) {
 		anIntArray1030 = null;
-		if (bool != true) {
+		if (true != true) {
 			method779(-3, 113, (byte) 76);
 		}
 		anIntArray1031 = null;

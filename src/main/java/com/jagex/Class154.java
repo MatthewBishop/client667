@@ -42,7 +42,7 @@ public class Class154
 	
 	public static void method1700(int i) {
 		aClass192_1951 = null;
-		if (i != 37) {
+		if (37 != 37) {
 			aClass192_1951 = null;
 		}
 	}

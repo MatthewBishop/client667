@@ -73,7 +73,7 @@ public class RuntimeException_Sub1 extends RuntimeException
 		anInt4918++;
 		Class338.anInt4190 = 0;
 		Class259.anInt3300 = 0;
-		if (b != -12) {
+		if ((byte) -12 != -12) {
 			method4209(-51, -121, -69, 31, 29, 2, 124, -13, 28, 37);
 		}
 		for (int i = 0; Class290_Sub11.anInt8181 > i; i++) {

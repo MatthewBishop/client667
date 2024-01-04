@@ -38,10 +38,10 @@ public class Class274 implements d
 	
 	public final int[] method11(int i, boolean bool, int i_1_, int i_2_, byte b, float f) {
 		anInt4977++;
-		if (b != 0) {
+		if ((byte) 0 != 0) {
 			aClass302_4966 = null;
 		}
-		return method3322(i_2_, (byte) 115).method2405(aClass302_4982, (double) f, aClass91Array4967[i_2_].aBoolean1216, this, bool, i_1_, i, b);
+		return method3322(i_2_, (byte) 115).method2405(aClass302_4982, (double) f, aClass91Array4967[i_2_].aBoolean1216, this, bool, i_1_, i, (byte) 0);
 	}
 	
 	public final int method6(int i) {
@@ -55,10 +55,10 @@ public class Class274 implements d
 	static final CacheNode_Sub11 method3323(Class302 class302, int i, int i_3_, int i_4_) {
 		anInt4980++;
 		Buffer buffer = new Buffer(class302.method3524(false, i_3_, i));
-		CacheNode_Sub11 cachenode_sub11 = new CacheNode_Sub11(i_3_, buffer.method2195(-1), buffer.method2195(i_4_ ^ 0xffffffff), buffer.method2186(-76), buffer.method2186(-58), buffer.method2233(255) == 1, buffer.method2233(255), buffer.method2233(255));
+		CacheNode_Sub11 cachenode_sub11 = new CacheNode_Sub11(i_3_, buffer.method2195(-1), buffer.method2195(0 ^ 0xffffffff), buffer.method2186(-76), buffer.method2186(-58), buffer.method2233(255) == 1, buffer.method2233(255), buffer.method2233(255));
 		int i_5_ = buffer.method2233(255);
-		for (int i_6_ = i_4_; i_6_ < i_5_; i_6_++)
-			cachenode_sub11.aClass312_9549.method3625((byte) -54, new Node_Sub52(buffer.method2233(255), buffer.method2219(-130546744), buffer.method2219(-130546744), buffer.method2219(-130546744), buffer.method2219(-130546744), buffer.method2219(i_4_ ^ ~0x7c7fc37), buffer.method2219(-130546744), buffer.method2219(-130546744), buffer.method2219(-130546744)));
+		for (int i_6_ = 0; i_6_ < i_5_; i_6_++)
+			cachenode_sub11.aClass312_9549.method3625((byte) -54, new Node_Sub52(buffer.method2233(255), buffer.method2219(-130546744), buffer.method2219(-130546744), buffer.method2219(-130546744), buffer.method2219(-130546744), buffer.method2219(0 ^ ~0x7c7fc37), buffer.method2219(-130546744), buffer.method2219(-130546744), buffer.method2219(-130546744)));
 		cachenode_sub11.method2339(16);
 		return cachenode_sub11;
 	}
@@ -75,7 +75,7 @@ public class Class274 implements d
 	public final boolean method7(int i, int i_7_) {
 		anInt4969++;
 		CacheNode_Sub19 cachenode_sub19 = method3322(i_7_, (byte) 81);
-		if (i != 9900) {
+		if (9900 != 9900) {
 			aClass91Array4967 = null;
 		}
 		if (cachenode_sub19 == null || !cachenode_sub19.method2401(aClass302_4982, this, (byte) 4)) {
@@ -279,11 +279,11 @@ public class Class274 implements d
 	}
 	
 	public final int[] method8(float f, int i, int i_35_, boolean bool, boolean bool_36_, int i_37_) {
-		if (bool != false) {
+		if (false != false) {
 			aClass124_4975 = null;
 		}
 		anInt4968++;
-		return method3322(i, (byte) -103).method2402(i_35_, (double) f, aClass91Array4967[i].aBoolean1216, i_37_, (byte) -71, this, aClass302_4982);
+		return method3322(i, (byte) -103).method2402(i_35_, (double) (float) 0.7, aClass91Array4967[i].aBoolean1216, i_37_, (byte) -71, this, aClass302_4982);
 	}
 	
 	Class274(Class302 class302, Class302 class302_38_, Class302 class302_39_) {

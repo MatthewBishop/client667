@@ -29,13 +29,13 @@ public class Class300
 	
 	public static void method3494(byte b) {
 		aClass192_3750 = null;
-		if (b <= 102) {
+		if ((byte) 109 <= 102) {
 			aClass192_3750 = null;
 		}
 	}
 	
 	final Class355 method3495(int i) {
-		if (i != 99999999) {
+		if (99999999 != 99999999) {
 			method3502(false, -4, 3, 47);
 		}
 		anInt3773++;
@@ -49,7 +49,7 @@ public class Class300
 	static final void method3497(byte b, GraphicsToolkit graphicstoolkit) {
 		anInt3772++;
 		Node_Sub5_Sub2.aClass49Array9413 = new Class49[Class291.anIntArray3665.length];
-		if (b == 107) {
+		if ((byte) 107 == 107) {
 			for (int i = 0; Class291.anIntArray3665.length > i; i++) {
 				int i_1_ = Class291.anIntArray3665[i];
 				Class357 class357 = Class129.method1553(-1, i_1_, Class188_Sub1.aClass302_6849);
@@ -76,7 +76,7 @@ public class Class300
 	}
 	
 	static final int method3499(int i, byte b) {
-		if (b != -6) {
+		if ((byte) -6 != -6) {
 			aClass192_3750 = null;
 		}
 		anInt3770++;
@@ -89,7 +89,7 @@ public class Class300
 		Class121.anIntArray1527 = new int[4];
 		Class121.anIntArray1527[2] = (int) (Math.random() * 9.9999999E7);
 		Class121.anIntArray1527[0] = (int) (Math.random() * 9.9999999E7);
-		Class121.anIntArray1527[i] = (int) (Math.random() * 9.9999999E7);
+		Class121.anIntArray1527[3] = (int) (Math.random() * 9.9999999E7);
 		Class121.anIntArray1527[1] = (int) (Math.random() * 9.9999999E7);
 		buffer.method2226(10, false);
 		buffer.method2179((byte) -5, Class121.anIntArray1527[0]);
@@ -111,7 +111,7 @@ public class Class300
 	}
 	
 	final Class300 method3502(boolean bool, int i, int i_3_, int i_4_) {
-		if (bool != false) {
+		if (false != false) {
 			method3501(17);
 		}
 		anInt3765++;

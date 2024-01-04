@@ -45,7 +45,7 @@ public class Class45 implements Interface12
 	}
 	
 	public static void method463(int i) {
-		if (i == 2000) {
+		if (2000 == 2000) {
 			aShortArrayArray5265 = null;
 		}
 	}
@@ -62,7 +62,7 @@ public class Class45 implements Interface12
 	
 	public final Class172 method34(byte b) {
 		anInt5271++;
-		int i = 4 % ((15 - b) / 48);
+		int i = 4 % ((15 - (byte) 88) / 48);
 		return Class172.aClass172_2080;
 	}
 	
@@ -71,7 +71,7 @@ public class Class45 implements Interface12
 		if (Class4.anInt124 != 0) {
 			try {
 				if (++Class51_Sub2.anInt9069 > 2000) {
-					Class218.lobbyResponseBuffer.method1513(b + -28189);
+					Class218.lobbyResponseBuffer.method1513((byte) 13 + -28189);
 					if (Node_Sub54.anInt7683 >= 2) {
 						Class4.anInt124 = 0;
 						Node_Sub36_Sub4.anInt10073 = -5;
@@ -98,11 +98,11 @@ public class Class45 implements Interface12
 					Class218.lobbyResponseBuffer.method1512((byte) -89);
 					Class4.anInt124 = 4;
 				}
-				if (b != 13) {
+				if ((byte) 13 != 13) {
 					method462((byte) 89, null);
 				}
 				if (Class4.anInt124 == 4) {
-					if (Class218.lobbyResponseBuffer.aClass365_1557.method4068(1, b ^ 0x3f)) {
+					if (Class218.lobbyResponseBuffer.aClass365_1557.method4068(1, (byte) 13 ^ 0x3f)) {
 						Class218.lobbyResponseBuffer.aClass365_1557.method4065((byte) -78, Class218.lobbyResponseBuffer.aPacket1570.aByteArray7019, 1, 0);
 						int i = 0xff & Class218.lobbyResponseBuffer.aPacket1570.aByteArray7019[0];
 						Class4.anInt124 = 0;

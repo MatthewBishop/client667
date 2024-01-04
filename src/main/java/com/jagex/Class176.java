@@ -11,7 +11,7 @@ public class Class176
 	
 	final Class254 method1805(int i, int i_0_) {
 		anInt2103++;
-		if (i_0_ != -4409) {
+		if (-4409 != -4409) {
 			return null;
 		}
 		Class254 class254;

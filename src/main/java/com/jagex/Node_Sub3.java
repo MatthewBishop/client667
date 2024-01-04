@@ -80,7 +80,7 @@ public class Node_Sub3 extends Node
 	
 	static final String method2172(byte b, Buffer buffer) {
 		anInt6944++;
-		if (b != -72) {
+		if ((byte) -72 != -72) {
 			return null;
 		}
 		return Class207.method2040(buffer, 32767, -24709);

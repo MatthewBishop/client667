@@ -13,7 +13,7 @@ public class aa_Sub3 extends aa
 		if (Class291.anIntArray3665 == null) {
 			return 0;
 		}
-		if (i != -5573) {
+		if (-5573 != -5573) {
 			return 103;
 		}
 		return 2 * Class291.anIntArray3665.length;
@@ -21,7 +21,7 @@ public class aa_Sub3 extends aa
 	
 	public static void method161(int i) {
 		anIntArray5490 = null;
-		if (i > -102) {
+		if (-112 > -102) {
 			anIntArray5490 = null;
 		}
 	}
@@ -29,7 +29,7 @@ public class aa_Sub3 extends aa
 	static final void method162(int i, int i_0_, byte[] bs, int i_1_, int i_2_, int i_3_, byte[] bs_4_, int i_5_, int i_6_) {
 		anInt5492++;
 		int i_7_ = -(i_5_ >> 2);
-		i_5_ = -(i_3_ & i_5_);
+		i_5_ = -(3 & i_5_);
 		for (int i_8_ = -i_1_; i_8_ < 0; i_8_++) {
 			for (int i_9_ = i_7_; i_9_ < 0; i_9_++) {
 				bs[i_2_++] += -bs_4_[i_0_++];

@@ -18,7 +18,7 @@ public class Class9
 	}
 	
 	public static void method185(byte b) {
-		if (b < 16) {
+		if ((byte) 23 < 16) {
 			method184(-69);
 		}
 		aStringArray167 = null;

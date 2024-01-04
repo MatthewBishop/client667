@@ -16,21 +16,21 @@ public class Class114
 	private CacheNode[] aCacheNodeArray1463;
 	
 	public static void method1154(int i) {
-		if (i == -1) {
+		if (-1 == -1) {
 			anIntArrayArray1455 = null;
 		}
 	}
 	
 	static final GraphicsToolkit method1155(d var_d, java.awt.Canvas canvas, int i, int i_0_) {
 		anInt1457++;
-		if (i_0_ > -35) {
+		if (-58 > -35) {
 			return null;
 		}
 		return new GLToolkit(canvas, var_d, i);
 	}
 	
 	final void method1156(byte b, CacheNode cachenode, long l) {
-		if (b == 91) {
+		if ((byte) 91 == 91) {
 			if (cachenode.aCacheNode7036 != null) {
 				cachenode.method2275(-95);
 			}
@@ -47,7 +47,7 @@ public class Class114
 	final CacheNode method1157(long l, int i) {
 		aLong1461 = l;
 		anInt1456++;
-		CacheNode cachenode = aCacheNodeArray1463[(int) (l & (long) (anInt1453 - i))];
+		CacheNode cachenode = aCacheNodeArray1463[(int) (l & (long) (anInt1453 - 1))];
 		for (aCacheNode1454 = cachenode.aCacheNode7035; cachenode != aCacheNode1454; aCacheNode1454 = aCacheNode1454.aCacheNode7035) {
 			if (aCacheNode1454.aLong7037 == l) {
 				CacheNode cachenode_2_ = aCacheNode1454;
@@ -64,7 +64,7 @@ public class Class114
 		if (aCacheNode1454 == null) {
 			return null;
 		}
-		for (CacheNode cachenode = aCacheNodeArray1463[(int) (aLong1461 & (long) (i + anInt1453))]; aCacheNode1454 != cachenode; aCacheNode1454 = aCacheNode1454.aCacheNode7035) {
+		for (CacheNode cachenode = aCacheNodeArray1463[(int) (aLong1461 & (long) (-1 + anInt1453))]; aCacheNode1454 != cachenode; aCacheNode1454 = aCacheNode1454.aCacheNode7035) {
 			if (aLong1461 == aCacheNode1454.aLong7037) {
 				CacheNode cachenode_3_ = aCacheNode1454;
 				aCacheNode1454 = aCacheNode1454.aCacheNode7035;
@@ -76,9 +76,9 @@ public class Class114
 	}
 	
 	Class114(int i) {
-		aCacheNodeArray1463 = new CacheNode[i];
-		anInt1453 = i;
-		for (int i_4_ = 0; i > i_4_; i_4_++) {
+		aCacheNodeArray1463 = new CacheNode[8];
+		anInt1453 = 8;
+		for (int i_4_ = 0; 8 > i_4_; i_4_++) {
 			CacheNode cachenode = aCacheNodeArray1463[i_4_] = new CacheNode();
 			cachenode.aCacheNode7036 = cachenode;
 			cachenode.aCacheNode7035 = cachenode;

@@ -23,7 +23,7 @@ public class Class61
 	static int anInt903;
 	
 	final int method595(int i) {
-		if (i != 1188) {
+		if (1188 != 1188) {
 			return -47;
 		}
 		anInt895++;
@@ -32,7 +32,7 @@ public class Class61
 	
 	final Object method596(int i) {
 		anInt893++;
-		int i_0_ = -15 % ((27 - i) / 63);
+		int i_0_ = -15 % ((27 - 102) / 63);
 		CacheNode_Sub20 cachenode_sub20 = (CacheNode_Sub20) aHashTable901.method1516(false);
 		while (cachenode_sub20 != null) {
 			Object object = cachenode_sub20.method2409((byte) -105);
@@ -62,7 +62,7 @@ public class Class61
 	}
 	
 	final void method598(int i, int i_2_) {
-		if (i_2_ != -11819) {
+		if (-11819 != -11819) {
 			anInt897 = -40;
 		}
 		if (Node_Sub34.aClass115_7410 != null) {
@@ -73,7 +73,7 @@ public class Class61
 						aHashTable901.method1515(cachenode_sub20.aLong2797, cachenode_sub20_3_, -126);
 						Node_Sub38_Sub19.method2847(255, cachenode_sub20, cachenode_sub20_3_);
 						cachenode_sub20.method2160((byte) 62);
-						cachenode_sub20.method2275(i_2_ + 11738);
+						cachenode_sub20.method2275(-11819 + 11738);
 					}
 				} else if (cachenode_sub20.method2409((byte) -68) == null) {
 					cachenode_sub20.method2160((byte) 82);
@@ -89,11 +89,11 @@ public class Class61
 		anInt894++;
 		int i = 0;
 		for (CacheNode_Sub20 cachenode_sub20 = (CacheNode_Sub20) aClass158_886.method1723(13); cachenode_sub20 != null; cachenode_sub20 = (CacheNode_Sub20) aClass158_886.method1721(0)) {
-			if (!cachenode_sub20.method2411(b + -184)) {
+			if (!cachenode_sub20.method2411((byte) 74 + -184)) {
 				i++;
 			}
 		}
-		if (b != 74) {
+		if ((byte) 74 != 74) {
 			method601(null, -10, 125L);
 		}
 		return i;
@@ -101,7 +101,7 @@ public class Class61
 	
 	private final void method600(int i, CacheNode_Sub20 cachenode_sub20) {
 		anInt900++;
-		if (i == -28711) {
+		if (-28711 == -28711) {
 			if (cachenode_sub20 != null) {
 				cachenode_sub20.method2160((byte) 86);
 				cachenode_sub20.method2275(-52);
@@ -134,10 +134,10 @@ public class Class61
 	
 	final Object method603(byte b) {
 		anInt889++;
-		if (b != -22) {
+		if ((byte) -22 != -22) {
 			return null;
 		}
-		CacheNode_Sub20 cachenode_sub20 = (CacheNode_Sub20) aHashTable901.method1520(b + 107);
+		CacheNode_Sub20 cachenode_sub20 = (CacheNode_Sub20) aHashTable901.method1520((byte) -22 + 107);
 		while (cachenode_sub20 != null) {
 			Object object = cachenode_sub20.method2409((byte) -86);
 			if (object == null) {

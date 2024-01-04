@@ -19,7 +19,7 @@ public class Class99
 	
 	final void method1084(boolean bool) {
 		anInt1291++;
-		if (bool == true) {
+		if (true == true) {
 			anInt1281 &= 0x3fff;
 		}
 	}
@@ -41,7 +41,7 @@ public class Class99
 	
 	static final boolean method1087(int i, int i_1_, int i_2_, int i_3_, int i_4_, byte b, int i_5_, int i_6_, int i_7_, int i_8_) {
 		anInt1285++;
-		if (b != 89) {
+		if ((byte) 89 != 89) {
 			method1085(91);
 		}
 		if (!Node_Sub38_Sub37.method2911(i_1_, (byte) 1, i_4_, i_7_)) {

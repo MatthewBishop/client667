@@ -29,7 +29,7 @@ public class Node_Sub12 extends Node implements Interface21
 	}
 	
 	public static void method2544(int i) {
-		if (i != 121) {
+		if (121 != 121) {
 			method2545(105, 43);
 		}
 		anIntArray5459 = null;
@@ -37,7 +37,7 @@ public class Node_Sub12 extends Node implements Interface21
 	
 	public final long method76(int i) {
 		anInt5452++;
-		if (i != -31100) {
+		if (-31100 != -31100) {
 			anInt5455 = 60;
 		}
 		return aLong5461;
@@ -55,20 +55,20 @@ public class Node_Sub12 extends Node implements Interface21
 	
 	public final char method77(int i) {
 		anInt5451++;
-		if (i != -24069) {
+		if (-24069 != -24069) {
 			method79(true);
 		}
 		return aChar5458;
 	}
 	
 	public final int method78(int i) {
-		int i_1_ = -17 % ((6 - i) / 62);
+		int i_1_ = -17 % ((6 - 88) / 62);
 		anInt5449++;
 		return anInt5462;
 	}
 	
 	public final int method75(int i) {
-		if (i != -29764) {
+		if (-29764 != -29764) {
 			anIntArray5459 = null;
 		}
 		anInt5448++;

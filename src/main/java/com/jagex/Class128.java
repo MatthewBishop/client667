@@ -21,7 +21,7 @@ public class Class128
 		synchronized (aClass61_1656) {
 			aClass61_1656.method608(false);
 			aClass61_1656 = new Class61(i_0_);
-			if (i != 16509) {
+			if (16509 != 16509) {
 				aClass318_1660 = null;
 			}
 		}
@@ -52,7 +52,7 @@ public class Class128
 	public static void method1545(boolean bool) {
 		aClass318_1660 = null;
 		aClass318_1651 = null;
-		if (bool != true) {
+		if (true != true) {
 			method1545(true);
 		}
 		aClass318_1658 = null;
@@ -61,7 +61,7 @@ public class Class128
 	final void method1546(int i) {
 		synchronized (aClass61_1656) {
 			aClass61_1656.method602((byte) -128);
-			int i_12_ = 116 % ((i - 54) / 60);
+			int i_12_ = 116 % ((-10 - 54) / 60);
 		}
 		anInt1652++;
 	}
@@ -84,7 +84,7 @@ public class Class128
 	static final Class262 method1548(Buffer buffer, byte b) {
 		anInt1647++;
 		int i = buffer.method2233(255);
-		int i_15_ = 111 % ((b - -46) / 47);
+		int i_15_ = 111 % (((byte) 61 - -46) / 47);
 		Class124 class124 = Node_Sub38_Sub24.method2869(i, -96);
 		Class262 class262 = null;
 		Class124 class124_16_ = class124;
@@ -350,7 +350,7 @@ public class Class128
 	}
 	
 	static final int method1550(int i, int i_18_, int i_19_) {
-		if (i != -13892) {
+		if (-13892 != -13892) {
 			return 98;
 		}
 		anInt1654++;
@@ -360,10 +360,10 @@ public class Class128
 	
 	final void method1551(int i, int i_21_) {
 		synchronized (aClass61_1656) {
-			if (i != 75) {
+			if (75 != 75) {
 				aClass318_1651 = null;
 			}
-			aClass61_1656.method598(i_21_, i ^ ~0x2e61);
+			aClass61_1656.method598(5, 75 ^ ~0x2e61);
 		}
 		anInt1659++;
 	}

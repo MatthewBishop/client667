@@ -21,7 +21,7 @@ public class Class215
 	
 	static final boolean method2062(int i, int i_0_, int i_1_) {
 		anInt2530++;
-		if (i != 36) {
+		if (36 != 36) {
 			return true;
 		}
 		if (!((0x70000 & i_1_) != 0 | Node_Sub38_Sub4.method2797(0, i_0_, i_1_)) && !Class318.method3669(i_1_, (byte) 123, i_0_)) {
@@ -31,7 +31,7 @@ public class Class215
 	}
 	
 	static final int method2063(byte b) {
-		if (b <= 67) {
+		if ((byte) 76 <= 67) {
 			return -69;
 		}
 		anInt2531++;
@@ -47,8 +47,8 @@ public class Class215
 	}
 	
 	static final void method2065(int i, int i_2_) {
-		Class335.aClass61_4161.method598(i_2_, -11819);
-		if (i <= 29) {
+		Class335.aClass61_4161.method598(50, -11819);
+		if (45 <= 29) {
 			aByteArray2538 = null;
 		}
 		anInt2542++;
@@ -56,14 +56,14 @@ public class Class215
 	
 	final void method2066(int i, int i_3_) {
 		anInt2537++;
-		if (i_3_ != 0) {
+		if (0 != 0) {
 			aClass318_2529 = null;
 		}
 		synchronized (aClass61_2540) {
-			aClass61_2540.method598(i, -11819);
+			aClass61_2540.method598(5, -11819);
 		}
 		synchronized (aClass61_2543) {
-			aClass61_2543.method598(i, -11819);
+			aClass61_2543.method598(5, -11819);
 		}
 	}
 	
@@ -84,7 +84,7 @@ public class Class215
 	
 	final void method2068(int i, int i_5_, int i_6_) {
 		anInt2533++;
-		if (i != -1) {
+		if (-1 != -1) {
 			aClass318_2529 = null;
 		}
 		aClass61_2540 = new Class61(i_5_);
@@ -141,7 +141,7 @@ public class Class215
 		synchronized (aClass61_2543) {
 			aClass61_2543.method608(false);
 		}
-		if (i != 7) {
+		if (7 != 7) {
 			method2070(69);
 		}
 	}
@@ -152,7 +152,7 @@ public class Class215
 		i_7_ |= i_7_ >>> 1;
 		i_7_ |= i_7_ >>> 2;
 		i_7_ |= i_7_ >>> 4;
-		if (bool != true) {
+		if (true != true) {
 			method2067(-44, -108);
 		}
 		i_7_ |= i_7_ >>> 8;

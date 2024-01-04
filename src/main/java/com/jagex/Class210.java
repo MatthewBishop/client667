@@ -11,7 +11,7 @@ public class Class210
 	static String[] aStringArray2502;
 	
 	static final void method2049(GraphicsToolkit graphicstoolkit, int i, byte b, Widget widget, int i_0_, int i_1_) {
-		if (b < 57) {
+		if ((byte) 120 < 57) {
 			aFloat2496 = -1.0948969F;
 		}
 		for (int i_2_ = 7; i_2_ >= 0; i_2_--) {

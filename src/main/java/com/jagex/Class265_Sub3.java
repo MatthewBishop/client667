@@ -70,7 +70,7 @@ public class Class265_Sub3 extends Class265 implements Interface13_Impl1
 			throw new RuntimeException();
 		}
 		PixelBuffer pixelbuffer = aD3DToolkit3365.aPixelBuffer9187;
-		int i_14_ = anIDirect3DTexture7906.LockRect(0, i_12_, i_11_, i_13_, i_9_, 0, pixelbuffer);
+		int i_14_ = anIDirect3DTexture7906.LockRect(0, i_12_, 0, i_13_, i_9_, 0, pixelbuffer);
 		if (lh.a((byte) 106, i_14_)) {
 			i_8_ *= aClass68_3367.anInt934;
 			i_13_ *= aClass68_3367.anInt934;

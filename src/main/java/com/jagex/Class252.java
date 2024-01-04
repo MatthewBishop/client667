@@ -8,7 +8,7 @@ public class Class252
 	
 	public static void method3102(int i) {
 		aClass110_3189 = null;
-		int i_0_ = 29 / ((i - -27) / 50);
+		int i_0_ = 29 / ((95 - -27) / 50);
 		aClass61_3190 = null;
 	}
 }

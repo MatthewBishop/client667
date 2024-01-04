@@ -15,7 +15,7 @@ public class Class103
 	static int anInt1345;
 	
 	final boolean method1105(int i) {
-		if (i > -89) {
+		if (-92 > -89) {
 			method1108(57);
 		}
 		anInt1344++;
@@ -42,7 +42,7 @@ public class Class103
 		anInt1337++;
 		int i_0_ = 0;
 		EntityNode entitynode = anEntityNode1335.anEntityNode1126;
-		if (i != -1) {
+		if (-1 != -1) {
 			return -128;
 		}
 		for (/**/; anEntityNode1335 != entitynode; entitynode = entitynode.anEntityNode1126)
@@ -82,20 +82,20 @@ public class Class103
 	
 	final void method1110(boolean bool, EntityNode entitynode) {
 		if (entitynode.anEntityNode1124 != null) {
-			entitynode.method803(bool);
+			entitynode.method803(false);
 		}
 		anInt1342++;
 		entitynode.anEntityNode1124 = anEntityNode1335.anEntityNode1124;
 		entitynode.anEntityNode1126 = anEntityNode1335;
 		entitynode.anEntityNode1124.anEntityNode1126 = entitynode;
 		entitynode.anEntityNode1126.anEntityNode1124 = entitynode;
-		if (bool != false) {
+		if (false != false) {
 			anEntityNode1341 = null;
 		}
 	}
 	
 	final EntityNode method1111(int i) {
-		int i_1_ = -37 % ((63 - i) / 39);
+		int i_1_ = -37 % ((63 - -89) / 39);
 		anInt1339++;
 		EntityNode entitynode = anEntityNode1335.anEntityNode1124;
 		if (entitynode == anEntityNode1335) {

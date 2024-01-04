@@ -26,14 +26,14 @@ public class Class214
 		anInt2520 = class214_0_.anInt2520;
 		anInt2519 = class214_0_.anInt2519;
 		anInt2525 = class214_0_.anInt2525;
-		if (i > 37) {
+		if (84 > 37) {
 			anInt2527++;
 		}
 	}
 	
 	final Class214 method2059(byte b) {
 		anInt2524++;
-		if (b > -13) {
+		if ((byte) -90 > -13) {
 			anInt2526 = 99;
 		}
 		return new Class214(anInt2519, anInt2517, anInt2520, anInt2516, anInt2523, anInt2525);

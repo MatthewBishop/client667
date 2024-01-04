@@ -33,7 +33,7 @@ public class Class188_Sub1_Sub1 extends Class188_Sub1
 	public static void method1893(int i) {
 		aByteArrayArray9334 = null;
 		aFloatArray9331 = null;
-		if (i == 2) {
+		if (2 == 2) {
 			aString9327 = null;
 			anIntArray9339 = null;
 			anIntArray9330 = null;
@@ -66,12 +66,12 @@ public class Class188_Sub1_Sub1 extends Class188_Sub1
 	}
 	
 	final byte[] method1896(int i, int i_9_, int i_10_, int i_11_) {
-		if (i_11_ <= 5) {
+		if (50 <= 5) {
 			return null;
 		}
-		aByteArray9335 = new byte[i * i_9_ * i_10_ * 2];
+		aByteArray9335 = new byte[128 * 128 * 16 * 2];
 		anInt9332++;
-		this.method1884(i, (byte) -108, i_10_, i_9_);
+		this.method1884(128, (byte) -108, 16, 128);
 		return aByteArray9335;
 	}
 	

@@ -41,7 +41,7 @@ public class CacheNode_Sub1 extends CacheNode
 				aHashTable9423.method1515((long) i_6_, node, -124);
 			}
 		}
-		if (i_2_ <= -118) {
+		if (-119 <= -118) {
 			anInt9422++;
 		}
 	}
@@ -55,7 +55,7 @@ public class CacheNode_Sub1 extends CacheNode
 		if (node_sub32 == null) {
 			return i;
 		}
-		int i_9_ = 121 % ((-58 - i_7_) / 44);
+		int i_9_ = 121 % ((-58 - 86) / 44);
 		return node_sub32.anInt7381;
 	}
 	
@@ -68,7 +68,7 @@ public class CacheNode_Sub1 extends CacheNode
 			}
 			method2281(i, buffer, -119);
 		}
-		int i = 101 / ((b - 5) / 49);
+		int i = 101 / (((byte) -46 - 5) / 49);
 	}
 	
 	final String method2284(int i, String string, int i_10_) {
@@ -76,7 +76,7 @@ public class CacheNode_Sub1 extends CacheNode
 		if (aHashTable9423 == null) {
 			return string;
 		}
-		if (i_10_ != 27908) {
+		if (27908 != 27908) {
 			return null;
 		}
 		Node_Sub18 node_sub18 = (Node_Sub18) aHashTable9423.method1518(3512, (long) i);

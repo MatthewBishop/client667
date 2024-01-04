@@ -121,7 +121,7 @@ public class StandardPlane extends Plane
 	
 	private final void method3273(boolean[][] bools, boolean bool, int i, int i_23_, int i_24_, int i_25_, int i_26_, int i_27_) {
 		anInt8012++;
-		if (i_24_ != 1) {
+		if (1 != 1) {
 			CA(null, 55, 24, 4, 36, true);
 		}
 		if (aNode_Sub54Array8024 != null) {
@@ -166,25 +166,25 @@ public class StandardPlane extends Plane
 			anAbstractToolkit8004.method1320((byte) -121);
 			anAbstractToolkit8004.method1296(127, (anInt7981 & 0x7) != 0);
 			anAbstractToolkit8004.method1332(3, false, -1, false);
-			anAbstractToolkit8004.method1354(0, i_24_ + 32010, anInterface15_Impl2_8018);
+			anAbstractToolkit8004.method1354(0, 1 + 32010, anInterface15_Impl2_8018);
 			for (int i_38_ = 0; aNode_Sub54Array8024.length > i_38_; i_38_++)
 				aNode_Sub54Array8024[i_38_].method2985((byte) 60, Class47.anIntArray689, Class194_Sub3_Sub1.anInt9376);
 			Class336_Sub1 class336_sub1 = anAbstractToolkit8004.method1264(false);
 			class336_sub1.method3854(0, -1, 0);
 			anAbstractToolkit8004.method1266((byte) 107);
-			if (!aClass312_7989.method3616(i_24_ ^ 0x1)) {
+			if (!aClass312_7989.method3616(1 ^ 0x1)) {
 				int i_39_ = anAbstractToolkit8004.anInt6276;
 				int i_40_ = anAbstractToolkit8004.anInt6355;
 				anAbstractToolkit8004.L(0, i_40_, anAbstractToolkit8004.anInt6372);
-				anAbstractToolkit8004.method1296(i_24_ + 110, false);
-				anAbstractToolkit8004.method1307(i_24_ ^ ~0x54, false);
+				anAbstractToolkit8004.method1296(1 + 110, false);
+				anAbstractToolkit8004.method1307(1 ^ ~0x54, false);
 				anAbstractToolkit8004.method1277((byte) 61, 128);
-				anAbstractToolkit8004.method1332(i_24_ + 2, false, -2, false);
+				anAbstractToolkit8004.method1332(1 + 2, false, -2, false);
 				anAbstractToolkit8004.method1312((byte) -21, anAbstractToolkit8004.anInterface13_6357);
-				anAbstractToolkit8004.method1318(i_24_ ^ ~0x1c, Class117_Sub1.aClass94_4924, Class116.aClass94_5075);
+				anAbstractToolkit8004.method1318(1 ^ ~0x1c, Class117_Sub1.aClass94_4924, Class116.aClass94_5075);
 				anAbstractToolkit8004.method1304(0, 0, Node_Sub35.aClass135_7421);
 				anAbstractToolkit8004.method1366((byte) 98, Class115.aClass135_1465, 0);
-				for (Node node = aClass312_7989.method3613(i_24_ + 65279); node != null; node = aClass312_7989.method3620(16776960)) {
+				for (Node node = aClass312_7989.method3613(1 + 65279); node != null; node = aClass312_7989.method3620(16776960)) {
 					Node_Sub24 node_sub24 = (Node_Sub24) node;
 					node_sub24.method2646(i_27_, i, (byte) 51, i_25_, bools);
 				}
@@ -195,9 +195,9 @@ public class StandardPlane extends Plane
 			}
 			if (aClass263_8008 != null) {
 				anAbstractToolkit8004.method1354(0, 32011, anInterface15_Impl2_8018);
-				anAbstractToolkit8004.method1354(1, i_24_ ^ 0x7d0a, anInterface15_Impl2_8020);
+				anAbstractToolkit8004.method1354(1, 1 ^ 0x7d0a, anInterface15_Impl2_8020);
 				anAbstractToolkit8004.method1338(aClass213_8017, 9422);
-				aClass263_8008.method3218(bools, i_25_, i, i_27_, bool, i_24_ + -2);
+				aClass263_8008.method3218(bools, i_25_, i, i_27_, bool, 1 + -2);
 			}
 		}
 	}
@@ -807,7 +807,7 @@ public class StandardPlane extends Plane
 			Node_Sub38_Sub27.anIntArray10372[i_195_] = is_193_[i_195_] >> anAbstractToolkit8004.anInt6350;
 		}
 		int i_196_ = 0;
-		if (i_192_ != 6778) {
+		if (6778 != 6778) {
 			aFloat7987 = -0.91155654F;
 		}
 		while (i_194_ > i_196_) {

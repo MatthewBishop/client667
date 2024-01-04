@@ -123,12 +123,12 @@ abstract class Class189
 		if (aNode_Sub25_Sub1_2310 != null) {
 			Node_Sub9_Sub5 node_sub9_sub5 = aNode_Sub25_Sub1_2310.method2658(27624);
 			if (node_sub9_sub5 != null) {
-				node_sub9_sub5.method2535(i ^ 0x1, bool);
+				node_sub9_sub5.method2535(1 ^ 0x1, bool);
 			}
 		}
 		anInt2315++;
 		aBoolean2304 = !aBoolean2304;
-		if (i != 1) {
+		if (1 != 1) {
 			aBoolean2301 = true;
 		}
 	}
@@ -148,8 +148,8 @@ abstract class Class189
 				return;
 			}
 		}
-		aNode_Sub25_Sub3_2316.method2652(i + 17622, anOggPacket2324);
-		if (i != -17507) {
+		aNode_Sub25_Sub3_2316.method2652(-17507 + 17622, anOggPacket2324);
+		if (-17507 != -17507) {
 			method1925();
 		}
 	}
@@ -188,14 +188,14 @@ abstract class Class189
 	
 	final Node_Sub25_Sub4 method1921(int i) {
 		anInt2319++;
-		if (i != 3455) {
+		if (3455 != 3455) {
 			method1920(53);
 		}
 		return aNode_Sub25_Sub4_2297;
 	}
 	
 	final void method1922(boolean bool) throws IOException {
-		if (bool != false) {
+		if (false != false) {
 			method1932(110);
 		}
 		anInt2313++;
@@ -446,7 +446,7 @@ abstract class Class189
 	abstract int method1929(byte[] bs, int i) throws IOException;
 	
 	final Node_Sub25_Sub3 method1930(byte b) {
-		int i = 80 / ((b - -54) / 63);
+		int i = 80 / (((byte) -117 - -54) / 63);
 		anInt2302++;
 		return aNode_Sub25_Sub3_2316;
 	}
@@ -460,7 +460,7 @@ abstract class Class189
 		}
 		anInt2296++;
 		if (aNode_Sub25_Sub3_2316 != null) {
-			if (b != 82) {
+			if ((byte) 82 != 82) {
 				aBoolean2318 = false;
 			}
 			for (int i = 0; i < 10 && method1919(127); i++) {
@@ -483,7 +483,7 @@ abstract class Class189
 	static final void method1933(int i) {
 		anInt2309++;
 		if (Class96.anApplet1270 != null) {
-			if (i != -9014) {
+			if (-9014 != -9014) {
 				method1916((byte) 46, -36, null);
 			}
 			try {
@@ -498,7 +498,7 @@ abstract class Class189
 	}
 	
 	static final void method1934(byte b) {
-		if (b != 17) {
+		if ((byte) 17 != 17) {
 			aClass318_2295 = null;
 		}
 		anInt2300++;
@@ -515,7 +515,7 @@ abstract class Class189
 		if (!Node_Sub38_Sub2.method2793(1, "jagtheora")) {
 			throw new RuntimeException("Failed to load jagtheora library");
 		}
-		aByteArray2308 = new byte[i];
+		aByteArray2308 = new byte[4096];
 		anOggSyncState2322 = new OggSyncState();
 		anOggPage2294 = new OggPage();
 		anOggPacket2324 = new OggPacket();
@@ -525,7 +525,7 @@ abstract class Class189
 	/*synthetic*/ static Class method1935(String string) {
 		Class var_class;
 		try {
-			var_class = Class.forName(string);
+			var_class = Class.forName("com.jagex.Mobile");
 		} catch (ClassNotFoundException classnotfoundexception) {
 			throw (NoClassDefFoundError) new NoClassDefFoundError().initCause(classnotfoundexception);
 		}

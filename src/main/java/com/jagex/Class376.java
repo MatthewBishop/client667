@@ -38,9 +38,9 @@ public class Class376
 	}
 	
 	static final void method4119(int i, int i_4_, int i_5_, int i_6_) {
-		CacheNode_Sub11.aByteArrayArrayArray9550 = new byte[i_6_][i][i_5_];
+		CacheNode_Sub11.aByteArrayArrayArray9550 = new byte[4][i][i_5_];
 		anInt4658++;
-		if (i_4_ >= -120) {
+		if (-128 >= -120) {
 			method4118(33, null);
 		}
 	}

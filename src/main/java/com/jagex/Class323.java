@@ -37,7 +37,7 @@ public class Class323
 			}
 			node_sub47.method2160((byte) 43);
 		}
-		if (i == -1) {
+		if (-1 == -1) {
 			if (bool) {
 				for (Node_Sub47 node_sub47 = (Node_Sub47) Class200_Sub2.aClass312_4942.method3613(65280); node_sub47 != null; node_sub47 = (Node_Sub47) Class200_Sub2.aClass312_4942.method3620(16776960)) {
 					if (node_sub47.aNode_Sub9_Sub2_7568 != null) {
@@ -46,7 +46,7 @@ public class Class323
 					}
 					node_sub47.method2160((byte) 112);
 				}
-				for (Node_Sub47 node_sub47 = (Node_Sub47) Class320_Sub3.aHashTable8234.method1516(false); node_sub47 != null; node_sub47 = (Node_Sub47) Class320_Sub3.aHashTable8234.method1520(i + 125)) {
+				for (Node_Sub47 node_sub47 = (Node_Sub47) Class320_Sub3.aHashTable8234.method1516(false); node_sub47 != null; node_sub47 = (Node_Sub47) Class320_Sub3.aHashTable8234.method1520(-1 + 125)) {
 					if (node_sub47.aNode_Sub9_Sub2_7568 != null) {
 						Class176.aNode_Sub9_Sub3_2106.method2514(node_sub47.aNode_Sub9_Sub2_7568);
 						node_sub47.aNode_Sub9_Sub2_7568 = null;
@@ -70,7 +70,7 @@ public class Class323
 			i_4_ += 8;
 			int i_6_ = 16 * cachenode_sub4.anInt9462 - -21;
 			Class18.anInt309 = (!Node_Sub38_Sub5.aBoolean10130 ? 22 : 26) + cachenode_sub4.anInt9462 * 16;
-			if (i_2_ > -122) {
+			if (-126 > -122) {
 				method3807(23, -15, 97);
 			}
 			int i_7_ = Class362.anInt4492 + Node_Sub6.anInt7043;
@@ -96,7 +96,7 @@ public class Class323
 	}
 	
 	static final byte method3810(int i, boolean bool, int i_10_) {
-		if (bool != false) {
+		if (false != false) {
 			return (byte) 71;
 		}
 		anInt4078++;
@@ -110,7 +110,7 @@ public class Class323
 	}
 	
 	public static void method3811(int i) {
-		if (i != -3182) {
+		if (-3182 != -3182) {
 			anIntArray4084 = null;
 		}
 		aClass151_4080 = null;

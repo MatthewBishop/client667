@@ -43,7 +43,7 @@ public class Class308
 		synchronized (aClass61_3908) {
 			aClass61_3908.method601(cachenode_sub6, 25566, (long) i);
 		}
-		if (i_0_ != -13798) {
+		if (-13798 != -13798) {
 			method3585(null, false);
 		}
 		return cachenode_sub6;

@@ -121,12 +121,12 @@ public class Node_Sub32 extends Node
 				}
 			}
 		}
-		Class239.aBoolean2930 = bool;
+		Class239.aBoolean2930 = true;
 	}
 	
 	public static void method2730(int i) {
 		aString7378 = null;
-		if (i > -76) {
+		if (-117 > -76) {
 			method2731(true, 82, -55L, -127, 90, null, 19, false, 52, null, 60L, (byte) 71, true);
 		}
 		aClass192_7376 = null;

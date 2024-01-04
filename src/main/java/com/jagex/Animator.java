@@ -54,7 +54,7 @@ class Animator
 	
 	final int method223(int i) {
 		anInt254++;
-		int i_0_ = -87 / ((25 - i) / 46);
+		int i_0_ = -87 / ((25 - 88) / 46);
 		return anInt237;
 	}
 	
@@ -65,7 +65,7 @@ class Animator
 				return null;
 			}
 		}
-		if (b >= -86) {
+		if ((byte) -113 >= -86) {
 			return null;
 		}
 		long l = OpenGL.glCreateProgramObjectARB();
@@ -96,7 +96,7 @@ class Animator
 	final void method225(int i, DrawableModel drawablemodel, int i_1_) {
 		anInt232++;
 		if (aClass48_233 != null) {
-			if (i != 0) {
+			if (0 != 0) {
 				method233(-17);
 			}
 			if (method247(29340)) {
@@ -196,7 +196,7 @@ class Animator
 			class256 = new Class256();
 		}
 		class256.aMobile3239 = mobile;
-		if (bool != false) {
+		if (false != false) {
 			method230(83, -97, -118, -83, -95);
 		}
 		return class256;
@@ -206,7 +206,7 @@ class Animator
 		aClass48_233 = animator_13_.aClass48_233;
 		aBoolean234 = animator_13_.aBoolean234;
 		aBoolean263 = animator_13_.aBoolean263;
-		if (i != 18634) {
+		if (18634 != 18634) {
 			method235(-122);
 		}
 		anInt237 = animator_13_.anInt237;
@@ -226,7 +226,7 @@ class Animator
 	}
 	
 	final void method234(int i, int i_14_, int i_15_) {
-		if (i_15_ >= 97) {
+		if (127 >= 97) {
 			method228(i_14_, i, (byte) 109, 0, false);
 			anInt267++;
 		}
@@ -289,18 +289,18 @@ class Animator
 	final void method241(DrawableModel drawablemodel, int i) {
 		anInt238++;
 		if (method247(29340)) {
-			drawablemodel.method631(aClass226_270.anInt2685, i + 68, aClass226_270.aCacheNode_Sub15_2683);
+			drawablemodel.method631(aClass226_270.anInt2685, 0 + 68, aClass226_270.aCacheNode_Sub15_2683);
 			if (aBoolean234 && aClass48_233.anIntArray712 != null && aClass226_241.aBoolean2689) {
 				drawablemodel.method631(aClass226_241.anInt2685, 37, aClass226_241.aCacheNode_Sub15_2683);
 			}
 		}
-		if (i != 0) {
+		if (0 != 0) {
 			method222(-63, null, (byte) -38);
 		}
 	}
 	
 	final boolean method242(byte b) {
-		if (b != -77) {
+		if ((byte) -77 != -77) {
 			anInt255 = -105;
 		}
 		anInt248++;
@@ -312,7 +312,7 @@ class Animator
 	
 	final Class48 method243(byte b) {
 		anInt272++;
-		if (b != -24) {
+		if ((byte) -24 != -24) {
 			method226((byte) -69, -21);
 		}
 		return aClass48_233;
@@ -343,12 +343,12 @@ class Animator
 	final void method246(int i, int i_20_, boolean bool, DrawableModel drawablemodel) {
 		anInt262++;
 		if (method247(29340)) {
-			drawablemodel.method634(anInt247, aClass226_270.aCacheNode_Sub15_2683, aClass226_270.aCacheNode_Sub15_2687, aClass226_270.anInt2685, i_20_, null, (byte) -83, aClass48_233.anIntArray707[anInt259], aClass48_233.aBoolean691, aClass226_270.anInt2688, i);
+			drawablemodel.method634(anInt247, aClass226_270.aCacheNode_Sub15_2683, aClass226_270.aCacheNode_Sub15_2687, aClass226_270.anInt2685, 0, null, (byte) -83, aClass48_233.anIntArray707[anInt259], aClass48_233.aBoolean691, aClass226_270.anInt2688, i);
 			if (aBoolean234 && aClass48_233.anIntArray712 != null && aClass226_241.aBoolean2689) {
-				drawablemodel.method634(anInt247, aClass226_241.aCacheNode_Sub15_2683, aClass226_241.aCacheNode_Sub15_2687, aClass226_241.anInt2685, i_20_, null, (byte) -83, aClass48_233.anIntArray707[anInt259], aClass48_233.aBoolean691, aClass226_241.anInt2688, i);
+				drawablemodel.method634(anInt247, aClass226_241.aCacheNode_Sub15_2683, aClass226_241.aCacheNode_Sub15_2687, aClass226_241.anInt2685, 0, null, (byte) -83, aClass48_233.anIntArray707[anInt259], aClass48_233.aBoolean691, aClass226_241.anInt2688, i);
 			}
 		}
-		if (bool != true) {
+		if (true != true) {
 			anInt259 = -48;
 		}
 	}
@@ -464,7 +464,7 @@ class Animator
 	final void method251(boolean bool) {
 		anInt258++;
 		anInt255 = 0;
-		if (bool != true) {
+		if (true != true) {
 			anInt237 = 98;
 		}
 	}

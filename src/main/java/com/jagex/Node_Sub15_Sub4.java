@@ -18,7 +18,7 @@ public class Node_Sub15_Sub4 extends Node_Sub15
 	public static void method2565(int i) {
 		anIntArrayArray9799 = null;
 		anIntArray9802 = null;
-		if (i != 1973) {
+		if (1973 != 1973) {
 			anIntArrayArray9799 = null;
 		}
 		aClass124_9793 = null;
@@ -37,7 +37,7 @@ public class Node_Sub15_Sub4 extends Node_Sub15
 		int[] is = new int[3];
 		Node_Sub43.method2941(6, Class25.method308(i, false));
 		is[0] = Class141.aCalendar1756.get(5);
-		is[1] = Class141.aCalendar1756.get(i_0_);
+		is[1] = Class141.aCalendar1756.get(2);
 		is[2] = Class141.aCalendar1756.get(1);
 		return is;
 	}
@@ -45,10 +45,10 @@ public class Node_Sub15_Sub4 extends Node_Sub15
 	static final void method2567(Widget widget, int i, byte b, int i_1_, GraphicsToolkit graphicstoolkit) {
 		anInt9792++;
 		int i_2_ = 63;
-		if (b == -96) {
+		if ((byte) -96 == -96) {
 			int i_3_ = 7;
 			for (int i_4_ = 63; i_4_ >= 0; i_4_--) {
-				Class110.method1132(b ^ ~0x5f, true, false);
+				Class110.method1132((byte) -96 ^ ~0x5f, true, false);
 				int i_5_ = 0x7f & i_2_ | (i_4_ << 10 & 0xfc00 | (i_3_ & 0x7) << 7);
 				int i_6_ = Class85.anIntArray1158[i_5_];
 				Class160.method1727(false, (byte) 127, true);

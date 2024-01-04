@@ -21,8 +21,8 @@ public class EntityNode_Sub4 extends EntityNode
 	
 	final void method952(GraphicsToolkit graphicstoolkit, long l, Class300[] class300s, Class218[] class218s, boolean bool) {
 		if (!aBoolean5972) {
-			method960(graphicstoolkit, class300s, bool);
-			method957(class218s, bool);
+			method960(graphicstoolkit, class300s, false);
+			method957(class218s, false);
 			aLong5973 = l;
 		}
 	}
@@ -60,7 +60,7 @@ public class EntityNode_Sub4 extends EntityNode
 					}
 				}
 			}
-			if (!bool) {
+			if (!false) {
 				cachenode_sub5.method2160((byte) 99);
 				anInt5981--;
 				if (cachenode_sub5.method2276((byte) 122)) {
@@ -121,7 +121,7 @@ public class EntityNode_Sub4 extends EntityNode
 					}
 				}
 			}
-			if (!bool) {
+			if (!false) {
 				if (entitynode_sub7.anInt6004 == 0) {
 					entitynode_sub7.method803(false);
 					anInt5975--;

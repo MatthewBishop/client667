@@ -26,7 +26,7 @@ public class Class320_Sub3 extends Class320
 	
 	final boolean method3688(byte b) {
 		anInt8229++;
-		if (b <= 63) {
+		if ((byte) 107 <= 63) {
 			aClass318_8233 = null;
 		}
 		return true;
@@ -70,7 +70,7 @@ public class Class320_Sub3 extends Class320
 		Class159.anInt1996 = 2;
 		Node_Sub38_Sub23.anInt10347 = i_0_;
 		Class129.method1556(Class188_Sub1_Sub1.aString9327.equals(""), Class188_Sub1_Sub1.aString9327, true, true, "");
-		if (i != -11055) {
+		if (-11055 != -11055) {
 			method3687(102);
 		}
 	}
@@ -119,7 +119,7 @@ public class Class320_Sub3 extends Class320
 	
 	final int method3691(boolean bool) {
 		anInt8232++;
-		if (bool != false) {
+		if (false != false) {
 			method3692(null, (byte) 24, true);
 		}
 		return anInt4064;

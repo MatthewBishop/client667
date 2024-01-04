@@ -16,7 +16,7 @@ public class Class180
 	
 	final void method1818(boolean bool) {
 		synchronized (aClass61_2139) {
-			aClass61_2139.method608(bool);
+			aClass61_2139.method608(false);
 		}
 		anInt2141++;
 	}
@@ -33,11 +33,11 @@ public class Class180
 	}
 	
 	final void method1820(int i, int i_5_) {
-		if (i_5_ != 4) {
+		if (4 != 4) {
 			aClass61_2139 = null;
 		}
 		synchronized (aClass61_2139) {
-			aClass61_2139.method598(i, -11819);
+			aClass61_2139.method598(5, -11819);
 		}
 		anInt2138++;
 	}
@@ -54,7 +54,7 @@ public class Class180
 		byte[] bs;
 		synchronized (aClass302_2140) {
 			bs = aClass302_2140.method3524(false, i_6_, 26);
-			int i_7_ = 105 / ((i - -65) / 43);
+			int i_7_ = 105 / ((24 - -65) / 43);
 		}
 		cachenode_sub1 = new CacheNode_Sub1();
 		if (bs != null) {
@@ -76,7 +76,7 @@ public class Class180
 	final void method1823(boolean bool) {
 		synchronized (aClass61_2139) {
 			aClass61_2139.method602((byte) -119);
-			if (bool != true) {
+			if (true != true) {
 				method1822(-34);
 			}
 		}

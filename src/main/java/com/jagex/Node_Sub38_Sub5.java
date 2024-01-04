@@ -23,14 +23,14 @@ public class Node_Sub38_Sub5 extends Node_Sub38
 		}
 		if (object instanceof byte[]) {
 			byte[] bs = (byte[]) object;
-			return Class310.method3593(i_1_, i, true, bs);
+			return Class310.method3593(i_1_, 32768, true, bs);
 		}
-		if (i_0_ != 1) {
+		if (1 != 1) {
 			return null;
 		}
 		if (object instanceof Class201) {
 			Class201 class201 = (Class201) object;
-			return class201.method2020((byte) 104, i, i_1_);
+			return class201.method2020((byte) 104, 32768, i_1_);
 		}
 		throw new IllegalArgumentException();
 	}
@@ -164,7 +164,7 @@ public class Node_Sub38_Sub5 extends Node_Sub38
 	public static void method2803(int i) {
 		anIntArray10131 = null;
 		aClass228_10123 = null;
-		int i_19_ = 92 / ((i - 25) / 56);
+		int i_19_ = 92 / ((118 - 25) / 56);
 	}
 	
 	static {

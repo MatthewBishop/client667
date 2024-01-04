@@ -10,7 +10,7 @@ public class Class153
 	static int[] anIntArray1948;
 	
 	public static void method1696(byte b) {
-		if (b <= -77) {
+		if ((byte) -102 <= -77) {
 			aHashTable1947 = null;
 			anIntArray1948 = null;
 			aClass192_1946 = null;
@@ -19,7 +19,7 @@ public class Class153
 	}
 	
 	static final boolean method1697(int i, int i_0_, int i_1_) {
-		if (i != 95) {
+		if (95 != 95) {
 			return false;
 		}
 		anInt1944++;

@@ -19,7 +19,7 @@ public class Node_Sub38_Sub28 extends Node_Sub38
 	static Rectangle[] aRectangleArray10404 = new Rectangle[100];
 	
 	public static void method2885(byte b) {
-		if (b < 69) {
+		if ((byte) 119 < 69) {
 			aClass192_10402 = null;
 		}
 		aRectangleArray10404 = null;
@@ -65,7 +65,7 @@ public class Node_Sub38_Sub28 extends Node_Sub38
 			i_1_ = i_1_ + i_2_;
 		}
 		anIntArray10391[anInt10399] = 4096;
-		if (i != -3749) {
+		if (-3749 != -3749) {
 			method2780(true, null, 96);
 		}
 		anIntArray10400[anInt10399] = 4096 - -anIntArray10400[0];
@@ -74,7 +74,7 @@ public class Node_Sub38_Sub28 extends Node_Sub38
 	static final void method2887(String string, String string_5_, byte b) {
 		Node_Sub38_Sub23.anInt10347 = -1;
 		Class320_Sub23.aClass123_8432 = RS2Loader.ENABLE_LOBBY ? Class218.lobbyResponseBuffer : Class218.worldResponseBuffer;
-		int i = 25 / ((-17 - b) / 32);
+		int i = 25 / ((-17 - (byte) -61) / 32);
 		anInt10398++;
 		Class159.anInt1996 = RS2Loader.ENABLE_LOBBY ? 1 : 2;
 		Class129.method1556(false, string_5_, true, false, string);
@@ -146,7 +146,7 @@ public class Node_Sub38_Sub28 extends Node_Sub38
 	static final void method2888(byte b, Class302 class302) {
 		Node_Sub50.anInt7625 = class302.method3519("p11_full", (byte) 46);
 		anInt10394++;
-		if (b >= 53) {
+		if ((byte) 61 >= 53) {
 			Class285.anInt3600 = class302.method3519("p12_full", (byte) 26);
 			Class340.anInt4220 = class302.method3519("b12_full", (byte) 54);
 		}

@@ -12,14 +12,14 @@ public class Class345
 	protected int[] anIntArray4272;
 	
 	public static void method3970(int i) {
-		if (i != 1) {
+		if (1 != 1) {
 			anInt4270 = 13;
 		}
 		aClass151_4267 = null;
 	}
 	
 	static final void method3971(Class302 class302, int i, boolean bool, Class302 class302_0_) {
-		if (bool == true) {
+		if (true == true) {
 			Node_Sub15_Sub11.aClass302_9859 = class302_0_;
 			Class145.aClass302_1799 = class302;
 			anInt4269++;

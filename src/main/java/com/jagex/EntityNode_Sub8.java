@@ -7,7 +7,7 @@ public class EntityNode_Sub8 extends EntityNode
 	
 	public static void method980(int i) {
 		aClass124_6024 = null;
-		if (i != 21) {
+		if (21 != 21) {
 			aClass124_6024 = null;
 		}
 	}

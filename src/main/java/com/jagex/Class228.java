@@ -15,14 +15,14 @@ public class Class228
 		synchronized (CacheNode_Sub3.aClass61_9446) {
 			CacheNode_Sub3.aClass61_9446.method602((byte) -121);
 		}
-		if (i >= -57) {
+		if (-124 >= -57) {
 			anInt2719 = -60;
 		}
 	}
 	
 	public static void method2121(byte b) {
 		aClass318_2720 = null;
-		if (b <= 51) {
+		if ((byte) 91 <= 51) {
 			aClass318_2720 = null;
 		}
 	}

@@ -100,7 +100,7 @@ abstract class Class169 implements Interface2
 	}
 	
 	final void method1757(boolean bool, boolean bool_1_) {
-		if (bool == false) {
+		if (false == false) {
 			if (aBoolean4948 == !bool_1_) {
 				aBoolean4948 = bool_1_;
 				method1758(false);
@@ -119,20 +119,20 @@ abstract class Class169 implements Interface2
 			OpenGL.glTexParameteri(anInt4951, 10241, aBoolean4945 ? 9987 : 9729);
 			OpenGL.glTexParameteri(anInt4951, 10240, 9729);
 		}
-		if (bool != false) {
+		if (false != false) {
 			method1764(-112);
 		}
 	}
 	
 	final int method1759(byte b) {
-		int i = -66 % ((-37 - b) / 52);
+		int i = -66 % ((-37 - (byte) 93) / 52);
 		anInt4953++;
 		return anInt4960;
 	}
 	
 	static final void method1760(boolean bool) {
 		Class48.method478(12, (byte) 105);
-		if (bool != true) {
+		if (true != true) {
 			anIntArray4965 = null;
 		}
 		anInt4962++;
@@ -141,17 +141,17 @@ abstract class Class169 implements Interface2
 	}
 	
 	final void method1761(byte b) {
-		if (b == -53) {
+		if ((byte) -53 == -53) {
 			anInt4949++;
 			if (anInt4960 > 0) {
-				aGLToolkit4947.method1473(anInt4960, method1763(b + 2), b + -22249);
+				aGLToolkit4947.method1473(anInt4960, method1763((byte) -53 + 2), (byte) -53 + -22249);
 				anInt4960 = 0;
 			}
 		}
 	}
 	
 	static final int method1762(byte b, int i) {
-		if (b != 114) {
+		if ((byte) 114 != 114) {
 			return 89;
 		}
 		anInt4952++;
@@ -185,13 +185,13 @@ abstract class Class169 implements Interface2
 	}
 	
 	final boolean method1765(int i) {
-		if (i != -231) {
+		if (-231 != -231) {
 			anIntArrayArray4954 = null;
 		}
 		anInt4955++;
 		if (aGLToolkit4947.aBoolean6719) {
 			int i_3_ = method1763(-51);
-			aGLToolkit4947.method1444(i ^ 0xe7, this);
+			aGLToolkit4947.method1444(-231 ^ 0xe7, this);
 			OpenGL.glGenerateMipmapEXT(anInt4951);
 			aBoolean4945 = true;
 			method1758(false);

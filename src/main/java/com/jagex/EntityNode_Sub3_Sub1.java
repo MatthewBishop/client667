@@ -15,7 +15,7 @@ public class EntityNode_Sub3_Sub1 extends EntityNode_Sub3
 	static Class86 aClass86_9166;
 	
 	public static void method942(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			anInt9163 = 37;
 		}
 		aClass86_9166 = null;
@@ -39,7 +39,7 @@ public class EntityNode_Sub3_Sub1 extends EntityNode_Sub3
 	}
 	
 	static final void method944(int i) {
-		if (i != -7733) {
+		if (-7733 != -7733) {
 			method943((byte) -114, 116);
 		}
 		anInt9160++;

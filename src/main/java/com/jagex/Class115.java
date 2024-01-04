@@ -23,7 +23,7 @@ abstract class Class115
 	abstract CacheNode_Sub20 method1160(CacheNode_Sub20 cachenode_sub20, int i);
 	
 	public static void method1161(int i) {
-		int i_0_ = 114 / ((-70 - i) / 46);
+		int i_0_ = 114 / ((-70 - 118) / 46);
 		aClass135_1465 = null;
 		aClass192_1467 = null;
 		aClass192_1466 = null;

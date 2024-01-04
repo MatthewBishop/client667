@@ -68,7 +68,7 @@ public class Class279
 	
 	public static void method3372(int i) {
 		aNode_Sub21_3555 = null;
-		if (i != 5) {
+		if (5 != 5) {
 			aNode_Sub21_3555 = null;
 		}
 	}
@@ -93,7 +93,7 @@ public class Class279
 		anInt3557++;
 		if (bool != aBoolean3556) {
 			aBoolean3556 = bool;
-			if (b != -50) {
+			if ((byte) -50 != -50) {
 				aClass302_3549 = null;
 			}
 			method3370((byte) -40);
@@ -108,14 +108,14 @@ public class Class279
 		synchronized (aClass61_3566) {
 			aClass61_3566.method608(false);
 		}
-		if (b < 8) {
+		if ((byte) 118 < 8) {
 			method3371((byte) -33, -14, -40, -58, -77);
 		}
 	}
 	
 	final NpcDefinition method3376(int i, byte b) {
 		anInt3554++;
-		if (b != 107) {
+		if ((byte) 107 != 107) {
 			method3373((byte) -117);
 		}
 		NpcDefinition npcdefinition;
@@ -138,7 +138,7 @@ public class Class279
 		}
 		npcdefinition.method2997((byte) -110);
 		synchronized (aClass61_3560) {
-			aClass61_3560.method601(npcdefinition, b ^ 0x63b5, (long) i);
+			aClass61_3560.method601(npcdefinition, (byte) 107 ^ 0x63b5, (long) i);
 		}
 		return npcdefinition;
 	}
@@ -147,7 +147,7 @@ public class Class279
 		anInt3567 = i;
 		anInt3552++;
 		synchronized (aClass61_3565) {
-			aClass61_3565.method608(bool);
+			aClass61_3565.method608(false);
 		}
 		synchronized (aClass61_3566) {
 			aClass61_3566.method608(false);
@@ -157,7 +157,7 @@ public class Class279
 	Class279(Class353 class353, int i, boolean bool, Class302 class302, Class302 class302_4_) {
 		aClass302_3564 = class302_4_;
 		aClass302_3549 = class302;
-		aBoolean3556 = bool;
+		aBoolean3556 = true;
 		anInt3562 = i;
 		aClass353_3553 = class353;
 		if (aClass302_3549 != null) {

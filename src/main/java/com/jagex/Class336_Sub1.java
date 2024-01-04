@@ -57,8 +57,8 @@ public class Class336_Sub1 extends Class336
 	final void method3870(float f, int i, float f_0_, float f_1_) {
 		aFloat8550 = f_1_;
 		anInt8534++;
-		aFloat8542 = f;
-		aFloat8544 = aFloat8547 = aFloat8531 = aFloat8508 = aFloat8529 = aFloat8535 = (float) i;
+		aFloat8542 = (float) 0.0;
+		aFloat8544 = aFloat8547 = aFloat8531 = aFloat8508 = aFloat8529 = aFloat8535 = (float) 0;
 		aFloat8521 = f_0_;
 		aFloat8530 = aFloat8538 = aFloat8556 = 1.0F;
 	}
@@ -95,7 +95,7 @@ public class Class336_Sub1 extends Class336
 		aFloat8544 = class336_sub1_4_.aFloat8535 * aFloat8547 + (f * class336_sub1_4_.aFloat8544 + f_5_ * class336_sub1_4_.aFloat8538);
 		float f_11_ = aFloat8521;
 		aFloat8530 = class336_sub1_4_.aFloat8529 * aFloat8547 + (class336_sub1_4_.aFloat8530 * f + class336_sub1_4_.aFloat8531 * f_5_);
-		if (i > 30) {
+		if (94 > 30) {
 			aFloat8538 = class336_sub1_4_.aFloat8535 * aFloat8508 + (class336_sub1_4_.aFloat8538 * f_7_ + class336_sub1_4_.aFloat8544 * f_6_);
 			aFloat8547 = f * class336_sub1_4_.aFloat8547 + f_5_ * class336_sub1_4_.aFloat8508 + class336_sub1_4_.aFloat8556 * aFloat8547;
 			aFloat8531 = aFloat8508 * class336_sub1_4_.aFloat8529 + (class336_sub1_4_.aFloat8530 * f_6_ + f_7_ * class336_sub1_4_.aFloat8531);
@@ -129,29 +129,29 @@ public class Class336_Sub1 extends Class336
 	
 	final void method3872(float f, float f_17_, byte b, float f_18_, float[] fs, float f_19_) {
 		anInt8512++;
-		fs[2] = f_19_ * aFloat8547 + f_17_ * aFloat8508 + aFloat8556 * f_18_;
-		fs[1] = f_18_ * aFloat8535 + (f_19_ * aFloat8544 + aFloat8538 * f_17_);
-		fs[0] = f_17_ * aFloat8531 + aFloat8530 * f_19_ + aFloat8529 * f_18_;
-		if (b != 86) {
+		fs[2] = (float) 0.0 * aFloat8547 + (float) -1.0 * aFloat8508 + aFloat8556 * (float) 0.0;
+		fs[1] = (float) 0.0 * aFloat8535 + ((float) 0.0 * aFloat8544 + aFloat8538 * (float) -1.0);
+		fs[0] = (float) -1.0 * aFloat8531 + aFloat8530 * (float) 0.0 + aFloat8529 * (float) 0.0;
+		if ((byte) 86 != 86) {
 			method3865(127);
 		}
 		float f_20_;
 		float f_21_;
 		float f_22_;
-		if (!(f_19_ > 0.00390625F) && !(f_19_ < -0.00390625F)) {
-			if (f_17_ > 0.00390625F || f_17_ < -0.00390625F) {
-				float f_23_ = -f / f_17_;
+		if (!((float) 0.0 > 0.00390625F) && !((float) 0.0 < -0.00390625F)) {
+			if ((float) -1.0 > 0.00390625F || (float) -1.0 < -0.00390625F) {
+				float f_23_ = -f / (float) -1.0;
 				f_20_ = aFloat8538 * f_23_ + aFloat8521;
 				f_22_ = aFloat8531 * f_23_ + aFloat8550;
 				f_21_ = aFloat8542 + f_23_ * aFloat8508;
 			} else {
-				float f_24_ = -f / f_18_;
+				float f_24_ = -f / (float) 0.0;
 				f_22_ = aFloat8529 * f_24_ + aFloat8550;
 				f_20_ = aFloat8535 * f_24_ + aFloat8521;
 				f_21_ = aFloat8542 + f_24_ * aFloat8556;
 			}
 		} else {
-			float f_25_ = -f / f_19_;
+			float f_25_ = -f / (float) 0.0;
 			f_20_ = f_25_ * aFloat8544 + aFloat8521;
 			f_21_ = aFloat8547 * f_25_ + aFloat8542;
 			f_22_ = f_25_ * aFloat8530 + aFloat8550;
@@ -203,7 +203,7 @@ public class Class336_Sub1 extends Class336
 		fs[3] = 0.0F;
 		fs[14] = 0.0F;
 		fs[6] = 0.0F;
-		fs[i] = aFloat8538;
+		fs[5] = aFloat8538;
 		fs[12] = 0.0F;
 		return fs;
 	}
@@ -212,14 +212,14 @@ public class Class336_Sub1 extends Class336
 		aFloat8521 += f_27_;
 		aFloat8550 += f_28_;
 		aFloat8542 += f;
-		if (b == 103) {
+		if ((byte) 103 == 103) {
 			anInt8536++;
 		}
 	}
 	
 	final float method3876(int i, float f, float f_29_, float f_30_) {
 		anInt8507++;
-		if (i != 5) {
+		if (5 != 5) {
 			method3858();
 		}
 		return aFloat8521 + (f_29_ * aFloat8544 + f_30_ * aFloat8538 + f * aFloat8535);
@@ -235,7 +235,7 @@ public class Class336_Sub1 extends Class336
 	}
 	
 	final void method3877(float f, byte b, float f_31_, float f_32_) {
-		if (b != -112) {
+		if ((byte) -112 != -112) {
 			aFloat8531 = 0.042019863F;
 		}
 		anInt8537++;
@@ -255,7 +255,7 @@ public class Class336_Sub1 extends Class336
 	
 	final float method3878(float f, float f_33_, float f_34_, boolean bool) {
 		anInt8555++;
-		if (bool != false) {
+		if (false != false) {
 			aFloat8521 = 2.3998883F;
 		}
 		return aFloat8550 + (f_33_ * aFloat8529 + (f * aFloat8531 + aFloat8530 * f_34_));
@@ -270,7 +270,7 @@ public class Class336_Sub1 extends Class336
 	
 	final void method3879(Class336 class336, byte b) {
 		anInt8523++;
-		if (b != 68) {
+		if ((byte) 68 != 68) {
 			method3887(true, null);
 		}
 		Class336_Sub1 class336_sub1_37_ = (Class336_Sub1) class336;
@@ -294,7 +294,7 @@ public class Class336_Sub1 extends Class336
 		int i = -85 / ((33 - b) / 53);
 		aFloat8538 = f_45_;
 		anInt8520++;
-		aFloat8547 = f_44_;
+		aFloat8547 = (float) 0.0;
 		aFloat8508 = f_41_;
 		aFloat8542 = 0.0F;
 		aFloat8556 = f_39_;
@@ -302,7 +302,7 @@ public class Class336_Sub1 extends Class336
 		aFloat8530 = f_40_;
 		aFloat8535 = f_43_;
 		aFloat8531 = f;
-		aFloat8529 = f_42_;
+		aFloat8529 = (float) 0.0;
 	}
 	
 	final void method3853(int i, int i_46_, int i_47_, int[] is) {
@@ -336,7 +336,7 @@ public class Class336_Sub1 extends Class336
 	
 	final float method3882(float f, float f_48_, float f_49_, boolean bool) {
 		anInt8532++;
-		if (bool != true) {
+		if (true != true) {
 			return 0.44789165F;
 		}
 		return aFloat8556 * f + (aFloat8508 * f_48_ + f_49_ * aFloat8547) + aFloat8542;
@@ -392,7 +392,7 @@ public class Class336_Sub1 extends Class336
 	
 	final float[] method3884(boolean bool, float[] fs) {
 		fs[10] = aFloat8556;
-		if (bool != true) {
+		if (true != true) {
 			aBoolean8543 = false;
 		}
 		fs[5] = aFloat8538;
@@ -449,7 +449,7 @@ public class Class336_Sub1 extends Class336
 		fs[10] = aFloat8556;
 		fs[1] = aFloat8531;
 		anInt8533++;
-		fs[3] = (float) i;
+		fs[3] = (float) 0;
 		return fs;
 	}
 	
@@ -475,7 +475,7 @@ public class Class336_Sub1 extends Class336
 			aFloat8556 = 1.0F;
 			aFloat8538 = (float) i * (f_75_ * 2.0F);
 		}
-		if (i_71_ == 16383) {
+		if (16383 == 16383) {
 			anInt8506++;
 		}
 	}
@@ -537,7 +537,7 @@ public class Class336_Sub1 extends Class336
 		aFloat8535 = -aFloat8535;
 		aFloat8508 = -aFloat8508;
 		aFloat8556 = -aFloat8556;
-		if (b != 81) {
+		if ((byte) 81 != 81) {
 			aFloat8550 = 1.0491699F;
 		}
 		aFloat8544 = -aFloat8544;
@@ -572,17 +572,17 @@ public class Class336_Sub1 extends Class336
 	final void method3889(float f, byte b, float f_91_, float f_92_) {
 		anInt8554++;
 		aFloat8529 *= f_91_;
-		aFloat8547 *= f_92_;
-		aFloat8508 *= f_92_;
+		aFloat8547 *= (float) 1.0;
+		aFloat8508 *= (float) 1.0;
 		aFloat8535 *= f;
 		aFloat8530 *= f_91_;
 		aFloat8550 *= f_91_;
 		aFloat8544 *= f;
-		aFloat8542 *= f_92_;
+		aFloat8542 *= (float) 1.0;
 		int i = -79 % ((b - 66) / 45);
 		aFloat8521 *= f;
 		aFloat8531 *= f_91_;
-		aFloat8556 *= f_92_;
+		aFloat8556 *= (float) 1.0;
 		aFloat8538 *= f;
 	}
 	
@@ -620,7 +620,7 @@ public class Class336_Sub1 extends Class336
 		fs[5] = aFloat8538;
 		fs[1] = aFloat8531;
 		fs[7] = aFloat8521;
-		if (bool != true) {
+		if (true != true) {
 			return null;
 		}
 		fs[0] = aFloat8530;

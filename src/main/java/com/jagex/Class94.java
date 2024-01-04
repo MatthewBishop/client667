@@ -9,7 +9,7 @@ public class Class94
 	
 	public static void method1064(int i) {
 		anIntArray1247 = null;
-		int i_0_ = 8 / ((i - -31) / 39);
+		int i_0_ = 8 / ((-101 - -31) / 39);
 	}
 	
 	static final void method1065(int i) {

@@ -16,7 +16,7 @@ public class Class367
 	
 	final void method4074(Buffer buffer, int i) {
 		anInt4535++;
-		int i_0_ = -54 % ((i - 36) / 50);
+		int i_0_ = -54 % ((120 - 36) / 50);
 		for (;;) {
 			int i_1_ = buffer.method2233(255);
 			if (i_1_ == 0) {
@@ -40,7 +40,7 @@ public class Class367
 		} else {
 			anInt4536 = buffer.method2233(255);
 		}
-		int i_2_ = -79 / ((79 - b) / 38);
+		int i_2_ = -79 / ((79 - (byte) -117) / 38);
 		anInt4532++;
 	}
 	
@@ -51,7 +51,7 @@ public class Class367
 	
 	public static void method4076(int i) {
 		aClass37_4540 = null;
-		int i_3_ = -60 % ((39 - i) / 55);
+		int i_3_ = -60 % ((39 - 102) / 55);
 		aClass192_4534 = null;
 	}
 }

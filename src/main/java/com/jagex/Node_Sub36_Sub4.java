@@ -16,7 +16,7 @@ public class Node_Sub36_Sub4 extends Node_Sub36
 	
 	static final int method2764(int i, boolean bool) {
 		anInt10063++;
-		if (i != -1) {
+		if (-1 != -1) {
 			method2766(70, 71);
 		}
 		int i_0_ = Class320_Sub20.anInt8397;
@@ -56,7 +56,7 @@ public class Node_Sub36_Sub4 extends Node_Sub36
 		anInt10066++;
 		Class24 class24 = node_sub43.aClass24Array7533[anInt10064];
 		class24.anInt441 = anInt10067;
-		if (i != 0) {
+		if (0 != 0) {
 			anInt10064 = 19;
 		}
 		class24.aByte438 = aByte10071;
@@ -65,7 +65,7 @@ public class Node_Sub36_Sub4 extends Node_Sub36
 	
 	public static void method2765(boolean bool) {
 		aClass61_10065 = null;
-		if (bool != true) {
+		if (true != true) {
 			aClass61_10065 = null;
 		}
 	}

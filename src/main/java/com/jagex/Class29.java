@@ -31,13 +31,13 @@ public class Class29
 		gltoolkit.method1470(1);
 		OpenGL.glDisable(16384);
 		OpenGL.glDisable(16385);
-		gltoolkit.method1415(771, bool);
+		gltoolkit.method1415(771, false);
 		OpenGL.glNormal3f(0.0F, -1.0F, 0.0F);
 	}
 	
 	public static void method335(byte b) {
 		aClass318_470 = null;
-		if (b <= -66) {
+		if ((byte) -128 <= -66) {
 			aNode_Sub43_477 = null;
 		}
 	}
@@ -47,7 +47,7 @@ public class Class29
 		OpenGL.glGetFloatv(2982, aFloatArray475, 0);
 		float f = aFloatArray475[0];
 		float f_0_ = aFloatArray475[4];
-		if (b > -109) {
+		if ((byte) -122 > -109) {
 			method338(-67, null, -27);
 		}
 		float f_1_ = aFloatArray475[8];
@@ -286,7 +286,7 @@ public class Class29
 		gltoolkit.method1415(771, true);
 		anInt478++;
 		OpenGL.glEnable(16384);
-		OpenGL.glEnable(i);
+		OpenGL.glEnable(16385);
 		if (gltoolkit.aFloat6737 != Node_Sub37.aFloat7446) {
 			gltoolkit.xa(Node_Sub37.aFloat7446);
 		}
@@ -347,7 +347,7 @@ public class Class29
 				EntityNode_Sub3 entitynode_sub3_71_ = entitynode_sub3.anEntityNode_Sub3_5961;
 				int i_72_ = -2;
 				boolean bool_73_ = true;
-				boolean bool_74_ = bool;
+				boolean bool_74_ = true;
 				while (entitynode_sub3_71_ != entitynode_sub3) {
 					anInt485 = 0;
 					for (int i_75_ = 0; i_69_ > i_75_; i_75_++)
@@ -402,10 +402,10 @@ public class Class29
 	}
 	
 	final void method340(int i, GLToolkit gltoolkit) {
-		if (i != 26802) {
+		if (26802 != 26802) {
 			anInt485 = -119;
 		}
-		anInterface9_482 = gltoolkit.method1467(true, 196584, null, 24, i ^ ~0x68ae);
+		anInterface9_482 = gltoolkit.method1467(true, 196584, null, 24, 26802 ^ ~0x68ae);
 		anInt474++;
 		aClass69_484 = new Class69(anInterface9_482, 5126, 2, 0);
 		aClass69_480 = new Class69(anInterface9_482, 5126, 3, 8);

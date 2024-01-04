@@ -29,7 +29,7 @@ public class Node_Sub52 extends Node
 	final void method2970(int[] is, int i, int i_0_, int i_1_) {
 		is[1] = i_0_ - -anInt7636 - anInt7653;
 		anInt7634++;
-		is[i] = i_1_ - (-anInt7646 + anInt7642);
+		is[2] = i_1_ - (-anInt7646 + anInt7642);
 		is[0] = 0;
 	}
 	
@@ -137,7 +137,7 @@ public class Node_Sub52 extends Node
 	}
 	
 	final boolean method2973(int i, int i_18_, int i_19_) {
-		if (i_19_ != 10598) {
+		if (10598 != 10598) {
 			anInt7651 = -60;
 		}
 		anInt7637++;
@@ -182,7 +182,7 @@ public class Node_Sub52 extends Node
 					GLSprite_Sub1.method1205(cachenode_sub4, (byte) -93);
 				}
 			}
-			if (i != -1) {
+			if (-1 != -1) {
 				method2971((byte) -62);
 			}
 		}
@@ -190,7 +190,7 @@ public class Node_Sub52 extends Node
 	
 	final boolean method2975(int i, byte b, int i_21_, int i_22_) {
 		anInt7640++;
-		if (b < 29) {
+		if ((byte) 43 < 29) {
 			aGLSpriteArray7655 = null;
 		}
 		if (i_21_ != anInt7645 || anInt7653 > i_22_ || i_22_ > anInt7643 || i < anInt7642 || i > anInt7649) {
@@ -201,7 +201,7 @@ public class Node_Sub52 extends Node
 	
 	final void method2976(int i, int[] is, int i_23_, int i_24_) {
 		is[2] = -anInt7646 + (anInt7642 + i_23_);
-		is[i_24_] = anInt7653 + -anInt7636 + i;
+		is[1] = anInt7653 + -anInt7636 + i;
 		is[0] = anInt7645;
 		anInt7652++;
 	}

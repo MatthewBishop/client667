@@ -47,7 +47,7 @@ public class Class150_Sub1 extends Class150
 			glsprite.method1196(i_4_ + -8, -8 + i_5_);
 			Class362.method4053(i_5_ - 8, glsprite.method1186() + (-8 + i_5_), i_4_ + -8, (byte) 56, glsprite.method1197() + i_4_ + -8);
 		}
-		if (i_1_ != 16427) {
+		if (16427 != 16427) {
 			aSeekableFileArray8953 = null;
 		}
 		Mobile_Sub4.method911((byte) 114);
@@ -61,7 +61,7 @@ public class Class150_Sub1 extends Class150
 		Node_Sub38_Sub20.aCanvas10309.setBackground(Color.black);
 		Node_Sub38_Sub23.anInt10346 = -1;
 		Class175.aClass291_2100 = Class361.method4047(2, Node_Sub38_Sub20.aCanvas10309);
-		Class106.aClass93_1356 = Class328_Sub1.method3830(Node_Sub38_Sub20.aCanvas10309, -19397, bool);
+		Class106.aClass93_1356 = Class328_Sub1.method3830(Node_Sub38_Sub20.aCanvas10309, -19397, true);
 	}
 	
 	static final boolean method1658(Animable animable, boolean bool, byte[][][] bs, int i, byte b) {

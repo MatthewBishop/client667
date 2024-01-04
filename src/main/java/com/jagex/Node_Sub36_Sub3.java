@@ -14,13 +14,13 @@ public class Node_Sub36_Sub3 extends Node_Sub36
 	
 	static final void method2762(boolean bool, Class302 class302) {
 		anInt10057++;
-		if (bool == false) {
+		if (false == false) {
 			Class165.aClass302_2029 = class302;
 		}
 	}
 	
 	public static void method2763(byte b) {
-		if (b == 76) {
+		if ((byte) 76 == 76) {
 			aClass179_10062 = null;
 			aClass179_10058 = null;
 			aClass241_10059 = null;
@@ -28,7 +28,7 @@ public class Node_Sub36_Sub3 extends Node_Sub36
 	}
 	
 	final void method2756(Buffer buffer, int i) {
-		if (i != -1) {
+		if (-1 != -1) {
 			anInt10060 = 68;
 		}
 		anInt10055++;

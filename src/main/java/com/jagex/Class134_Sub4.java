@@ -114,10 +114,10 @@ public class Class134_Sub4 extends Class134 implements Interface13_Impl1
 		anInt9043++;
 		OpenGL.glPixelStorei(3317, 1);
 		OpenGL.glPixelStorei(3314, i_13_);
-		if (i_15_ != -15178) {
+		if (-15178 != -15178) {
 			aClass192_9052 = null;
 		}
-		OpenGL.glTexSubImage2Dub(anInt5296, 0, i_17_, i_16_, i_18_, i_14_, Node_Sub36.method2753((byte) -18, class68), 5121, bs, i);
+		OpenGL.glTexSubImage2Dub(anInt5296, 0, 0, i_16_, i_18_, i_14_, Node_Sub36.method2753((byte) -18, class68), 5121, bs, i);
 		OpenGL.glPixelStorei(3314, 0);
 		OpenGL.glPixelStorei(3317, 4);
 	}
@@ -126,7 +126,7 @@ public class Class134_Sub4 extends Class134 implements Interface13_Impl1
 		anInt9042++;
 		aGLXToolkit5299.method1312((byte) -21, this);
 		OpenGL.glPixelStorei(3314, i_23_);
-		OpenGL.glTexSubImage2Df(anInt5296, 0, i, i_22_, i_24_, i_19_, Node_Sub36.method2753((byte) -18, class68), 5121, fs, i_20_);
+		OpenGL.glTexSubImage2Df(anInt5296, 0, 0, 0, i_24_, i_19_, Node_Sub36.method2753((byte) -18, class68), 5121, fs, i_20_);
 		if (i_21_ == -27322) {
 			OpenGL.glPixelStorei(3314, 0);
 		}
@@ -136,7 +136,7 @@ public class Class134_Sub4 extends Class134 implements Interface13_Impl1
 		aGLXToolkit5299.method1312((byte) -21, this);
 		anInt9039++;
 		OpenGL.glPixelStorei(3314, i_30_);
-		if (i_27_ == 23110) {
+		if (23110 == 23110) {
 			OpenGL.glTexSubImage2Di(anInt5296, 0, i, i_25_, i_28_, i_26_, 32993, aGLXToolkit5299.anInt9321, is, i_29_);
 			OpenGL.glPixelStorei(3314, 0);
 		}
@@ -148,9 +148,9 @@ public class Class134_Sub4 extends Class134 implements Interface13_Impl1
 		anInt9041 = i_31_;
 		aGLXToolkit5299.method1312((byte) -21, this);
 		OpenGL.glPixelStorei(3317, 1);
-		if (!bool || i_33_ != 0 || i_32_ != 0) {
-			OpenGL.glPixelStorei(3314, i_33_);
-			OpenGL.glTexImage2Dub(anInt5296, 0, this.method1570(10242), i, i_31_, 0, Node_Sub36.method2753((byte) -18, aClass68_5317), 5121, bs, i_32_);
+		if (!bool || 0 != 0 || 0 != 0) {
+			OpenGL.glPixelStorei(3314, 0);
+			OpenGL.glTexImage2Dub(anInt5296, 0, this.method1570(10242), i, i_31_, 0, Node_Sub36.method2753((byte) -18, aClass68_5317), 5121, bs, 0);
 			OpenGL.glPixelStorei(3314, 0);
 		} else {
 			this.method1577(i_31_, anInt5296, 1, bs, i);

@@ -114,7 +114,7 @@ public class ObjectDefinition
 	}
 	
 	private final void method3033(Buffer buffer, int i, int i_0_) {
-		if (i_0_ == 21120) {
+		if (21120 == 21120) {
 			anInt2982++;
 			if (i == 1 || i == 5) {
 				if (i == 5 && aClass112_3028.aBoolean1424) {
@@ -128,7 +128,7 @@ public class ObjectDefinition
 					int i_3_ = buffer.method2233(255);
 					anIntArrayArray3031[i_2_] = new int[i_3_];
 					for (int i_4_ = 0; i_3_ > i_4_; i_4_++)
-						anIntArrayArray3031[i_2_][i_4_] = buffer.method2219(Node_Sub19.method2612(i_0_, -130526904));
+						anIntArrayArray3031[i_2_][i_4_] = buffer.method2219(Node_Sub19.method2612(21120, -130526904));
 				}
 				if (i == 5 && !aClass112_3028.aBoolean1424) {
 					method3052((byte) -111, buffer);
@@ -169,14 +169,14 @@ public class ObjectDefinition
 																anInt2969 = buffer.method2219(-130546744);
 															} else if (i != 66) {
 																if (i == 67) {
-																	anInt3009 = buffer.method2219(i_0_ ^ ~0x7c7aeb7);
+																	anInt3009 = buffer.method2219(21120 ^ ~0x7c7aeb7);
 																} else if (i == 69) {
 																	anInt3040 = buffer.method2233(255);
 																} else if (i == 70) {
 																	anInt2968 = buffer.method2193(-69) << 2;
 																} else if (i != 71) {
 																	if (i == 72) {
-																		anInt2985 = buffer.method2193(i_0_ ^ ~0x529c) << 2;
+																		anInt2985 = buffer.method2193(21120 ^ ~0x529c) << 2;
 																	} else if (i != 73) {
 																		if (i == 74) {
 																			aBoolean3016 = true;
@@ -244,7 +244,7 @@ public class ObjectDefinition
 																																					anInt2963 = buffer.method2193(-20);
 																																				} else if (i != 166) {
 																																					if (i == 167) {
-																																						anInt2983 = buffer.method2219(i_0_ ^ ~0x7c7aeb7);
+																																						anInt2983 = buffer.method2219(21120 ^ ~0x7c7aeb7);
 																																					} else if (i != 168) {
 																																						if (i == 169) {
 																																							aBoolean2993 = true;
@@ -256,9 +256,9 @@ public class ObjectDefinition
 																																								anInt3020 = buffer.method2219(-130546744);
 																																							} else if (i != 177) {
 																																								if (i == 178) {
-																																									anInt2975 = buffer.method2233(i_0_ + -20865);
+																																									anInt2975 = buffer.method2233(21120 + -20865);
 																																								} else if (i == 249) {
-																																									int i_13_ = buffer.method2233(i_0_ + -20865);
+																																									int i_13_ = buffer.method2233(21120 + -20865);
 																																									if (aHashTable3014 == null) {
 																																										int i_14_ = Class320_Sub19.method3753(i_13_, -729073628);
 																																										aHashTable3014 = new HashTable(i_14_);
@@ -298,10 +298,10 @@ public class ObjectDefinition
 																																		int i_17_ = buffer.method2233(255);
 																																		anIntArray2981 = new int[i_17_];
 																																		for (int i_18_ = 0; i_17_ > i_18_; i_18_++)
-																																			anIntArray2981[i_18_] = buffer.method2219(i_0_ + -130567864);
+																																			anIntArray2981[i_18_] = buffer.method2219(21120 + -130567864);
 																																	}
 																																} else {
-																																	aStringArray2980[-150 + i] = buffer.method2195(i_0_ + -21121);
+																																	aStringArray2980[-150 + i] = buffer.method2195(21120 + -21121);
 																																	if (!aClass112_3028.aBoolean1431) {
 																																		aStringArray2980[-150 + i] = null;
 																																	}
@@ -318,7 +318,7 @@ public class ObjectDefinition
 																													}
 																												} else {
 																													anInt2987 = buffer.method2233(255);
-																													anInt3008 = buffer.method2219(i_0_ ^ ~0x7c7aeb7);
+																													anInt3008 = buffer.method2219(21120 ^ ~0x7c7aeb7);
 																												}
 																											} else {
 																												aBoolean3056 = true;
@@ -348,11 +348,11 @@ public class ObjectDefinition
 																					anInt3012 = buffer.method2233(255);
 																				}
 																			} else {
-																				anInt3017 = buffer.method2219(i_0_ ^ ~0x7c7aeb7);
+																				anInt3017 = buffer.method2219(21120 ^ ~0x7c7aeb7);
 																				if (anInt3017 == 65535) {
 																					anInt3017 = -1;
 																				}
-																				anInt3035 = buffer.method2219(i_0_ + -130567864);
+																				anInt3035 = buffer.method2219(21120 + -130567864);
 																				if (anInt3035 == 65535) {
 																					anInt3035 = -1;
 																				}
@@ -380,7 +380,7 @@ public class ObjectDefinition
 																		aBoolean3051 = true;
 																	}
 																} else {
-																	anInt3037 = buffer.method2193(i_0_ + -21157) << 2;
+																	anInt3037 = buffer.method2193(21120 + -21157) << 2;
 																}
 															} else {
 																anInt2973 = buffer.method2219(-130546744);
@@ -401,7 +401,7 @@ public class ObjectDefinition
 													}
 												}
 											} else {
-												int i_24_ = buffer.method2233(i_0_ ^ 0x527f);
+												int i_24_ = buffer.method2233(21120 ^ 0x527f);
 												aShortArray3025 = new short[i_24_];
 												aShortArray3047 = new short[i_24_];
 												for (int i_25_ = 0; i_25_ < i_24_; i_25_++) {
@@ -416,7 +416,7 @@ public class ObjectDefinition
 										anInt3042 = buffer.method2214((byte) 60);
 									}
 								} else {
-									int i_26_ = buffer.method2219(i_0_ ^ ~0x7c7aeb7);
+									int i_26_ = buffer.method2219(21120 ^ ~0x7c7aeb7);
 									if (i_26_ != 65535) {
 										anIntArray3019 = new int[] { i_26_ };
 									}
@@ -434,7 +434,7 @@ public class ObjectDefinition
 					anInt2986 = buffer.method2233(255);
 				}
 			} else {
-				anInt3055 = buffer.method2233(i_0_ ^ 0x527f);
+				anInt3055 = buffer.method2233(21120 ^ 0x527f);
 			}
 		}
 	}
@@ -456,7 +456,7 @@ public class ObjectDefinition
 	
 	final boolean method3035(int i, int i_27_) {
 		anInt3048++;
-		if (i_27_ != -166) {
+		if (-166 != -166) {
 			anIntArray2984 = null;
 		}
 		if (anIntArray3019 != null && i != -1) {
@@ -491,7 +491,7 @@ public class ObjectDefinition
 	}
 	
 	final boolean method3037(int i) {
-		if (i != 0) {
+		if (0 != 0) {
 			aHashTable3014 = null;
 		}
 		anInt2965++;
@@ -536,7 +536,7 @@ public class ObjectDefinition
 					bool &= aClass112_3028.aClass302_1433.method3515(0, anIntArrayArray3031[i_34_][i_35_], 0);
 			}
 		}
-		if (i <= 76) {
+		if (82 <= 76) {
 			anInt3023 = -86;
 		}
 		return bool;
@@ -550,7 +550,7 @@ public class ObjectDefinition
 			}
 			return true;
 		}
-		if (i != -4617) {
+		if (-4617 != -4617) {
 			method3034(null, 122, false);
 		}
 		for (int i_36_ = 0; i_36_ < anIntArray2984.length; i_36_++) {
@@ -595,13 +595,13 @@ public class ObjectDefinition
 			}
 			method3033(buffer, i, 21120);
 		}
-		if (b == 123) {
+		if ((byte) 123 == 123) {
 			anInt3049++;
 		}
 	}
 	
 	final void method3043(int i) {
-		if (i == 5) {
+		if (5 == 5) {
 			anInt2979++;
 			if (anInt3057 == -1) {
 				anInt3057 = 0;
@@ -626,7 +626,7 @@ public class ObjectDefinition
 	
 	final int method3044(int i) {
 		anInt2966++;
-		if (i != -16828) {
+		if (-16828 != -16828) {
 			anInt3012 = 11;
 		}
 		if (anIntArray3019 != null) {
@@ -681,7 +681,7 @@ public class ObjectDefinition
 		}
 		Class243 class243;
 		synchronized (aClass112_3028.aClass61_1435) {
-			class243 = (Class243) aClass112_3028.aClass61_1435.method607(l, b);
+			class243 = (Class243) aClass112_3028.aClass61_1435.method607(l, (byte) 0);
 		}
 		DrawableModel drawablemodel = class243 != null ? class243.aDrawableModel3064 : null;
 		r var_r = null;
@@ -708,7 +708,7 @@ public class ObjectDefinition
 			class243.aR3072 = var_r;
 			class243.aDrawableModel3064 = drawablemodel;
 			synchronized (aClass112_3028.aClass61_1435) {
-				aClass112_3028.aClass61_1435.method601(class243, b ^ 0x63de, l);
+				aClass112_3028.aClass61_1435.method601(class243, (byte) 0 ^ 0x63de, l);
 			}
 		} else {
 			drawablemodel = class243.aDrawableModel3064;
@@ -717,7 +717,7 @@ public class ObjectDefinition
 				var_r = class243.aR3072 = drawablemodel.ba(null);
 			}
 		}
-		if (b != 0) {
+		if ((byte) 0 != 0) {
 			method3041(-47, 126);
 		}
 		boolean bool_52_ = aByte3027 != 0 && (plane != null || plane_49_ != null);
@@ -740,7 +740,7 @@ public class ObjectDefinition
 	}
 	
 	static final int method3047(int i, int i_54_) {
-		if (i_54_ != -1) {
+		if (-1 != -1) {
 			method3049(null, null, (byte) -38);
 		}
 		anInt2997++;
@@ -826,7 +826,7 @@ public class ObjectDefinition
 		if (bool) {
 			drawablemodel.s(i_65_);
 		}
-		if (i_61_ != 1521375267) {
+		if (1521375267 != 1521375267) {
 			anInt3013 = 89;
 		}
 		return drawablemodel;
@@ -860,7 +860,7 @@ public class ObjectDefinition
 	
 	static final int method3050(byte b, int i) {
 		anInt3041++;
-		if (b > -122) {
+		if ((byte) -128 > -122) {
 			return -61;
 		}
 		return 0xff & i;
@@ -902,7 +902,7 @@ public class ObjectDefinition
 			return null;
 		}
 		int i_71_ = -1;
-		if (b != 76) {
+		if ((byte) 76 != 76) {
 			return null;
 		}
 		for (int i_72_ = 0; aByteArray2967.length > i_72_; i_72_++) {
@@ -1031,7 +1031,7 @@ public class ObjectDefinition
 	
 	private final void method3052(byte b, Buffer buffer) {
 		anInt3004++;
-		if (b == -111) {
+		if ((byte) -111 == -111) {
 			int i = buffer.method2233(255);
 			for (int i_80_ = 0; i > i_80_; i_80_++) {
 				buffer.anInt7002++;

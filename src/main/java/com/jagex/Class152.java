@@ -15,13 +15,13 @@ public class Class152
 	public static void method1694(byte b) {
 		aClass192_1939 = null;
 		aSignLink1940 = null;
-		int i = -91 / ((14 - b) / 45);
+		int i = -91 / ((14 - (byte) 59) / 45);
 	}
 	
 	static final Class224 method1695(boolean bool, int i, Class302 class302, String string) {
 		anInt1938++;
 		int i_0_ = class302.method3519(string, (byte) 84);
-		if (i == (i_0_ ^ 0xffffffff)) {
+		if (0 == (i_0_ ^ 0xffffffff)) {
 			return new Class224(0);
 		}
 		int[] is = class302.method3532(i_0_, 0);
@@ -31,7 +31,7 @@ public class Class152
 		while (class224.anInt2670 > i_1_) {
 			Buffer buffer = new Buffer(class302.method3524(false, is[i_2_++], i_0_));
 			int i_3_ = buffer.method2186(74);
-			int i_4_ = buffer.method2219(i ^ ~0x7c7fc37);
+			int i_4_ = buffer.method2219(0 ^ ~0x7c7fc37);
 			int i_5_ = buffer.method2233(255);
 			if (!bool && i_5_ == 1) {
 				class224.anInt2670--;

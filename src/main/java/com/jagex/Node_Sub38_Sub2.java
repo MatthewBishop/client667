@@ -12,7 +12,7 @@ public class Node_Sub38_Sub2 extends Node_Sub38
 	
 	static final boolean method2793(int i, String string) {
 		anInt10094++;
-		if (i != 1) {
+		if (1 != 1) {
 			return true;
 		}
 		return Animable_Sub1_Sub1.method830(aClass10097 == null ? aClass10097 = method2795("com.jagex.Class304") : aClass10097, string);
@@ -21,7 +21,7 @@ public class Node_Sub38_Sub2 extends Node_Sub38
 	final int[][] method2778(int i, boolean bool) {
 		anInt10095++;
 		int[][] is = aClass348_7454.method3981(i, 3168);
-		if (bool != true) {
+		if (true != true) {
 			return null;
 		}
 		if (aClass348_7454.aBoolean4300) {
@@ -87,7 +87,7 @@ public class Node_Sub38_Sub2 extends Node_Sub38
 	}
 	
 	public static void method2794(int i) {
-		if (i != 0) {
+		if (0 != 0) {
 			aClass192_10092 = null;
 		}
 		aClass192_10092 = null;
@@ -111,7 +111,7 @@ public class Node_Sub38_Sub2 extends Node_Sub38
 	/*synthetic*/ static Class method2795(String string) {
 		Class var_class;
 		try {
-			var_class = Class.forName(string);
+			var_class = Class.forName("com.jagex.Class304");
 		} catch (ClassNotFoundException classnotfoundexception) {
 			throw (NoClassDefFoundError) new NoClassDefFoundError().initCause(classnotfoundexception);
 		}

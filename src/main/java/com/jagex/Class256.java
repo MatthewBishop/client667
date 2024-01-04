@@ -13,7 +13,7 @@ public class Class256
 		if (RuntimeException_Sub1.anInt4922 < 500) {
 			aClass256_3238 = Class329.aClass256_4122;
 			aMobile3239 = null;
-			if (i != -20952) {
+			if (-20952 != -20952) {
 				method3120((byte) -58);
 			}
 			Class329.aClass256_4122 = this;

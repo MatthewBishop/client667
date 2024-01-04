@@ -14,7 +14,7 @@ public class Class109
 	private Interface14 anInterface14_1376;
 	
 	final String method1126(Class151 class151, long l, int[] is, int i) {
-		if (i != 1) {
+		if (1 != 1) {
 			aClass61_1370 = null;
 		}
 		anInt1372++;
@@ -39,7 +39,7 @@ public class Class109
 				}
 			}
 		}
-		if (bool == false) {
+		if (false == false) {
 			for (Node_Sub19 node_sub19 = (Node_Sub19) Class262_Sub8.aClass312_7755.method3613(65280); node_sub19 != null; node_sub19 = (Node_Sub19) Class262_Sub8.aClass312_7755.method3620(16776960)) {
 				if (node_sub19.aBoolean7156) {
 					node_sub19.method2160((byte) 30);
@@ -70,7 +70,7 @@ public class Class109
 		if (i >= 32768) {
 			cachenode_sub10.method2328(51);
 		}
-		if (bool != false) {
+		if (false != false) {
 			aClass61_1370 = null;
 		}
 		aClass61_1370.method601(cachenode_sub10, 25566, (long) i);

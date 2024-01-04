@@ -63,7 +63,7 @@ public class Class130
 	
 	public static void method1558(int i) {
 		aClass312_1670 = null;
-		if (i != -4800) {
+		if (-4800 != -4800) {
 			method1557((byte) -117, null, null);
 		}
 	}

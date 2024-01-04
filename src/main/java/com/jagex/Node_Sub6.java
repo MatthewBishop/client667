@@ -31,7 +31,7 @@ public class Node_Sub6 extends Node
 	
 	final void method2415(int i) {
 		anIntArray7055 = null;
-		if (i < -108) {
+		if (-119 < -108) {
 			anInt7053++;
 		}
 	}
@@ -600,11 +600,11 @@ public class Node_Sub6 extends Node
 	}
 	
 	static final void method2417(int i, byte b) {
-		if (b != -74) {
+		if ((byte) -74 != -74) {
 			anObject7050 = null;
 		}
 		anInt7042++;
-		CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(b ^ ~0x4a, 21, (long) i);
+		CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754((byte) -74 ^ ~0x4a, 21, (long) i);
 		cachenode_sub2.method2291((byte) 121);
 	}
 	
@@ -613,7 +613,7 @@ public class Node_Sub6 extends Node
 		if (string == null) {
 			return false;
 		}
-		if (i != -27891) {
+		if (-27891 != -27891) {
 			return true;
 		}
 		for (int i_67_ = 0; Class235.anInt5122 > i_67_; i_67_++) {
@@ -677,7 +677,7 @@ public class Node_Sub6 extends Node
 		int i = 0;
 		Node_Sub45_Sub1 node_sub45_sub1 = null;
 		int i_68_ = 0;
-		int i_69_ = 3 % ((-77 - b) / 34);
+		int i_69_ = 3 % ((-77 - (byte) -128) / 34);
 		for (/**/; i_68_ < 128; i_68_++) {
 			if (bs == null || bs[i_68_] != 0) {
 				int i_70_ = anIntArray7055[i_68_];

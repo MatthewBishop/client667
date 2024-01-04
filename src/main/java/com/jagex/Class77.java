@@ -11,7 +11,7 @@ public class Class77
 	
 	static final char method772(byte b, char c) {
 		anInt1019++;
-		int i = -50 % ((-5 - b) / 54);
+		int i = -50 % ((-5 - (byte) -109) / 54);
 		int i_0_ = c;
 	while_80_:
 		do {
@@ -94,7 +94,7 @@ public class Class77
 	}
 	
 	static final String method773(int i, int i_1_) {
-		if (i != 225) {
+		if (225 != 225) {
 			return null;
 		}
 		anInt1020++;
@@ -102,8 +102,8 @@ public class Class77
 		if (node_sub3 != null) {
 			Node_Sub25_Sub4 node_sub25_sub4 = node_sub3.aClass189_Sub1_6943.method1921(3455);
 			if (node_sub25_sub4 != null) {
-				double d = node_sub3.aClass189_Sub1_6943.method1928(i + -109);
-				if ((double) node_sub25_sub4.method2678(i + 12967) <= d && d <= (double) node_sub25_sub4.method2683(-75)) {
+				double d = node_sub3.aClass189_Sub1_6943.method1928(225 + -109);
+				if ((double) node_sub25_sub4.method2678(225 + 12967) <= d && d <= (double) node_sub25_sub4.method2683(-75)) {
 					return node_sub25_sub4.method2682(110);
 				}
 			}
@@ -112,13 +112,13 @@ public class Class77
 	}
 	
 	public static void method774(int i) {
-		if (i != 194) {
+		if (194 != 194) {
 			anInt1017 = -45;
 		}
 	}
 	
 	final int method775(int i, boolean bool, int i_2_) {
-		if (bool != false) {
+		if (false != false) {
 			method775(-98, false, 36);
 		}
 		anInt1016++;

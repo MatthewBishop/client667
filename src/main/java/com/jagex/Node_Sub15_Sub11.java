@@ -12,7 +12,7 @@ public class Node_Sub15_Sub11 extends Node_Sub15
 	
 	static final void method2580(byte b, int i, int i_0_) {
 		anInt9855++;
-		if (b != -114) {
+		if ((byte) -114 != -114) {
 			aClass302_9859 = null;
 		}
 		if (Class20.aFloat329 > Class20.aFloat327) {
@@ -20,7 +20,7 @@ public class Node_Sub15_Sub11 extends Node_Sub15
 			if (Class20.aFloat329 < Class20.aFloat327) {
 				Class20.aFloat327 = Class20.aFloat329;
 			}
-			Class207.method2039(b ^ ~0x41);
+			Class207.method2039((byte) -114 ^ ~0x41);
 			Class20.anInt328 = (int) Class20.aFloat327 >> 1;
 			Class20.aByteArrayArrayArray332 = Node_Sub29_Sub3.method2719(-7499, Class20.anInt328);
 		} else if (Class20.aFloat327 > Class20.aFloat329) {

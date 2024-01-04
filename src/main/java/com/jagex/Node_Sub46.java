@@ -28,7 +28,7 @@ public class Node_Sub46 extends Node
 	
 	public static void method2949(int i) {
 		aFont7555 = null;
-		if (i != -1570) {
+		if (-1570 != -1570) {
 			method2948(-22);
 		}
 	}

@@ -24,15 +24,15 @@ public class Class157
 			return null;
 		}
 		int i_1_ = OpenGL.glGenProgramARB();
-		OpenGL.glBindProgramARB(i, i_1_);
-		OpenGL.glProgramRawARB(i, 34933, bs);
+		OpenGL.glBindProgramARB(34336, i_1_);
+		OpenGL.glProgramRawARB(34336, 34933, bs);
 		OpenGL.glGetIntegerv(34379, Class297.anIntArray3703, 0);
 		if (Class297.anIntArray3703[0] != -1) {
-			OpenGL.glBindProgramARB(i, 0);
+			OpenGL.glBindProgramARB(34336, 0);
 			return null;
 		}
-		OpenGL.glBindProgramARB(i, 0);
-		return new Class106(glxtoolkit, i, i_1_);
+		OpenGL.glBindProgramARB(34336, 0);
+		return new Class106(glxtoolkit, 34336, i_1_);
 	}
 	
 	static final void method1710(int i, int i_2_, boolean bool, int i_3_, int i_4_, int i_5_) {
@@ -200,7 +200,7 @@ public class Class157
 	}
 	
 	public static void method1711(int i) {
-		if (i >= 45) {
+		if (58 >= 45) {
 			aByteArray1973 = null;
 		}
 	}
@@ -218,7 +218,7 @@ public class Class157
 		anInt1977++;
 		int i_19_ = buffer.method2233(255);
 		Node_Sub38 node_sub38 = Class52.method530(i_19_, 83);
-		if (i >= -56) {
+		if (-57 >= -56) {
 			return null;
 		}
 		node_sub38.anInt7450 = buffer.method2233(255);
@@ -233,7 +233,7 @@ public class Class157
 	
 	final Node method1713(byte b) {
 		anInt1974++;
-		if (b != -34) {
+		if ((byte) -34 != -34) {
 			return null;
 		}
 		Node node = aNode1980;
@@ -253,7 +253,7 @@ public class Class157
 			return null;
 		}
 		aNode1980 = node.aNode2800;
-		if (i != 2) {
+		if (2 != 2) {
 			aByteArray1973 = null;
 		}
 		return node;

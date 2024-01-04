@@ -9,7 +9,7 @@ public class Class262_Sub8 extends Class262
 	private int anInt7757;
 	
 	public static void method3168(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			method3168(false);
 		}
 		aClass312_7755 = null;

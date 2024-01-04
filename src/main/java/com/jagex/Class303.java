@@ -24,7 +24,7 @@ public class Class303
 	
 	final Node method3539(int i) {
 		anInt3825++;
-		if (i < anInt3823 && aHashTable3822.aNodeArray1597[anInt3823 - 1] != aNode3828) {
+		if (0 < anInt3823 && aHashTable3822.aNodeArray1597[anInt3823 - 1] != aNode3828) {
 			Node node = aNode3828;
 			aNode3828 = node.aNode2800;
 			return node;
@@ -74,7 +74,7 @@ public class Class303
 						Class52.anInt800 = 3;
 						Class307.aNode_Sub9_Sub1_3902.method2439(-12651, Class17.anInt282 < Class339_Sub8.anInt8733 ? Class17.anInt282 : Class339_Sub8.anInt8733);
 						for (int i = 0; i < Class153.anIntArray1948.length; i++) {
-							Class307.aNode_Sub9_Sub1_3902.method2449(Class153.anIntArray1948[i], bool, i);
+							Class307.aNode_Sub9_Sub1_3902.method2449(Class153.anIntArray1948[i], false, i);
 							Class153.anIntArray1948[i] = 255;
 						}
 					}
@@ -96,7 +96,7 @@ public class Class303
 					return true;
 				}
 			}
-			if (bool != false) {
+			if (false != false) {
 				method3538(-44, 28, 48);
 			}
 		} catch (Exception exception) {
@@ -120,7 +120,7 @@ public class Class303
 	
 	final Node method3542(boolean bool) {
 		anInt3830++;
-		if (bool != true) {
+		if (true != true) {
 			return null;
 		}
 		anInt3823 = 0;
@@ -129,7 +129,7 @@ public class Class303
 	
 	static final void method3543(byte b) {
 		anInt3826++;
-		if (b != 93) {
+		if ((byte) 93 != 93) {
 			anInt3831 = 83;
 		}
 		Class153.aHashTable1947.method1517(false);

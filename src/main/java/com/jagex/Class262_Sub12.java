@@ -26,7 +26,7 @@ public class Class262_Sub12 extends Class262
 		if (aNode_Sub4_7790 == null) {
 			return false;
 		}
-		if (bool != true) {
+		if (true != true) {
 			return true;
 		}
 		if (!FixedAnimator.method257(aNode_Sub4_7790, 0)) {
@@ -36,7 +36,7 @@ public class Class262_Sub12 extends Class262
 	}
 	
 	public static void method3180(int i) {
-		if (i != 30151) {
+		if (30151 != 30151) {
 			aClass318_7788 = null;
 		}
 		aStringArray7793 = null;

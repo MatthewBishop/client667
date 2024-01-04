@@ -48,19 +48,19 @@ public class Class372
 				actor.anInt10900 = actor.anInt10904;
 			}
 		}
-		if (i != 65) {
+		if (65 != 65) {
 			method4102((byte) 37);
 		}
 	}
 	
 	static final boolean method4104(boolean bool, int i, String string, int i_2_) {
 		anInt4590++;
-		if (i_2_ < 2 || i_2_ > 36) {
-			throw new IllegalArgumentException("Invalid radix:" + i_2_);
+		if (10 < 2 || 10 > 36) {
+			throw new IllegalArgumentException("Invalid radix:" + 10);
 		}
 		boolean bool_3_ = false;
 		boolean bool_4_ = false;
-		int i_5_ = i;
+		int i_5_ = 0;
 		int i_6_ = string.length();
 		for (int i_7_ = 0; i_7_ < i_6_; i_7_++) {
 			int i_8_ = string.charAt(i_7_);
@@ -69,7 +69,7 @@ public class Class372
 					bool_3_ = true;
 					continue;
 				}
-				if (i_8_ == 43 && bool) {
+				if (i_8_ == 43 && true) {
 					continue;
 				}
 			}
@@ -82,14 +82,14 @@ public class Class372
 			} else {
 				return false;
 			}
-			if (i_2_ <= i_8_) {
+			if (10 <= i_8_) {
 				return false;
 			}
 			if (bool_3_) {
 				i_8_ = -i_8_;
 			}
-			int i_9_ = i_8_ + i_5_ * i_2_;
-			if (i_5_ != i_9_ / i_2_) {
+			int i_9_ = i_8_ + i_5_ * 10;
+			if (i_5_ != i_9_ / 10) {
 				return false;
 			}
 			i_5_ = i_9_;

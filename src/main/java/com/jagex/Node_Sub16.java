@@ -31,7 +31,7 @@ public class Node_Sub16 extends Node
 				l = l >>> 8 ^ ls[(int) (0xffL & (l ^ (long) is_0_[i_3_]))];
 		}
 		l = ls[(int) ((l ^ (long) (!bool ? 0 : 1)) & 0xffL)] ^ l >>> 8;
-		if (bool_1_ != true) {
+		if (true != true) {
 			method2593(87, 65, 50, -18, -126, 94, 103, -128, false, -37, null);
 		}
 		return l;
@@ -40,13 +40,13 @@ public class Node_Sub16 extends Node
 	final DrawableModel method2588(int i, int i_4_, GraphicsToolkit graphicstoolkit, int i_5_, boolean bool, Animator animator, PlayerDefinition playerdefinition) {
 		anInt7140++;
 		DrawableModel drawablemodel = null;
-		int i_6_ = i_5_;
+		int i_6_ = 2048;
 		Class259 class259 = null;
 		if (i != -1) {
 			class259 = InputStream_Sub2.aClass281_83.method3383((byte) 120, i);
 		}
 		int[] is = anIntArray7137;
-		if (i_4_ != 1) {
+		if (1 != 1) {
 			anIntArray7138 = null;
 		}
 		if (class259 != null && class259.anIntArray3276 != null) {
@@ -65,7 +65,7 @@ public class Node_Sub16 extends Node
 		}
 		long l = method2587(bool, i, is, playerdefinition == null ? null : playerdefinition.anIntArray3430, true);
 		if (Class96.aClass61_1272 != null) {
-			drawablemodel = (DrawableModel) Class96.aClass61_1272.method607(l, i_4_ ^ 0x1);
+			drawablemodel = (DrawableModel) Class96.aClass61_1272.method607(l, 1 ^ 0x1);
 		}
 		if (drawablemodel == null || graphicstoolkit.b(drawablemodel.ua(), i_6_) != 0) {
 			if (drawablemodel != null) {
@@ -74,7 +74,7 @@ public class Node_Sub16 extends Node
 			int i_9_ = i_6_;
 			boolean bool_10_ = false;
 			for (int i_11_ = 0; is.length > i_11_; i_11_++) {
-				if (is[i_11_] != -1 && !EntityNode_Sub3_Sub1.aClass86_9166.method1010(is[i_11_], 14434).method1686(bool, null, i_4_ + -50)) {
+				if (is[i_11_] != -1 && !EntityNode_Sub3_Sub1.aClass86_9166.method1010(is[i_11_], 14434).method1686(bool, null, 1 + -50)) {
 					bool_10_ = true;
 				}
 			}
@@ -84,7 +84,7 @@ public class Node_Sub16 extends Node
 			Model[] models = new Model[is.length];
 			for (int i_12_ = 0; i_12_ < is.length; i_12_++) {
 				if (is[i_12_] != -1) {
-					models[i_12_] = EntityNode_Sub3_Sub1.aClass86_9166.method1010(is[i_12_], i_4_ + 14433).method1683(null, bool, Node_Sub19.method2612(i_4_, -52));
+					models[i_12_] = EntityNode_Sub3_Sub1.aClass86_9166.method1010(is[i_12_], 1 + 14433).method1683(null, bool, Node_Sub19.method2612(1, -52));
 				}
 			}
 			if (class259 != null && class259.anIntArrayArray3273 != null) {
@@ -159,7 +159,7 @@ public class Node_Sub16 extends Node
 	}
 	
 	static final int method2591(byte b, char c) {
-		if (b != -115) {
+		if ((byte) -115 != -115) {
 			return -13;
 		}
 		anInt7134++;
@@ -171,7 +171,7 @@ public class Node_Sub16 extends Node
 	
 	public static void method2592(int i) {
 		aClass312_7139 = null;
-		if (i == -127) {
+		if (-127 == -127) {
 			aClass124_7132 = null;
 		}
 	}
@@ -189,7 +189,7 @@ public class Node_Sub16 extends Node
 		int i_38_ = 0;
 		Node_Sub39.anIntArray7494[i_38_] = i_32_;
 		int i_39_ = 0;
-		if (bool != false) {
+		if (false != false) {
 			method2589(null, 37);
 		}
 		Class339_Sub6.anIntArray8700[i_38_++] = i_33_;
@@ -339,7 +339,7 @@ public class Node_Sub16 extends Node
 		if (Class52.aCacheNode_Sub13_788.anInt9562 >= 2000) {
 			Class52.aCacheNode_Sub13_788.anInt9562 -= 2000;
 		}
-		if (bool != true) {
+		if (true != true) {
 			method2589(null, -33);
 		}
 		if (Class52.aCacheNode_Sub13_788.anInt9562 == 1002) {

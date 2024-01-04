@@ -13,7 +13,7 @@ public class Class381
 		anInt4892++;
 		if (Class66_Sub1.anObject8988 == null) {
 			try {
-				int i_0_ = 108 % ((-70 - i) / 49);
+				int i_0_ = 108 % ((-70 - -124) / 49);
 				Class var_class = Class.forName("java.lang.management.ManagementFactory");
 				Method method = var_class.getDeclaredMethod("getPlatformMBeanServer", null);
 				Object object = method.invoke(null, null);

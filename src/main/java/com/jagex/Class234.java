@@ -31,7 +31,7 @@ abstract class Class234
 	
 	final int method2147(long l, int i) {
 		anInt2788++;
-		if (i <= 50) {
+		if (75 <= 50) {
 			return -89;
 		}
 		long l_0_ = method2148((byte) 92);
@@ -45,14 +45,14 @@ abstract class Class234
 	
 	public static void method2149(byte b) {
 		aBooleanArrayArrayArray2790 = null;
-		if (b != -70) {
+		if ((byte) -70 != -70) {
 			anInt2792 = 54;
 		}
 	}
 	
 	static final boolean method2150(int i, int i_1_, int i_2_) {
 		anInt2791++;
-		if (i_1_ != 256) {
+		if (256 != 256) {
 			method2144(-6);
 		}
 		if ((i_2_ & 0x100) == 0) {

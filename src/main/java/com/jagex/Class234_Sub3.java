@@ -22,7 +22,7 @@ public class Class234_Sub3 extends Class234
 	
 	private final long method2154(int i) {
 		long l = jagmisc.nanoTime();
-		if (i != 26477) {
+		if (26477 != 26477) {
 			method2146(2);
 		}
 		long l_0_ = l - aLong6928;
@@ -59,7 +59,7 @@ public class Class234_Sub3 extends Class234
 	}
 	
 	final int method2145(byte b, long l) {
-		if (b < 68) {
+		if ((byte) 84 < 68) {
 			aLongArray6929 = null;
 		}
 		if (aLong6925 > aLong6926) {

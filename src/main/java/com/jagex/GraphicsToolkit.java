@@ -82,7 +82,7 @@ abstract class GraphicsToolkit
 			return null;
 		}
 		anInt1536++;
-		return a(is, i_44_, i_42_, i, i_43_, true);
+		return a(is, 0, i_42_, i, i_43_, true);
 	}
 	
 	abstract void a(int i, int i_46_, int i_47_, int i_48_, int i_49_, int i_50_, int i_51_);
@@ -105,7 +105,7 @@ abstract class GraphicsToolkit
 	
 	final void method1236(int i, int i_65_, int i_66_, int i_67_, int i_68_, int i_69_) {
 		anInt1546++;
-		a(i_69_, i_65_, i_66_, i, i_67_, i_68_);
+		a(i_69_, i_65_, i_66_, i, i_67_, 1);
 	}
 	
 	abstract void la();
@@ -146,7 +146,7 @@ abstract class GraphicsToolkit
 	
 	final void method1238(int i, int i_93_, int i_94_, byte b, int i_95_) {
 		anInt1531++;
-		if (b != 86) {
+		if ((byte) 86 != 86) {
 			aClass33Array1549 = null;
 		}
 		za(i_94_, i, i_95_, i_93_, 1);
@@ -161,7 +161,7 @@ abstract class GraphicsToolkit
 	abstract boolean m();
 	
 	final void method1239(int i, int i_96_, int i_97_, byte b, int i_98_, int i_99_) {
-		if (b != 116) {
+		if ((byte) 116 != 116) {
 			aClass270_1548 = null;
 		}
 		aa(i_98_, i_97_, i, i_96_, i_99_, 1);
@@ -223,7 +223,7 @@ abstract class GraphicsToolkit
 	
 	final void method1241(int i) throws Exception_Sub1 {
 		anInt1534++;
-		if (i == 19088) {
+		if (19088 == 19088) {
 			e(0, 0);
 		}
 	}
@@ -256,7 +256,7 @@ abstract class GraphicsToolkit
 	abstract boolean z();
 	
 	final void method1242(int i, int i_129_, int i_130_, boolean bool, int i_131_) {
-		if (bool != false) {
+		if (false != false) {
 			ZA(25, 1.4170177F, -0.9567918F, -1.2930429F, 2.06642F, 1.2132899F);
 		}
 		U(i_130_, i, i_131_, i_129_, 1);
@@ -278,7 +278,7 @@ abstract class GraphicsToolkit
 	final void method1243(int i, int i_159_, int i_160_, int i_161_, int i_162_) {
 		P(i_161_, i_159_, i, i_160_, 1);
 		anInt1532++;
-		if (i_162_ != 2) {
+		if (2 != 2) {
 			ya();
 		}
 	}
@@ -296,7 +296,7 @@ abstract class GraphicsToolkit
 	abstract boolean B();
 	
 	final void method1245(GLSprite glsprite, int i) {
-		if (i == -1) {
+		if (-1 == -1) {
 			anInt1533++;
 			a(a(glsprite, d(glsprite.method1193(), glsprite.method1176())));
 		}
@@ -309,7 +309,7 @@ abstract class GraphicsToolkit
 	abstract aa a(int i, int i_165_, int[] is, int[] is_166_);
 	
 	final void method1246(int i, byte b, Rectangle[] rectangles) throws Exception_Sub1 {
-		if (b > -89) {
+		if ((byte) -120 > -89) {
 			aClass34_Sub1Array1547 = null;
 		}
 		a(rectangles, i, 0, 0);

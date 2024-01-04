@@ -20,20 +20,20 @@ public class Class270_Sub2_Sub1 extends Class270_Sub2
 		int i_3_ = i & -1 + i_0_;
 		int i_4_ = i_1_ / i_0_;
 		int i_5_ = i_1_ & i_0_ - 1;
-		int i_6_ = Class180.method1819(i_4_, b ^ 0x64, i_2_);
-		int i_7_ = Class180.method1819(i_4_, b ^ 0x1f, i_2_ - -1);
+		int i_6_ = Class180.method1819(i_4_, (byte) 91 ^ 0x64, i_2_);
+		int i_7_ = Class180.method1819(i_4_, (byte) 91 ^ 0x1f, i_2_ - -1);
 		int i_8_ = Class180.method1819(1 + i_4_, 64, i_2_);
-		if (b != 91) {
+		if ((byte) 91 != 91) {
 			anInt10548 = 18;
 		}
-		int i_9_ = Class180.method1819(1 + i_4_, b ^ 0xb, 1 + i_2_);
-		int i_10_ = SeekableFile.method3569(b ^ 0x1005b, i_0_, i_6_, i_7_, i_3_);
+		int i_9_ = Class180.method1819(1 + i_4_, (byte) 91 ^ 0xb, 1 + i_2_);
+		int i_10_ = SeekableFile.method3569((byte) 91 ^ 0x1005b, i_0_, i_6_, i_7_, i_3_);
 		int i_11_ = SeekableFile.method3569(65536, i_0_, i_8_, i_9_, i_3_);
-		return SeekableFile.method3569(b + 65445, i_0_, i_10_, i_11_, i_5_);
+		return SeekableFile.method3569((byte) 91 + 65445, i_0_, i_10_, i_11_, i_5_);
 	}
 	
 	final int method3307(int i) {
-		if (i != 1) {
+		if (1 != 1) {
 			anInt10546 = -40;
 		}
 		anInt10541++;
@@ -65,7 +65,7 @@ public class Class270_Sub2_Sub1 extends Class270_Sub2
 		aGLToolkit10544.method1444(-2, class169_sub1);
 		aGLToolkit10544.method1457(33984, 0);
 		aGLToolkit10544.method1434((byte) 62, 1);
-		if (b <= 20) {
+		if ((byte) 63 <= 20) {
 			anInt10548 = 64;
 		}
 		aGLToolkit10544.method1444(-2, class169_sub1_12_);
@@ -214,7 +214,7 @@ public class Class270_Sub2_Sub1 extends Class270_Sub2
 	}
 	
 	final Class169_Sub1 method3304(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			anInt10546 = -122;
 		}
 		anInt10547++;

@@ -27,7 +27,7 @@ public class PlayerDefinition
 		aLong3440 = -1L;
 		aLong3440 = ls[(int) ((aLong3440 ^ (long) (anInt3429 >> 8)) & 0xffL)] ^ aLong3440 >>> 8;
 		aLong3440 = aLong3440 >>> 8 ^ ls[(int) (((long) anInt3429 ^ aLong3440) & 0xffL)];
-		if (i != 21428) {
+		if (21428 != 21428) {
 			anIntArray3430 = null;
 		}
 		for (int i_0_ = 0; anIntArray3435.length > i_0_; i_0_++) {
@@ -97,7 +97,7 @@ public class PlayerDefinition
 		}
 		anInt3437++;
 		anIntArray3435 = is_8_;
-		int i_10_ = -118 % ((b - 10) / 48);
+		int i_10_ = -118 % (((byte) -110 - 10) / 48);
 		anInt3439 = i;
 		method3276(21428);
 	}
@@ -299,7 +299,7 @@ public class PlayerDefinition
 						}
 					}
 				}
-				if (bool) {
+				if (true) {
 					drawablemodel.s(i_14_);
 					synchronized (Node_Sub36_Sub4.aClass61_10065) {
 						Node_Sub36_Sub4.aClass61_10065.method601(drawablemodel, 25566, l);
@@ -363,7 +363,7 @@ public class PlayerDefinition
 	final void method3280(int i, boolean bool) {
 		aBoolean3434 = bool;
 		anInt3441++;
-		if (i == 26328) {
+		if (26328 == 26328) {
 			method3276(21428);
 		}
 	}
@@ -436,7 +436,7 @@ public class PlayerDefinition
 		if (animator == null) {
 			return drawablemodel;
 		}
-		int i_65_ = -59 % ((b - 31) / 58);
+		int i_65_ = -59 % (((byte) 125 - 31) / 58);
 		drawablemodel = drawablemodel.method633((byte) 4, i_60_, true);
 		animator.method225(0, drawablemodel, 0);
 		return drawablemodel;
@@ -444,7 +444,7 @@ public class PlayerDefinition
 	
 	final void method3284(byte b, int i, int i_66_, Class86 class86) {
 		anInt3426++;
-		int i_67_ = 23 % ((48 - b) / 48);
+		int i_67_ = 23 % ((48 - (byte) -82) / 48);
 		if (i == -1) {
 			anIntArray3435[i_66_] = 0;
 		} else if (class86.method1010(i, 14434) != null) {
@@ -461,7 +461,7 @@ public class PlayerDefinition
 		int i_68_ = animator == null ? i : i | animator.method237((byte) -126);
 		DrawableModel drawablemodel;
 		synchronized (CacheNode_Sub3.aClass61_9446) {
-			drawablemodel = (DrawableModel) CacheNode_Sub3.aClass61_9446.method607(aLong3440, b + 82);
+			drawablemodel = (DrawableModel) CacheNode_Sub3.aClass61_9446.method607(aLong3440, (byte) -82 + 82);
 		}
 		if (drawablemodel == null || graphicstoolkit.b(drawablemodel.ua(), i_68_) != 0) {
 			if (drawablemodel != null) {
@@ -476,7 +476,7 @@ public class PlayerDefinition
 					if (aClass38Array3431 != null && aClass38Array3431[i_70_] != null) {
 						class38 = aClass38Array3431[i_70_];
 					}
-					if (!class86.method1010(0x3fffffff & i_71_, 14434).method1692(b ^ ~0x51, class38, aBoolean3434)) {
+					if (!class86.method1010(0x3fffffff & i_71_, 14434).method1692((byte) -82 ^ ~0x51, class38, aBoolean3434)) {
 						bool = true;
 					}
 				} else if ((~0x7fffffff & i_71_) != 0 && !class181.method1825(0x3fffffff & i_71_, (byte) 109).method3228(true)) {
@@ -524,7 +524,7 @@ public class PlayerDefinition
 		if (animator == null) {
 			return drawablemodel;
 		}
-		if (b != -82) {
+		if ((byte) -82 != -82) {
 			method3282(122, 89, (byte) -50);
 		}
 		DrawableModel drawablemodel_77_ = drawablemodel.method633((byte) 4, i_68_, true);

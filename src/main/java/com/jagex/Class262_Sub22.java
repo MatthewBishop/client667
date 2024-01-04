@@ -13,7 +13,7 @@ public class Class262_Sub22 extends Class262
 	static final void method3206(int i) {
 		anInt7874++;
 		synchronized (Class30.aClass103Array494) {
-			for (int i_0_ = i; Class30.aClass103Array494.length > i_0_; i_0_++) {
+			for (int i_0_ = 0; Class30.aClass103Array494.length > i_0_; i_0_++) {
 				Class30.aClass103Array494[i_0_] = new Class103();
 				Class89.anIntArray1195[i_0_] = 0;
 			}
@@ -84,7 +84,7 @@ public class Class262_Sub22 extends Class262
 	
 	static final void method3208(long l, boolean bool) {
 		anInt7870++;
-		if (l > 0 && bool == false) {
+		if (l > 0 && false == false) {
 			if (l % 10L != 0) {
 				Class262_Sub11.method3179(l, (byte) 123);
 			} else {
@@ -105,7 +105,7 @@ public class Class262_Sub22 extends Class262
 	static final Class115 method3209(boolean bool) {
 		anInt7869++;
 		try {
-			if (bool != true) {
+			if (true != true) {
 				return null;
 			}
 			return (Class115) Class.forName("com.jagex.Class115_Sub1").newInstance();
@@ -143,7 +143,7 @@ public class Class262_Sub22 extends Class262
 				Class318.anInt4050 = 3072;
 			}
 		}
-		Class367.anInt4541 = Class368.anInt4551 = i_4_;
+		Class367.anInt4541 = Class368.anInt4551 = -1;
 		Class320_Sub22.anInt8415 = 2;
 	}
 	

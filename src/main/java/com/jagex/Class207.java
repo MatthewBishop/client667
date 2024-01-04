@@ -58,7 +58,7 @@ public class Class207
 	}
 	
 	private final int method2041(int i, int i_2_) {
-		if (i != 12053) {
+		if (12053 != 12053) {
 			method2044(76, 34);
 		}
 		anInt2474++;
@@ -67,7 +67,7 @@ public class Class207
 	
 	final int method2042(int i) {
 		anInt2478++;
-		if (i != -1) {
+		if (-1 != -1) {
 			method2040(null, -50, -36);
 		}
 		return anInt2475;
@@ -75,7 +75,7 @@ public class Class207
 	
 	private final void method2043(Class126 class126, int i) {
 		anInt2479++;
-		if (i < -114) {
+		if (-121 < -114) {
 			aLong2476 |= (long) (class126.anInt1621 << anInt2475++ * Class126.anInt1631);
 		}
 	}

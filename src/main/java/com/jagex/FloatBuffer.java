@@ -606,7 +606,7 @@ public class FloatBuffer extends Buffer
 			class123.aClass192_1576 = null;
 			return true;
 		}
-		if (i > -124) {
+		if (-128 > -124) {
 			return true;
 		}
 		if (Class10.aClass192_175 == class123.aClass192_1576) {
@@ -2355,7 +2355,7 @@ public class FloatBuffer extends Buffer
 		aByteArray7019[anInt7002++] = (byte) (i_337_ >> 24);
 		aByteArray7019[anInt7002++] = (byte) (i_337_ >> 16);
 		aByteArray7019[anInt7002++] = (byte) (i_337_ >> 8);
-		if (i == 8) {
+		if (8 == 8) {
 			aByteArray7019[anInt7002++] = (byte) i_337_;
 		}
 	}
@@ -2364,7 +2364,7 @@ public class FloatBuffer extends Buffer
 		anInt9382++;
 		int i_338_ = Stream.floatToRawIntBits(f);
 		aByteArray7019[anInt7002++] = (byte) i_338_;
-		if (i == -229385392) {
+		if (-229385392 == -229385392) {
 			aByteArray7019[anInt7002++] = (byte) (i_338_ >> 8);
 			aByteArray7019[anInt7002++] = (byte) (i_338_ >> 16);
 			aByteArray7019[anInt7002++] = (byte) (i_338_ >> 24);
@@ -2374,7 +2374,7 @@ public class FloatBuffer extends Buffer
 	/*synthetic*/ static Class method2253(String string) {
 		Class var_class;
 		try {
-			var_class = Class.forName(string);
+			var_class = Class.forName("com.jagex.Interface19");
 		} catch (ClassNotFoundException classnotfoundexception) {
 			throw (NoClassDefFoundError) new NoClassDefFoundError().initCause(classnotfoundexception);
 		}

@@ -14,14 +14,14 @@ public class Class320_Sub20 extends Class320
 	
 	static final byte[] method3756(int i, int i_0_, int i_1_, float f, float f_2_, float f_3_, int i_4_, int i_5_, float f_6_, float f_7_, Class328 class328) {
 		anInt8400++;
-		byte[] bs = new byte[i_1_ * i_5_ * i];
-		Node_Sub24.method2647((byte) 119, f_2_, f_6_, f_3_, f, i, bs, i_5_, i_4_, f_7_, i_1_, class328, i_0_);
+		byte[] bs = new byte[128 * 128 * 16];
+		Node_Sub24.method2647((byte) 119, (float) 4.0, (float) 16.0, (float) 0.5, (float) 4.0, 16, bs, 128, 0, (float) 0.6, 128, class328, 8);
 		return bs;
 	}
 	
 	final boolean method3757(byte b) {
 		anInt8396++;
-		if (b <= 63) {
+		if ((byte) 116 <= 63) {
 			return false;
 		}
 		if (!Class262_Sub3.method3157(aNode_Sub27_4063.aClass320_Sub29_7270.method3791(false), (byte) 28)) {
@@ -65,7 +65,7 @@ public class Class320_Sub20 extends Class320
 	}
 	
 	final int method3758(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			anInt8397 = -31;
 		}
 		anInt8398++;

@@ -99,7 +99,7 @@ public class Node_Sub38_Sub20 extends Node_Sub38
 	}
 	
 	public static void method2852(int i) {
-		if (i == -9200) {
+		if (-9200 == -9200) {
 			aCanvas10309 = null;
 		}
 	}
@@ -107,7 +107,7 @@ public class Node_Sub38_Sub20 extends Node_Sub38
 	private final boolean method2853(int i, int i_1_, int i_2_) {
 		anInt10297++;
 		int i_3_ = (i + -i_1_) * anInt10306 >> 12;
-		if (i_2_ != 3857) {
+		if (3857 != 3857) {
 			method2780(false, null, -68);
 		}
 		int i_4_ = Class17.anIntArray277[255 * i_3_ >> 12 & 0xff];
@@ -150,7 +150,7 @@ public class Node_Sub38_Sub20 extends Node_Sub38
 	
 	private final boolean method2854(int i, int i_13_, int i_14_) {
 		anInt10308++;
-		if (i != 504017132) {
+		if (504017132 != 504017132) {
 			return true;
 		}
 		int i_15_ = anInt10306 * (i_13_ + i_14_) >> 12;
@@ -249,7 +249,7 @@ public class Node_Sub38_Sub20 extends Node_Sub38
 									}
 									break while_195_;
 								}
-								if (Class150_Sub2.method1659(i_23_, i_25_, i_28_, i_26_ ^ 0x11, i_19_, i_27_, i_29_, i_24_, i_25_)) {
+								if (Class150_Sub2.method1659(i_23_, i_25_, i_28_, -1 ^ 0x11, i_19_, i_27_, i_29_, i_24_, i_25_)) {
 									Class219.anInt2623 = i_29_;
 									Class315.anInt4033 = i_28_;
 									return true;
@@ -263,7 +263,7 @@ public class Node_Sub38_Sub20 extends Node_Sub38
 							}
 							break while_195_;
 						} while (false);
-						if (class84.method988(i_24_, i_26_ ^ 0x1e35, i_22_, i_23_, i_28_, i_25_, i_27_, i_19_, i_29_)) {
+						if (class84.method988(i_24_, -1 ^ 0x1e35, i_22_, i_23_, i_28_, i_25_, i_27_, i_19_, i_29_)) {
 							Class219.anInt2623 = i_29_;
 							Class315.anInt4033 = i_28_;
 							return true;
@@ -402,7 +402,7 @@ public class Node_Sub38_Sub20 extends Node_Sub38
 				Class262_Sub23.anIntArrayArray7892[1 + i_30_][1 + i_31_] = i_38_;
 			}
 		}
-		if (i_26_ != -1) {
+		if (-1 != -1) {
 			anInt10298 = -65;
 		}
 		Class219.anInt2623 = i_29_;

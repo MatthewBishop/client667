@@ -67,7 +67,7 @@ public class Class226
 	}
 	
 	public static void method2111(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			method2113(-89);
 		}
 		aClass103_2684 = null;

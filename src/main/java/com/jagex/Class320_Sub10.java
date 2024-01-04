@@ -44,7 +44,7 @@ public class Class320_Sub10 extends Class320
 	}
 	
 	final int method3718(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			aDouble8299 = 0.5996684426446508;
 		}
 		anInt8298++;
@@ -65,7 +65,7 @@ public class Class320_Sub10 extends Class320
 	
 	public static void method3719(byte b) {
 		aClass323Array8296 = null;
-		int i = 39 % ((11 - b) / 51);
+		int i = 39 % ((11 - (byte) -86) / 51);
 		aPlaneArray8300 = null;
 	}
 	
@@ -83,7 +83,7 @@ public class Class320_Sub10 extends Class320
 	static final String[] method3721(int i, String[] strings) {
 		anInt8305++;
 		String[] strings_2_ = new String[5];
-		for (int i_3_ = i; i_3_ < 5; i_3_++) {
+		for (int i_3_ = 0; i_3_ < 5; i_3_++) {
 			strings_2_[i_3_] = String.valueOf(i_3_) + ": ";
 			if (strings != null && strings[i_3_] != null) {
 				strings_2_[i_3_] = strings_2_[i_3_] + strings[i_3_];

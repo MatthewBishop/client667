@@ -13,7 +13,7 @@ abstract class aa
 	}
 	
 	public static void method158(int i) {
-		if (i != 32) {
+		if (32 != 32) {
 			method159(79, (byte) 112, -107);
 		}
 		aGLSprite102 = null;

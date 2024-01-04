@@ -16,17 +16,17 @@ public class Class169_Sub4 extends Class169
 	
 	final void method1784(int i, boolean bool) {
 		aGLToolkit4947.method1444(-2, this);
-		if (i != 33071) {
+		if (33071 != 33071) {
 			method5(37);
 		}
 		anInt8823++;
-		OpenGL.glTexParameteri(anInt4951, 10242, !bool ? 33071 : 10497);
+		OpenGL.glTexParameteri(anInt4951, 10242, !false ? 33071 : 10497);
 	}
 	
 	public static void method1785(int i) {
 		aClass353_8825 = null;
 		aString8830 = null;
-		if (i == -19734) {
+		if (-19734 == -19734) {
 			anIntArrayArray8826 = null;
 		}
 	}
@@ -39,17 +39,17 @@ public class Class169_Sub4 extends Class169
 	}
 	
 	Class169_Sub4(GLToolkit gltoolkit, int i, int i_0_, byte[] bs, int i_1_) {
-		super(gltoolkit, 3552, i, i_0_, false);
-		anInt8824 = i_0_;
+		super(gltoolkit, 3552, 6406, 2, false);
+		anInt8824 = 2;
 		aGLToolkit4947.method1444(-2, this);
 		OpenGL.glPixelStorei(3317, 1);
-		OpenGL.glTexImage1Dub(anInt4951, 0, anInt4950, anInt8824, 0, i_1_, 5121, bs, 0);
+		OpenGL.glTexImage1Dub(anInt4951, 0, anInt4950, anInt8824, 0, 6406, 5121, bs, 0);
 		OpenGL.glPixelStorei(3317, 4);
 		this.method1757(false, true);
 	}
 	
 	static final void method1786(int i) {
-		if (i <= 87) {
+		if (122 <= 87) {
 			aString8830 = null;
 		}
 		CacheNode_Sub10.aHashTable9530.method1517(false);

@@ -24,7 +24,7 @@ public class CacheNode_Sub17 extends CacheNode implements Interface2
 	protected int anInt8850;
 	
 	static final int method2393(int i, int i_0_, int i_1_) {
-		if (i_1_ != 2097151) {
+		if (2097151 != 2097151) {
 			return 26;
 		}
 		anInt8845++;
@@ -36,7 +36,7 @@ public class CacheNode_Sub17 extends CacheNode implements Interface2
 	
 	static final String method2394(byte b) {
 		anInt8834++;
-		if (b != 47) {
+		if ((byte) 47 != 47) {
 			method2397((byte) -89);
 		}
 		String string = "www";
@@ -59,7 +59,7 @@ public class CacheNode_Sub17 extends CacheNode implements Interface2
 	}
 	
 	public static void method2395(int i) {
-		if (i <= -83) {
+		if (-102 <= -83) {
 			anIntArray8840 = null;
 			anIntArray8846 = null;
 		}

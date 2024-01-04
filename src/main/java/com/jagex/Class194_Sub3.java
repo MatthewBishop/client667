@@ -29,7 +29,7 @@ class Class194_Sub3 extends Class194
 	
 	public static void method1974(int i) {
 		aClass129_6901 = null;
-		if (i != 16845) {
+		if (16845 != 16845) {
 			method1976(false, -116);
 		}
 	}
@@ -62,7 +62,7 @@ class Class194_Sub3 extends Class194
 		anInt6902++;
 		if (Class213.aNode_Sub27_2512.aClass320_Sub10_7300.method3718(false) == 0) {
 			for (int i_2_ = 0; Class357.anInt4429 > i_2_; i_2_++) {
-				if (Class320_Sub7.anInterface21Array8275[i_2_].method77(-24069) == 115 || Class320_Sub7.anInterface21Array8275[i_2_].method77(i ^ ~0x5e05) == 'S') {
+				if (Class320_Sub7.anInterface21Array8275[i_2_].method77(-24069) == 115 || Class320_Sub7.anInterface21Array8275[i_2_].method77(1 ^ ~0x5e05) == 'S') {
 					Class213.aNode_Sub27_2512.method2690(56, 1, Class213.aNode_Sub27_2512.aClass320_Sub10_7300);
 					Node_Sub32.aBoolean7377 = true;
 					break;
@@ -93,15 +93,15 @@ class Class194_Sub3 extends Class194
 			}
 			Node_Sub38_Sub27.method2878(73, null, true, 0);
 			Class320_Sub13.aBoolean8335 = !Node_Sub46.method2948(16062);
-			Class320_Sub6.aClass302_8261 = Class58.method576(false, Class320_Sub13.aBoolean8335 ? 34 : 32, 1, i + 1);
+			Class320_Sub6.aClass302_8261 = Class58.method576(false, Class320_Sub13.aBoolean8335 ? 34 : 32, 1, 1 + 1);
 			Class273.aClass302_3490 = Class58.method576(false, 33, 1, 2);
-			AnimableAnimator_Sub1.aClass302_9091 = Class58.method576(false, 13, 1, i ^ 0x3);
+			AnimableAnimator_Sub1.aClass302_9091 = Class58.method576(false, 13, 1, 1 ^ 0x3);
 		}
 		if (Class110.aClass110_1392 == Class252.aClass110_3189) {
 			boolean bool = Class273.aClass302_3490.method3520((byte) 15);
-			int i_4_ = GraphicsToolkit.aClass34_Sub1Array1547[33].method376(i + 99);
+			int i_4_ = GraphicsToolkit.aClass34_Sub1Array1547[33].method376(1 + 99);
 			i_4_ = i_4_ + GraphicsToolkit.aClass34_Sub1Array1547[!Class320_Sub13.aBoolean8335 ? 32 : 34].method376(100);
-			i_4_ += GraphicsToolkit.aClass34_Sub1Array1547[13].method376(i + 99);
+			i_4_ += GraphicsToolkit.aClass34_Sub1Array1547[13].method376(1 + 99);
 			i_4_ = i_4_ + (bool ? 100 : Class273.aClass302_3490.method3511(19492));
 			if (i_4_ != 400) {
 				return i_4_ / 4;
@@ -127,7 +127,7 @@ class Class194_Sub3 extends Class194
 		}
 		if (Class110.aClass110_1395 == Class252.aClass110_3189) {
 			int i_7_ = Class190.method1940(255);
-			int i_8_ = aa_Sub3.method160(i ^ ~0x15c5);
+			int i_8_ = aa_Sub3.method160(1 ^ ~0x15c5);
 			if (i_8_ > i_7_) {
 				return 100 * i_7_ / i_8_;
 			}
@@ -150,45 +150,45 @@ class Class194_Sub3 extends Class194
 				Class304.aClass84Array3833[i_9_] = Class63.method707(Node_Sub54.anInt7675, Class377_Sub1.anInt8774, (byte) 42);
 		}
 		if (Class252.aClass110_3189 == Class110.aClass110_1398) {
-			Node_Sub38_Sub39.aClass302_10500 = Class58.method576(false, 8, 1, i + 1);
-			Class181.aClass302_2158 = Class58.method576(false, 0, 1, i ^ 0x3);
+			Node_Sub38_Sub39.aClass302_10500 = Class58.method576(false, 8, 1, 1 + 1);
+			Class181.aClass302_2158 = Class58.method576(false, 0, 1, 1 ^ 0x3);
 			Class75.aClass302_1003 = Class58.method576(false, 1, 1, 2);
 			Class4.aClass302_122 = Class58.method576(false, 2, 1, 2);
 			Class293.aClass302_3681 = Class58.method576(false, 3, 1, 2);
 			Class148.aClass302_1827 = Class58.method576(false, 4, 1, 2);
 			Animable_Sub1_Sub1.aClass302_10618 = Class58.method576(true, 5, 1, 2);
-			SeekableFile.aClass302_3881 = Class58.method576(true, 6, 1, i ^ 0x3);
+			SeekableFile.aClass302_3881 = Class58.method576(true, 6, 1, 1 ^ 0x3);
 			Class107.aClass302_1364 = Class58.method576(false, 7, 1, 2);
-			Class282.aClass302_3583 = Class58.method576(false, 9, 1, i ^ 0x3);
+			Class282.aClass302_3583 = Class58.method576(false, 9, 1, 1 ^ 0x3);
 			Class250.aClass302_3179 = Class58.method576(false, 10, 1, 2);
 			Class179.aClass302_2132 = Class58.method576(false, 11, 1, 2);
 			Class21.aClass302_357 = Class58.method576(false, 12, 1, 2);
-			Class78.aClass302_1033 = Class58.method576(false, 14, 1, i ^ 0x3);
+			Class78.aClass302_1033 = Class58.method576(false, 14, 1, 1 ^ 0x3);
 			Class218.aClass302_2563 = Class58.method576(false, 15, 1, 2);
 			Class247.aClass302_3143 = Class58.method576(false, 16, 1, 2);
 			Class14.aClass302_219 = Class58.method576(false, 17, 1, 2);
-			Class174.aClass302_2093 = Class58.method576(false, 18, 1, i + 1);
-			Class205.aClass302_5104 = Class58.method576(false, 19, 1, i ^ 0x3);
-			Class262_Sub23.aClass302_7886 = Class58.method576(false, 20, 1, i + 1);
-			Node_Sub15_Sub5.aClass302_9805 = Class58.method576(false, 21, 1, i ^ 0x3);
+			Class174.aClass302_2093 = Class58.method576(false, 18, 1, 1 + 1);
+			Class205.aClass302_5104 = Class58.method576(false, 19, 1, 1 ^ 0x3);
+			Class262_Sub23.aClass302_7886 = Class58.method576(false, 20, 1, 1 + 1);
+			Node_Sub15_Sub5.aClass302_9805 = Class58.method576(false, 21, 1, 1 ^ 0x3);
 			Class127.aClass302_1646 = Class58.method576(false, 22, 1, 2);
-			r_Sub1.aClass302_11047 = Class58.method576(true, 23, 1, i ^ 0x3);
-			Node_Sub38_Sub4.aClass302_10116 = Class58.method576(false, 24, 1, i + 1);
+			r_Sub1.aClass302_11047 = Class58.method576(true, 23, 1, 1 ^ 0x3);
+			Node_Sub38_Sub4.aClass302_10116 = Class58.method576(false, 24, 1, 1 + 1);
 			Node_Sub18.aClass302_7150 = Class58.method576(false, 25, 1, 2);
 			Node_Sub38_Sub10.aClass302_10197 = Class58.method576(true, 26, 1, 2);
-			CacheNode_Sub5.aClass302_9477 = Class58.method576(false, 27, 1, i + 1);
-			Class176.aClass302_2102 = Class58.method576(true, 28, 1, i + 1);
+			CacheNode_Sub5.aClass302_9477 = Class58.method576(false, 27, 1, 1 + 1);
+			Class176.aClass302_2102 = Class58.method576(true, 28, 1, 1 + 1);
 			Class262_Sub3.aClass302_7715 = Class58.method576(false, 29, 1, 2);
 			Node_Sub15_Sub10.aClass302_9853 = Class58.method576(true, 35, 1, 2);
-			Class326.aClass302_4096 = Class58.method576(true, 30, 1, i ^ 0x3);
-			Class262_Sub2.aClass302_7707 = Class58.method576(true, 31, 1, i ^ 0x3);
+			Class326.aClass302_4096 = Class58.method576(true, 30, 1, 1 ^ 0x3);
+			Class262_Sub2.aClass302_7707 = Class58.method576(true, 31, 1, 1 ^ 0x3);
 			Node_Sub38_Sub38.aClass302_10484 = Class58.method576(true, 36, 2, 2);
 		}
 		if (Class252.aClass110_3189 == Class110.aClass110_1399) {
 			int i_10_ = 0;
 			for (int i_11_ = 0; i_11_ < 37; i_11_++) {
 				if (GraphicsToolkit.aClass34_Sub1Array1547[i_11_] != null) {
-					i_10_ = i_10_ + GraphicsToolkit.aClass34_Sub1Array1547[i_11_].method376(i + 99) * Class249.anIntArray3151[i_11_] / 100;
+					i_10_ = i_10_ + GraphicsToolkit.aClass34_Sub1Array1547[i_11_].method376(1 + 99) * Class249.anIntArray3151[i_11_] / 100;
 				}
 			}
 			if (i_10_ != 100) {
@@ -209,14 +209,14 @@ class Class194_Sub3 extends Class194
 			ItemDefinition.method1690((byte) -109);
 			Class48.method478(2, (byte) 100);
 		}
-		if (i != 1) {
+		if (1 != 1) {
 			method1973(15, -83);
 		}
 		if (Class110.aClass110_1401 == Class252.aClass110_3189) {
 			IOException_Sub1.method133(255, Class326.aClass302_4096, Class240.aSignLink2946);
 		}
 		if (Class110.aClass110_1402 == Class252.aClass110_3189) {
-			int i_12_ = Class290_Sub6.method3438(i + 14626);
+			int i_12_ = Class290_Sub6.method3438(1 + 14626);
 			if (i_12_ < 100) {
 				return i_12_;
 			}
@@ -269,7 +269,7 @@ class Class194_Sub3 extends Class194
 			Class28.method333(Class18.aClass37_306, -1);
 			Node_Sub38_Sub9.method2822(CacheNode_Sub5.aClass302_9477, 0);
 			Class218.method2077(Class38.aD565, Class107.aClass302_1364, false);
-			Class163 class163 = new Class163(Class250.aClass302_3179.method3529("huffman", "", i));
+			Class163 class163 = new Class163(Class250.aClass302_3179.method3529("huffman", "", 1));
 			Animable_Sub2.method834(-123, class163);
 			try {
 				jagmisc.init();
@@ -316,7 +316,7 @@ class Class194_Sub3 extends Class194
 			Node_Sub15_Sub5.aClass302_9805.anInt3795 = 2;
 		}
 		if (Class252.aClass110_3189 == Class110.aClass110_1408) {
-			if (!CacheNode_Sub15.method2379(i + 7014, CacheNode_Sub4.aClass1_9466.anInt120)) {
+			if (!CacheNode_Sub15.method2379(1 + 7014, CacheNode_Sub4.aClass1_9466.anInt120)) {
 				return 0;
 			}
 			boolean bool = true;
@@ -360,7 +360,7 @@ class Class194_Sub3 extends Class194
 			} else {
 				Class22.method300(0, true, false);
 			}
-			Node_Sub38_Sub19.method2850(i ^ 0x2, Class213.aNode_Sub27_2512.aClass320_Sub1_7287.method3678(false), -1, false, -1);
+			Node_Sub38_Sub19.method2850(1 ^ 0x2, Class213.aNode_Sub27_2512.aClass320_Sub1_7287.method3678(false), -1, false, -1);
 			Class300.method3497((byte) 107, Class93.aGraphicsToolkit1241);
 			Class320_Sub21.method3760(true, Class93.aGraphicsToolkit1241);
 			Class130.method1557((byte) -126, Node_Sub38_Sub39.aClass302_10500, Class93.aGraphicsToolkit1241);
@@ -371,7 +371,7 @@ class Class194_Sub3 extends Class194
 	
 	static final void method1978(boolean bool, Widget widget) {
 		anInt6903++;
-		if (bool == false) {
+		if (false == false) {
 			if (Class204.anInt2461 == widget.anInt4814) {
 				if (Class295.aPlayer3692.aString11142 == null) {
 					widget.anInt4864 = 0;

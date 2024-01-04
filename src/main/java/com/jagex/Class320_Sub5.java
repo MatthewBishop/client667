@@ -36,7 +36,7 @@ public class Class320_Sub5 extends Class320
 		aGLSpriteArray8254 = null;
 		anIntArray8255 = null;
 		aClass192_8251 = null;
-		if (i != -15183) {
+		if (-15183 != -15183) {
 			anIntArray8255 = null;
 		}
 	}
@@ -56,7 +56,7 @@ public class Class320_Sub5 extends Class320
 	final boolean method3698(byte b) {
 		anInt8246++;
 		int i = aNode_Sub27_4063.method2694(-13725).method1877((byte) 71);
-		if (b <= 63) {
+		if ((byte) 126 <= 63) {
 			return false;
 		}
 		if (i < 96) {

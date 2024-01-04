@@ -14,7 +14,7 @@ public class EntityNode_Sub1 extends EntityNode
 	public static void method804(boolean bool) {
 		aNode_Sub9_Sub1_5929 = null;
 		aClass318_5927 = null;
-		if (bool != true) {
+		if (true != true) {
 			aClass318_5927 = null;
 		}
 	}
@@ -25,7 +25,7 @@ public class EntityNode_Sub1 extends EntityNode
 	
 	static final Class253 method805(int i, int i_0_) {
 		anInt5924++;
-		if (i_0_ != -26296) {
+		if (-26296 != -26296) {
 			aNode_Sub9_Sub1_5929 = null;
 		}
 		if (i < 0 || i >= 100) {

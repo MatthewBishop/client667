@@ -38,7 +38,7 @@ public class Callback_Sub1 extends Callback
 	}
 	
 	final void method81(int i, int i_5_, int i_6_) {
-		if (i_5_ == -33) {
+		if (-33 == -33) {
 			User32.SetCursorPos(i, i_6_);
 		}
 	}

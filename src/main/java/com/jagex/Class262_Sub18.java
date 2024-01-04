@@ -21,7 +21,7 @@ public class Class262_Sub18 extends Class262
 				return i;
 			}
 		}
-		if (bool != false) {
+		if (false != false) {
 			method3199((byte) 81);
 		}
 		return -1;

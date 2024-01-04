@@ -13,7 +13,7 @@ public class Class194_Sub3_Sub1 extends Class194_Sub3
 	
 	static final void method1979(int i, boolean bool) {
 		anInt9374++;
-		if (bool != false) {
+		if (false != false) {
 			aClass241_9377 = null;
 		}
 		CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(3, 14, (long) i);
@@ -23,7 +23,7 @@ public class Class194_Sub3_Sub1 extends Class194_Sub3
 	static final boolean method1980(Class123 class123, int i) {
 		anInt9371++;
 		try {
-			if (i != 4096) {
+			if (4096 != 4096) {
 				method1981(26);
 			}
 			return FloatBuffer.method2249(class123, -128);
@@ -35,7 +35,7 @@ public class Class194_Sub3_Sub1 extends Class194_Sub3
 			Class262_Sub13.method3182(false);
 			return true;
 		} catch (Exception exception) {
-			String string = "T2 - " + (class123.aClass192_1576 == null ? -1 : class123.aClass192_1576.method1953(102)) + "," + (class123.aClass192_1582 != null ? class123.aClass192_1582.method1953(i + -4034) : -1) + "," + (class123.aClass192_1573 == null ? -1 : class123.aClass192_1573.method1953(112)) + " - " + class123.anInt1581 + "," + (Node_Sub53.anInt7668 - -Class295.aPlayer3692.anIntArray10910[0]) + "," + (Class320_Sub4.anInt8243 + Class295.aPlayer3692.anIntArray10908[0]) + " - ";
+			String string = "T2 - " + (class123.aClass192_1576 == null ? -1 : class123.aClass192_1576.method1953(102)) + "," + (class123.aClass192_1582 != null ? class123.aClass192_1582.method1953(4096 + -4034) : -1) + "," + (class123.aClass192_1573 == null ? -1 : class123.aClass192_1573.method1953(112)) + " - " + class123.anInt1581 + "," + (Node_Sub53.anInt7668 - -Class295.aPlayer3692.anIntArray10910[0]) + "," + (Class320_Sub4.anInt8243 + Class295.aPlayer3692.anIntArray10908[0]) + " - ";
 			for (int i_0_ = 0; class123.anInt1581 > i_0_; i_0_++) {
 				if (i_0_ >= 50) {
 					break;
@@ -43,7 +43,7 @@ public class Class194_Sub3_Sub1 extends Class194_Sub3
 				string += class123.aPacket1570.aByteArray7019[i_0_] + ",";
 			}
 			ClanChat.method507(exception, string, -114);
-			Class127.method1542(i ^ 0x3d3e, false);
+			Class127.method1542(4096 ^ 0x3d3e, false);
 			return true;
 		}
 	}

@@ -21,7 +21,7 @@ public class Class218
 	static Class318 aClass318_2570 = new Class318(55, 7);
 	
 	final Class249 method2075(byte b) {
-		if (b != -57) {
+		if ((byte) -57 != -57) {
 			method2077(null, null, false);
 		}
 		anInt2564++;
@@ -29,7 +29,7 @@ public class Class218
 	}
 	
 	public static void method2076(byte b) {
-		int i = 34 / ((22 - b) / 54);
+		int i = 34 / ((22 - (byte) 115) / 54);
 		aClass123Array2567 = null;
 		aClass302_2563 = null;
 		aClass318_2570 = null;
@@ -42,7 +42,7 @@ public class Class218
 		anInt2565++;
 		Class376.aD4661 = var_d;
 		Class188_Sub2_Sub2.aClass302_9361 = class302;
-		if (bool != false) {
+		if (false != false) {
 			aClass302_2563 = null;
 		}
 	}
@@ -53,7 +53,7 @@ public class Class218
 	}
 	
 	final Class218 method2078(boolean bool, int i) {
-		if (bool != false) {
+		if (false != false) {
 			aNode_Sub50_2568 = null;
 		}
 		anInt2558++;

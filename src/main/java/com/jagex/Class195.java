@@ -34,7 +34,7 @@ public class Class195
 	
 	final void method1983(Buffer buffer, boolean bool) {
 		anInt2391++;
-		if (bool == true) {
+		if (true == true) {
 			for (;;) {
 				int i = buffer.method2233(255);
 				if (i == 0) {
@@ -59,7 +59,7 @@ public class Class195
 			return null;
 		}
 		Node_Sub14 node_sub14 = (Node_Sub14) NpcDefinition.aClass157_2880.method1713((byte) -34);
-		if (bool != true) {
+		if (true != true) {
 			aDouble2401 = -1.1898770995463814;
 		}
 		for (/**/; node_sub14 != null; node_sub14 = (Node_Sub14) NpcDefinition.aClass157_2880.method1713((byte) -34)) {
@@ -224,13 +224,13 @@ public class Class195
 		} else {
 			anInt2394 = buffer.method2219(-130546744);
 		}
-		int i_16_ = -115 % ((i_11_ - 64) / 53);
+		int i_16_ = -115 % ((119 - 64) / 53);
 	}
 	
 	static final void method1988(int i, float f, float f_17_, int i_18_, Class328 class328, byte[] bs, float f_19_, int i_20_, byte b, float f_21_, int i_22_, int i_23_, int i_24_, float f_25_) {
 		anInt2403++;
 		int i_26_ = i * i_22_;
-		if (b >= -53) {
+		if ((byte) -125 >= -53) {
 			method1984(1);
 		}
 		float[] fs = new float[i_26_];
@@ -254,7 +254,7 @@ public class Class195
 	}
 	
 	final DrawableModel method1989(Animator animator, byte b, int i, byte b_32_, GraphicsToolkit graphicstoolkit) {
-		if (b_32_ != 87) {
+		if ((byte) 87 != 87) {
 			return null;
 		}
 		anInt2398++;

@@ -32,7 +32,7 @@ public class Class84
 		aString1148 = null;
 		aClass61_1144 = null;
 		anIntArray1136 = null;
-		int i = -5 % ((12 - b) / 36);
+		int i = -5 % ((12 - (byte) -109) / 36);
 		anIntArray1147 = null;
 	}
 	
@@ -154,7 +154,7 @@ public class Class84
 				}
 			}
 		}
-		if (i_0_ != 25451) {
+		if (25451 != 25451) {
 			method991(-108);
 		}
 		return false;
@@ -163,7 +163,7 @@ public class Class84
 	private final void method983(int i, int i_9_, int i_10_, boolean bool) {
 		anIntArrayArray1138[i_10_][i] = Node_Sub30.method2723(anIntArrayArray1138[i_10_][i], i_9_ ^ 0xffffffff);
 		anInt1130++;
-		if (bool != true) {
+		if (true != true) {
 			aClass61_1144 = null;
 		}
 	}
@@ -438,7 +438,7 @@ public class Class84
 	
 	final void method987(int i, int i_39_, int i_40_, byte b, boolean bool, int i_41_, boolean bool_42_) {
 		i_41_ -= anInt1139;
-		int i_43_ = 92 % ((b - -36) / 32);
+		int i_43_ = 92 % (((byte) -70 - -36) / 32);
 		i -= anInt1135;
 		anInt1153++;
 		if (i_40_ == 0) {
@@ -913,7 +913,7 @@ public class Class84
 	}
 	
 	final void method990(int i, int i_63_, int i_64_) {
-		if (i_64_ != -17078) {
+		if (-17078 != -17078) {
 			aString1148 = null;
 		}
 		anInt1142++;
@@ -955,7 +955,7 @@ public class Class84
 			i_72_ |= 0x40000000;
 		}
 		int i_74_ = i;
-		int i_75_ = -121 % ((82 - b) / 41);
+		int i_75_ = -121 % ((82 - (byte) -106) / 41);
 		for (/**/; i_74_ < i_68_ + i; i_74_++) {
 			if (i_74_ >= 0 && anInt1133 > i_74_) {
 				for (int i_76_ = i_71_; i_71_ - -i_69_ > i_76_; i_76_++) {
@@ -982,7 +982,7 @@ public class Class84
 		i_79_ -= anInt1139;
 		i -= anInt1135;
 		anIntArrayArray1138[i_79_][i] = Node_Sub16.method2590(anIntArrayArray1138[i_79_][i], 262144);
-		int i_81_ = 31 % ((i_80_ - 44) / 59);
+		int i_81_ = 31 % ((-62 - 44) / 59);
 	}
 	
 	private final void method995(int i, int i_82_, int i_83_, int i_84_) {
@@ -1001,13 +1001,13 @@ public class Class84
 			i_91_ |= 0x40000000;
 		}
 		i_88_ -= anInt1135;
-		if (i_87_ == 1) {
+		if (1 == 1) {
 			i -= anInt1139;
 			for (int i_92_ = i; i + i_89_ > i_92_; i_92_++) {
 				if (i_92_ >= 0 && i_92_ < anInt1133) {
 					for (int i_93_ = i_88_; i_93_ < i_86_ + i_88_; i_93_++) {
 						if (i_93_ >= 0 && i_93_ < anInt1146) {
-							method995(i_92_, i_93_, i_91_, i_87_ ^ ~0x63);
+							method995(i_92_, i_93_, i_91_, 1 ^ ~0x63);
 						}
 					}
 				}
@@ -1016,7 +1016,7 @@ public class Class84
 	}
 	
 	final void method997(int i, boolean bool, int i_94_) {
-		if (bool != true) {
+		if (true != true) {
 			method989(-11, -28, 10, -29, 59, 57, 109, 80);
 		}
 		i -= anInt1135;

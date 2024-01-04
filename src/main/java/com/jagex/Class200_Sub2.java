@@ -15,11 +15,11 @@ public class Class200_Sub2 extends Class200 implements Interface1
 	
 	Class200_Sub2(GLToolkit gltoolkit, int i, byte[] bs, int i_0_) {
 		super(gltoolkit, bs, i_0_);
-		anInt4940 = i;
+		anInt4940 = 5123;
 	}
 	
 	public final int method3(byte b) {
-		if (b > -61) {
+		if ((byte) -126 > -61) {
 			method1(-63);
 		}
 		anInt4937++;
@@ -37,7 +37,7 @@ public class Class200_Sub2 extends Class200 implements Interface1
 	
 	public final int method2(int i) {
 		anInt4934++;
-		if (i != 15758) {
+		if (15758 != 15758) {
 			return -71;
 		}
 		return 0;
@@ -53,7 +53,7 @@ public class Class200_Sub2 extends Class200 implements Interface1
 	
 	public static void method2018(int i) {
 		aClass312_4942 = null;
-		if (i != 31891) {
+		if (31891 != 31891) {
 			aClass251_4936 = null;
 		}
 		aClass251_4936 = null;

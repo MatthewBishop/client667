@@ -70,10 +70,10 @@ public class Class339_Sub1 extends Class339
 	private final void method3924(byte b) {
 		aClass25_8635 = new Class25(aGLToolkit4202, 2);
 		anInt8634++;
-		if (b != 57) {
+		if ((byte) 57 != 57) {
 			method3922((byte) -52);
 		}
-		aClass25_8635.method307(0, b + 4807);
+		aClass25_8635.method307(0, (byte) 57 + 4807);
 		aGLToolkit4202.method1457(33984, 1);
 		OpenGL.glTexGeni(8192, 9472, 34065);
 		OpenGL.glTexGeni(8193, 9472, 34065);
@@ -88,7 +88,7 @@ public class Class339_Sub1 extends Class339
 		if (!aBoolean8633) {
 			aGLToolkit4202.method1474(126, 8448, 7681);
 			aGLToolkit4202.method1464(34168, 768, 0, (byte) -51);
-			aGLToolkit4202.method1457(b ^ 0x84f9, 2);
+			aGLToolkit4202.method1457((byte) 57 ^ 0x84f9, 2);
 			aGLToolkit4202.method1474(-83, 7681, 260);
 			aGLToolkit4202.method1464(34168, 768, 0, (byte) -51);
 			aGLToolkit4202.method1464(34168, 770, 1, (byte) -51);
@@ -98,7 +98,7 @@ public class Class339_Sub1 extends Class339
 			aGLToolkit4202.method1464(5890, 770, 0, (byte) -51);
 			aGLToolkit4202.method1472(-103, 0, 770, 34167);
 		}
-		aGLToolkit4202.method1457(b ^ 0x84f9, 0);
+		aGLToolkit4202.method1457((byte) 57 ^ 0x84f9, 0);
 		aClass25_8635.method309(false);
 		aClass25_8635.method307(1, 4864);
 		aGLToolkit4202.method1457(33984, 1);
@@ -109,9 +109,9 @@ public class Class339_Sub1 extends Class339
 		OpenGL.glLoadIdentity();
 		OpenGL.glMatrixMode(5888);
 		if (!aBoolean8633) {
-			aGLToolkit4202.method1474(b ^ ~0x3b, 8448, 8448);
+			aGLToolkit4202.method1474((byte) 57 ^ ~0x3b, 8448, 8448);
 			aGLToolkit4202.method1464(5890, 768, 0, (byte) -51);
-			aGLToolkit4202.method1457(b ^ 0x84f9, 2);
+			aGLToolkit4202.method1457((byte) 57 ^ 0x84f9, 2);
 			aGLToolkit4202.method1474(127, 8448, 8448);
 			aGLToolkit4202.method1464(5890, 768, 0, (byte) -51);
 			aGLToolkit4202.method1464(34168, 768, 1, (byte) -51);
@@ -121,7 +121,7 @@ public class Class339_Sub1 extends Class339
 			aGLToolkit4202.method1464(5890, 768, 0, (byte) -51);
 			aGLToolkit4202.method1472(-44, 0, 770, 5890);
 		}
-		aGLToolkit4202.method1457(b + 33927, 0);
+		aGLToolkit4202.method1457((byte) 57 + 33927, 0);
 		aClass25_8635.method309(false);
 	}
 	

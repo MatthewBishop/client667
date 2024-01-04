@@ -36,7 +36,7 @@ public class Class193 implements Runnable
 	public static void method1956(byte b) {
 		aClass212_2365 = null;
 		anIntArray2362 = null;
-		int i = 80 / ((b - 59) / 51);
+		int i = 80 / (((byte) -32 - 59) / 51);
 	}
 	
 	public final void run() {
@@ -92,7 +92,7 @@ public class Class193 implements Runnable
 	private final void method1958(int i, Node node) {
 		synchronized (aClass312_2361) {
 			aClass312_2361.method3625((byte) -54, node);
-			if (i != 0) {
+			if (0 != 0) {
 				method1957(97);
 			}
 			aClass312_2361.notify();
@@ -102,7 +102,7 @@ public class Class193 implements Runnable
 	
 	final Node_Sub7 method1959(byte b, String string) {
 		anInt2367++;
-		if (b != -60) {
+		if ((byte) -60 != -60) {
 			anInt2368 = -33;
 		}
 		if (aThread2364 == null) {

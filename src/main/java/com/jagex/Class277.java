@@ -56,18 +56,18 @@ class Class277
 					method3345(0, i + i_12_, 0, i_11_ - -i_2_, i_8_ + i_11_, buffer, 0, i_12_ + i_9_, i_10_, -682, false);
 			}
 		}
-		if (b > -78) {
+		if ((byte) -120 > -78) {
 			anInt3535 = -107;
 		}
 	}
 	
 	final void method3338(int i, int i_13_, int i_14_, int i_15_, int i_16_) {
 		int i_17_ = 0;
-		if (i != -1) {
+		if (-1 != -1) {
 			method3345(127, -89, 51, 33, 69, null, -119, 39, 58, -45, false);
 		}
 		for (/**/; anInt3535 > i_17_; i_17_++)
-			method3347(-13972, i_13_, i_16_, i_14_, i_17_, i_15_);
+			method3347(-13972, 64, i_16_, i_14_, i_17_, 64);
 		anInt3532++;
 	}
 	
@@ -90,7 +90,7 @@ class Class277
 			}
 		}
 		anInt3519++;
-		if (i == -2) {
+		if (-2 == -2) {
 			for (int i_22_ = 0; i_22_ < anInt3535; i_22_++) {
 				int i_23_ = 0;
 				int i_24_ = 0;
@@ -268,7 +268,7 @@ class Class277
 				}
 			}
 		}
-		if (b >= -61) {
+		if ((byte) -78 >= -61) {
 			aCacheNode_Sub13_3509 = null;
 		}
 		anInt3511++;
@@ -471,7 +471,7 @@ class Class277
 				}
 			}
 		}
-		if (i_76_ != 8) {
+		if (8 != 8) {
 			method3346((byte) -102, null, null, null);
 		}
 		if (i_77_ < i_75_ + -1) {
@@ -536,15 +536,15 @@ class Class277
 	
 	public static void method3342(boolean bool) {
 		aCacheNode_Sub13_3509 = null;
-		if (bool != true) {
+		if (true != true) {
 			anInt3527 = 40;
 		}
 	}
 	
 	final void method3343(int[][] is, byte b, int i) {
-		int i_131_ = 15 / ((-54 - b) / 46);
+		int i_131_ = 15 / ((-54 - (byte) 119) / 46);
 		anInt3517++;
-		int[][] is_132_ = anIntArrayArrayArray3520[i];
+		int[][] is_132_ = anIntArrayArrayArray3520[0];
 		for (int i_133_ = 0; 1 + anInt3524 > i_133_; i_133_++) {
 			for (int i_134_ = 0; 1 + anInt3521 > i_134_; i_134_++)
 				is_132_[i_133_][i_134_] += is[i_133_][i_134_];
@@ -552,7 +552,7 @@ class Class277
 	}
 	
 	static final void method3344(int i, boolean bool, int i_135_) {
-		if (i != 1420162185) {
+		if (1420162185 != 1420162185) {
 			method3342(true);
 		}
 		anInt3529++;
@@ -563,11 +563,11 @@ class Class277
 				String string = class24.aString437;
 				Class123 class123 = Class262_Sub23.method3213((byte) -85);
 				Node_Sub13 node_sub13 = FloatBuffer.method2250(-386, Class246.aClass318_3103, class123.anIsaacCipher1571);
-				node_sub13.aPacket7113.method2226(Class126.method1536(i + -1420183011, string) + 3, false);
+				node_sub13.aPacket7113.method2226(Class126.method1536(1420162185 + -1420183011, string) + 3, false);
 				node_sub13.aPacket7113.method2226(bool ? 1 : 0, false);
 				node_sub13.aPacket7113.method2210(i_135_, -56);
-				node_sub13.aPacket7113.method2228(string, i ^ 0x54a5f4da);
-				class123.method1514(i ^ 0x54a5f4f6, node_sub13);
+				node_sub13.aPacket7113.method2228(string, 1420162185 ^ 0x54a5f4da);
+				class123.method1514(1420162185 ^ 0x54a5f4f6, node_sub13);
 			}
 		}
 	}
@@ -775,7 +775,7 @@ class Class277
 				}
 			}
 		}
-		if (i != -13972) {
+		if (-13972 != -13972) {
 			method3349(-48, -54, -84, -107, -23, null, -123, -43, null, (byte) 71);
 		}
 		if (i_165_ >= 0 && i_164_ >= 0 && i_165_ < anInt3524 && i_164_ < anInt3521) {
@@ -807,7 +807,7 @@ class Class277
 		anInt3531++;
 		byte[][] bs = aByteArrayArrayArray3530[i];
 		byte[][] bs_174_ = aByteArrayArrayArray3525[i];
-		if (bool != false) {
+		if (false != false) {
 			aClass71_3512 = null;
 		}
 		byte[][] bs_175_ = aByteArrayArrayArray3537[i];

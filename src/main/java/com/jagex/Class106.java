@@ -40,7 +40,7 @@ public class Class106
 	
 	static final boolean method1121(int i, char c) {
 		anInt1351++;
-		if (i >= -96) {
+		if (-127 >= -96) {
 			aClass170_1357 = null;
 		}
 		if (c > 0 && c < 128 || c >= 160 && c <= 255) {
@@ -60,7 +60,7 @@ public class Class106
 	
 	public static void method1122(byte b) {
 		aClass135_1354 = null;
-		int i = 80 / ((b - -54) / 36);
+		int i = 80 / (((byte) 14 - -54) / 36);
 		aClass170_1357 = null;
 		aClass93_1356 = null;
 	}
@@ -69,7 +69,7 @@ public class Class106
 		anInt1358++;
 		Class251[] class251s = Class213.method2056(false);
 		int i_7_ = 0;
-		if (b != 39) {
+		if ((byte) 39 != 39) {
 			aClass135_1354 = null;
 		}
 		for (/**/; class251s.length > i_7_; i_7_++) {

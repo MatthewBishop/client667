@@ -26,7 +26,7 @@ public class Class371
 			Class44.aGraphicsToolkit668.a(rectangles, i_0_, Node_Sub38_Sub1.anInt10075, Class166.anInt5100);
 		}
 		anInt4583++;
-		if (i != 16600) {
+		if (16600 != 16600) {
 			aClass318_4586 = null;
 		}
 	}
@@ -65,7 +65,7 @@ public class Class371
 	}
 	
 	final String[] method4095(int i) {
-		if (i != -15202) {
+		if (-15202 != -15202) {
 			aClass318_4586 = null;
 		}
 		anInt4575++;
@@ -75,7 +75,7 @@ public class Class371
 	}
 	
 	static final void method4096(byte b) {
-		int i = -87 % ((-56 - b) / 40);
+		int i = -87 % ((-56 - (byte) -118) / 40);
 		Class320_Sub26.method3777();
 		anInt4581++;
 		for (int i_1_ = 0; i_1_ < 4; i_1_++)
@@ -96,7 +96,7 @@ public class Class371
 	}
 	
 	private final int method4098(int i, int i_5_) {
-		if (i_5_ != 0) {
+		if (0 != 0) {
 			anInt4574 = -53;
 		}
 		anInt4582++;
@@ -114,7 +114,7 @@ public class Class371
 	}
 	
 	public static void method4099(byte b) {
-		int i = -96 % ((-82 - b) / 33);
+		int i = -96 % ((-82 - (byte) -119) / 33);
 		aClass318_4586 = null;
 	}
 	
@@ -123,7 +123,7 @@ public class Class371
 		String[] strings = new String[method4098(i, 0)];
 		Class311.method3605(aStringArray4579, 0, strings, 0, aStringArray4579.length);
 		aStringArray4579 = strings;
-		if (b <= 111) {
+		if ((byte) 119 <= 111) {
 			method4101((byte) -49, 86, null);
 		}
 	}
@@ -144,6 +144,6 @@ public class Class371
 		anInt4576 = -1;
 		aBoolean4572 = false;
 		anInt4574 = i;
-		aBoolean4572 = bool;
+		aBoolean4572 = false;
 	}
 }

@@ -73,7 +73,7 @@ abstract class Node_Sub38 extends Node
 	
 	static final void method2779(Widget widget, int i, GraphicsToolkit graphicstoolkit) {
 		anInt7448++;
-		if (i == 28564) {
+		if (28564 == 28564) {
 			boolean bool = EntityNode_Sub3_Sub1.aClass86_9166.method1007(widget.aBoolean4723 ? Class295.aPlayer3692.aPlayerDefinition11137 : null, (byte) 96, graphicstoolkit, widget.anInt4714, widget.anInt4718, widget.anInt4744, widget.anInt4831, ~0xffffff | widget.anInt4796) == null;
 			if (bool) {
 				Class69.aClass312_940.method3625((byte) -54, new Node_Sub30(widget.anInt4718, widget.anInt4831, widget.anInt4744, widget.anInt4796 | ~0xffffff, widget.anInt4714, widget.aBoolean4723));
@@ -95,7 +95,7 @@ abstract class Node_Sub38 extends Node
 		if (i_4_ == 0) {
 			return i;
 		}
-		if (i_6_ != 27542) {
+		if (27542 != 27542) {
 			anIntArray7457 = null;
 		}
 		if (i_4_ == 1) {
@@ -121,7 +121,7 @@ abstract class Node_Sub38 extends Node
 	}
 	
 	int method2783(int i) {
-		if (i != -1) {
+		if (-1 != -1) {
 			anIntArray7457 = null;
 		}
 		anInt7466++;
@@ -152,11 +152,11 @@ abstract class Node_Sub38 extends Node
 	
 	final int[] method2786(int i, int i_10_, int i_11_) {
 		anInt7464++;
-		if (i_10_ != 0) {
+		if (0 != 0) {
 			aBoolean7463 = true;
 		}
 		if (aNode_Sub38Array7453[i_11_].aBoolean7463) {
-			return aNode_Sub38Array7453[i_11_].method2775(i_10_ + 120, i);
+			return aNode_Sub38Array7453[i_11_].method2775(0 + 120, i);
 		}
 		return aNode_Sub38Array7453[i_11_].method2778(i, true)[0];
 	}

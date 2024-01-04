@@ -52,7 +52,7 @@ public class Class240
 	
 	static final String method3030(int i, Throwable throwable) throws IOException {
 		anInt2936++;
-		if (i != 0) {
+		if (0 != 0) {
 			method3029(-11);
 		}
 		String string;
@@ -102,7 +102,7 @@ public class Class240
 	static final void method3031(int i, int i_8_, int i_9_, boolean bool, int i_10_, int i_11_, int i_12_, int i_13_) {
 		anInt2935++;
 		int i_14_ = i_12_ + i_13_;
-		if (bool == false) {
+		if (false == false) {
 			int i_15_ = -i_12_ + i;
 			for (int i_16_ = i_13_; i_16_ < i_14_; i_16_++)
 				Class369.method4086(i_8_, i_9_, i_11_, Class169_Sub4.anIntArrayArray8826[i_16_], 0);

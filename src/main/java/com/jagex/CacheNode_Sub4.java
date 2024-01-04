@@ -17,7 +17,7 @@ public class CacheNode_Sub4 extends CacheNode
 	static Class1 aClass1_9466;
 	
 	final int method2300(byte b) {
-		if (b != 88) {
+		if ((byte) 88 != 88) {
 			method2302((byte) 100);
 		}
 		anInt9460++;
@@ -77,7 +77,7 @@ public class CacheNode_Sub4 extends CacheNode
 		anInt9459++;
 		boolean bool = true;
 		cachenode_sub13.method2275(-120);
-		if (i > -115) {
+		if (-118 > -115) {
 			aBooleanArray9454 = null;
 		}
 		CacheNode_Sub13 cachenode_sub13_2_ = (CacheNode_Sub13) aClass158_9457.method1723(13);
@@ -102,7 +102,7 @@ public class CacheNode_Sub4 extends CacheNode
 		StandardDrawableModel.method700(-1);
 		anInt9456++;
 		Class229.aClass270_2733 = null;
-		int i_3_ = -12 / ((i - 6) / 55);
+		int i_3_ = -12 / ((-62 - 6) / 55);
 		Class44.aClass119_670 = null;
 		Class245.aClass119_3085 = null;
 		Class44.aClass270_669 = null;
@@ -112,7 +112,7 @@ public class CacheNode_Sub4 extends CacheNode
 	}
 	
 	static final void method2305(int i, boolean bool, int i_4_, Widget widget) {
-		if (bool == true) {
+		if (true == true) {
 			Class197.anInt2415 = i;
 			Class320_Sub29.aWidget8488 = widget;
 			anInt9464++;

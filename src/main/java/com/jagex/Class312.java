@@ -30,7 +30,7 @@ public class Class312
 	public static void method3610(boolean bool) {
 		aClass192_3966 = null;
 		aClass318_3973 = null;
-		if (bool != false) {
+		if (false != false) {
 			anInt3955 = -109;
 		}
 		anIntArray3968 = null;
@@ -117,7 +117,7 @@ public class Class312
 		anInt3967++;
 		Node node_4_ = aNode3958.aNode2799;
 		aNode3958.aNode2799 = node.aNode2799;
-		int i = 32 % ((48 - b) / 57);
+		int i = 32 % ((48 - (byte) -75) / 57);
 		node.aNode2799.aNode2800 = aNode3958;
 		if (node != aNode3958) {
 			node.aNode2799 = class312_3_.aNode3958.aNode2799;
@@ -180,13 +180,13 @@ public class Class312
 	final void method3621(int i, Class312 class312_6_) {
 		method3617(aNode3958.aNode2800, class312_6_, (byte) -75);
 		anInt3961++;
-		if (i != -2869) {
+		if (-2869 != -2869) {
 			aClass318_3976 = null;
 		}
 	}
 	
 	final Node method3622(byte b) {
-		if (b != -60) {
+		if ((byte) -60 != -60) {
 			aClass318_3973 = null;
 		}
 		anInt3959++;
@@ -206,7 +206,7 @@ public class Class312
 			aNode3970 = null;
 			return null;
 		}
-		if (b != 106) {
+		if ((byte) 106 != 106) {
 			aNode3958 = null;
 		}
 		aNode3970 = node.aNode2799;
@@ -263,7 +263,7 @@ public class Class312
 		}
 		anInt3964++;
 		node.aNode2800 = aNode3958;
-		if (b != -54) {
+		if ((byte) -54 != -54) {
 			method3615(-84);
 		}
 		node.aNode2799 = aNode3958.aNode2799;

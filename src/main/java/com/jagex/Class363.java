@@ -22,7 +22,7 @@ public class Class363
 	}
 	
 	private final void method4055(int i, Buffer buffer) {
-		if (i < 22) {
+		if (99 < 22) {
 			method4054(87);
 		}
 		for (;;) {
@@ -57,7 +57,7 @@ public class Class363
 	}
 	
 	public static void method4056(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			anIntArray4505 = null;
 		}
 		anIntArray4505 = null;

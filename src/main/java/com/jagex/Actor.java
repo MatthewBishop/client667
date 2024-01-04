@@ -107,7 +107,7 @@ abstract class Actor extends Mobile
 			}
 		}
 		anInt10816++;
-		if (i != -1) {
+		if (-1 != -1) {
 			aByteArray10905 = null;
 		}
 	}
@@ -259,7 +259,7 @@ abstract class Actor extends Mobile
 	
 	public static void method851(int i) {
 		aClass257_10823 = null;
-		if (i != 21049) {
+		if (21049 != 21049) {
 			aClass257_10823 = null;
 		}
 	}
@@ -363,7 +363,7 @@ abstract class Actor extends Mobile
 		} else {
 			bool = aClass99_10893.method1089(anInt10889, anInt10890, -21712, anInt10890);
 		}
-		if (i < 34) {
+		if (125 < 34) {
 			return 25;
 		}
 		int i_33_ = aClass99_10893.anInt1281 - i_32_;
@@ -417,7 +417,7 @@ abstract class Actor extends Mobile
 	}
 	
 	final void method857(DrawableModel drawablemodel, boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			method867(43);
 		}
 		anInt10831++;
@@ -451,7 +451,7 @@ abstract class Actor extends Mobile
 				anIntArray10881[i_40_] = -1;
 		}
 		Class259 class259 = method868((byte) -123);
-		int i_41_ = i;
+		int i_41_ = 256;
 		if (class259.anIntArray3255 != null && class259.anIntArray3255[i_38_] > 0) {
 			i_41_ = class259.anIntArray3255[i_38_];
 		}
@@ -552,7 +552,7 @@ abstract class Actor extends Mobile
 			return true;
 		}
 		if (animable_sub2.aShort9110 == 16) {
-			if (!Node_Sub25.method2653(Class135.anInt1692, i_54_, i_51_, i_49_ ^ 0x1036, Class135.anInt1692 + i_52_, i_53_, Class135.anInt1692)) {
+			if (!Node_Sub25.method2653(Class135.anInt1692, i_54_, i_51_, 4297 ^ 0x1036, Class135.anInt1692 + i_52_, i_53_, Class135.anInt1692)) {
 				return false;
 			}
 			Node_Sub52.anInt7651++;
@@ -573,13 +573,13 @@ abstract class Actor extends Mobile
 			return true;
 		}
 		if (animable_sub2.aShort9110 == 128) {
-			if (!Node_Sub25.method2653(Class135.anInt1692, i_54_, i_51_, i_49_ + -4042, i_52_, i_53_, Class135.anInt1692)) {
+			if (!Node_Sub25.method2653(Class135.anInt1692, i_54_, i_51_, 4297 + -4042, i_52_, i_53_, Class135.anInt1692)) {
 				return false;
 			}
 			Node_Sub52.anInt7651++;
 			return true;
 		}
-		if (i_49_ != 4297) {
+		if (4297 != 4297) {
 			return false;
 		}
 		return true;
@@ -635,7 +635,7 @@ abstract class Actor extends Mobile
 	}
 	
 	final void method861(int i, int i_65_) {
-		if (i != -1000) {
+		if (-1000 != -1000) {
 			method823((byte) -92);
 		}
 		anInt10851 = i_65_;
@@ -660,7 +660,7 @@ abstract class Actor extends Mobile
 				class277_sub1.method3351(i_71_, buffer, i_70_, Class93.aGraphicsToolkit1241, 17986);
 			}
 		}
-		if (b != -74) {
+		if ((byte) -74 != -74) {
 			aClass257_10823 = null;
 		}
 		for (int i_72_ = 0; i_72_ < i; i_72_++) {
@@ -683,7 +683,7 @@ abstract class Actor extends Mobile
 		aClass59_10861.anInt871 = aClass59_10861.anInt872 = i;
 		aClass59_10861.anInt865 = i_77_;
 		aClass59_10861.aString877 = string;
-		if (bool != false) {
+		if (false != false) {
 			method848(105, 96, null, null, 123, -75, 51);
 		}
 	}

@@ -17,7 +17,7 @@ public class Class102
 	
 	static final void method1097(int i, int i_0_, int i_1_, int i_2_, int i_3_, byte b) {
 		anInt1316++;
-		if (b <= 81) {
+		if ((byte) 96 <= 81) {
 			aClass318_1314 = null;
 		}
 		Class369.method4086(i_2_, i_1_, i_3_, Class169_Sub4.anIntArrayArray8826[i_0_++], 0);

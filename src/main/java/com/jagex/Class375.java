@@ -32,7 +32,7 @@ public class Class375
 			for (int i_5_ = 0; i_5_ < is[i_3_]; i_5_++)
 				bs[i_4_++] = (byte) -1;
 		}
-		if (i != 17787) {
+		if (17787 != 17787) {
 			anInt4657 = 5;
 		}
 		return new aa_Sub3(gltoolkit, i_2_, i_1_, bs);

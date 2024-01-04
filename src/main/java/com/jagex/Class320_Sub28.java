@@ -69,7 +69,7 @@ public class Class320_Sub28 extends Class320
 	
 	final boolean method3786(byte b) {
 		anInt8470++;
-		if (b <= 63) {
+		if ((byte) 98 <= 63) {
 			anInt8469 = 85;
 		}
 		if (aNode_Sub27_4063.method2694(-13725).method1877((byte) 71) < 96) {
@@ -84,7 +84,7 @@ public class Class320_Sub28 extends Class320
 	}
 	
 	final int method3787(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			return 92;
 		}
 		anInt8472++;

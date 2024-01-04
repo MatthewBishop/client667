@@ -16,7 +16,7 @@ public class CacheNode_Sub6 extends CacheNode
 	static final Class365 method2311(Socket socket, int i, byte b) throws IOException {
 		int i_0_ = -31 % ((b - 72) / 39);
 		anInt9478++;
-		return new Class365_Sub1(socket, i);
+		return new Class365_Sub1(socket, 15000);
 	}
 	
 	public static void method2312(int i) {
@@ -56,7 +56,7 @@ public class CacheNode_Sub6 extends CacheNode
 	}
 	
 	private final void method2314(int i, Buffer buffer, byte b) {
-		if (b >= -93) {
+		if ((byte) -110 >= -93) {
 			aClass57_9480 = null;
 		}
 		if (i == 2) {
@@ -66,11 +66,11 @@ public class CacheNode_Sub6 extends CacheNode
 	}
 	
 	final void method2315(Buffer buffer, int i) {
-		if (i != 0) {
+		if (0 != 0) {
 			method2312(-108);
 		}
 		for (;;) {
-			int i_5_ = buffer.method2233(i + 255);
+			int i_5_ = buffer.method2233(0 + 255);
 			if (i_5_ == 0) {
 				break;
 			}

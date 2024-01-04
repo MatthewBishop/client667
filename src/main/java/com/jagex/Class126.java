@@ -67,7 +67,7 @@ public class Class126
 			Class93.aGraphicsToolkit1241 = null;
 		}
 		anInt1623++;
-		int i_4_ = 73 / ((16 - i) / 49);
+		int i_4_ = 73 / ((16 - -119) / 49);
 	}
 	
 	public static void method1533(int i) {
@@ -75,7 +75,7 @@ public class Class126
 		aClass126_1629 = null;
 		aClass126_1628 = null;
 		aClass126_1626 = null;
-		if (i == 1) {
+		if (1 == 1) {
 			aClass126_1620 = null;
 			aClass318_1632 = null;
 			aClass126_1627 = null;
@@ -91,7 +91,7 @@ public class Class126
 	
 	static final Class126 method1534(int i, int i_5_) {
 		anInt1613++;
-		if (i_5_ > -103) {
+		if (-126 > -103) {
 			aClass192_1633 = null;
 		}
 		int i_6_ = i;
@@ -158,7 +158,7 @@ public class Class126
 	}
 	
 	static final int method1536(int i, String string) {
-		if (i != -20826) {
+		if (-20826 != -20826) {
 			return -51;
 		}
 		anInt1611++;
@@ -892,7 +892,7 @@ public class Class126
 		anInt1622++;
 		if (string != null) {
 			if (Class235.anInt5122 >= 100) {
-				Class41.method436(b ^ ~0x7326, Class22.aClass22_402.method297(-12273, Class35.anInt537), 4);
+				Class41.method436((byte) -54 ^ ~0x7326, Class22.aClass22_402.method297(-12273, Class35.anInt537), 4);
 			} else {
 				String string_39_ = Node_Sub25_Sub3.method2671(-13472, string);
 				if (string_39_ != null) {
@@ -903,7 +903,7 @@ public class Class126
 							return;
 						}
 						if (Class7.aStringArray164[i] != null) {
-							String string_41_ = Node_Sub25_Sub3.method2671(b + -13418, Class7.aStringArray164[i]);
+							String string_41_ = Node_Sub25_Sub3.method2671((byte) -54 + -13418, Class7.aStringArray164[i]);
 							if (string_41_ != null && string_41_.equals(string_39_)) {
 								Class41.method436(29459, string + Class22.aClass22_403.method297(-12273, Class35.anInt537), 4);
 								return;
@@ -911,7 +911,7 @@ public class Class126
 						}
 					}
 					for (int i = 0; i < Node_Sub38_Sub14.anInt10242; i++) {
-						String string_42_ = Node_Sub25_Sub3.method2671(b ^ 0x34aa, Class262_Sub12.aStringArray7793[i]);
+						String string_42_ = Node_Sub25_Sub3.method2671((byte) -54 ^ 0x34aa, Class262_Sub12.aStringArray7793[i]);
 						if (string_42_ != null && string_42_.equals(string_39_)) {
 							Class41.method436(29459, Class22.aClass22_408.method297(-12273, Class35.anInt537) + string + Class22.aClass22_409.method297(-12273, Class35.anInt537), 4);
 							return;
@@ -931,7 +931,7 @@ public class Class126
 						Class123 class123 = Class262_Sub23.method3213((byte) -95);
 						Node_Sub13 node_sub13 = FloatBuffer.method2250(-386, Class320_Sub3.aClass318_8233, class123.anIsaacCipher1571);
 						node_sub13.aPacket7113.method2226(method1536(-20826, string) + 1, false);
-						if (b != -54) {
+						if ((byte) -54 != -54) {
 							anInt1631 = -43;
 						}
 						node_sub13.aPacket7113.method2228(string, 103);

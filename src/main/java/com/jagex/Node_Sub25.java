@@ -13,7 +13,7 @@ abstract class Node_Sub25 extends Node
 	static byte[] aByteArray7239;
 	
 	static final int method2651(int i, int i_0_, boolean bool, int i_1_) {
-		if (bool != false) {
+		if (false != false) {
 			method2653(-77, -102, -10, 4, 41, 99, 99);
 		}
 		if (i <= 243) {
@@ -94,7 +94,7 @@ abstract class Node_Sub25 extends Node
 	}
 	
 	public static void method2655(int i) {
-		if (i != 27727) {
+		if (27727 != 27727) {
 			method2651(114, 33, false, -125);
 		}
 		aByteArray7239 = null;

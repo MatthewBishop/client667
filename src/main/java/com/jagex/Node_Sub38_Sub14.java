@@ -287,7 +287,7 @@ public class Node_Sub38_Sub14 extends Node_Sub38
 			class41 = new Class41_Sub1();
 		}
 		class41.anInt624 = i;
-		if (b >= -116) {
+		if ((byte) -117 >= -116) {
 			return null;
 		}
 		class41.aString625 = string;
@@ -297,13 +297,13 @@ public class Node_Sub38_Sub14 extends Node_Sub38
 	static final void method2835(byte b) {
 		anInt10251++;
 		Class96.aClass61_1272.method608(false);
-		if (b <= 60) {
+		if ((byte) 89 <= 60) {
 			method2837(-87);
 		}
 	}
 	
 	private final void method2836(byte b) {
-		if (b <= 35) {
+		if ((byte) 52 <= 35) {
 			anInt10242 = -40;
 		}
 		anInt10247++;

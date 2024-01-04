@@ -22,7 +22,7 @@ public class Node_Sub38_Sub13 extends Node_Sub38
 	
 	static final void method2831(int[] is, int i, int[] is_0_, int[] is_1_, Actor actor) {
 		anInt10235++;
-		if (i != -31813) {
+		if (-31813 != -31813) {
 			anIntArray10232 = null;
 		}
 		for (int i_2_ = 0; i_2_ < is_0_.length; i_2_++) {
@@ -42,7 +42,7 @@ public class Node_Sub38_Sub13 extends Node_Sub38
 								if (i_7_ == 0) {
 									animableanimator_sub1 = actor.anAnimableAnimator_Sub1Array10894[i_6_] = null;
 								} else if (i_7_ == 1) {
-									animableanimator_sub1.method235(i ^ ~0x7c44);
+									animableanimator_sub1.method235(-31813 ^ ~0x7c44);
 									animableanimator_sub1.anInt9094 = i_5_;
 								} else if (i_7_ == 2) {
 									animableanimator_sub1.method251(true);
@@ -51,7 +51,7 @@ public class Node_Sub38_Sub13 extends Node_Sub38
 								animableanimator_sub1 = actor.anAnimableAnimator_Sub1Array10894[i_6_] = null;
 							}
 						}
-						if (animableanimator_sub1 == null || !animableanimator_sub1.method245(i ^ 0x7c39)) {
+						if (animableanimator_sub1 == null || !animableanimator_sub1.method245(-31813 ^ 0x7c39)) {
 							animableanimator_sub1 = actor.anAnimableAnimator_Sub1Array10894[i_6_] = new AnimableAnimator_Sub1(actor);
 							animableanimator_sub1.method249(true, i_3_);
 							animableanimator_sub1.anInt9094 = i_5_;
@@ -69,7 +69,7 @@ public class Node_Sub38_Sub13 extends Node_Sub38
 	}
 	
 	public static void method2832(byte b) {
-		if (b == 121) {
+		if ((byte) 121 == 121) {
 			anIntArray10232 = null;
 		}
 	}

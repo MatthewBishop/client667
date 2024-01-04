@@ -15,7 +15,7 @@ public class Class28
 	static final void method332(int i, Widget widget) {
 		anInt469++;
 		Widget widget_6_ = Class295.method3468((byte) -105, widget);
-		if (i != 0) {
+		if (0 != 0) {
 			method331(null, null, 119, -40, null, null, -8);
 		}
 		int i_7_;

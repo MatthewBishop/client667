@@ -379,7 +379,7 @@ public class Class320_Sub29 extends Class320
 	
 	final boolean method3789(int i) {
 		anInt8484++;
-		if (i != -1) {
+		if (-1 != -1) {
 			aBoolean8486 = false;
 		}
 		return aBoolean8490;
@@ -388,7 +388,7 @@ public class Class320_Sub29 extends Class320
 	static final void method3790(byte b) {
 		anInt8491++;
 		Class359.anInt4467 = -1;
-		if (b != -56) {
+		if ((byte) -56 != -56) {
 			aClass192_8481 = null;
 		}
 		Class262_Sub20.anInt7861 = 0;
@@ -397,7 +397,7 @@ public class Class320_Sub29 extends Class320
 	
 	final int method3791(boolean bool) {
 		anInt8480++;
-		if (bool != false) {
+		if (false != false) {
 			aBoolean8486 = true;
 		}
 		return anInt4064;
@@ -419,7 +419,7 @@ public class Class320_Sub29 extends Class320
 	public static void method3792(boolean bool) {
 		aWidget8488 = null;
 		aClass192_8481 = null;
-		if (bool != true) {
+		if (true != true) {
 			method3788(24, null);
 		}
 	}
@@ -464,7 +464,7 @@ public class Class320_Sub29 extends Class320
 	final void method3794(boolean bool, byte b) {
 		aBoolean8490 = bool;
 		anInt8489++;
-		if (b != 99) {
+		if ((byte) 99 != 99) {
 			aWidget8488 = null;
 		}
 	}

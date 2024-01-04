@@ -5,7 +5,7 @@ abstract class GLSprite implements Interface4
 	abstract int method1176();
 	
 	final void method1177(float f, float f_0_, int i, int i_1_, aa var_aa, int i_2_, int i_3_) {
-		method1179(f, f_0_, (float) method1197() / 2.0F, (float) method1186() / 2.0F, i, i_1_, var_aa, i_2_, i_3_);
+		method1179(f, f_0_, (float) method1197() / 2.0F, (float) method1186() / 2.0F, 4096, i_1_, var_aa, i_2_, i_3_);
 	}
 	
 	abstract void method1178(int i, int i_4_, int i_5_, int i_6_);
@@ -30,7 +30,7 @@ abstract class GLSprite implements Interface4
 	}
 	
 	final void method1181(float f, float f_23_, int i, int i_24_, int i_25_, int i_26_, int i_27_) {
-		method1182(f, f_23_, (float) method1197() / 2.0F, (float) method1186() / 2.0F, i, i_24_, i_25_, i_26_, i_27_);
+		method1182(f, f_23_, (float) method1197() / 2.0F, (float) method1186() / 2.0F, i, i_24_, 0, i_26_, 1);
 	}
 	
 	private final void method1182(float f, float f_28_, float f_29_, float f_30_, int i, int i_31_, int i_32_, int i_33_, int i_34_) {
@@ -44,7 +44,7 @@ abstract class GLSprite implements Interface4
 			float f_40_ = (-((float) method1197() - f_29_) * f_35_ + -f_30_ * f_36_) / 4096.0F + f_28_;
 			float f_41_ = (-f_29_ * f_36_ + ((float) method1186() - f_30_) * f_35_) / 4096.0F + f;
 			float f_42_ = (f_29_ * f_35_ + ((float) method1186() - f_30_) * f_36_) / 4096.0F + f_28_;
-			method1198(f_37_, f_38_, f_39_, f_40_, f_41_, f_42_, i_32_, i_33_, i_34_);
+			method1198(f_37_, f_38_, f_39_, f_40_, f_41_, f_42_, i_32_, i_33_, 1);
 		}
 	}
 	

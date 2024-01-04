@@ -13,7 +13,7 @@ public class Renderer
 	protected String aString3664;
 	
 	static final void method3446(int i, int i_0_) {
-		if (i_0_ != 5) {
+		if (5 != 5) {
 			method3447(106);
 		}
 		anInt3657++;
@@ -33,7 +33,7 @@ public class Renderer
 	
 	static final Model method3448(int i, int i_1_, int i_2_, Class302 class302) {
 		anInt3659++;
-		byte[] bs = class302.method3524(false, i_2_, i);
+		byte[] bs = class302.method3524(false, 0, i);
 		if (bs == null) {
 			return null;
 		}

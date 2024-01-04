@@ -52,7 +52,7 @@ public class Class93_Sub1 extends Class93 implements MouseListener, MouseMotionL
 		node_sub5_sub1.anInt9404 = i_1_;
 		node_sub5_sub1.anInt9403 = i;
 		node_sub5_sub1.aLong9405 = Class313.method3650(false);
-		if (i_2_ != 0) {
+		if (0 != 0) {
 			method1056(-2);
 		}
 		node_sub5_sub1.anInt9407 = i_3_;
@@ -61,7 +61,7 @@ public class Class93_Sub1 extends Class93 implements MouseListener, MouseMotionL
 	
 	private final void method1053(boolean bool, int i, int i_4_) {
 		anInt6039 = i_4_;
-		if (bool) {
+		if (false) {
 			method1038((byte) 17);
 		}
 		anInt6038 = i;
@@ -76,7 +76,7 @@ public class Class93_Sub1 extends Class93 implements MouseListener, MouseMotionL
 	}
 	
 	private final void method1054(int i, Component component) {
-		if (i == -30273) {
+		if (-30273 == -30273) {
 			method1056(-89);
 			aComponent6041 = component;
 			aComponent6041.addMouseListener(this);
@@ -207,7 +207,7 @@ public class Class93_Sub1 extends Class93 implements MouseListener, MouseMotionL
 	}
 	
 	final void method1045(int i) {
-		if (i == 7) {
+		if (7 == 7) {
 			method1056(-79);
 		}
 	}

@@ -40,7 +40,7 @@ public class Class320_Sub25 extends Class320
 	
 	final int method3776(boolean bool) {
 		anInt8448++;
-		if (bool != false) {
+		if (false != false) {
 			method3675(60, (byte) -5);
 		}
 		return anInt4064;

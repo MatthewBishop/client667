@@ -19,7 +19,7 @@ public class Node_Sub50 extends Node
 			class253.method3104(i, i_3_, string_0_, string_1_, i_5_, string, false, string_2_, string_4_);
 		}
 		r_Sub2.aClass253Array11063[0] = class253;
-		if (bool == false) {
+		if (false == false) {
 			Class381.anInt4894 = Class345.anInt4270;
 			Class336_Sub2.anInt8581++;
 		}

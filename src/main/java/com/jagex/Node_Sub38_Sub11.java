@@ -31,7 +31,7 @@ public class Node_Sub38_Sub11 extends Node_Sub38
 	static final void method2826(boolean bool, double d) {
 		anInt10214++;
 		Class113.aClass336_1440.method3857(Class225.aClass336_2678);
-		if (bool == true) {
+		if (true == true) {
 			Class113.aClass336_1440.method3863(0, 0, (int) d);
 			Class44.aGraphicsToolkit668.a(Class113.aClass336_1440);
 		}
@@ -230,7 +230,7 @@ public class Node_Sub38_Sub11 extends Node_Sub38
 	}
 	
 	public static void method2829(byte b) {
-		int i = 109 / ((47 - b) / 38);
+		int i = 109 / ((47 - (byte) 8) / 38);
 		anIntArray10217 = null;
 		anIntArray10218 = null;
 		aClass318_10221 = null;

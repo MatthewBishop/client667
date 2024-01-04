@@ -9,10 +9,10 @@ public class Class325
 		anInt4088++;
 		Class229.aGraphicsToolkit2732 = graphicstoolkit;
 		if (Class243.anIntArray3074 != null) {
-			GraphicsToolkit.aClass270_1548 = Class320_Sub14.method3736(Class243.anIntArray3074[4], i ^ ~0x4866, Class243.anIntArray3074[1], Class243.anIntArray3074[2], Class243.anIntArray3074[3], Class243.anIntArray3074[5], Class243.anIntArray3074[0]);
+			GraphicsToolkit.aClass270_1548 = Class320_Sub14.method3736(Class243.anIntArray3074[4], 18521 ^ ~0x4866, Class243.anIntArray3074[1], Class243.anIntArray3074[2], Class243.anIntArray3074[3], Class243.anIntArray3074[5], Class243.anIntArray3074[0]);
 		}
 		Class263.aClass119_3340 = null;
 		Class295.aClass343_3695 = new Class343();
-		Class262_Sub17.method3197(i ^ i);
+		Class262_Sub17.method3197(18521 ^ 18521);
 	}
 }

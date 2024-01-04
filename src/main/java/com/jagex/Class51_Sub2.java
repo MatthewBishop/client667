@@ -38,7 +38,7 @@ public class Class51_Sub2 extends Class51 implements Interface15_Impl1
 	}
 	
 	public final Class372 method55(int i) {
-		int i_0_ = 121 / ((55 - i) / 39);
+		int i_0_ = 121 / ((55 - -90) / 39);
 		anInt9073++;
 		return aClass372_9071;
 	}
@@ -57,9 +57,9 @@ public class Class51_Sub2 extends Class51 implements Interface15_Impl1
 	}
 	
 	public final void method38(boolean bool) {
-		if (bool == false) {
+		if (false == false) {
 			anInt9065++;
-			super.method38(bool);
+			super.method38(false);
 		}
 	}
 	

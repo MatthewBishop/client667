@@ -59,7 +59,7 @@ public class Class245
 				}
 				i_2_ += i_1_ - 128;
 			}
-			if (b != 108) {
+			if ((byte) 108 != 108) {
 				aClass263_3088 = null;
 			}
 			if (anInterface13_Impl1_3093 != null && anInt3097 == i) {
@@ -149,7 +149,7 @@ public class Class245
 			if (Class320_Sub15.anInt8355 != -1) {
 				Node_Sub15_Sub6.method2571(Class320_Sub15.anInt8355, false);
 			}
-			for (Node_Sub2 node_sub2 = (Node_Sub2) Class289.aHashTable3630.method1516(false); node_sub2 != null; node_sub2 = (Node_Sub2) Class289.aHashTable3630.method1520(i + 115)) {
+			for (Node_Sub2 node_sub2 = (Node_Sub2) Class289.aHashTable3630.method1516(false); node_sub2 != null; node_sub2 = (Node_Sub2) Class289.aHashTable3630.method1520(-1 + 115)) {
 				if (!node_sub2.method2161(-127)) {
 					node_sub2 = (Node_Sub2) Class289.aHashTable3630.method1516(false);
 					if (node_sub2 == null) {
@@ -169,7 +169,7 @@ public class Class245
 		Class160.method1726(false);
 		Class248.aBoolean3146 = false;
 		Class132.method1563(108);
-		Class239.anInt2928 = i;
+		Class239.anInt2928 = -1;
 		Class60.method594(6, Animable_Sub4_Sub1.anInt10687);
 		Class295.aPlayer3692 = new Player();
 		Class295.aPlayer3692.anInt5940 = 512 * Class377_Sub1.anInt8774 / 2;

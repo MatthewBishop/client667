@@ -63,7 +63,7 @@ public class Class110
 	
 	final int method1130(int i) {
 		anInt1377++;
-		if (i != -3) {
+		if (-3 != -3) {
 			return -111;
 		}
 		return anInt1378;
@@ -89,7 +89,7 @@ public class Class110
 					if (!(interface19_11_ instanceof Animable_Sub2_Sub1)) {
 						Class128.method1544(i_4_, i_5_, i_8_, i_7_, i_6_, i_10_, i, 99, interface19_11_.method72(-32136));
 					} else {
-						((Animable_Sub2_Sub1) interface19_11_).aClass310_10632.method3591(i_6_, i_9_ ^ ~0x7911);
+						((Animable_Sub2_Sub1) interface19_11_).aClass310_10632.method3591(i_6_, -4 ^ ~0x7911);
 					}
 				}
 			} else if (i_10_ != 1) {
@@ -100,7 +100,7 @@ public class Class110
 							if (interface19 instanceof Animable_Sub1_Sub2) {
 								((Animable_Sub1_Sub2) interface19).aClass310_10652.method3591(i_6_, 30994);
 							} else {
-								Class128.method1544(i_4_, i_5_, i_8_, i_7_, i_6_, i_10_, i, i_9_ + 67, interface19.method72(-32136));
+								Class128.method1544(i_4_, i_5_, i_8_, i_7_, i_6_, i_10_, i, -4 + 67, interface19.method72(-32136));
 							}
 						}
 					}
@@ -111,7 +111,7 @@ public class Class110
 							i_5_ = 10;
 						}
 						if (!(interface19 instanceof Mobile_Sub3)) {
-							Class128.method1544(i_4_, i_5_, i_8_, i_7_, i_6_, i_10_, i, i_9_ + -120, interface19.method72(-32136));
+							Class128.method1544(i_4_, i_5_, i_8_, i_7_, i_6_, i_10_, i, -4 + -120, interface19.method72(-32136));
 						} else {
 							((Mobile_Sub3) interface19).aClass310_10777.method3591(i_6_, 30994);
 						}
@@ -128,9 +128,9 @@ public class Class110
 							if (i_5_ == 6) {
 								Class128.method1544(i_4_, 4, i_8_ + 4, i_7_, i_6_, i_10_, i, -128, i_12_);
 							} else if (i_5_ == 7) {
-								Class128.method1544(i_4_, 4, (0x3 & i_8_ + 2) - -4, i_7_, i_6_, i_10_, i, i_9_ ^ 0x79, i_12_);
+								Class128.method1544(i_4_, 4, (0x3 & i_8_ + 2) - -4, i_7_, i_6_, i_10_, i, -4 ^ 0x79, i_12_);
 							} else if (i_5_ == 8) {
-								Class128.method1544(i_4_, 4, 4 + i_8_, i_7_, i_6_, i_10_, i, i_9_ + -123, i_12_);
+								Class128.method1544(i_4_, 4, 4 + i_8_, i_7_, i_6_, i_10_, i, -4 + -123, i_12_);
 								Class128.method1544(i_4_, 4, (2 + i_8_ & 0x3) + 4, i_7_, i_6_, i_10_, i, -125, i_12_);
 							}
 						} else {
@@ -140,17 +140,17 @@ public class Class110
 				}
 			}
 		}
-		if (i_9_ != -4) {
+		if (-4 != -4) {
 			aClass110_1399 = null;
 		}
 	}
 	
 	static final void method1132(int i, boolean bool, boolean bool_13_) {
-		if (i == 0) {
+		if (0 == 0) {
 			anInt1388++;
 			if (bool_13_) {
 				Class233.anInt2783++;
-				Class262_Sub11.method3176(i + 1);
+				Class262_Sub11.method3176(0 + 1);
 			}
 			if (bool) {
 				Class108.anInt5283++;
@@ -161,7 +161,7 @@ public class Class110
 	
 	static final Class110[] method1133(byte b) {
 		anInt1386++;
-		int i = 87 % ((b - 5) / 47);
+		int i = 87 % (((byte) 118 - 5) / 47);
 		return new Class110[] { aClass110_1384, aClass110_1390, aClass110_1392, aClass110_1394, aClass110_1395, aClass110_1396, aClass110_1397, aClass110_1398, aClass110_1399, aClass110_1400, aClass110_1401, aClass110_1402, aClass110_1403, aClass110_1404, aClass110_1405, aClass110_1406, aClass110_1407, aClass110_1408, aClass110_1409, aClass110_1410, aClass110_1411 };
 	}
 	
@@ -187,14 +187,14 @@ public class Class110
 		aClass110_1408 = null;
 		aClass110_1399 = null;
 		aClass110_1407 = null;
-		if (i != 97) {
+		if (97 != 97) {
 			aClass110_1401 = null;
 		}
 	}
 	
 	private Class110(int i, Class22 class22, Class22 class22_14_, int i_15_, int i_16_, boolean bool, boolean bool_17_) {
 		anInt1383 = i_15_;
-		aBoolean1387 = bool;
+		aBoolean1387 = true;
 		anInt1382 = i_16_;
 		aBoolean1393 = bool_17_;
 		aClass22_1389 = class22_14_;
@@ -207,7 +207,7 @@ public class Class110
 		if (!Class320_Sub4.method3693(75, i, i_18_)) {
 			return false;
 		}
-		if (bool != false) {
+		if (false != false) {
 			return false;
 		}
 		if ((0xb000 & i) != 0 | CacheNode_Sub3.method2296(i_18_, (byte) -79, i) | Class320_Sub7.method3711((byte) 86, i, i_18_)) {
@@ -219,7 +219,7 @@ public class Class110
 	/*synthetic*/ static Class method1136(String string) {
 		Class var_class;
 		try {
-			var_class = Class.forName(string);
+			var_class = Class.forName("com.jagex.Interface19");
 		} catch (ClassNotFoundException classnotfoundexception) {
 			throw (NoClassDefFoundError) new NoClassDefFoundError().initCause(classnotfoundexception);
 		}

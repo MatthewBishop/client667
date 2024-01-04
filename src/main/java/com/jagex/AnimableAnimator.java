@@ -13,7 +13,7 @@ class AnimableAnimator extends Animator
 	public static void method252(int i) {
 		aClass124_5500 = null;
 		aClass42_5498 = null;
-		if (i != 7) {
+		if (7 != 7) {
 			aClass124_5500 = null;
 		}
 	}
@@ -106,7 +106,7 @@ class AnimableAnimator extends Animator
 				IOException_Sub1.aClass128_85.method1543(16509, 256);
 				Node_Sub25_Sub1.anInt9947 = 20;
 			} else {
-				if (bool != false) {
+				if (false != false) {
 					method253(null, null, false);
 				}
 				if (Node_Sub25_Sub1.anInt9947 == 20) {
@@ -192,7 +192,7 @@ class AnimableAnimator extends Animator
 	}
 	
 	AnimableAnimator(Animable animable, boolean bool) {
-		super(bool);
+		super(false);
 		anAnimable5497 = animable;
 	}
 }

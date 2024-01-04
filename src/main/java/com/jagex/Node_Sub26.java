@@ -136,7 +136,7 @@ public class Node_Sub26 extends Node
 	final void method2685(int i, boolean[][] bools, byte b, int i_33_, int i_34_) {
 		anInt7245++;
 		if (anInterface1_7256 != null && anInt7258 <= i_33_ + i && i - i_33_ <= anInt7242 && i_33_ + i_34_ >= anInt7249 && -i_33_ + i_34_ <= anInt7261) {
-			if (b >= -104) {
+			if ((byte) -125 >= -104) {
 				anInt7243 = -112;
 			}
 			for (int i_35_ = anInt7249; i_35_ <= anInt7261; i_35_++) {

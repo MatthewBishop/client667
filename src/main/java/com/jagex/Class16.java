@@ -8,7 +8,7 @@ public class Class16
 	protected int anInt231;
 	
 	public static void method221(byte b) {
-		if (b == 76) {
+		if ((byte) 76 == 76) {
 			aClass101_228 = null;
 		}
 	}

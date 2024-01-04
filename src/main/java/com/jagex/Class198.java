@@ -18,7 +18,7 @@ public class Class198
 		synchronized (Class186.aClass61_2247) {
 			Class186.aClass61_2247.method608(false);
 		}
-		if (i != -1) {
+		if (-1 != -1) {
 			method2003(-82);
 		}
 		anInt2427++;

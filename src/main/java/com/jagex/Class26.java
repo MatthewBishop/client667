@@ -9,7 +9,7 @@ public class Class26
 	static int anInt457;
 	
 	static final boolean method311(int i, int i_0_) {
-		if (i_0_ != -5) {
+		if (-5 != -5) {
 			method312('\uffdc', (byte) 89);
 		}
 		anInt454++;
@@ -122,12 +122,12 @@ public class Class26
 		Class320_Sub16.anInt8360 = i;
 		anInt457++;
 		Class105.aClass61_5202.method608(false);
-		int i_2_ = -1 / ((b - -24) / 57);
+		int i_2_ = -1 / (((byte) -85 - -24) / 57);
 	}
 	
 	public static void method314(byte b) {
 		aClass192_455 = null;
-		if (b != 100) {
+		if ((byte) 100 != 100) {
 			aClass192_455 = null;
 		}
 	}

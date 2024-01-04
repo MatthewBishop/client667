@@ -7,7 +7,7 @@ public class Class202
 	
 	public static void method2026(int i) {
 		anIntArray2448 = null;
-		if (i != 200) {
+		if (200 != 200) {
 			anIntArray2448 = null;
 		}
 	}

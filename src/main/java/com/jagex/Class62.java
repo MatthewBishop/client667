@@ -22,7 +22,7 @@ public class Class62
 		int i_7_ = i_2_;
 		int i_8_ = -i_2_;
 		int i_9_ = i_6_;
-		if (b != -56) {
+		if ((byte) -56 != -56) {
 			method609((byte) -87);
 		}
 		int i_10_ = -i_6_;
@@ -32,7 +32,7 @@ public class Class62
 		int i_13_ = -i_6_ + i_3_;
 		Class369.method4086(i_13_, i, -i_2_ + i_3_, is, 0);
 		int i_14_ = i_3_ + i_6_;
-		Class369.method4086(i_14_, i_0_, i_13_, is, b + 56);
+		Class369.method4086(i_14_, i_0_, i_13_, is, (byte) -56 + 56);
 		Class369.method4086(i_3_ - -i_2_, i, i_14_, is, 0);
 		while (i_5_ < i_7_) {
 			i_11_ += 2;
@@ -55,7 +55,7 @@ public class Class62
 					int i_20_ = i_17_ + i_3_;
 					int i_21_ = -i_17_ + i_3_;
 					Class369.method4086(i_21_, i, i_19_, is_15_, 0);
-					Class369.method4086(i_20_, i_0_, i_21_, is_15_, b ^ ~0x37);
+					Class369.method4086(i_20_, i_0_, i_21_, is_15_, (byte) -56 ^ ~0x37);
 					Class369.method4086(i_18_, i, i_20_, is_15_, 0);
 					Class369.method4086(i_21_, i, i_19_, is_16_, 0);
 					Class369.method4086(i_20_, i_0_, i_21_, is_16_, 0);
@@ -80,13 +80,13 @@ public class Class62
 				int i_32_ = -i_30_ + i_3_;
 				Class369.method4086(i_32_, i, i_29_, is_26_, 0);
 				Class369.method4086(i_31_, i_0_, i_32_, is_26_, 0);
-				Class369.method4086(i_28_, i, i_31_, is_26_, b ^ ~0x37);
+				Class369.method4086(i_28_, i, i_31_, is_26_, (byte) -56 ^ ~0x37);
 				Class369.method4086(i_32_, i, i_29_, is_27_, 0);
 				Class369.method4086(i_31_, i_0_, i_32_, is_27_, 0);
 				Class369.method4086(i_28_, i, i_31_, is_27_, 0);
 			} else {
-				Class369.method4086(i_28_, i, i_29_, is_26_, b + 56);
-				Class369.method4086(i_28_, i, i_29_, is_27_, b ^ ~0x37);
+				Class369.method4086(i_28_, i, i_29_, is_26_, (byte) -56 + 56);
+				Class369.method4086(i_28_, i, i_29_, is_27_, (byte) -56 ^ ~0x37);
 			}
 		}
 	}

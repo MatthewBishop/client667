@@ -31,7 +31,7 @@ public class CacheNode_Sub14_Sub2 extends CacheNode_Sub14
 	}
 	
 	public static void method2351(int i) {
-		if (i != -513) {
+		if (-513 != -513) {
 			aClass192_11040 = null;
 		}
 		aClass312_11039 = null;
@@ -55,7 +55,7 @@ public class CacheNode_Sub14_Sub2 extends CacheNode_Sub14
 		if (buffer.aByteArray7019.length - buffer.anInt7002 >= 1) {
 			int i = buffer.method2233(255);
 			if (i >= 0 && i <= 1) {
-				if (b > -21) {
+				if ((byte) -42 > -21) {
 					method2354(null, -121, true, -60, -117, 43, false);
 				}
 				if (buffer.aByteArray7019.length + -buffer.anInt7002 >= 2) {
@@ -91,13 +91,13 @@ public class CacheNode_Sub14_Sub2 extends CacheNode_Sub14
 				Class107.anInt1362 = 1;
 			}
 		}
-		if (bool_9_ != false) {
+		if (false != false) {
 			aClass312_11039 = null;
 		}
 	}
 	
 	static final void method2355(Packet packet, byte b) {
-		if (b >= -94) {
+		if ((byte) -117 >= -94) {
 			aClass192_11037 = null;
 		}
 		for (int i = 0; i < Node_Sub9_Sub4.anInt9733; i++) {
@@ -121,7 +121,7 @@ public class CacheNode_Sub14_Sub2 extends CacheNode_Sub14
 			return null;
 		}
 		int i_20_ = 2055;
-		if (bool != true) {
+		if (true != true) {
 			method2354(null, 45, false, 32, 86, -90, false);
 		}
 		if (animator != null) {
@@ -175,7 +175,7 @@ public class CacheNode_Sub14_Sub2 extends CacheNode_Sub14
 					if (i_33_ == 0) {
 						model.method2080(true, i_24_, is_25_[0][i_36_], is_25_[0][(i_36_ + 1) % i_22_], s, (short) -1, b, (byte) 1, (byte) -1);
 					} else {
-						model.method2080(bool, is_25_[i_33_ + -1][i_36_], is_25_[i_33_][(i_36_ + 1) % i_22_], is_25_[-1 + i_33_][(1 + i_36_) % i_22_], s, (short) -1, b, (byte) 1, (byte) -1);
+						model.method2080(true, is_25_[i_33_ + -1][i_36_], is_25_[i_33_][(i_36_ + 1) % i_22_], is_25_[-1 + i_33_][(1 + i_36_) % i_22_], s, (short) -1, b, (byte) 1, (byte) -1);
 						model.method2080(true, is_25_[i_33_ - 1][i_36_], is_25_[i_33_][i_36_], is_25_[i_33_][(1 + i_36_) % i_22_], s, (short) -1, b, (byte) 1, (byte) -1);
 					}
 				}

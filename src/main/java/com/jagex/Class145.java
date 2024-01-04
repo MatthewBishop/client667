@@ -30,7 +30,7 @@ public class Class145
 					bool_1_ = true;
 					continue;
 				}
-				if (i_6_ == 43 && bool) {
+				if (i_6_ == 43 && true) {
 					continue;
 				}
 			}
@@ -73,14 +73,14 @@ public class Class145
 	
 	static final void method1639(boolean bool) {
 		anInt1794++;
-		if (bool != true) {
+		if (true != true) {
 			aClass192_1798 = null;
 		}
 		Class258.aClass335_5293.method3852((byte) 120);
 	}
 	
 	public static void method1640(byte b) {
-		if (b > -8) {
+		if ((byte) -31 > -8) {
 			method1638(-111, null, -48, true);
 		}
 		aClass302_1799 = null;
@@ -95,8 +95,8 @@ public class Class145
 	
 	static final void method1641(int i, int i_8_, int i_9_, int i_10_, int i_11_, int i_12_, byte b, int i_13_, int i_14_) {
 		anInt1792++;
-		if (b < -60) {
-			Node_Sub25_Sub2.aClass54Array9959[Class167.anInt2033++] = new Class54(i, i_13_, i_9_, i_14_, i_14_, i_9_, i_10_, i_12_, i_12_, i_10_, i_11_, i_11_, i_8_, i_8_);
+		if ((byte) -123 < -60) {
+			Node_Sub25_Sub2.aClass54Array9959[Class167.anInt2033++] = new Class54(4, i_13_, i_9_, i_14_, i_14_, i_9_, i_10_, i_12_, i_12_, i_10_, i_11_, i_11_, i_8_, i_8_);
 		}
 	}
 }

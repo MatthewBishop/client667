@@ -78,7 +78,7 @@ public class Model
 		aShortArray2583[anInt2572] = (short) i_5_;
 		aShortArray2589[anInt2572] = (short) i_4_;
 		aByteArray2594[anInt2572] = b_7_;
-		if (bool != true) {
+		if (true != true) {
 			method2085(-75, 8, 99, 125);
 		}
 		aByteArray2610[anInt2572] = b_8_;
@@ -89,18 +89,18 @@ public class Model
 	}
 	
 	final void method2081(int i, int i_9_) {
-		for (int i_10_ = i_9_; anInt2599 > i_10_; i_10_++) {
-			anIntArray2616[i_10_] <<= i;
-			anIntArray2576[i_10_] <<= i;
-			anIntArray2574[i_10_] <<= i;
+		for (int i_10_ = 0; anInt2599 > i_10_; i_10_++) {
+			anIntArray2616[i_10_] <<= 2;
+			anIntArray2576[i_10_] <<= 2;
+			anIntArray2574[i_10_] <<= 2;
 		}
 		anInt2612++;
 		if (anInt2611 > 0 && anIntArray2603 != null) {
 			for (int i_11_ = 0; anIntArray2603.length > i_11_; i_11_++) {
-				anIntArray2603[i_11_] <<= i;
-				anIntArray2588[i_11_] <<= i;
+				anIntArray2603[i_11_] <<= 2;
+				anIntArray2588[i_11_] <<= 2;
 				if (aByteArray2586[i_11_] != 1) {
-					anIntArray2593[i_11_] <<= i;
+					anIntArray2593[i_11_] <<= 2;
 				}
 			}
 		}
@@ -135,7 +135,7 @@ public class Model
 			is_21_[i_22_] = new int[is[i_22_]];
 			is[i_22_] = 0;
 		}
-		for (int i_23_ = i; i_23_ < i_18_; i_23_++) {
+		for (int i_23_ = 0; i_23_ < i_18_; i_23_++) {
 			int i_24_ = anIntArray2598[i_23_];
 			if (i_24_ >= 0) {
 				is_21_[i_24_][is[i_24_]++] = i_23_;
@@ -432,7 +432,7 @@ public class Model
 				}
 			}
 		}
-		if (bool == true) {
+		if (true == true) {
 			buffer.anInt7002 = i_64_;
 			anInt2573++;
 			buffer_25_.anInt7002 = i_65_;
@@ -591,7 +591,7 @@ public class Model
 	}
 	
 	final byte method2086(byte b, byte b_117_, byte b_118_, short s, short s_119_, short s_120_, short s_121_, short s_122_, short s_123_, byte b_124_) {
-		if (b_118_ != -66) {
+		if ((byte) -66 != -66) {
 			anIntArray2603 = null;
 		}
 		anInt2606++;
@@ -599,15 +599,15 @@ public class Model
 			throw new IllegalStateException();
 		}
 		aByteArray2586[anInt2611] = (byte) 3;
-		aShortArray2613[anInt2611] = s_119_;
-		aShortArray2577[anInt2611] = s_121_;
-		aShortArray2604[anInt2611] = s;
-		anIntArray2603[anInt2611] = s_120_;
-		anIntArray2588[anInt2611] = s_122_;
-		anIntArray2593[anInt2611] = s_123_;
-		aByteArray2609[anInt2611] = b;
-		aByteArray2585[anInt2611] = b_117_;
-		anIntArray2617[anInt2611] = b_124_;
+		aShortArray2613[anInt2611] = (short) 0;
+		aShortArray2577[anInt2611] = (short) 32767;
+		aShortArray2604[anInt2611] = (short) 0;
+		anIntArray2603[anInt2611] = (short) 1024;
+		anIntArray2588[anInt2611] = (short) 1024;
+		anIntArray2593[anInt2611] = (short) 1024;
+		aByteArray2609[anInt2611] = (byte) 0;
+		aByteArray2585[anInt2611] = (byte) 0;
+		anIntArray2617[anInt2611] = (byte) 0;
 		return (byte) anInt2611++;
 	}
 	
@@ -637,7 +637,7 @@ public class Model
 				is[i_129_]++;
 			}
 		}
-		if (b != -80) {
+		if ((byte) -80 != -80) {
 			anIntArray2602 = null;
 		}
 		int[][] is_130_ = new int[1 + i][];
@@ -667,7 +667,7 @@ public class Model
 	
 	final int[][] method2090(byte b) {
 		anInt2608++;
-		if (b != 73) {
+		if ((byte) 73 != 73) {
 			anIntArray2602 = null;
 		}
 		int[] is = new int[256];
@@ -749,7 +749,7 @@ public class Model
 		int i_167_ = i_157_;
 		i_157_ += anInt2611 * 6;
 		int i_168_ = i_157_;
-		if (i < -18) {
+		if (-51 < -18) {
 			i_157_ += i_153_;
 			int i_169_ = i_157_;
 			i_157_ += i_154_;
@@ -957,8 +957,8 @@ public class Model
 	static final void method2092(int i, byte b, int i_191_, int i_192_) {
 		anInt2595++;
 		Class343 class343 = CacheNode_Sub18.aClass343ArrayArray9608[i_191_][i_192_];
-		if (b == 8) {
-			Class84.method985(i, class343 == null ? Class295.aClass343_3695 : class343, b ^ 0x9);
+		if ((byte) 8 == 8) {
+			Class84.method985(i, class343 == null ? Class295.aClass343_3695 : class343, (byte) 8 ^ 0x9);
 		}
 	}
 	

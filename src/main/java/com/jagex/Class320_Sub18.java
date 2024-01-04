@@ -22,7 +22,7 @@ public class Class320_Sub18 extends Class320
 	}
 	
 	final int method3749(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			method3675(31, (byte) 18);
 		}
 		anInt8374++;
@@ -70,7 +70,7 @@ public class Class320_Sub18 extends Class320
 	
 	final boolean method3750(byte b) {
 		anInt8381++;
-		if (b <= 63) {
+		if ((byte) 77 <= 63) {
 			method3748((byte) -118);
 		}
 		if (!aNode_Sub27_4063.method2697(-108)) {

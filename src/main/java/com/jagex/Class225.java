@@ -21,7 +21,7 @@ public class Class225
 		}
 		anInt2677++;
 		for (int i_2_ = 9; i_2_ >= 5; i_2_--) {
-			String string = Node_Sub34.method2742(widget, i_2_, i + -20579);
+			String string = Node_Sub34.method2742(widget, i_2_, -6608 + -20579);
 			if (string != null) {
 				Node_Sub30.anInt7351++;
 				Node_Sub32.method2731(false, widget.anInt4718, (long) (i_2_ - -1), widget.anInt4687, widget.anInt4822, string, 1002, true, Node_Sub30.method2722(i_2_, widget, 7113), widget.aString4779, (long) (widget.anInt4822 | widget.anInt4687 << 0), (byte) -18, false);
@@ -33,7 +33,7 @@ public class Class225
 			Node_Sub32.method2731(false, widget.anInt4718, 0L, widget.anInt4687, widget.anInt4822, string, 12, true, widget.anInt4748, widget.aString4779, (long) (widget.anInt4687 << 0 | widget.anInt4822), (byte) -18, false);
 		}
 		for (int i_3_ = 4; i_3_ >= 0; i_3_--) {
-			String string_4_ = Node_Sub34.method2742(widget, i_3_, i + -20579);
+			String string_4_ = Node_Sub34.method2742(widget, i_3_, -6608 + -20579);
 			if (string_4_ != null) {
 				Node_Sub32.method2731(false, widget.anInt4718, (long) (1 + i_3_), widget.anInt4687, widget.anInt4822, string_4_, 20, true, Node_Sub30.method2722(i_3_, widget, 7113), widget.aString4779, (long) (widget.anInt4822 | widget.anInt4687 << 0), (byte) -18, false);
 				Node_Sub30.anInt7351++;
@@ -47,7 +47,7 @@ public class Class225
 				Node_Sub32.method2731(false, widget.anInt4718, 0L, widget.anInt4687, widget.anInt4822, Class22.aClass22_373.method297(-12273, Class35.anInt537), 10, true, -1, "", (long) (widget.anInt4822 | widget.anInt4687 << 0), (byte) -18, false);
 			}
 		}
-		if (i != -6608) {
+		if (-6608 != -6608) {
 			anInt2675 = 8;
 		}
 	}
@@ -89,7 +89,7 @@ public class Class225
 		aClass318_2679 = null;
 		aClass257_2674 = null;
 		aClass261ArrayArrayArray2680 = null;
-		if (i == 20) {
+		if (20 == 20) {
 			aClass336_2678 = null;
 		}
 	}

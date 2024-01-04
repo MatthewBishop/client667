@@ -10,7 +10,7 @@ public class Node_Sub51 extends Node
 	static int anInt7633 = -1;
 	
 	public static void method2967(int i) {
-		if (i != -4) {
+		if (-4 != -4) {
 			aClass61_7628 = null;
 		}
 		aClass61_7628 = null;
@@ -18,7 +18,7 @@ public class Node_Sub51 extends Node
 	}
 	
 	static final void method2968(int i, int i_0_) {
-		Class262_Sub4.anInt7730 = i_0_;
+		Class262_Sub4.anInt7730 = -1;
 		Class150_Sub3.anInt8963 = -1;
 		Class94.anInt1250 = i;
 		anInt7629++;
@@ -85,7 +85,7 @@ public class Node_Sub51 extends Node
 			}
 			return -1;
 		}
-		if (i_2_ != 1) {
+		if (1 != 1) {
 			return 117;
 		}
 		if (i == 6) {
@@ -101,8 +101,8 @@ public class Node_Sub51 extends Node
 			return 0;
 		}
 		if (i == 7) {
-			if (class377_sub1_1_.method4123(i_2_ ^ 0x6bfe)) {
-				if (class377_sub1.method4123(i_2_ ^ 0x6bfe)) {
+			if (class377_sub1_1_.method4123(1 ^ 0x6bfe)) {
+				if (class377_sub1.method4123(1 ^ 0x6bfe)) {
 					return 0;
 				}
 				return 1;

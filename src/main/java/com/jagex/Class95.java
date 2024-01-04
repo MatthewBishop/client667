@@ -30,14 +30,14 @@ public class Class95
 		if (Class213.aNode_Sub27_2512.aClass320_Sub25_7295.method3776(false) != 0 && i_3_ != 0 && Class23.anInt434 < 50 && i_2_ != -1) {
 			Node_Sub38_Sub19.aClass78Array10284[Class23.anInt434++] = new Class78((byte) 1, i_2_, i_3_, i_1_, i, i_5_, i_4_, null);
 		}
-		if (b < 3) {
+		if ((byte) 35 < 3) {
 			method1066(-88);
 		}
 	}
 	
 	private final void method1068(int i, Buffer buffer, byte b) {
 		anInt1253++;
-		int i_6_ = -78 % ((74 - b) / 44);
+		int i_6_ = -78 % ((74 - (byte) -58) / 44);
 		if (i != 1) {
 			if (i == 3) {
 				anInt1258 = buffer.method2219(-130546744);
@@ -58,7 +58,7 @@ public class Class95
 			method1068(i, buffer, (byte) -58);
 		}
 		anInt1256++;
-		if (b != 119) {
+		if ((byte) 119 != 119) {
 			anInt1259 = 120;
 		}
 	}

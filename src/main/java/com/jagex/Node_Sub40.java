@@ -25,13 +25,13 @@ public class Node_Sub40 extends Node
 			i_5_ = i_3_;
 		}
 		String string = Node_Sub14.method2550(cachenode_sub4, (byte) 62);
-		if (i_2_ == -9330) {
-			Class262_Sub4.aClass52_7721.method536(i_5_, 0, i_1_, string, i_2_ ^ 0xe3e23b6, i_7_ + 3, Class105.aGLSpriteArray5194, Class290_Sub6.anIntArray8123);
+		if (-9330 == -9330) {
+			Class262_Sub4.aClass52_7721.method536(i_5_, 0, i_1_, string, -9330 ^ 0xe3e23b6, i_7_ + 3, Class105.aGLSpriteArray5194, Class290_Sub6.anIntArray8123);
 		}
 	}
 	
 	public static void method2925(int i) {
-		if (i != 13) {
+		if (13 != 13) {
 			method2928(null, (byte) 57);
 		}
 		aClass170_7508 = null;
@@ -44,7 +44,7 @@ public class Node_Sub40 extends Node
 	static final void method2926(byte b, int i, GraphicsToolkit graphicstoolkit, int i_9_, int i_10_, int i_11_) {
 		graphicstoolkit.KA(i_10_, i_11_, i_10_ - -i, i_9_ + i_11_);
 		anInt7501++;
-		if (b > -60) {
+		if ((byte) -100 > -60) {
 			aString7513 = null;
 		}
 		graphicstoolkit.method1239(i, i_9_, i_11_, (byte) 116, i_10_, -16777216);
@@ -130,11 +130,11 @@ public class Node_Sub40 extends Node
 	}
 	
 	static final boolean method2929(int i, int i_29_, int i_30_) {
-		if (i_29_ != 0) {
+		if (0 != 0) {
 			aStringArrayArray7505 = null;
 		}
 		anInt7507++;
-		if (!Class46.method470(i, -47, i_30_) && !Node_Sub41.method2932(i_29_ + -97, i_30_, i)) {
+		if (!Class46.method470(i, -47, i_30_) && !Node_Sub41.method2932(0 + -97, i_30_, i)) {
 			return false;
 		}
 		return true;

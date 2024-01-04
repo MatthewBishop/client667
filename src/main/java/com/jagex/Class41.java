@@ -14,14 +14,14 @@ abstract class Class41
 	
 	public static void method433(int i) {
 		aWidget622 = null;
-		if (i != 0) {
+		if (0 != 0) {
 			method437(5, -42, false, (byte) -127);
 		}
 	}
 	
 	final Socket method434(boolean bool) throws IOException {
 		anInt628++;
-		if (bool != false) {
+		if (false != false) {
 			anInt626 = -36;
 		}
 		return new Socket(aString625, anInt624);
@@ -34,8 +34,8 @@ abstract class Class41
 	abstract Socket method435(int i) throws IOException;
 	
 	static final void method436(int i, String string, int i_0_) {
-		if (i == 29459) {
-			Class28.method331(string, "", -85, 0, "", "", i_0_);
+		if (29459 == 29459) {
+			Class28.method331(string, "", -85, 0, "", "", 4);
 			anInt623++;
 		}
 	}

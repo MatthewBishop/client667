@@ -37,7 +37,7 @@ public class Class56
 	static final void method565(boolean bool, int i, int i_0_) {
 		anInt835++;
 		Class262_Sub4.anInt7730 = i + -Class20.anInt354;
-		if (bool == false) {
+		if (false == false) {
 			Class150_Sub3.anInt8963 = -Class20.anInt343 + i_0_;
 		}
 	}

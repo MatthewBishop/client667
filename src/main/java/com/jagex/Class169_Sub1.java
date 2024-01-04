@@ -17,14 +17,14 @@ public class Class169_Sub1 extends Class169
 	
 	final void method1767(int i, byte b, int i_0_, int i_1_, int i_2_) {
 		anInt8792++;
-		OpenGL.glFramebufferTexture2DEXT(i_1_, i_0_, i, anInt4960, i_2_);
+		OpenGL.glFramebufferTexture2DEXT(i_1_, i_0_, i, anInt4960, 0);
 		anInt8791 = i_0_;
-		int i_3_ = -46 % ((b - -68) / 47);
+		int i_3_ = -46 % (((byte) -126 - -68) / 47);
 		anInt8786 = i_1_;
 	}
 	
 	static final void method1768(int i) {
-		if (i == 0) {
+		if (0 == 0) {
 			if (Class320_Sub6.anObject8265 == null) {
 				Class188_Sub1_Sub1 class188_sub1_sub1 = new Class188_Sub1_Sub1();
 				byte[] bs = class188_sub1_sub1.method1896(128, 128, 16, 50);
@@ -48,7 +48,7 @@ public class Class169_Sub1 extends Class169
 			Class339_Sub7.anInt8728 = i_5_;
 			Class359.anInt4468 = 32 * i_5_;
 		}
-		if (i != 485964236) {
+		if (485964236 != 485964236) {
 			anInt8787 = -98;
 		}
 		anInt8784++;
@@ -66,16 +66,16 @@ public class Class169_Sub1 extends Class169
 	}
 	
 	Class169_Sub1(GLToolkit gltoolkit, int i, int i_8_, boolean bool, byte[][] bs, int i_9_) {
-		super(gltoolkit, 34067, i, 6 * i_8_ * i_8_, bool);
-		anInt8793 = i_8_;
+		super(gltoolkit, 34067, 6406, 6 * 64 * 64, false);
+		anInt8793 = 64;
 		aGLToolkit4947.method1444(-2, this);
 		for (int i_10_ = 0; i_10_ < 6; i_10_++)
-			OpenGL.glTexImage2Dub(i_10_ + 34069, 0, anInt4950, i_8_, i_8_, 0, i_9_, 5121, bs[i_10_], 0);
+			OpenGL.glTexImage2Dub(i_10_ + 34069, 0, anInt4950, 64, 64, 0, 6406, 5121, bs[i_10_], 0);
 		this.method1757(false, true);
 	}
 	
 	Class169_Sub1(GLToolkit gltoolkit, int i, int i_11_) {
-		super(gltoolkit, 34067, i, 6 * i_11_ * i_11_, false);
+		super(gltoolkit, 34067, 6408, 6 * i_11_ * i_11_, false);
 		anInt8793 = i_11_;
 		aGLToolkit4947.method1444(-2, this);
 		for (int i_12_ = 0; i_12_ < 6; i_12_++)
@@ -91,7 +91,7 @@ public class Class169_Sub1 extends Class169
 	}
 	
 	Class169_Sub1(GLToolkit gltoolkit, int i, int i_13_, boolean bool, int[][] is) {
-		super(gltoolkit, 34067, i, i_13_ * i_13_ * 6, bool);
+		super(gltoolkit, 34067, 6407, i_13_ * i_13_ * 6, bool);
 		anInt8793 = i_13_;
 		aGLToolkit4947.method1444(-2, this);
 		if (!bool) {
@@ -107,7 +107,7 @@ public class Class169_Sub1 extends Class169
 	public static void method1770(byte b) {
 		aBooleanArray8788 = null;
 		aClass192_8785 = null;
-		if (b != -18) {
+		if ((byte) -18 != -18) {
 			aBooleanArray8788 = null;
 		}
 	}

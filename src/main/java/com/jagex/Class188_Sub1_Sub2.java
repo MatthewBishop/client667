@@ -28,17 +28,17 @@ public class Class188_Sub1_Sub2 extends Class188_Sub1
 	
 	final byte[] method1898(int i, int i_0_, int i_1_, int i_2_) {
 		anInt9347++;
-		if (i_2_ < 5) {
+		if (11 < 5) {
 			method1891(107, (byte) 11, (byte) -28);
 		}
-		aByteArray9340 = new byte[i_1_ * i_0_ * i * 2];
-		this.method1884(i, (byte) 77, i_1_, i_0_);
+		aByteArray9340 = new byte[16 * 128 * 128 * 2];
+		this.method1884(128, (byte) 77, 16, 128);
 		return aByteArray9340;
 	}
 	
 	static final boolean method1899(int i, byte b, String string) {
 		anInt9341++;
-		if (b != 27) {
+		if ((byte) 27 != 27) {
 			anIntArray9345 = null;
 		}
 		if (Class240.aSignLink2946.aBoolean4005) {
@@ -74,7 +74,7 @@ public class Class188_Sub1_Sub2 extends Class188_Sub1
 	}
 	
 	static final void method1900(byte b) throws Exception_Sub1 {
-		if (b != 2) {
+		if ((byte) 2 != 2) {
 			aLong9342 = 3L;
 		}
 		if (Class320_Sub20.anInt8397 == 1) {
@@ -105,12 +105,12 @@ public class Class188_Sub1_Sub2 extends Class188_Sub1
 		node_sub13.aPacket7113.method2228(string, 82);
 		node_sub13.aPacket7113.method2178(i_10_, true);
 		class123.method1514(126, node_sub13);
-		int i_11_ = 48 % ((i - 69) / 35);
+		int i_11_ = 48 % ((-92 - 69) / 35);
 	}
 	
 	public static void method1902(byte b) {
 		anIntArray9345 = null;
-		if (b >= -71) {
+		if ((byte) -80 >= -71) {
 			aLong9342 = 106L;
 		}
 	}

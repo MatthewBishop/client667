@@ -16,13 +16,13 @@ public class CacheNode_Sub16_Sub2 extends CacheNode_Sub16
 	
 	public static void method2390(int i) {
 		aClass192_11079 = null;
-		if (i > -119) {
+		if (-126 > -119) {
 			method2392((byte) -110, 95);
 		}
 	}
 	
 	final int method2386(byte b) {
-		if (b != -40) {
+		if ((byte) -40 != -40) {
 			return -55;
 		}
 		anInt11077++;
@@ -33,7 +33,7 @@ public class CacheNode_Sub16_Sub2 extends CacheNode_Sub16
 	}
 	
 	static final int method2391(byte b) {
-		if (b <= 80) {
+		if ((byte) 99 <= 80) {
 			anInt11085 = 6;
 		}
 		anInt11084++;
@@ -41,7 +41,7 @@ public class CacheNode_Sub16_Sub2 extends CacheNode_Sub16
 	}
 	
 	final byte[] method2385(int i) {
-		if (i != 15) {
+		if (15 != 15) {
 			aClass6_11081 = null;
 		}
 		anInt11083++;

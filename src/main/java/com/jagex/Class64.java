@@ -20,19 +20,19 @@ public class Class64 implements Interface6
 	
 	public static void method709(byte b) {
 		aClass124_5036 = null;
-		int i = 2 % ((b - 27) / 35);
+		int i = 2 % (((byte) 119 - 27) / 35);
 		aClass318_5048 = null;
 	}
 	
 	static final void method710(byte b, int i) {
-		if (b != -90) {
+		if ((byte) -90 != -90) {
 			method712(55);
 		}
 		anInt5035++;
 		if (Class52.anInt800 != 0) {
 			Class17.anInt282 = i;
 		} else {
-			Class307.aNode_Sub9_Sub1_3902.method2439(b ^ 0x3133, i);
+			Class307.aNode_Sub9_Sub1_3902.method2439((byte) -90 ^ 0x3133, i);
 		}
 	}
 	
@@ -43,13 +43,13 @@ public class Class64 implements Interface6
 		Class113.aClass336_1440 = Class44.aGraphicsToolkit668.y();
 		Npc.aClass336_11113 = Class44.aGraphicsToolkit668.y();
 		StandardSprite.anInt8946 = i_1_;
-		Class320_Sub4.anInt8241 = i;
+		Class320_Sub4.anInt8241 = 2;
 		Class320_Sub20.anInt8397 = 1;
 		Class259.anInt3300 = 0;
 		Class338.anInt4190 = 0;
-		Node_Sub38_Sub21.anInt10315 = i_3_;
+		Node_Sub38_Sub21.anInt10315 = 2;
 		aa_Sub3.anInt5493 = i_2_;
-		int i_5_ = 112 / ((-91 - b) / 34);
+		int i_5_ = 112 / ((-91 - (byte) -128) / 34);
 		Node_Sub15_Sub9.anInterface6_9843 = null;
 		Node_Sub15_Sub8.method2575(i_4_, i_0_, 121);
 	}
@@ -62,18 +62,18 @@ public class Class64 implements Interface6
 	}
 	
 	public final void method18(int i, int i_6_, int i_7_, int i_8_, int i_9_, int i_10_, boolean bool, boolean bool_11_) {
-		Class15.method220(i_10_, i_7_, !bool_11_ ? null : aPureJavaToolkit5038.aFloatArray6792, bool ? aPureJavaToolkit5038.aGraphicsBuffer6756.anIntArray7145 : null, aPureJavaToolkit5038.aGraphicsBuffer6756.anInt7146, bool_11_ ? aFloatArray5049 : null, anInt5041, i_9_, anIntArray5042, i_8_, i, -5, i_6_);
+		Class15.method220(0, i_7_, !true ? null : aPureJavaToolkit5038.aFloatArray6792, bool ? aPureJavaToolkit5038.aGraphicsBuffer6756.anIntArray7145 : null, aPureJavaToolkit5038.aGraphicsBuffer6756.anInt7146, true ? aFloatArray5049 : null, anInt5041, 0, anIntArray5042, i_8_, i, -5, i_6_);
 		anInt5039++;
 	}
 	
 	public final void method19(int i, int i_12_, int i_13_, int i_14_, int i_15_, int i_16_, boolean bool, boolean bool_17_) {
-		Class15.method220(i_16_, i_13_, bool_17_ ? aFloatArray5049 : null, bool ? anIntArray5042 : null, anInt5041, bool_17_ ? aPureJavaToolkit5038.aFloatArray6792 : null, aPureJavaToolkit5038.aGraphicsBuffer6756.anInt7146, i_15_, aPureJavaToolkit5038.aGraphicsBuffer6756.anIntArray7145, i_14_, i, -5, i_12_);
+		Class15.method220(i_16_, i_13_, true ? aFloatArray5049 : null, true ? anIntArray5042 : null, anInt5041, true ? aPureJavaToolkit5038.aFloatArray6792 : null, aPureJavaToolkit5038.aGraphicsBuffer6756.anInt7146, i_15_, aPureJavaToolkit5038.aGraphicsBuffer6756.anIntArray7145, i_14_, i, -5, i_12_);
 		anInt5044++;
 	}
 	
 	static final void method713(int i) {
 		synchronized (Class186.aClass61_2247) {
-			if (i != 0) {
+			if (0 != 0) {
 				return;
 			}
 			Class186.aClass61_2247.method602((byte) -120);

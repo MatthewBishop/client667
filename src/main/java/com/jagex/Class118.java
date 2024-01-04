@@ -74,8 +74,8 @@ public class Class118 implements Interface17
 	
 	public final int method64(int i, byte b) {
 		anInt5408++;
-		Node_Sub32 node_sub32 = (Node_Sub32) Class18.aHashTable308.method1518(b ^ ~0xd91, (long) i | 0x100000000L);
-		if (b != -42) {
+		Node_Sub32 node_sub32 = (Node_Sub32) Class18.aHashTable308.method1518((byte) -42 ^ ~0xd91, (long) i | 0x100000000L);
+		if ((byte) -42 != -42) {
 			method1175(null, -67, -10, 88, -118, -60);
 		}
 		if (node_sub32 == null) {

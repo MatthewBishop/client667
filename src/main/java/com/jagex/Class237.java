@@ -11,7 +11,7 @@ public class Class237
 	private GLXToolkit aGLXToolkit2909;
 	
 	public static void method3016(int i) {
-		if (i != -1) {
+		if (-1 != -1) {
 			aClass241_2904 = null;
 		}
 		aClass241_2904 = null;
@@ -26,7 +26,7 @@ public class Class237
 	static final void method3017(byte b) {
 		Node_Sub15_Sub4.anInt9798 = -1;
 		anInt2903++;
-		if (b >= -103) {
+		if ((byte) -119 >= -103) {
 			anInt2908 = 67;
 		}
 		Class346.anInt4278 = -1;

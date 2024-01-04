@@ -7,7 +7,7 @@ public class Class316
 	
 	static final boolean method3661(int i, int i_0_, byte b) {
 		anInt4037++;
-		if (b != 69) {
+		if ((byte) 69 != 69) {
 			return false;
 		}
 		if ((i & 0x180) == 0) {

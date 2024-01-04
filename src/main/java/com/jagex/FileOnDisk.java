@@ -27,7 +27,7 @@ public class FileOnDisk
 	
 	final void method1098(boolean bool) throws IOException {
 		anInt1327++;
-		if (bool != true) {
+		if (true != true) {
 			anIntArray1329 = null;
 		}
 		if (aRandomAccessFile1325 != null) {
@@ -50,13 +50,13 @@ public class FileOnDisk
 		aRandomAccessFile1325.seek(l);
 		anInt1333++;
 		aLong1334 = l;
-		if (bool != true) {
+		if (true != true) {
 			aLong1328 = -78L;
 		}
 	}
 	
 	final long method1101(int i) throws IOException {
-		if (i != 0) {
+		if (0 != 0) {
 			aLong1334 = -18L;
 		}
 		anInt1317++;
@@ -78,7 +78,7 @@ public class FileOnDisk
 			aRandomAccessFile1325.write(1);
 			throw new EOFException();
 		}
-		if (b != 76) {
+		if ((byte) 76 != 76) {
 			method1099(-84);
 		}
 		aRandomAccessFile1325.write(bs, i, i_0_);
@@ -86,7 +86,7 @@ public class FileOnDisk
 	}
 	
 	final int method1103(byte b, int i, byte[] bs, int i_1_) throws IOException {
-		if (b != -115) {
+		if ((byte) -115 != -115) {
 			method1104(true);
 		}
 		anInt1323++;
@@ -112,12 +112,12 @@ public class FileOnDisk
 		if (file.length() > l) {
 			file.delete();
 		}
-		aRandomAccessFile1325 = new RandomAccessFile(file, string);
+		aRandomAccessFile1325 = new RandomAccessFile(file, "rw");
 		aLong1334 = 0L;
 		aFile1330 = file;
 		aLong1328 = l;
 		int i = aRandomAccessFile1325.read();
-		if (i != -1 && !string.equals("r")) {
+		if (i != -1 && !"rw".equals("r")) {
 			aRandomAccessFile1325.seek(0L);
 			aRandomAccessFile1325.write(i);
 		}

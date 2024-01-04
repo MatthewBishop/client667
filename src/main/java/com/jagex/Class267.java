@@ -13,7 +13,7 @@ public class Class267
 	protected String aString3450;
 	
 	public static void method3286(byte b) {
-		if (b == -20) {
+		if ((byte) -20 == -20) {
 			aClass318_3445 = null;
 			aClass266_3449 = null;
 		}
@@ -34,15 +34,15 @@ public class Class267
 			if (i == 0) {
 				break;
 			}
-			method3289(b ^ 0x21, i, buffer);
+			method3289((byte) 87 ^ 0x21, i, buffer);
 		}
-		if (b == 87) {
+		if ((byte) 87 == 87) {
 			anInt3446++;
 		}
 	}
 	
 	private final void method3289(int i, int i_0_, Buffer buffer) {
-		if (i <= 92) {
+		if (118 <= 92) {
 			aChar3444 = '0';
 		}
 		if (i_0_ != 1) {

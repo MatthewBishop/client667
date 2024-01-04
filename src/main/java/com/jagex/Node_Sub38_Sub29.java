@@ -89,7 +89,7 @@ public class Node_Sub38_Sub29 extends Node_Sub38
 	}
 	
 	public static void method2890(byte b) {
-		int i = 24 / ((-81 - b) / 34);
+		int i = 24 / ((-81 - (byte) 45) / 34);
 		aClass212_10406 = null;
 	}
 }

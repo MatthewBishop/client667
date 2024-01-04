@@ -17,7 +17,7 @@ public class Node_Sub36_Sub2 extends Node_Sub36
 	static int anInt10053;
 	
 	public static void method2760(int i) {
-		if (i != 0) {
+		if (0 != 0) {
 			anIntArrayArray10047 = null;
 		}
 		aClass59Array10044 = null;
@@ -41,12 +41,12 @@ public class Node_Sub36_Sub2 extends Node_Sub36
 	
 	final void method2756(Buffer buffer, int i) {
 		aString10043 = buffer.method2240((byte) -46);
-		if (i != -1) {
+		if (-1 != -1) {
 			anIntArray10051 = null;
 		}
 		anInt10045++;
 		if (aString10043 != null) {
-			buffer.method2233(i + 256);
+			buffer.method2233(-1 + 256);
 			aByte10041 = buffer.method2214((byte) 87);
 			aByte10049 = buffer.method2214((byte) 34);
 		}
@@ -70,12 +70,12 @@ public class Node_Sub36_Sub2 extends Node_Sub36
 		Node_Sub54.aClass338_7671.method3908(-32478);
 		Class304.aClass215_3834.method2071(7);
 		Class146.aClass32_1812.method357(23415);
-		Class188_Sub2_Sub2.aClass36_9366.method393(b);
+		Class188_Sub2_Sub2.aClass36_9366.method393((byte) 125);
 		Class171.aClass278_2062.method3365(97);
 		CacheNode_Sub6.aClass57_9480.method569(24895);
 		Class32.aClass359_508.method4037(31);
 		Class186.aClass239_2249.method3027((byte) -125);
-		if (b != 125) {
+		if ((byte) 125 != 125) {
 			anIntArray10052 = null;
 		}
 		Node_Sub9_Sub4.aClass180_9727.method1818(false);
@@ -91,7 +91,7 @@ public class Node_Sub36_Sub2 extends Node_Sub36
 		}
 		StandardDrawableModel.method700(-1);
 		Class320_Sub27.method3782(false);
-		Class198.method2004(b + -126);
+		Class198.method2004((byte) 125 + -126);
 		Class296.method3476(-110);
 		Class226.method2113(97);
 		Class305.aClass61_3867.method608(false);

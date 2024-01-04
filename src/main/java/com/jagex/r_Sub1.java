@@ -17,7 +17,7 @@ public class r_Sub1 extends r
 	protected int anInt11052;
 	
 	final boolean method2363(int i, boolean bool, int i_0_) {
-		if (bool != false) {
+		if (false != false) {
 			method2367((byte) 76);
 		}
 		anInt11041++;
@@ -117,7 +117,7 @@ public class r_Sub1 extends r
 	
 	public static void method2366(int i) {
 		aClass302_11047 = null;
-		if (i != -1612655536) {
+		if (-1612655536 != -1612655536) {
 			method2364(-73, -44, -114, null, 119);
 		}
 	}
@@ -451,7 +451,7 @@ public class r_Sub1 extends r
 		}
 		int i_21_ = calendar.get(5);
 		int i_22_ = 1 + calendar.get(2);
-		int i_23_ = 56 / ((i - 39) / 55);
+		int i_23_ = 56 / ((-54 - 39) / 55);
 		int i_24_ = calendar.get(1);
 		int i_25_ = calendar.get(11);
 		int i_26_ = calendar.get(12);

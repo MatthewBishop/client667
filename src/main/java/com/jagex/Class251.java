@@ -43,7 +43,7 @@ public class Class251
 		if ((double) Class20.aFloat329 == 6.0) {
 			return 75;
 		}
-		if (bool != true) {
+		if (true != true) {
 			method3097(null, -110);
 		}
 		if ((double) Class20.aFloat329 == 8.0) {
@@ -205,7 +205,7 @@ public class Class251
 						}
 						if (bool_52_) {
 							entitynode_sub6.method803(false);
-							Class148.method1650(i_12_ + -1, entitynode_sub6);
+							Class148.method1650(1 + -1, entitynode_sub6);
 						}
 					}
 					if (Class320_Sub20.anInt8397 == 0) {
@@ -233,13 +233,13 @@ public class Class251
 						Class44.aGraphicsToolkit668.KA(0, i_51_, CacheNode_Sub15.anInt9589, i_51_ - -i_50_);
 						Class44.aGraphicsToolkit668.ya();
 						Class44.aGraphicsToolkit668.GA(Node_Sub43.anInt7539);
-						Class151.method1671(i_4_, i, i_1_, i_0_, bs, is_6_, is_9_, is, is_10_, is_3_, i_5_, b, i_11_, i_2_, bool, bool_7_, i_8_, 1, false);
+						Class151.method1671(i_4_, i, i_1_, i_0_, bs, is_6_, is_9_, is, is_10_, is_3_, i_5_, b, i_11_, i_2_, bool, true, i_8_, 1, false);
 					}
 					if (i_45_ > 0) {
 						Class44.aGraphicsToolkit668.KA(i_44_, i_48_, i_45_ + i_44_, i_49_ + i_48_);
 						Class44.aGraphicsToolkit668.ya();
 						Class44.aGraphicsToolkit668.GA(Node_Sub43.anInt7539);
-						Class151.method1671(i_4_, i, i_1_, i_0_, bs, is_6_, is_9_, is, is_10_, is_3_, i_5_, b, i_11_, i_2_, bool, bool_7_, i_8_, 1, false);
+						Class151.method1671(i_4_, i, i_1_, i_0_, bs, is_6_, is_9_, is, is_10_, is_3_, i_5_, b, i_11_, i_2_, bool, true, i_8_, 1, false);
 					}
 					Class44.aGraphicsToolkit668.la();
 					Node_Sub38_Sub7.method2805();
@@ -255,7 +255,7 @@ public class Class251
 						Class338.anInt4190 += i_33_;
 						Class259.anInt3300 += i_34_;
 						for (int i_63_ = 0; Class290_Sub11.anInt8181 > i_63_; i_63_++) {
-							int i_64_ = AnimableAnimator.method254(Class259.anInt3300 + i_63_, i_12_ ^ 0x422a, Class290_Sub11.anInt8181) * Class117.anInt1479;
+							int i_64_ = AnimableAnimator.method254(Class259.anInt3300 + i_63_, 1 ^ 0x422a, Class290_Sub11.anInt8181) * Class117.anInt1479;
 							for (int i_65_ = 0; Class117.anInt1479 > i_65_; i_65_++) {
 								int i_66_ = AnimableAnimator.method254(i_65_ + Class338.anInt4190, 16939, Class117.anInt1479) + i_64_;
 								boolean bool_67_ = i_36_ <= i_63_ && i_36_ + i_37_ > i_63_ || i_39_ <= i_63_ && i_41_ + i_39_ > i_63_ && i_65_ >= i_38_ && i_40_ + i_38_ > i_65_;
@@ -298,7 +298,7 @@ public class Class251
 				Class320_Sub10.aDouble8299 = 0.0;
 				Class7.aClass179_157.method1815((byte) 74);
 				Class320_Sub5.method3695(Class7.aClass179_157);
-				Class151.method1671(i_4_, i, i_1_, i_0_, bs, is_6_, is_9_, is, is_10_, is_3_, i_5_, b, i_11_, i_2_, bool, bool_7_, i_8_, 1, false);
+				Class151.method1671(i_4_, i, i_1_, i_0_, bs, is_6_, is_9_, is, is_10_, is_3_, i_5_, b, i_11_, i_2_, bool, true, i_8_, 1, false);
 				Node_Sub38_Sub7.method2805();
 				Class194_Sub1.aBoolean6892 = false;
 				if (Class320_Sub20.anInt8397 == 0) {
@@ -334,7 +334,7 @@ public class Class251
 				Class320_Sub10.anInt8303 = i_19_;
 				Class44.aGraphicsToolkit668.DA(Class118.anInt5404, Class320_Sub23.anInt8433, Class30.anInt491, Class320_Sub10.anInt8303);
 			}
-			Class151.method1671(i_4_, i, i_1_, i_0_, bs, is_6_, is_9_, is, is_10_, is_3_, i_5_, b, i_11_, i_2_, bool, bool_7_, i_8_, Class320_Sub20.anInt8397 != 2 ? 2 : 0, i_12_ == Class320_Sub20.anInt8397);
+			Class151.method1671(i_4_, i, i_1_, i_0_, bs, is_6_, is_9_, is, is_10_, is_3_, i_5_, b, i_11_, i_2_, bool, true, i_8_, Class320_Sub20.anInt8397 != 2 ? 2 : 0, 1 == Class320_Sub20.anInt8397);
 			Class44.aGraphicsToolkit668.la();
 			Class44.aGraphicsToolkit668.DA(i_14_, i_15_, i_16_, i_17_);
 		}
@@ -377,7 +377,7 @@ public class Class251
 		Class262_Sub1.anIntArray7704 = new int[i_75_];
 		ProducingGraphicsBuffer.anIntArray9895 = new int[i_75_];
 		Class320_Sub18.aByteArrayArray8378 = new byte[i_75_][];
-		if (bool == false) {
+		if (false == false) {
 			StandardPlane.anIntArray7980 = new int[i_75_];
 			Class188_Sub1_Sub1.aByteArrayArray9334 = new byte[i_75_][];
 			Class194.aByteArrayArray2373 = null;

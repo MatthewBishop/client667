@@ -17,14 +17,14 @@ public class Class127
 	
 	static final void method1540(int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_) {
 		anInt1640++;
-		if (i != 3) {
+		if (3 != 3) {
 			method1541(103);
 		}
 		Class223[] class223s = Class320_Sub24.aClass223Array8438;
 		for (int i_6_ = 0; i_6_ < class223s.length; i_6_++) {
 			Class223 class223 = class223s[i_6_];
 			if (class223 != null && class223.anInt2654 == 2) {
-				Animable_Sub1.method826(2 * class223.anInt2657, -1, class223.anInt2662, i_0_, i_2_ >> 1, i_1_, class223.anInt2653, class223.anInt2661, i_5_ >> 1);
+				Animable_Sub1.method826(2 * class223.anInt2657, -1, class223.anInt2662, 256, i_2_ >> 1, 256, class223.anInt2653, class223.anInt2661, i_5_ >> 1);
 				if (Class119.anIntArray1516[0] > -1 && Class174.anInt2092 % 20 < 10) {
 					GLSprite glsprite = Class19.aGLSpriteArray312[class223.anInt2659];
 					int i_7_ = -12 + (i_4_ + Class119.anIntArray1516[0]);

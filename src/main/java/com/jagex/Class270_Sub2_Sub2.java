@@ -89,7 +89,7 @@ public class Class270_Sub2_Sub2 extends Class270_Sub2
 				Class162.anIntArrayArray2005[i_5_] = var_d.method11(i, false, i, Class188_Sub1_Sub1.anIntArray9330[i_5_], (byte) 0, 1.0F);
 			aClass169_Sub1_10556 = new Class169_Sub1(aGLToolkit10554, 6407, i, bool_2_, Class162.anIntArrayArray2005);
 		}
-		if (bool != true) {
+		if (true != true) {
 			return null;
 		}
 		return aClass169_Sub1_10556;
@@ -97,7 +97,7 @@ public class Class270_Sub2_Sub2 extends Class270_Sub2
 	
 	public static void method3310(int i) {
 		aHashTable10552 = null;
-		int i_6_ = -67 / ((i - 29) / 38);
+		int i_6_ = -67 / ((-86 - 29) / 38);
 	}
 	
 	Class270_Sub2_Sub2(GLToolkit gltoolkit, int i, int i_7_, int i_8_, int i_9_, int i_10_, int i_11_) {

@@ -122,7 +122,7 @@ public class Node_Sub27 extends Node
 				method2689(true, (byte) 97);
 			}
 		}
-		if (bool != true) {
+		if (true != true) {
 			method2699(51, -119);
 		}
 		method2695(108);
@@ -267,7 +267,7 @@ public class Node_Sub27 extends Node
 	}
 	
 	public static void method2692(byte b) {
-		if (b != 35) {
+		if ((byte) 35 != 35) {
 			method2693(126);
 		}
 		anIntArray7296 = null;
@@ -393,7 +393,7 @@ public class Node_Sub27 extends Node
 		aClass320_Sub24_7317 = new Class320_Sub24(bool_7_ | bool_6_ ? 1 : 0, this);
 		aClass320_Sub26_7269 = new Class320_Sub26(buffer.method2233(255), this);
 		aClass320_Sub16_7316 = new Class320_Sub16(buffer.method2233(255), this);
-		if (bool != false) {
+		if (false != false) {
 			aClass320_Sub5_7297 = null;
 		}
 		aClass320_Sub13_7284 = new Class320_Sub13(buffer.method2233(255), this);
@@ -402,14 +402,14 @@ public class Node_Sub27 extends Node
 		if (i >= 20) {
 			aClass320_Sub25_7276 = new Class320_Sub25(buffer.method2233(255), this);
 		} else {
-			aClass320_Sub25_7276 = new Class320_Sub25(aClass320_Sub25_7295.method3776(bool), this);
+			aClass320_Sub25_7276 = new Class320_Sub25(aClass320_Sub25_7295.method3776(false), this);
 		}
 		aClass320_Sub25_7274 = new Class320_Sub25(buffer.method2233(255), this);
 		aClass320_Sub25_7265 = new Class320_Sub25(buffer.method2233(255), this);
 		if (i >= 21) {
 			aClass320_Sub25_7309 = new Class320_Sub25(buffer.method2233(255), this);
 		} else {
-			aClass320_Sub25_7309 = new Class320_Sub25(aClass320_Sub25_7274.method3776(bool), this);
+			aClass320_Sub25_7309 = new Class320_Sub25(aClass320_Sub25_7274.method3776(false), this);
 		}
 		if (i >= 1) {
 			buffer.method2219(-130546744);
@@ -480,21 +480,21 @@ public class Node_Sub27 extends Node
 	Node_Sub27(Class353 class353, int i) {
 		aClass353_7263 = class353;
 		aClass187_7292 = new Class187(Class240.aSignLink2946.aBoolean4005, Class201.anInt2446, Class263.anInt3336, SignLink.aString3984.toLowerCase().indexOf("arm") != -1);
-		aClass320_Sub29_7270 = new Class320_Sub29(i, this);
+		aClass320_Sub29_7270 = new Class320_Sub29(0, this);
 		method2689(true, (byte) -103);
 	}
 	
 	Node_Sub27(Buffer buffer, Class353 class353, int i) {
 		aClass353_7263 = class353;
 		aClass187_7292 = new Class187(Class240.aSignLink2946.aBoolean4005, Class201.anInt2446, Class263.anInt3336, SignLink.aString3984.indexOf("arm") != -1);
-		aClass320_Sub29_7270 = new Class320_Sub29(i, this);
+		aClass320_Sub29_7270 = new Class320_Sub29(0, this);
 		method2688(buffer, true);
 	}
 	
 	/*synthetic*/ static Class method2700(String string) {
 		Class var_class;
 		try {
-			var_class = Class.forName(string);
+			var_class = Class.forName("com.jagex.Class320");
 		} catch (ClassNotFoundException classnotfoundexception) {
 			throw (NoClassDefFoundError) new NoClassDefFoundError().initCause(classnotfoundexception);
 		}

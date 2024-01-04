@@ -2908,7 +2908,7 @@ public class GLSprite_Sub2_Sub1 extends GLSprite_Sub2
 	
 	GLSprite_Sub2_Sub1(PureJavaToolkit purejavatoolkit, int[] is, int i, int i_1019_, int i_1020_, int i_1021_, boolean bool) {
 		super(purejavatoolkit, i_1020_, i_1021_);
-		if (bool) {
+		if (true) {
 			anIntArray10569 = new int[i_1020_ * i_1021_];
 		} else {
 			anIntArray10569 = is;

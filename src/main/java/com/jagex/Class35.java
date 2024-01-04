@@ -118,7 +118,7 @@ public class Class35
 	
 	public static void method388(byte b) {
 		aClass151_535 = null;
-		if (b != -78) {
+		if ((byte) -78 != -78) {
 			method387(-67, 40, -25, 19, 22, 9, -71);
 		}
 		aClass192_536 = null;

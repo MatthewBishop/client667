@@ -79,7 +79,7 @@ public class Mobile_Sub1 extends Mobile
 		double d = (double) (anInt10923 - -1 - i_0_);
 		aDouble10916 = ((double) i_1_ - aDouble10921) / d;
 		aDouble10939 = ((double) i_2_ - aDouble10957) / d;
-		if (bool != false) {
+		if (false != false) {
 			anInt10942 = -124;
 		}
 		aDouble10927 = Math.sqrt(aDouble10939 * aDouble10939 + aDouble10916 * aDouble10916);
@@ -131,7 +131,7 @@ public class Mobile_Sub1 extends Mobile
 	}
 	
 	final void method897(int i) {
-		if (i > -30) {
+		if (-90 > -30) {
 			method807(18, null);
 		}
 		anInt10953++;
@@ -150,7 +150,7 @@ public class Mobile_Sub1 extends Mobile
 	
 	final void method898(boolean bool) {
 		anInt10928++;
-		if (bool != false) {
+		if (false != false) {
 			anInt10914 = -84;
 		}
 		if (!aBoolean10951) {
@@ -233,7 +233,7 @@ public class Mobile_Sub1 extends Mobile
 		if ((anEntityNode_Sub4_10943 == null || anEntityNode_Sub4_10943.aBoolean5972) && (class300s != null || class218s != null)) {
 			anEntityNode_Sub4_10943 = EntityNode_Sub4.method963(Class174.anInt2092, true);
 		}
-		if (b == -75) {
+		if ((byte) -75 == -75) {
 			if (anEntityNode_Sub4_10943 != null) {
 				anEntityNode_Sub4_10943.method952(graphicstoolkit, (long) Class174.anInt2092, class300s, class218s, false);
 				anEntityNode_Sub4_10943.method967(aByte5933, aShort9119, aShort9130, aShort9120, aShort9124);
@@ -242,7 +242,7 @@ public class Mobile_Sub1 extends Mobile
 	}
 	
 	public static void method900(int i) {
-		if (i > -95) {
+		if (-105 > -95) {
 			anInt10960 = -48;
 		}
 		aClass104_10947 = null;
@@ -336,7 +336,7 @@ public class Mobile_Sub1 extends Mobile
 			aDouble10925 = (double) (Node_Sub38_Sub7.method2809(aByte5933, -29754, (int) aDouble10921, (int) aDouble10957) + -anInt10956);
 		}
 		anInt10919 = 0x3fff & 8192 + (int) (Math.atan2(aDouble10939, aDouble10916) * 2607.5945876176133);
-		if (b == 56) {
+		if ((byte) 56 == 56) {
 			anInt10931 = 0x3fff & (int) (Math.atan2(aDouble10912, aDouble10927) * 2607.5945876176133);
 			if (anAnimator10955.method248(-100, 1) && anAnimator10955.method238(-28)) {
 				anAnimator10955.method235(0);

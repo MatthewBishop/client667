@@ -45,7 +45,7 @@ public class Class295
 	static final void method3470(GraphicsToolkit graphicstoolkit, int i) {
 		anInt3696++;
 		if ((Class315.anInt4035 >= 2 || Class87.aBoolean1185) && Class58.aWidget861 == null) {
-			int i_0_ = 87 / ((-34 - i) / 61);
+			int i_0_ = 87 / ((-34 - 117) / 61);
 			String string;
 			if (!Class87.aBoolean1185 || Class315.anInt4035 >= 2) {
 				if (!Class116.shiftClickEnabled || !Class175.aClass291_2100.method3450(-46, 81) || Class315.anInt4035 <= 2) {
@@ -123,17 +123,17 @@ public class Class295
 	}
 	
 	static final Node_Sub16 method3472(int i, byte b, boolean bool) {
-		if (b != 18) {
+		if ((byte) 18 != 18) {
 			return null;
 		}
 		anInt3698++;
 		long l = (long) (i | (!bool ? 0 : -2147483648));
-		return (Node_Sub16) Class153.aHashTable1947.method1518(b + 3494, l);
+		return (Node_Sub16) Class153.aHashTable1947.method1518((byte) 18 + 3494, l);
 	}
 	
 	public static void method3473(int i) {
 		aPlayer3692 = null;
-		if (i != -2594) {
+		if (-2594 != -2594) {
 			method3471((byte) 4);
 		}
 		aClass343_3695 = null;

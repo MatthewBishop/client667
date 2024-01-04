@@ -13,7 +13,7 @@ public class Class257
 		anInt3242++;
 		Class320_Sub22.anInt8416++;
 		Node_Sub13 node_sub13 = FloatBuffer.method2250(-386, Node_Sub36_Sub1.aClass318_10031, Class218.worldResponseBuffer.anIsaacCipher1571);
-		if (bool != true) {
+		if (true != true) {
 			method3121(106, true, 87);
 		}
 		node_sub13.aPacket7113.method2184(i_0_, (byte) 122);
@@ -41,7 +41,7 @@ public class Class257
 	}
 	
 	public static void method3123(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			anInt3244 = -110;
 		}
 		aClass192_3245 = null;

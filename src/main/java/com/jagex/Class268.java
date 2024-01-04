@@ -111,7 +111,7 @@ public class Class268
 				is[5] = buffer.method2219(-130546744);
 			}
 		}
-		if (b > -124) {
+		if ((byte) -127 > -124) {
 			method3291((byte) 23, null);
 		}
 	}

@@ -10,14 +10,14 @@ public class Node_Sub44 extends Node
 	
 	public static void method2945(int i) {
 		aClass54Array7548 = null;
-		if (i == 31087) {
+		if (31087 == 31087) {
 			aClass151_7549 = null;
 		}
 	}
 	
 	static final int method2946(int i, int i_0_) {
 		anInt7547++;
-		if (i < 82) {
+		if (106 < 82) {
 			aClass54Array7548 = null;
 		}
 		return i_0_ & 0xff;

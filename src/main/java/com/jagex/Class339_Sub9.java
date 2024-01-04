@@ -114,16 +114,16 @@ public class Class339_Sub9 extends Class339
 		aGLToolkit4202.method1457(33984, 1);
 		aGLToolkit4202.method1428(-16777216, (byte) 86);
 		aGLToolkit4202.method1474(-120, 7681, 260);
-		if (i != 256) {
+		if (256 != 256) {
 			aClass50_8747 = null;
 		}
 		aGLToolkit4202.method1472(-97, 0, 770, 34166);
-		aGLToolkit4202.method1457(i ^ 0x85c0, 0);
+		aGLToolkit4202.method1457(256 ^ 0x85c0, 0);
 		OpenGL.glBindProgramARB(34336, aClass50_8747.anInt773);
 		OpenGL.glEnable(34336);
 		aClass25_8752.method309(false);
 		aClass25_8752.method307(1, 4864);
-		aGLToolkit4202.method1457(i ^ 0x85c0, 1);
+		aGLToolkit4202.method1457(256 ^ 0x85c0, 1);
 		OpenGL.glMatrixMode(5890);
 		OpenGL.glLoadIdentity();
 		OpenGL.glMatrixMode(5888);

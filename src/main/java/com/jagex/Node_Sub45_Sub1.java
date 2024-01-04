@@ -24,7 +24,7 @@ public class Node_Sub45_Sub1 extends Node_Sub45
 	}
 	
 	Node_Sub45_Sub1(int i, byte[] bs, int i_0_, int i_1_) {
-		anInt10502 = i;
+		anInt10502 = 22050;
 		aByteArray10504 = bs;
 		anInt10503 = i_0_;
 		anInt10505 = i_1_;

@@ -19,7 +19,7 @@ public class Class232
 	private Class266 aClass266_2782;
 	
 	public static void method2135(int i) {
-		if (i != 5) {
+		if (5 != 5) {
 			aClass318_2772 = null;
 		}
 		aBooleanArray2781 = null;
@@ -42,7 +42,7 @@ public class Class232
 		}
 		Buffer buffer = new Buffer(aCacheNode_Sub16_Sub1_2770.method2385(15));
 		buffer.anInt7002 = 5;
-		int i_0_ = buffer.method2233(i);
+		int i_0_ = buffer.method2233(255);
 		buffer.anInt7002 += 72 * i_0_;
 		byte[] bs = new byte[buffer.aByteArray7019.length - buffer.anInt7002];
 		buffer.method2181(0, bs.length, bs, -19417);
@@ -58,7 +58,7 @@ public class Class232
 			throw new RuntimeException();
 		}
 		byte[] bs_3_ = GLXToolkit.method1399((byte) 125, buffer.aByteArray7019, -bs.length + buffer.anInt7002 - 5, 5);
-		if (i != 255) {
+		if (255 != 255) {
 			aBooleanArray2781 = null;
 		}
 		for (int i_4_ = 0; i_4_ < 64; i_4_++) {
@@ -73,7 +73,7 @@ public class Class232
 	
 	final Class34_Sub1 method2137(Class6 class6, int i, Class6 class6_5_, byte b) {
 		anInt2774++;
-		if (b >= -30) {
+		if ((byte) -49 >= -30) {
 			aBigInteger2779 = null;
 		}
 		return method2138(true, class6, i, class6_5_, 64);
@@ -93,16 +93,16 @@ public class Class232
 		aBuffer2775.anInt7002 = i * 72 - -6;
 		int i_8_ = aBuffer2775.method2186(-59);
 		int i_9_ = aBuffer2775.method2186(-61);
-		byte[] bs = new byte[i_7_];
-		aBuffer2775.method2181(0, 64, bs, i_7_ + -19481);
-		Class34_Sub1 class34_sub1 = new Class34_Sub1(i, class6, class6_6_, aClass266_2782, aClass141_2771, i_8_, bs, i_9_, bool);
+		byte[] bs = new byte[64];
+		aBuffer2775.method2181(0, 64, bs, 64 + -19481);
+		Class34_Sub1 class34_sub1 = new Class34_Sub1(i, class6, class6_6_, aClass266_2782, aClass141_2771, i_8_, bs, i_9_, true);
 		aClass34_Sub1Array2777[i] = class34_sub1;
 		return class34_sub1;
 	}
 	
 	static final int method2139(int i) {
 		anInt2769++;
-		if (i != -1313) {
+		if (-1313 != -1313) {
 			method2141(-113, null);
 		}
 		return Node_Sub38_Sub3.anInt10104++;
@@ -116,7 +116,7 @@ public class Class232
 					aClass34_Sub1Array2777[i_10_].method385(false);
 				}
 			}
-			for (int i_11_ = i; i_11_ < aClass34_Sub1Array2777.length; i_11_++) {
+			for (int i_11_ = 0; i_11_ < aClass34_Sub1Array2777.length; i_11_++) {
 				if (aClass34_Sub1Array2777[i_11_] != null) {
 					aClass34_Sub1Array2777[i_11_].method380(0);
 				}

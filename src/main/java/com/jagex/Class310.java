@@ -51,7 +51,7 @@ public class Class310
 			aBooleanArray3953 = null;
 			aR3942 = null;
 		}
-		if (b != 16) {
+		if ((byte) 16 != 16) {
 			method3587(null, 67);
 		}
 		anInt3927++;
@@ -73,7 +73,7 @@ public class Class310
 	
 	final int method3590(byte b) {
 		anInt3946++;
-		if (b != -112) {
+		if ((byte) -112 != -112) {
 			return -49;
 		}
 		return anInt3947;
@@ -83,13 +83,13 @@ public class Class310
 		anInt3941++;
 		aBoolean3919 = true;
 		method3595(1, i, (byte) -63, false);
-		if (i_4_ != 30994) {
+		if (30994 != 30994) {
 			anInt3933 = -57;
 		}
 	}
 	
 	final int method3592(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			method3597(null, false, false, false, 98);
 		}
 		anInt3929++;
@@ -98,9 +98,9 @@ public class Class310
 	
 	static final byte[] method3593(int i, int i_5_, boolean bool, byte[] bs) {
 		anInt3922++;
-		byte[] bs_6_ = new byte[i_5_];
-		Class311.method3608(bs, i, bs_6_, 0, i_5_);
-		if (bool != true) {
+		byte[] bs_6_ = new byte[32768];
+		Class311.method3608(bs, i, bs_6_, 0, 32768);
+		if (true != true) {
 			method3601(null, null, 104, null, null);
 		}
 		return bs_6_;
@@ -173,7 +173,7 @@ public class Class310
 	}
 	
 	static final Class192[] method3596(byte b) {
-		if (b != -59) {
+		if ((byte) -59 != -59) {
 			return null;
 		}
 		anInt3937++;
@@ -271,7 +271,7 @@ public class Class310
 	final void method3598(Class121 class121, int i) {
 		anInt3934++;
 		aClass121_3930 = class121;
-		if (i != -12) {
+		if (-12 != -12) {
 			aBoolean3932 = true;
 		}
 		aDrawableModel3939 = null;

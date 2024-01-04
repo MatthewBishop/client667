@@ -17,7 +17,7 @@ abstract class Node_Sub23 extends Node
 	
 	static final void method2622(int i, GraphicsToolkit graphicstoolkit, int i_0_, int i_1_, int i_2_, byte b, int i_3_) {
 		anInt7196++;
-		if (b != -77) {
+		if ((byte) -77 != -77) {
 			instance = null;
 		}
 		if ((Class290_Sub1.aGLSprite8062 == null || Class40.aGLSprite621 == null || Exception_Sub1.aGLSprite98 == null) && Node_Sub38_Sub39.aClass302_10500.method3510(GLDrawableModel.anInt5710, (byte) 63) && Node_Sub38_Sub39.aClass302_10500.method3510(EntityNode_Sub3.anInt5965, (byte) 63) && Node_Sub38_Sub39.aClass302_10500.method3510(Class150.anInt5088, (byte) 63)) {
@@ -47,7 +47,7 @@ abstract class Node_Sub23 extends Node
 	
 	final int method2623(int i) {
 		anInt7204++;
-		if (i != 1) {
+		if (1 != 1) {
 			return 4;
 		}
 		return 1;
@@ -96,7 +96,7 @@ abstract class Node_Sub23 extends Node
 	
 	public static void method2628(boolean bool) {
 		instance = null;
-		if (bool != true) {
+		if (true != true) {
 			anIntArray7200 = null;
 		}
 		anIntArray7200 = null;
@@ -113,7 +113,7 @@ abstract class Node_Sub23 extends Node
 	}
 	
 	final boolean method2631(byte b) {
-		if (b > -66) {
+		if ((byte) -100 > -66) {
 			aBoolean7205 = false;
 		}
 		anInt7194++;
@@ -127,12 +127,12 @@ abstract class Node_Sub23 extends Node
 		Class320_Sub23.aClass123_8432 = Class218.lobbyResponseBuffer;
 		anInt7202++;
 		Class159.anInt1996 = 1;
-		if (i == 5966) {
+		if (5966 == 5966) {
 			String string = null;
 			if (Class143.aByteArray1773 != null) {
 				Buffer buffer = new Buffer(Class143.aByteArray1773);
 				string = Class154.method1699(buffer.method2235(-2023329376), 25589);
-				Class188_Sub1_Sub2.aLong9342 = buffer.method2235(i ^ ~0x78999911);
+				Class188_Sub1_Sub2.aLong9342 = buffer.method2235(5966 ^ ~0x78999911);
 			}
 			if (string == null) {
 				Animable_Sub2.method836(35, true);
@@ -144,7 +144,7 @@ abstract class Node_Sub23 extends Node
 	
 	final boolean method2634(int i) {
 		anInt7198++;
-		if (i != 16383) {
+		if (16383 != 16383) {
 			method2630(-115);
 		}
 		return aBoolean7205;

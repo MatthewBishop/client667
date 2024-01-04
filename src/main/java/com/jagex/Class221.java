@@ -10,7 +10,7 @@ public class Class221
 	
 	public static void method2100(byte b) {
 		aClass192_2630 = null;
-		int i = -101 % ((b - 50) / 39);
+		int i = -101 % (((byte) 100 - 50) / 39);
 	}
 	
 	static {

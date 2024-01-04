@@ -17,11 +17,11 @@ public class Class73
 	static int anInt992;
 	
 	final boolean method748(int i, byte b) {
-		if (b < 21) {
+		if ((byte) 123 < 21) {
 			return true;
 		}
 		anInt990++;
-		return aClass339Array982[i].method3922((byte) -73);
+		return aClass339Array982[3].method3922((byte) -73);
 	}
 	
 	static final boolean method749(byte b, int i, int i_0_) {
@@ -33,7 +33,7 @@ public class Class73
 	}
 	
 	final boolean method750(byte b, int i, Class169 class169) {
-		if (b <= 97) {
+		if ((byte) 110 <= 97) {
 			return false;
 		}
 		anInt992++;
@@ -47,7 +47,7 @@ public class Class73
 	final void method751(int i, int i_1_, boolean bool, boolean bool_2_, int i_3_, int i_4_) {
 		anInt985++;
 		bool &= aGLToolkit984.z();
-		if (i >= -72) {
+		if (-107 >= -72) {
 			aClass301_980 = null;
 		}
 		if (!bool && (i_4_ == 4 || i_4_ == 8 || i_4_ == 9)) {

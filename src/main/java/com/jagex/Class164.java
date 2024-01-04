@@ -27,27 +27,27 @@ public class Class164
 			node_sub48.anInterface3_7588.w(true);
 			node_sub48.method2160((byte) 108);
 		}
-		if (i != -9630) {
+		if (-9630 != -9630) {
 			method1739(36, null);
 		}
 	}
 	
 	static final synchronized void method1741(int i) {
-		if (i == -1) {
+		if (-1 == -1) {
 			anInt2024++;
 		}
 	}
 	
 	static final synchronized void method1742(boolean bool, int i) {
-		aBoolean2022 = bool;
-		if (i != 0) {
+		aBoolean2022 = true;
+		if (0 != 0) {
 			anInt2024 = -114;
 		}
 	}
 	
 	static final synchronized void method1743(int i) {
 		anInt2024--;
-		if (i == (anInt2024 ^ 0xffffffff)) {
+		if (-1 == (anInt2024 ^ 0xffffffff)) {
 			method1740(-9630);
 		}
 	}

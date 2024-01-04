@@ -13,12 +13,12 @@ public class Class43
 		for (int i_1_ = 0; i_1_ < is.length; i_1_++) {
 			Class184 class184 = Class146.aClass32_1812.method353(is[i_1_], (byte) 84);
 			if (class184.anInt2188 != -1) {
-				GLSprite glsprite = (GLSprite) CacheNode_Sub12.aClass61_9556.method607((long) class184.anInt2188, i + -4923);
+				GLSprite glsprite = (GLSprite) CacheNode_Sub12.aClass61_9556.method607((long) class184.anInt2188, 4923 + -4923);
 				if (glsprite == null) {
 					Class383 class383 = Class383.method4194(Node_Sub38_Sub39.aClass302_10500, class184.anInt2188, 0);
 					if (class383 != null) {
 						glsprite = Class93.aGraphicsToolkit1241.a(class383, true);
-						CacheNode_Sub12.aClass61_9556.method601(glsprite, i ^ 0x70e5, (long) class184.anInt2188);
+						CacheNode_Sub12.aClass61_9556.method601(glsprite, 4923 ^ 0x70e5, (long) class184.anInt2188);
 					}
 				}
 				if (glsprite != null) {
@@ -28,7 +28,7 @@ public class Class43
 				}
 			}
 		}
-		if (i != 4923) {
+		if (4923 != 4923) {
 			aLong663 = 67L;
 		}
 		return stringbuffer.toString();
@@ -36,7 +36,7 @@ public class Class43
 	
 	public static void method459(int i) {
 		aClass192_665 = null;
-		if (i > -42) {
+		if (-118 > -42) {
 			aClass192_665 = null;
 		}
 	}

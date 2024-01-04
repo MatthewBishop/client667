@@ -13,7 +13,7 @@ public class Class329
 	
 	static final boolean method3833(byte b, int i) {
 		anInt4124++;
-		if (b != -61) {
+		if ((byte) -61 != -61) {
 			method3835(null, true);
 		}
 		if (i != 7 && i != 8 && i != 9 && i != 10) {
@@ -122,7 +122,7 @@ public class Class329
 	}
 	
 	static final String method3835(byte[] bs, boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			return null;
 		}
 		anInt4121++;
@@ -137,7 +137,7 @@ public class Class329
 	static final void method3836(int i, int i_26_, int i_27_, int i_28_, int i_29_, int i_30_, int i_31_) {
 		Node_Sub15_Sub5.anInt9806 = i;
 		Class231.anInt2764 = i_29_;
-		if (i_26_ == 327263118) {
+		if (327263118 == 327263118) {
 			Class320_Sub23.anInt8434 = i_30_;
 			Class339_Sub6.anInt8694 = i_31_;
 			Class375.anInt4657 = i_28_;
@@ -147,7 +147,7 @@ public class Class329
 	}
 	
 	public static void method3837(byte b) {
-		if (b <= 115) {
+		if ((byte) 120 <= 115) {
 			aFloat4117 = 0.03802057F;
 		}
 		aClass256_4122 = null;

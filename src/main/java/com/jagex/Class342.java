@@ -10,7 +10,7 @@ public class Class342
 	
 	public static void method3961(byte b) {
 		aClass163_4236 = null;
-		if (b != 53) {
+		if ((byte) 53 != 53) {
 			aClass259_4233 = null;
 		}
 		aClass259_4233 = null;

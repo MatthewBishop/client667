@@ -16,7 +16,7 @@ public class CacheNode_Sub18 extends CacheNode
 	
 	public static void method2399(int i) {
 		aClass52_9609 = null;
-		if (i == 22035) {
+		if (22035 == 22035) {
 			aClass343ArrayArray9608 = null;
 			aGraphicsToolkit9607 = null;
 			anIntArray9605 = null;

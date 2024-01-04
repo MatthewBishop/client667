@@ -38,7 +38,7 @@ public class Class284
 	}
 	
 	static final void method3392(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			method3390((byte) 2);
 		}
 		anInt3594++;
@@ -90,7 +90,7 @@ public class Class284
 				npc.method860(3, i_13_, bool_15_, i_11_, i_14_, i_10_, -123);
 			}
 			if ((i_3_ & 0x40) != 0) {
-				int i_16_ = packet.method2238(bool);
+				int i_16_ = packet.method2238(true);
 				if (i_16_ > 0) {
 					for (int i_17_ = 0; i_17_ < i_16_; i_17_++) {
 						int i_18_ = -1;
@@ -104,9 +104,9 @@ public class Class284
 								i_20_ = -1;
 							}
 						} else {
-							i_20_ = packet.method2227(bool);
+							i_20_ = packet.method2227(true);
 							i_19_ = packet.method2227(true);
-							i_18_ = packet.method2227(bool);
+							i_18_ = packet.method2227(true);
 							i_21_ = packet.method2227(true);
 						}
 						int i_22_ = packet.method2227(true);
@@ -117,7 +117,7 @@ public class Class284
 			}
 			if ((i_3_ & 0x100) != 0) {
 				int i_24_ = packet.method2224(-602457616);
-				npc.anInt10856 = packet.method2238(bool);
+				npc.anInt10856 = packet.method2238(true);
 				npc.anInt10848 = packet.method2238(true);
 				npc.anInt10855 = i_24_ & 0x7fff;
 				npc.aBoolean10871 = (0x8000 & i_24_) != 0;
@@ -298,7 +298,7 @@ public class Class284
 			}
 			if ((i_3_ & 0x4) != 0) {
 				int i_59_ = packet.method2209((byte) -114);
-				int i_60_ = packet.method2208(bool);
+				int i_60_ = packet.method2208(true);
 				if (i_59_ == 65535) {
 					i_59_ = -1;
 				}

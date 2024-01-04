@@ -17,7 +17,7 @@ public class Class339_Sub5 extends Class339
 	private Class25 aClass25_8692;
 	
 	static final boolean method3935(int i, Packet packet, int i_0_) {
-		if (i_0_ != 28460) {
+		if (28460 != 28460) {
 			method3937((byte) 38, -89, -42);
 		}
 		anInt8681++;

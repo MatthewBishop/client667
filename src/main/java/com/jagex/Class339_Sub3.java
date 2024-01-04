@@ -17,7 +17,7 @@ public class Class339_Sub3 extends Class339
 	
 	static final void method3930(byte[] bs, byte[] bs_0_, int i, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_) {
 		anInt8659++;
-		if (i_4_ > -30) {
+		if (-126 > -30) {
 			anIntArray8665 = null;
 		}
 		int i_7_ = -(i_5_ >> 2);
@@ -132,7 +132,7 @@ public class Class339_Sub3 extends Class339
 	public static void method3931(int i) {
 		anIntArray8665 = null;
 		aClass26_8664 = null;
-		if (i != 0) {
+		if (0 != 0) {
 			anIntArray8665 = null;
 		}
 	}

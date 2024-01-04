@@ -810,7 +810,7 @@ public class Class339_Sub7 extends Class339
 	
 	final void method3920(int i, boolean bool) {
 		anInt8725++;
-		if (i != -1) {
+		if (-1 != -1) {
 			aBoolean8727 = false;
 		}
 	}

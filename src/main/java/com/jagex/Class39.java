@@ -36,19 +36,19 @@ public class Class39
 		if (aHashTable579 == null) {
 			method409(122);
 		}
-		for (Node_Sub42 node_sub42 = (Node_Sub42) aHashTable579.method1518(b ^ 0xde3, Class113.method1153(b ^ 0x5a, string)); node_sub42 != null; node_sub42 = (Node_Sub42) aHashTable579.method1524((byte) 84)) {
+		for (Node_Sub42 node_sub42 = (Node_Sub42) aHashTable579.method1518((byte) 91 ^ 0xde3, Class113.method1153((byte) 91 ^ 0x5a, string)); node_sub42 != null; node_sub42 = (Node_Sub42) aHashTable579.method1524((byte) 84)) {
 			if (node_sub42.aString7522.equals(string)) {
 				return true;
 			}
 		}
-		if (b != 91) {
+		if ((byte) 91 != 91) {
 			return false;
 		}
 		return false;
 	}
 	
 	final void method405(byte b, Buffer buffer) {
-		if (b > 33) {
+		if ((byte) 71 > 33) {
 			anInt590++;
 			for (;;) {
 				int i = buffer.method2233(255);
@@ -61,7 +61,7 @@ public class Class39
 	}
 	
 	final Node_Sub34 method406(int i, int i_0_) {
-		if (i != -4) {
+		if (-4 != -4) {
 			aFloat580 = 1.0632854F;
 		}
 		anInt574++;
@@ -71,7 +71,7 @@ public class Class39
 		if (aHashTable579 == null) {
 			method419(false);
 		}
-		return (Node_Sub34) aHashTable579.method1518(i ^ ~0xdbb, (long) i_0_);
+		return (Node_Sub34) aHashTable579.method1518(-4 ^ ~0xdbb, (long) i_0_);
 	}
 	
 	static final void method407(float f, int i, int i_1_, float f_2_, int i_3_, float[] fs, int i_4_, int i_5_, int i_6_, int i_7_, int i_8_, float f_9_, float[] fs_10_, int i_11_) {
@@ -140,7 +140,7 @@ public class Class39
 		Class107.anInt1362 = i;
 		Class61.aNode_Sub9_Sub1_885 = null;
 		Class17.anInt282 = i_21_;
-		if (bool_22_ != false) {
+		if (false != false) {
 			aClass318_584 = null;
 		}
 		anInt588++;
@@ -151,7 +151,7 @@ public class Class39
 	
 	private final void method409(int i) {
 		try {
-			if (i < 118) {
+			if (122 < 118) {
 				method415(99, null, null, 54);
 			}
 			anInt571++;
@@ -242,12 +242,12 @@ public class Class39
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class126.method1537(runtimeexception, "bt.J(" + i + ')');
+			throw Class126.method1537(runtimeexception, "bt.J(" + 122 + ')');
 		}
 	}
 	
 	final int method410(int i, byte b) {
-		if (b >= -73) {
+		if ((byte) -109 >= -73) {
 			aFloat580 = 0.0019765322F;
 		}
 		anInt578++;
@@ -274,7 +274,7 @@ public class Class39
 	
 	final int method411(int i) {
 		anInt572++;
-		if (i != 0) {
+		if (0 != 0) {
 			method408(96, -82, 126, true, 78, null, false);
 		}
 		return anInt586;
@@ -282,7 +282,7 @@ public class Class39
 	
 	final String method412(int i, int i_29_) {
 		anInt594++;
-		if (i != -3470) {
+		if (-3470 != -3470) {
 			anInt586 = 22;
 		}
 		if (anObject589 == null) {
@@ -308,7 +308,7 @@ public class Class39
 	
 	static final short[] method413(short[] ses, byte b) {
 		anInt573++;
-		if (b != -32) {
+		if ((byte) -32 != -32) {
 			aFloat580 = -0.43263438F;
 		}
 		if (ses == null) {
@@ -321,7 +321,7 @@ public class Class39
 	
 	static final void method414(int i, String string) {
 		anInt575++;
-		if (i != 30482) {
+		if (30482 != 30482) {
 			aClass318_584 = null;
 		}
 		if (Class87.aBoolean1185 && (0x18 & Class200_Sub2.anInt4943) != 0) {
@@ -339,13 +339,13 @@ public class Class39
 					node_sub13.aPacket7113.method2245(-3528, 0);
 					node_sub13.aPacket7113.method2207(21226, Class46.anInt681);
 					Class218.worldResponseBuffer.method1514(127, node_sub13);
-					Class78.method778(0, player.anIntArray10908[0], player.method853((byte) 65), true, player.anIntArray10910[0], 0, -2, i + -30377, player.method853((byte) 81));
+					Class78.method778(0, player.anIntArray10908[0], player.method853((byte) 65), true, player.anIntArray10910[0], 0, -2, 30482 + -30377, player.method853((byte) 81));
 					bool = true;
 					break;
 				}
 			}
 			if (!bool) {
-				Class41.method436(29459, Class22.aClass22_384.method297(i ^ ~0x58e2, Class35.anInt537) + string, 4);
+				Class41.method436(29459, Class22.aClass22_384.method297(30482 ^ ~0x58e2, Class35.anInt537) + string, 4);
 			}
 			if (Class87.aBoolean1185) {
 				Node_Sub38_Sub23.method2863(-19316);
@@ -373,7 +373,7 @@ public class Class39
 		if (aHashTable579 == null) {
 			method419(false);
 		}
-		if (i >= -86) {
+		if (-90 >= -86) {
 			aClass318_584 = null;
 		}
 		if (aHashTable579.method1518(3512, (long) i_36_) == null) {
@@ -443,7 +443,7 @@ public class Class39
 	
 	private final void method419(boolean bool) {
 		try {
-			if (bool == false) {
+			if (false == false) {
 				anInt591++;
 				if (anObject589 instanceof HashTable) {
 					HashTable hashtable = (HashTable) anObject589;
@@ -497,7 +497,7 @@ public class Class39
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class126.method1537(runtimeexception, "bt.P(" + bool + ')');
+			throw Class126.method1537(runtimeexception, "bt.P(" + false + ')');
 		}
 	}
 	

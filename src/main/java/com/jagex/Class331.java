@@ -21,7 +21,7 @@ public class Class331
 		anInt4131++;
 		int[][] is = new int[anIntArray4139.length << 1][4];
 		int i_1_ = 0;
-		if (i_0_ != 2) {
+		if (2 != 2) {
 			anIntArray4134 = null;
 		}
 		for (/**/; anIntArray4139.length > i_1_; i_1_++) {
@@ -39,7 +39,7 @@ public class Class331
 	
 	static final Class129 method3841(int i, int i_2_) {
 		anInt4132++;
-		if (i != 20568) {
+		if (20568 != 20568) {
 			aBoolean4129 = false;
 		}
 		Class129[] class129s = Node_Sub15_Sub13.method2586(-11746);
@@ -54,7 +54,7 @@ public class Class331
 	
 	static final void method3842(int i, int i_4_, int i_5_, int i_6_, int i_7_, byte b) {
 		anInt4136++;
-		if (b != -54) {
+		if ((byte) -54 != -54) {
 			aBoolean4129 = true;
 		}
 		if (i_4_ < Class262_Sub4.anInt7722 || i > za_Sub2.anInt10513 || i_7_ < Class384.anInt4906 || i_6_ > Node_Sub25_Sub1.anInt9936) {
@@ -68,7 +68,7 @@ public class Class331
 		anInt4137++;
 		String string = "tele " + i + "," + (i_9_ >> 6) + "," + (i_8_ >> 6) + "," + (i_9_ & 0x3f) + "," + (i_8_ & 0x3f);
 		System.out.println(string);
-		Class126.method1538(90, true, bool, string);
+		Class126.method1538(90, true, false, string);
 	}
 	
 	Class331(Buffer buffer) {

@@ -58,7 +58,7 @@ public class Class79
 	/*synthetic*/ static Class aClass1094;
 	
 	final void method782(byte b, Buffer buffer) {
-		if (b <= -59) {
+		if ((byte) -111 <= -59) {
 			anInt1088++;
 			for (;;) {
 				int i = buffer.method2233(255);
@@ -73,7 +73,7 @@ public class Class79
 	public static void method783(int i) {
 		anIntArrayArray1070 = null;
 		aWidgetArrayArray1082 = null;
-		if (i != 5621) {
+		if (5621 != 5621) {
 			aBoolean1052 = true;
 		}
 	}
@@ -121,7 +121,7 @@ public class Class79
 		if (node_sub18 == null) {
 			return string;
 		}
-		if (i_1_ != -18740) {
+		if (-18740 != -18740) {
 			anIntArrayArray1070 = null;
 		}
 		return node_sub18.aString7149;
@@ -163,7 +163,7 @@ public class Class79
 	static final void method788(boolean bool) {
 		anInt1061++;
 		try {
-			if (bool != true) {
+			if (true != true) {
 				aWidgetArrayArray1082 = null;
 			}
 			Method method = (aClass1094 == null ? aClass1094 = method792("java.lang.Runtime") : aClass1094).getMethod("availableProcessors", new Class[0]);
@@ -228,7 +228,7 @@ public class Class79
 	
 	private final void method791(byte b, Buffer buffer, int i) {
 		anInt1075++;
-		int i_5_ = 28 % ((-34 - b) / 37);
+		int i_5_ = 28 % ((-34 - (byte) 54) / 37);
 		if (i == 1) {
 			anInt1062 = buffer.method2219(-130546744);
 		} else if (i == 2) {
@@ -365,7 +365,7 @@ public class Class79
 	/*synthetic*/ static Class method792(String string) {
 		Class var_class;
 		try {
-			var_class = Class.forName(string);
+			var_class = Class.forName("java.lang.Runtime");
 		} catch (ClassNotFoundException classnotfoundexception) {
 			throw (NoClassDefFoundError) new NoClassDefFoundError().initCause(classnotfoundexception);
 		}

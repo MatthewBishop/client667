@@ -11,13 +11,13 @@ public class Class15
 	static int anInt227;
 	
 	private final void method217(Buffer buffer, byte b) {
-		if (b != -20) {
+		if ((byte) -20 != -20) {
 			anIntArrayArray224 = null;
 		}
 		aLong223 = buffer.method2235(-2023329376);
 		anInt225++;
-		anInt226 = buffer.method2186(b + -53);
-		for (int i = buffer.method2233(255); i != 0; i = buffer.method2233(b + 275)) {
+		anInt226 = buffer.method2186((byte) -20 + -53);
+		for (int i = buffer.method2233(255); i != 0; i = buffer.method2233((byte) -20 + 275)) {
 			if (Class79.aBoolean1052) {
 				System.out.println("t:" + i);
 			}
@@ -71,7 +71,7 @@ public class Class15
 	
 	public static void method218(boolean bool) {
 		anIntArrayArray224 = null;
-		if (bool != true) {
+		if (true != true) {
 			method220(8, -114, null, null, 55, null, 49, -98, null, 70, -7, 108, -36);
 		}
 	}

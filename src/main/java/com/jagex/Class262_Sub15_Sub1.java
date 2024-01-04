@@ -14,7 +14,7 @@ public class Class262_Sub15_Sub1 extends Class262_Sub15
 	static Class357 aClass357_10524;
 	
 	public static void method3191(int i) {
-		if (i == 256) {
+		if (256 == 256) {
 			aClass68_10521 = null;
 			anIntArray10523 = null;
 			aClass357_10524 = null;

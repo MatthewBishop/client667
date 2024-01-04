@@ -38,10 +38,10 @@ public class Class135
 				Class169_Sub1.aBoolean8783 = true;
 			}
 		}
-		if (i != 23386) {
+		if (23386 != 23386) {
 			method1587(-126, null);
 		}
-		if (!bool) {
+		if (!false) {
 			return bs;
 		}
 		return Class93.method1046(bs, 7348);

@@ -16,7 +16,7 @@ public class Node_Sub30 extends Node
 	static Node_Sub13[] aNode_Sub13Array7362 = new Node_Sub13[300];
 	
 	static final int method2720(int i, int i_0_, int i_1_) {
-		int i_2_ = -34 % ((24 - i_1_) / 50);
+		int i_2_ = -34 % ((24 - -123) / 50);
 		anInt7359++;
 		if (i_0_ == 1 || i_0_ == 3) {
 			return Node_Sub38_Sub5.anIntArray10131[i & 0x3];
@@ -25,7 +25,7 @@ public class Node_Sub30 extends Node
 	}
 	
 	static final int method2721(boolean bool, boolean bool_3_) {
-		if (bool_3_ != false) {
+		if (false != false) {
 			aNode_Sub13Array7362 = null;
 		}
 		anInt7353++;
@@ -53,7 +53,7 @@ public class Node_Sub30 extends Node
 		if (!client.method113(widget).method2748((byte) -96, i) && widget.anObjectArray4770 == null) {
 			return -1;
 		}
-		if (i_6_ != 7113) {
+		if (7113 != 7113) {
 			return 116;
 		}
 		if (widget.anIntArray4863 == null || i >= widget.anIntArray4863.length) {
@@ -68,7 +68,7 @@ public class Node_Sub30 extends Node
 	
 	public static void method2724(byte b) {
 		aClass318_7360 = null;
-		int i = -43 / ((b - -33) / 56);
+		int i = -43 / (((byte) 66 - -33) / 56);
 		aNode_Sub13Array7362 = null;
 	}
 	

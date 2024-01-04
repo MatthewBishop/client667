@@ -20,7 +20,7 @@ public class Class236
 	static int anInt2902;
 	
 	public static void method3011(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			anInt2902 = -1;
 		}
 		aClass94_2898 = null;
@@ -29,7 +29,7 @@ public class Class236
 	
 	static final boolean method3012(int i, int i_0_, int i_1_) {
 		anInt2887++;
-		if (i_0_ != 0) {
+		if (0 != 0) {
 			return false;
 		}
 		if (!CacheNode_Sub3.method2296(i_1_, (byte) 109, i) && !Class110.method1135(i, i_1_, false)) {
@@ -57,7 +57,7 @@ public class Class236
 		} else {
 			aBoolean2896 = false;
 		}
-		int i_3_ = -113 / ((-32 - i_2_) / 58);
+		int i_3_ = -113 / ((-32 - 108) / 58);
 	}
 	
 	final void method3014(Buffer buffer, int i) {
@@ -68,7 +68,7 @@ public class Class236
 			}
 			method3013(i_4_, buffer, 108);
 		}
-		if (i != -1) {
+		if (-1 != -1) {
 			aBoolean2892 = true;
 		}
 		anInt2895++;
@@ -120,7 +120,7 @@ public class Class236
 			}
 		}
 		anInt2897 = (int) (256.0 * d_11_);
-		if (i_5_ >= 126) {
+		if (127 >= 126) {
 			anInt2901 = (int) (d_12_ * 256.0);
 			d_10_ /= 6.0;
 			if (!(d_12_ > 0.5)) {

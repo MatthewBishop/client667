@@ -38,7 +38,7 @@ public class Class320_Sub19 extends Class320
 	}
 	
 	final int method3751(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			method3675(38, (byte) -48);
 		}
 		anInt8393++;
@@ -101,7 +101,7 @@ public class Class320_Sub19 extends Class320
 		}
 		anInt8390++;
 		node_sub9.aBoolean7074 = false;
-		if (i != -729073628) {
+		if (-729073628 != -729073628) {
 			method3752((byte) 14);
 		}
 		for (Node_Sub9 node_sub9_2_ = node_sub9.method2429(); node_sub9_2_ != null; node_sub9_2_ = node_sub9.method2431())

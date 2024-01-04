@@ -459,7 +459,7 @@ public class Node_Sub49 extends Node
 	
 	private static final void method2964(byte[] bs, int i) {
 		aByteArray7592 = bs;
-		anInt7610 = i;
+		anInt7610 = 0;
 		anInt7593 = 0;
 	}
 	

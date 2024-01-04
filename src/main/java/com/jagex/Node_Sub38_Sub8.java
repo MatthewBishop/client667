@@ -19,7 +19,7 @@ class Node_Sub38_Sub8 extends Node_Sub38
 	
 	static final boolean method2812(int i, boolean bool, int i_0_) {
 		anInt10167++;
-		if (bool != false) {
+		if (false != false) {
 			aFloatArray10162 = null;
 		}
 		boolean bool_1_ = (0x37 & i_0_) != 0 ? Class303.method3538(i_0_, -128, i) : Node_Sub41.method2932(-125, i, i_0_);
@@ -69,7 +69,7 @@ class Node_Sub38_Sub8 extends Node_Sub38
 		Class290_Sub4.anIntArray8102 = null;
 		Class225.aClass336_2678 = null;
 		Class72.anInt973 = -1;
-		Class320_Sub20.anInt8397 = i;
+		Class320_Sub20.anInt8397 = -1;
 		Class44.aGraphicsToolkit668 = null;
 		Class368.anInt4550 = -1;
 		Class352.anInterface6Array4332 = null;
@@ -113,7 +113,7 @@ class Node_Sub38_Sub8 extends Node_Sub38
 	}
 	
 	static final void method2815(boolean bool, int i) {
-		if (bool == false) {
+		if (false == false) {
 			anInt10161++;
 			CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(3, 1, (long) i);
 			cachenode_sub2.method2291((byte) 121);
@@ -127,7 +127,7 @@ class Node_Sub38_Sub8 extends Node_Sub38
 	}
 	
 	public static void method2816(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			aFloatArray10162 = null;
 		}
 		aFloatArray10162 = null;

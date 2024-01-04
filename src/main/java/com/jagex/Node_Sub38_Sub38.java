@@ -20,11 +20,11 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 	}
 	
 	static final Class169_Sub2_Sub1 method2913(int i, boolean bool, int i_0_, int i_1_, GLToolkit gltoolkit) {
-		if (bool != false) {
+		if (false != false) {
 			return null;
 		}
 		anInt10487++;
-		if (gltoolkit.aBoolean6652 || Class371.method4094(i_0_, false) && Class371.method4094(i, bool)) {
+		if (gltoolkit.aBoolean6652 || Class371.method4094(i_0_, false) && Class371.method4094(i, false)) {
 			return new Class169_Sub2_Sub1(gltoolkit, 3553, i_1_, i_0_, i);
 		}
 		if (!gltoolkit.aBoolean6649) {
@@ -44,7 +44,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 			Class124.method1525(53);
 		}
 		Class110 class110 = Class252.aClass110_3189;
-		if (i == -15103) {
+		if (-15103 == -15103) {
 			int i_2_ = Class194_Sub3.method1977(1);
 			if (Class252.aClass110_3189 == class110) {
 				Node_Sub15_Sub12.aString9867 = Class252.aClass110_3189.aClass22_1379.method297(-12273, Class35.anInt537);
@@ -58,7 +58,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 				Class243.aClass340_3069 = null;
 				Class48.method478(3, (byte) 127);
 			} else {
-				Node_Sub15_Sub12.aString9867 = class110.aClass22_1389.method297(i ^ 0x150e, Class35.anInt537);
+				Node_Sub15_Sub12.aString9867 = class110.aClass22_1389.method297(-15103 ^ 0x150e, Class35.anInt537);
 				if (Class252.aClass110_3189.aBoolean1387) {
 					Node_Sub15_Sub12.aString9867 += class110.anInt1382 + "%";
 				}
@@ -73,7 +73,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 					for (int i_3_ = Class51_Sub1.anInt9064 - -1; Class235_Sub1.anInterface16Array8978.length > i_3_; i_3_++) {
 						if (Class235_Sub1.anInterface16Array8978[i_3_].method58(27285) >= 100 && Class51_Sub1.anInt9064 == -1 + i_3_ && Class151.anInt1843 >= 1 && Class243.aClass340_3069.method3956(-79)) {
 							try {
-								Class235_Sub1.anInterface16Array8978[i_3_].method62(i ^ ~0x3d6d);
+								Class235_Sub1.anInterface16Array8978[i_3_].method62(-15103 ^ ~0x3d6d);
 							} catch (Exception exception) {
 								Class235_Sub1.anInterface16Array8978 = null;
 								break;
@@ -138,31 +138,31 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 				Node_Sub7.method2421((byte) 98);
 			}
 			for (int i_5_ = 0; i_5_ < 100; i_5_++) {
-				if (!Class194_Sub3_Sub1.method1980(Class218.worldResponseBuffer, i ^ 0x28fe)) {
+				if (!Class194_Sub3_Sub1.method1980(Class218.worldResponseBuffer, 14590 ^ 0x28fe)) {
 					break;
 				}
 			}
 			if (Class151.anInt1843 == 11) {
-				while (Widget.method4152(i ^ 0x6f753f36)) {
-					Node_Sub13 node_sub13 = FloatBuffer.method2250(i ^ ~0x397f, Class338.aClass318_4184, Class218.worldResponseBuffer.anIsaacCipher1571);
+				while (Widget.method4152(14590 ^ 0x6f753f36)) {
+					Node_Sub13 node_sub13 = FloatBuffer.method2250(14590 ^ ~0x397f, Class338.aClass318_4184, Class218.worldResponseBuffer.anIsaacCipher1571);
 					node_sub13.aPacket7113.method2226(0, false);
 					int i_6_ = node_sub13.aPacket7113.anInt7002;
 					StandardSprite.method1213(-2, node_sub13.aPacket7113);
 					node_sub13.aPacket7113.method2217(node_sub13.aPacket7113.anInt7002 + -i_6_, (byte) -128);
-					Class218.worldResponseBuffer.method1514(i + -14463, node_sub13);
+					Class218.worldResponseBuffer.method1514(14590 + -14463, node_sub13);
 				}
 				if (Class117.aNode_Sub7_1472 != null) {
 					if (Class117.aNode_Sub7_1472.anInt7060 != -1) {
 						Node_Sub13 node_sub13 = FloatBuffer.method2250(-386, Class34.aClass318_528, Class218.worldResponseBuffer.anIsaacCipher1571);
-						node_sub13.aPacket7113.method2210(Class117.aNode_Sub7_1472.anInt7060, i ^ ~0x38de);
-						Class218.worldResponseBuffer.method1514(i ^ 0x3880, node_sub13);
+						node_sub13.aPacket7113.method2210(Class117.aNode_Sub7_1472.anInt7060, 14590 ^ ~0x38de);
+						Class218.worldResponseBuffer.method1514(14590 ^ 0x3880, node_sub13);
 						Class117.aNode_Sub7_1472 = null;
 						Class359.aLong4466 = 30000L + Class313.method3650(false);
 					}
 				} else if (Class359.aLong4466 <= Class313.method3650(false)) {
 					Class117.aNode_Sub7_1472 = Animable.aClass193_5936.method1959((byte) -60, Class181.aClass197_2155.aString2422);
 				}
-				Node_Sub5 node_sub5 = (Node_Sub5) GraphicsToolkit.aClass312_1545.method3613(i + 50690);
+				Node_Sub5 node_sub5 = (Node_Sub5) GraphicsToolkit.aClass312_1545.method3613(14590 + 50690);
 				if (node_sub5 != null || Class38.aLong562 < Class313.method3650(false) + -2000L) {
 					Node_Sub13 node_sub13 = null;
 					int i_7_ = 0;
@@ -171,7 +171,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 							break;
 						}
 						node_sub5_8_.method2160((byte) 50);
-						int i_9_ = node_sub5_8_.method2272(i + -14585);
+						int i_9_ = node_sub5_8_.method2272(14590 + -14585);
 						if (i_9_ < -1) {
 							i_9_ = -1;
 						} else if (i_9_ > 65534) {
@@ -188,7 +188,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 						if (Class99.anInt1283 != i_10_ || Class340.anInt4217 != i_9_) {
 							if (node_sub13 == null) {
 								Class57.anInt842++;
-								node_sub13 = FloatBuffer.method2250(i + -14976, Class277_Sub1.aClass318_8050, Class218.worldResponseBuffer.anIsaacCipher1571);
+								node_sub13 = FloatBuffer.method2250(14590 + -14976, Class277_Sub1.aClass318_8050, Class218.worldResponseBuffer.anIsaacCipher1571);
 								node_sub13.aPacket7113.method2226(0, false);
 								i_7_ = node_sub13.aPacket7113.anInt7002;
 							}
@@ -202,7 +202,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 									node_sub13.aPacket7113.method2226(128 - -i_13_, false);
 									i_11_ += 128;
 									i_12_ += 128;
-									node_sub13.aPacket7113.method2210(i_12_ + (i_11_ << 8), i ^ ~0x3896);
+									node_sub13.aPacket7113.method2210(i_12_ + (i_11_ << 8), 14590 ^ ~0x3896);
 								} else if (i_13_ >= 32) {
 									node_sub13.aPacket7113.method2210(57344 - -i_13_, -100);
 									if (i_10_ == 1 || i_9_ == -1) {
@@ -272,11 +272,11 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 						if (l > 65535) {
 							l = 65535L;
 						}
-						Class339_Sub4.aLong8671 = interface21.method76(i + -45690);
+						Class339_Sub4.aLong8671 = interface21.method76(14590 + -45690);
 						node_sub13.aPacket7113.method2226(interface21.method75(-29764), false);
 						node_sub13.aPacket7113.method2210((int) l, -113);
 					}
-					Class218.worldResponseBuffer.method1514(i ^ 0x3881, node_sub13);
+					Class218.worldResponseBuffer.method1514(14590 ^ 0x3881, node_sub13);
 				}
 				if (Widget.anInt4725 > 0) {
 					Widget.anInt4725--;
@@ -299,10 +299,10 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 				}
 				if (!Class269.aBoolean3472) {
 					Class243.anInt3071++;
-					Node_Sub13 node_sub13 = FloatBuffer.method2250(i ^ ~0x397f, Animable_Sub3_Sub1.aClass318_11004, Class218.worldResponseBuffer.anIsaacCipher1571);
+					Node_Sub13 node_sub13 = FloatBuffer.method2250(14590 ^ ~0x397f, Animable_Sub3_Sub1.aClass318_11004, Class218.worldResponseBuffer.anIsaacCipher1571);
 					node_sub13.aPacket7113.method2226(0, false);
 					int i_19_ = node_sub13.aPacket7113.anInt7002;
-					Buffer buffer = Class213.aNode_Sub27_2512.method2696(i ^ 0x156f);
+					Buffer buffer = Class213.aNode_Sub27_2512.method2696(14590 ^ 0x156f);
 					node_sub13.aPacket7113.method2223(buffer.anInt7002, (byte) 4, buffer.aByteArray7019, 0);
 					node_sub13.aPacket7113.method2217(-i_19_ + node_sub13.aPacket7113.anInt7002, (byte) -128);
 					Class218.worldResponseBuffer.method1514(127, node_sub13);
@@ -335,7 +335,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 						Class262_Sub13.method3182(false);
 					} else {
 						if (aa.anInt101 != 0) {
-							if (aa.anInt101 == 1 && Class191.method1944(Class200_Sub2.anInt4935, i ^ 0x38b7)) {
+							if (aa.anInt101 == 1 && Class191.method1944(Class200_Sub2.anInt4935, 14590 ^ 0x38b7)) {
 								Class144.method1628(0);
 								aa.anInt101 = 2;
 							}
@@ -354,7 +354,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 										if (class262.anInt3323 > i_20_) {
 											break;
 										}
-										class262.method3148(i + -14708);
+										class262.method3148(14590 + -14708);
 										if (aa.anInt101 != 3) {
 											break;
 										}
@@ -379,7 +379,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 							Class318.method3668(true);
 							Node_Sub36_Sub1.aBoolean10030 = true;
 						}
-						for (int i_22_ = Class24.aClass275_442.method3334(-114, true); i_22_ != -1; i_22_ = Class24.aClass275_442.method3334(i ^ ~0x3891, false)) {
+						for (int i_22_ = Class24.aClass275_442.method3334(-114, true); i_22_ != -1; i_22_ = Class24.aClass275_442.method3334(14590 ^ ~0x3891, false)) {
 							Class188_Sub2_Sub1.method1907(i_22_, (byte) 108);
 							Class75.anIntArray1005[Node_Sub30.method2723(Class341.anInt4231++, 31)] = i_22_;
 						}
@@ -402,7 +402,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 														widget.anAnimator4755.method249(true, cachenode_sub2.anInt9434);
 													}
 													widget.anInt4773 = cachenode_sub2.anInt9434;
-													CacheNode_Sub9.method2321(i ^ ~0x38fe, widget);
+													CacheNode_Sub9.method2321(14590 ^ ~0x38fe, widget);
 												}
 											} else if (i_23_ != 6) {
 												if (i_23_ != 7) {
@@ -412,7 +412,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 															if (widget.anInt4718 != cachenode_sub2.anInt9434 || cachenode_sub2.anInt9432 != widget.anInt4831) {
 																widget.anInt4831 = cachenode_sub2.anInt9432;
 																widget.anInt4718 = cachenode_sub2.anInt9434;
-																CacheNode_Sub9.method2321(i ^ ~0x38fe, widget);
+																CacheNode_Sub9.method2321(14590 ^ ~0x38fe, widget);
 															}
 														} else if (i_23_ == 10) {
 															Widget widget = Class76.method771((byte) 107, (int) l);
@@ -420,7 +420,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 																widget.anInt4681 = cachenode_sub2.anInt9434;
 																widget.anInt4811 = cachenode_sub2.anInt9432;
 																widget.anInt4682 = cachenode_sub2.anInt9429;
-																CacheNode_Sub9.method2321(i + -14591, widget);
+																CacheNode_Sub9.method2321(14590 + -14591, widget);
 															}
 														} else if (i_23_ != 11) {
 															if (i_23_ == 12) {
@@ -482,7 +482,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 															widget.anInt4762 = widget.anInt4816 = cachenode_sub2.anInt9432;
 															widget.anInt4679 = widget.anInt4850 = cachenode_sub2.anInt9434;
 															widget.aByte4720 = (byte) 0;
-															CacheNode_Sub9.method2321(i + -14591, widget);
+															CacheNode_Sub9.method2321(14590 + -14591, widget);
 														}
 													} else {
 														Widget widget = Class76.method771((byte) 107, (int) l);
@@ -497,7 +497,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 																	widget.anInt4787 = 32 * widget.anInt4787 / widget.anInt4693;
 																}
 															}
-															CacheNode_Sub9.method2321(i ^ ~0x38fe, widget);
+															CacheNode_Sub9.method2321(14590 ^ ~0x38fe, widget);
 														}
 													}
 												} else {
@@ -536,7 +536,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 										Widget widget = Class76.method771((byte) 107, (int) l);
 										if (!cachenode_sub2.aString9428.equals(widget.aString4790)) {
 											widget.aString4790 = cachenode_sub2.aString9428;
-											CacheNode_Sub9.method2321(i ^ ~0x38fe, widget);
+											CacheNode_Sub9.method2321(14590 ^ ~0x38fe, widget);
 										}
 									}
 								} else {
@@ -575,9 +575,9 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 						Class345.anInt4270++;
 						if (FileOnDisk.aBoolean1319) {
 							Class314.anInt4016++;
-							Node_Sub13 node_sub13 = FloatBuffer.method2250(i ^ ~0x397f, Class69.aClass318_941, Class218.worldResponseBuffer.anIsaacCipher1571);
+							Node_Sub13 node_sub13 = FloatBuffer.method2250(14590 ^ ~0x397f, Class69.aClass318_941, Class218.worldResponseBuffer.anIsaacCipher1571);
 							node_sub13.aPacket7113.method2184(Class326.anInt4098 | (CacheNode_Sub16_Sub2.anInt11087 << 28 | Class269.anInt3473 << 14), (byte) -8);
-							Class218.worldResponseBuffer.method1514(i + -14464, node_sub13);
+							Class218.worldResponseBuffer.method1514(14590 + -14464, node_sub13);
 							FileOnDisk.aBoolean1319 = false;
 						}
 						for (;;) {
@@ -595,7 +595,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 							Class305.method3556(node_sub37);
 						}
 						for (;;) {
-							Node_Sub37 node_sub37 = (Node_Sub37) Node_Sub5.aClass312_7028.method3619(i ^ ~0x38b7);
+							Node_Sub37 node_sub37 = (Node_Sub37) Node_Sub5.aClass312_7028.method3619(14590 ^ ~0x38b7);
 							if (node_sub37 == null) {
 								break;
 							}
@@ -628,7 +628,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 						if (Class58.aWidget861 != null) {
 							Class277_Sub1.method3357(true);
 						}
-						if (Class339_Sub7.anInt8729 > 0 && Class175.aClass291_2100.method3450(i ^ 0x38a0, 82) && Class175.aClass291_2100.method3450(-71, 81) && Class339_Sub8.anInt8739 != 0) {
+						if (Class339_Sub7.anInt8729 > 0 && Class175.aClass291_2100.method3450(14590 ^ 0x38a0, 82) && Class175.aClass291_2100.method3450(-71, 81) && Class339_Sub8.anInt8739 != 0) {
 							int i_38_ = -Class339_Sub8.anInt8739 + Class295.aPlayer3692.aByte5933;
 							if (i_38_ >= 0) {
 								if (i_38_ > 3) {
@@ -648,7 +648,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 						for (EntityNode_Sub3_Sub1 entitynode_sub3_sub1 = (EntityNode_Sub3_Sub1) Class97.aClass103_1277.method1113((byte) 100); entitynode_sub3_sub1 != null; entitynode_sub3_sub1 = (EntityNode_Sub3_Sub1) Class97.aClass103_1277.method1108(73)) {
 							if (Class313.method3650(false) / 1000L + -5L > (long) entitynode_sub3_sub1.anInt9162) {
 								if (entitynode_sub3_sub1.aShort9164 > 0) {
-									Class28.method331(entitynode_sub3_sub1.aString9156 + Class22.aClass22_382.method297(i ^ ~0x170e, Class35.anInt537), "", -37, 0, "", "", 5);
+									Class28.method331(entitynode_sub3_sub1.aString9156 + Class22.aClass22_382.method297(14590 ^ ~0x170e, Class35.anInt537), "", -37, 0, "", "", 5);
 								}
 								if (entitynode_sub3_sub1.aShort9164 == 0) {
 									Class28.method331(entitynode_sub3_sub1.aString9156 + Class22.aClass22_383.method297(-12273, Class35.anInt537), "", 99, 0, "", "", 5);
@@ -656,7 +656,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 								entitynode_sub3_sub1.method803(false);
 							}
 						}
-						if (i != 14590) {
+						if (14590 != 14590) {
 							anInt10490 = -107;
 						}
 						Class209.anInt2492++;
@@ -717,7 +717,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 						}
 						if (Class218.worldResponseBuffer.anInt1579 > 50) {
 							Class365.anInt4524++;
-							Node_Sub13 node_sub13 = FloatBuffer.method2250(i + -14976, Class224.aClass318_2671, Class218.worldResponseBuffer.anIsaacCipher1571);
+							Node_Sub13 node_sub13 = FloatBuffer.method2250(14590 + -14976, Class224.aClass318_2671, Class218.worldResponseBuffer.anIsaacCipher1571);
 							Class218.worldResponseBuffer.method1514(126, node_sub13);
 						}
 						if (Animable_Sub1_Sub2.aBoolean10649) {

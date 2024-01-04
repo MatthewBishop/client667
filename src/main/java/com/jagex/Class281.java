@@ -25,17 +25,17 @@ public class Class281
 	
 	final void method3380(int i, boolean bool) {
 		anInt3574++;
-		if (bool != true) {
+		if (true != true) {
 			method3379((byte) 46);
 		}
 		synchronized (aClass61_3576) {
-			aClass61_3576.method598(i, -11819);
+			aClass61_3576.method598(5, -11819);
 		}
 	}
 	
 	public static void method3381(int i) {
 		aClass192_3575 = null;
-		int i_0_ = -26 % ((i - -33) / 39);
+		int i_0_ = -26 % ((21 - -33) / 39);
 		anIntArray3579 = null;
 	}
 	
@@ -43,7 +43,7 @@ public class Class281
 		synchronized (aClass61_3576) {
 			aClass61_3576.method602((byte) -123);
 		}
-		if (i != 1) {
+		if (1 != 1) {
 			anIntArray3579 = null;
 		}
 		anInt3577++;

@@ -74,7 +74,7 @@ public class client extends GameStub
 	}
 	
 	public static void method105(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			method105(false);
 		}
 		aClass192_5485 = null;
@@ -368,7 +368,7 @@ public class client extends GameStub
 		Class218.worldResponseBuffer.method1513(-28176);
 		Class218.lobbyResponseBuffer.method1513(-28176);
 		Class290_Sub4.method3430(true);
-		int i_23_ = 98 / ((i - -42) / 48);
+		int i_23_ = 98 / ((96 - -42) / 48);
 		Class267.aClass266_3449.method3235(false);
 		Class320_Sub1.aClass141_8207.method1613(-110);
 		if (Animable.aClass193_5936 != null) {
@@ -389,7 +389,7 @@ public class client extends GameStub
 	
 	private final void method108(int i) {
 		anInt5465++;
-		int i_25_ = 88 / ((16 - i) / 62);
+		int i_25_ = 88 / ((16 - -67) / 62);
 		if (GLToolkit.anInt6509 < Class267.aClass266_3449.anInt3394) {
 			Class181.aClass197_2155.method1997(17418);
 			Class262_Sub13.anInt7800 = 5 * (-50 + 50 * Class267.aClass266_3449.anInt3394);
@@ -525,7 +525,7 @@ public class client extends GameStub
 		CacheNode_Sub4.method2305(-1, true, -1, null);
 		Node_Sub34.method2741(false);
 		Class345.anInt4270++;
-		for (int i_30_ = i; Node_Sub32.anInt7380 > i_30_; i_30_++) {
+		for (int i_30_ = 0; Node_Sub32.anInt7380 > i_30_; i_30_++) {
 			Npc npc = Class314.aNode_Sub41Array4017[i_30_].aNpc7518;
 			if (npc != null) {
 				byte b = npc.aNpcDefinition11122.aByte2816;
@@ -564,9 +564,9 @@ public class client extends GameStub
 						}
 					}
 					Node_Sub20.method2614(true, npc, true);
-					int i_38_ = Class59.method586(i ^ ~0x8000, npc);
+					int i_38_ = Class59.method586(0 ^ ~0x8000, npc);
 					Class76.method769(npc, true);
-					Class352.method4009(Class275.anInt5412, i_38_, Class320_Sub23.anInt8431, i ^ 0xffffffff, npc);
+					Class352.method4009(Class275.anInt5412, i_38_, Class320_Sub23.anInt8431, 0 ^ 0xffffffff, npc);
 					Class372.method4103(65, npc, Class275.anInt5412);
 					Class34.method370(npc, (byte) 28);
 				}
@@ -574,9 +574,9 @@ public class client extends GameStub
 		}
 		if ((Class151.anInt1843 == 3 || Class151.anInt1843 == 9 || Class151.anInt1843 == 7) && (!Class132.method1561(-1) || Class151.anInt1843 == 9 && Class339_Sub2.anInt8653 == 42) && Class4.anInt124 == 0) {
 			if (Class320_Sub22.anInt8415 != 2) {
-				Class309.method3586(i ^ 0x69);
+				Class309.method3586(0 ^ 0x69);
 			} else {
-				Class314.method3652(i + 70);
+				Class314.method3652(0 + 70);
 			}
 			if (Class98.anInt5061 >> 9 < 14 || Class98.anInt5061 >> 9 >= -14 + Node_Sub54.anInt7675 || Node_Sub10.anInt7079 >> 9 < 14 || Node_Sub10.anInt7079 >> 9 >= -14 + Class377_Sub1.anInt8774) {
 				CacheNode_Sub3.method2292(8);
@@ -643,7 +643,7 @@ public class client extends GameStub
 					Class28.method331(entitynode_sub3_sub1.aString9156 + Class22.aClass22_382.method297(-12273, Class35.anInt537), "", 123, 0, "", "", 5);
 				}
 				if (entitynode_sub3_sub1.aShort9164 == 0) {
-					Class28.method331(entitynode_sub3_sub1.aString9156 + Class22.aClass22_383.method297(-12273, Class35.anInt537), "", i + 101, 0, "", "", 5);
+					Class28.method331(entitynode_sub3_sub1.aString9156 + Class22.aClass22_383.method297(-12273, Class35.anInt537), "", 0 + 101, 0, "", "", 5);
 				}
 				entitynode_sub3_sub1.method803(false);
 			}
@@ -1251,7 +1251,7 @@ public class client extends GameStub
 		Node_Sub36_Sub3.method2763((byte) 76);
 		Node_Sub36_Sub4.method2765(true);
 		Node_Sub36_Sub2.method2760(0);
-		int i = 125 % ((55 - b) / 54);
+		int i = 125 % ((55 - (byte) -57) / 54);
 		Node_Sub15.method2555((byte) -70);
 		Node_Sub15_Sub2.method2562(66);
 		Node_Sub15_Sub7.method2574(-256);
@@ -1334,7 +1334,7 @@ public class client extends GameStub
 	
 	static final void method115(Widget[] widgets, int i, int i_42_) {
 		int i_43_ = 0;
-		if (i != 5204) {
+		if (5204 != 5204) {
 			method107();
 		}
 		for (/**/; widgets.length > i_43_; i_43_++) {
@@ -1591,7 +1591,7 @@ public class client extends GameStub
 		Class267.aClass266_3449.anInt3394++;
 		Class290_Sub2.anInt8069 = 0;
 		anInt5483++;
-		if (bool != false) {
+		if (false != false) {
 			aClass192_5485 = null;
 		}
 	}
@@ -1606,17 +1606,17 @@ public class client extends GameStub
 					try {
 						method120(71);
 					} catch (Throwable throwable) {
-						ClanChat.method507(throwable, throwable.getMessage() + " (Recovered) " + method100(10), i ^ 0x5b88);
+						ClanChat.method507(throwable, throwable.getMessage() + " (Recovered) " + method100(10), -23548 ^ 0x5b88);
 						Node_Sub12.aBoolean5456 = true;
 						Class22.method300(0, true, false);
 					}
 				}
-				if (i == -23548) {
+				if (-23548 == -23548) {
 					break;
 				}
 				method111(-23);
 			} catch (RuntimeException runtimeexception) {
-				throw Class126.method1537(runtimeexception, "com.jagex.client.P(" + i + ')');
+				throw Class126.method1537(runtimeexception, "com.jagex.client.P(" + -23548 + ')');
 			}
 			break;
 		} while (false);
@@ -1789,7 +1789,7 @@ public class client extends GameStub
 				Class240.aSignLink2946.aFileOnDisk3979 = null;
 				Class240.aSignLink2946.aFileOnDisk3994 = null;
 			}
-			int i_57_ = -20 / ((26 - i) / 38);
+			int i_57_ = -20 / ((26 - 85) / 38);
 		} catch (java.io.IOException ioexception) {
 			Class3.aSeekableFile5156 = null;
 			Class194_Sub2.aClass6_6899 = null;
@@ -2534,7 +2534,7 @@ public class client extends GameStub
 		} catch (Throwable throwable) {
 			/* empty */
 		}
-		if (i != 10) {
+		if (10 != 10) {
 			anInt5481 = 16;
 		}
 		return string;
@@ -2679,7 +2679,7 @@ public class client extends GameStub
 	final void method102(int i) {
 		try {
 			anInt5474++;
-			if (i < 85) {
+			if (92 < 85) {
 				init();
 			}
 			if (Class213.aNode_Sub27_2512.aClass320_Sub29_7270.method3791(false) == 2) {
@@ -2694,14 +2694,14 @@ public class client extends GameStub
 				method118((byte) -108);
 			}
 		} catch (RuntimeException runtimeexception) {
-			throw Class126.method1537(runtimeexception, "com.jagex.client.Q(" + i + ')');
+			throw Class126.method1537(runtimeexception, "com.jagex.client.Q(" + 92 + ')');
 		}
 	}
 	
 	/*synthetic*/ static Class method123(String string) {
 		Class var_class;
 		try {
-			var_class = Class.forName(string);
+			var_class = Class.forName("com.jagex.client");
 		} catch (ClassNotFoundException classnotfoundexception) {
 			throw (NoClassDefFoundError) new NoClassDefFoundError().initCause(classnotfoundexception);
 		}

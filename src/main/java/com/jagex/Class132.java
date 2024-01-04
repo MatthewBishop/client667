@@ -46,13 +46,13 @@ public class Class132
 		aClass52_1673 = null;
 		aThread1677 = null;
 		anIntArray1682 = null;
-		if (i != 27307) {
+		if (27307 != 27307) {
 			aThread1677 = null;
 		}
 	}
 	
 	static final void method1563(int i) {
-		if (i < 32) {
+		if (108 < 32) {
 			method1560((byte) -33, null);
 		}
 		anInt1675++;
@@ -82,7 +82,7 @@ public class Class132
 			} while (false);
 			return 0;
 		} while (false);
-		if (i != 12447) {
+		if (12447 != 12447) {
 			aClass52_1673 = null;
 		}
 		return 0;
@@ -93,7 +93,7 @@ public class Class132
 		int i_2_ = Class178.anInt2120;
 		int[] is = Class66_Sub1.anIntArray8987;
 		boolean bool = false;
-		if (i_1_ != -28537) {
+		if (-28537 != -28537) {
 			method1561(78);
 		}
 		for (int i_3_ = 0; i_3_ < i_2_; i_3_++) {
@@ -119,7 +119,7 @@ public class Class132
 				}
 				if (class318 != null) {
 					Class188_Sub1.anInt6852++;
-					Node_Sub13 node_sub13 = FloatBuffer.method2250(i_1_ ^ 0x6ef9, class318, Class218.worldResponseBuffer.anIsaacCipher1571);
+					Node_Sub13 node_sub13 = FloatBuffer.method2250(-28537 ^ 0x6ef9, class318, Class218.worldResponseBuffer.anIsaacCipher1571);
 					node_sub13.aPacket7113.method2226(0, false);
 					node_sub13.aPacket7113.method2210(is[i_3_], -105);
 					Class218.worldResponseBuffer.method1514(127, node_sub13);
@@ -129,7 +129,7 @@ public class Class132
 			}
 		}
 		if (!bool) {
-			Class41.method436(i_1_ ^ ~0x1c6b, Class22.aClass22_384.method297(-12273, Class35.anInt537) + string, 4);
+			Class41.method436(-28537 ^ ~0x1c6b, Class22.aClass22_384.method297(-12273, Class35.anInt537) + string, 4);
 		}
 	}
 }

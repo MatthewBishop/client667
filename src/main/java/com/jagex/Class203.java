@@ -8,7 +8,7 @@ public class Class203
 	
 	static final void method2028(int i, int i_0_) {
 		r var_r = null;
-		for (int i_1_ = i; i_1_ < i_0_; i_1_++) {
+		for (int i_1_ = 1; i_1_ < i_0_; i_1_++) {
 			Plane plane = Node_Sub38_Sub37.aPlaneArray10466[i_1_];
 			if (plane != null) {
 				for (int i_2_ = 0; i_2_ < Node_Sub50.anInt7623; i_2_++) {
@@ -37,6 +37,6 @@ public class Class203
 	public static void method2029(int i) {
 		RS2Loader.loginModulus = null;
 		anIntArray2450 = null;
-		int i_12_ = -120 / ((-61 - i) / 51);
+		int i_12_ = -120 / ((-61 - -127) / 51);
 	}
 }

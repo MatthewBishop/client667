@@ -60,7 +60,7 @@ public class Class320_Sub9 extends Class320
 		for (Node_Sub47 node_sub47 = (Node_Sub47) Class290_Sub6.aClass312_8122.method3613(65280); node_sub47 != null; node_sub47 = (Node_Sub47) Class290_Sub6.aClass312_8122.method3620(16776960))
 			Class338.method3913(i, node_sub47, i_4_, i_3_, (byte) 54, i_2_);
 		anInt8289++;
-		if (b < -123) {
+		if ((byte) -127 < -123) {
 			for (Node_Sub47 node_sub47 = (Node_Sub47) Class200_Sub2.aClass312_4942.method3613(65280); node_sub47 != null; node_sub47 = (Node_Sub47) Class200_Sub2.aClass312_4942.method3620(16776960)) {
 				int i_5_ = 1;
 				Class259 class259 = node_sub47.aNpc7583.method868((byte) -125);
@@ -177,7 +177,7 @@ public class Class320_Sub9 extends Class320
 	
 	final int method3715(boolean bool) {
 		anInt8287++;
-		if (bool != false) {
+		if (false != false) {
 			method3676(false, -66);
 		}
 		return anInt4064;
@@ -220,7 +220,7 @@ public class Class320_Sub9 extends Class320
 		Class153.anIntArray1948 = new int[16];
 		Class230.aClass42_5208 = class42;
 		Node_Sub38_Sub6.aClass302_10138 = class302_16_;
-		if (i != 311508264) {
+		if (311508264 != 311508264) {
 			anInt8295 = -128;
 		}
 		for (int i_17_ = 0; i_17_ < 16; i_17_++)

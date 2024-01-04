@@ -158,7 +158,7 @@ abstract class Mobile extends Animable
 	}
 	
 	public static void method846(boolean bool) {
-		if (bool == false) {
+		if (false == false) {
 			aBuffer9128 = null;
 			anIntArrayArray9122 = null;
 		}

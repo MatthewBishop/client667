@@ -33,7 +33,7 @@ public class Node_Sub10 extends Node
 	static final void method2537(int i, boolean bool) {
 		anInt7097++;
 		int i_0_ = Class174.anInt2092 - Node_Sub15_Sub4.anInt9801;
-		if (bool == false) {
+		if (false == false) {
 			if (i_0_ >= 100) {
 				Class367.anInt4541 = Class368.anInt4551 = -1;
 				Class320_Sub22.anInt8415 = 1;
@@ -66,11 +66,11 @@ public class Node_Sub10 extends Node
 	
 	public static void method2538(byte b) {
 		aString7081 = null;
-		int i = -92 % ((-23 - b) / 51);
+		int i = -92 % ((-23 - (byte) -95) / 51);
 	}
 	
 	static final void method2539(Class302 class302, int i) {
-		if (i >= -127) {
+		if (-128 >= -127) {
 			aString7081 = null;
 		}
 		anInt7086++;

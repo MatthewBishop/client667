@@ -15,7 +15,7 @@ public class Class69
 	
 	public static void method735(byte b) {
 		aClass312_940 = null;
-		if (b == -52) {
+		if ((byte) -52 == -52) {
 			aClass318_941 = null;
 			aClass192_935 = null;
 		}
@@ -24,12 +24,12 @@ public class Class69
 	static final void method736(int i) {
 		Class213.aNode_Sub27_2512.method2690(45, 1, Class213.aNode_Sub27_2512.aClass320_Sub19_7277);
 		anInt936++;
-		Class213.aNode_Sub27_2512.method2690(i + -32053, 1, Class213.aNode_Sub27_2512.aClass320_Sub19_7301);
+		Class213.aNode_Sub27_2512.method2690(32159 + -32053, 1, Class213.aNode_Sub27_2512.aClass320_Sub19_7301);
 		Class213.aNode_Sub27_2512.method2690(29, 2, Class213.aNode_Sub27_2512.aClass320_Sub4_7302);
 		Class213.aNode_Sub27_2512.method2690(127, 2, Class213.aNode_Sub27_2512.aClass320_Sub4_7304);
-		Class213.aNode_Sub27_2512.method2690(i ^ 0x7db0, 1, Class213.aNode_Sub27_2512.aClass320_Sub6_7267);
+		Class213.aNode_Sub27_2512.method2690(32159 ^ 0x7db0, 1, Class213.aNode_Sub27_2512.aClass320_Sub6_7267);
 		Class213.aNode_Sub27_2512.method2690(68, 1, Class213.aNode_Sub27_2512.aClass320_Sub23_7290);
-		if (i == 32159) {
+		if (32159 == 32159) {
 			Class213.aNode_Sub27_2512.method2690(118, 1, Class213.aNode_Sub27_2512.aClass320_Sub27_7266);
 			Class213.aNode_Sub27_2512.method2690(95, 1, Class213.aNode_Sub27_2512.aClass320_Sub8_7280);
 			Class213.aNode_Sub27_2512.method2690(26, 1, Class213.aNode_Sub27_2512.aClass320_Sub7_7308);
@@ -46,7 +46,7 @@ public class Class69
 			Class213.aNode_Sub27_2512.method2690(54, 1, Class213.aNode_Sub27_2512.aClass320_Sub2_7272);
 			Class204.method2030((byte) 125);
 			Class213.aNode_Sub27_2512.method2690(82, 1, Class213.aNode_Sub27_2512.aClass320_Sub18_7303);
-			Class213.aNode_Sub27_2512.method2690(i + -32066, 3, Class213.aNode_Sub27_2512.aClass320_Sub15_7273);
+			Class213.aNode_Sub27_2512.method2690(32159 + -32066, 3, Class213.aNode_Sub27_2512.aClass320_Sub15_7273);
 			Class320_Sub12.method3728(0);
 			Class120.method1228(-99);
 			Class152.aBoolean1942 = true;

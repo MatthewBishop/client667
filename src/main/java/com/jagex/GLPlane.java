@@ -70,7 +70,7 @@ public class GLPlane extends Plane
 		anInt7921++;
 		int[] is = anIntArrayArrayArray7929[i][i_3_];
 		int[] is_4_ = anIntArrayArrayArray7909[i][i_3_];
-		if (b <= -29) {
+		if ((byte) -120 <= -29) {
 			int i_5_ = is.length;
 			if (i_5_ > aGLToolkit7926.anIntArray6747.length) {
 				aGLToolkit7926.anIntArray6747 = new int[i_5_];
@@ -572,7 +572,7 @@ public class GLPlane extends Plane
 	}
 	
 	GLPlane(GLToolkit gltoolkit, int i, int i_126_, int i_127_, int i_128_, int[][] is, int[][] is_129_, int i_130_) {
-		super(i_127_, i_128_, i_130_, is);
+		super(i_127_, i_128_, 512, is);
 		aGLToolkit7926 = gltoolkit;
 		aByteArrayArray7951 = new byte[i_127_ + 1][i_128_ + 1];
 		aNode_Sub33ArrayArrayArray7936 = new Node_Sub33[i_127_][i_128_][];
@@ -592,9 +592,9 @@ public class GLPlane extends Plane
 			for (int i_132_ = 1; anInt3408 > i_132_; i_132_++) {
 				int i_133_ = is_129_[i_132_ + 1][i_131_] + -is_129_[i_132_ + -1][i_131_];
 				int i_134_ = -is_129_[i_132_][i_131_ - 1] + is_129_[i_132_][i_131_ - -1];
-				float f = (float) (1.0 / Math.sqrt((double) (i_134_ * i_134_ + (i_130_ * (4 * i_130_) + i_133_ * i_133_))));
+				float f = (float) (1.0 / Math.sqrt((double) (i_134_ * i_134_ + (512 * (4 * 512) + i_133_ * i_133_))));
 				aFloatArrayArray7946[i_132_][i_131_] = (float) i_133_ * f;
-				aFloatArrayArray7947[i_132_][i_131_] = (float) (-i_130_ * 2) * f;
+				aFloatArrayArray7947[i_132_][i_131_] = (float) (-512 * 2) * f;
 				aFloatArrayArray7957[i_132_][i_131_] = f * (float) i_134_;
 			}
 		}
@@ -817,7 +817,7 @@ public class GLPlane extends Plane
 			}
 			i_198_++;
 		}
-		U(i, i_175_, is_190_, is_196_, is_191_, is_197_, is_192_, is_193_, is_194_, is_195_, i_186_, i_187_, i_188_, bool);
+		U(i, i_175_, is_190_, is_196_, is_191_, is_197_, is_192_, is_193_, is_194_, is_195_, i_186_, i_187_, i_188_, false);
 	}
 	
 	public static void method3263(byte b) {
@@ -836,7 +836,7 @@ public class GLPlane extends Plane
 		if (c == 230) {
 			return 'e';
 		}
-		if (bool != true) {
+		if (true != true) {
 			anIntArray7918 = null;
 		}
 		if (c == 223) {

@@ -47,7 +47,7 @@ public class Node_Sub38_Sub8_Sub1 extends Node_Sub38_Sub8
 		anInt11097++;
 		if (string != null) {
 			String string_8_ = Node_Sub25_Sub3.method2671(-13472, string);
-			if (i >= 2 && string_8_ != null) {
+			if (27 >= 2 && string_8_ != null) {
 				for (int i_9_ = 0; i_9_ < Node_Sub38_Sub14.anInt10242; i_9_++) {
 					String string_10_ = Class262_Sub12.aStringArray7793[i_9_];
 					String string_11_ = Node_Sub25_Sub3.method2671(-13472, string_10_);

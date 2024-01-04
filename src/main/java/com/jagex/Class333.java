@@ -16,7 +16,7 @@ public class Class333
 		if (anInterface15_Impl1_4147 != null) {
 			anInterface15_Impl1_4147.method38(false);
 		}
-		if (b > 30) {
+		if ((byte) 77 > 30) {
 			anInt4154++;
 			aBoolean4150 = false;
 		}

@@ -19,7 +19,7 @@ public class Class293
 		if (i == 5) {
 			anInt3682 = buffer.method2219(-130546744);
 		}
-		int i_1_ = 53 / ((71 - b) / 37);
+		int i_1_ = 53 / ((71 - (byte) 22) / 37);
 	}
 	
 	final void method3463(Buffer buffer, byte b) {
@@ -31,7 +31,7 @@ public class Class293
 			}
 			method3462((byte) 22, buffer, i);
 		}
-		if (b != -114) {
+		if ((byte) -114 != -114) {
 			method3461(null, null, -80);
 		}
 	}

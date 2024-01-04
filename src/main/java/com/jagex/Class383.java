@@ -13,7 +13,7 @@ public class Class383
 	protected byte[] aByteArray4905;
 	
 	static final Class383[] method4187(Class302 class302, int i, int i_0_) {
-		byte[] bs = class302.method3524(false, i_0_, i);
+		byte[] bs = class302.method3524(false, 0, i);
 		if (bs == null) {
 			return null;
 		}

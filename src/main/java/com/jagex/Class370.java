@@ -10,7 +10,7 @@ public class Class370
 	static int anInt4571;
 	
 	public static void method4088(int i) {
-		if (i == 16) {
+		if (16 == 16) {
 			anIntArray4567 = null;
 		}
 	}
@@ -68,7 +68,7 @@ public class Class370
 	}
 	
 	static final void method4090(boolean bool, int i, int i_10_) {
-		if (i_10_ == 0) {
+		if (0 == 0) {
 			anInt4569++;
 			Node_Sub16 node_sub16 = Class295.method3472(i, (byte) 18, bool);
 			if (node_sub16 != null) {
@@ -82,7 +82,7 @@ public class Class370
 		if (!string.equals("")) {
 			anInt4566++;
 			Class123 class123 = Class262_Sub23.method3213((byte) -100);
-			if (i != 16) {
+			if (16 != 16) {
 				aBoolean4570 = true;
 			}
 			Node_Sub13 node_sub13 = FloatBuffer.method2250(-386, Node_Sub18.aClass318_7151, class123.anIsaacCipher1571);

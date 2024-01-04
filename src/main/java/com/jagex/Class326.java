@@ -36,7 +36,7 @@ public class Class326
 	
 	final void method3816(boolean bool, int i, byte b) {
 		anInt4095++;
-		int i_0_ = -46 / ((61 - b) / 47);
+		int i_0_ = -46 / ((61 - (byte) 114) / 47);
 		int i_1_;
 	while_242_:
 		do {
@@ -91,7 +91,7 @@ public class Class326
 	static final int method3817(boolean bool, long l) {
 		Node_Sub43.method2941(6, l);
 		anInt4103++;
-		if (bool != true) {
+		if (true != true) {
 			method3815(-116);
 		}
 		return Class141.aCalendar1756.get(1);
@@ -100,7 +100,7 @@ public class Class326
 	static final String method3818(long l, byte b, int i) {
 		anInt4101++;
 		Node_Sub43.method2941(6, l);
-		if (b != 73) {
+		if ((byte) 73 != 73) {
 			method3815(49);
 		}
 		int i_4_ = Class141.aCalendar1756.get(5);
@@ -128,7 +128,7 @@ public class Class326
 		Class186.aClass112_2256.method1146(5, 500);
 		Class366.aClass279_4526.method3369(5, -759);
 		EntityNode_Sub3_Sub1.aClass86_9166.method1003(250, 5);
-		if (i <= -73) {
+		if (-92 <= -73) {
 			Class18.aClass37_306.method396(0, 5);
 			Class16.aClass101_228.method1094(127, 5);
 			IOException_Sub1.aClass128_85.method1551(75, 5);
@@ -160,7 +160,7 @@ public class Class326
 	}
 	
 	private final void method3821(GraphicsToolkit graphicstoolkit, int i, int i_10_, int i_11_, int i_12_, int i_13_, int i_14_) {
-		aNode_Sub29_4100 = graphicstoolkit.a(i_11_, i_10_, i, i_13_, i_12_, (float) i_14_);
+		aNode_Sub29_4100 = graphicstoolkit.a(i_11_, i_10_, i, i_13_, i_12_, (float) 1);
 		anInt4099++;
 	}
 	
@@ -361,9 +361,9 @@ public class Class326
 		aBoolean4090 = (0x10 & anInt4092) != 0;
 		aBoolean4102 = (anInt4092 & 0x8) != 0;
 		anInt4092 = 0x7 & anInt4092;
-		int i_16_ = buffer.method2219(-130546744) << i;
-		int i_17_ = buffer.method2219(-130546744) << i;
-		int i_18_ = buffer.method2219(-130546744) << i;
+		int i_16_ = buffer.method2219(-130546744) << 2;
+		int i_17_ = buffer.method2219(-130546744) << 2;
+		int i_18_ = buffer.method2219(-130546744) << 2;
 		int i_19_ = buffer.method2233(255);
 		int i_20_ = 2 * i_19_ + 1;
 		aShortArray4105 = new short[i_20_];

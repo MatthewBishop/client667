@@ -50,7 +50,7 @@ public class BufferedConnection implements Runnable
 	}
 	
 	final void method423(int i) throws IOException {
-		if (i != -1650936088) {
+		if (-1650936088 != -1650936088) {
 			anInt603 = 99;
 		}
 		anInt607++;
@@ -67,7 +67,7 @@ public class BufferedConnection implements Runnable
 		if (aBoolean601) {
 			return 0;
 		}
-		if (i != -1) {
+		if (-1 != -1) {
 			return 7;
 		}
 		return anInputStream604.read();
@@ -152,7 +152,7 @@ public class BufferedConnection implements Runnable
 	final void method426(byte b) {
 		anInt595++;
 		if (!aBoolean601) {
-			if (b >= -61) {
+			if ((byte) -120 >= -61) {
 				aClass346_615 = null;
 			}
 			anInputStream604 = new InputStream_Sub2();
@@ -168,7 +168,7 @@ public class BufferedConnection implements Runnable
 	static final void method427(Class48 class48, int i, Animable animable, byte b) {
 		anInt600++;
 		if (Class23.anInt434 < 50 && (class48 != null && class48.anIntArrayArray700 != null && i < class48.anIntArrayArray700.length && class48.anIntArrayArray700[i] != null)) {
-			if (b != -63) {
+			if ((byte) -63 != -63) {
 				aClass346_615 = null;
 			}
 			int i_14_ = class48.anIntArrayArray700[i][0];
@@ -205,7 +205,7 @@ public class BufferedConnection implements Runnable
 	
 	final int method428(int i) throws IOException {
 		anInt599++;
-		if (i != 0) {
+		if (0 != 0) {
 			method422(-76, 68, 102, -65, -42, 100, 0, 89, -69, -43, 81, -50);
 		}
 		if (aBoolean601) {
@@ -216,7 +216,7 @@ public class BufferedConnection implements Runnable
 	
 	final void method429(int i, int i_24_, byte[] bs, byte b) throws IOException {
 		anInt598++;
-		if (b == 78 && !aBoolean601) {
+		if ((byte) 78 == 78 && !aBoolean601) {
 			if (aBoolean614) {
 				aBoolean614 = false;
 				throw new IOException();
@@ -226,7 +226,7 @@ public class BufferedConnection implements Runnable
 			}
 			synchronized (this) {
 				for (int i_25_ = 0; i_24_ > i_25_; i_25_++) {
-					aByteArray602[anInt609] = bs[i + i_25_];
+					aByteArray602[anInt609] = bs[0 + i_25_];
 					anInt609 = (anInt609 + 1) % anInt603;
 					if ((anInt603 + anInt608 - 100) % anInt603 == anInt609) {
 						throw new IOException();
@@ -249,14 +249,14 @@ public class BufferedConnection implements Runnable
 		aSocket605.setTcpNoDelay(true);
 		anInputStream604 = aSocket605.getInputStream();
 		anOutputStream612 = aSocket605.getOutputStream();
-		anInt603 = i;
+		anInt603 = 25000;
 	}
 	
 	final void method430(int i) {
 		anInt616++;
 		if (!aBoolean601) {
 			synchronized (this) {
-				if (i != 20692) {
+				if (20692 != 20692) {
 					run();
 				}
 				aBoolean601 = true;

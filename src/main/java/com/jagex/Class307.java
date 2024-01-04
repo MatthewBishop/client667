@@ -14,7 +14,7 @@ public class Class307
 	static int[] anIntArray3905 = new int[25];
 	
 	public static void method3579(int i) {
-		int i_0_ = -13 % ((i - 43) / 46);
+		int i_0_ = -13 % ((96 - 43) / 46);
 		anIntArray3905 = null;
 		aNode_Sub9_Sub1_3902 = null;
 		anIntArray3896 = null;
@@ -28,11 +28,11 @@ public class Class307
 	
 	final Interface13_Impl1 method3581(byte b, int i) {
 		anInt3904++;
-		Object object = aClass61_3899.method607((long) i, b + 45);
+		Object object = aClass61_3899.method607((long) i, (byte) -45 + 45);
 		if (object != null) {
 			return (Interface13_Impl1) object;
 		}
-		if (!aD3897.method7(b ^ ~0x2680, i)) {
+		if (!aD3897.method7((byte) -45 ^ ~0x2680, i)) {
 			return null;
 		}
 		Class91 class91 = aD3897.method10(i, -8217);
@@ -52,7 +52,7 @@ public class Class307
 		}
 		interface13_impl1.method51(class91.aBoolean1212, class91.aBoolean1210, false);
 		aClass61_3899.method601(interface13_impl1, 25566, (long) i);
-		if (b != -45) {
+		if ((byte) -45 != -45) {
 			return null;
 		}
 		return interface13_impl1;
@@ -61,7 +61,7 @@ public class Class307
 	final void method3582(byte b) {
 		anInt3900++;
 		aClass61_3899.method598(5, -11819);
-		if (b != -3) {
+		if ((byte) -3 != -3) {
 			method3580((byte) -12);
 		}
 	}

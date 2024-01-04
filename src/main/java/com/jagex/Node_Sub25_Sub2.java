@@ -28,7 +28,7 @@ public class Node_Sub25_Sub2 extends Node_Sub25
 	
 	static final boolean method2665(int i, byte b) {
 		anInt9955++;
-		if (b != -41) {
+		if ((byte) -41 != -41) {
 			return false;
 		}
 		if (i != 7 && i != 9) {
@@ -39,7 +39,7 @@ public class Node_Sub25_Sub2 extends Node_Sub25
 	
 	public static void method2666(int i) {
 		aClass54Array9959 = null;
-		if (i != -2) {
+		if (-2 != -2) {
 			aClass192_9958 = null;
 		}
 		aClass124_9957 = null;

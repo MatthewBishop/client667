@@ -51,14 +51,14 @@ public class Class46
 		anInt676++;
 		CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(3, 8, (long) i);
 		cachenode_sub2.method2291((byte) 121);
-		if (bool != false) {
+		if (false != false) {
 			method467(57, false);
 		}
 	}
 	
 	static final boolean method469(int i) {
 		anInt671++;
-		if (i != 255) {
+		if (255 != 255) {
 			method467(21, false);
 		}
 		if (Class315.anInt4035 <= 0) {
@@ -79,7 +79,7 @@ public class Class46
 	static final void method471(int i) {
 		anInt677++;
 		int i_3_ = Class213.aNode_Sub27_2512.aClass320_Sub4_7304.method3694(false);
-		if ((i_3_ ^ 0xffffffff) != i) {
+		if ((i_3_ ^ 0xffffffff) != -1) {
 			if (i_3_ == 1) {
 				Class98.method1082((byte) 0, 2395);
 				Class295.method3469(512, (byte) -128);

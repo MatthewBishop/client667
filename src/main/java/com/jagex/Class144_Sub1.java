@@ -45,7 +45,7 @@ public class Class144_Sub1 extends Class144
 	}
 	
 	public static void method1632(int i) {
-		if (i != 256) {
+		if (256 != 256) {
 			anInt6806 = 37;
 		}
 		aClass232_6802 = null;
@@ -54,7 +54,7 @@ public class Class144_Sub1 extends Class144
 	final void method1626(int i, int i_18_, int i_19_) {
 		anInt6811++;
 		int i_20_ = anInt6807 * i >> 12;
-		if (i_19_ == 3) {
+		if (3 == 3) {
 			int i_21_ = i * anInt6810 >> 12;
 			int i_22_ = anInt6805 * i_18_ >> 12;
 			int i_23_ = i_18_ * anInt6801 >> 12;

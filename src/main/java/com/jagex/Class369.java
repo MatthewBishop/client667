@@ -19,14 +19,14 @@ public class Class369
 	
 	final void method4082(byte b) {
 		Class262_Sub19.method3200(anInt4552, -1, Class248.anIntArray3145[anInt4556], anInt4560, anInt4557, anInt4556, anInt4563, false);
-		if (b >= -77) {
+		if ((byte) -115 >= -77) {
 			anInt4556 = -125;
 		}
 		anInt4558++;
 	}
 	
 	static final int method4083(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			aBoolean4555 = false;
 		}
 		anInt4565++;
@@ -51,7 +51,7 @@ public class Class369
 	
 	static final boolean method4085(int i, int i_0_, int i_1_, int i_2_, int i_3_) {
 		anInt4561++;
-		if ((0x2 & CacheNode_Sub11.aByteArrayArrayArray9550[i_0_][i_2_][i]) != 0) {
+		if ((0x2 & CacheNode_Sub11.aByteArrayArrayArray9550[0][i_2_][i]) != 0) {
 			return true;
 		}
 		if ((CacheNode_Sub11.aByteArrayArrayArray9550[i_3_][i_2_][i] & 0x10) != 0) {
@@ -91,7 +91,7 @@ public class Class369
 		anInt4552 = i_8_;
 		anInt4557 = i_10_;
 		anInt4560 = i;
-		if (b != 46) {
+		if ((byte) 46 != 46) {
 			aBoolean4555 = true;
 		}
 	}

@@ -13,7 +13,7 @@ public class Class75
 	
 	static final void method763(int i, int i_0_, int i_1_, int i_2_, int i_3_) {
 		anInt1008++;
-		if (i_2_ == -1) {
+		if (-1 == -1) {
 			if (Class262_Sub4.anInt7722 <= i_1_ + -i_3_ && i_1_ - -i_3_ <= za_Sub2.anInt10513 && -i_3_ + i >= Class384.anInt4906 && Node_Sub25_Sub1.anInt9936 >= i - -i_3_) {
 				Class143.method1623(i_1_, i_0_, -957563775, i_3_, i);
 			} else {
@@ -24,7 +24,7 @@ public class Class75
 	
 	public static void method764(int i) {
 		aClass302_1003 = null;
-		if (i != 0) {
+		if (0 != 0) {
 			method765(-40, (byte) 39, 114, null);
 		}
 		aClass299_1007 = null;
@@ -69,7 +69,7 @@ public class Class75
 	
 	final int method766(int i, int i_10_) {
 		anInt1004++;
-		int i_11_ = i + (anIntArray1001.length >> 1);
+		int i_11_ = -1 + (anIntArray1001.length >> 1);
 		int i_12_ = i_11_ & i_10_;
 		for (;;) {
 			int i_13_ = anIntArray1001[i_12_ - -i_12_ - -1];

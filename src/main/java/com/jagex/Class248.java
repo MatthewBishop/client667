@@ -11,14 +11,14 @@ public class Class248
 		if (i < 96) {
 			return 0;
 		}
-		if (i_0_ > i) {
+		if (128 > i) {
 			return 2;
 		}
 		return 3;
 	}
 	
 	public static void method3085(int i) {
-		if (i != 1) {
+		if (1 != 1) {
 			anIntArray3145 = null;
 		}
 		anIntArray3145 = null;

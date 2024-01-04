@@ -13,11 +13,11 @@ public class CacheNode_Sub12 extends CacheNode
 		anInt9557++;
 		String string = buffer.method2195(-1);
 		Class379 class379 = Class23.method302(1476280292)[buffer.method2233(255)];
-		Class77 class77 = PlayerDefinition.method3277(12247)[buffer.method2233(i ^ 0xfe)];
+		Class77 class77 = PlayerDefinition.method3277(12247)[buffer.method2233(1 ^ 0xfe)];
 		int i_0_ = buffer.method2193(-65);
-		int i_1_ = buffer.method2193(i ^ ~0x7a);
-		int i_2_ = buffer.method2233(i + 254);
-		if (i != 1) {
+		int i_1_ = buffer.method2193(1 ^ ~0x7a);
+		int i_2_ = buffer.method2233(1 + 254);
+		if (1 != 1) {
 			return null;
 		}
 		int i_3_ = buffer.method2233(255);
@@ -32,7 +32,7 @@ public class CacheNode_Sub12 extends CacheNode
 	
 	public static void method2342(byte b) {
 		aClass61_9556 = null;
-		if (b >= -68) {
+		if ((byte) -79 >= -68) {
 			method2343(null, (byte) -25, 7, null, -1, -19);
 		}
 		aClass192_9552 = null;

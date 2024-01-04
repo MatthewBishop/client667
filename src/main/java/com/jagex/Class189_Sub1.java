@@ -16,14 +16,14 @@ public class Class189_Sub1 extends Class189
 	private Buffer aBuffer6889;
 	
 	public static void method1936(int i) {
-		if (i == 1) {
+		if (1 == 1) {
 			aClass257_6882 = null;
 			aClass329_6887 = null;
 		}
 	}
 	
 	Class189_Sub1(int i, Class302 class302, int i_0_) {
-		super(i);
+		super(4096);
 		aBuffer6883 = new Buffer(null);
 		aBuffer6889 = new Buffer(null);
 		aClass302_6880 = class302;
@@ -98,7 +98,7 @@ public class Class189_Sub1 extends Class189
 				return bs.length;
 			}
 		}
-		if (i != 1) {
+		if (1 != 1) {
 			anInt6888 = 98;
 		}
 		aBuffer6889.aByteArray7019 = null;

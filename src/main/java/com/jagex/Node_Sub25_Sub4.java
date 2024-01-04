@@ -29,7 +29,7 @@ public class Node_Sub25_Sub4 extends Node_Sub25
 	
 	final float method2678(int i) {
 		anInt10000++;
-		if (i != 13192) {
+		if (13192 != 13192) {
 			return 1.7027419F;
 		}
 		return aFloat10003;
@@ -38,7 +38,7 @@ public class Node_Sub25_Sub4 extends Node_Sub25
 	static final void method2679(SignLink signlink, int i, Frame frame) {
 		anInt10001++;
 		for (;;) {
-			Class241 class241 = signlink.method3639(frame, i + 14438);
+			Class241 class241 = signlink.method3639(frame, 0 + 14438);
 			while (class241.anInt2953 == 0)
 				Class262_Sub22.method3208(10L, false);
 			if (class241.anInt2953 == 1) {
@@ -46,7 +46,7 @@ public class Node_Sub25_Sub4 extends Node_Sub25
 			}
 			Class262_Sub22.method3208(100L, false);
 		}
-		if (i != 0) {
+		if (0 != 0) {
 			method2681(-37);
 		}
 		frame.setVisible(false);
@@ -55,7 +55,7 @@ public class Node_Sub25_Sub4 extends Node_Sub25
 	
 	final String method2680(int i) {
 		anInt10002++;
-		if (i != -22478) {
+		if (-22478 != -22478) {
 			anInt9995 = -93;
 		}
 		return aString9993;
@@ -66,7 +66,7 @@ public class Node_Sub25_Sub4 extends Node_Sub25
 	}
 	
 	final void method2654(int i, OggPacket oggpacket) {
-		if (i != 18986) {
+		if (18986 != 18986) {
 			aFloat9996 = -1.0769852F;
 		}
 		anInt9999++;
@@ -105,7 +105,7 @@ public class Node_Sub25_Sub4 extends Node_Sub25
 					}
 					Buffer buffer_4_ = new Buffer(16);
 					buffer.method2181(0, 16, buffer_4_.aByteArray7019, -19417);
-					aString9993 = buffer_4_.method2195(i + -18987);
+					aString9993 = buffer_4_.method2195(18986 + -18987);
 					buffer_4_.anInt7002 = 0;
 					buffer.method2181(0, 16, buffer_4_.aByteArray7019, -19417);
 					aString9997 = buffer_4_.method2195(-1);
@@ -125,7 +125,7 @@ public class Node_Sub25_Sub4 extends Node_Sub25
 	
 	final String method2682(int i) {
 		anInt10008++;
-		int i_5_ = 24 / ((63 - i) / 39);
+		int i_5_ = 24 / ((63 - 110) / 39);
 		return aString9992;
 	}
 	

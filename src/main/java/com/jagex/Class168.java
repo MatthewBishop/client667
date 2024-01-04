@@ -10,7 +10,7 @@ public class Class168
 	static int anInt2046;
 	
 	public static void method1753(int i) {
-		if (i >= -37) {
+		if (-100 >= -37) {
 			method1754(true);
 		}
 		aClass139_2042 = null;
@@ -22,7 +22,7 @@ public class Class168
 		if (!Class213.aBoolean2510) {
 			Class194_Sub3_Sub1.aBoolean9375 = Animable_Sub1.anInt9101 != -1 && Animable_Sub1.anInt9101 <= Class315.anInt4035 || Class205.anInt5115 < Class315.anInt4035 * 16 - -(!Node_Sub38_Sub5.aBoolean10130 ? 22 : 26);
 		}
-		if (bool == true) {
+		if (true == true) {
 			Node_Sub16.aClass312_7139.method3614(-601);
 			Class130.aClass312_1670.method3614(-601);
 			for (CacheNode_Sub13 cachenode_sub13 = (CacheNode_Sub13) Class368.aClass312_4549.method3613(65280); cachenode_sub13 != null; cachenode_sub13 = (CacheNode_Sub13) Class368.aClass312_4549.method3620(16776960)) {
@@ -55,7 +55,7 @@ public class Class168
 				i = node_sub5.method2267(true);
 			}
 			if (!Class213.aBoolean2510) {
-				if (i == 0 && (Class121.anInt1521 == 1 && Class315.anInt4035 > 2 || Node_Sub16.method2594(bool))) {
+				if (i == 0 && (Class121.anInt1521 == 1 && Class315.anInt4035 > 2 || Node_Sub16.method2594(true))) {
 					i = 2;
 				}
 				if (i == 2 && Class315.anInt4035 > 0 && node_sub5 != null) {
@@ -81,7 +81,7 @@ public class Class168
 			} else {
 				if (i == -1) {
 					int i_0_ = Class106.aClass93_1356.method1050((byte) -62);
-					int i_1_ = Class106.aClass93_1356.method1051(bool);
+					int i_1_ = Class106.aClass93_1356.method1051(true);
 					boolean bool_2_ = false;
 					if (Class73.aCacheNode_Sub4_988 != null) {
 						if (Class367.anInt4539 - 10 > i_0_ || Class367.anInt4539 - -CacheNode.anInt7033 - -10 < i_0_ || -10 + Archive.anInt286 > i_1_ || 10 + Archive.anInt286 + Class18.anInt309 < i_1_) {

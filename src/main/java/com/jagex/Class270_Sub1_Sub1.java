@@ -27,7 +27,7 @@ public class Class270_Sub1_Sub1 extends Class270_Sub1
 			boolean bool = false;
 			int i = 0;
 			for (int i_0_ = 0; i_0_ < 6; i_0_++) {
-				if (!var_d.method7(b ^ 0x26e3, Class319.anIntArray4058[i_0_])) {
+				if (!var_d.method7((byte) 79 ^ 0x26e3, Class319.anIntArray4058[i_0_])) {
 					return null;
 				}
 				Class91 class91 = var_d.method10(Class319.anIntArray4058[i_0_], -8217);
@@ -41,9 +41,9 @@ public class Class270_Sub1_Sub1 extends Class270_Sub1
 			}
 			for (int i_2_ = 0; i_2_ < 6; i_2_++)
 				Mobile.anIntArrayArray9122[i_2_] = var_d.method11(i, false, i, Class319.anIntArray4058[i_2_], (byte) 0, 1.0F);
-			anInterface13_Impl2_10536 = anAbstractToolkit10531.method1287(i, Mobile.anIntArrayArray9122, bool, b + -79);
+			anInterface13_Impl2_10536 = anAbstractToolkit10531.method1287(i, Mobile.anIntArrayArray9122, bool, (byte) 79 + -79);
 		}
-		if (b != 79) {
+		if ((byte) 79 != 79) {
 			anInterface13_Impl2_10536 = null;
 		}
 		return anInterface13_Impl2_10536;
@@ -58,7 +58,7 @@ public class Class270_Sub1_Sub1 extends Class270_Sub1
 		int i_7_ = 2147483647;
 		int i_8_ = i_5_ - Class20.anInt354;
 		int i_9_ = i_3_ - Class20.anInt343;
-		if (i_4_ > -46) {
+		if (-57 > -46) {
 			return 25;
 		}
 		for (Node_Sub14 node_sub14 = (Node_Sub14) Class20.aClass312_331.method3613(65280); node_sub14 != null; node_sub14 = (Node_Sub14) Class20.aClass312_331.method3620(16776960)) {

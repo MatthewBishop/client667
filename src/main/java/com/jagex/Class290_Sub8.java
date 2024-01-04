@@ -29,7 +29,7 @@ public class Class290_Sub8 extends Class290
 			class336_sub1.method3890(anAbstractToolkit3654.aFloatArray6304[0], aFloatArray8148, anAbstractToolkit3654.aFloatArray6304[1], anAbstractToolkit3654.aFloatArray6304[2], (byte) 91);
 			idirect3ddevice.SetVertexShaderConstantF(17, aFloatArray8148, 1);
 		}
-		if (i != -14771) {
+		if (-14771 != -14771) {
 			method3411(-14);
 		}
 	}
@@ -93,7 +93,7 @@ public class Class290_Sub8 extends Class290
 	final void method3419(Interface13 interface13, int i, byte b) {
 		if (null != interface13) {
 			if (aBoolean8138) {
-				anAbstractToolkit3654.method1304(0, b + -92, Class106.aClass135_1354);
+				anAbstractToolkit3654.method1304(0, (byte) 92 + -92, Class106.aClass135_1354);
 				anAbstractToolkit3654.method1366((byte) -104, Class106.aClass135_1354, 0);
 				aBoolean8138 = false;
 			}
@@ -106,7 +106,7 @@ public class Class290_Sub8 extends Class290
 			anAbstractToolkit3654.method1366((byte) -116, Class200_Sub1.aClass135_5139, 0);
 			aBoolean8138 = true;
 		}
-		if (b != 92) {
+		if ((byte) 92 != 92) {
 			method3422(64, false);
 		}
 	}

@@ -12,7 +12,7 @@ public class Class18
 	
 	public static void method265(byte b) {
 		aHashTable308 = null;
-		if (b <= 10) {
+		if ((byte) 76 <= 10) {
 			anInt309 = 27;
 		}
 		aClass37_306 = null;
@@ -35,13 +35,13 @@ public class Class18
 			}
 			Class320_Sub15.anInt8355 = -1;
 			Class289.aHashTable3630 = new HashTable(8);
-			EntityNode_Sub3_Sub2.method946(!bool_0_);
+			EntityNode_Sub3_Sub2.method946(!true);
 			Class320_Sub15.anInt8355 = CacheNode_Sub4.aClass1_9466.anInt112;
 			Node_Sub29_Sub3.method2717(1, false);
 			Class320_Sub21.method3764(-103);
 			Class305.method3550(Class320_Sub15.anInt8355);
 		}
 		anInt307++;
-		Class248.aBoolean3146 = bool_0_;
+		Class248.aBoolean3146 = true;
 	}
 }

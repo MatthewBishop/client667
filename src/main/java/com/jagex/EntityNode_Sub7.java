@@ -34,7 +34,7 @@ public class EntityNode_Sub7 extends EntityNode
 		int[] is = new int[4];
 		Class311.method3604(is, 0, is.length, i_0_);
 		Class352.method4011(is, i, false, player, -110);
-		if (b != 75) {
+		if ((byte) 75 != 75) {
 			method979(-123);
 		}
 	}
@@ -193,8 +193,8 @@ public class EntityNode_Sub7 extends EntityNode
 			aClass143_6005.anInt1765 = aClass300_6003.anInt3752;
 		}
 		anInt6004 = 0;
-		if (b == 19) {
-			for (EntityNode_Sub3_Sub2_Sub1 entitynode_sub3_sub2_sub1 = (EntityNode_Sub3_Sub2_Sub1) aClass103_6006.method1113((byte) 105); entitynode_sub3_sub2_sub1 != null; entitynode_sub3_sub2_sub1 = (EntityNode_Sub3_Sub2_Sub1) aClass103_6006.method1108(b ^ 0x60)) {
+		if ((byte) 19 == 19) {
+			for (EntityNode_Sub3_Sub2_Sub1 entitynode_sub3_sub2_sub1 = (EntityNode_Sub3_Sub2_Sub1) aClass103_6006.method1113((byte) 105); entitynode_sub3_sub2_sub1 != null; entitynode_sub3_sub2_sub1 = (EntityNode_Sub3_Sub2_Sub1) aClass103_6006.method1108((byte) 19 ^ 0x60)) {
 				entitynode_sub3_sub2_sub1.method948(l, i);
 				anInt6004++;
 			}
@@ -213,7 +213,7 @@ public class EntityNode_Sub7 extends EntityNode
 		anInt6000++;
 		for (EntityNode_Sub3_Sub2_Sub1 entitynode_sub3_sub2_sub1 = (EntityNode_Sub3_Sub2_Sub1) aClass103_6006.method1113((byte) 116); entitynode_sub3_sub2_sub1 != null; entitynode_sub3_sub2_sub1 = (EntityNode_Sub3_Sub2_Sub1) aClass103_6006.method1108(98))
 			entitynode_sub3_sub2_sub1.method949(graphicstoolkit, l);
-		if (i != 0) {
+		if (0 != 0) {
 			aClass143_6014 = null;
 		}
 	}
@@ -254,7 +254,7 @@ public class EntityNode_Sub7 extends EntityNode
 		anInt6002++;
 		CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(3, 7, (long) i_45_);
 		cachenode_sub2.method2291((byte) 121);
-		if (i > -42) {
+		if (-81 > -42) {
 			method975(false);
 		}
 	}

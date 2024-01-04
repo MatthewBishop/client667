@@ -41,7 +41,7 @@ public class StandardSprite extends GLSprite
 	static int anInt8946;
 	
 	private final void method1212(int i, int i_0_, int i_1_, int i_2_, int[] is, int i_3_, int i_4_) {
-		anInterface13_Impl1_8925.method47(is, i, i_0_, i_2_, 23110, i_1_, i_3_, i_4_);
+		anInterface13_Impl1_8925.method47(is, i, i_0_, i_2_, 23110, i_1_, 0, i_4_);
 		anInt8914++;
 	}
 	
@@ -351,7 +351,7 @@ public class StandardSprite extends GLSprite
 										packet.method2226(4, false);
 									} else {
 										packet.method2226(2, false);
-										packet.method2228((String) object, i + 88);
+										packet.method2228((String) object, -2 + 88);
 									}
 								} else {
 									packet.method2226(1, false);
@@ -386,7 +386,7 @@ public class StandardSprite extends GLSprite
 					}
 				}
 				packet.method2190(i_56_, false);
-				if (i == -2) {
+				if (-2 == -2) {
 					node_sub53.method2160((byte) 66);
 				}
 			}
@@ -424,7 +424,7 @@ public class StandardSprite extends GLSprite
 	
 	public static void method1214(byte b) {
 		aClass104_8926 = null;
-		if (b <= 102) {
+		if ((byte) 126 <= 102) {
 			method1215(-58, -44, -54);
 		}
 		aClass52_8945 = null;
@@ -536,7 +536,7 @@ public class StandardSprite extends GLSprite
 		anInt8928++;
 		Class336_Sub1 class336_sub1 = anAbstractToolkit8935.method1264(false);
 		Class336_Sub1 class336_sub1_108_ = anAbstractToolkit8935.method1306(7);
-		anInterface13_Impl1_8925.method41((byte) -124, aBoolean8936 || aBoolean8941 || (i_107_ & 0x1) == 0 ? Class194.aClass228_2377 : Node_Sub38_Sub5.aClass228_10123);
+		anInterface13_Impl1_8925.method41((byte) -124, aBoolean8936 || aBoolean8941 || (1 & 0x1) == 0 ? Class194.aClass228_2377 : Node_Sub38_Sub5.aClass228_10123);
 		anAbstractToolkit8935.method1323((byte) 28);
 		anAbstractToolkit8935.method1312((byte) -21, anInterface13_Impl1_8925);
 		anAbstractToolkit8935.method1277((byte) 61, i_106_);

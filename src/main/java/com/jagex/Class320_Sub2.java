@@ -12,7 +12,7 @@ public class Class320_Sub2 extends Class320
 	static int anInt8222;
 	
 	final boolean method3682(byte b) {
-		if (b < 63) {
+		if ((byte) 88 < 63) {
 			aClass192_8221 = null;
 		}
 		anInt8218++;
@@ -24,7 +24,7 @@ public class Class320_Sub2 extends Class320
 	
 	public static void method3683(boolean bool) {
 		aClass192_8221 = null;
-		if (bool != false) {
+		if (false != false) {
 			method3685(-52);
 		}
 	}
@@ -93,7 +93,7 @@ public class Class320_Sub2 extends Class320
 	
 	final int method3686(boolean bool) {
 		anInt8216++;
-		if (bool != false) {
+		if (false != false) {
 			aClass192_8221 = null;
 		}
 		return anInt4064;

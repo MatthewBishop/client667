@@ -19,7 +19,7 @@ public class Class59
 	static int anInt879;
 	
 	final int method585(int i) {
-		if (i != -1) {
+		if (-1 != -1) {
 			aBoolean867 = false;
 		}
 		anInt876++;
@@ -83,7 +83,7 @@ public class Class59
 	static final Class166 method588(byte b, Buffer buffer) {
 		anInt869++;
 		int i = buffer.method2219(-130546744);
-		if (b != 26) {
+		if ((byte) 26 != 26) {
 			method586(-95, null);
 		}
 		return new Class166(i);
@@ -91,7 +91,7 @@ public class Class59
 	
 	final int method589(int i) {
 		anInt879++;
-		if (i < 42) {
+		if (63 < 42) {
 			method591(73);
 		}
 		return anInt865;
@@ -99,7 +99,7 @@ public class Class59
 	
 	final int method590(int i) {
 		anInt870++;
-		int i_6_ = -119 % ((i - 82) / 42);
+		int i_6_ = -119 % ((127 - 82) / 42);
 		return anInt874;
 	}
 	

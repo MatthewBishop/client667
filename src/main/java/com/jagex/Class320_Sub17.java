@@ -15,7 +15,7 @@ public class Class320_Sub17 extends Class320
 	}
 	
 	public static void method3745(int i) {
-		if (i == -7789) {
+		if (-7789 == -7789) {
 			aClass192_8368 = null;
 		}
 	}
@@ -67,7 +67,7 @@ public class Class320_Sub17 extends Class320
 	}
 	
 	final int method3747(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			method3677(-39);
 		}
 		anInt8369++;

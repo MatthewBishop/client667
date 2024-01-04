@@ -8,7 +8,7 @@ public class Class220 implements Interface14
 	static int anInt5323;
 	
 	static final void method2097(int i) {
-		Class158.aClient1983.method86(i ^ 0x53f8);
+		Class158.aClient1983.method86(19810 ^ 0x53f8);
 		anInt5322++;
 		Class320_Sub23.aClass123_8432.method1511((byte) 52);
 		Class320_Sub23.aClass123_8432.anInt1578 = 0;
@@ -18,7 +18,7 @@ public class Class220 implements Interface14
 		Class320_Sub23.aClass123_8432.aClass192_1574 = null;
 		Class320_Sub23.aClass123_8432.aPacket1570.anInt7002 = 0;
 		Node_Sub38_Sub7.method2806((byte) -1);
-		if (i != 19810) {
+		if (19810 != 19810) {
 			method2098(false);
 		}
 		Class138.anInt1724 = 0;
@@ -42,7 +42,7 @@ public class Class220 implements Interface14
 		if (class79 == null) {
 			return false;
 		}
-		if (bool != true) {
+		if (true != true) {
 			return true;
 		}
 		if (!class79.aBoolean1047) {
@@ -64,9 +64,9 @@ public class Class220 implements Interface14
 		anInt5323++;
 		if (Class216.aClass151_2550 == class151) {
 			Class39 class39 = Class328.aClass362_4112.method4051(is[0], -752);
-			return class39.method412(i + -3470, (int) l);
+			return class39.method412(0 + -3470, (int) l);
 		}
-		if (i != 0) {
+		if (0 != 0) {
 			aClass192_5321 = null;
 		}
 		if (Node_Sub44.aClass151_7549 == class151 || class151 == Node_Sub39.aClass151_7493) {

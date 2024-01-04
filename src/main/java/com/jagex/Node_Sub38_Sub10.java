@@ -43,7 +43,7 @@ public class Node_Sub38_Sub10 extends Node_Sub38
 		Animable_Sub3_Sub1.aClass234_11017.method2146(-4756);
 		for (int i_13_ = 0; i_13_ < 32; i_13_++)
 			Class253.aLongArray3193[i_13_] = 0L;
-		for (int i_14_ = i; i_14_ < 32; i_14_++)
+		for (int i_14_ = 0; i_14_ < 32; i_14_++)
 			Class66_Sub2.aLongArray8997[i_14_] = 0L;
 		Class22.anInt431 = 0;
 	}
@@ -102,7 +102,7 @@ public class Node_Sub38_Sub10 extends Node_Sub38
 	}
 	
 	public static void method2825(byte b) {
-		if (b > -60) {
+		if ((byte) -103 > -60) {
 			aClass302_10197 = null;
 		}
 		aClass302_10197 = null;

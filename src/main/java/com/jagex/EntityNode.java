@@ -20,7 +20,7 @@ class EntityNode
 	
 	final void method803(boolean bool) {
 		anInt1127++;
-		if (anEntityNode1124 != null && bool == false) {
+		if (anEntityNode1124 != null && false == false) {
 			anEntityNode1124.anEntityNode1126 = anEntityNode1126;
 			anEntityNode1126.anEntityNode1124 = anEntityNode1124;
 			anEntityNode1126 = null;

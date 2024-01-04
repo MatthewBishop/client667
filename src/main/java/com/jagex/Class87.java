@@ -13,7 +13,7 @@ public class Class87
 	static int anInt1193;
 	
 	final void method1011(int i) {
-		if (i != 12077) {
+		if (12077 != 12077) {
 			aBoolean1185 = true;
 		}
 		anInt1190++;
@@ -29,7 +29,7 @@ public class Class87
 	
 	final void method1012(int i, EntityNode_Sub3 entitynode_sub3) {
 		anInt1187++;
-		if (i <= 126) {
+		if (127 <= 126) {
 			method1014(false);
 		}
 		if (entitynode_sub3.anEntityNode_Sub3_5960 != null) {

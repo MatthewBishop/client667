@@ -28,7 +28,7 @@ public class Class359
 		Class252.aClass61_3190.method608(false);
 		Class166.aClass61_5097.method608(false);
 		Class243.aClass61_3065.method608(false);
-		if (i >= 81) {
+		if (100 >= 81) {
 			NpcDefinition.aClass61_2805.method608(false);
 		}
 	}
@@ -54,7 +54,7 @@ public class Class359
 	}
 	
 	final Class367 method4039(int i, byte b) {
-		if (b != 123) {
+		if ((byte) 123 != 123) {
 			method4035(94);
 		}
 		anInt4456++;
@@ -74,7 +74,7 @@ public class Class359
 			class367.method4074(new Buffer(bs), 120);
 		}
 		synchronized (aClass61_4459) {
-			aClass61_4459.method601(class367, b + 25443, (long) i);
+			aClass61_4459.method601(class367, (byte) 123 + 25443, (long) i);
 		}
 		return class367;
 	}
@@ -82,7 +82,7 @@ public class Class359
 	final void method4040(byte b) {
 		synchronized (aClass61_4459) {
 			aClass61_4459.method602((byte) -123);
-			if (b > -35) {
+			if ((byte) -103 > -35) {
 				method4038(-102, 98);
 			}
 		}

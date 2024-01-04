@@ -12,7 +12,7 @@ abstract class Class270_Sub2 extends Class270
 	public static void method3305(int i) {
 		anIntArray8039 = null;
 		aPlayerArray8038 = null;
-		if (i == 30188) {
+		if (30188 == 30188) {
 			aClass318_8037 = null;
 		}
 	}

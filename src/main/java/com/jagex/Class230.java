@@ -20,7 +20,7 @@ class Class230 implements Interface10
 	static final void method2127(byte b, String string) {
 		anInt5216++;
 		System.exit(1);
-		if (b != 7) {
+		if ((byte) 7 != 7) {
 			anInt5209 = -94;
 		}
 	}
@@ -34,12 +34,12 @@ class Class230 implements Interface10
 				}
 			}
 		}
-		int i_6_ = -109 / ((-37 - b) / 45);
+		int i_6_ = -109 / ((-37 - (byte) -120) / 45);
 		return false;
 	}
 	
 	static final Node_Sub9_Sub1 method2129(byte b) {
-		if (b > -60) {
+		if ((byte) -127 > -60) {
 			anInt5209 = -61;
 		}
 		anInt5215++;
@@ -61,7 +61,7 @@ class Class230 implements Interface10
 	
 	public static void method2130(byte b) {
 		aClass42_5208 = null;
-		if (b != -33) {
+		if ((byte) -33 != -33) {
 			aClass42_5208 = null;
 		}
 	}

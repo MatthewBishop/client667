@@ -17,7 +17,7 @@ abstract class Class270_Sub1 extends Class270
 		aClass277_Sub1_8028 = null;
 		aLongArray8029 = null;
 		aFileOutputStream8027 = null;
-		if (i > -33) {
+		if (-72 > -33) {
 			anInt8034 = 65;
 		}
 	}
@@ -30,7 +30,7 @@ abstract class Class270_Sub1 extends Class270
 			return null;
 		}
 		byte[] bs_0_ = new byte[bs.length];
-		Class311.method3608(bs, i, bs_0_, 0, bs.length);
+		Class311.method3608(bs, 0, bs_0_, 0, bs.length);
 		return bs_0_;
 	}
 	

@@ -32,7 +32,7 @@ public class Animable_Sub2_Sub1 extends Animable_Sub2 implements Interface19
 	private Class171 aClass171_10647;
 	
 	final void method839(Class121 class121, int i) {
-		if (i == 3) {
+		if (3 == 3) {
 			aClass310_10632.method3598(class121, -12);
 			anInt10633++;
 		}
@@ -206,7 +206,7 @@ public class Animable_Sub2_Sub1 extends Animable_Sub2 implements Interface19
 	
 	public static void method840(int i) {
 		aClass318_10644 = null;
-		if (i == -17940) {
+		if (-17940 == -17940) {
 			anIntArray10638 = null;
 		}
 	}

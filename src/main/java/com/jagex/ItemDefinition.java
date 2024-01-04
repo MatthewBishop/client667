@@ -101,7 +101,7 @@ public class ItemDefinition
 	}
 	
 	final ItemDefinition method1674(int i, int i_1_) {
-		if (i_1_ >= -68) {
+		if (-119 >= -68) {
 			return null;
 		}
 		anInt1902++;
@@ -120,7 +120,7 @@ public class ItemDefinition
 	}
 	
 	final void method1675(Buffer buffer, byte b) {
-		int i = 111 % ((-29 - b) / 57);
+		int i = 111 % ((-29 - (byte) 122) / 57);
 		anInt1861++;
 		for (;;) {
 			int i_4_ = buffer.method2233(255);
@@ -147,7 +147,7 @@ public class ItemDefinition
 		anInt1923++;
 		anInt1897 = itemdefinition_5_.anInt1897;
 		aByteArray1882 = itemdefinition_5_.aByteArray1882;
-		if (b < 74) {
+		if ((byte) 103 < 74) {
 			method1673(-71, 35);
 		}
 		anInt1893 = itemdefinition_5_.anInt1893;
@@ -179,7 +179,7 @@ public class ItemDefinition
 	}
 	
 	final void method1677(ItemDefinition itemdefinition_7_, int i, ItemDefinition itemdefinition_8_) {
-		int i_9_ = 8 % ((-32 - i) / 32);
+		int i_9_ = 8 % ((-32 - 45) / 32);
 		anInt1875 = itemdefinition_7_.anInt1875;
 		aShortArray1856 = itemdefinition_7_.aShortArray1856;
 		anInt1924 = itemdefinition_8_.anInt1924;
@@ -204,8 +204,8 @@ public class ItemDefinition
 		if (aHashTable1873 == null) {
 			return i_10_;
 		}
-		Node_Sub32 node_sub32 = (Node_Sub32) aHashTable1873.method1518(i_11_ ^ 0x25bf, (long) i);
-		if (i_11_ != 10247) {
+		Node_Sub32 node_sub32 = (Node_Sub32) aHashTable1873.method1518(10247 ^ 0x25bf, (long) i);
+		if (10247 != 10247) {
 			anInt1900 = 69;
 		}
 		if (node_sub32 == null) {
@@ -237,14 +237,14 @@ public class ItemDefinition
 				is_13_[i_14_++] = i_17_;
 			}
 		}
-		if (i != -1) {
+		if (-1 != -1) {
 			aShortArray1856 = null;
 		}
 		return is_13_;
 	}
 	
 	public static void method1680(byte b) {
-		if (b <= 84) {
+		if ((byte) 121 <= 84) {
 			anInt1858 = -85;
 		}
 		aNode_Sub43_1925 = null;
@@ -459,7 +459,7 @@ public class ItemDefinition
 			aString1860 = buffer.method2195(-1);
 		}
 		anInt1922++;
-		if (bool != false) {
+		if (false != false) {
 			anInt1879 = 4;
 		}
 	}
@@ -502,7 +502,7 @@ public class ItemDefinition
 			i_39_ |= 0x7;
 		}
 		DrawableModel drawablemodel = graphicstoolkit_33_.a(model, i_39_, 64, anInt1876 + 64, anInt1886 + 768);
-		int i_41_ = -50 % ((b - 75) / 34);
+		int i_41_ = -50 % (((byte) 40 - 75) / 34);
 		if (!drawablemodel.method612()) {
 			return null;
 		}
@@ -707,7 +707,7 @@ public class ItemDefinition
 		if (i_55_ == -1) {
 			return null;
 		}
-		if (i > -33) {
+		if (-116 > -33) {
 			return null;
 		}
 		Model model = Renderer.method3448(i_55_, 7, 0, aClass86_1868.aClass302_1168);
@@ -801,7 +801,7 @@ public class ItemDefinition
 	}
 	
 	private final void method1688(int i, int[] is, int i_66_) {
-		if (i_66_ != -7048) {
+		if (-7048 != -7048) {
 			anInt1895 = -54;
 		}
 		for (int i_67_ = 31; i_67_ > 0; i_67_--) {
@@ -920,7 +920,7 @@ public class ItemDefinition
 	}
 	
 	final void method1691(byte b) {
-		if (b <= 77) {
+		if ((byte) 106 <= 77) {
 			aBoolean1933 = true;
 		}
 		anInt1910++;
@@ -949,7 +949,7 @@ public class ItemDefinition
 			return true;
 		}
 		boolean bool_82_ = true;
-		if (!aClass86_1868.aClass302_1168.method3515(i, i_81_, 0)) {
+		if (!aClass86_1868.aClass302_1168.method3515(0, i_81_, 0)) {
 			bool_82_ = false;
 		}
 		if (i_80_ != -1 && !aClass86_1868.aClass302_1168.method3515(0, i_80_, 0)) {

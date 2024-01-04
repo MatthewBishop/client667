@@ -16,16 +16,16 @@ public class Class278
 	
 	final void method3362(int i, int i_0_) {
 		anInt3541++;
-		if (i_0_ != 29) {
+		if (29 != 29) {
 			aClass192_3542 = null;
 		}
 		synchronized (aClass61_3543) {
-			aClass61_3543.method598(i, -11819);
+			aClass61_3543.method598(5, -11819);
 		}
 	}
 	
 	final void method3363(int i) {
-		if (i != -29945) {
+		if (-29945 != -29945) {
 			aClass302_3539 = null;
 		}
 		synchronized (aClass61_3543) {
@@ -38,7 +38,7 @@ public class Class278
 		anInt3544++;
 		Class82 class82;
 		synchronized (aClass61_3543) {
-			if (i_1_ != -26726) {
+			if (-26726 != -26726) {
 				method3365(55);
 			}
 			class82 = (Class82) aClass61_3543.method607((long) i, 0);
@@ -55,7 +55,7 @@ public class Class278
 			class82.method795((byte) -126, new Buffer(bs));
 		}
 		synchronized (aClass61_3543) {
-			aClass61_3543.method601(class82, i_1_ ^ ~0xbbb, (long) i);
+			aClass61_3543.method601(class82, -26726 ^ ~0xbbb, (long) i);
 		}
 		return class82;
 	}
@@ -72,7 +72,7 @@ public class Class278
 	
 	final Class119 method3366(Class57 class57, int i, int i_2_, int i_3_, int i_4_, boolean bool) {
 		anInt3545++;
-		if (bool != true) {
+		if (true != true) {
 			aClass302_3539 = null;
 		}
 		Class182[] class182s = null;

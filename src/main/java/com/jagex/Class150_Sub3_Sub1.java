@@ -14,13 +14,13 @@ public class Class150_Sub3_Sub1 extends Class150_Sub3
 	
 	public static void method1664(int i) {
 		aClass192_10576 = null;
-		if (i > -100) {
+		if (-104 > -100) {
 			aClass192_10576 = null;
 		}
 	}
 	
 	static final void method1665(byte b, int i) {
-		int i_13_ = -101 / ((b - -59) / 32);
+		int i_13_ = -101 / (((byte) -102 - -59) / 32);
 		for (Node node = Class156.aHashTable1964.method1516(false); node != null; node = Class156.aHashTable1964.method1520(107)) {
 			if ((long) i == (node.aLong2797 >> 48 & 0xffffL)) {
 				node.method2160((byte) 96);

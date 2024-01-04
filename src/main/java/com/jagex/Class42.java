@@ -65,14 +65,14 @@ class Class42
 	
 	static final int method444(long l, boolean bool) {
 		anInt637++;
-		if (bool != false) {
+		if (false != false) {
 			return 123;
 		}
 		return (int) (l / 86400000L) + -11745;
 	}
 	
 	final synchronized void method445(int i) {
-		if (i != 3) {
+		if (3 != 3) {
 			aNode_Sub9Array659 = null;
 		}
 		if (Widget.aClass92_4845 != null) {
@@ -109,7 +109,7 @@ class Class42
 	
 	public static void method448(int i) {
 		aClass122_631 = null;
-		int i_2_ = 120 / ((2 - i) / 34);
+		int i_2_ = 120 / ((2 - 58) / 34);
 		aClass181_643 = null;
 		anIntArray645 = null;
 	}
@@ -122,7 +122,7 @@ class Class42
 		anInt636++;
 		int i_3_ = i >> 5;
 		Node_Sub9 node_sub9_4_ = aNode_Sub9Array652[i_3_];
-		if (bool != false) {
+		if (false != false) {
 			method441(51, null);
 		}
 		if (node_sub9_4_ == null) {
@@ -137,7 +137,7 @@ class Class42
 	final synchronized void method451(byte b) {
 		anInt644++;
 		aBoolean656 = true;
-		if (b != -50) {
+		if ((byte) -50 != -50) {
 			method443(91, 24);
 		}
 		try {
@@ -232,12 +232,12 @@ class Class42
 	}
 	
 	private final void method454(int[] is, int i) {
-		int i_6_ = i;
+		int i_6_ = 256;
 		if (DrawableModel.aBoolean913) {
 			i_6_ <<= 1;
 		}
 		Class311.method3602(is, 0, i_6_);
-		anInt655 -= i;
+		anInt655 -= 256;
 		if (aNode_Sub9_650 != null && anInt655 <= 0) {
 			anInt655 += Class365.anInt4523 >> 4;
 			Class320_Sub19.method3755(-729073628, aNode_Sub9_650);
@@ -316,7 +316,7 @@ class Class42
 			anInt655 = 0;
 		}
 		if (aNode_Sub9_650 != null) {
-			aNode_Sub9_650.method2427(is, 0, i);
+			aNode_Sub9_650.method2427(is, 0, 256);
 		}
 		aLong641 = Class313.method3650(false);
 	}

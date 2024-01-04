@@ -63,7 +63,7 @@ public class Class259
 	
 	final int method3128(boolean bool) {
 		anInt3288++;
-		if (bool != false) {
+		if (false != false) {
 			method3128(false);
 		}
 		if (anInt3259 != -1) {
@@ -146,7 +146,7 @@ public class Class259
 				class336.method3863(i_3_, i_4_, i_5_);
 			}
 		}
-		if (i != 3) {
+		if (3 != 3) {
 			method3133(-108, null, -55);
 		}
 		return aClass336Array3280;
@@ -337,13 +337,13 @@ public class Class259
 	
 	final void method3134(byte b, Buffer buffer) {
 		for (;;) {
-			int i = buffer.method2233(b + 288);
+			int i = buffer.method2233((byte) -33 + 288);
 			if (i == 0) {
 				break;
 			}
 			method3133(-116, buffer, i);
 		}
-		if (b != -33) {
+		if ((byte) -33 != -33) {
 			method3130(78, (byte) 43);
 		}
 		anInt3264++;

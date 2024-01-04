@@ -89,7 +89,7 @@ public class Class364
 					}
 				}
 			}
-			if (b != -36) {
+			if ((byte) -36 != -36) {
 				method4058(-108);
 			}
 			for (int i_14_ = 0; i_14_ < 2048; i_14_++) {
@@ -111,14 +111,14 @@ public class Class364
 					class223.anInt2662 -= 512 * i_4_;
 				}
 			}
-			for (Node_Sub19 node_sub19 = (Node_Sub19) Class89.aClass312_1199.method3613(b + 65316); node_sub19 != null; node_sub19 = (Node_Sub19) Class89.aClass312_1199.method3620(b ^ ~0xffff23)) {
+			for (Node_Sub19 node_sub19 = (Node_Sub19) Class89.aClass312_1199.method3613((byte) -36 + 65316); node_sub19 != null; node_sub19 = (Node_Sub19) Class89.aClass312_1199.method3620((byte) -36 ^ ~0xffff23)) {
 				node_sub19.anInt7171 -= i_4_;
 				node_sub19.anInt7161 -= i_5_;
 				if (Class61.anInt898 != 4 && (node_sub19.anInt7171 < 0 || node_sub19.anInt7161 < 0 || Node_Sub54.anInt7675 <= node_sub19.anInt7171 || node_sub19.anInt7161 >= Class377_Sub1.anInt8774)) {
 					node_sub19.method2160((byte) 60);
 				}
 			}
-			for (Node_Sub19 node_sub19 = (Node_Sub19) Class262_Sub8.aClass312_7755.method3613(65280); node_sub19 != null; node_sub19 = (Node_Sub19) Class262_Sub8.aClass312_7755.method3620(b ^ ~0xffff23)) {
+			for (Node_Sub19 node_sub19 = (Node_Sub19) Class262_Sub8.aClass312_7755.method3613(65280); node_sub19 != null; node_sub19 = (Node_Sub19) Class262_Sub8.aClass312_7755.method3620((byte) -36 ^ ~0xffff23)) {
 				node_sub19.anInt7161 -= i_5_;
 				node_sub19.anInt7171 -= i_4_;
 				if (Class61.anInt898 != 4 && (node_sub19.anInt7171 < 0 || node_sub19.anInt7161 < 0 || node_sub19.anInt7171 >= Node_Sub54.anInt7675 || node_sub19.anInt7161 >= Class377_Sub1.anInt8774)) {
@@ -126,7 +126,7 @@ public class Class364
 				}
 			}
 			if (Class61.anInt898 != 4) {
-				for (Node_Sub11 node_sub11 = (Node_Sub11) Class266.aHashTable3380.method1516(false); node_sub11 != null; node_sub11 = (Node_Sub11) Class266.aHashTable3380.method1520(b ^ ~0x78)) {
+				for (Node_Sub11 node_sub11 = (Node_Sub11) Class266.aHashTable3380.method1516(false); node_sub11 != null; node_sub11 = (Node_Sub11) Class266.aHashTable3380.method1520((byte) -36 ^ ~0x78)) {
 					int i_17_ = (int) (0x3fffL & node_sub11.aLong2797);
 					int i_18_ = i_17_ - Node_Sub53.anInt7668;
 					int i_19_ = (int) (node_sub11.aLong2797 >> 14 & 0x3fffL);
@@ -197,7 +197,7 @@ public class Class364
 		if (class383 != null) {
 			return class383;
 		}
-		if (b <= 68) {
+		if ((byte) 80 <= 68) {
 			anInt4519 = 105;
 		}
 		class383 = Class383.method4194(aClass239_4516.aClass302_2918, anInt4515, 0);
@@ -208,7 +208,7 @@ public class Class364
 	}
 	
 	final void method4061(Buffer buffer, int i) {
-		if (i != 0) {
+		if (0 != 0) {
 			method4059(null, 90, -110);
 		}
 		anInt4520++;
@@ -217,7 +217,7 @@ public class Class364
 			if (i_23_ == 0) {
 				break;
 			}
-			method4059(buffer, i + 110, i_23_);
+			method4059(buffer, 0 + 110, i_23_);
 		}
 	}
 }

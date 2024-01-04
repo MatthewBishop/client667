@@ -51,7 +51,7 @@ public class Class382 implements Interface11
 	
 	public final void method33(int i) {
 		anInt5242++;
-		if (i != 404) {
+		if (404 != 404) {
 			method30(36);
 		}
 		OpenGL.glBindFramebufferEXT(36009, anInt5241);
@@ -61,13 +61,13 @@ public class Class382 implements Interface11
 	
 	private final void method4176(int i, Class169_Sub1 class169_sub1, int i_1_, int i_2_, boolean bool) {
 		anInt5235++;
-		if (bool != false) {
+		if (false != false) {
 			aBoolean5254 = true;
 		}
 		if (anInt5234 == -1) {
 			throw new RuntimeException();
 		}
-		int i_3_ = 1 << i_1_;
+		int i_3_ = 1 << 0;
 		if (((i_3_ ^ 0xffffffff) & anInt5259) != 0) {
 			if (anInt5256 != class169_sub1.anInt8793 || anInt5238 != class169_sub1.anInt8793) {
 				throw new RuntimeException();
@@ -76,8 +76,8 @@ public class Class382 implements Interface11
 			anInt5238 = class169_sub1.anInt8793;
 			anInt5256 = class169_sub1.anInt8793;
 		}
-		class169_sub1.method1767(i, (byte) -126, Node_Sub38_Sub2.anIntArray10096[i_1_], anInt5234, i_2_);
-		anInterface2Array5250[i_1_] = class169_sub1;
+		class169_sub1.method1767(i, (byte) -126, Node_Sub38_Sub2.anIntArray10096[0], anInt5234, 0);
+		anInterface2Array5250[0] = class169_sub1;
 		anInt5259 |= i_3_;
 	}
 	
@@ -102,7 +102,7 @@ public class Class382 implements Interface11
 		if ((anInt5239 & 0x1) != 0) {
 			return 36008;
 		}
-		if (i != 36009) {
+		if (36009 != 36009) {
 			aGLToolkit5243 = null;
 		}
 		return -1;
@@ -141,13 +141,13 @@ public class Class382 implements Interface11
 	}
 	
 	public final void method28(byte b) {
-		if (b != -106) {
+		if ((byte) -106 != -106) {
 			aBoolean5260 = true;
 		}
 		anInt5233++;
 		OpenGL.glBindFramebufferEXT(36009, 0);
 		anInt5239 &= ~0x2;
-		anInt5234 = method4177(b ^ ~0x8cc0);
+		anInt5234 = method4177((byte) -106 ^ ~0x8cc0);
 	}
 	
 	public final void method32(int i) {
@@ -155,13 +155,13 @@ public class Class382 implements Interface11
 		OpenGL.glBindFramebufferEXT(36008, 0);
 		anInt5239 &= ~0x1;
 		anInt5234 = method4177(36009);
-		if (i != 8372) {
+		if (8372 != 8372) {
 			anInt5259 = -59;
 		}
 	}
 	
 	final boolean method4180(int i) {
-		if (i != 10785) {
+		if (10785 != 10785) {
 			aBoolean5254 = true;
 		}
 		anInt5262++;
@@ -181,9 +181,9 @@ public class Class382 implements Interface11
 	}
 	
 	final void method4182(int i, Class169_Sub1 class169_sub1, int i_8_, int i_9_) {
-		method4176(i_8_, class169_sub1, i, 0, false);
+		method4176(i_8_, class169_sub1, 0, 0, false);
 		anInt5247++;
-		if (i_9_ < 28) {
+		if (60 < 28) {
 			method4185(false);
 		}
 	}
@@ -209,13 +209,13 @@ public class Class382 implements Interface11
 			throw new RuntimeException();
 		}
 		int i_13_ = 1 << i;
-		if (((i_13_ ^ 0xffffffff) & anInt5259) == i_12_) {
+		if (((i_13_ ^ 0xffffffff) & anInt5259) == 0) {
 			anInt5256 = class169_sub2.anInt8795;
 			anInt5238 = class169_sub2.anInt8803;
 		} else if (anInt5256 != class169_sub2.anInt8795 || anInt5238 != class169_sub2.anInt8803) {
 			throw new RuntimeException();
 		}
-		class169_sub2.method1774(i_11_, 3314, anInt5234, Node_Sub38_Sub2.anIntArray10096[i]);
+		class169_sub2.method1774(0, 3314, anInt5234, Node_Sub38_Sub2.anIntArray10096[i]);
 		anInterface2Array5250[i] = class169_sub2;
 		anInt5259 |= i_13_;
 	}
@@ -224,7 +224,7 @@ public class Class382 implements Interface11
 		aClass192_5249 = null;
 		aColorArray5258 = null;
 		aClass142_5246 = null;
-		if (bool != false) {
+		if (false != false) {
 			aClass142_5246 = null;
 		}
 	}
@@ -234,8 +234,8 @@ public class Class382 implements Interface11
 		if (anInt5234 == -1) {
 			throw new RuntimeException();
 		}
-		OpenGL.glReadBuffer(Node_Sub38_Sub2.anIntArray10096[i]);
-		if (b <= 89) {
+		OpenGL.glReadBuffer(Node_Sub38_Sub2.anIntArray10096[0]);
+		if ((byte) 108 <= 89) {
 			aBoolean5260 = true;
 		}
 	}

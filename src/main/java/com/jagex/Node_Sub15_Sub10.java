@@ -28,7 +28,7 @@ public class Node_Sub15_Sub10 extends Node_Sub15
 	
 	public static void method2579(byte b) {
 		aClass302_9853 = null;
-		if (b > 27) {
+		if ((byte) 35 > 27) {
 			aClass192_9849 = null;
 		}
 	}

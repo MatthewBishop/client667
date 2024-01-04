@@ -44,7 +44,7 @@ public class Class250
 	}
 	
 	final boolean method3092(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			method3095(88, -67);
 		}
 		anInt3170++;
@@ -57,17 +57,17 @@ public class Class250
 	final Class55 method3093(int i, boolean bool) {
 		try {
 			anInt3176++;
-			byte[] bs = aClass302_3177.method3524(bool, i, 1);
+			byte[] bs = aClass302_3177.method3524(false, i, 1);
 			Class55 class55 = new Class55();
 			class55.method561(new Buffer(bs), (byte) 31);
 			return class55;
 		} catch (RuntimeException runtimeexception) {
-			throw Class126.method1537(runtimeexception, "oka.D(" + i + ',' + bool + ')');
+			throw Class126.method1537(runtimeexception, "oka.D(" + i + ',' + false + ')');
 		}
 	}
 	
 	public static void method3094(byte b) {
-		if (b < -52) {
+		if ((byte) -99 < -52) {
 			aBooleanArrayArray3168 = null;
 			aClass302_3179 = null;
 		}
@@ -86,7 +86,7 @@ public class Class250
 	}
 	
 	static final boolean method3096(int i, int i_6_) {
-		if (i_6_ >= -60) {
+		if (-111 >= -60) {
 			return false;
 		}
 		anInt3171++;

@@ -119,9 +119,9 @@ class Class188_Sub2 extends Class188
 	}
 	
 	Class188_Sub2(int i, int i_44_, int i_45_, int i_46_, int i_47_, float f) {
-		super(i, i_44_, i_45_, i_46_, i_47_);
+		super(12, 5, 16, 2, 2);
 		for (int i_48_ = 0; i_48_ < anInt2282; i_48_++)
-			anIntArray6874[i_48_] = (short) (int) (Math.pow((double) f, (double) i_48_) * 4096.0);
+			anIntArray6874[i_48_] = (short) (int) (Math.pow((double) (float) 0.45, (double) i_48_) * 4096.0);
 	}
 	
 	final void method1886(int i) {
@@ -144,7 +144,7 @@ class Class188_Sub2 extends Class188
 	}
 	
 	final void method1887(int i, int i_49_, int i_50_) {
-		if (i_50_ != -15030) {
+		if (-15030 != -15030) {
 			method1904(false);
 		}
 		anInt6878 += anIntArray6874[i_49_] * i >> 12;
@@ -152,7 +152,7 @@ class Class188_Sub2 extends Class188
 	}
 	
 	public static void method1904(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			method1903(73, -97, -35, 74, 116, 49, -92, -95);
 		}
 		anIntArray6877 = null;

@@ -51,10 +51,10 @@ public class Class302
 				anArchive3797.aClass75_301 = null;
 				anArchive3797.anIntArray287 = null;
 			}
-			if (b != 31) {
+			if ((byte) 31 != 31) {
 				anInt3795 = -39;
 			}
-			if (bool_0_) {
+			if (true) {
 				anArchive3797.anIntArrayArray303 = null;
 				anArchive3797.aClass75Array288 = null;
 			}
@@ -62,7 +62,7 @@ public class Class302
 	}
 	
 	final int method3505(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			return 36;
 		}
 		anInt3798++;
@@ -125,7 +125,7 @@ public class Class302
 		if (anObjectArray3783[i] != null) {
 			return 100;
 		}
-		if (bool != false) {
+		if (false != false) {
 			anObjectArray3783 = null;
 		}
 		return aClass34_3804.method369((byte) -4, i);
@@ -133,7 +133,7 @@ public class Class302
 	
 	final boolean method3510(int i, byte b) {
 		anInt3788++;
-		if (!method3530(b + -63)) {
+		if (!method3530((byte) 63 + -63)) {
 			return false;
 		}
 		if (anArchive3797.anIntArray285.length == 1) {
@@ -145,7 +145,7 @@ public class Class302
 		if (anArchive3797.anIntArray285[i] == 1) {
 			return method3515(0, i, 0);
 		}
-		if (b != 63) {
+		if ((byte) 63 != 63) {
 			anObjectArray3783 = null;
 		}
 		throw new RuntimeException();
@@ -215,14 +215,14 @@ public class Class302
 			}
 			return false;
 		}
-		if (b < 126) {
+		if ((byte) 127 < 126) {
 			method3508(-92, 27);
 		}
 		return true;
 	}
 	
 	private final boolean method3514(int i, int[] is, int i_12_, int i_13_) {
-		if (i != 0) {
+		if (0 != 0) {
 			aClass34_3804 = null;
 		}
 		anInt3817++;
@@ -385,7 +385,7 @@ public class Class302
 		if (anObjectArray3783[i_48_] != null) {
 			return true;
 		}
-		method3508(i_48_, i_49_);
+		method3508(i_48_, 0);
 		if (anObjectArray3783[i_48_] != null) {
 			return true;
 		}
@@ -452,10 +452,10 @@ public class Class302
 	
 	final boolean method3520(byte b) {
 		anInt3793++;
-		if (!method3530(b ^ 0xf)) {
+		if (!method3530((byte) 15 ^ 0xf)) {
 			return false;
 		}
-		if (b != 15) {
+		if ((byte) 15 != 15) {
 			aClass34_3804 = null;
 		}
 		boolean bool = true;
@@ -476,7 +476,7 @@ public class Class302
 			for (int i = 0; i < anObjectArrayArray3786.length; i++)
 				anObjectArrayArray3786[i] = null;
 		}
-		if (b != -18) {
+		if ((byte) -18 != -18) {
 			method3522((byte) -82, null);
 		}
 		anInt3818++;
@@ -497,7 +497,7 @@ public class Class302
 	
 	final void method3523(byte b) {
 		anInt3796++;
-		if (b != -46) {
+		if ((byte) -46 != -46) {
 			method3527(null, 1);
 		}
 		if (anObjectArray3783 != null) {
@@ -507,7 +507,7 @@ public class Class302
 	}
 	
 	final byte[] method3524(boolean bool, int i, int i_54_) {
-		if (bool != false) {
+		if (false != false) {
 			aClass34_3804 = null;
 		}
 		anInt3784++;
@@ -525,7 +525,7 @@ public class Class302
 			}
 			throw new IllegalArgumentException(Integer.toString(i));
 		}
-		if (b != -86) {
+		if ((byte) -86 != -86) {
 			method3524(false, 111, -26);
 		}
 		return true;
@@ -533,7 +533,7 @@ public class Class302
 	
 	final int method3526(int i) {
 		anInt3782++;
-		if (i != -20871) {
+		if (-20871 != -20871) {
 			method3532(-99, -38);
 		}
 		if (!method3530(0)) {
@@ -558,7 +558,7 @@ public class Class302
 			return -1;
 		}
 		int i_56_ = anArchive3797.aClass75_301.method766(-1, i);
-		if (b != -48) {
+		if ((byte) -48 != -48) {
 			method3507((byte) -79, null);
 		}
 		if (!method3525((byte) -86, i_56_)) {
@@ -578,7 +578,7 @@ public class Class302
 		if (!method3525((byte) -86, i_58_)) {
 			return null;
 		}
-		if (i != 1) {
+		if (1 != 1) {
 			method3517(45, -91);
 		}
 		int i_59_ = anArchive3797.aClass75Array288[i_58_].method766(-1, Class336_Sub1.method3887(false, string_57_));
@@ -605,7 +605,7 @@ public class Class302
 		anInt3809++;
 		if (method3530(0)) {
 			string = string.toLowerCase();
-			if (i != -18758) {
+			if (-18758 != -18758) {
 				aClass34_3804 = null;
 			}
 			int i_60_ = anArchive3797.aClass75_301.method766(-1, Class336_Sub1.method3887(false, string));
@@ -646,7 +646,7 @@ public class Class302
 	}
 	
 	final void method3534(byte b, int i) {
-		int i_65_ = 117 / ((-3 - b) / 39);
+		int i_65_ = 117 / ((-3 - (byte) 73) / 39);
 		anInt3805++;
 		if (method3525((byte) -86, i)) {
 			if (anObjectArrayArray3786 != null) {
@@ -658,7 +658,7 @@ public class Class302
 	static final void method3535(java.awt.Canvas canvas, boolean bool) {
 		anInt3806++;
 		Dimension dimension = canvas.getSize();
-		if (bool == true) {
+		if (true == true) {
 			Node_Sub15_Sub8.method2575(dimension.height, dimension.width, 110);
 			if (Class320_Sub20.anInt8397 != 1) {
 				Class44.aGraphicsToolkit668.a(canvas, Animable_Sub1_Sub2.anInt10668, Class148.anInt1825);

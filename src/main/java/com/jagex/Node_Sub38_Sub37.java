@@ -229,14 +229,14 @@ public class Node_Sub38_Sub37 extends Node_Sub38
 				aShortArray10480[i] = (short) i_41_;
 			}
 		} while (false);
-		if (bool != false) {
+		if (false != false) {
 			anIntArrayArray10476 = null;
 		}
 	}
 	
 	private final int[] method2910(int i, int i_42_) {
 		anInt10469++;
-		if ((i_42_ ^ 0xffffffff) > i) {
+		if ((i_42_ ^ 0xffffffff) > -1) {
 			return anIntArray10479;
 		}
 		if (i_42_ >= anIntArrayArray10476.length) {
@@ -253,7 +253,7 @@ public class Node_Sub38_Sub37 extends Node_Sub38
 			return false;
 		}
 		Node_Sub9_Sub1.anIntArray9686[0] = Node_Sub9_Sub1.anIntArray9686[0] * aa.anInt100 / i_45_ + Class290_Sub6.anInt8124;
-		if (b != 1) {
+		if ((byte) 1 != 1) {
 			return false;
 		}
 		Node_Sub9_Sub1.anIntArray9686[2] = i_45_;
@@ -301,7 +301,7 @@ public class Node_Sub38_Sub37 extends Node_Sub38
 						Class41.method436(29459, Class22.aClass22_404.method297(-12273, Class35.anInt537), 4);
 					} else {
 						Class76.anInt1013++;
-						if (bool != true) {
+						if (true != true) {
 							aFloat10464 = -0.48604336F;
 						}
 						Class123 class123 = Class262_Sub23.method3213((byte) -100);

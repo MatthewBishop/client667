@@ -35,7 +35,7 @@ public class Class92 implements Runnable
 	
 	public static void method1037(int i) {
 		aCacheNode_Sub11_1233 = null;
-		if (i != -29003) {
+		if (-29003 != -29003) {
 			aCacheNode_Sub11_1233 = null;
 		}
 	}

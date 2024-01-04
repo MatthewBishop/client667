@@ -48,7 +48,7 @@ public class Node_Sub9_Sub5 extends Node_Sub9
 	
 	public static void method2527(int i) {
 		aClass192_9750 = null;
-		if (i <= 87) {
+		if (92 <= 87) {
 			anInt9766 = -21;
 		}
 		aFloatArray9765 = null;
@@ -56,7 +56,7 @@ public class Node_Sub9_Sub5 extends Node_Sub9
 	
 	static final void method2528(int i) {
 		anInt9754++;
-		if (i != 1390489120) {
+		if (1390489120 != 1390489120) {
 			anInt9766 = -17;
 		}
 		Class217.aBoolean2552 = true;
@@ -69,14 +69,14 @@ public class Node_Sub9_Sub5 extends Node_Sub9
 	
 	final synchronized int method2529(int i) {
 		anInt9747++;
-		if (i != 0) {
+		if (0 != 0) {
 			return -122;
 		}
 		return anInt9761;
 	}
 	
 	final synchronized void method2530(boolean bool) {
-		if (bool == false) {
+		if (false == false) {
 			anInt9749++;
 			aBoolean9768 = true;
 		}
@@ -114,7 +114,7 @@ public class Node_Sub9_Sub5 extends Node_Sub9
 		} else {
 			cachenode_sub8 = new CacheNode_Sub8(new short[anInt9744][i], d);
 		}
-		if (i_0_ != 0) {
+		if (0 != 0) {
 			method2428();
 		}
 		return cachenode_sub8;
@@ -125,7 +125,7 @@ public class Node_Sub9_Sub5 extends Node_Sub9
 		for (/**/; anInt9761 >= 100; anInt9761--)
 			aClass312_9751.method3619(-101);
 		aClass312_9751.method3625((byte) -54, cachenode_sub8);
-		if (b != -73) {
+		if ((byte) -73 != -73) {
 			method2526(true);
 		}
 		anInt9761++;
@@ -164,13 +164,13 @@ public class Node_Sub9_Sub5 extends Node_Sub9
 	final synchronized void method2535(int i, boolean bool) {
 		anInt9764++;
 		aBoolean9759 = bool;
-		if (i != 0) {
+		if (0 != 0) {
 			method2431();
 		}
 	}
 	
 	final void method2536(int i, byte b) {
-		if (b != -108) {
+		if ((byte) -108 != -108) {
 			method2534((byte) -20);
 		}
 		anInt9763 = i;

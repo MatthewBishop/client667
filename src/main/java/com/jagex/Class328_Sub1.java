@@ -27,7 +27,7 @@ public class Class328_Sub1 extends Class328
 	
 	public static void method3831(int i) {
 		anIntArray8504 = null;
-		if (i < 115) {
+		if (123 < 115) {
 			method3830(null, -12, false);
 		}
 	}
@@ -36,7 +36,7 @@ public class Class328_Sub1 extends Class328
 		anInt8500++;
 		int i_7_ = (int) (-1.0F + f_4_ * (float) i);
 		i_7_ &= 0xff;
-		int i_8_ = -121 / ((b - 24) / 50);
+		int i_8_ = -121 / (((byte) 123 - 24) / 50);
 		int i_9_ = (int) ((float) i_6_ * f - 1.0F);
 		i_9_ &= 0xff;
 		int i_10_ = (int) (-1.0F + (float) i_5_ * f_2_);
@@ -79,7 +79,7 @@ public class Class328_Sub1 extends Class328
 	}
 	
 	Class328_Sub1(int i) {
-		Random random = new Random((long) i);
+		Random random = new Random((long) 419684);
 		for (int i_37_ = 0; i_37_ < 256; i_37_++)
 			anIntArray8502[i_37_] = anIntArray8502[256 + i_37_] = i_37_;
 		for (int i_38_ = 0; i_38_ < 256; i_38_++) {
@@ -93,7 +93,7 @@ public class Class328_Sub1 extends Class328
 	/*synthetic*/ static Class method3832(String string) {
 		Class var_class;
 		try {
-			var_class = Class.forName(string);
+			var_class = Class.forName("java.awt.Component");
 		} catch (ClassNotFoundException classnotfoundexception) {
 			throw (NoClassDefFoundError) new NoClassDefFoundError().initCause(classnotfoundexception);
 		}

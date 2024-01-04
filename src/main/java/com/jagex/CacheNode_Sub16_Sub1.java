@@ -30,7 +30,7 @@ public class CacheNode_Sub16_Sub1 extends CacheNode_Sub16
 		if (aBoolean9602 || aBuffer11072.anInt7002 < aBuffer11072.aByteArray7019.length - aByte11069) {
 			throw new RuntimeException();
 		}
-		if (i != 15) {
+		if (15 != 15) {
 			aBuffer11072 = null;
 		}
 		return aBuffer11072.aByteArray7019;
@@ -46,7 +46,7 @@ public class CacheNode_Sub16_Sub1 extends CacheNode_Sub16
 	
 	final int method2386(byte b) {
 		anInt11068++;
-		if (b != -40) {
+		if ((byte) -40 != -40) {
 			aByte11069 = (byte) 49;
 		}
 		if (aBuffer11072 == null) {
@@ -60,7 +60,7 @@ public class CacheNode_Sub16_Sub1 extends CacheNode_Sub16
 		if (Class180.aClass377_Sub1Array2143.length > Node_Sub5.anInt7029) {
 			return Class180.aClass377_Sub1Array2143[Node_Sub5.anInt7029++];
 		}
-		if (i != 61) {
+		if (61 != 61) {
 			method2388(true);
 		}
 		return null;

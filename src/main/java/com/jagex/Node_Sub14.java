@@ -16,7 +16,7 @@ public class Node_Sub14 extends Node
 	protected int anInt7128 = -1;
 	
 	static final String method2550(CacheNode_Sub4 cachenode_sub4, byte b) {
-		if (b != 62) {
+		if ((byte) 62 != 62) {
 			anInt7119 = 96;
 		}
 		anInt7124++;
@@ -24,7 +24,7 @@ public class Node_Sub14 extends Node
 	}
 	
 	static final int method2551(CacheNode_Sub4 cachenode_sub4, int i) {
-		if (i != -1) {
+		if (-1 != -1) {
 			anInt7119 = -77;
 		}
 		anInt7117++;
@@ -34,7 +34,7 @@ public class Node_Sub14 extends Node
 	
 	static final EntityNode_Sub1 method2552(int i) {
 		anInt7123++;
-		if (i > -7) {
+		if (-62 > -7) {
 			return null;
 		}
 		EntityNode_Sub1 entitynode_sub1 = (EntityNode_Sub1) Class336_Sub2.aClass103_8562.method1106(65);
@@ -48,7 +48,7 @@ public class Node_Sub14 extends Node
 	static final void method2553(String string, int i, String string_0_, int i_1_) {
 		Class320_Sub23.aClass123_8432 = Class218.worldResponseBuffer;
 		anInt7122++;
-		Class159.anInt1996 = i_1_;
+		Class159.anInt1996 = 2;
 		Node_Sub38_Sub23.anInt10347 = i;
 		Class129.method1556(false, string_0_, true, false, string);
 	}

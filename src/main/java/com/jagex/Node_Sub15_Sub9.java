@@ -16,9 +16,9 @@ public class Node_Sub15_Sub9 extends Node_Sub15
 	
 	static final void method2576(byte b, int i, int i_0_) {
 		anInt9841++;
-		if (b == 26) {
-			CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(b ^ 0x19, 7, (long) i_0_);
-			cachenode_sub2.method2288(b + -26);
+		if ((byte) 26 == 26) {
+			CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754((byte) 26 ^ 0x19, 7, (long) i_0_);
+			cachenode_sub2.method2288((byte) 26 + -26);
 			cachenode_sub2.anInt9434 = i;
 		}
 	}
@@ -26,7 +26,7 @@ public class Node_Sub15_Sub9 extends Node_Sub15
 	public static void method2577(int i) {
 		aClass346_9842 = null;
 		aClass257_9838 = null;
-		if (i != 11) {
+		if (11 != 11) {
 			anInt9839 = -118;
 		}
 		anInterface6_9843 = null;

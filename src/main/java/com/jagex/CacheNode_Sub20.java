@@ -32,7 +32,7 @@ abstract class CacheNode_Sub20 extends CacheNode
 			node_sub3.aBoolean6946 = !node_sub3.aBoolean6946;
 			node_sub3.aClass189_Sub1_6943.method1917(node_sub3.aBoolean6946, 1);
 		}
-		if (bool != true) {
+		if (true != true) {
 			method2407(-73);
 		}
 	}
@@ -40,7 +40,7 @@ abstract class CacheNode_Sub20 extends CacheNode
 	abstract Object method2409(byte b);
 	
 	public static void method2410(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			method2406(null, 50);
 		}
 		anIntArray9628 = null;

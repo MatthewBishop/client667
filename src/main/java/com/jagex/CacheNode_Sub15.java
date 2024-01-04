@@ -25,7 +25,7 @@ public class CacheNode_Sub15 extends CacheNode
 				if (!Node_Sub15_Sub11.aClass302_9859.method3536(-1, anInt9591)) {
 					return false;
 				}
-				int[] is = Node_Sub15_Sub11.aClass302_9859.method3532(anInt9591, i ^ ~0x1a2);
+				int[] is = Node_Sub15_Sub11.aClass302_9859.method3532(anInt9591, -419 ^ ~0x1a2);
 				aByteArrayArray9596 = new byte[is.length][];
 				for (int i_0_ = 0; is.length > i_0_; i_0_++)
 					aByteArrayArray9596[i_0_] = Node_Sub15_Sub11.aClass302_9859.method3524(false, is[i_0_], anInt9591);
@@ -49,7 +49,7 @@ public class CacheNode_Sub15 extends CacheNode
 		synchronized (Node_Sub15_Sub11.aClass302_9859) {
 			int i_3_ = Node_Sub15_Sub11.aClass302_9859.method3537(-2, anInt9591);
 			aClass222Array9595 = new Class222[i_3_];
-			if (i != -419) {
+			if (-419 != -419) {
 				method2381((byte) 47, -27);
 			}
 			is = Node_Sub15_Sub11.aClass302_9859.method3532(anInt9591, 0);
@@ -60,7 +60,7 @@ public class CacheNode_Sub15 extends CacheNode
 			buffer.anInt7002 = 1;
 			int i_5_ = buffer.method2219(-130546744);
 			Node_Sub40 node_sub40 = null;
-			for (Node_Sub40 node_sub40_6_ = (Node_Sub40) class312.method3613(i + 65699); node_sub40_6_ != null; node_sub40_6_ = (Node_Sub40) class312.method3620(16776960)) {
+			for (Node_Sub40 node_sub40_6_ = (Node_Sub40) class312.method3613(-419 + 65699); node_sub40_6_ != null; node_sub40_6_ = (Node_Sub40) class312.method3620(16776960)) {
 				if (node_sub40_6_.anInt7506 == i_5_) {
 					node_sub40 = node_sub40_6_;
 					break;
@@ -117,7 +117,7 @@ public class CacheNode_Sub15 extends CacheNode
 	public static void method2380(boolean bool) {
 		aClass318_9590 = null;
 		anIntArray9586 = null;
-		if (bool != false) {
+		if (false != false) {
 			method2379(95, 36);
 		}
 	}
@@ -132,7 +132,7 @@ public class CacheNode_Sub15 extends CacheNode
 	
 	final boolean method2382(int i, int i_10_) {
 		anInt9585++;
-		if (i != 32) {
+		if (32 != 32) {
 			return true;
 		}
 		return aClass222Array9595[i_10_].aBoolean2646;

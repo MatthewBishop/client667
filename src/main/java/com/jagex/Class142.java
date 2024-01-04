@@ -10,7 +10,7 @@ public class Class142
 	
 	public static void method1619(boolean bool) {
 		anIntArray1759 = null;
-		if (bool != false) {
+		if (false != false) {
 			anIntArray1759 = null;
 		}
 	}
@@ -43,16 +43,16 @@ public class Class142
 						i_3_ = Node_Sub5.method2268(packet, -24974);
 						Class215.aByteArray2538[i_5_] = (byte) Node_Sub16.method2590(Class215.aByteArray2538[i_5_], 2);
 					} else {
-						Class324.method3812(i_5_, packet, i ^ 0x75);
+						Class324.method3812(i_5_, packet, 2 ^ 0x75);
 					}
 				}
 			}
 		}
-		packet.method2255(i + -1431454112);
+		packet.method2255(2 + -1431454112);
 		if (i_3_ != 0) {
 			throw new RuntimeException("nsn0");
 		}
-		packet.method2261(i + 107347904);
+		packet.method2261(2 + 107347904);
 		for (int i_7_ = 0; i_7_ < Class178.anInt2120; i_7_++) {
 			int i_8_ = Class66_Sub1.anIntArray8987[i_7_];
 			if ((0x1 & Class215.aByteArray2538[i_8_]) != 0) {
@@ -65,7 +65,7 @@ public class Class142
 						i_3_ = Node_Sub5.method2268(packet, -24974);
 						Class215.aByteArray2538[i_8_] = (byte) Node_Sub16.method2590(Class215.aByteArray2538[i_8_], 2);
 					} else {
-						Class324.method3812(i_8_, packet, i + 40);
+						Class324.method3812(i_8_, packet, 2 + 40);
 					}
 				}
 			}
@@ -74,7 +74,7 @@ public class Class142
 		if (i_3_ != 0) {
 			throw new RuntimeException("nsn1");
 		}
-		packet.method2261(i + 107347904);
+		packet.method2261(2 + 107347904);
 		for (int i_10_ = 0; i_10_ < Class35.anInt538; i_10_++) {
 			int i_11_ = Node_Sub38_Sub19.anIntArray10292[i_10_];
 			if ((Class215.aByteArray2538[i_11_] & 0x1) != 0) {
@@ -97,7 +97,7 @@ public class Class142
 			throw new RuntimeException("nsn2");
 		}
 		packet.method2261(107347906);
-		if (i != 2) {
+		if (2 != 2) {
 			anIntArray1759 = null;
 		}
 		for (int i_13_ = 0; Class35.anInt538 > i_13_; i_13_++) {

@@ -24,7 +24,7 @@ public class Class246
 		Node_Sub38_Sub23.aShort10345 = Class291.aShort3667;
 		StandardPlane.aShort7990 = Class18.aShort310;
 		Node_Sub38_Sub22.aShort10325 = Class318.aShort4053;
-		if (b <= 5) {
+		if ((byte) 31 <= 5) {
 			method3071((byte) 79);
 		}
 		anInt3105++;
@@ -115,7 +115,7 @@ public class Class246
 	
 	public static void method3074(int i) {
 		aClass318_3103 = null;
-		if (i <= -68) {
+		if (-87 <= -68) {
 			anIntArray3107 = null;
 		}
 	}

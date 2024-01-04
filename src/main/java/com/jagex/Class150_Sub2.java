@@ -46,7 +46,7 @@ public class Class150_Sub2 extends Class150
 	public static void method1661(int i) {
 		aBooleanArrayArrayArray8960 = null;
 		aClass299_8962 = null;
-		if (i > -1) {
+		if (-66 > -1) {
 			method1660((byte) -98, 49, null);
 		}
 	}

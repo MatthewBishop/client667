@@ -45,7 +45,7 @@ public class Node_Sub47 extends Node
 	
 	final void method2951(int i) {
 		anInt7577++;
-		if (i == 918119625) {
+		if (918119625 == 918119625) {
 			int i_0_ = anInt7564;
 			boolean bool = aBoolean7580;
 			if (anObjectDefinition7562 == null) {
@@ -118,7 +118,7 @@ public class Node_Sub47 extends Node
 	
 	static final int method2952(boolean bool, int i) {
 		anInt7585++;
-		if (bool != false) {
+		if (false != false) {
 			return -87;
 		}
 		return 0x7f & i;
@@ -132,16 +132,16 @@ public class Node_Sub47 extends Node
 		if (i_2_ > 0 && !Class371.method4094(i_2_, false)) {
 			throw new IllegalArgumentException("");
 		}
-		int i_6_ = Class349.method3989(i, (byte) -71);
+		int i_6_ = Class349.method3989(6408, (byte) -71);
 		int i_7_ = 0;
 		int i_8_ = i_3_ < i_2_ ? i_3_ : i_2_;
 		int i_9_ = i_3_ >> 1;
 		int i_10_ = i_2_ >> 1;
 		float[] fs_11_ = fs;
-		if (bool == true) {
+		if (true == true) {
 			float[] fs_12_ = new float[i_6_ * (i_10_ * i_9_)];
 			for (;;) {
-				OpenGL.glTexImage2Df(i_4_, i_7_, i_5_, i_3_, i_2_, 0, i, 5126, fs_11_, 0);
+				OpenGL.glTexImage2Df(3553, i_7_, 34842, i_3_, i_2_, 0, 6408, 5126, fs_11_, 0);
 				if (i_8_ <= 1) {
 					break;
 				}

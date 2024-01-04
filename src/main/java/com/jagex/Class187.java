@@ -20,14 +20,14 @@ public class Class187
 	static Class318 aClass318_2277;
 	
 	static final void method1876(int i, long l) {
-		if (i == -1) {
+		if (-1 == -1) {
 			anInt2272++;
 			Class141.aCalendar1754.setTime(new Date(l));
 		}
 	}
 	
 	final int method1877(byte b) {
-		if (b != 71) {
+		if ((byte) 71 != 71) {
 			return 27;
 		}
 		anInt2271++;
@@ -35,7 +35,7 @@ public class Class187
 	}
 	
 	final boolean method1878(byte b) {
-		if (b != 60) {
+		if ((byte) 60 != 60) {
 			return false;
 		}
 		anInt2268++;
@@ -58,14 +58,14 @@ public class Class187
 	
 	public static void method1880(byte b) {
 		aClass192_2265 = null;
-		if (b > -126) {
+		if ((byte) -127 > -126) {
 			method1882(-3, -66);
 		}
 		aClass318_2277 = null;
 	}
 	
 	final int method1881(byte b) {
-		if (b != 25) {
+		if ((byte) 25 != 25) {
 			return 8;
 		}
 		anInt2273++;

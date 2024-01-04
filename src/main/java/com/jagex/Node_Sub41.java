@@ -9,7 +9,7 @@ public class Node_Sub41 extends Node
 	static Class114 aClass114_7519 = new Class114(8);
 	
 	public static void method2930(int i) {
-		if (i == 17334) {
+		if (17334 == 17334) {
 			aClass114_7519 = null;
 			aClass129_7515 = null;
 		}

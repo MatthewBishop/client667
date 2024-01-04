@@ -30,7 +30,7 @@ public class Node_Sub38_Sub7 extends Node_Sub38
 	
 	static final void method2806(byte b) {
 		anInt10152++;
-		int i = 16 % ((b - 59) / 43);
+		int i = 16 % (((byte) -1 - 59) / 43);
 		for (int i_0_ = 0; i_0_ < 100; i_0_++)
 			r_Sub2.aClass253Array11063[i_0_] = null;
 		Class336_Sub2.anInt8581 = 0;
@@ -300,7 +300,7 @@ public class Node_Sub38_Sub7 extends Node_Sub38
 	
 	public static void method2808(byte b) {
 		anIntArray10143 = null;
-		if (b == 24) {
+		if ((byte) 24 == 24) {
 			anIntArray10150 = null;
 		}
 	}

@@ -43,7 +43,7 @@ public class Node_Sub39 extends Node
 		if (aString7476.length() > 40) {
 			aString7476 = aString7476.substring(0, 40);
 		}
-		if (bool != false) {
+		if (false != false) {
 			method2922(true);
 		}
 		if (aString7483.length() > 10) {
@@ -74,8 +74,8 @@ public class Node_Sub39 extends Node
 		buffer.method2226(anInt7470, false);
 		buffer.method2226(anInt7480, false);
 		buffer.method2226(!aBoolean7489 ? 0 : 1, false);
-		buffer.method2210(anInt7490, i + 19730);
-		if (i == -19819) {
+		buffer.method2210(anInt7490, -19819 + 19730);
+		if (-19819 == -19819) {
 			buffer.method2226(anInt7482, false);
 			buffer.method2225((byte) 95, anInt7484);
 			buffer.method2210(anInt7477, -108);
@@ -84,7 +84,7 @@ public class Node_Sub39 extends Node
 			buffer.method2226(anInt7468, false);
 			buffer.method2198(aString7487, 30);
 			buffer.method2198(aString7476, -109);
-			buffer.method2198(aString7483, i + 19898);
+			buffer.method2198(aString7483, -19819 + 19898);
 			buffer.method2198(aString7469, -120);
 			buffer.method2226(anInt7492, false);
 			buffer.method2210(anInt7495, -45);
@@ -94,7 +94,7 @@ public class Node_Sub39 extends Node
 	static final void method2921(boolean bool, int i, int i_0_, int i_1_, Widget widget) {
 		anInt7471++;
 		int i_2_ = widget.anInt4809;
-		if (i_0_ != 18815) {
+		if (18815 != 18815) {
 			method2919(false);
 		}
 		int i_3_ = widget.anInt4695;
@@ -161,7 +161,7 @@ public class Node_Sub39 extends Node
 	
 	final int method2923(byte b) {
 		anInt7472++;
-		if (b != 66) {
+		if ((byte) 66 != 66) {
 			return 15;
 		}
 		int i = 23;
@@ -177,7 +177,7 @@ public class Node_Sub39 extends Node
 	}
 	
 	Node_Sub39(boolean bool, SignLink signlink) {
-		if (bool) {
+		if (true) {
 			if (!SignLink.aString3981.startsWith("win")) {
 				if (!SignLink.aString3981.startsWith("mac")) {
 					if (SignLink.aString3981.startsWith("linux")) {

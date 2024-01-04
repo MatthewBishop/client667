@@ -57,7 +57,7 @@ public class Node_Sub8 extends Node
 	
 	public static void method2425(int i) {
 		aClass151_7066 = null;
-		if (i <= 78) {
+		if (90 <= 78) {
 			method2423((byte) 108);
 		}
 	}

@@ -41,21 +41,21 @@ public class Class262_Sub6 extends Class262
 	public static void method3165(int i) {
 		aClass192_7748 = null;
 		aClass124_7745 = null;
-		if (i != 0) {
+		if (0 != 0) {
 			aClass124_7745 = null;
 		}
 	}
 	
 	static final void method3166(byte b, int i, int i_2_, int i_3_, int i_4_, int i_5_, int i_6_) {
 		anInt7743++;
-		if (b <= 41) {
+		if ((byte) 55 <= 41) {
 			aClass192_7748 = null;
 		}
 		for (EntityNode_Sub2 entitynode_sub2 = (EntityNode_Sub2) Class226.aClass103_2684.method1113((byte) 122); entitynode_sub2 != null; entitynode_sub2 = (EntityNode_Sub2) Class226.aClass103_2684.method1108(88)) {
 			if (Class174.anInt2092 >= entitynode_sub2.anInt5947) {
 				entitynode_sub2.method803(false);
 			} else {
-				Animable_Sub1.method826(2 * entitynode_sub2.anInt5950, -1, (entitynode_sub2.anInt5957 << 9) + 256, i_4_, i >> 1, i_2_, (entitynode_sub2.anInt5948 << 9) - -256, entitynode_sub2.anInt5955, i_3_ >> 1);
+				Animable_Sub1.method826(2 * entitynode_sub2.anInt5950, -1, (entitynode_sub2.anInt5957 << 9) + 256, 256, i >> 1, 256, (entitynode_sub2.anInt5948 << 9) - -256, entitynode_sub2.anInt5955, i_3_ >> 1);
 				Class262_Sub4.aClass52_7721.method537(0, (byte) 111, Class119.anIntArray1516[0] + i_6_, entitynode_sub2.aString5953, Class119.anIntArray1516[1] + i_5_, entitynode_sub2.anInt5951 | ~0xffffff);
 			}
 		}

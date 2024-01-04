@@ -15,7 +15,7 @@ abstract class Node_Sub36 extends Node
 		anInt7422++;
 		int i_2_ = i_1_ - -Node_Sub53.anInt7668;
 		int i_3_ = Class320_Sub4.anInt8243 + i_0_;
-		if (Class175.aClass261ArrayArrayArray2099 != null && i_1_ >= 0 && i_0_ >= 0 && i_1_ < Node_Sub54.anInt7675 && Class377_Sub1.anInt8774 > i_0_ && (Class213.aNode_Sub27_2512.aClass320_Sub19_7301.method3751(bool) != 0 || i == Class295.aPlayer3692.aByte5933)) {
+		if (Class175.aClass261ArrayArrayArray2099 != null && i_1_ >= 0 && i_0_ >= 0 && i_1_ < Node_Sub54.anInt7675 && Class377_Sub1.anInt8774 > i_0_ && (Class213.aNode_Sub27_2512.aClass320_Sub19_7301.method3751(false) != 0 || i == Class295.aPlayer3692.aByte5933)) {
 			long l = (long) (i_3_ << 14 | i << 28 | i_2_);
 			Node_Sub11 node_sub11 = (Node_Sub11) Class266.aHashTable3380.method1518(3512, l);
 			if (node_sub11 == null) {
@@ -100,7 +100,7 @@ abstract class Node_Sub36 extends Node
 		Class213.aNode_Sub27_2512.method2690(92, 1, Class213.aNode_Sub27_2512.aClass320_Sub15_7273);
 		Class320_Sub12.method3728(0);
 		Class120.method1228(-125);
-		Class152.aBoolean1942 = bool;
+		Class152.aBoolean1942 = true;
 	}
 	
 	static final int method2753(byte b, Class68 class68) {
@@ -126,7 +126,7 @@ abstract class Node_Sub36 extends Node
 		} else {
 			return 6406;
 		}
-		if (b != -18) {
+		if ((byte) -18 != -18) {
 			aClass192_7428 = null;
 		}
 		throw new IllegalStateException();
@@ -145,7 +145,7 @@ abstract class Node_Sub36 extends Node
 	}
 	
 	public static void method2755(byte b) {
-		if (b != 91) {
+		if ((byte) 91 != 91) {
 			method2757(-124, 93, (byte) 67);
 		}
 		anAnimableArray7429 = null;

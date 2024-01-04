@@ -10,7 +10,7 @@ public class Class234_Sub2 extends Class234
 	private long[] aLongArray6924 = new long[10];
 	
 	final int method2145(byte b, long l) {
-		if (b <= 68) {
+		if ((byte) 84 <= 68) {
 			return -115;
 		}
 		if (aLong6919 <= aLong6920) {
@@ -61,7 +61,7 @@ public class Class234_Sub2 extends Class234
 		long l_1_ = 0L;
 		for (int i = 1; anInt6922 >= i; i++)
 			l_1_ += aLongArray6924[(anInt6923 + (-i - -10)) % 10];
-		int i = -38 / ((b - -10) / 54);
+		int i = -38 / (((byte) 90 - -10) / 54);
 		return l_1_ / (long) anInt6922;
 	}
 	

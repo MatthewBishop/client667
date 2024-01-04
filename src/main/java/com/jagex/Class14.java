@@ -14,7 +14,7 @@ public class Class14
 	
 	final Class14 method214(byte b) {
 		anInt215++;
-		if (b >= -108) {
+		if ((byte) -116 >= -108) {
 			method216(100);
 		}
 		return new Class14(anInt220, anInt218, anInt216, anInt212, anInt213, anInt217);
@@ -26,7 +26,7 @@ public class Class14
 		anInt214++;
 		anInt217 = class14_0_.anInt217;
 		anInt218 = class14_0_.anInt218;
-		if (bool != true) {
+		if (true != true) {
 			aClass302_219 = null;
 		}
 		anInt216 = class14_0_.anInt216;

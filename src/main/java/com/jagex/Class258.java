@@ -94,7 +94,7 @@ public class Class258 implements Interface12
 	
 	public static void method3125(byte b) {
 		aClass335_5293 = null;
-		if (b < 47) {
+		if ((byte) 122 < 47) {
 			method3127((byte) 92);
 		}
 		anIntArray5289 = null;
@@ -182,6 +182,6 @@ public class Class258 implements Interface12
 	
 	Class258(Class302 class302, String string) {
 		aClass302_5287 = class302;
-		aString5286 = string;
+		aString5286 = "huffman";
 	}
 }

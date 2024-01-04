@@ -10,7 +10,7 @@ public class Class262_Sub2 extends Class262
 	static int anInt7710;
 	
 	static final void method3152(byte b) {
-		if (b == -32) {
+		if ((byte) -32 == -32) {
 			anInt7709++;
 			Class335.aClass61_4161.method608(false);
 		}
@@ -39,11 +39,11 @@ public class Class262_Sub2 extends Class262
 		Class180.anInt2133 = i_2_;
 		Node_Sub6.method2419(99);
 		Class262_Sub16.aBoolean7830 = true;
-		int i_9_ = -16 % ((44 - i_7_) / 54);
+		int i_9_ = -16 % ((44 - 126) / 54);
 	}
 	
 	public static void method3154(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			aClass302_7707 = null;
 		}
 		aClass302_7707 = null;

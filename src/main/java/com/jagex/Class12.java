@@ -26,8 +26,8 @@ public class Class12
 	private final void method195(int i, Interface18 interface18) {
 		anInt180++;
 		long l = interface18.method67(26165);
-		if (i == 0) {
-			for (CacheNode_Sub14 cachenode_sub14 = (CacheNode_Sub14) aHashTable190.method1518(i + 3512, l); cachenode_sub14 != null; cachenode_sub14 = (CacheNode_Sub14) aHashTable190.method1524((byte) 84)) {
+		if (0 == 0) {
+			for (CacheNode_Sub14 cachenode_sub14 = (CacheNode_Sub14) aHashTable190.method1518(0 + 3512, l); cachenode_sub14 != null; cachenode_sub14 = (CacheNode_Sub14) aHashTable190.method1524((byte) 84)) {
 				if (cachenode_sub14.anInterface18_9576.method66(28071, interface18)) {
 					method198(false, cachenode_sub14);
 					break;
@@ -39,7 +39,7 @@ public class Class12
 	final void method196(boolean bool) {
 		aClass158_188.method1722(true);
 		anInt182++;
-		aHashTable190.method1517(bool);
+		aHashTable190.method1517(false);
 		anInt192 = anInt185;
 	}
 	
@@ -52,13 +52,13 @@ public class Class12
 			}
 		}
 		anInt189++;
-		if (b <= 23) {
+		if ((byte) 46 <= 23) {
 			method199(true, -89);
 		}
 	}
 	
 	private final void method198(boolean bool, CacheNode_Sub14 cachenode_sub14) {
-		if (bool != false) {
+		if (false != false) {
 			anInt185 = -28;
 		}
 		anInt181++;
@@ -102,7 +102,7 @@ public class Class12
 	}
 	
 	final int method201(int i) {
-		if (i != 48) {
+		if (48 != 48) {
 			return 17;
 		}
 		anInt191++;
@@ -112,25 +112,25 @@ public class Class12
 	public static void method202(int i) {
 		aClass192_197 = null;
 		aClass257_198 = null;
-		int i_1_ = -8 % ((i - -59) / 57);
+		int i_1_ = -8 % ((-2 - -59) / 57);
 		aHashTable187 = null;
 	}
 	
 	private final void method203(boolean bool, int i, Object object, Interface18 interface18) {
 		anInt186++;
-		if (i > anInt185) {
+		if (1 > anInt185) {
 			throw new IllegalStateException("s>cs");
 		}
-		if (bool == false) {
+		if (false == false) {
 			method195(0, interface18);
-			anInt192 -= i;
+			anInt192 -= 1;
 			while (anInt192 < 0) {
 				CacheNode_Sub14 cachenode_sub14 = (CacheNode_Sub14) aClass158_188.method1717(-107);
 				method198(false, cachenode_sub14);
 			}
-			CacheNode_Sub14_Sub2 cachenode_sub14_sub2 = new CacheNode_Sub14_Sub2(interface18, object, i);
+			CacheNode_Sub14_Sub2 cachenode_sub14_sub2 = new CacheNode_Sub14_Sub2(interface18, object, 1);
 			aHashTable190.method1515(interface18.method67(26165), cachenode_sub14_sub2, -124);
-			aClass158_188.method1719(!bool, cachenode_sub14_sub2);
+			aClass158_188.method1719(!false, cachenode_sub14_sub2);
 			cachenode_sub14_sub2.aLong7037 = 0L;
 		}
 	}
@@ -170,16 +170,16 @@ public class Class12
 	final void method205(Object object, int i, Interface18 interface18) {
 		anInt184++;
 		method203(false, 1, object, interface18);
-		if (i != 0) {
+		if (0 != 0) {
 			method204(null, (byte) -125);
 		}
 	}
 	
 	Class12(int i) {
-		anInt185 = i;
-		anInt192 = i;
+		anInt185 = 250;
+		anInt192 = 250;
 		int i_2_;
-		for (i_2_ = 1; i > i_2_ + i_2_; i_2_ += i_2_) {
+		for (i_2_ = 1; 250 > i_2_ + i_2_; i_2_ += i_2_) {
 			/* empty */
 		}
 		aHashTable190 = new HashTable(i_2_);

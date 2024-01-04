@@ -36,7 +36,7 @@ public class Class219
 	
 	public static void method2096(boolean bool) {
 		anIntArray2625 = null;
-		if (bool != true) {
+		if (true != true) {
 			method2095((byte) -80);
 		}
 	}

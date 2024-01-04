@@ -51,14 +51,14 @@ public class SignLink implements Runnable
 	/*synthetic*/ static Class aClass4009;
 	
 	final Object method3626(byte b) {
-		if (b != 94) {
+		if ((byte) 94 != 94) {
 			method3640(15);
 		}
 		return anObject3991;
 	}
 	
 	final Class241 method3627(int i, int i_0_, int i_1_, int i_2_, int i_3_) {
-		if (i_1_ != -1071975440) {
+		if (-1071975440 != -1071975440) {
 			return null;
 		}
 		return method3643((i << 16) - -i_3_, 6, null, 9, (i_2_ << 16) + i_0_);
@@ -79,7 +79,7 @@ public class SignLink implements Runnable
 	}
 	
 	private static final FileOnDisk method3630(String string, int i, String string_5_, int i_6_) {
-		if (i_6_ != 19613) {
+		if (19613 != 19613) {
 			aString3984 = null;
 		}
 		String string_7_;
@@ -109,17 +109,17 @@ public class SignLink implements Runnable
 		if (b <= 70) {
 			aString3987 = null;
 		}
-		if (!bool) {
+		if (!true) {
 			return method3643(0, 13, string, 9, 0);
 		}
 		return method3643(0, 12, string, 9, 0);
 	}
 	
 	final Class241 method3632(byte b, int i) {
-		if (b != -78) {
+		if ((byte) -78 != -78) {
 			run();
 		}
-		return method3643(0, 3, null, b ^ ~0x44, i);
+		return method3643(0, 3, null, (byte) -78 ^ ~0x44, i);
 	}
 	
 	static final FileOnDisk method3633(int i, String string) {
@@ -130,7 +130,7 @@ public class SignLink implements Runnable
 	}
 	
 	final Class241 method3634(byte b) {
-		if (b != 25) {
+		if ((byte) 25 != 25) {
 			method3638(null, null, null, false);
 		}
 		return method3643(0, 5, null, 9, 0);
@@ -187,16 +187,16 @@ public class SignLink implements Runnable
 	}
 	
 	final Class241 method3636(String string, byte b) {
-		if (b != 95) {
+		if ((byte) 95 != 95) {
 			return null;
 		}
-		return method3643(0, 16, string, b + -86, 0);
+		return method3643(0, 16, string, (byte) 95 + -86, 0);
 	}
 	
 	final boolean method3637(File file, int i, byte[] bs) {
 		try {
 			FileOutputStream fileoutputstream = new FileOutputStream(file);
-			fileoutputstream.write(bs, i, bs.length);
+			fileoutputstream.write(bs, 0, bs.length);
 			fileoutputstream.close();
 			return true;
 		} catch (IOException ioexception) {
@@ -205,17 +205,17 @@ public class SignLink implements Runnable
 	}
 	
 	final Class241 method3638(Class var_class, Class[] var_classes, String string, boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			method3635(-84);
 		}
 		return method3643(0, 8, new Object[] { var_class, string, var_classes }, 9, 0);
 	}
 	
 	final Class241 method3639(Frame frame, int i) {
-		if (i != 14438) {
+		if (14438 != 14438) {
 			method3629(null, false, true, -92);
 		}
-		return method3643(0, 7, frame, i ^ 0x386f, 0);
+		return method3643(0, 7, frame, 14438 ^ 0x386f, 0);
 	}
 	
 	final boolean method3640(int i) {
@@ -238,14 +238,14 @@ public class SignLink implements Runnable
 	}
 	
 	final Class241 method3641(byte b, Runnable runnable, int i) {
-		if (b != 50) {
+		if ((byte) 50 != 50) {
 			aBoolean3993 = false;
 		}
 		return method3643(0, 2, runnable, 9, i);
 	}
 	
 	final Class241 method3642(byte b, URL url) {
-		if (b != -80) {
+		if ((byte) -80 != -80) {
 			method3640(111);
 		}
 		return method3643(0, 4, url, 9, 0);
@@ -274,7 +274,7 @@ public class SignLink implements Runnable
 	
 	final void method3644(byte b) {
 		aLong3999 = Class313.method3650(false) + 5000L;
-		int i = -90 / ((b - -5) / 40);
+		int i = -90 / (((byte) -64 - -5) / 40);
 	}
 	
 	final Class241 method3645(int i, byte b, int[] is, Component component, Point point, int i_14_) {
@@ -519,8 +519,8 @@ public class SignLink implements Runnable
 			aFileOnDisk3994 = new FileOnDisk(Class351.method4004((byte) 91, null, anInt3978, "random.dat"), "rw", 25L);
 			aFileOnDisk3979 = new FileOnDisk(Class351.method4003("main_file_cache.dat2", 84), "rw", 314572800L);
 			aFileOnDisk3992 = new FileOnDisk(Class351.method4003("main_file_cache.idx255", 86), "rw", 1048576L);
-			aFileOnDiskArray4003 = new FileOnDisk[i_20_];
-			for (int i_21_ = 0; i_21_ < i_20_; i_21_++)
+			aFileOnDiskArray4003 = new FileOnDisk[37];
+			for (int i_21_ = 0; i_21_ < 37; i_21_++)
 				aFileOnDiskArray4003[i_21_] = new FileOnDisk(Class351.method4003("main_file_cache.idx" + i_21_, 66), "rw", 1048576L);
 			if (aBoolean3985) {
 				try {

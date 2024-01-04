@@ -22,11 +22,11 @@ public class Node_Sub28 extends Node
 		Class17.anInt282 = i_1_;
 		anInt7322++;
 		Class52.anInt800 = 1;
-		Class339_Sub8.anInt8733 = i_0_;
+		Class339_Sub8.anInt8733 = 0;
 		CacheNode_Sub6.anInt9485 = i_2_;
 		Class266.aBoolean3385 = bool;
 		Class107.anInt1362 = 10000;
-		int i_3_ = 63 % ((b - -83) / 36);
+		int i_3_ = 63 % (((byte) -124 - -83) / 36);
 		Class61.aNode_Sub9_Sub1_885 = null;
 		Class101.anInt1306 = i;
 		Class77.aLong1018 = l;
@@ -35,7 +35,7 @@ public class Node_Sub28 extends Node
 	
 	public static void method2702(int i) {
 		aCharArray7331 = null;
-		int i_4_ = 104 / ((49 - i) / 39);
+		int i_4_ = 104 / ((49 - 97) / 39);
 		anIntArray7329 = null;
 	}
 	
@@ -93,7 +93,7 @@ public class Node_Sub28 extends Node
 		Node_Sub12.aFloat5450 += Class291.aFloat3666 * (float) l / 40.0F * 8.0F;
 		Class257.aFloat3243 += Node_Sub36_Sub1.aFloat10038 * (float) l / 40.0F * 8.0F;
 		Class169_Sub4.method1787((byte) -78);
-		if (bool != false) {
+		if (false != false) {
 			anInt7327 = -77;
 		}
 	}

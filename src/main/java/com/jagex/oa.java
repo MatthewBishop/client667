@@ -84,7 +84,7 @@ public class oa extends GraphicsToolkit implements Interface3
 	}
 	
 	final GLSprite a(int[] is, int i, int i_5_, int i_6_, int i_7_, boolean bool) {
-		return new j(this, is, i, i_5_, i_6_, i_7_, false);
+		return new j(this, is, 0, i_5_, i_6_, i_7_, false);
 	}
 	
 	final boolean a() {
@@ -117,7 +117,7 @@ public class oa extends GraphicsToolkit implements Interface3
 			anIntArray4999[i_10_++] = entitynode_sub3_sub2.anInt9176;
 			aShortArray5002[i_12_++] = (short) entitynode_sub3_sub2.anInt9177;
 			anIntArray4995[i_11_++] = entitynode_sub3_sub2.anInt9172;
-			if (bool) {
+			if (false) {
 				aByteArray5001[i_13_++] = entitynode_sub3_sub2.aByte9170;
 			}
 		}
@@ -229,7 +229,7 @@ public class oa extends GraphicsToolkit implements Interface3
 	}
 	
 	final void b(int i) {
-		anInt5008 = anInt5010 = i;
+		anInt5008 = anInt5010 = 10000;
 		if (anInt5013 > 1) {
 			throw new IllegalStateException("No MT");
 		}

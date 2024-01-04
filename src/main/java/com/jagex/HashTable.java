@@ -83,7 +83,7 @@ public class HashTable
 	final int method1519(byte b) {
 		anInt1585++;
 		int i = 0;
-		if (b != -90) {
+		if ((byte) -90 != -90) {
 			return -27;
 		}
 		for (int i_3_ = 0; anInt1592 > i_3_; i_3_++) {
@@ -148,7 +148,7 @@ public class HashTable
 	}
 	
 	final Node method1524(byte b) {
-		if (b != 84) {
+		if ((byte) 84 != 84) {
 			return null;
 		}
 		anInt1600++;

@@ -9,7 +9,7 @@ abstract class Class339
 	
 	static final void method3916(boolean bool, int i) {
 		anInt4205++;
-		if (bool != true) {
+		if (true != true) {
 			anInt4204 = -11;
 		}
 		CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(3, 6, (long) i);
@@ -27,7 +27,7 @@ abstract class Class339
 	static final int method3921(int i, int i_3_, int i_4_, int i_5_) {
 		i_5_ &= 0x3;
 		anInt4203++;
-		if (i_4_ != 7) {
+		if (7 != 7) {
 			return -97;
 		}
 		if (i_5_ == 0) {

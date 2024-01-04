@@ -10,7 +10,7 @@ abstract class Class262
 	static int[][] anIntArrayArray3328 = { { 12, 12, 12, 12 }, { 12, 12, 12, 12 }, { 5, 5, 5 }, { 5, 5, 5 }, { 5, 5, 5 }, { 5, 5, 5 }, { 12, 12, 12, 12, 12, 12 }, { 1, 1, 1, 7 }, { 1, 1, 7, 1 }, { 8, 9, 9, 8, 8, 9 }, { 8, 8, 9, 8, 9, 9 }, { 10, 10, 11, 11, 11, 10 }, { 12, 12, 12, 12 } };
 	
 	boolean method3145(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			aClass192_3327 = null;
 		}
 		anInt3324++;
@@ -24,7 +24,7 @@ abstract class Class262
 			Class320_Sub28.anObject8474 = Class135.method1588(bs, 23386, false);
 		}
 		anInt3325++;
-		if (bool != true) {
+		if (true != true) {
 			aClass192_3327 = null;
 		}
 		if (Class88.anObject5281 == null) {
@@ -44,7 +44,7 @@ abstract class Class262
 	}
 	
 	public static void method3147(int i) {
-		int i_0_ = 55 / ((47 - i) / 43);
+		int i_0_ = 55 / ((47 - 106) / 43);
 		aClass192_3327 = null;
 		aClass192_3326 = null;
 		anIntArrayArray3328 = null;

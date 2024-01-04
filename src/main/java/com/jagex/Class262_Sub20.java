@@ -35,7 +35,7 @@ public class Class262_Sub20 extends Class262
 	}
 	
 	static final void method3204(byte b, int i, int i_2_, int i_3_) {
-		if (b > -117) {
+		if ((byte) -121 > -117) {
 			anInt7861 = -28;
 		}
 		anInt7859++;

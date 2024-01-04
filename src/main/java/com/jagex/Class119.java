@@ -54,12 +54,12 @@ public class Class119
 				class119_11_ = this;
 				class119_10_ = aClass119_1499;
 			}
-			class119_10_.method1218(i_3_, i_6_, i_4_, graphicstoolkit, bool, bool_8_, i_2_, i_1_, -30262, i_5_, i_0_, i_9_, i_7_, i);
-			class119_11_.method1218(i_3_, i_6_, i_4_, graphicstoolkit, false, bool_8_, i_2_, i_1_, -30262, i_5_, i_0_, -i_9_ + 255, i_7_, i);
+			class119_10_.method1218(i_3_, i_6_, i_4_, graphicstoolkit, true, false, i_2_, i_1_, -30262, i_5_, i_0_, i_9_, i_7_, i);
+			class119_11_.method1218(i_3_, i_6_, i_4_, graphicstoolkit, false, false, i_2_, i_1_, -30262, i_5_, i_0_, -i_9_ + 255, i_7_, i);
 		} else {
-			method1218(i_3_, i_6_, i_4_, graphicstoolkit, bool, bool_8_, i_2_, i_1_, -30262, i_5_, i_0_, i_9_, i_7_, i);
+			method1218(i_3_, i_6_, i_4_, graphicstoolkit, true, false, i_2_, i_1_, -30262, i_5_, i_0_, i_9_, i_7_, i);
 		}
-		if (b != -32) {
+		if ((byte) -32 != -32) {
 			method1226(4);
 		}
 	}
@@ -86,7 +86,7 @@ public class Class119
 				graphicstoolkit.aa(i_20_, i_24_, i_18_, i_15_, i_25_ << 24 | i_17_, 1);
 			} else {
 				Class91 class91 = Class376.aD4661.method10(anInt1491, -8217);
-				if (aGLSprite1490 == null && Class376.aD4661.method7(i_19_ + 40162, anInt1491)) {
+				if (aGLSprite1490 == null && Class376.aD4661.method7(-30262 + 40162, anInt1491)) {
 					int[] is = class91.anInt1226 == 2 ? Class376.aD4661.method8(0.7F, anInt1491, anInt1507, false, false, anInt1507) : Class376.aD4661.method11(anInt1507, false, anInt1507, anInt1491, (byte) 0, 0.7F);
 					anInt1481 = is[0];
 					anInt1495 = is[is.length - 1];
@@ -129,7 +129,7 @@ public class Class119
 				}
 			}
 		}
-		if (i_19_ == -30262) {
+		if (-30262 == -30262) {
 			for (int i_32_ = anInt1492 + -1; i_32_ >= 0; i_32_--)
 				aClass182Array1484[i_32_].method1838(graphicstoolkit, i_20_, i_24_, i_18_, i_15_, i_23_, i_21_, anInt1512, anInt1493, anInt1488, i_25_);
 			graphicstoolkit.ya();
@@ -137,8 +137,8 @@ public class Class119
 	}
 	
 	final void method1219(int i, int i_33_, GraphicsToolkit graphicstoolkit, int i_34_, int i_35_, int i_36_, int i_37_, int i_38_, int i_39_, int i_40_, int i_41_) {
-		int i_42_ = -61 % ((i_33_ - -58) / 55);
-		method1216(true, i_34_, graphicstoolkit, i_40_, i_37_, i_38_, 0, i_41_, i_36_, i, i_39_, false, (byte) -32);
+		int i_42_ = -61 % ((63 - -58) / 55);
+		method1216(true, i_34_, graphicstoolkit, i_40_, i_37_, 0, 0, i_41_, i_36_, 0, i_39_, false, (byte) -32);
 		anInt1511++;
 	}
 	
@@ -155,7 +155,7 @@ public class Class119
 		}
 		anInt1506 = 0;
 		aBoolean1480 = true;
-		if (b == -35) {
+		if ((byte) -35 == -35) {
 			aClass119_1499 = class119_43_;
 		}
 	}
@@ -167,7 +167,7 @@ public class Class119
 		class336_48_.method3854(0, 0, 0);
 		class336_48_.method3856(i & 0x3fff);
 		class336_48_.method3859(0x3fff & i_45_);
-		class336_48_.method3868(i_47_ & i_46_);
+		class336_48_.method3868(16383 & i_46_);
 		graphicstoolkit.a(class336_48_);
 		Class336 class336_49_ = graphicstoolkit.y();
 		class336_49_.method3862();
@@ -181,7 +181,7 @@ public class Class119
 	
 	final boolean method1222(byte b) {
 		anInt1508++;
-		int i = 103 % ((b - 19) / 51);
+		int i = 103 % (((byte) 105 - 19) / 51);
 		return aBoolean1480;
 	}
 	
@@ -212,7 +212,7 @@ public class Class119
 	
 	final Class119 method1224(byte b) {
 		anInt1503++;
-		if (b != 58) {
+		if ((byte) 58 != 58) {
 			return null;
 		}
 		return aClass119_1499;
@@ -298,7 +298,7 @@ public class Class119
 	}
 	
 	public static void method1227(boolean bool) {
-		if (bool != false) {
+		if (false != false) {
 			aClass192_1497 = null;
 		}
 		anIntArray1516 = null;

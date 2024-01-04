@@ -18,7 +18,7 @@ public class Class179
 		Animable animable = entitynode_sub6.anAnimable5990;
 		boolean bool = true;
 		EntityNode_Sub5[] entitynode_sub5s = entitynode_sub6.anEntityNode_Sub5Array5995;
-		for (int i_0_ = i; i_0_ < entitynode_sub5s.length; i_0_++) {
+		for (int i_0_ = 0; i_0_ < entitynode_sub5s.length; i_0_++) {
 			if (entitynode_sub5s[i_0_].aBoolean5987) {
 				bool = false;
 				break;
@@ -29,7 +29,7 @@ public class Class179
 				for (EntityNode_Sub6 entitynode_sub6_1_ = (EntityNode_Sub6) aClass103_2124.method1113((byte) -3); entitynode_sub6_1_ != null; entitynode_sub6_1_ = (EntityNode_Sub6) aClass103_2124.method1108(99)) {
 					if (entitynode_sub6_1_.anAnimable5990 == animable) {
 						entitynode_sub6_1_.method803(false);
-						Class148.method1650(i, entitynode_sub6_1_);
+						Class148.method1650(0, entitynode_sub6_1_);
 					}
 				}
 			}
@@ -45,7 +45,7 @@ public class Class179
 	
 	public static void method1814(int i) {
 		aClass302_2132 = null;
-		if (i != 14398) {
+		if (14398 != 14398) {
 			aString2123 = null;
 		}
 		aString2123 = null;
@@ -60,7 +60,7 @@ public class Class179
 			entitynode_sub6.method803(false);
 			Class148.method1650(0, entitynode_sub6);
 		}
-		if (b != 74) {
+		if ((byte) 74 != 74) {
 			method1816(105, 109, -87);
 		}
 		anInt2126++;
@@ -79,7 +79,7 @@ public class Class179
 	
 	static final boolean method1817(int i, int i_5_, int i_6_) {
 		anInt2125++;
-		if (i != -1) {
+		if (-1 != -1) {
 			return false;
 		}
 		if ((i_6_ & 0x800) == 0) {

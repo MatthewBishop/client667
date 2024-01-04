@@ -26,10 +26,10 @@ public class CacheNode_Sub11 extends CacheNode
 	
 	final boolean method2334(int i, int i_0_, int i_1_, int[] is) {
 		anInt9551++;
-		if (i != 2048) {
+		if (2048 != 2048) {
 			method2340(-86, (byte) -124, 70, null);
 		}
-		for (Node_Sub52 node_sub52 = (Node_Sub52) aClass312_9549.method3613(65280); node_sub52 != null; node_sub52 = (Node_Sub52) aClass312_9549.method3620(i ^ 0xfff700)) {
+		for (Node_Sub52 node_sub52 = (Node_Sub52) aClass312_9549.method3613(65280); node_sub52 != null; node_sub52 = (Node_Sub52) aClass312_9549.method3620(2048 ^ 0xfff700)) {
 			if (node_sub52.method2977(i_0_, (byte) -20, i_1_)) {
 				node_sub52.method2970(is, 2, i_0_, i_1_);
 				return true;
@@ -50,7 +50,7 @@ public class CacheNode_Sub11 extends CacheNode
 	}
 	
 	static final boolean method2336(int i, int i_4_, int i_5_) {
-		if (i != -1) {
+		if (-1 != -1) {
 			aByteArrayArrayArray9550 = null;
 		}
 		anInt9536++;
@@ -62,12 +62,12 @@ public class CacheNode_Sub11 extends CacheNode
 	
 	final boolean method2337(int i, int[] is, int i_6_, int i_7_, int i_8_) {
 		anInt9533++;
-		if (i != -12584) {
+		if (-12584 != -12584) {
 			return true;
 		}
 		for (Node_Sub52 node_sub52 = (Node_Sub52) aClass312_9549.method3613(65280); node_sub52 != null; node_sub52 = (Node_Sub52) aClass312_9549.method3620(16776960)) {
 			if (node_sub52.method2975(i_6_, (byte) 43, i_7_, i_8_)) {
-				node_sub52.method2970(is, i ^ ~0x3125, i_8_, i_6_);
+				node_sub52.method2970(is, -12584 ^ ~0x3125, i_8_, i_6_);
 				return true;
 			}
 		}
@@ -75,7 +75,7 @@ public class CacheNode_Sub11 extends CacheNode
 	}
 	
 	public static void method2338(byte b) {
-		if (b < 48) {
+		if ((byte) 89 < 48) {
 			aByteArrayArrayArray9550 = null;
 		}
 		aClass212_9548 = null;
@@ -87,7 +87,7 @@ public class CacheNode_Sub11 extends CacheNode
 		anInt9545 = 0;
 		anInt9534++;
 		anInt9541 = 12800;
-		if (i == 16) {
+		if (16 == 16) {
 			anInt9540 = 12800;
 			anInt9531 = 0;
 			for (Node_Sub52 node_sub52 = (Node_Sub52) aClass312_9549.method3613(65280); node_sub52 != null; node_sub52 = (Node_Sub52) aClass312_9549.method3620(16776960)) {

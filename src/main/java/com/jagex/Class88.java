@@ -15,7 +15,7 @@ public class Class88 implements Interface12
 	static final void method1016(int i) {
 		Node_Sub5_Sub2.aClass49Array9413 = null;
 		anInt5278++;
-		if (i != 892) {
+		if (892 != 892) {
 			aString5274 = null;
 		}
 	}
@@ -23,7 +23,7 @@ public class Class88 implements Interface12
 	public static void method1017(byte b) {
 		anObject5281 = null;
 		aGraphicsToolkit5280 = null;
-		if (b >= -72) {
+		if ((byte) -83 >= -72) {
 			method1018(-123, -27, -116, 95, -104);
 		}
 		aString5274 = null;
@@ -42,7 +42,7 @@ public class Class88 implements Interface12
 	
 	public final Class172 method34(byte b) {
 		anInt5279++;
-		int i = 21 / ((15 - b) / 48);
+		int i = 21 / ((15 - (byte) 88) / 48);
 		return Class172.aClass172_2079;
 	}
 	
@@ -93,7 +93,7 @@ public class Class88 implements Interface12
 	}
 	
 	Class88(Class302 class302, String string) {
-		aString5277 = string;
+		aString5277 = "details";
 		aClass302_5273 = class302;
 	}
 }

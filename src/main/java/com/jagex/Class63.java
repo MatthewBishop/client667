@@ -11,7 +11,7 @@ public class Class63
 	static final Class84 method707(int i, int i_0_, byte b) {
 		anInt921++;
 		Class84 class84 = new Class84();
-		if (b != 42) {
+		if ((byte) 42 != 42) {
 			return null;
 		}
 		class84.anInt1139 = -1;
@@ -19,13 +19,13 @@ public class Class63
 		class84.anInt1133 = i - -6;
 		class84.anInt1146 = 5 + i_0_ - -1;
 		class84.anIntArrayArray1138 = new int[class84.anInt1133][class84.anInt1146];
-		class84.method991(b + -130);
+		class84.method991((byte) 42 + -130);
 		return class84;
 	}
 	
 	public static void method708(int i) {
 		aClass363_922 = null;
-		if (i >= 62) {
+		if (70 >= 62) {
 			aClass192_920 = null;
 			aClass192_924 = null;
 		}

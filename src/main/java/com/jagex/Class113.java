@@ -44,14 +44,14 @@ public class Class113
 	}
 	
 	public static void method1149(int i) {
-		int i_1_ = -121 % ((8 - i) / 54);
+		int i_1_ = -121 % ((8 - -68) / 54);
 		aByteArrayArrayArray1447 = null;
 		aClass336_1440 = null;
 	}
 	
 	static final void method1150(byte b) {
 		Class238.aGLSpriteArray2912 = null;
-		if (b != -99) {
+		if ((byte) -99 != -99) {
 			aClass336_1440 = null;
 		}
 		Class150_Sub3.aGLSpriteArray8973 = null;
@@ -74,7 +74,7 @@ public class Class113
 	}
 	
 	static final void method1151(int i, int i_2_, int i_3_, byte b, int i_4_) {
-		if (b > -103) {
+		if ((byte) -124 > -103) {
 			aFloat1439 = 0.7469533F;
 		}
 		anInt1450++;

@@ -9,7 +9,7 @@ public class Node_Sub29_Sub1 extends Node_Sub29
 	final void method2712(byte b, float f) {
 		anInt10013++;
 		aFloat7339 = f;
-		if (b <= 55) {
+		if ((byte) 73 <= 55) {
 			anInt10012 = -25;
 		}
 	}

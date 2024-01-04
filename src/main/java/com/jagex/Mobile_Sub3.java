@@ -30,7 +30,7 @@ public class Mobile_Sub3 extends Mobile implements Interface19
 	
 	public static void method905(byte b) {
 		aClass192_10778 = null;
-		if (b <= 88) {
+		if ((byte) 121 <= 88) {
 			anInt10784 = 44;
 		}
 	}
@@ -167,7 +167,7 @@ public class Mobile_Sub3 extends Mobile implements Interface19
 	final void method906(int i, Class121 class121) {
 		anInt10771++;
 		aClass310_10777.method3598(class121, -12);
-		int i_5_ = 5 / (-i / 53);
+		int i_5_ = 5 / (- -113 / 53);
 	}
 	
 	final boolean method814(byte b) {

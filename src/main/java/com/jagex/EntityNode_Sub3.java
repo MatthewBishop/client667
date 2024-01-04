@@ -16,7 +16,7 @@ class EntityNode_Sub3 extends EntityNode
 		if (anEntityNode_Sub3_5960 != null) {
 			anEntityNode_Sub3_5960.anEntityNode_Sub3_5961 = anEntityNode_Sub3_5961;
 			anEntityNode_Sub3_5961.anEntityNode_Sub3_5960 = anEntityNode_Sub3_5960;
-			if (bool == true) {
+			if (true == true) {
 				anEntityNode_Sub3_5960 = null;
 				anEntityNode_Sub3_5961 = null;
 			}
@@ -25,7 +25,7 @@ class EntityNode_Sub3 extends EntityNode
 	
 	public static void method938(int i) {
 		aClass192_5959 = null;
-		if (i <= 46) {
+		if (78 <= 46) {
 			aClass192_5959 = null;
 		}
 	}
@@ -36,7 +36,7 @@ class EntityNode_Sub3 extends EntityNode
 	
 	static final boolean method940(int i, int i_0_, int i_1_) {
 		anInt5962++;
-		if (i != -1) {
+		if (-1 != -1) {
 			anInt5965 = -15;
 		}
 		if ((i_1_ & 0x180) == 0) {
@@ -51,7 +51,7 @@ class EntityNode_Sub3 extends EntityNode
 	
 	static final void method941(int i, Buffer buffer) {
 		anInt5964++;
-		byte[] bs = new byte[i];
+		byte[] bs = new byte[24];
 		if (Class366.aSeekableFile4529 != null) {
 			try {
 				Class366.aSeekableFile4529.method3577(0L, false);

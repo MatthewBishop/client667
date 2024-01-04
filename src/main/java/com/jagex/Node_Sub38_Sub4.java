@@ -27,7 +27,7 @@ public class Node_Sub38_Sub4 extends Node_Sub38
 	
 	public static void method2798(byte b) {
 		aClass302_10116 = null;
-		if (b != -113) {
+		if ((byte) -113 != -113) {
 			anInt10118 = 33;
 		}
 	}
@@ -101,7 +101,7 @@ public class Node_Sub38_Sub4 extends Node_Sub38
 	}
 	
 	static final int method2800(byte b) {
-		if (b != 100) {
+		if ((byte) 100 != 100) {
 			method2797(53, -123, 37);
 		}
 		anInt10117++;

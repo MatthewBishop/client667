@@ -9,7 +9,7 @@ public class IOException_Sub1 extends IOException
 	static int anInt87;
 	
 	static final boolean method131(boolean bool, byte b) {
-		if (bool != true) {
+		if (true != true) {
 			method131(true, (byte) -127);
 		}
 		anInt86++;
@@ -28,7 +28,7 @@ public class IOException_Sub1 extends IOException
 	}
 	
 	public static void method132(int i) {
-		if (i != -128) {
+		if (-128 != -128) {
 			anInt84 = 38;
 		}
 		aClass128_85 = null;
@@ -39,7 +39,7 @@ public class IOException_Sub1 extends IOException
 		anInt87++;
 		Class117_Sub1.aString4931 = "";
 		Animable_Sub1_Sub1.aSignLink10616 = signlink;
-		if (i == 255) {
+		if (255 == 255) {
 			if (!Class223.aString2660.startsWith("win")) {
 				if (!Class223.aString2660.startsWith("linux")) {
 					if (Class223.aString2660.startsWith("mac")) {

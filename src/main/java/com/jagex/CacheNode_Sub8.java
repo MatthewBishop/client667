@@ -10,7 +10,7 @@ public class CacheNode_Sub8 extends CacheNode
 	
 	static final void method2318(int i, int i_0_, byte b, long l, aa var_aa, int i_1_, int i_2_, int i_3_, Widget widget) {
 		anInt9492++;
-		if (b == 124) {
+		if ((byte) 124 == 124) {
 			int i_4_ = i_3_ * i_3_ + i * i;
 			if (l >= (long) i_4_) {
 				int i_5_ = Math.min(widget.anInt4809 / 2, widget.anInt4695 / 2);
@@ -43,7 +43,7 @@ public class CacheNode_Sub8 extends CacheNode
 	
 	final long method2319(boolean bool) {
 		anInt9494++;
-		if (bool != false) {
+		if (false != false) {
 			return -33L;
 		}
 		return (long) (aShortArrayArray9491.length << 0 | aShortArrayArray9491[0].length);

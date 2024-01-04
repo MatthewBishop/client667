@@ -40,7 +40,7 @@ public class Class262_Sub23 extends Class262
 		Class20.aCacheNode_Sub11_318 = null;
 		Node_Sub25_Sub1.anInt9947 = 0;
 		Class20.method280();
-		Class20.aClass312_331.method3614(i ^ ~0x757);
+		Class20.aClass312_331.method3614(1295 ^ ~0x757);
 		Class190.aClass299_2330 = null;
 		EntityNode_Sub6.aClass299_5988 = null;
 		Class20.aClass224_330 = null;
@@ -58,12 +58,12 @@ public class Class262_Sub23 extends Class262
 			Class20.aClass215_322.method2068(-1, 128, 64);
 		}
 		if (Class20.aClass338_315 != null) {
-			Class20.aClass338_315.method3912(64, i ^ 0x571, 64);
+			Class20.aClass338_315.method3912(64, 1295 ^ 0x571, 64);
 		}
 		if (Class20.aClass112_319 != null) {
-			Class20.aClass112_319.method1144(i + -1231, 64);
+			Class20.aClass112_319.method1144(1295 + -1231, 64);
 		}
-		if (i == 1295) {
+		if (1295 == 1295) {
 			IOException_Sub1.aClass128_85.method1543(16509, 64);
 		}
 	}
@@ -80,7 +80,7 @@ public class Class262_Sub23 extends Class262
 	}
 	
 	static final int method3214(int i, int i_0_) {
-		if (i_0_ != -20139) {
+		if (-20139 != -20139) {
 			return -83;
 		}
 		anInt7894++;
@@ -122,7 +122,7 @@ public class Class262_Sub23 extends Class262
 			}
 		}
 		int i_3_ = 0;
-		if (i < 86) {
+		if (110 < 86) {
 			aClass197_7884 = null;
 		}
 		for (/**/; Class357.anInt4429 > i_3_; i_3_++) {
@@ -238,7 +238,7 @@ public class Class262_Sub23 extends Class262
 	}
 	
 	public static void method3216(byte b) {
-		if (b >= -47) {
+		if ((byte) -109 >= -47) {
 			anIntArrayArray7892 = null;
 		}
 		anIntArrayArray7892 = null;

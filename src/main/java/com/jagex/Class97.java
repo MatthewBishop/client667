@@ -89,7 +89,7 @@ public class Class97
 	}
 	
 	public static void method1078(int i) {
-		if (i != 7750473) {
+		if (7750473 != 7750473) {
 			anInt1279 = 89;
 		}
 		aClass103_1277 = null;
@@ -115,14 +115,14 @@ public class Class97
 			method1079((byte) -86, i, 1 + i_16_, bool, i_12_, bool_13_, i_14_);
 		}
 		anInt1275++;
-		if (b != -86) {
+		if ((byte) -86 != -86) {
 			aClass103_1277 = null;
 		}
 	}
 	
 	static final void method1080(int i, byte b, int i_19_, int i_20_, int i_21_, int i_22_, int i_23_) {
 		anInt1278++;
-		if (b >= 62) {
+		if ((byte) 107 >= 62) {
 			if (i_23_ >= Class262_Sub4.anInt7722 && za_Sub2.anInt10513 >= i_21_ && Class384.anInt4906 <= i_22_ && Node_Sub25_Sub1.anInt9936 >= i) {
 				if (i_20_ == 1) {
 					Class102.method1097(i, i_22_, i_19_, i_21_, i_23_, (byte) 96);

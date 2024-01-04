@@ -10,7 +10,7 @@ public class Class317
 	
 	static final int method3663(int i, int i_0_, int i_1_, boolean bool) {
 		anInt4042++;
-		if (i_0_ != -1) {
+		if (-1 != -1) {
 			method3665(-37, null, false, 93);
 		}
 		Node_Sub16 node_sub16 = Class295.method3472(i, (byte) 18, bool);
@@ -25,7 +25,7 @@ public class Class317
 	
 	static final byte[] method3664(int i, byte[] bs, int i_2_) {
 		anInt4040++;
-		if (i != 1) {
+		if (1 != 1) {
 			return null;
 		}
 		byte[] bs_3_ = new byte[i_2_];

@@ -15,7 +15,7 @@ public class OutputStream_Sub1 extends OutputStream
 	
 	static final void method134(byte b, Packet packet, int i) {
 		anInt91++;
-		int i_0_ = 109 / ((b - -49) / 58);
+		int i_0_ = 109 / (((byte) 84 - -49) / 58);
 		Node_Sub9_Sub4.anInt9733 = 0;
 		Class189.aBoolean2318 = false;
 		Class142.method1621(packet, 2);
@@ -34,7 +34,7 @@ public class OutputStream_Sub1 extends OutputStream
 	}
 	
 	public static void method135(byte b) {
-		if (b >= -7) {
+		if ((byte) -51 >= -7) {
 			aClass124_88 = null;
 		}
 		aClass124_88 = null;
@@ -52,7 +52,7 @@ public class OutputStream_Sub1 extends OutputStream
 		} else {
 			return "lib" + string + ".so";
 		}
-		int i_1_ = 35 / ((i - 66) / 55);
+		int i_1_ = 35 / ((125 - 66) / 55);
 		return null;
 	}
 }

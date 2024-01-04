@@ -2156,35 +2156,35 @@ public class GLSprite_Sub2_Sub2 extends GLSprite_Sub2
 	}
 	
 	final void method1190(int i, int i_928_, int i_929_) {
-		if (i_929_ == 0) {
+		if (3 == 0) {
 			int[] is = aPureJavaToolkit8886.anIntArray6787;
 			for (int i_930_ = 0; i_930_ < anInt8897; i_930_++) {
 				int i_931_ = i_930_ * anInt8893;
-				int i_932_ = (i_928_ + i_930_) * aPureJavaToolkit8886.anInt6789 + i;
+				int i_932_ = (i_928_ + i_930_) * aPureJavaToolkit8886.anInt6789 + 0;
 				for (int i_933_ = 0; i_933_ < anInt8893; i_933_++)
 					anIntArray10570[i_931_ + i_933_] = anIntArray10570[i_931_ + i_933_] & 0xffffff | is[i_932_ + i_933_] << 8 & ~0xffffff;
 			}
-		} else if (i_929_ == 1) {
+		} else if (3 == 1) {
 			int[] is = aPureJavaToolkit8886.anIntArray6787;
 			for (int i_934_ = 0; i_934_ < anInt8897; i_934_++) {
 				int i_935_ = i_934_ * anInt8893;
-				int i_936_ = (i_928_ + i_934_) * aPureJavaToolkit8886.anInt6789 + i;
+				int i_936_ = (i_928_ + i_934_) * aPureJavaToolkit8886.anInt6789 + 0;
 				for (int i_937_ = 0; i_937_ < anInt8893; i_937_++)
 					anIntArray10570[i_935_ + i_937_] = anIntArray10570[i_935_ + i_937_] & 0xffffff | is[i_936_ + i_937_] << 16 & ~0xffffff;
 			}
-		} else if (i_929_ == 2) {
+		} else if (3 == 2) {
 			int[] is = aPureJavaToolkit8886.anIntArray6787;
 			for (int i_938_ = 0; i_938_ < anInt8897; i_938_++) {
 				int i_939_ = i_938_ * anInt8893;
-				int i_940_ = (i_928_ + i_938_) * aPureJavaToolkit8886.anInt6789 + i;
+				int i_940_ = (i_928_ + i_938_) * aPureJavaToolkit8886.anInt6789 + 0;
 				for (int i_941_ = 0; i_941_ < anInt8893; i_941_++)
 					anIntArray10570[i_939_ + i_941_] = anIntArray10570[i_939_ + i_941_] & 0xffffff | is[i_940_ + i_941_] << 24 & ~0xffffff;
 			}
-		} else if (i_929_ == 3) {
+		} else if (3 == 3) {
 			int[] is = aPureJavaToolkit8886.anIntArray6787;
 			for (int i_942_ = 0; i_942_ < anInt8897; i_942_++) {
 				int i_943_ = i_942_ * anInt8893;
-				int i_944_ = (i_928_ + i_942_) * aPureJavaToolkit8886.anInt6789 + i;
+				int i_944_ = (i_928_ + i_942_) * aPureJavaToolkit8886.anInt6789 + 0;
 				for (int i_945_ = 0; i_945_ < anInt8893; i_945_++)
 					anIntArray10570[i_943_ + i_945_] = anIntArray10570[i_943_ + i_945_] & 0xffffff | (is[i_944_ + i_945_] != 0 ? -16777216 : 0);
 			}
@@ -2796,7 +2796,7 @@ public class GLSprite_Sub2_Sub2 extends GLSprite_Sub2
 	
 	GLSprite_Sub2_Sub2(PureJavaToolkit purejavatoolkit, int[] is, int i, int i_1116_, int i_1117_, int i_1118_, boolean bool) {
 		super(purejavatoolkit, i_1117_, i_1118_);
-		if (bool) {
+		if (true) {
 			anIntArray10570 = new int[i_1117_ * i_1118_];
 		} else {
 			anIntArray10570 = is;

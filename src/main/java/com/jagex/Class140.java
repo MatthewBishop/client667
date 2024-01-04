@@ -23,7 +23,7 @@ public class Class140
 		if (!aClass338_1733.aClass302_4193.method3510(anInt1740, (byte) 63)) {
 			return null;
 		}
-		Class383 class383 = Class383.method4194(aClass338_1733.aClass302_4193, anInt1740, i_0_);
+		Class383 class383 = Class383.method4194(aClass338_1733.aClass302_4193, anInt1740, 0);
 		if (class383 != null) {
 			class383.anInt4899 = class383.anInt4902 = class383.anInt4901 = class383.anInt4898 = 0;
 			if (bool) {
@@ -34,13 +34,13 @@ public class Class140
 		}
 		glsprite = graphicstoolkit.a(class383, true);
 		if (glsprite != null) {
-			aClass338_1733.aClass61_4200.method601(glsprite, i_0_ + 25566, l);
+			aClass338_1733.aClass61_4200.method601(glsprite, 0 + 25566, l);
 		}
 		return glsprite;
 	}
 	
 	final boolean method1607(byte b) {
-		if (b <= 21) {
+		if ((byte) 114 <= 21) {
 			return true;
 		}
 		anInt1738++;
@@ -61,7 +61,7 @@ public class Class140
 		} else {
 			anInt1740 = buffer.method2219(-130546744);
 		}
-		if (i > -17) {
+		if (-44 > -17) {
 			aBoolean1741 = true;
 		}
 		anInt1732++;
@@ -118,7 +118,7 @@ public class Class140
 			}
 			method1608(-44, i_7_, buffer);
 		}
-		if (i != -32687) {
+		if (-32687 != -32687) {
 			method1610(-77, null, null, null, false, false);
 		}
 	}

@@ -9,7 +9,7 @@ abstract class Class213
 	
 	public static void method2055(byte b) {
 		aNode_Sub27_2512 = null;
-		if (b >= -97) {
+		if ((byte) -126 >= -97) {
 			aBoolean2510 = false;
 		}
 	}
@@ -20,7 +20,7 @@ abstract class Class213
 	
 	static final Class251[] method2056(boolean bool) {
 		anInt2509++;
-		if (bool != false) {
+		if (false != false) {
 			anInt2511 = 114;
 		}
 		return new Class251[] { Class200_Sub2.aClass251_4936, Class71.aClass251_965, Class320_Sub12.aClass251_8324 };

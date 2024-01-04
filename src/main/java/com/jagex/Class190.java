@@ -20,7 +20,7 @@ public class Class190
 	
 	static final int method1938(int i, int i_0_) {
 		anInt2336++;
-		if (i_0_ != 128) {
+		if (128 != 128) {
 			method1940(-126);
 		}
 		return i >>> 8;
@@ -40,7 +40,7 @@ public class Class190
 		if (i_7_ > i_9_) {
 			i_11_ = i_9_;
 		}
-		int i_12_ = bs_4_[i_3_] & i;
+		int i_12_ = bs_4_[i_3_] & 255;
 		if (i_12_ > (0xff & bs_4_[i_1_])) {
 			i_12_ = bs_4_[i_1_] & 0xff;
 		}
@@ -66,7 +66,7 @@ public class Class190
 	}
 	
 	final Class190 method1941(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			method1941(true);
 		}
 		anInt2340++;
@@ -76,13 +76,13 @@ public class Class190
 	public static void method1942(byte b) {
 		anIntArray2328 = null;
 		aClass299_2330 = null;
-		int i = -17 / ((-64 - b) / 51);
+		int i = -17 / ((-64 - (byte) 19) / 51);
 		aBooleanArray2326 = null;
 	}
 	
 	final void method1943(byte b, Class190 class190_19_) {
 		anInt2333 = class190_19_.anInt2333;
-		if (b != -106) {
+		if ((byte) -106 != -106) {
 			method1941(true);
 		}
 		anInt2332 = class190_19_.anInt2332;

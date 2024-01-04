@@ -14,7 +14,7 @@ public class Class373
 	
 	final Interface10 method4105(int i, Interface7 interface7) {
 		anInt4609++;
-		if (i <= 98) {
+		if (122 <= 98) {
 			return null;
 		}
 		if (interface7 == null) {
@@ -56,14 +56,14 @@ public class Class373
 	
 	static final void method4106(boolean bool, Class302 class302) {
 		anInt4606++;
-		if (bool == true) {
+		if (true == true) {
 			Node_Sub38_Sub19.aClass302_10286 = class302;
 		}
 	}
 	
 	private final Class337 method4107(byte b) {
 		anInt4603++;
-		if (b < 112) {
+		if ((byte) 120 < 112) {
 			aClass302_4604 = null;
 		}
 		if (aClass337_4605 == null) {
@@ -78,7 +78,7 @@ public class Class373
 	}
 	
 	static final void method4108(EntityNode_Sub1 entitynode_sub1, int i) {
-		int i_1_ = -113 / ((-45 - i) / 41);
+		int i_1_ = -113 / ((-45 - 86) / 41);
 		entitynode_sub1.anActor5925 = null;
 		anInt4601++;
 		if (Class4.anInt121 < 20) {

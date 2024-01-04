@@ -24,7 +24,7 @@ public class Class366
 	}
 	
 	public static void method4072(boolean bool) {
-		if (bool != true) {
+		if (true != true) {
 			method4071(107, -126);
 		}
 		aClass56_4527 = null;
@@ -34,7 +34,7 @@ public class Class366
 	
 	static final String method4073(boolean bool) {
 		anInt4531++;
-		if (bool != false) {
+		if (false != false) {
 			method4072(true);
 		}
 		if (Class213.aBoolean2510 || Node_Sub38_Sub23.aCacheNode_Sub13_10343 == null) {

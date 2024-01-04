@@ -42,7 +42,7 @@ public class Node_Sub15_Sub6 extends Node_Sub15
 			Node_Sub38_Sub31.aClass302_10422.method3534((byte) 73, i);
 			Class134_Sub3.aWidgetArrayArray9035[i] = null;
 			Class79.aWidgetArrayArray1082[i] = null;
-			Class169_Sub1.aBooleanArray8788[i] = bool;
+			Class169_Sub1.aBooleanArray8788[i] = false;
 		}
 	}
 	
@@ -63,7 +63,7 @@ public class Node_Sub15_Sub6 extends Node_Sub15
 	
 	public static void method2573(byte b) {
 		aClass192_9816 = null;
-		if (b != -57) {
+		if ((byte) -57 != -57) {
 			method2572(28, 51, -41);
 		}
 	}

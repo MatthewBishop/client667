@@ -15,7 +15,7 @@ public class Node_Sub15_Sub12 extends Node_Sub15
 		if (i == 16711935) {
 			return -1;
 		}
-		if (i_0_ != -1) {
+		if (-1 != -1) {
 			method2583(null, (byte) -21);
 		}
 		return Class96.method1075(-71, i);
@@ -30,7 +30,7 @@ public class Node_Sub15_Sub12 extends Node_Sub15
 	}
 	
 	public static void method2584(byte b) {
-		int i = -16 % ((b - -67) / 56);
+		int i = -16 % (((byte) -127 - -67) / 56);
 		aString9867 = null;
 	}
 	

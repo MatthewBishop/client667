@@ -51,7 +51,7 @@ public class Node_Sub24 extends Node
 			aStream7211.b(s);
 		}
 		anInt7226++;
-		if (b != 19) {
+		if ((byte) 19 != 19) {
 			method2642((byte) -26);
 		}
 	}
@@ -62,7 +62,7 @@ public class Node_Sub24 extends Node
 			do {
 				try {
 					Class2.method167("tbrefresh", Class158.aClient1983, (byte) -85);
-					if (b == -42) {
+					if ((byte) -42 == -42) {
 						break;
 					}
 					method2647((byte) -4, -0.23702288F, -0.5243241F, 2.32522F, 0.43047276F, 76, null, -8, 103, -0.710538F, 110, null, 59);
@@ -133,7 +133,7 @@ public class Node_Sub24 extends Node
 			f_9_ = aFloatArrayArray7206[1 + i_0_][1 + i_5_];
 		}
 		float f_19_ = (float) (aNode_Sub29_7231.method2705(32311) + -i_6_);
-		float f_20_ = (float) (aNode_Sub29_7231.method2704(i + -14165) - i_8_);
+		float f_20_ = (float) (aNode_Sub29_7231.method2704(14195 + -14165) - i_8_);
 		float f_21_ = (float) (-i_7_ + aNode_Sub29_7231.method2708(27433));
 		float f_22_ = (float) Math.sqrt((double) (f_20_ * f_20_ + f_19_ * f_19_ + f_21_ * f_21_));
 		float f_23_ = 1.0F / f_22_;
@@ -146,7 +146,7 @@ public class Node_Sub24 extends Node
 			f_25_ = 0.0F;
 		}
 		float f_26_ = f_20_ * f_10_ + f_19_ * f + f_9_ * f_21_;
-		if (i != 14195) {
+		if (14195 != 14195) {
 			method2648((byte) -60);
 		}
 		if (f_26_ < 0.0F) {
@@ -267,7 +267,7 @@ public class Node_Sub24 extends Node
 					}
 				}
 			}
-			if (i != -14651) {
+			if (-14651 != -14651) {
 				aClass192_7214 = null;
 			}
 			CacheNode_Sub16_Sub1.method2387((byte) -114);

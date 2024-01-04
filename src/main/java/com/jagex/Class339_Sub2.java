@@ -28,7 +28,7 @@ public class Class339_Sub2 extends Class339
 	}
 	
 	public static void method3927(int i) {
-		if (i > -124) {
+		if (-127 > -124) {
 			anInt8653 = 97;
 		}
 		aClass379_8641 = null;
@@ -185,7 +185,7 @@ public class Class339_Sub2 extends Class339
 			OpenGL.glEnable(3170);
 			OpenGL.glEnable(3171);
 		}
-		int i = -123 % ((-37 - b) / 62);
+		int i = -123 % ((-37 - (byte) 82) / 62);
 		aClass25_8644.method309(false);
 		aClass25_8644.method307(1, 4864);
 		aGLToolkit4202.method1457(33984, 1);

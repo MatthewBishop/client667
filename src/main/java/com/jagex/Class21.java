@@ -9,7 +9,7 @@ public class Class21
 	
 	public static void method296(int i) {
 		aClass192_358 = null;
-		if (i != 14) {
+		if (14 != 14) {
 			aClass302_357 = null;
 		}
 		aClass212_356 = null;

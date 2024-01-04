@@ -14,7 +14,7 @@ class Class194
 	static Class228 aClass228_2377 = new Class228();
 	
 	static final void method1960(int i, String[] strings) {
-		if (i != -32416) {
+		if (-32416 != -32416) {
 			method1962(-1, 8, 16, -3, -84, false);
 		}
 		anInt2375++;
@@ -56,7 +56,7 @@ class Class194
 		}
 		try {
 			Dimension dimension = Node_Sub38_Sub20.aCanvas10309.getSize();
-			if (i_3_ != 13968) {
+			if (13968 != 13968) {
 				method1963((byte) -54);
 			}
 			Class169_Sub3.method1779(Class93.aGraphicsToolkit1241, Class22.aClass22_376.method297(-12273, Class35.anInt537), true, Class169_Sub3.aClass357_8820, StandardSprite.aClass52_8945, -16777216);

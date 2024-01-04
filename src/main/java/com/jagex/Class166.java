@@ -35,11 +35,11 @@ public class Class166 implements Interface7
 		anInt5094++;
 		Class61.aNode_Sub9_Sub1_885 = null;
 		Class93_Sub2.aClass302_6049 = null;
-		Class107.anInt1362 = i;
+		Class107.anInt1362 = 2;
 		Class266.aBoolean3385 = false;
 		Class17.anInt282 = 0;
 		Class52.anInt800 = 1;
-		CacheNode_Sub6.anInt9485 = i_0_;
+		CacheNode_Sub6.anInt9485 = -1;
 		Class101.anInt1306 = -1;
 	}
 	
@@ -47,7 +47,7 @@ public class Class166 implements Interface7
 		anInt5095++;
 		if (Class87.aBoolean1185) {
 			if (widget.anObjectArray4751 != null) {
-				Widget widget_1_ = Node_Sub3.method2169(b + -48, Class46.anInt681, Node_Sub15_Sub9.anInt9839);
+				Widget widget_1_ = Node_Sub3.method2169((byte) -53 + -48, Class46.anInt681, Node_Sub15_Sub9.anInt9839);
 				if (widget_1_ != null) {
 					Node_Sub37 node_sub37 = new Node_Sub37();
 					node_sub37.anObjectArray7434 = widget.anObjectArray4751;
@@ -64,7 +64,7 @@ public class Class166 implements Interface7
 			node_sub13.aPacket7113.method2184(Node_Sub15_Sub9.anInt9839, (byte) 119);
 			node_sub13.aPacket7113.method2230(widget.anInt4718, 128);
 			node_sub13.aPacket7113.method2199(widget.anInt4687, -1);
-			if (b != -53) {
+			if ((byte) -53 != -53) {
 				method1745(-43);
 			}
 			Class218.worldResponseBuffer.method1514(126, node_sub13);

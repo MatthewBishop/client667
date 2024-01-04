@@ -30,7 +30,7 @@ public class Class357
 	}
 	
 	final int method4026(char c, int i, int i_0_) {
-		if (i_0_ != 255) {
+		if (255 != 255) {
 			anInt4434 = 21;
 		}
 		anInt4432++;
@@ -42,7 +42,7 @@ public class Class357
 	
 	final int method4027(int i, boolean bool) {
 		anInt4437++;
-		if (bool != false) {
+		if (false != false) {
 			aClass192_4444 = null;
 		}
 		return 0xff & aByteArray4427[i];
@@ -222,7 +222,7 @@ public class Class357
 		anInt4443++;
 		int i_19_ = method4029(Class330.aStringArray4126, new int[] { i_18_ }, 92, glsprites, string);
 		int i_20_ = 0;
-		for (int i_21_ = i; i_21_ < i_19_; i_21_++) {
+		for (int i_21_ = 0; i_21_ < i_19_; i_21_++) {
 			int i_22_ = method4031(119, glsprites, Class330.aStringArray4126[i_21_]);
 			if (i_22_ > i_20_) {
 				i_20_ = i_22_;
@@ -378,7 +378,7 @@ public class Class357
 	
 	final int method4033(byte b, String string) {
 		anInt4435++;
-		if (b != -6) {
+		if ((byte) -6 != -6) {
 			return 120;
 		}
 		return method4031(105, null, string);

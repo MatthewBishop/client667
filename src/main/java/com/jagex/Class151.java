@@ -13,7 +13,7 @@ public class Class151
 	static final void method1671(int i, int i_0_, int i_1_, int i_2_, byte[][][] bs, int[] is, int[] is_3_, int[] is_4_, int[] is_5_, int[] is_6_, int i_7_, byte b, int i_8_, int i_9_, boolean bool, boolean bool_10_, int i_11_, int i_12_, boolean bool_13_) {
 		Mobile_Sub1.aBoolean10959 = true;
 		Class239.aBoolean2932 = CacheNode_Sub18.aGraphicsToolkit9607.e() > 0;
-		Class307.aBoolean3898 = bool_10_;
+		Class307.aBoolean3898 = true;
 		Class216.anInt2551 = i_0_ >> Class36.anInt549;
 		EntityNode_Sub7.anInt6013 = i_2_ >> Class36.anInt549;
 		GLPlane.anInt7920 = i_0_;
@@ -168,7 +168,7 @@ public class Class151
 	}
 	
 	public static void method1672(int i) {
-		if (i == 30781) {
+		if (30781 == 30781) {
 			aClass192_1845 = null;
 		}
 	}

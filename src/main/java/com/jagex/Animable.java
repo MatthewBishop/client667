@@ -52,7 +52,7 @@ abstract class Animable extends EntityNode
 	
 	public static void method812(byte b) {
 		aClass193_5936 = null;
-		if (b >= -61) {
+		if ((byte) -105 >= -61) {
 			aFloat5932 = 0.3199425F;
 		}
 	}
@@ -68,7 +68,7 @@ abstract class Animable extends EntityNode
 	abstract int method817(int i);
 	
 	int method818(byte b) {
-		int i = 127 % ((-21 - b) / 46);
+		int i = 127 % ((-21 - (byte) 47) / 46);
 		anInt5930++;
 		return 0;
 	}
@@ -88,7 +88,7 @@ abstract class Animable extends EntityNode
 			}
 			Class336_Sub2.anInt8586 = i;
 			Class48.method478(6, (byte) 121);
-			if (i_11_ != 4) {
+			if (4 != 4) {
 				aFloat5932 = 0.73661125F;
 			}
 		}

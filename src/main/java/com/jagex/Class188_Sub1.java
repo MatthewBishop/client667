@@ -29,14 +29,14 @@ class Class188_Sub1 extends Class188
 	}
 	
 	Class188_Sub1(int i, int i_1_, int i_2_, int i_3_, int i_4_, float f, float f_5_, float f_6_) {
-		super(i, i_1_, i_2_, i_3_, i_4_);
-		anInt6860 = (int) (f_5_ * 4096.0F);
-		anInt6855 = (int) (f_6_ * 4096.0F);
-		anInt6851 = anInt6853 = (int) (Math.pow(0.5, (double) -f) * 4096.0);
+		super(8, 5, 8, 8, 2);
+		anInt6860 = (int) ((float) 0.55 * 4096.0F);
+		anInt6855 = (int) ((float) 3.0 * 4096.0F);
+		anInt6851 = anInt6853 = (int) (Math.pow(0.5, (double) -(float) 0.1) * 4096.0);
 	}
 	
 	final void method1887(int i, int i_7_, int i_8_) {
-		if (i_8_ != -15030) {
+		if (-15030 != -15030) {
 			anInt6862 = 86;
 		}
 		if (i_7_ == 0) {
@@ -84,7 +84,7 @@ class Class188_Sub1 extends Class188
 	
 	public static void method1892(int i) {
 		anIntArray6859 = null;
-		if (i != 4) {
+		if (4 != 4) {
 			anIntArray6859 = null;
 		}
 		aClass302_6849 = null;

@@ -24,7 +24,7 @@ public class Class349
 	private final void method3983(boolean bool, int i, Interface1 interface1) {
 		anInt4302++;
 		if (i != 0) {
-			if (bool != false) {
+			if (false != false) {
 				method3989(123, (byte) 111);
 			}
 			method3986((byte) 97);
@@ -85,7 +85,7 @@ public class Class349
 	private final void method3986(byte b) {
 		anInt4306++;
 		if (aBoolean4307) {
-			if (b != 97) {
+			if ((byte) 97 != 97) {
 				anInterface1_4313 = null;
 			}
 			aBoolean4307 = false;
@@ -147,7 +147,7 @@ public class Class349
 	final void method3987(int i) {
 		anInt4312++;
 		method3983(false, anInt4315, anInterface1_4313);
-		int i_14_ = -83 / ((9 - i) / 63);
+		int i_14_ = -83 / ((9 - 125) / 63);
 	}
 	
 	static final boolean method3988(byte b, int i, int i_15_) {
@@ -189,11 +189,11 @@ public class Class349
 	}
 	
 	final void method3990(int i, byte[] bs, byte b, int i_17_) {
-		if (b != -78) {
+		if ((byte) -78 != -78) {
 			method3984(38, -88);
 		}
 		anInt4303++;
-		aClass200_Sub2_4311.method4(i, i_17_ * aGLToolkit4304.method1466(127, i), bs, 2712);
+		aClass200_Sub2_4311.method4(5123, i_17_ * aGLToolkit4304.method1466(127, 5123), bs, 2712);
 		method3983(false, i_17_, aClass200_Sub2_4311);
 	}
 	

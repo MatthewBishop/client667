@@ -34,10 +34,10 @@ abstract class Class52
 		}
 		random.setSeed((long) i);
 		int i_5_ = 192 - -(random.nextInt() & 0x1f);
-		method534(1, i_5_ << 24 | i_0_ & 0xffffff, i_5_ << 24 | 0xffffff & i_3_);
+		method534(1, i_5_ << 24 | 16777215 & 0xffffff, i_5_ << 24 | 0xffffff & 0);
 		int i_6_ = string.length();
 		int[] is_7_ = new int[i_6_];
-		if (i_2_ != 8906) {
+		if (8906 != 8906) {
 			method534(-14, -66, -70);
 		}
 		int i_8_ = 0;
@@ -56,8 +56,8 @@ abstract class Class52
 	final void method527(int i, int i_14_, int i_15_, int i_16_, int i_17_, String string, int i_18_, int i_19_) {
 		anInt790++;
 		if (string != null) {
-			method534(i_19_ ^ ~0x42e, i_17_, i_18_);
-			if (i_19_ != -1072) {
+			method534(-1072 ^ ~0x42e, i_17_, -16777216);
+			if (-1072 != -1072) {
 				aGraphicsToolkit799 = null;
 			}
 			double d = -((double) i / 8.0) + 7.0;
@@ -88,7 +88,7 @@ abstract class Class52
 		int i_27_ = -1;
 		int i_28_ = 0;
 		int i_29_ = string.length();
-		if (bool != true) {
+		if (true != true) {
 			method532((byte) -47);
 		}
 		for (int i_30_ = 0; i_29_ > i_30_; i_30_++) {
@@ -176,7 +176,7 @@ abstract class Class52
 						Class150_Sub3.anInt8970 &= 0xff;
 					}
 					i_28_++;
-					int i_38_ = aClass357_789.method4027(c, !bool);
+					int i_38_ = aClass357_789.method4027(c, !true);
 					if (Class339.anInt4204 != -1) {
 						aGraphicsToolkit799.method1242((int) (0.7 * (double) aClass357_789.anInt4430) + i, Class339.anInt4204, i_23_, false, i_38_);
 					}
@@ -488,7 +488,7 @@ abstract class Class52
 			} while (false);
 			return new Node_Sub38_Sub8();
 		} while (false);
-		i_40_ = 15 / ((-30 - i_39_) / 62);
+		i_40_ = 15 / ((-30 - 83) / 62);
 		return null;
 	}
 	
@@ -496,7 +496,7 @@ abstract class Class52
 		anInt796++;
 		int i_41_ = 0;
 		boolean bool = false;
-		int i_42_ = -117 % ((28 - b) / 37);
+		int i_42_ = -117 % ((28 - (byte) 93) / 37);
 		for (int i_43_ = 0; i_43_ < string.length(); i_43_++) {
 			char c = string.charAt(i_43_);
 			if (c == '<') {
@@ -525,7 +525,7 @@ abstract class Class52
 		i_46_ -= aClass357_789.anInt4430;
 		anInt806++;
 		int i_47_ = -1;
-		if (bool == true) {
+		if (true == true) {
 			int i_48_ = -1;
 			int i_49_ = string.length();
 			for (int i_50_ = 0; i_50_ < i_49_; i_50_++) {
@@ -638,7 +638,7 @@ abstract class Class52
 		if (i_60_ <= 70) {
 			method536(98, 77, -16, null, 105, 89, null, null);
 		}
-		return method539(i_64_, 2, i_57_, i_59_, glsprites, 0, i, i_58_, i_67_, i_61_, var_aa, i_65_, i_66_, i_63_, i_62_, is, string);
+		return method539(i_64_, 2, i_57_, i_59_, null, 0, i, i_58_, i_67_, i_61_, var_aa, i_65_, i_66_, i_63_, i_62_, null, string);
 	}
 	
 	abstract void fa(char c, int i, int i_68_, int i_69_, boolean bool);
@@ -666,7 +666,7 @@ abstract class Class52
 	final void method538(int i, int i_77_, String string, int i_78_, int i_79_, int i_80_) {
 		anInt804++;
 		if (string != null) {
-			method534(i_79_, i_80_, i_78_);
+			method534(1, i_80_, i_78_);
 			method533(null, 0, 0, string, i, true, null, i_77_, null);
 		}
 	}
@@ -724,19 +724,19 @@ abstract class Class52
 			if (i_92_ != 0) {
 				if (i_92_ != 1) {
 					if (i_92_ == 2) {
-						method533(glsprites, i_85_, i_88_, Class9.aStringArray167[i_97_], i_91_ + (i_90_ + -aClass357_789.method4033((byte) -6, Class9.aStringArray167[i_97_])), true, var_aa, i_95_, is);
+						method533(glsprites, i_85_, i_88_, Class9.aStringArray167[i_97_], i_91_ + (i_90_ + -aClass357_789.method4033((byte) -6, Class9.aStringArray167[i_97_])), true, var_aa, i_95_, null);
 					} else if (i_94_ - 1 == i_97_) {
-						method533(glsprites, i_85_, i_88_, Class9.aStringArray167[i_97_], i_91_, true, var_aa, i_95_, is);
+						method533(glsprites, i_85_, i_88_, Class9.aStringArray167[i_97_], i_91_, true, var_aa, i_95_, null);
 					} else {
 						method531((byte) 93, i_90_, Class9.aStringArray167[i_97_]);
-						method533(glsprites, i_85_, i_88_, Class9.aStringArray167[i_97_], i_91_, true, var_aa, i_95_, is);
+						method533(glsprites, i_85_, i_88_, Class9.aStringArray167[i_97_], i_91_, true, var_aa, i_95_, null);
 						Class25.anInt446 = 0;
 					}
 				} else {
-					method533(glsprites, i_85_, i_88_, Class9.aStringArray167[i_97_], i_91_ - -((i_90_ - aClass357_789.method4033((byte) -6, Class9.aStringArray167[i_97_])) / 2), true, var_aa, i_95_, is);
+					method533(glsprites, i_85_, i_88_, Class9.aStringArray167[i_97_], i_91_ - -((i_90_ - aClass357_789.method4033((byte) -6, Class9.aStringArray167[i_97_])) / 2), true, var_aa, i_95_, null);
 				}
 			} else {
-				method533(glsprites, i_85_, i_88_, Class9.aStringArray167[i_97_], i_91_, true, var_aa, i_95_, is);
+				method533(glsprites, i_85_, i_88_, Class9.aStringArray167[i_97_], i_91_, true, var_aa, i_95_, null);
 			}
 			i_95_ += i_89_;
 		}
@@ -801,11 +801,11 @@ abstract class Class52
 	final void method541(int i, int i_98_, String string, int i_99_, int i_100_, int i_101_, int i_102_) {
 		anInt805++;
 		if (string != null) {
-			method534(1, i_100_, i);
+			method534(1, i_100_, -16777216);
 			int i_103_ = string.length();
 			int[] is = new int[i_103_];
 			int[] is_104_ = new int[i_103_];
-			if (i_102_ == 16777215) {
+			if (16777215 == 16777215) {
 				for (int i_105_ = 0; i_105_ < i_103_; i_105_++) {
 					is[i_105_] = (int) (5.0 * Math.sin((double) i_105_ / 5.0 + (double) i_98_ / 5.0));
 					is_104_[i_105_] = (int) (5.0 * Math.sin((double) i_105_ / 3.0 + (double) i_98_ / 5.0));
@@ -818,9 +818,9 @@ abstract class Class52
 	final void method542(int i, int i_106_, int i_107_, String string, int i_108_, int i_109_, int i_110_) {
 		anInt787++;
 		if (string != null) {
-			method534(1, i_106_, i_110_);
+			method534(1, i_106_, -16777216);
 			int i_111_ = string.length();
-			if (i == 5) {
+			if (5 == 5) {
 				int[] is = new int[i_111_];
 				for (int i_112_ = 0; i_111_ > i_112_; i_112_++)
 					is[i_112_] = (int) (5.0 * Math.sin((double) i_112_ / 2.0 + (double) i_107_ / 5.0));
@@ -842,11 +842,11 @@ abstract class Class52
 		anInt791++;
 		za_Sub2.anInt10513 = i_118_;
 		Node_Sub25_Sub1.anInt9936 = i;
-		if (b >= -124) {
+		if ((byte) -125 >= -124) {
 			method528(89, -7);
 		}
-		Class262_Sub4.anInt7722 = i_117_;
-		Class384.anInt4906 = i_119_;
+		Class262_Sub4.anInt7722 = 0;
+		Class384.anInt4906 = 0;
 	}
 	
 	final int method545(int[] is, int i, int i_120_, int i_121_, int[] is_122_, int i_123_, int i_124_, Random random, String string, int i_125_, int i_126_, GLSprite[] glsprites, int i_127_, int i_128_, int i_129_) {
@@ -859,7 +859,7 @@ abstract class Class52
 		method534(1, i_130_ << 24 | 0xffffff & i_123_, i_130_ << 24 | i_126_ & 0xffffff);
 		int i_131_ = string.length();
 		int[] is_132_ = new int[i_131_];
-		int i_133_ = i_121_;
+		int i_133_ = 0;
 		for (int i_134_ = 0; i_134_ < i_131_; i_134_++) {
 			is_132_[i_134_] = i_133_;
 			if ((0x3 & random.nextInt()) == 0) {

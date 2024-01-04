@@ -30,7 +30,7 @@ public class Class320_Sub22 extends Class320
 	
 	final int method3765(boolean bool) {
 		anInt8414++;
-		if (bool != false) {
+		if (false != false) {
 			anIntArray8417 = null;
 		}
 		return anInt4064;

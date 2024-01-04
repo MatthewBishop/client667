@@ -16,7 +16,7 @@ public class CacheNode_Sub5 extends CacheNode
 	
 	static final boolean method2307(int i, int i_0_, int i_1_) {
 		anInt9469++;
-		if ((i_0_ & i_1_) != 0 | Class73.method749((byte) -65, i_1_, i) || FloatBuffer.method2248(i_1_, i, 51)) {
+		if ((65536 & i_1_) != 0 | Class73.method749((byte) -65, i_1_, i) || FloatBuffer.method2248(i_1_, i, 51)) {
 			return true;
 		}
 		if ((0x37 & i) != 0 || !Class110.method1135(i_1_, i, false)) {
@@ -27,16 +27,16 @@ public class CacheNode_Sub5 extends CacheNode
 	
 	static final Class169_Sub2_Sub1 method2308(GLToolkit gltoolkit, int i, int i_2_, boolean bool, int i_3_, int[] is, int i_4_, int i_5_) {
 		anInt9474++;
-		if (i != 25448) {
+		if (25448 != 25448) {
 			return null;
 		}
 		if (!gltoolkit.aBoolean6652 && (!Class371.method4094(i_2_, false) || !Class371.method4094(i_4_, false))) {
 			if (gltoolkit.aBoolean6649) {
-				return new Class169_Sub2_Sub1(gltoolkit, 34037, i_2_, i_4_, bool, is, i_3_, i_5_);
+				return new Class169_Sub2_Sub1(gltoolkit, 34037, i_2_, i_4_, false, is, i_3_, i_5_);
 			}
-			return new Class169_Sub2_Sub1(gltoolkit, i_2_, i_4_, Class320_Sub19.method3753(i_2_, -729073628), Class320_Sub19.method3753(i_4_, i ^ ~0x2b74a4b3), is);
+			return new Class169_Sub2_Sub1(gltoolkit, i_2_, i_4_, Class320_Sub19.method3753(i_2_, -729073628), Class320_Sub19.method3753(i_4_, 25448 ^ ~0x2b74a4b3), is);
 		}
-		return new Class169_Sub2_Sub1(gltoolkit, 3553, i_2_, i_4_, bool, is, i_3_, i_5_);
+		return new Class169_Sub2_Sub1(gltoolkit, 3553, i_2_, i_4_, false, is, i_3_, i_5_);
 	}
 	
 	final void method2309(byte b) {
